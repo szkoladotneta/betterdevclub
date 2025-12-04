@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dołącz do Better Dev Club. Cotygodniowa dawka wiedzy o technologii i AI dla ambitnych developerów.">
+    <title>Better Dev Club | Newsletter</title>
+
+    <!-- Google Fonts: Space Grotesk (Tech/Headers) & Outfit (Clean/Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Favicon SVG (Inline) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%2309090B%22/><text x=%2250%22 y=%2270%22 font-family=%22sans-serif%22 font-weight=%22bold%22 font-size=%2260%22 text-anchor=%22middle%22 fill=%22%23FFFFFF%22>B</text></svg>">
+<!-- MailerLite Universal -->
+<script>
+    (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+    .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+    n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+    (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+    ml('account', '984990');
+</script>
+<!-- End MailerLite Universal -->
+    <style>
+        /* --- RESET & VARIABLES --- */
+        :root {
+            --bg-color: #FAFAFA; /* Złamana biel - luksusowa i miękka */
+            --text-main: #09090B; /* Głęboka czerń */
+            --text-muted: #52525B; /* Szarość */
+            --accent: #18181B; /* Prawie czarny akcent */
+            --card-bg: rgba(255, 255, 255, 0.6);
+            --border-color: rgba(9, 9, 11, 0.08);
+            --blur: 16px;
+            --radius: 12px;
+            --transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+            
+            --font-heading: 'Space Grotesk', sans-serif;
+            --font-body: 'Outfit', sans-serif;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            /* Opcjonalny Dark Mode, ale trzymamy się jasnego stylu 'clean paper' jako primary */
+            /* Odkomentuj jeśli chcesz wymusić dark mode */
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            font-family: var(--font-body);
+            line-height: 1.6;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* --- BACKGROUND ANIMATION --- */
+        #bg-canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.4;
+            pointer-events: none;
+        }
+
+        /* --- LAYOUT UTILS --- */
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .section {
+            padding: 100px 0;
+            position: relative;
+        }
+
+        /* --- TYPOGRAPHY --- */
+        h1, h2, h3, h4 {
+            font-family: var(--font-heading);
+            font-weight: 700;
+            line-height: 1.1;
+            letter-spacing: -0.03em;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            margin-bottom: 24px;
+            color: var(--text-main);
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 16px;
+            text-align: center;
+        }
+
+        p {
+            color: var(--text-muted);
+            font-size: 1.125rem;
+            margin-bottom: 24px;
+            max-width: 600px;
+        }
+
+        .text-center { text-align: center; }
+        .mx-auto { margin-left: auto; margin-right: auto; }
+
+        /* --- HEADER & NAV --- */
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding: 20px 0;
+            z-index: 100;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            background: rgba(250, 250, 250, 0.7);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .nav-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: var(--font-heading);
+            font-weight: 800;
+            font-size: 1.25rem;
+            text-decoration: none;
+            color: var(--text-main);
+            letter-spacing: -0.05em;
+            display: flex;
+            flex-direction: column;
+            line-height: 0.9;
+            text-transform: uppercase;
+        }
+
+        .logo span {
+            display: block;
+        }
+        
+        .logo-top { font-size: 0.8em; letter-spacing: 0.1em; }
+        .logo-main { font-size: 1.4em; }
+
+        /* --- HERO SECTION --- */
+        .hero {
+            min-height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 80px; /* Offset for navbar */
+        }
+
+        .hero-content {
+            text-align: center;
+            max-width: 800px;
+            opacity: 0; /* Animation start state */
+            transform: translateY(30px);
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 6px 16px;
+            border-radius: 50px;
+            background: rgba(9, 9, 11, 0.05);
+            color: var(--text-main);
+            font-size: 0.875rem;
+            font-weight: 500;
+            margin-bottom: 24px;
+            border: 1px solid var(--border-color);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* --- BUTTONS & FORMS --- */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 16px 32px;
+            background-color: var(--text-main);
+            color: #fff;
+            text-decoration: none;
+            border-radius: var(--radius);
+            font-weight: 500;
+            font-size: 1rem;
+            transition: var(--transition);
+            border: 1px solid transparent;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            background-color: #000;
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: var(--text-main);
+            border: 1px solid var(--border-color);
+            margin-left: 10px;
+        }
+
+        .btn-outline:hover {
+            background: rgba(0,0,0,0.03);
+            border-color: var(--text-main);
+        }
+
+        /* --- FEATURES GRID --- */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 24px;
+            margin-top: 60px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            backdrop-filter: blur(var(--blur));
+            -webkit-backdrop-filter: blur(var(--blur));
+            padding: 40px 32px;
+            border-radius: var(--radius);
+            border: 1px solid var(--border-color);
+            transition: var(--transition);
+            opacity: 0; /* Animation start state */
+            transform: translateY(30px);
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            border-color: rgba(9, 9, 11, 0.2);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.05);
+        }
+
+        .card-icon {
+            width: 48px;
+            height: 48px;
+            margin-bottom: 24px;
+            color: var(--text-main);
+        }
+
+        .card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 12px;
+        }
+
+        .card p {
+            font-size: 1rem;
+            margin-bottom: 0;
+            opacity: 0.8;
+        }
+
+        /* --- NEWSLETTER SECTION --- */
+        .newsletter-box {
+            background: #fff;
+            border: 1px solid var(--border-color);
+            border-radius: 24px;
+            padding: 60px;
+            text-align: center;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02), 0 2px 4px -1px rgba(0, 0, 0, 0.02);
+        }
+
+        .form-group {
+            display: flex;
+            gap: 12px;
+            max-width: 450px;
+            margin: 32px auto 0;
+        }
+
+        input[type="email"] {
+            flex: 1;
+            padding: 16px 20px;
+            border-radius: var(--radius);
+            border: 1px solid var(--border-color);
+            background: #FAFAFA;
+            font-family: var(--font-body);
+            font-size: 1rem;
+            outline: none;
+            transition: var(--transition);
+        }
+
+        input[type="email"]:focus {
+            border-color: var(--text-main);
+            background: #fff;
+            box-shadow: 0 0 0 3px rgba(9, 9, 11, 0.1);
+        }
+
+        /* --- FOOTER --- */
+        footer {
+            padding: 60px 0;
+            border-top: 1px solid var(--border-color);
+            background: #fff;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-links a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.9rem;
+            margin-left: 24px;
+            transition: var(--transition);
+        }
+
+        .footer-links a:hover {
+            color: var(--text-main);
+        }
+
+        .copyright {
+            color: #A1A1AA;
+            font-size: 0.9rem;
+        }
+
+        /* --- UTILITY CLASSES FOR JS ANIMATION --- */
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* --- MOBILE RESPONSIVE --- */
+        @media (max-width: 768px) {
+            h1 { font-size: 2.5rem; }
+            h2 { font-size: 2rem; }
+            .hero { padding-top: 120px; min-height: auto; padding-bottom: 80px;}
+            .form-group { flex-direction: column; }
+            .btn { width: 100%; }
+            .footer-content { flex-direction: column; gap: 24px; text-align: center; }
+            .footer-links a { margin: 0 12px; }
+            .newsletter-box { padding: 32px 24px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Subtle Background Canvas -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-content">
+            <a href="#" class="logo">
+                <span class="logo-top">Better</span>
+                <span class="logo-main">DEV CLUB</span>
+            </a>
+            <a href="#join" class="btn" style="padding: 10px 20px; font-size: 0.9rem;">Dołącz</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content mx-auto" id="hero-animate">
+                <span class="tag">Dla Ambitnych Developerów</span>
+                <h1>Przyszłość kodu.<br>Co tydzień w Twojej skrzynce.</h1>
+                <p class="mx-auto">Zrozum AI, poznaj nowe narzędzia i wyprzedź rynkowe trendy. Dołącz do elitarnej społeczności słuchaczy podcastu Better Dev Club.</p>
+                <div style="margin-top: 40px;">
+                    <a href="#join" class="btn">Zapisz się za darmo</a>
+                    <a href="#features" class="btn btn-outline">Poznaj szczegóły</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section id="features" class="section">
+        <div class="container">
+            <div class="text-center reveal">
+                <h2>Więcej niż newsletter</h2>
+                <p class="mx-auto">Selekcjonowana wiedza bez szumu informacyjnego. Tylko to, co istotne dla Twojej kariery w 2025.</p>
+            </div>
+
+            <div class="features-grid">
+                <!-- Card 1 -->
+                <div class="card reveal" style="transition-delay: 100ms;">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+                    </div>
+                    <h3>Technologia i AI</h3>
+                    <p>Konkretne analizy nowych modeli LLM, narzędzi developerskich i frameworków. Dowiesz się, czego warto się uczyć.</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="card reveal" style="transition-delay: 200ms;">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                    </div>
+                    <h3>Globalne Trendy</h3>
+                    <p>Przegląd tego, co dzieje się w Dolinie Krzemowej i europejskich hubach IT. Bądź na bieżąco ze zmianami na rynku pracy.</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="card reveal" style="transition-delay: 300ms;">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                    </div>
+                    <h3>Społeczność PRO</h3>
+                    <p>Dołączasz do grupy profesjonalistów. Zero spamu, zero podstaw - tylko treści dla doświadczonych i ambitnych.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter / CTA Section -->
+    <section id="join" class="section">
+        <div class="container">
+            <div class="newsletter-box reveal">
+                <h2>Dołącz do Better Dev Club</h2>
+                <p class="mx-auto" style="margin-bottom: 32px;">Otrzymuj esencję wiedzy z podcastu bezpośrednio na maila. Bezpłatnie. Możesz wypisać się w każdej chwili.</p>
+                
+                <div class="ml-embedded" data-form="NQLlxb"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="copyright">
+                &copy; 2025 Better Dev Club. Wszelkie prawa zastrzeżone.
+            </div>
+            <div class="footer-links">
+                <a href="https://betterdevclub.pl/polityka-prywatnosci">Polityka Prywatności</a>
+                <a href="mailto:kontakt@betterdevclub.pl">Kontakt</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Logic -->
+    <script>
+        // --- SCROLL ANIMATIONS (Intersection Observer) ---
+        document.addEventListener('DOMContentLoaded', () => {
+            // Hero Animation Trigger
+            setTimeout(() => {
+                document.getElementById('hero-animate').style.opacity = '1';
+                document.getElementById('hero-animate').style.transform = 'translateY(0)';
+                document.getElementById('hero-animate').style.transition = 'all 0.8s cubic-bezier(0.16, 1, 0.3, 1)';
+            }, 100);
+
+            // Scroll Reveal Observer
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: "0px 0px -50px 0px"
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('active');
+                    }
+                });
+            }, observerOptions);
+
+            document.querySelectorAll('.reveal').forEach(el => {
+                observer.observe(el);
+            });
+        });
+
+        // --- BACKGROUND CANVAS ANIMATION (Geometric Particles) ---
+        const canvas = document.getElementById('bg-canvas');
+        const ctx = canvas.getContext('2d');
+        
+        let width, height;
+        let particles = [];
+        
+        // Configuration
+        const particleCount = 40; // Number of nodes
+        const connectionDistance = 200; // Max distance to draw line
+        const mouseDistance = 300; // Interaction radius
+
+        let mouse = { x: null, y: null };
+
+        window.addEventListener('mousemove', (e) => {
+            mouse.x = e.x;
+            mouse.y = e.y;
+        });
+
+        window.addEventListener('resize', resize);
+
+        function resize() {
+            width = canvas.width = window.innerWidth;
+            height = canvas.height = window.innerHeight;
+        }
+
+        class Particle {
+            constructor() {
+                this.x = Math.random() * width;
+                this.y = Math.random() * height;
+                this.vx = (Math.random() - 0.5) * 0.5; // Slow velocity X
+                this.vy = (Math.random() - 0.5) * 0.5; // Slow velocity Y
+                this.size = Math.random() * 2 + 1;
+            }
+
+            update() {
+                this.x += this.vx;
+                this.y += this.vy;
+
+                // Bounce off edges
+                if (this.x < 0 || this.x > width) this.vx *= -1;
+                if (this.y < 0 || this.y > height) this.vy *= -1;
+            }
+
+            draw() {
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.fillStyle = 'rgba(9, 9, 11, 0.1)'; // Very subtle dark dot
+                ctx.fill();
+            }
+        }
+
+        function initParticles() {
+            particles = [];
+            for (let i = 0; i < particleCount; i++) {
+                particles.push(new Particle());
+            }
+        }
+
+        function animate() {
+            ctx.clearRect(0, 0, width, height);
+
+            particles.forEach(p => {
+                p.update();
+                p.draw();
+
+                // Draw connections
+                particles.forEach(p2 => {
+                    const dx = p.x - p2.x;
+                    const dy = p.y - p2.y;
+                    const distance = Math.sqrt(dx * dx + dy * dy);
+
+                    if (distance < connectionDistance) {
+                        ctx.beginPath();
+                        ctx.strokeStyle = `rgba(9, 9, 11, ${0.05 * (1 - distance / connectionDistance)})`;
+                        ctx.lineWidth = 1;
+                        ctx.moveTo(p.x, p.y);
+                        ctx.lineTo(p2.x, p2.y);
+                        ctx.stroke();
+                    }
+                });
+
+                // Mouse interaction (optional repel/attract)
+                if(mouse.x != null) {
+                    const dx = p.x - mouse.x;
+                    const dy = p.y - mouse.y;
+                    const distance = Math.sqrt(dx*dx + dy*dy);
+                    if (distance < mouseDistance) {
+                         // Very subtle push
+                        if (distance < mouseDistance) {
+                            // Subtelne odsuwanie cząsteczek od kursora
+                        }
+                    }
+                }
+            });
+
+            requestAnimationFrame(animate);
+        }
+
+        resize();
+        initParticles();
+        animate();
+
+    </script>
+</body>
+</html>
