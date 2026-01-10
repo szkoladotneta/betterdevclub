@@ -12,8 +12,7 @@ window.EPISODES_DATA = [
       "spotify": "https://open.spotify.com/show/4EdHJK4qpJYWeGBQicZsjK",
       "apple": "https://podcasts.apple.com/us/podcast/better-dev-club/id1848840540"
     },
-    "youtubeId": "",
-    "ogImage": "img/showcase/010.jpg",
+    "youtubeId": "8JkEJemGT0M",
     "guestKey": "piotrek"
   },
   {
@@ -29,8 +28,7 @@ window.EPISODES_DATA = [
       "spotify": "https://open.spotify.com/show/4EdHJK4qpJYWeGBQicZsjK",
       "apple": "https://podcasts.apple.com/us/podcast/better-dev-club/id1848840540"
     },
-    "youtubeId": "",
-    "ogImage": "img/showcase/009.jpg",
+    "youtubeId": "4rimdlDQjas",
     "guestKey": "kajetan"
   },
   {
@@ -46,8 +44,7 @@ window.EPISODES_DATA = [
       "spotify": "https://open.spotify.com/show/4EdHJK4qpJYWeGBQicZsjK",
       "apple": "https://podcasts.apple.com/us/podcast/better-dev-club/id1848840540"
     },
-    "youtubeId": "",
-    "ogImage": "img/showcase/008.jpg",
+    "youtubeId": "onfZ5Bh8z3A",
     "guestKey": "piotrek"
   },
   {
@@ -63,8 +60,7 @@ window.EPISODES_DATA = [
       "spotify": "https://open.spotify.com/show/4EdHJK4qpJYWeGBQicZsjK",
       "apple": "https://podcasts.apple.com/us/podcast/better-dev-club/id1848840540"
     },
-    "youtubeId": "",
-    "ogImage": "img/showcase/007.jpg",
+    "youtubeId": "kGtAdYbV5KI",
     "guestKey": "kajetan"
   },
   {
@@ -80,8 +76,7 @@ window.EPISODES_DATA = [
       "spotify": "https://open.spotify.com/show/4EdHJK4qpJYWeGBQicZsjK",
       "apple": "https://podcasts.apple.com/us/podcast/better-dev-club/id1848840540"
     },
-    "youtubeId": "",
-    "ogImage": "img/showcase/006.jpg",
+    "youtubeId": "9BmowwsNbz0",
     "guestKey": "piotrek"
   },
   {
@@ -97,8 +92,7 @@ window.EPISODES_DATA = [
       "spotify": "https://open.spotify.com/show/4EdHJK4qpJYWeGBQicZsjK",
       "apple": "https://podcasts.apple.com/us/podcast/better-dev-club/id1848840540"
     },
-    "youtubeId": "",
-    "ogImage": "img/showcase/005.jpg",
+    "youtubeId": "xsHb468qQFk",
     "guestKey": "kajetan"
   },
   {
@@ -114,8 +108,7 @@ window.EPISODES_DATA = [
       "spotify": "https://open.spotify.com/show/4EdHJK4qpJYWeGBQicZsjK",
       "apple": "https://podcasts.apple.com/us/podcast/better-dev-club/id1848840540"
     },
-    "youtubeId": "",
-    "ogImage": "img/showcase/004.jpg",
+    "youtubeId": "81L3RqlUxxk",
     "guestKey": "piotrek"
   },
   {
@@ -131,8 +124,7 @@ window.EPISODES_DATA = [
       "spotify": "https://open.spotify.com/show/4EdHJK4qpJYWeGBQicZsjK",
       "apple": "https://podcasts.apple.com/us/podcast/better-dev-club/id1848840540"
     },
-    "youtubeId": "",
-    "ogImage": "img/showcase/003.jpg",
+    "youtubeId": "G9ic7gK3nnU",
     "guestKey": "kajetan"
   },
   {
@@ -162,8 +154,7 @@ window.EPISODES_DATA = [
         "description": "Cognition AI wprowadza Windurf - model AI zoptymalizowany pod kątem wydajności i kosztów."
       }
     ],
-    "youtubeId": "",
-    "ogImage": "img/showcase/002.jpg",
+    "youtubeId": "wYlmBeSEgJc",
     "guestKey": "piotrek"
   },
   {
@@ -187,8 +178,7 @@ window.EPISODES_DATA = [
         "description": "Microsoft wprowadza App Builder, narzędzie do tworzenia aplikacji za pomocą AI."
       }
     ],
-    "youtubeId": "",
-    "ogImage": "img/showcase/001.jpg",
+    "youtubeId": "yJEpy2gM4AM",
     "guestKey": "kajetan"
   }
 ];

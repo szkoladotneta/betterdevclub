@@ -29,7 +29,7 @@ def update_meta(content, episode):
         r'<meta property="og:title" content=".*?">': f'<meta property="og:title" content="{episode["title"]}">',
         r'<meta property="og:description" content=".*?">': f'<meta property="og:description" content="{episode["desc"]}">',
         r'<meta name="description" content=".*?">': f'<meta name="description" content="{episode["desc"]}">',
-        r'<meta property="og:image" content=".*?">': f'<meta property="og:image" content="{episode.get("ogImage", "")}">',
+        r'<meta property="og:image" content=".*?">': f'<meta property="og:image" content="https://i.ytimg.com/vi/{episode["youtubeId"]}/maxresdefault.jpg">' if episode.get("youtubeId") else '',
     }
     
     for pattern, replacement in meta_updates.items():

@@ -11,7 +11,7 @@
     <meta property="og:url" content="https://betterdevclub.com/">
     <meta property="og:title" content="Better Dev Club Weekly #4 - Narzędzia CLI">
     <meta property="og:description" content="Nagle wszyscy chcą wrócić do terminala, a my zastanawiamy się, czy to przez sentyment do młodości, czy po prostu Claude Code jest taki dobry. Omawiamy wyjście narzędzi AI poza IDE i to, jak CLI walczą o serca deweloperów pięknymi kolorkami i wbudowanymi przeglądarkami. Dyskutujemy o kompresji kontekstu i o tym, dlaczego 'sparing partner' w konsoli jest lepszy niż webowy czat z limitami plików. Czy to koniec ery Visual Studio Code, czy tylko kolejny gadżet dla programistów-hipsterów? „Firmy powiedziały: no to IDE do konsoli!”">
-    <meta property="og:image" content="img/showcase/004.jpg">
+    <meta property="og:image" content="https://i.ytimg.com/vi/81L3RqlUxxk/maxresdefault.jpg">
     
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
@@ -173,9 +173,6 @@
                             <h6 className="text-slate-900 dark:text-white font-bold uppercase tracking-widest text-xs">Podcast</h6>
                             <ul className="space-y-4 text-slate-500 dark:text-slate-400 font-medium">
                                 <li><Link className="hover:text-primary transition-colors" to="/episodes">Ostatnie odcinki</Link></li>
-                                <li><a className="hover:text-primary transition-colors" href="#">Seria karierowa</a></li>
-                                <li><a className="hover:text-primary transition-colors" href="#">Technical Deep Dives</a></li>
-                                <li><a className="hover:text-primary transition-colors" href="#">Lista gości</a></li>
                             </ul>
                         </div>
                         <div className="space-y-6">
@@ -205,7 +202,6 @@
         );
 
         // --- Page Components ---
-
         const HomePage = ({ episodes }) => {
             const navigate = useNavigate();
             const latestEpisode = episodes[0];
@@ -232,7 +228,7 @@
                             <div className="relative order-2 lg:order-1">
                                 <div className="w-full aspect-square bg-slate-200 dark:bg-slate-800 rounded-2xl overflow-hidden shadow-2xl relative group">
                                     <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-transparent"></div>
-                                    <div className="w-full h-full bg-cover bg-center" style={{backgroundImage: `url("${(latestEpisode && latestEpisode.ogImage) || 'https://lh3.googleusercontent.com/aida-public/AB6AXuB7ukihMqmljsShRhQpSJv-yTxdN-QHpjiW7FvFVcBn-WYhXQ99IDJBIF1zWxLqJPHjFBDJQ1LBNYr68T4nMVtXzVsc4N6u1lvrAGOmy5e7PZGBrbVP3e20SxLzLlS2TJvjAb4G0sPb4-8RM4nDh5Kgh6Tj98x1OCnHDTElmgqhreebpv9fVskmqNIq9Gl7Zx-SVJX-NzKBscPe8tFCLD2EVxkosG__H2T9zK9SVghgkrPxsYreoOq6FOgt5t-krJ-fAvcyH_aHgOPk'}")`}}></div>
+                                    <div className="w-full h-full bg-cover bg-center" style={{backgroundImage: `url("${(latestEpisode && latestEpisode.youtubeId) ? `https://i.ytimg.com/vi/${latestEpisode.youtubeId}/maxresdefault.jpg` : 'https://lh3.googleusercontent.com/aida-public/AB6AXuB7ukihMqmljsShRhQpSJv-yTxdN-QHpjiW7FvFVcBn-WYhXQ99IDJBIF1zWxLqJPHjFBDJQ1LBNYr68T4nMVtXzVsc4N6u1lvrAGOmy5e7PZGBrbVP3e20SxLzLlS2TJvjAb4G0sPb4-8RM4nDh5Kgh6Tj98x1OCnHDTElmgqhreebpv9fVskmqNIq9Gl7Zx-SVJX-NzKBscPe8tFCLD2EVxkosG__H2T9zK9SVghgkrPxsYreoOq6FOgt5t-krJ-fAvcyH_aHgOPk'}")`}}></div>
                                 </div>
                                 <div className="absolute -bottom-6 -left-6 size-24 bg-primary/10 rounded-full blur-2xl"></div>
                                 <div className="absolute -top-6 -right-6 size-32 bg-primary/20 rounded-full blur-3xl"></div>
@@ -318,7 +314,7 @@
                                 <div className="space-y-4">
                                     <h3 className="text-4xl md:text-5xl font-black text-white leading-tight">Bądź przed horyzontem zdarzeń.</h3>
                                     <p className="text-white/90 text-lg md:text-xl font-medium">
-                                        High-signal content dla ludzi, którzy czytają README do końca. Żadnego legacy spamu.
+                                        Zapisz się do newslettera, który nigdy nie ląduje w /dev/null. Sytuacyjne insighty i zero spamu
                                     </p>
                                 </div>
                                 <div className="flex flex-col sm:flex-row items-center gap-3 bg-white/10 p-2 rounded-3xl backdrop-blur-sm border border-white/20">
@@ -370,7 +366,7 @@
                         <div className="mb-12">
                             <h1 className="text-slate-900 dark:text-white text-5xl font-black leading-tight tracking-[-0.033em] mb-4">Archiwum commitów</h1>
                             <p className="text-slate-500 dark:text-slate-400 text-lg font-normal leading-relaxed max-w-2xl">
-                                Głębokie nurkowanie w dev, leadership i career growth. Przeszukujesz {episodes.length}+ odcinków skrojonych pod nowoczesnego deva.
+                                Tu mógłby się znaleść filozoficzny opis, ale co można napisać o liście odcinków? Po prostu wybierz coś, co Cię interesuje i kliknij "Odsłuchaj".
                             </p>
                         </div>
 
@@ -391,10 +387,10 @@
                                 </label>
                             </div>
                             <div className="flex gap-3 overflow-x-auto no-scrollbar pb-2">
-                                <button className="flex h-9 shrink-0 items-center justify-center gap-x-2 rounded-full bg-primary text-white px-5 cursor-pointer whitespace-nowrap">
+                                <button onClick={() => setSearchQuery('')} className="flex h-9 shrink-0 items-center justify-center gap-x-2 rounded-full bg-primary text-white px-5 cursor-pointer whitespace-nowrap">
                                     <span className="text-sm font-semibold">Wszystkie branche</span>
                                 </button>
-                                {['#career', '#technical', '#soft-skills', '#leadership', '#backend'].map(tag => (
+                                {['tools', 'CLI', 'cloud', 'ai', 'microsoft'].map(tag => (
                                     <button 
                                         key={tag} 
                                         onClick={() => setSearchQuery(tag)}
@@ -609,7 +605,7 @@
                                     </div>
                                 );
                             })() : (
-                                <div className="relative flex flex-col justify-end bg-slate-200 dark:bg-slate-800 bg-cover bg-center aspect-video rounded-xl overflow-hidden group shadow-2xl" style={{backgroundImage: `linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url("${episode.ogImage || ''}")`}}>
+                                <div className="relative flex flex-col justify-end bg-slate-200 dark:bg-slate-800 bg-cover bg-center aspect-video rounded-xl overflow-hidden group shadow-2xl" style={{backgroundImage: `linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url("${(episode.youtubeId) ? `https://i.ytimg.com/vi/${episode.youtubeId}/maxresdefault.jpg` : ''}")`}}>
                                     <button className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center justify-center rounded-full size-20 bg-primary/90 text-white shadow-2xl hover:scale-110 transition-transform ring-4 ring-primary/20">
                                         <span className="material-symbols-outlined !text-4xl fill-1">play_arrow</span>
                                     </button>
