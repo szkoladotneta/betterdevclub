@@ -1,4 +1,4 @@
-window.SPEAKERS_DATA = {
+{
   "Piotrek Stapp": {
     "name": "Piotrek Stapp",
     "role": "Host",
@@ -38,4 +38,4 @@ window.SPEAKERS_DATA = {
     "guestRole": "Career Coach",
     "picture": "https://lh3.googleusercontent.com/aida-public/AB6AXuDwsDKOEZU_BWVnZU5yaHUYoSriHWZzRGKRKtKwoRGMV4Pr0T5Vrii8P4g1FHfDaoQ3h1Q_WCjiOnKWfdjiy20r4k5sf6gw-iEgZRM16AsAC0dUwZCzuluQf2jsEkgdELwkd_QMYSqgdM_EArvFcWWMhez7uhXSjROGt20tmW3vJVrYuiJFCh_MWjKzzu6bQc-fWys5A6kWtiqPQFcLtRCElJ6hcnE0Ggd3MKPrGep-9EsIqJfI2jgG6HnFD2CPd7VJpbW4AsiDTZIv"
   }
-};
+}

@@ -1,4 +1,4 @@
-window.EPISODES_DATA = [
+[
   {
     "id": 10,
     "num": "10",
@@ -181,4 +181,4 @@ window.EPISODES_DATA = [
     "youtubeId": "yJEpy2gM4AM",
     "guestKey": "kajetan"
   }
-];
+]

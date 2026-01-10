@@ -78,8 +78,6 @@
     <script src="https://unpkg.com/react-router@6.3.0/umd/react-router.development.js"></script>
     <script src="https://unpkg.com/react-router-dom@6.3.0/umd/react-router-dom.development.js"></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    <script src="speakers.js"></script>
-    <script src="episodes.js"></script>
 </head>
 <body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100">
     <div id="root"></div>
@@ -753,14 +751,19 @@
             const [loading, setLoading] = useState(true);
 
             useEffect(() => {
-                // Using global variable from episodes.js to avoid CORS issues locally
-                if (window.EPISODES_DATA) {
-                    setEpisodes(window.EPISODES_DATA);
+                const version = "66749451fc";
+                Promise.all([
+                    fetch(`/episodes.json?v=${version}`).then(res => res.json()),
+                    fetch(`/speakers.json?v=${version}`).then(res => res.json())
+                ]).then(([episodesData, speakersData]) => {
+                    window.EPISODES_DATA = episodesData;
+                    window.SPEAKERS_DATA = speakersData;
+                    setEpisodes(episodesData);
                     setLoading(false);
-                } else {
-                    console.error("EPISODES_DATA not found. Make sure episodes.js is loaded.");
+                }).catch(err => {
+                    console.error("Failed to load data:", err);
                     setLoading(false);
-                }
+                });
             }, []);
 
             if (loading) {

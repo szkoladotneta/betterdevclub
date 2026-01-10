@@ -1,26 +1,45 @@
 import os
 import re
 import json
+import hashlib
 
 # Configuration
 INPUT_FILE = "index.html"
 OUTPUT_DIR = "episodes" # We'll put them in a folder
-EPISODES_FILE = "episodes.js"
+EPISODES_FILE = "episodes.json"
+SPEAKERS_FILE = "speakers.json"
+
+def calculate_version(files):
+    hasher = hashlib.md5()
+    for file_path in files:
+        if os.path.exists(file_path):
+            with open(file_path, 'rb') as f:
+                hasher.update(f.read())
+    return hasher.hexdigest()[:10]
 
 # Create output directory if it doesn't exist
 if not os.path.exists(OUTPUT_DIR):
     os.makedirs(OUTPUT_DIR)
 
+# Get data version
+data_version = calculate_version([EPISODES_FILE, SPEAKERS_FILE])
+print(f"Data version calculated: {data_version}")
+
 # Read the template
 with open(INPUT_FILE, 'r', encoding='utf-8') as f:
     template = f.read()
 
-# Load episodes data (hacky way to read the JS variable)
+# Auto-update version string in index.html to match data hash
+# Look for: const version = "any_version";
+template = re.sub(r'const version = ".*?";', f'const version = "{data_version}";', template)
+
+# Save updated template back to index.html so it persists
+with open(INPUT_FILE, 'w', encoding='utf-8') as f:
+    f.write(template)
+
+# Load episodes data simply
 with open(EPISODES_FILE, 'r', encoding='utf-8') as f:
-    js_content = f.read()
-    # Extract the JSON part
-    json_str = re.search(r'window\.EPISODES_DATA\s*=\s*(.*);', js_content, re.DOTALL).group(1)
-    episodes = json.loads(json_str)
+    episodes = json.load(f)
 
 def update_meta(content, episode):
     # Update Meta Tags
@@ -38,12 +57,9 @@ def update_meta(content, episode):
 
 def fix_paths(content):
     # Fix relative paths (since we are in /episodes/ folder)
-    content = content.replace('src="', 'src="../')
-    content = content.replace('href="', 'href="../')
-    # Special case for CDN and outside links
-    content = content.replace('src="../http', 'src="http')
-    content = content.replace('href="../http', 'href="http')
-    content = content.replace('href="../#', 'href="#')
+    # This regex avoids paths that start with /, http, or #
+    content = re.sub(r'src="(?!(/|http))', 'src="../', content)
+    content = re.sub(r'href="(?!(/|http|#))', 'href="../', content)
     return content
 
 def get_template_html(template_id):
