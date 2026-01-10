@@ -163,9 +163,6 @@
                             <h6 className="text-slate-900 dark:text-white font-bold uppercase tracking-widest text-xs">Podcast</h6>
                             <ul className="space-y-4 text-slate-500 dark:text-slate-400 font-medium">
                                 <li><Link className="hover:text-primary transition-colors" to="/episodes">Ostatnie odcinki</Link></li>
-                                <li><a className="hover:text-primary transition-colors" href="#">Seria karierowa</a></li>
-                                <li><a className="hover:text-primary transition-colors" href="#">Technical Deep Dives</a></li>
-                                <li><a className="hover:text-primary transition-colors" href="#">Lista gości</a></li>
                             </ul>
                         </div>
                         <div className="space-y-6">
@@ -360,7 +357,7 @@
                         <div className="mb-12">
                             <h1 className="text-slate-900 dark:text-white text-5xl font-black leading-tight tracking-[-0.033em] mb-4">Archiwum commitów</h1>
                             <p className="text-slate-500 dark:text-slate-400 text-lg font-normal leading-relaxed max-w-2xl">
-                                Głębokie nurkowanie w dev, leadership i career growth. Przeszukujesz {episodes.length}+ odcinków skrojonych pod nowoczesnego deva.
+                                Tu mógłby się znaleść filozoficzny opis, ale co można napisać o liście odcinków? Po prostu wybierz coś, co Cię interesuje i kliknij "Odsłuchaj".
                             </p>
                         </div>
 
@@ -381,10 +378,10 @@
                                 </label>
                             </div>
                             <div className="flex gap-3 overflow-x-auto no-scrollbar pb-2">
-                                <button className="flex h-9 shrink-0 items-center justify-center gap-x-2 rounded-full bg-primary text-white px-5 cursor-pointer whitespace-nowrap">
+                                <button onClick={() => setSearchQuery('')} className="flex h-9 shrink-0 items-center justify-center gap-x-2 rounded-full bg-primary text-white px-5 cursor-pointer whitespace-nowrap">
                                     <span className="text-sm font-semibold">Wszystkie branche</span>
                                 </button>
-                                {['#career', '#technical', '#soft-skills', '#leadership', '#backend'].map(tag => (
+                                {['tools', 'CLI', 'cloud', 'ai', 'microsoft'].map(tag => (
                                     <button 
                                         key={tag} 
                                         onClick={() => setSearchQuery(tag)}
