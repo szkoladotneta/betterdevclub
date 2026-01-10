@@ -642,10 +642,10 @@
                                                 const sharedSpeaker = window.SPEAKERS_DATA && getSpeaker(line.speaker);
                                                 const episodeSpeaker = episode.speakers && episode.speakers[line.speaker];
                                                 const speaker = episodeSpeaker || sharedSpeaker || { name: line.speaker, role: 'Unknown', picture: '' };
-                                                const isGuest = speaker.role === 'Guest';
+                                                const isGuest = speaker.role === 'Guest' || (guest && speaker.name === guest.name);
                                                 
                                                 return (
-                                                    <div key={i} className={`flex flex-col gap-2 ${isGuest ? 'items-end' : ''}`}>
+                                                    <div key={i} className={`flex flex-col gap-2`}>
                                                         <div className={`flex items-center gap-3 ${isGuest ? 'flex-row-reverse' : ''}`}>
                                                             <div className={`size-8 rounded-full bg-cover ${isGuest ? 'border border-primary' : ''}`} style={{backgroundImage: `url("${speaker.picture}")`}}></div>
                                                             <span className="font-bold text-slate-900 dark:text-white text-sm">{speaker.name}</span>
@@ -653,7 +653,7 @@
                                                             <span className={`text-xs text-slate-400 ${isGuest ? 'mr-auto' : 'ml-auto'}`}>{line.time}</span>
                                                         </div>
                                                         <div className={`${isGuest ? 'transcript-bubble-guest p-4 rounded-l-2xl rounded-br-2xl' : 'transcript-bubble-host p-4 rounded-r-2xl rounded-bl-2xl'}`}>
-                                                            <p className={`text-sm leading-relaxed ${isGuest ? 'text-slate-700 dark:text-slate-200 italic' : 'text-slate-600 dark:text-slate-300'}`}>
+                                                            <p className={`text-sm leading-relaxed text-slate-300'}`}>
                                                                 {line.text}
                                                             </p>
                                                         </div>
@@ -693,7 +693,7 @@
                                         </ul>
                                     </nav>
 
-                                    {guest && (
+                                    {guest && guest.role !== 'Host' && (
                                         <div className="p-6 bg-white dark:bg-surface-dark rounded-xl border border-slate-200 dark:border-slate-800">
                                             <h4 className="text-xs font-bold text-slate-400 dark:text-slate-500 uppercase tracking-widest mb-4">O Gościu</h4>
                                             <div className="flex items-center gap-3 mb-3">
