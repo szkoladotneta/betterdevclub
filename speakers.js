@@ -1,10 +1,15 @@
 window.SPEAKERS_DATA = {
-  "piotrek": {
+  "Piotrek Stapp": {
     "name": "Piotrek Stapp",
     "role": "Host",
     "picture": "https://lh3.googleusercontent.com/aida-public/AB6AXuB9nJcEmx94xdZxr2NTmDxCaHQswnnaGYNwutr_mJgticx7tGzYBazT49unHUinvCSL7B89djMRU3_Zu5UYgsare7DKx5du2eEcg86-dhrBDiCNCd3-arnkhbrPgKQ5TzAW6GpAooXh2HdZc5uvv94vDdRYHEEePhMa8EPGJfeVdg-OVATgeX1R-KzImb0w_7kt4C5bOfXDRj2JIZfJzF5SQdjMhcTNwD_c6oLnvfwb83z0nBkijmLaW_9lABk86MF7eE7GCItYdTGa"
   },
-  "kajetan": {
+  "Piotr Stapp": {
+    "name": "Piotrek Stapp",
+    "role": "Host",
+    "picture": "https://lh3.googleusercontent.com/aida-public/AB6AXuB9nJcEmx94xdZxr2NTmDxCaHQswnnaGYNwutr_mJgticx7tGzYBazT49unHUinvCSL7B89djMRU3_Zu5UYgsare7DKx5du2eEcg86-dhrBDiCNCd3-arnkhbrPgKQ5TzAW6GpAooXh2HdZc5uvv94vDdRYHEEePhMa8EPGJfeVdg-OVATgeX1R-KzImb0w_7kt4C5bOfXDRj2JIZfJzF5SQdjMhcTNwD_c6oLnvfwb83z0nBkijmLaW_9lABk86MF7eE7GCItYdTGa"
+  },
+  "Kajetan Duszyński": {
     "name": "Kajetan Duszyński",
     "role": "Host",
     "picture": "https://lh3.googleusercontent.com/aida-public/AB6AXuB9nJcEmx94xdZxr2NTmDxCaHQswnnaGYNwutr_mJgticx7tGzYBazT49unHUinvCSL7B89djMRU3_Zu5UYgsare7DKx5du2eEcg86-dhrBDiCNCd3-arnkhbrPgKQ5TzAW6GpAooXh2HdZc5uvv94vDdRYHEEePhMa8EPGJfeVdg-OVATgeX1R-KzImb0w_7kt4C5bOfXDRj2JIZfJzF5SQdjMhcTNwD_c6oLnvfwb83z0nBkijmLaW_9lABk86MF7eE7GCItYdTGa"

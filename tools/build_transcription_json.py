@@ -1,10 +1,12 @@
 import json
+import os
+import glob
 
 def format_timestamp(ms):
     total_seconds = ms // 1000
     minutes = int(total_seconds // 60)
     seconds = int(total_seconds % 60)
-    return f"[{minutes:02d}:{seconds:02d}]"
+    return f"{minutes:02d}:{seconds:02d}"
 
 def process_transcription(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:
@@ -36,7 +38,7 @@ def process_transcription(file_path):
                 
             all_sentences.append({
                 'timestamp': first_word_timestamp,
-                'name': name,
+                'speaker': name,
                 'text': text
             })
     
@@ -50,29 +52,62 @@ def process_transcription(file_path):
             s['timestamp'] -= offset
             
     # Group consecutive sentences by the same speaker
-    grouped_sentences = []
+    grouped = []
     if all_sentences:
-        current_group = all_sentences[0]
+        current_speaker = all_sentences[0]['speaker']
+        current_time = format_timestamp(all_sentences[0]['timestamp'])
+        current_text = all_sentences[0]['text']
+        
         for i in range(1, len(all_sentences)):
             next_s = all_sentences[i]
-            # If same speaker and they are relatively close (e.g. within 5 seconds)
-            # Actually, standard transcripts often just group any consecutive turns by same speaker.
-            if next_s['name'] == current_group['name']:
-                current_group['text'] += " " + next_s['text']
+            if next_s['speaker'] == current_speaker:
+                current_text += " " + next_s['text']
             else:
-                grouped_sentences.append(current_group)
-                current_group = next_s
-        grouped_sentences.append(current_group)
-
-    output_lines = []
-    for s in grouped_sentences:
-        ts = format_timestamp(s['timestamp'])
-        output_lines.append(f"{ts}[{s['name']}] {s['text']}")
+                grouped.append({
+                    "speaker": current_speaker,
+                    "time": current_time,
+                    "text": current_text
+                })
+                current_speaker = next_s['speaker']
+                current_time = format_timestamp(next_s['timestamp'])
+                current_text = next_s['text']
         
-    return "\n".join(output_lines)
+        grouped.append({
+            "speaker": current_speaker,
+            "time": current_time,
+            "text": current_text
+        })
+        
+    return {"transcript": grouped}
+
+def run():
+    # Use absolute paths or relative to script location
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    project_root = os.path.dirname(script_dir)
+    input_dir = os.path.join(project_root, 'transcriptions', 'raw')
+    output_dir = os.path.join(project_root, 'transcriptions')
+    
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+        
+    files = glob.glob(os.path.join(input_dir, '*.json'))
+    processed_count = 0
+    for file_path in files:
+        filename = os.path.basename(file_path)
+        output_path = os.path.join(output_dir, filename)
+        
+        if os.path.exists(output_path):
+            print(f"Skipping {filename} (already exists)")
+            continue
+            
+        print(f"Processing {filename}...")
+        result = process_transcription(file_path)
+        
+        with open(output_path, 'w', encoding='utf-8') as f:
+            json.dump(result, f, ensure_ascii=False, indent=2)
+        processed_count += 1
+            
+    print(f"Done! Processed {processed_count} new files.")
 
 if __name__ == "__main__":
-    result = process_transcription('Untitled-1.json')
-    with open('transkrypcja_edycja.txt', 'w', encoding='utf-8') as f:
-        f.write(result)
-    print("Transkrypcja wygenerowana w pliku transkrypcja_edycja.txt")
+    run()
