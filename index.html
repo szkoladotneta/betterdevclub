@@ -14,8 +14,8 @@
     <meta property="og:image" content="https://betterdevclub.com/img/bdc-logo-backgroundless.png">
     <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/png">
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Noto+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
     
     <script>
         tailwind.config = {
@@ -25,18 +25,19 @@
                     colors: {
                         "primary": "#13a4ec",
                         "background-light": "#f6f7f8",
-                        "background-dark": "#121212",
-                        "card-dark": "#1E1E1E",
+                        "background-dark": "#0a1114",
+                        "card-dark": "#132128",
                         "surface-dark": "#162228",
                         "surface-lighter-dark": "#1e2d35",
                     },
                     fontFamily: {
-                        "display": ["Inter", "sans-serif"]
+                        "display": ["Space Grotesk", "sans-serif"],
+                        "sans": ["Noto Sans", "sans-serif"]
                     },
                     borderRadius: {
-                        "DEFAULT": "0.25rem",
-                        "lg": "0.5rem",
-                        "xl": "0.75rem",
+                        "DEFAULT": "1rem",
+                        "lg": "2rem",
+                        "xl": "3rem",
                         "full": "9999px"
                     },
                 },
@@ -47,10 +48,10 @@
     <style type="text/tailwindcss">
         @layer base {
             :root {
-                --charcoal-black: #121212;
+                --charcoal-black: #0a1114;
             }
             body {
-                @apply font-display antialiased transition-colors duration-200;
+                @apply font-sans antialiased transition-colors duration-200;
             }
             .material-symbols-outlined {
                 font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
@@ -67,6 +68,9 @@
             }
             .transcript-bubble-guest {
                 @apply bg-primary/10 dark:bg-primary/20 border border-primary/20 dark:border-primary/30;
+            }
+            .hero-gradient {
+                background: radial-gradient(circle at 50% 0%, rgba(19, 164, 236, 0.15) 0%, rgba(10, 17, 20, 0) 70%);
             }
         }
     </style>
@@ -141,14 +145,15 @@
         const GlobalHeader = () => {
             return (
                 <header className="sticky top-0 z-50 w-full border-b border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-background-dark/80 backdrop-blur-md">
-                    <div className="max-w-[1200px] mx-auto px-6 h-16 flex items-center justify-between">
+                    <div className="max-w-[1200px] mx-auto px-6 h-20 flex items-center justify-between">
                         <Logo />
-                        <div className="hidden md:flex items-center gap-8">
-                            <SmartLink className="text-sm font-semibold hover:text-primary transition-colors text-slate-600 dark:text-slate-300" to="/episodes">Odcinki</SmartLink>
-                            <a className="text-sm font-semibold hover:text-primary transition-colors text-slate-600 dark:text-slate-300" href="#">Newsletter</a>
+                        <div className="flex items-center gap-4">
+                            <SmartLink className="hidden md:flex items-center justify-center rounded-full h-10 px-6 text-sm font-bold text-slate-600 dark:text-[#92b7c9] hover:text-primary dark:hover:text-white transition-colors" to="/episodes">
+                                Archiwum
+                            </SmartLink>
                             <ThemeToggle />
-                            <button className="bg-primary text-white text-sm font-bold py-2.5 px-6 rounded-lg hover:brightness-110 transition-all shadow-md">
-                                Subskrybuj
+                            <button className="flex min-w-[100px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-6 bg-primary text-white text-sm font-bold leading-normal transition-all hover:scale-105 active:scale-95 shadow-lg shadow-primary/20">
+                                Newsletter
                             </button>
                         </div>
                     </div>
@@ -156,44 +161,15 @@
             );
         };
         const GlobalFooter = () => (
-            <footer className="border-t border-slate-200 dark:border-slate-800 pt-16 pb-8 bg-white dark:bg-background-dark">
-                <div className="max-w-[1200px] mx-auto px-6">
-                    <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
-                        <div className="col-span-1 md:col-span-2 space-y-6">
-                            <Logo />
-                            <p className="text-slate-500 dark:text-slate-400 max-w-sm">
-                                Wspieramy inżynierów w budowaniu lepszych systemów i szybszym wzroście kariery poprzez wysokiej jakości techniczne i zawodowe insighty (bez lania wody).
-                            </p>
-                        </div>
-                        <div className="space-y-6">
-                            <h6 className="text-slate-900 dark:text-white font-bold uppercase tracking-widest text-xs">Podcast</h6>
-                            <ul className="space-y-4 text-slate-500 dark:text-slate-400 font-medium">
-                                <li><Link className="hover:text-primary transition-colors" to="/episodes">Ostatnie odcinki</Link></li>
-                            </ul>
-                        </div>
-                        <div className="space-y-6">
-                            <h6 className="text-slate-900 dark:text-white font-bold uppercase tracking-widest text-xs">Śledź nas</h6>
-                            <div className="flex gap-4">
-                                <a className="size-10 flex items-center justify-center rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:bg-primary hover:text-white transition-all" href="#">
-                                    <span className="material-symbols-outlined">alternate_email</span>
-                                </a>
-                                <a className="size-10 flex items-center justify-center rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:bg-primary hover:text-white transition-all" href="#">
-                                    <span className="material-symbols-outlined">rss_feed</span>
-                                </a>
-                                <a className="size-10 flex items-center justify-center rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:bg-primary hover:text-white transition-all" href="#">
-                                    <span className="material-symbols-outlined">forum</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="border-t border-slate-100 dark:border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-slate-500 dark:text-slate-500">
-                        <p>© 2024 BetterDevClub. Wszystkie bity zastrzeżone.</p>
-                        <div className="flex gap-8">
-                            <a className="hover:underline" href="#">Polityka Prywatności</a>
-                            <a className="hover:underline" href="#">Regulamin</a>
-                        </div>
-                    </div>
+            <footer className="w-full max-w-[1200px] mx-auto flex flex-col items-center gap-10 px-6 py-20 text-center border-t border-slate-200 dark:border-slate-800/50">
+                <Logo />
+                <div className="flex flex-wrap justify-center gap-10 text-slate-500 dark:text-[#92b7c9] text-sm font-bold uppercase tracking-widest">
+                    <SmartLink className="hover:text-primary transition-colors" to="/episodes">Podcast</SmartLink>
+                    <a className="hover:text-primary transition-colors" href="#">Newsletter</a>
+                    <a className="hover:text-primary transition-colors" href="#">Społeczność</a>
+                    <a className="hover:text-primary transition-colors" href="#">Prywatność</a>
                 </div>
+                <p className="text-slate-400 dark:text-[#92b7c9]/40 text-xs font-medium">© 2024 BetterDevClub. Wszystkie bity zastrzeżone.</p>
             </footer>
         );
 
@@ -203,113 +179,194 @@
             const latestEpisode = episodes[0];
 
             return (
-                <div className="min-h-screen">
+                <div className="min-h-screen flex flex-col items-center overflow-x-hidden">
                     <GlobalHeader />
 
-                    <main className="max-w-[1200px] mx-auto px-6 py-12 lg:py-24">
-                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                            <div className="relative order-2 lg:order-1">
-                                <div className="w-full aspect-square bg-slate-200 dark:bg-slate-800 rounded-2xl overflow-hidden shadow-2xl relative group">
-                                    <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-transparent"></div>
-                                    <div className="w-full h-full bg-cover bg-center" style={{backgroundImage: `url("https://lh3.googleusercontent.com/aida-public/AB6AXuB7ukihMqmljsShRhQpSJv-yTxdN-QHpjiW7FvFVcBn-WYhXQ99IDJBIF1zWxLqJPHjFBDJQ1LBNYr68T4nMVtXzVsc4N6u1lvrAGOmy5e7PZGBrbVP3e20SxLzLlS2TJvjAb4G0sPb4-8RM4nDh5Kgh6Tj98x1OCnHDTElmgqhreebpv9fVskmqNIq9Gl7Zx-SVJX-NzKBscPe8tFCLD2EVxkosG__H2T9zK9SVghgkrPxsYreoOq6FOgt5t-krJ-fAvcyH_aHgOPk")`}}></div>
-                                </div>
-                                <div className="absolute -bottom-6 -left-6 size-24 bg-primary/10 rounded-full blur-2xl"></div>
-                                <div className="absolute -top-6 -right-6 size-32 bg-primary/20 rounded-full blur-3xl"></div>
+                    <main className="w-full max-w-[1200px] flex flex-col flex-1 relative">
+                        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-[600px] hero-gradient pointer-events-none"></div>
+                        
+                        <section className="flex flex-col items-center justify-center px-6 pt-12 pb-8 text-center relative z-10">
+                            <div className="inline-flex items-center gap-2 bg-primary/10 dark:bg-[#233c48]/50 px-4 py-1.5 rounded-full mb-6 border border-primary/20 dark:border-[#325567]/50 backdrop-blur-sm">
+                                <span className="relative flex h-2 w-2">
+                                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+                                    <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
+                                </span>
+                                <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-primary">Nowy odcinek dostępny</span>
                             </div>
-                            <div className="flex flex-col gap-8 order-1 lg:order-2">
-                                <div className="space-y-4">
-                                    <span className="inline-block px-3 py-1 bg-primary/10 text-primary text-xs font-bold uppercase tracking-widest rounded-full">Co tydzień nowy odcinek</span>
-                                    <h2 className="text-5xl lg:text-7xl font-black text-slate-900 dark:text-white leading-[1.1] tracking-tight">
-                                        Zmerguj swoją karierę na <span className="text-primary">wyższy poziom.</span>
-                                    </h2>
-                                    <p className="text-lg lg:text-xl text-slate-600 dark:text-slate-400 leading-relaxed max-w-lg">
-                                        Rozmowy o rzemiośle, debugowaniu życia i przede wszystkim EjAj. <br/>Dołącz do nas, zanim AI napisze za Ciebie kolejny commit.
-                                    </p>
-                                </div>
-                                <div className="flex flex-wrap gap-4">
-                                    <a href="https://open.spotify.com/show/4EdHJK4qpJYWeGBQicZsjK" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 bg-[#1DB954] hover:bg-[#1ed760] text-white px-6 py-3 rounded-xl font-bold transition-all shadow-lg hover:-translate-y-1">
-                                        <span className="material-symbols-outlined">podcasts</span> Spotify
-                                    </a>
-                                    <a href="https://podcasts.apple.com/us/podcast/better-dev-club/id1848840540" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 bg-[#A332EF] hover:bg-[#b357f3] text-white px-6 py-3 rounded-xl font-bold transition-all shadow-lg hover:-translate-y-1">
-                                        <span className="material-symbols-outlined">radio</span> Apple Podcasts
-                                    </a>
-                                    <a href="https://www.youtube.com/@betterdevclub" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 bg-slate-900 dark:bg-slate-800 hover:brightness-110 text-white px-6 py-3 rounded-xl font-bold transition-all shadow-lg hover:-translate-y-1 border border-transparent dark:border-slate-700">
-                                        <span className="material-symbols-outlined">smart_display</span> YouTube
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </main>
+                            
+                            <h1 className="text-slate-900 dark:text-white text-4xl md:text-6xl font-black leading-tight tracking-tight mb-4 font-display max-w-[800px]">
+                                Zmerguj swoją karierę na <span className="text-primary">wyższy poziom</span>
+                            </h1>
+                            <p className="text-slate-600 dark:text-[#92b7c9] text-lg font-normal leading-relaxed max-w-[600px] mb-8">
+                                Rozmowy o rzemiośle, debugowaniu życia i przede wszystkim EjAj. <br className="hidden md:block"/>Dołącz do nas, zanim AI napisze za Ciebie kolejny commit.
+                            </p>
 
-                    {latestEpisode && (
-                        <section className="bg-slate-50 dark:bg-white/[0.02] py-20">
-                            <div className="max-w-[1200px] mx-auto px-6">
-                                <div className="flex items-center justify-between mb-10">
-                                    <h3 className="text-3xl font-bold tracking-tight text-slate-900 dark:text-white">Najświeższy release</h3>
-                                    <SmartLink className="text-primary font-bold flex items-center gap-1 group" to="/episodes">
-                                        Przejrzyj całe repo 
-                                        <span className="material-symbols-outlined text-lg transition-transform group-hover:translate-x-1">arrow_forward</span>
-                                    </SmartLink>
-                                </div>
-                                <div className="group relative bg-white dark:bg-slate-900 rounded-3xl p-6 md:p-8 shadow-[0_20px_50px_rgba(0,0,0,0.05)] dark:shadow-[0_20px_50px_rgba(0,0,0,0.4)] border border-slate-100 dark:border-slate-800/50 overflow-hidden transition-all hover:shadow-[0_30px_60px_rgba(0,0,0,0.1)]">
-                                    <div className="flex flex-col md:flex-row gap-8 items-center">
-                                        <div className="w-full md:w-1/3 aspect-video md:aspect-square bg-slate-200 dark:bg-slate-800 rounded-2xl overflow-hidden relative">
-                                            <div className="absolute inset-0 bg-cover bg-center transform transition-transform duration-700 group-hover:scale-105" style={{backgroundImage: `url("${(latestEpisode && latestEpisode.youtubeId) ? `https://i.ytimg.com/vi/${latestEpisode.youtubeId}/maxresdefault.jpg` : 'https://lh3.googleusercontent.com/aida-public/AB6AXuB7ukihMqmljsShRhQpSJv-yTxdN-QHpjiW7FvFVcBn-WYhXQ99IDJBIF1zWxLqJPHjFBDJQ1LBNYr68T4nMVtXzVsc4N6u1lvrAGOmy5e7PZGBrbVP3e20SxLzLlS2TJvjAb4G0sPb4-8RM4nDh5Kgh6Tj98x1OCnHDTElmgqhreebpv9fVskmqNIq9Gl7Zx-SVJX-NzKBscPe8tFCLD2EVxkosG__H2T9zK9SVghgkrPxsYreoOq6FOgt5t-krJ-fAvcyH_aHgOPk'}")`}}></div>
-                                            <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors"></div>
-                                        </div>
-                                        <div className="flex-1 space-y-4">
-                                            <div className="flex items-center gap-4 text-primary font-bold text-sm">
-                                                <span className="bg-primary/10 px-3 py-1 rounded-full">Odcinek #{latestEpisode.num}</span>
-                                                <span className="flex items-center gap-1 text-slate-500 dark:text-slate-400">
-                                                    <span className="material-symbols-outlined text-sm">schedule</span> {latestEpisode.duration}
-                                                </span>
+                            <div className="flex flex-wrap items-center justify-center gap-6 py-4 px-8 bg-white/40 dark:bg-card-dark/40 border border-slate-200 dark:border-[#233c48] rounded-full mb-12 backdrop-blur-md">
+                                <span className="text-slate-500 dark:text-[#92b7c9] text-xs font-bold uppercase tracking-widest mr-2">Słuchaj wszędzie</span>
+                                <a className="flex items-center gap-2 text-slate-600 dark:text-[#92b7c9] hover:text-[#1DB954] transition-colors group" href="https://open.spotify.com/show/4EdHJK4qpJYWeGBQicZsjK" target="_blank">
+                                    <svg className="size-5 fill-current" viewBox="0 0 24 24"><path d="M12 0C5.378 0 0 5.378 0 12s5.378 12 12 12 12-5.378 12-12S18.622 0 12 0zm5.503 17.31c-.223.347-.674.455-1.02.23-2.85-1.742-6.436-2.134-10.66-1.168-.395.09-.795-.154-.885-.55-.09-.395.154-.795.55-.885 4.626-1.058 8.6-0.607 11.785 1.34.347.223.455.674.23 1.02zm1.47-3.26c-.28.455-.878.604-1.333.324-3.26-2.003-8.23-2.585-12.086-1.414-.51.155-1.048-.135-1.203-.645-.155-.51.135-1.048.645-1.203 4.41-1.338 9.897-.68 13.655 1.63.455.28.604.878.324 1.333zm.125-3.39c-3.91-2.322-10.364-2.535-14.127-1.392-.6.182-1.24-.158-1.423-.758-.182-.6.158-1.24.758-1.423 4.316-1.31 11.45-1.058 15.98 1.63.54.32.715 1.015.395 1.555-.32.54-1.015.715-1.555.395z"></path></svg>
+                                    <span className="text-sm font-bold">Spotify</span>
+                                </a>
+                                <a className="flex items-center gap-2 text-slate-600 dark:text-[#92b7c9] hover:text-[#FA57C1] transition-colors group" href="https://podcasts.apple.com/us/podcast/better-dev-club/id1848840540" target="_blank">
+                                    <svg className="size-5 fill-current" viewBox="0 0 24 24"><path d="M12 0C5.383 0 0 5.383 0 12s5.383 12 12 12 12-5.383 12-12S18.617 0 12 0zm5.278 17.38c-.28.456-.879.605-1.334.325-3.26-2.003-8.23-2.585-12.086-1.414-.51.155-1.048-.135-1.203-.645-.155-.51.135-1.048.645-1.203 4.41-1.338 9.897-.68 13.655 1.63.455.28.604.878.324 1.333zm1.467-3.261c-.347.224-.798.114-1.022-.234-2.85-1.741-6.435-2.133-10.66-1.167-.395.09-.795-.155-.885-.55-.09-.395.155-.795.55-.885 4.626-1.058 8.6-.607 11.785 1.341.347.224.457.675.232 1.02zm.124-3.39c-3.91-2.322-10.364-2.535-14.127-1.392-.6.182-1.24-.158-1.423-.758-.182-.6.158-1.24.758-1.423 4.316-1.31 11.45-1.058 15.98 1.63.54.32.715 1.015.395 1.555-.32.54-1.015.715-1.555.395z"></path></svg>
+                                    <span className="text-sm font-bold">Apple</span>
+                                </a>
+                                <a className="flex items-center gap-2 text-slate-600 dark:text-[#92b7c9] hover:text-[#FF0000] transition-colors group" href="https://www.youtube.com/@betterdevclub" target="_blank">
+                                    <svg className="size-5 fill-current" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg>
+                                    <span className="text-sm font-bold">YouTube</span>
+                                </a>
+                            </div>
+                        </section>
+
+                        <section className="px-6 pb-20 w-full flex justify-center relative z-10">
+                            <div className="w-full max-w-[1040px]">
+                                <div className="group relative overflow-hidden rounded-[2.5rem] border border-slate-200 dark:border-white/10 bg-white dark:bg-card-dark shadow-2xl transition-all hover:border-primary/40 hover:shadow-primary/5">
+                                    <div className="flex flex-col lg:flex-row items-stretch">
+                                        <div className="relative w-full lg:w-[58%] aspect-video overflow-hidden cursor-pointer" onClick={() => navigate(`/episodes/episode-${latestEpisode.num}`)}>
+                                            <img alt={latestEpisode.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src={(latestEpisode && latestEpisode.youtubeId) ? `https://i.ytimg.com/vi/${latestEpisode.youtubeId}/maxresdefault.jpg` : 'https://lh3.googleusercontent.com/aida-public/AB6AXuAS-tx2W0ke5VcQ8bJzLckFTOHtbFOSPBOKY9SLEIodOlVQWt75FX8hdyIgwI2VpEluVaMC89RE1h7Xha2Kygppj5Il5QxM9-Z3CXzLBs6VmyBdR5ng7e4ICi9NQI-Ob-Yq2OXbRU9kBXMsyOzXEibr7LaNjRkt4cUib91zweTVwBhDmH-Gvc0gNaHitzH-VGz9I_yuP-Yz8i1sBNIXLkvwS2NOPl1C0wIDnipdYtZTh_y0Y04fIhaBTwBE0hjzxLMsB9ehq7TIal12'}/>
+                                            <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
+                                                <div className="w-24 h-24 rounded-full bg-primary/90 text-white flex items-center justify-center transition-all group-hover:scale-110 shadow-2xl border-8 border-white/10">
+                                                    <span className="material-symbols-outlined text-6xl translate-x-1">play_arrow</span>
+                                                </div>
                                             </div>
-                                            <h4 className="text-3xl md:text-4xl font-extrabold text-slate-900 dark:text-white leading-tight">
-                                                {latestEpisode.title}
-                                            </h4>
-                                            <p className="text-slate-600 dark:text-slate-400 text-lg line-clamp-2">
-                                                {latestEpisode.desc}
-                                            </p>
-                                            <div className="pt-4 flex items-center gap-6">
-                                                <button 
-                                                    onClick={() => navigate(`/episodes/episode-${latestEpisode.num}`)}
-                                                    className="bg-primary text-white flex items-center gap-2 px-8 py-4 rounded-2xl font-black text-lg shadow-xl shadow-primary/20 hover:scale-[1.02] active:scale-95 transition-all"
-                                                >
-                                                    <span className="material-symbols-outlined fill-current">play_circle</span>
-                                                    Odpalam!
-                                                </button>
-                                                <button className="size-14 flex items-center justify-center rounded-2xl border-2 border-slate-200 dark:border-slate-800 hover:bg-slate-50 dark:hover:bg-slate-800 text-slate-600 dark:text-slate-400 transition-colors">
-                                                    <span className="material-symbols-outlined">share</span>
-                                                </button>
+                                            <div className="absolute top-6 left-6 flex gap-2">
+                                                <span className="bg-black/60 backdrop-blur-md text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest border border-white/10">Najświeższy release</span>
+                                                <span className="bg-primary text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">Odcinek #{latestEpisode.num}</span>
+                                            </div>
+                                        </div>
+                                        <div className="w-full lg:w-[42%] p-8 md:p-12 flex flex-col justify-between gap-8">
+                                            <div className="flex flex-col gap-4">
+                                                <div className="flex items-center gap-3 text-primary">
+                                                    <span className="material-symbols-outlined text-2xl">mic_external_on</span>
+                                                    <span className="text-sm font-bold uppercase tracking-[0.2em]">Podcast Ekskluzywnie</span>
+                                                </div>
+                                                <h2 className="text-slate-900 dark:text-white text-3xl md:text-4xl font-bold leading-tight font-display">
+                                                    {latestEpisode.title}
+                                                </h2>
+                                                <p className="text-slate-600 dark:text-[#92b7c9] text-lg leading-relaxed line-clamp-3">
+                                                    {latestEpisode.desc}
+                                                </p>
+                                            </div>
+                                            <div className="flex flex-col gap-6">
+                                                <div className="flex items-center gap-6 text-slate-500 dark:text-[#92b7c9] text-sm">
+                                                    <div className="flex items-center gap-2">
+                                                        <span className="material-symbols-outlined text-xl">schedule</span>
+                                                        <span className="font-medium">{latestEpisode.duration}</span>
+                                                    </div>
+                                                </div>
+                                                <div className="flex flex-col sm:flex-row gap-4">
+                                                    <button onClick={() => navigate(`/episodes/episode-${latestEpisode.num}`)} className="flex flex-1 items-center justify-center gap-3 h-16 rounded-2xl bg-primary text-white font-bold text-lg transition-all hover:bg-primary/90 hover:scale-[1.02] shadow-xl shadow-primary/20">
+                                                        <span>Odpalam!</span>
+                                                        <span className="material-symbols-outlined text-2xl">play_circle</span>
+                                                    </button>
+                                                    <button className="flex items-center justify-center size-16 rounded-2xl bg-slate-100 dark:bg-[#233c48] text-slate-600 dark:text-white transition-colors hover:bg-slate-200 dark:hover:bg-[#325567]">
+                                                        <span className="material-symbols-outlined text-2xl">bookmark</span>
+                                                    </button>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </section>
-                    )}
 
-                    <section className="max-w-[1200px] mx-auto px-6 py-24">
-                        <div className="bg-primary rounded-[3rem] p-10 lg:p-20 text-center relative overflow-hidden">
-                            <div className="absolute top-0 right-0 size-64 bg-white/10 rounded-full -mr-32 -mt-32 blur-3xl"></div>
-                            <div className="absolute bottom-0 left-0 size-64 bg-black/10 rounded-full -ml-32 -mb-32 blur-3xl"></div>
-                            <div className="relative z-10 max-w-2xl mx-auto space-y-8">
-                                <div className="space-y-4">
-                                    <h3 className="text-4xl md:text-5xl font-black text-white leading-tight">Bądź przed horyzontem zdarzeń.</h3>
-                                    <p className="text-white/90 text-lg md:text-xl font-medium">
-                                        Zapisz się do newslettera, który nigdy nie ląduje w /dev/null. Sytuacyjne insighty i zero spamu
-                                    </p>
+                        {/* as numbers are low remove this section
+                        <section className="px-6 py-12 w-full flex justify-center">
+                            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 w-full max-w-[1040px]">
+                                <div className="flex flex-col gap-2 rounded-2xl p-8 bg-white dark:bg-card-dark border border-slate-200 dark:border-[#233c48] transition-all hover:border-primary/30 shadow-sm">
+                                    <p className="text-slate-500 dark:text-[#92b7c9] text-xs font-bold uppercase tracking-widest opacity-70">Społeczność</p>
+                                    <p className="text-slate-900 dark:text-white text-3xl font-bold leading-tight font-display">12K+</p>
                                 </div>
-                                <div className="flex flex-col sm:flex-row items-center gap-3 bg-white/10 p-2 rounded-3xl backdrop-blur-sm border border-white/20">
-                                    <input className="w-full bg-white text-slate-900 px-6 py-4 rounded-2xl border-none focus:ring-4 focus:ring-white/20 text-lg placeholder:text-slate-400" placeholder="Podaj maila (nie wycieknie)" type="email"/>
-                                    <button className="w-full sm:w-auto bg-slate-900 dark:bg-background-dark text-white px-10 py-4 rounded-2xl font-black text-lg hover:bg-black transition-colors shrink-0">
-                                        Wchodzę w to
-                                    </button>
+                                <div className="flex flex-col gap-2 rounded-2xl p-8 bg-white dark:bg-card-dark border border-slate-200 dark:border-[#233c48] transition-all hover:border-primary/30 shadow-sm">
+                                    <p className="text-slate-500 dark:text-[#92b7c9] text-xs font-bold uppercase tracking-widest opacity-70">Odcinki</p>
+                                    <p className="text-slate-900 dark:text-white text-3xl font-bold leading-tight font-display">{episodes.length}+</p>
                                 </div>
-                                <p className="text-white/60 text-sm">Zero spamu. Tylko high-signal content. Exit w dowolnym momencie.</p>
+                                <div className="flex flex-col gap-2 rounded-2xl p-8 bg-white dark:bg-card-dark border border-slate-200 dark:border-[#233c48] transition-all hover:border-primary/30 shadow-sm">
+                                    <p className="text-slate-500 dark:text-[#92b7c9] text-xs font-bold uppercase tracking-widest opacity-70">Słuchaczy</p>
+                                    <p className="text-slate-900 dark:text-white text-3xl font-bold leading-tight font-display">5K+</p>
+                                </div>
+                                <div className="flex flex-col gap-2 rounded-2xl p-8 bg-white dark:bg-card-dark border border-slate-200 dark:border-[#233c48] transition-all hover:border-primary/30 shadow-sm">
+                                    <p className="text-slate-500 dark:text-[#92b7c9] text-xs font-bold uppercase tracking-widest opacity-70">Ocena</p>
+                                    <div className="flex items-center gap-1">
+                                        <p className="text-slate-900 dark:text-white text-3xl font-bold leading-tight font-display">4.9</p>
+                                        <span className="material-symbols-outlined text-primary text-xl fill-current">star</span>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </section>
+                        </section>
+                        */}
+
+                        <section className="px-6 py-20 w-full flex justify-center bg-slate-50/50 dark:bg-[#14232a]/50">
+                            <div className="w-full max-w-[1040px]">
+                                <div className="flex flex-col items-center text-center mb-16">
+                                    <h2 className="text-slate-900 dark:text-white text-3xl md:text-5xl font-black font-display mb-4">Głosy BetterDevClub</h2>
+                                    <p className="text-slate-600 dark:text-[#92b7c9] max-w-xl text-lg">Naszą misją jest wypełnianie luki między sprawnym kodowaniem a inżynierią oprogramowania wysokiej klasy.</p>
+                                </div>
+                                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                                    <div className="flex flex-col sm:flex-row items-center sm:items-start gap-8 p-8 rounded-3xl bg-white dark:bg-[#192b33] border border-slate-100 dark:border-[#233c48] shadow-sm hover:shadow-md transition-shadow">
+                                        <div className="size-32 rounded-2xl overflow-hidden shrink-0 border-4 border-primary/10">
+                                            <img alt="Piotrek Stapp" className="w-full h-full object-cover" src="https://media.licdn.com/dms/image/v2/C5603AQHJ0UvTPBXtxg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516341105270?e=1769644800&v=beta&t=x3jhSMz8YmvBQZixWYsATghMQVa7KgpHrciO0RdxAmw"/>
+                                        </div>
+                                        <div className="flex flex-col gap-3 text-center sm:text-left">
+                                            <div>
+                                                <h3 className="text-slate-900 dark:text-white text-2xl font-bold font-display leading-tight">Piotrek Stapp</h3>
+                                                <p className="text-primary text-sm font-black uppercase tracking-widest mt-1">Microsoft MVP & DevOps Zorro</p>
+                                            </div>
+                                            <p className="text-slate-600 dark:text-[#92b7c9] text-base leading-relaxed">Architekt rozwiązań, pasjonat chmury i technologii Microsoft. Specjalista od systemów rozproszonych i cyberbezpieczeństwa.</p>
+                                            <a className="flex items-center justify-center sm:justify-start gap-2 text-slate-400 dark:text-white/50 hover:text-primary transition-colors mt-2 text-sm font-bold" href="https://www.linkedin.com/in/stapp/" target="_blank">
+                                                <span className="material-symbols-outlined text-lg">link</span>
+                                                Connect on LinkedIn
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div className="flex flex-col sm:flex-row items-center sm:items-start gap-8 p-8 rounded-3xl bg-white dark:bg-[#192b33] border border-slate-100 dark:border-[#233c48] shadow-sm hover:shadow-md transition-shadow">
+                                        <div className="size-32 rounded-2xl overflow-hidden shrink-0 border-4 border-primary/10">
+                                            <img alt="Kajetan Duszyński" className="w-full h-full object-cover" src="https://media.licdn.com/dms/image/v2/D4D03AQFihUTFTHbR2A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1718291585626?e=1769644800&v=beta&t=D89QZ00jo_GPnZ9paPPFzte1H4zyWJAa3igdYPQptic"/>
+                                        </div>
+                                        <div className="flex flex-col gap-3 text-center sm:text-left">
+                                            <div>
+                                                <h3 className="text-slate-900 dark:text-white text-2xl font-bold font-display leading-tight">Kajetan Duszyński</h3>
+                                                <p className="text-primary text-sm font-black uppercase tracking-widest mt-1">Microsoft MVP & ninja dev</p>
+                                            </div>
+                                            <p className="text-slate-600 dark:text-[#92b7c9] text-base leading-relaxed">Inżynier oprogramowania, entuzjasta AI i automatyzacji. Buduje narzędzia, które ułatwiają życie deweloperom i skalują biznes.</p>
+                                            <a className="flex items-center justify-center sm:justify-start gap-2 text-slate-400 dark:text-white/50 hover:text-primary transition-colors mt-2 text-sm font-bold" href="https://www.linkedin.com/in/duszynski/" target="_blank">
+                                                <span className="material-symbols-outlined text-lg">link</span>
+                                                Connect on LinkedIn
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section className="px-6 py-24 w-full flex justify-center">
+                            <div className="w-full max-w-[1040px] relative overflow-hidden rounded-[3rem] bg-gradient-to-br from-slate-100 to-white dark:from-[#132128] dark:to-[#0a1114] border-2 border-slate-200 dark:border-[#233c48] shadow-2xl">
+                                <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-10"></div>
+                                <div className="flex flex-col items-center gap-10 px-8 py-20 md:px-24 md:py-28 text-center relative z-10">
+                                    <div className="flex flex-col gap-6">
+                                        <h2 className="text-slate-900 dark:text-white text-4xl md:text-6xl font-black leading-tight tracking-tight font-display max-w-[800px]">
+                                            Bądź przed horyzontem zdarzeń
+                                        </h2>
+                                        <p className="text-slate-600 dark:text-[#92b7c9] text-lg md:text-xl font-normal leading-relaxed max-w-[650px] mx-auto">
+                                            Zapisz się do newslettera, który nigdy nie ląduje w <span className="text-slate-900 dark:text-white font-bold">/dev/null</span>. Sytuacyjne insighty i zero spamu.
+                                        </p>
+                                    </div>
+                                    <div className="flex w-full max-w-[600px] flex-col gap-4">
+                                        <div className="flex flex-col md:flex-row w-full items-stretch p-2 bg-white dark:bg-black/40 rounded-full border border-slate-200 dark:border-white/10 backdrop-blur-sm gap-2">
+                                            <input className="form-input flex w-full min-w-0 flex-1 border-none bg-transparent h-14 text-slate-900 dark:text-white focus:ring-0 placeholder:text-slate-400 dark:placeholder:text-[#92b7c9]/50 px-8 text-lg font-medium" placeholder="Podaj maila (nie wycieknie)" type="email"/>
+                                            <button className="flex min-w-[200px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-14 px-8 bg-slate-900 dark:bg-white text-white dark:text-background-dark text-lg font-bold leading-normal transition-all hover:bg-primary hover:text-white shadow-xl">
+                                                <span className="truncate">Wchodzę w to</span>
+                                            </button>
+                                        </div>
+                                        <p className="text-slate-500 dark:text-[#92b7c9] text-sm font-medium opacity-50 flex items-center justify-center gap-2">
+                                            <span className="material-symbols-outlined text-base">verified_user</span>
+                                            Zero spamu. Tylko high-signal content. Exit w dowolnym momencie.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </main>
                     <GlobalFooter />
                 </div>
             );
