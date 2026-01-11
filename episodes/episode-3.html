@@ -14,8 +14,8 @@
     <meta property="og:image" content="https://i.ytimg.com/vi/G9ic7gK3nnU/maxresdefault.jpg">
     <link rel="shortcut icon" href="../img/favicon-32x32.png" type="image/png">
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Noto+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
     
     <script>
         tailwind.config = {
@@ -24,19 +24,26 @@
                 extend: {
                     colors: {
                         "primary": "#13a4ec",
+                        "host1": "#3b82f6",
+                        "host2": "#8b5cf6",
+                        "guest": "#f59e0b",
                         "background-light": "#f6f7f8",
-                        "background-dark": "#121212",
-                        "card-dark": "#1E1E1E",
+                        "background-dark": "#0a1114",
+                        "card-dark": "#132128",
                         "surface-dark": "#162228",
                         "surface-lighter-dark": "#1e2d35",
+                        "youtube": "#FF0000",
+                        "spotify": "#1DB954",
+                        "apple": "#FFFFFF",
                     },
                     fontFamily: {
-                        "display": ["Inter", "sans-serif"]
+                        "display": ["Space Grotesk", "sans-serif"],
+                        "sans": ["Noto Sans", "sans-serif"]
                     },
                     borderRadius: {
-                        "DEFAULT": "0.25rem",
-                        "lg": "0.5rem",
-                        "xl": "0.75rem",
+                        "DEFAULT": "1rem",
+                        "lg": "2rem",
+                        "xl": "3rem",
                         "full": "9999px"
                     },
                 },
@@ -47,10 +54,10 @@
     <style type="text/tailwindcss">
         @layer base {
             :root {
-                --charcoal-black: #121212;
+                --charcoal-black: #0a1114;
             }
             body {
-                @apply font-display antialiased transition-colors duration-200;
+                @apply font-sans antialiased transition-colors duration-200;
             }
             .material-symbols-outlined {
                 font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
@@ -67,6 +74,38 @@
             }
             .transcript-bubble-guest {
                 @apply bg-primary/10 dark:bg-primary/20 border border-primary/20 dark:border-primary/30;
+            }
+            .hero-gradient {
+                background: radial-gradient(circle at 50% 0%, rgba(19, 164, 236, 0.15) 0%, rgba(10, 17, 20, 0) 70%);
+            }
+            .video-container {
+                position: relative;
+                padding-bottom: 56.25%;
+                height: 0;
+                overflow: hidden;
+            }
+            .video-container iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+            .prose-custom h2 {
+                @apply text-xl font-bold mb-4 mt-8 text-slate-900 dark:text-white tracking-tight;
+            }
+            .prose-custom p {
+                @apply text-slate-600 dark:text-slate-400 leading-relaxed mb-4;
+            }
+            .prose-custom ul {
+                @apply mb-6 space-y-2;
+            }
+            .prose-custom li {
+                @apply flex items-start gap-2 text-slate-600 dark:text-slate-400;
+            }
+            .prose-custom li::before {
+                content: "→";
+                @apply text-primary font-bold mr-1;
             }
         }
     </style>
@@ -151,14 +190,15 @@
         const GlobalHeader = () => {
             return (
                 <header className="sticky top-0 z-50 w-full border-b border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-background-dark/80 backdrop-blur-md">
-                    <div className="max-w-[1200px] mx-auto px-6 h-16 flex items-center justify-between">
+                    <div className="max-w-[1200px] mx-auto px-6 h-20 flex items-center justify-between">
                         <Logo />
-                        <div className="hidden md:flex items-center gap-8">
-                            <SmartLink className="text-sm font-semibold hover:text-primary transition-colors text-slate-600 dark:text-slate-300" to="/episodes">Odcinki</SmartLink>
-                            <a className="text-sm font-semibold hover:text-primary transition-colors text-slate-600 dark:text-slate-300" href="#">Newsletter</a>
+                        <div className="flex items-center gap-4">
+                            <SmartLink className="hidden md:flex items-center justify-center rounded-full h-10 px-6 text-sm font-bold text-slate-600 dark:text-[#92b7c9] hover:text-primary dark:hover:text-white transition-colors" to="/episodes">
+                                Archiwum
+                            </SmartLink>
                             <ThemeToggle />
-                            <button className="bg-primary text-white text-sm font-bold py-2.5 px-6 rounded-lg hover:brightness-110 transition-all shadow-md">
-                                Subskrybuj
+                            <button className="flex min-w-[100px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-6 bg-primary text-white text-sm font-bold leading-normal transition-all hover:scale-105 active:scale-95 shadow-lg shadow-primary/20">
+                                Newsletter
                             </button>
                         </div>
                     </div>
@@ -166,44 +206,15 @@
             );
         };
         const GlobalFooter = () => (
-            <footer className="border-t border-slate-200 dark:border-slate-800 pt-16 pb-8 bg-white dark:bg-background-dark">
-                <div className="max-w-[1200px] mx-auto px-6">
-                    <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
-                        <div className="col-span-1 md:col-span-2 space-y-6">
-                            <Logo />
-                            <p className="text-slate-500 dark:text-slate-400 max-w-sm">
-                                Wspieramy inżynierów w budowaniu lepszych systemów i szybszym wzroście kariery poprzez wysokiej jakości techniczne i zawodowe insighty (bez lania wody).
-                            </p>
-                        </div>
-                        <div className="space-y-6">
-                            <h6 className="text-slate-900 dark:text-white font-bold uppercase tracking-widest text-xs">Podcast</h6>
-                            <ul className="space-y-4 text-slate-500 dark:text-slate-400 font-medium">
-                                <li><Link className="hover:text-primary transition-colors" to="/episodes">Ostatnie odcinki</Link></li>
-                            </ul>
-                        </div>
-                        <div className="space-y-6">
-                            <h6 className="text-slate-900 dark:text-white font-bold uppercase tracking-widest text-xs">Śledź nas</h6>
-                            <div className="flex gap-4">
-                                <a className="size-10 flex items-center justify-center rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:bg-primary hover:text-white transition-all" href="#">
-                                    <span className="material-symbols-outlined">alternate_email</span>
-                                </a>
-                                <a className="size-10 flex items-center justify-center rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:bg-primary hover:text-white transition-all" href="#">
-                                    <span className="material-symbols-outlined">rss_feed</span>
-                                </a>
-                                <a className="size-10 flex items-center justify-center rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:bg-primary hover:text-white transition-all" href="#">
-                                    <span className="material-symbols-outlined">forum</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="border-t border-slate-100 dark:border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-slate-500 dark:text-slate-500">
-                        <p>© 2024 BetterDevClub. Wszystkie bity zastrzeżone.</p>
-                        <div className="flex gap-8">
-                            <a className="hover:underline" href="#">Polityka Prywatności</a>
-                            <a className="hover:underline" href="#">Regulamin</a>
-                        </div>
-                    </div>
+            <footer className="w-full max-w-[1200px] mx-auto flex flex-col items-center gap-10 px-6 py-20 text-center border-t border-slate-200 dark:border-slate-800/50">
+                <Logo />
+                <div className="flex flex-wrap justify-center gap-10 text-slate-500 dark:text-[#92b7c9] text-sm font-bold uppercase tracking-widest">
+                    <SmartLink className="hover:text-primary transition-colors" to="/episodes">Podcast</SmartLink>
+                    <a className="hover:text-primary transition-colors" href="#">Newsletter</a>
+                    <a className="hover:text-primary transition-colors" href="#">Społeczność</a>
+                    <a className="hover:text-primary transition-colors" href="#">Prywatność</a>
                 </div>
+                <p className="text-slate-400 dark:text-[#92b7c9]/40 text-xs font-medium">© 2024 BetterDevClub. Wszystkie bity zastrzeżone.</p>
             </footer>
         );
 
@@ -213,113 +224,194 @@
             const latestEpisode = episodes[0];
 
             return (
-                <div className="min-h-screen">
+                <div className="min-h-screen flex flex-col items-center overflow-x-hidden">
                     <GlobalHeader />
 
-                    <main className="max-w-[1200px] mx-auto px-6 py-12 lg:py-24">
-                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                            <div className="relative order-2 lg:order-1">
-                                <div className="w-full aspect-square bg-slate-200 dark:bg-slate-800 rounded-2xl overflow-hidden shadow-2xl relative group">
-                                    <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-transparent"></div>
-                                    <div className="w-full h-full bg-cover bg-center" style={{backgroundImage: `url("https://lh3.googleusercontent.com/aida-public/AB6AXuB7ukihMqmljsShRhQpSJv-yTxdN-QHpjiW7FvFVcBn-WYhXQ99IDJBIF1zWxLqJPHjFBDJQ1LBNYr68T4nMVtXzVsc4N6u1lvrAGOmy5e7PZGBrbVP3e20SxLzLlS2TJvjAb4G0sPb4-8RM4nDh5Kgh6Tj98x1OCnHDTElmgqhreebpv9fVskmqNIq9Gl7Zx-SVJX-NzKBscPe8tFCLD2EVxkosG__H2T9zK9SVghgkrPxsYreoOq6FOgt5t-krJ-fAvcyH_aHgOPk")`}}></div>
-                                </div>
-                                <div className="absolute -bottom-6 -left-6 size-24 bg-primary/10 rounded-full blur-2xl"></div>
-                                <div className="absolute -top-6 -right-6 size-32 bg-primary/20 rounded-full blur-3xl"></div>
+                    <main className="w-full max-w-[1200px] flex flex-col flex-1 relative">
+                        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-[600px] hero-gradient pointer-events-none"></div>
+                        
+                        <section className="flex flex-col items-center justify-center px-6 pt-12 pb-8 text-center relative z-10">
+                            <div className="inline-flex items-center gap-2 bg-primary/10 dark:bg-[#233c48]/50 px-4 py-1.5 rounded-full mb-6 border border-primary/20 dark:border-[#325567]/50 backdrop-blur-sm">
+                                <span className="relative flex h-2 w-2">
+                                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+                                    <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
+                                </span>
+                                <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-primary">Nowy odcinek dostępny</span>
                             </div>
-                            <div className="flex flex-col gap-8 order-1 lg:order-2">
-                                <div className="space-y-4">
-                                    <span className="inline-block px-3 py-1 bg-primary/10 text-primary text-xs font-bold uppercase tracking-widest rounded-full">Co tydzień nowy odcinek</span>
-                                    <h2 className="text-5xl lg:text-7xl font-black text-slate-900 dark:text-white leading-[1.1] tracking-tight">
-                                        Zmerguj swoją karierę na <span className="text-primary">wyższy poziom.</span>
-                                    </h2>
-                                    <p className="text-lg lg:text-xl text-slate-600 dark:text-slate-400 leading-relaxed max-w-lg">
-                                        Rozmowy o rzemiośle, debugowaniu życia i przede wszystkim EjAj. <br/>Dołącz do nas, zanim AI napisze za Ciebie kolejny commit.
-                                    </p>
-                                </div>
-                                <div className="flex flex-wrap gap-4">
-                                    <a href="https://open.spotify.com/show/4EdHJK4qpJYWeGBQicZsjK" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 bg-[#1DB954] hover:bg-[#1ed760] text-white px-6 py-3 rounded-xl font-bold transition-all shadow-lg hover:-translate-y-1">
-                                        <span className="material-symbols-outlined">podcasts</span> Spotify
-                                    </a>
-                                    <a href="https://podcasts.apple.com/us/podcast/better-dev-club/id1848840540" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 bg-[#A332EF] hover:bg-[#b357f3] text-white px-6 py-3 rounded-xl font-bold transition-all shadow-lg hover:-translate-y-1">
-                                        <span className="material-symbols-outlined">radio</span> Apple Podcasts
-                                    </a>
-                                    <a href="https://www.youtube.com/@betterdevclub" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 bg-slate-900 dark:bg-slate-800 hover:brightness-110 text-white px-6 py-3 rounded-xl font-bold transition-all shadow-lg hover:-translate-y-1 border border-transparent dark:border-slate-700">
-                                        <span className="material-symbols-outlined">smart_display</span> YouTube
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </main>
+                            
+                            <h1 className="text-slate-900 dark:text-white text-4xl md:text-6xl font-black leading-tight tracking-tight mb-4 font-display max-w-[800px]">
+                                Zmerguj swoją karierę na <span className="text-primary">wyższy poziom</span>
+                            </h1>
+                            <p className="text-slate-600 dark:text-[#92b7c9] text-lg font-normal leading-relaxed max-w-[600px] mb-8">
+                                Rozmowy o rzemiośle, debugowaniu życia i przede wszystkim EjAj. <br className="hidden md:block"/>Dołącz do nas, zanim AI napisze za Ciebie kolejny commit.
+                            </p>
 
-                    {latestEpisode && (
-                        <section className="bg-slate-50 dark:bg-white/[0.02] py-20">
-                            <div className="max-w-[1200px] mx-auto px-6">
-                                <div className="flex items-center justify-between mb-10">
-                                    <h3 className="text-3xl font-bold tracking-tight text-slate-900 dark:text-white">Najświeższy release</h3>
-                                    <SmartLink className="text-primary font-bold flex items-center gap-1 group" to="/episodes">
-                                        Przejrzyj całe repo 
-                                        <span className="material-symbols-outlined text-lg transition-transform group-hover:translate-x-1">arrow_forward</span>
-                                    </SmartLink>
-                                </div>
-                                <div className="group relative bg-white dark:bg-slate-900 rounded-3xl p-6 md:p-8 shadow-[0_20px_50px_rgba(0,0,0,0.05)] dark:shadow-[0_20px_50px_rgba(0,0,0,0.4)] border border-slate-100 dark:border-slate-800/50 overflow-hidden transition-all hover:shadow-[0_30px_60px_rgba(0,0,0,0.1)]">
-                                    <div className="flex flex-col md:flex-row gap-8 items-center">
-                                        <div className="w-full md:w-1/3 aspect-video md:aspect-square bg-slate-200 dark:bg-slate-800 rounded-2xl overflow-hidden relative">
-                                            <div className="absolute inset-0 bg-cover bg-center transform transition-transform duration-700 group-hover:scale-105" style={{backgroundImage: `url("${(latestEpisode && latestEpisode.youtubeId) ? `https://i.ytimg.com/vi/${latestEpisode.youtubeId}/maxresdefault.jpg` : 'https://lh3.googleusercontent.com/aida-public/AB6AXuB7ukihMqmljsShRhQpSJv-yTxdN-QHpjiW7FvFVcBn-WYhXQ99IDJBIF1zWxLqJPHjFBDJQ1LBNYr68T4nMVtXzVsc4N6u1lvrAGOmy5e7PZGBrbVP3e20SxLzLlS2TJvjAb4G0sPb4-8RM4nDh5Kgh6Tj98x1OCnHDTElmgqhreebpv9fVskmqNIq9Gl7Zx-SVJX-NzKBscPe8tFCLD2EVxkosG__H2T9zK9SVghgkrPxsYreoOq6FOgt5t-krJ-fAvcyH_aHgOPk'}")`}}></div>
-                                            <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors"></div>
-                                        </div>
-                                        <div className="flex-1 space-y-4">
-                                            <div className="flex items-center gap-4 text-primary font-bold text-sm">
-                                                <span className="bg-primary/10 px-3 py-1 rounded-full">Odcinek #{latestEpisode.num}</span>
-                                                <span className="flex items-center gap-1 text-slate-500 dark:text-slate-400">
-                                                    <span className="material-symbols-outlined text-sm">schedule</span> {latestEpisode.duration}
-                                                </span>
+                            <div className="flex flex-wrap items-center justify-center gap-6 py-4 px-8 bg-white/40 dark:bg-card-dark/40 border border-slate-200 dark:border-[#233c48] rounded-full mb-12 backdrop-blur-md">
+                                <span className="text-slate-500 dark:text-[#92b7c9] text-xs font-bold uppercase tracking-widest mr-2">Słuchaj wszędzie</span>
+                                <a className="flex items-center gap-2 text-slate-600 dark:text-[#92b7c9] hover:text-[#1DB954] transition-colors group" href="https://open.spotify.com/show/4EdHJK4qpJYWeGBQicZsjK" target="_blank">
+                                    <svg className="size-5 fill-current" viewBox="0 0 24 24"><path d="M12 0C5.378 0 0 5.378 0 12s5.378 12 12 12 12-5.378 12-12S18.622 0 12 0zm5.503 17.31c-.223.347-.674.455-1.02.23-2.85-1.742-6.436-2.134-10.66-1.168-.395.09-.795-.154-.885-.55-.09-.395.154-.795.55-.885 4.626-1.058 8.6-0.607 11.785 1.34.347.223.455.674.23 1.02zm1.47-3.26c-.28.455-.878.604-1.333.324-3.26-2.003-8.23-2.585-12.086-1.414-.51.155-1.048-.135-1.203-.645-.155-.51.135-1.048.645-1.203 4.41-1.338 9.897-.68 13.655 1.63.455.28.604.878.324 1.333zm.125-3.39c-3.91-2.322-10.364-2.535-14.127-1.392-.6.182-1.24-.158-1.423-.758-.182-.6.158-1.24.758-1.423 4.316-1.31 11.45-1.058 15.98 1.63.54.32.715 1.015.395 1.555-.32.54-1.015.715-1.555.395z"></path></svg>
+                                    <span className="text-sm font-bold">Spotify</span>
+                                </a>
+                                <a className="flex items-center gap-2 text-slate-600 dark:text-[#92b7c9] hover:text-[#FA57C1] transition-colors group" href="https://podcasts.apple.com/us/podcast/better-dev-club/id1848840540" target="_blank">
+                                    <svg className="size-5 fill-current" viewBox="0 0 24 24"><path d="M12 0C5.383 0 0 5.383 0 12s5.383 12 12 12 12-5.383 12-12S18.617 0 12 0zm5.278 17.38c-.28.456-.879.605-1.334.325-3.26-2.003-8.23-2.585-12.086-1.414-.51.155-1.048-.135-1.203-.645-.155-.51.135-1.048.645-1.203 4.41-1.338 9.897-.68 13.655 1.63.455.28.604.878.324 1.333zm1.467-3.261c-.347.224-.798.114-1.022-.234-2.85-1.741-6.435-2.133-10.66-1.167-.395.09-.795-.155-.885-.55-.09-.395.155-.795.55-.885 4.626-1.058 8.6-.607 11.785 1.341.347.224.457.675.232 1.02zm.124-3.39c-3.91-2.322-10.364-2.535-14.127-1.392-.6.182-1.24-.158-1.423-.758-.182-.6.158-1.24.758-1.423 4.316-1.31 11.45-1.058 15.98 1.63.54.32.715 1.015.395 1.555-.32.54-1.015.715-1.555.395z"></path></svg>
+                                    <span className="text-sm font-bold">Apple</span>
+                                </a>
+                                <a className="flex items-center gap-2 text-slate-600 dark:text-[#92b7c9] hover:text-[#FF0000] transition-colors group" href="https://www.youtube.com/@betterdevclub" target="_blank">
+                                    <svg className="size-5 fill-current" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg>
+                                    <span className="text-sm font-bold">YouTube</span>
+                                </a>
+                            </div>
+                        </section>
+
+                        <section className="px-6 pb-20 w-full flex justify-center relative z-10">
+                            <div className="w-full max-w-[1040px]">
+                                <div className="group relative overflow-hidden rounded-[2.5rem] border border-slate-200 dark:border-white/10 bg-white dark:bg-card-dark shadow-2xl transition-all hover:border-primary/40 hover:shadow-primary/5">
+                                    <div className="flex flex-col lg:flex-row items-stretch">
+                                        <div className="relative w-full lg:w-[58%] aspect-video overflow-hidden cursor-pointer" onClick={() => navigate(`/episodes/episode-${latestEpisode.num}`)}>
+                                            <img alt={latestEpisode.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src={(latestEpisode && latestEpisode.youtubeId) ? `https://i.ytimg.com/vi/${latestEpisode.youtubeId}/maxresdefault.jpg` : 'https://lh3.googleusercontent.com/aida-public/AB6AXuAS-tx2W0ke5VcQ8bJzLckFTOHtbFOSPBOKY9SLEIodOlVQWt75FX8hdyIgwI2VpEluVaMC89RE1h7Xha2Kygppj5Il5QxM9-Z3CXzLBs6VmyBdR5ng7e4ICi9NQI-Ob-Yq2OXbRU9kBXMsyOzXEibr7LaNjRkt4cUib91zweTVwBhDmH-Gvc0gNaHitzH-VGz9I_yuP-Yz8i1sBNIXLkvwS2NOPl1C0wIDnipdYtZTh_y0Y04fIhaBTwBE0hjzxLMsB9ehq7TIal12'}/>
+                                            <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
+                                                <div className="w-24 h-24 rounded-full bg-primary/90 text-white flex items-center justify-center transition-all group-hover:scale-110 shadow-2xl border-8 border-white/10">
+                                                    <span className="material-symbols-outlined text-6xl translate-x-1">play_arrow</span>
+                                                </div>
                                             </div>
-                                            <h4 className="text-3xl md:text-4xl font-extrabold text-slate-900 dark:text-white leading-tight">
-                                                {latestEpisode.title}
-                                            </h4>
-                                            <p className="text-slate-600 dark:text-slate-400 text-lg line-clamp-2">
-                                                {latestEpisode.desc}
-                                            </p>
-                                            <div className="pt-4 flex items-center gap-6">
-                                                <button 
-                                                    onClick={() => navigate(`/episodes/episode-${latestEpisode.num}`)}
-                                                    className="bg-primary text-white flex items-center gap-2 px-8 py-4 rounded-2xl font-black text-lg shadow-xl shadow-primary/20 hover:scale-[1.02] active:scale-95 transition-all"
-                                                >
-                                                    <span className="material-symbols-outlined fill-current">play_circle</span>
-                                                    Odpalam!
-                                                </button>
-                                                <button className="size-14 flex items-center justify-center rounded-2xl border-2 border-slate-200 dark:border-slate-800 hover:bg-slate-50 dark:hover:bg-slate-800 text-slate-600 dark:text-slate-400 transition-colors">
-                                                    <span className="material-symbols-outlined">share</span>
-                                                </button>
+                                            <div className="absolute top-6 left-6 flex gap-2">
+                                                <span className="bg-black/60 backdrop-blur-md text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest border border-white/10">Najświeższy release</span>
+                                                <span className="bg-primary text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">Odcinek #{latestEpisode.num}</span>
+                                            </div>
+                                        </div>
+                                        <div className="w-full lg:w-[42%] p-8 md:p-12 flex flex-col justify-between gap-8">
+                                            <div className="flex flex-col gap-4">
+                                                <div className="flex items-center gap-3 text-primary">
+                                                    <span className="material-symbols-outlined text-2xl">mic_external_on</span>
+                                                    <span className="text-sm font-bold uppercase tracking-[0.2em]">Podcast Ekskluzywnie</span>
+                                                </div>
+                                                <h2 className="text-slate-900 dark:text-white text-3xl md:text-4xl font-bold leading-tight font-display">
+                                                    {latestEpisode.title}
+                                                </h2>
+                                                <p className="text-slate-600 dark:text-[#92b7c9] text-lg leading-relaxed line-clamp-3">
+                                                    {latestEpisode.desc}
+                                                </p>
+                                            </div>
+                                            <div className="flex flex-col gap-6">
+                                                <div className="flex items-center gap-6 text-slate-500 dark:text-[#92b7c9] text-sm">
+                                                    <div className="flex items-center gap-2">
+                                                        <span className="material-symbols-outlined text-xl">schedule</span>
+                                                        <span className="font-medium">{latestEpisode.duration}</span>
+                                                    </div>
+                                                </div>
+                                                <div className="flex flex-col sm:flex-row gap-4">
+                                                    <button onClick={() => navigate(`/episodes/episode-${latestEpisode.num}`)} className="flex flex-1 items-center justify-center gap-3 h-16 rounded-2xl bg-primary text-white font-bold text-lg transition-all hover:bg-primary/90 hover:scale-[1.02] shadow-xl shadow-primary/20">
+                                                        <span>Odpalam!</span>
+                                                        <span className="material-symbols-outlined text-2xl">play_circle</span>
+                                                    </button>
+                                                    <button className="flex items-center justify-center size-16 rounded-2xl bg-slate-100 dark:bg-[#233c48] text-slate-600 dark:text-white transition-colors hover:bg-slate-200 dark:hover:bg-[#325567]">
+                                                        <span className="material-symbols-outlined text-2xl">bookmark</span>
+                                                    </button>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </section>
-                    )}
 
-                    <section className="max-w-[1200px] mx-auto px-6 py-24">
-                        <div className="bg-primary rounded-[3rem] p-10 lg:p-20 text-center relative overflow-hidden">
-                            <div className="absolute top-0 right-0 size-64 bg-white/10 rounded-full -mr-32 -mt-32 blur-3xl"></div>
-                            <div className="absolute bottom-0 left-0 size-64 bg-black/10 rounded-full -ml-32 -mb-32 blur-3xl"></div>
-                            <div className="relative z-10 max-w-2xl mx-auto space-y-8">
-                                <div className="space-y-4">
-                                    <h3 className="text-4xl md:text-5xl font-black text-white leading-tight">Bądź przed horyzontem zdarzeń.</h3>
-                                    <p className="text-white/90 text-lg md:text-xl font-medium">
-                                        Zapisz się do newslettera, który nigdy nie ląduje w /dev/null. Sytuacyjne insighty i zero spamu
-                                    </p>
+                        {/* as numbers are low remove this section
+                        <section className="px-6 py-12 w-full flex justify-center">
+                            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 w-full max-w-[1040px]">
+                                <div className="flex flex-col gap-2 rounded-2xl p-8 bg-white dark:bg-card-dark border border-slate-200 dark:border-[#233c48] transition-all hover:border-primary/30 shadow-sm">
+                                    <p className="text-slate-500 dark:text-[#92b7c9] text-xs font-bold uppercase tracking-widest opacity-70">Społeczność</p>
+                                    <p className="text-slate-900 dark:text-white text-3xl font-bold leading-tight font-display">12K+</p>
                                 </div>
-                                <div className="flex flex-col sm:flex-row items-center gap-3 bg-white/10 p-2 rounded-3xl backdrop-blur-sm border border-white/20">
-                                    <input className="w-full bg-white text-slate-900 px-6 py-4 rounded-2xl border-none focus:ring-4 focus:ring-white/20 text-lg placeholder:text-slate-400" placeholder="Podaj maila (nie wycieknie)" type="email"/>
-                                    <button className="w-full sm:w-auto bg-slate-900 dark:bg-background-dark text-white px-10 py-4 rounded-2xl font-black text-lg hover:bg-black transition-colors shrink-0">
-                                        Wchodzę w to
-                                    </button>
+                                <div className="flex flex-col gap-2 rounded-2xl p-8 bg-white dark:bg-card-dark border border-slate-200 dark:border-[#233c48] transition-all hover:border-primary/30 shadow-sm">
+                                    <p className="text-slate-500 dark:text-[#92b7c9] text-xs font-bold uppercase tracking-widest opacity-70">Odcinki</p>
+                                    <p className="text-slate-900 dark:text-white text-3xl font-bold leading-tight font-display">{episodes.length}+</p>
                                 </div>
-                                <p className="text-white/60 text-sm">Zero spamu. Tylko high-signal content. Exit w dowolnym momencie.</p>
+                                <div className="flex flex-col gap-2 rounded-2xl p-8 bg-white dark:bg-card-dark border border-slate-200 dark:border-[#233c48] transition-all hover:border-primary/30 shadow-sm">
+                                    <p className="text-slate-500 dark:text-[#92b7c9] text-xs font-bold uppercase tracking-widest opacity-70">Słuchaczy</p>
+                                    <p className="text-slate-900 dark:text-white text-3xl font-bold leading-tight font-display">5K+</p>
+                                </div>
+                                <div className="flex flex-col gap-2 rounded-2xl p-8 bg-white dark:bg-card-dark border border-slate-200 dark:border-[#233c48] transition-all hover:border-primary/30 shadow-sm">
+                                    <p className="text-slate-500 dark:text-[#92b7c9] text-xs font-bold uppercase tracking-widest opacity-70">Ocena</p>
+                                    <div className="flex items-center gap-1">
+                                        <p className="text-slate-900 dark:text-white text-3xl font-bold leading-tight font-display">4.9</p>
+                                        <span className="material-symbols-outlined text-primary text-xl fill-current">star</span>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </section>
+                        </section>
+                        */}
+
+                        <section className="px-6 py-20 w-full flex justify-center bg-slate-50/50 dark:bg-[#14232a]/50">
+                            <div className="w-full max-w-[1040px]">
+                                <div className="flex flex-col items-center text-center mb-16">
+                                    <h2 className="text-slate-900 dark:text-white text-3xl md:text-5xl font-black font-display mb-4">Głosy BetterDevClub</h2>
+                                    <p className="text-slate-600 dark:text-[#92b7c9] max-w-xl text-lg">Naszą misją jest wypełnianie luki między sprawnym kodowaniem a inżynierią oprogramowania wysokiej klasy.</p>
+                                </div>
+                                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                                    <div className="flex flex-col sm:flex-row items-center sm:items-start gap-8 p-8 rounded-3xl bg-white dark:bg-[#192b33] border border-slate-100 dark:border-[#233c48] shadow-sm hover:shadow-md transition-shadow">
+                                        <div className="size-32 rounded-2xl overflow-hidden shrink-0 border-4 border-primary/10">
+                                            <img alt="Piotrek Stapp" className="w-full h-full object-cover" src="https://media.licdn.com/dms/image/v2/C5603AQHJ0UvTPBXtxg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516341105270?e=1769644800&v=beta&t=x3jhSMz8YmvBQZixWYsATghMQVa7KgpHrciO0RdxAmw"/>
+                                        </div>
+                                        <div className="flex flex-col gap-3 text-center sm:text-left">
+                                            <div>
+                                                <h3 className="text-slate-900 dark:text-white text-2xl font-bold font-display leading-tight">Piotrek Stapp</h3>
+                                                <p className="text-primary text-sm font-black uppercase tracking-widest mt-1">Microsoft MVP & DevOps Zorro</p>
+                                            </div>
+                                            <p className="text-slate-600 dark:text-[#92b7c9] text-base leading-relaxed">Architekt rozwiązań, pasjonat chmury i technologii Microsoft. Specjalista od systemów rozproszonych i cyberbezpieczeństwa.</p>
+                                            <a className="flex items-center justify-center sm:justify-start gap-2 text-slate-400 dark:text-white/50 hover:text-primary transition-colors mt-2 text-sm font-bold" href="https://www.linkedin.com/in/stapp/" target="_blank">
+                                                <span className="material-symbols-outlined text-lg">link</span>
+                                                Connect on LinkedIn
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div className="flex flex-col sm:flex-row items-center sm:items-start gap-8 p-8 rounded-3xl bg-white dark:bg-[#192b33] border border-slate-100 dark:border-[#233c48] shadow-sm hover:shadow-md transition-shadow">
+                                        <div className="size-32 rounded-2xl overflow-hidden shrink-0 border-4 border-primary/10">
+                                            <img alt="Kajetan Duszyński" className="w-full h-full object-cover" src="https://media.licdn.com/dms/image/v2/D4D03AQFihUTFTHbR2A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1718291585626?e=1769644800&v=beta&t=D89QZ00jo_GPnZ9paPPFzte1H4zyWJAa3igdYPQptic"/>
+                                        </div>
+                                        <div className="flex flex-col gap-3 text-center sm:text-left">
+                                            <div>
+                                                <h3 className="text-slate-900 dark:text-white text-2xl font-bold font-display leading-tight">Kajetan Duszyński</h3>
+                                                <p className="text-primary text-sm font-black uppercase tracking-widest mt-1">Microsoft MVP & ninja dev</p>
+                                            </div>
+                                            <p className="text-slate-600 dark:text-[#92b7c9] text-base leading-relaxed">Inżynier oprogramowania, entuzjasta AI i automatyzacji. Buduje narzędzia, które ułatwiają życie deweloperom i skalują biznes.</p>
+                                            <a className="flex items-center justify-center sm:justify-start gap-2 text-slate-400 dark:text-white/50 hover:text-primary transition-colors mt-2 text-sm font-bold" href="https://www.linkedin.com/in/duszynski/" target="_blank">
+                                                <span className="material-symbols-outlined text-lg">link</span>
+                                                Connect on LinkedIn
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section className="px-6 py-24 w-full flex justify-center">
+                            <div className="w-full max-w-[1040px] relative overflow-hidden rounded-[3rem] bg-gradient-to-br from-slate-100 to-white dark:from-[#132128] dark:to-[#0a1114] border-2 border-slate-200 dark:border-[#233c48] shadow-2xl">
+                                <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-10"></div>
+                                <div className="flex flex-col items-center gap-10 px-8 py-20 md:px-24 md:py-28 text-center relative z-10">
+                                    <div className="flex flex-col gap-6">
+                                        <h2 className="text-slate-900 dark:text-white text-4xl md:text-6xl font-black leading-tight tracking-tight font-display max-w-[800px]">
+                                            Bądź przed horyzontem zdarzeń
+                                        </h2>
+                                        <p className="text-slate-600 dark:text-[#92b7c9] text-lg md:text-xl font-normal leading-relaxed max-w-[650px] mx-auto">
+                                            Zapisz się do newslettera, który nigdy nie ląduje w <span className="text-slate-900 dark:text-white font-bold">/dev/null</span>. Sytuacyjne insighty i zero spamu.
+                                        </p>
+                                    </div>
+                                    <div className="flex w-full max-w-[600px] flex-col gap-4">
+                                        <div className="flex flex-col md:flex-row w-full items-stretch p-2 bg-white dark:bg-black/40 rounded-full border border-slate-200 dark:border-white/10 backdrop-blur-sm gap-2">
+                                            <input className="form-input flex w-full min-w-0 flex-1 border-none bg-transparent h-14 text-slate-900 dark:text-white focus:ring-0 placeholder:text-slate-400 dark:placeholder:text-[#92b7c9]/50 px-8 text-lg font-medium" placeholder="Podaj maila (nie wycieknie)" type="email"/>
+                                            <button className="flex min-w-[200px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-14 px-8 bg-slate-900 dark:bg-white text-white dark:text-background-dark text-lg font-bold leading-normal transition-all hover:bg-primary hover:text-white shadow-xl">
+                                                <span className="truncate">Wchodzę w to</span>
+                                            </button>
+                                        </div>
+                                        <p className="text-slate-500 dark:text-[#92b7c9] text-sm font-medium opacity-50 flex items-center justify-center gap-2">
+                                            <span className="material-symbols-outlined text-base">verified_user</span>
+                                            Zero spamu. Tylko high-signal content. Exit w dowolnym momencie.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </main>
                     <GlobalFooter />
                 </div>
             );
@@ -491,89 +583,96 @@
                 <div className="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-200 min-h-screen">
                     <GlobalHeader />
 
-                    <main className="max-w-[960px] mx-auto px-4 py-10">
-                        <div className="flex flex-wrap justify-between items-start gap-6 mb-8">
-                            <div className="flex-1 min-w-[300px]">
-                                <p className="text-primary font-bold text-sm tracking-wider uppercase mb-2">Odcinek #{episode.num}</p>
-                                <h1 className="text-[#0d171b] dark:text-white text-4xl font-black leading-tight tracking-tight mb-4">
-                                    {episode.title}
-                                </h1>
-                                <div className="flex items-center gap-4 text-slate-500 dark:text-slate-400 text-sm">
-                                    <span className="flex items-center gap-1">
-                                        <span className="material-symbols-outlined text-[18px]">calendar_today</span> {episode.date}
-                                    </span>
-                                    <span className="flex items-center gap-1">
-                                        <span className="material-symbols-outlined text-[18px]">schedule</span> {episode.duration}
-                                    </span>
-                                </div>
-                            </div>
-                            <button 
-                                onClick={() => {
-                                    navigator.clipboard.writeText(window.location.href);
-                                    alert('Link skopiowany do schowka!');
-                                }}
-                                className="flex items-center gap-2 px-4 h-10 bg-slate-200 dark:bg-surface-dark text-slate-800 dark:text-slate-200 rounded-lg text-sm font-bold hover:bg-slate-300 dark:hover:bg-slate-700 transition-colors border border-transparent dark:border-slate-800"
-                            >
-                                <span className="material-symbols-outlined text-[18px]">content_copy</span> Kopiuj URL
-                            </button>
-                        </div>
-
-                        <div className="flex flex-wrap gap-3 mb-8">
-                            {episode.platforms && episode.platforms.youtube && (
-                                <a href={episode.platforms.youtube} target="_blank" className="flex items-center gap-2 px-5 py-2.5 bg-slate-900 dark:bg-white dark:text-slate-900 text-white rounded-lg text-sm font-bold hover:opacity-90 transition-all shadow-md">
-                                    <span className="material-symbols-outlined">play_circle</span> YouTube
-                                </a>
-                            )}
-                            {episode.platforms && episode.platforms.spotify && (
-                                <a href={episode.platforms.spotify} target="_blank" className="flex items-center gap-2 px-5 py-2.5 bg-[#1DB954] text-white rounded-lg text-sm font-bold hover:opacity-90 transition-all shadow-md shadow-[#1DB954]/20">
-                                    <span className="material-symbols-outlined">podcasts</span> Spotify
-                                </a>
-                            )}
-                            {episode.platforms && episode.platforms.apple && (
-                                <a href={episode.platforms.apple} target="_blank" className="flex items-center gap-2 px-5 py-2.5 bg-[#872EC4] text-white rounded-lg text-sm font-bold hover:opacity-90 transition-all shadow-md shadow-[#872EC4]/20">
-                                    <span className="material-symbols-outlined">audio_file</span> Apple Podcasts
-                                </a>
-                            )}
-                        </div>
-
-                        <div className="mb-12">
-                            {episode.youtubeId ? (() => {
-                                const getYoutubeId = (id) => {
-                                    if (!id) return null;
-                                    if (id.includes('v=')) return id.split('v=')[1].split('&')[0];
-                                    if (id.includes('youtu.be/')) return id.split('youtu.be/')[1].split('?')[0];
-                                    if (id.includes('embed/')) return id.split('embed/')[1].split('?')[0];
-                                    return id;
-                                };
-                                const cleanId = getYoutubeId(episode.youtubeId);
-                                
-                                return (
-                                    <div className="aspect-video w-full rounded-xl overflow-hidden shadow-2xl bg-black">
-                                        <iframe 
-                                            width="100%" 
-                                            height="100%" 
-                                            src={`https://www.youtube.com/embed/${cleanId}?enablejsapi=1`} 
-                                            title={episode.title}
-                                            frameBorder="0" 
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                                            allowFullScreen
-                                        ></iframe>
-                                    </div>
-                                );
-                            })() : (
-                                <div className="relative flex flex-col justify-end bg-slate-200 dark:bg-slate-800 bg-cover bg-center aspect-video rounded-xl overflow-hidden group shadow-2xl" style={{backgroundImage: `linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url("${(episode.youtubeId) ? `https://i.ytimg.com/vi/${episode.youtubeId}/maxresdefault.jpg` : ''}")`}}>
-                                    <button className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center justify-center rounded-full size-20 bg-primary/90 text-white shadow-2xl hover:scale-110 transition-transform ring-4 ring-primary/20">
-                                        <span className="material-symbols-outlined !text-4xl fill-1">play_arrow</span>
-                                    </button>
-                                </div>
-                            )}
-                        </div>
-
-                        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
+                    <main className="max-w-[1100px] mx-auto px-6 py-8 md:py-10">
+                        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10">
                             <div className="lg:col-span-8">
-                                <section className="mb-12" id="summary">
-                                    <h3 className="text-2xl font-bold text-[#0d171b] dark:text-white mb-4">TL;DR</h3>
-                                    <div className="prose prose-slate dark:prose-invert max-w-none text-slate-600 dark:text-slate-300 leading-relaxed space-y-4">
+                                <div className="mb-8">
+                                    <div className="flex items-center gap-3 mb-4">
+                                        <span className="px-2 py-0.5 bg-primary/10 text-primary text-[10px] font-bold rounded uppercase tracking-widest">Odcinek {episode.num}</span>
+                                        <span className="text-slate-500 text-[10px] font-mono">/ Opublikowano {episode.date}</span>
+                                    </div>
+                                    <h1 className="text-2xl md:text-5xl font-extrabold leading-tight tracking-tight mb-4 dark:text-white">
+                                        {episode.title}
+                                    </h1>
+                                </div>
+
+                                <div className="video-container rounded-xl border border-white/10 shadow-2xl bg-black overflow-hidden mb-12">
+                                    {episode.youtubeId ? (() => {
+                                        const getYoutubeId = (id) => {
+                                            if (!id) return null;
+                                            if (id.includes('v=')) return id.split('v=')[1].split('&')[0];
+                                            if (id.includes('youtu.be/')) return id.split('youtu.be/')[1].split('?')[0];
+                                            if (id.includes('embed/')) return id.split('embed/')[1].split('?')[0];
+                                            return id;
+                                        };
+                                        const cleanId = getYoutubeId(episode.youtubeId);
+                                        
+                                        return (
+                                            <iframe 
+                                                width="100%" 
+                                                height="100%" 
+                                                src={`https://www.youtube.com/embed/${cleanId}?enablejsapi=1`} 
+                                                title={episode.title}
+                                                frameBorder="0" 
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                                allowFullScreen
+                                            ></iframe>
+                                        );
+                                    })() : (
+                                        <div className="absolute inset-0 flex flex-col justify-end bg-slate-200 dark:bg-slate-800 bg-cover bg-center" style={{backgroundImage: `linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url("${(episode.youtubeId) ? `https://i.ytimg.com/vi/${episode.youtubeId}/maxresdefault.jpg` : ''}")`}}>
+                                            <button className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center justify-center rounded-full size-20 bg-primary/90 text-white shadow-2xl hover:scale-110 transition-transform ring-4 ring-primary/20">
+                                                <span className="material-symbols-outlined !text-4xl fill-1">play_arrow</span>
+                                            </button>
+                                        </div>
+                                    )}
+                                </div>
+
+                                <div className="lg:hidden mb-12 space-y-4">
+                                    {episode.platforms && episode.platforms.youtube && (
+                                        <a className="w-full flex items-center justify-center gap-3 py-4 bg-youtube text-white rounded-xl text-sm font-bold uppercase tracking-widest transition-all hover:brightness-110 shadow-lg shadow-youtube/10" href={episode.platforms.youtube} target="_blank">
+                                            <span className="material-symbols-outlined text-2xl">play_circle</span>
+                                            Subskrybuj na YouTube
+                                        </a>
+                                    )}
+                                    <div className="grid grid-cols-2 gap-4">
+                                        {episode.platforms && episode.platforms.spotify && (
+                                            <a className="flex items-center justify-center gap-3 py-3.5 bg-white/5 border border-white/10 rounded-xl hover:bg-white/10 transition-all group" href={episode.platforms.spotify} target="_blank">
+                                                <img alt="Spotify" className="size-5" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDsMBUEIfEjYGGfyj_jBzSlcYhW4zaXk_HR3i3YvLvY0f_2azYUo-4Mo48dmvHQ0Vq-gBcoARyIXAlPMM75lMzbAL_HAx7vtfsxBNzuihpFhDYH1BhJfNx9Tqcx24e2aiybW07oyJcZqsqhRM-wP7GfyuHuRmAyk_pu15gkpKRrJNXAnpU3uTlthT652YZ1j3DV82YdzsgOUVLEqWb3XEKrxDcbv2FL1JT-z3qr6VQLrFV7zCnls1E4JnkpfLp66SU_UhRBD8rWdO1q"/>
+                                                <span className="text-[10px] font-bold text-[#1DB954] uppercase tracking-widest">Spotify</span>
+                                            </a>
+                                        )}
+                                        {episode.platforms && episode.platforms.apple && (
+                                            <a className="flex items-center justify-center gap-3 py-3.5 bg-white/5 border border-white/10 rounded-xl hover:bg-white/10 transition-all group" href={episode.platforms.apple} target="_blank">
+                                                <img alt="Apple" className="size-5 invert" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCzHVul9oOoatIU-uHiuhzrCasNB8X4rofCwRC3ZG2yNV72wxiegoOlZdCo_r-oc25BaGPBTdqGv3ikkV5rY0q78P29kLTHUkhrYjODqJfWqi5QQhZqcdOcmDwLsh73nt6LUNKOtqrCy3-zGcTY4BMJ66xGVUDdc8p3I1n48iTzK4M4VPtQm-OthP-QhiHxj5n4BiskWsJR7tT7fcJieGJwdGDEIdmUG6ain5uApD6je-NQIeDsUVUh1bUUO8kJN3fKAplBMlm1j1Un"/>
+                                                <span className="text-[10px] font-bold text-white uppercase tracking-widest">Apple</span>
+                                            </a>
+                                        )}
+                                    </div>
+                                </div>
+
+                                <section className="mb-16 p-8 rounded-2xl bg-gradient-to-br from-white/5 to-transparent border border-white/10 relative overflow-hidden group">
+                                    <div className="absolute top-0 right-0 -mt-8 -mr-8 size-32 bg-primary/10 rounded-full blur-3xl group-hover:bg-primary/20 transition-colors"></div>
+                                    <div className="relative z-10 flex flex-col md:flex-row items-center gap-8">
+                                        <div className="flex-1 text-center md:text-left">
+                                            <h3 className="text-xl font-bold dark:text-white mb-2 tracking-tight">Zapisz się do klubu</h3>
+                                            <p className="text-slate-400 text-sm leading-relaxed">Cotygodniowe analizy rzemiosła i kariery w IT. Dołącz do 100+ inżynierów.</p>
+                                        </div>
+                                        <div className="w-full md:w-auto shrink-0">
+                                            <form className="flex flex-col sm:flex-row gap-2" onSubmit={e => e.preventDefault()}>
+                                                <input className="bg-black/40 border-white/10 rounded-lg text-sm px-4 py-3 focus:ring-primary focus:border-primary placeholder:text-slate-600 text-white min-w-[240px]" placeholder="twoj@email.com" type="email"/>
+                                                <button className="px-8 py-3 bg-primary hover:bg-primary/90 text-white font-bold rounded-lg text-xs uppercase tracking-widest transition-all">
+                                                    Dołącz
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </section>
+
+                                <section id="summary" className="mb-16">
+                                    <h2 className="text-xl font-bold mb-6 dark:text-white tracking-tight flex items-center gap-2">
+                                        <span className="material-symbols-outlined text-primary">analytics</span> Podsumowanie
+                                    </h2>
+                                    <div className="prose-custom max-w-none">
                                         {(episode.summary && episode.summary.split('\n').map((para, i) => (
                                             <p key={i}>{para}</p>
                                         ))) || <p>{episode.desc}</p>}
@@ -581,31 +680,31 @@
                                 </section>
 
                                 {episode.resources && episode.resources.length > 0 && (
-                                    <section className="mb-12 bg-white dark:bg-surface-dark p-8 rounded-xl border border-slate-200 dark:border-slate-800" id="resources">
-                                        <h3 className="text-2xl font-bold text-[#0d171b] dark:text-white mb-6 flex items-center gap-2">
-                                            <span className="material-symbols-outlined text-primary">link</span> Materiały i repo
-                                        </h3>
-                                        <ul className="space-y-4">
+                                    <section id="resources" className="mb-16">
+                                        <h2 className="text-xl font-bold mb-6 dark:text-white tracking-tight flex items-center gap-2">
+                                            <span className="material-symbols-outlined text-primary">link</span> Linki i materiały
+                                        </h2>
+                                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                                             {episode.resources.map((res, i) => (
-                                                <li key={i} className="flex items-start gap-3">
-                                                    <span className="material-symbols-outlined text-slate-400 mt-0.5">{res.type}</span>
-                                                    <div>
-                                                        <a className="text-primary font-semibold hover:underline decoration-2 underline-offset-4" href={res.url} target="_blank">{res.label}</a>
-                                                        <p className="text-sm text-slate-500 dark:text-slate-400">{res.description}</p>
+                                                <a key={i} className="p-4 rounded-lg bg-white/5 border border-white/10 hover:bg-white/10 transition-all flex items-center justify-between group" href={res.url} target="_blank">
+                                                    <div className="flex items-center gap-3">
+                                                        <span className="material-symbols-outlined text-slate-500 group-hover:text-primary">{res.type || 'link'}</span>
+                                                        <span className="text-sm font-medium">{res.label}</span>
                                                     </div>
-                                                </li>
+                                                    <span className="material-symbols-outlined text-sm text-slate-600 group-hover:translate-x-1 transition-transform">open_in_new</span>
+                                                </a>
                                             ))}
-                                        </ul>
+                                        </div>
                                     </section>
                                 )}
 
                                 {transcript && transcript.length > 0 && (
-                                    <section id="transcript">
+                                    <section className="pt-12 mt-16 border-t border-white/5" id="transcript">
                                         <div className="flex items-center justify-between mb-8">
-                                            <h3 className="text-2xl font-bold text-[#0d171b] dark:text-white">Logi (transkrypcja)</h3>
-                                            <button className="text-sm text-primary font-bold hover:underline decoration-2 underline-offset-4">Pobierz PDF</button>
+                                            <h2 className="text-xl font-bold dark:text-white tracking-tight">Transkrypcja (logi)</h2>
+                                            <button className="text-[10px] font-bold text-primary uppercase tracking-widest border border-primary/20 px-3 py-1 rounded hover:bg-primary/10">Pełna Transkrypcja</button>
                                         </div>
-                                        <div className="space-y-6">
+                                        <div className="space-y-8">
                                             {transcript.map((line, i) => {
                                                 const sharedSpeaker = window.SPEAKERS_DATA && getSpeaker(line.speaker);
                                                 const episodeSpeaker = episode.speakers && episode.speakers[line.speaker];
@@ -621,7 +720,7 @@
                                                             <span className={`text-xs text-slate-400 ${isGuest ? 'mr-auto' : 'ml-auto'}`}>{line.time}</span>
                                                         </div>
                                                         <div className={`${isGuest ? 'transcript-bubble-guest p-4 rounded-l-2xl rounded-br-2xl' : 'transcript-bubble-host p-4 rounded-r-2xl rounded-bl-2xl'}`}>
-                                                            <p className={`text-sm leading-relaxed text-slate-300'}`}>
+                                                            <p className={`text-sm leading-relaxed`}>
                                                                 {line.text}
                                                             </p>
                                                         </div>
@@ -632,50 +731,83 @@
                                     </section>
                                 )}
                             </div>
+
                             <aside className="lg:col-span-4">
-                                <div className="sticky top-24 space-y-8">
-                                    <div className="bg-primary text-white p-6 rounded-xl shadow-xl shadow-primary/30 relative overflow-hidden">
-                                        <div className="absolute -right-8 -top-8 size-24 bg-white/10 rounded-full blur-2xl"></div>
-                                        <h4 className="text-lg font-bold mb-2 relative z-10">Zapisz się do klubu</h4>
-                                        <p className="text-sm opacity-90 mb-6 relative z-10">Zero legacy spamu. Tylko high-signal content dla ludzi, którzy czytają README.</p>
-                                        <form className="space-y-3 relative z-10" onSubmit={e => e.preventDefault()}>
-                                            <input className="w-full px-4 py-2.5 rounded-lg bg-white/20 border-transparent placeholder:text-white/70 focus:bg-white/30 focus:ring-2 focus:ring-white/50 text-sm border-none transition-all" placeholder="ty@firma.pl" type="email"/>
-                                            <button className="w-full py-2.5 bg-white text-primary font-bold rounded-lg hover:bg-slate-100 active:scale-[0.98] transition-all text-sm shadow-lg">
-                                                Subskrybuj Newsletter
-                                            </button>
-                                        </form>
+                                <div className="sticky top-24 space-y-6">
+                                    <div className="rounded-xl border border-white/10 bg-white/5 overflow-hidden">
+                                        <div className="p-6">
+                                            <h4 className="text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-4">Centrum Rozwoju</h4>
+                                            {episode.platforms && episode.platforms.youtube && (
+                                                <a className="w-full flex items-center justify-center gap-3 py-3.5 bg-youtube text-white rounded-lg text-xs font-bold uppercase tracking-widest transition-all hover:brightness-110 shadow-lg shadow-youtube/10" href={episode.platforms.youtube} target="_blank">
+                                                    <span className="material-symbols-outlined text-xl">play_circle</span>
+                                                    Subskrybuj na YouTube
+                                                </a>
+                                            )}
+                                            <div className="mt-4 pt-4 border-t border-white/5">
+                                                <form className="space-y-2" onSubmit={e => e.preventDefault()}>
+                                                    <label className="text-[9px] font-bold text-slate-500 uppercase tracking-widest">Newsletter</label>
+                                                    <div className="flex gap-2">
+                                                        <input className="flex-1 bg-black/40 border-white/10 rounded-lg text-[10px] py-2.5 focus:ring-primary focus:border-primary placeholder:text-slate-600 text-white" placeholder="dev@email.com" type="email"/>
+                                                        <button className="px-4 py-2.5 bg-primary hover:bg-primary/90 text-white font-bold rounded-lg text-[10px] uppercase tracking-widest transition-all">OK</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div className="px-6 py-4 bg-black/20 flex flex-col gap-3">
+                                            <h4 className="text-[10px] font-bold text-slate-500 uppercase tracking-widest">Słuchaj wszędzie</h4>
+                                            <div className="grid grid-cols-2 gap-2">
+                                                {episode.platforms && episode.platforms.spotify && (
+                                                    <a className="flex items-center justify-center gap-2 py-2 bg-white/5 border border-white/10 rounded-lg hover:bg-white/10 transition-all group" href={episode.platforms.spotify} target="_blank">
+                                                        <img alt="Spotify" className="size-4" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDsMBUEIfEjYGGfyj_jBzSlcYhW4zaXk_HR3i3YvLvY0f_2azYUo-4Mo48dmvHQ0Vq-gBcoARyIXAlPMM75lMzbAL_HAx7vtfsxBNzuihpFhDYH1BhJfNx9Tqcx24e2aiybW07oyJcZqsqhRM-wP7GfyuHuRmAyk_pu15gkpKRrJNXAnpU3uTlthT652YZ1j3DV82YdzsgOUVLEqWb3XEKrxDcbv2FL1JT-z3qr6VQLrFV7zCnls1E4JnkpfLp66SU_UhRBD8rWdO1q"/>
+                                                        <span className="text-[10px] font-bold text-[#1DB954] uppercase">Spotify</span>
+                                                    </a>
+                                                )}
+                                                {episode.platforms && episode.platforms.apple && (
+                                                    <a className="flex items-center justify-center gap-2 py-2 bg-white/5 border border-white/10 rounded-lg hover:bg-white/10 transition-all group" href={episode.platforms.apple} target="_blank">
+                                                        <img alt="Apple" className="size-4 invert" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCzHVul9oOoatIU-uHiuhzrCasNB8X4rofCwRC3ZG2yNV72wxiegoOlZdCo_r-oc25BaGPBTdqGv3ikkV5rY0q78P29kLTHUkhrYjODqJfWqi5QQhZqcdOcmDwLsh73nt6LUNKOtqrCy3-zGcTY4BMJ66xGVUDdc8p3I1n48iTzK4M4VPtQm-OthP-QhiHxj5n4BiskWsJR7tT7fcJieGJwdGDEIdmUG6ain5uApD6je-NQIeDsUVUh1bUUO8kJN3fKAplBMlm1j1Un"/>
+                                                        <span className="text-[10px] font-bold text-white uppercase">Apple</span>
+                                                    </a>
+                                                )}
+                                            </div>
+                                        </div>
                                     </div>
-                                    
-                                    <nav className="p-6 bg-white dark:bg-surface-dark rounded-xl border border-slate-200 dark:border-slate-800">
-                                        <h4 className="text-xs font-bold text-slate-400 dark:text-slate-500 uppercase tracking-widest mb-4">Na tej podstronie</h4>
-                                        <ul className="space-y-3">
-                                            <li><a className="flex items-center gap-2 text-sm text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-primary transition-colors group" href="#summary">
-                                                <span className="size-1.5 rounded-full bg-slate-300 dark:bg-slate-600 group-hover:bg-primary transition-colors"></span> TL;DR
-                                            </a></li>
-                                            {episode.resources && <li><a className="flex items-center gap-2 text-sm text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-primary transition-colors group" href="#resources">
-                                                <span className="size-1.5 rounded-full bg-slate-300 dark:bg-slate-600 group-hover:bg-primary transition-colors"></span> Materiały
-                                            </a></li>}
-                                            {transcript && <li><a className="flex items-center gap-2 text-sm text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-primary transition-colors group" href="#transcript">
-                                                <span className="size-1.5 rounded-full bg-slate-300 dark:bg-slate-600 group-hover:bg-primary transition-colors"></span> Logi
-                                            </a></li>}
-                                        </ul>
-                                    </nav>
 
                                     {guest && guest.role !== 'Host' && (
-                                        <div className="p-6 bg-white dark:bg-surface-dark rounded-xl border border-slate-200 dark:border-slate-800">
-                                            <h4 className="text-xs font-bold text-slate-400 dark:text-slate-500 uppercase tracking-widest mb-4">O Gościu</h4>
-                                            <div className="flex items-center gap-3 mb-3">
-                                                <div className="size-12 rounded-lg bg-slate-200 dark:bg-slate-700 bg-cover border border-slate-200 dark:border-slate-800" style={{backgroundImage: `url("${guest.picture}")`}}></div>
+                                        <div className="p-6 rounded-xl bg-white/5 border border-white/10">
+                                            <h4 className="text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-4">W tym odcinku</h4>
+                                            <div className="flex items-center gap-4">
+                                                <div className="size-12 rounded-xl bg-cover bg-center border border-white/10" style={{backgroundImage: `url("${guest.picture}")`}}></div>
                                                 <div>
-                                                    <p className="font-bold text-sm dark:text-white">{guest.name}</p>
-                                                    <p className="text-xs text-slate-500 dark:text-slate-400">{guest.guestRole || guest.role}{guest.company ? ` @ ${guest.company}` : ''}</p>
+                                                    <span className="text-sm font-bold text-white block">{guest.name}</span>
+                                                    <span className="text-[10px] text-slate-500 font-medium">{guest.guestRole || guest.role}{guest.company ? ` @ ${guest.company}` : ''}</span>
                                                 </div>
                                             </div>
-                                            <p className="text-xs text-slate-600 dark:text-slate-400 leading-normal">
+                                            <p className="text-xs text-slate-400 leading-normal mt-4">
                                                 {guest.bio}
                                             </p>
                                         </div>
                                     )}
+
+                                    <div className="p-6 rounded-xl bg-white/5 border border-white/10">
+                                        <h4 className="text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-4">Na tej stronie</h4>
+                                        <ul className="space-y-3">
+                                            <li><a className="text-xs font-medium text-slate-400 hover:text-primary flex items-center gap-2" href="#summary"><span className="material-symbols-outlined text-sm">subject</span> Podsumowanie</a></li>
+                                            {episode.resources && <li><a className="text-xs font-medium text-slate-400 hover:text-primary flex items-center gap-2" href="#resources"><span className="material-symbols-outlined text-sm">link</span> Linki</a></li>}
+                                            {transcript && <li><a className="text-xs font-medium text-slate-400 hover:text-primary flex items-center gap-2" href="#transcript"><span className="material-symbols-outlined text-sm">history_edu</span> Logi</a></li>}
+                                        </ul>
+                                    </div>
+
+                                    <div>
+                                        <h4 className="text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-6 px-2">Więcej odcinków</h4>
+                                        <div className="space-y-2">
+                                            {episodes.filter(e => e.num !== num).slice(0, 3).map(e => (
+                                                <EpisodeLink key={e.num} episode={e} className="group block p-3 rounded-lg hover:bg-white/5 transition-all">
+                                                    <div className="text-[9px] text-primary font-bold mb-1 uppercase tracking-widest">#{e.num}</div>
+                                                    <h5 className="text-xs font-bold text-slate-300 group-hover:text-primary transition-colors leading-snug">{e.title}</h5>
+                                                </EpisodeLink>
+                                            ))}
+                                        </div>
+                                    </div>
                                 </div>
                             </aside>
                         </div>
