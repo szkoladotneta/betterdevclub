@@ -213,17 +213,17 @@
                         onSubmit={handleSubmit}
                         className="flex flex-col gap-3 w-full"
                     >
-                        <div className="flex flex-col gap-1 p-2 bg-black/40 rounded-xl border border-white/10 shadow-inner">
+                        <div className="flex flex-col gap-2">
                             <input 
                                 name="fields[name]"
-                                className="bg-transparent border-none text-xs py-2 focus:ring-0 placeholder:text-white/80 text-white px-3 border-b border-white/5" 
+                                className="bg-black/40 rounded-xl border border-white/10 shadow-inner text-xs py-3 focus:ring-0 placeholder:text-white/80 text-white px-4" 
                                 placeholder="Twoje imię"
                                 value={name}
                                 onChange={(e) => setName(e.target.value)}
                             />
                             <input 
                                 name="fields[email]"
-                                className="bg-transparent border-none text-xs py-2 focus:ring-0 placeholder:text-white/80 text-white px-3" 
+                                className="bg-black/40 rounded-xl border border-white/10 shadow-inner text-xs py-3 focus:ring-0 placeholder:text-white/80 text-white px-4" 
                                 placeholder="dev@email.com" 
                                 type="email"
                                 required
@@ -765,15 +765,15 @@
                                     </div>
                                 </div>
 
-                                <section className="mb-16 p-8 rounded-2xl bg-gradient-to-br from-white/5 to-transparent border border-white/10 relative overflow-hidden group">
-                                    <div className="absolute top-0 right-0 -mt-8 -mr-8 size-32 bg-primary/10 rounded-full blur-3xl group-hover:bg-primary/20 transition-colors"></div>
-                                    <div className="relative z-10 flex flex-col xl:flex-row items-center gap-8">
-                                        <div className="flex-1 text-center xl:text-left">
-                                            <h3 className="text-xl font-bold dark:text-white mb-2 tracking-tight">Zapisz się do klubu</h3>
-                                            <p className="text-slate-400 text-sm leading-relaxed">Cotygodniowe analizy rzemiosła i kariery w IT. Dołącz do 100+ inżynierów.</p>
+                                <section className="mb-16 p-10 md:p-12 rounded-[2rem] bg-gradient-to-br from-white/5 to-transparent border border-white/10 relative overflow-hidden group text-center">
+                                    <div className="absolute top-0 right-0 -mt-8 -mr-8 size-48 bg-primary/10 rounded-full blur-3xl group-hover:bg-primary/20 transition-colors"></div>
+                                    <div className="relative z-10 flex flex-col items-center gap-8">
+                                        <div className="max-w-[600px]">
+                                            <h3 className="text-2xl md:text-3xl font-bold dark:text-white mb-3 tracking-tight">Zapisz się do klubu</h3>
+                                            <p className="text-slate-400 text-base leading-relaxed">Cotygodniowe analizy rzemiosła i kariery w IT. Dołącz do 250+ inżynierów.</p>
                                         </div>
-                                        <div className="w-full xl:w-auto shrink-0">
-                                            <NewsletterForm compact={true} />
+                                        <div className="w-full max-w-[700px]">
+                                            <NewsletterForm />
                                         </div>
                                     </div>
                                 </section>
