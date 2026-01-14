@@ -950,14 +950,16 @@
             const [loading, setLoading] = useState(true);
 
             useEffect(() => {
-                const version = "7ddad1a435";
+                const version = "1557851c52";
                 Promise.all([
                     fetch(`/episodes.json?v=${version}`).then(res => res.json()),
                     fetch(`/speakers.json?v=${version}`).then(res => res.json())
                 ]).then(([episodesData, speakersData]) => {
                     window.EPISODES_DATA = episodesData;
                     window.SPEAKERS_DATA = speakersData;
-                    setEpisodes(episodesData);
+                    // Filter out unpublished episodes for the UI
+                    const publishedEpisodes = episodesData.filter(e => !e.notPublished);
+                    setEpisodes(publishedEpisodes);
                     setLoading(false);
                 }).catch(err => {
                     console.error("Failed to load data:", err);

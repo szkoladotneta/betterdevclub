@@ -1,5 +1,73 @@
 [
   {
+    "id": 12,
+    "num": "12",
+    "title": "Better Dev Club #12 - Czy może działać model AI do analizy snu?",
+    "date": "2026-01-22",
+    "duration": "20:00",
+    "desc": "Rozmawiamy o tym, jak AI może analizować nasze dane biologiczne, w tym sen, aby wykrywać ryzyko chorób. Czy nasze smartwatche staną się naszymi lekarzami pierwszego kontaktu?",
+    "tags": ["#ai", "#health", "#biohacking"],
+    "platforms": {
+      "youtube": "https://www.youtube.com/playlist?list=PLfYUBxD2uoi6rCgRWK0SYD33M_T6JPMm1",
+      "spotify": "https://open.spotify.com/show/4EdHJK4qpJYWeGBQicZsjK",
+      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club/id1848840540"
+    },
+    "resources": [
+      {
+        "type": "link",
+        "label": "SleepFM w Nature",
+        "url": "https://www.nature.com/articles/s41591-025-04133-4",
+        "description": "Artykuł naukowy opisujący badania nad wykorzystaniem AI do analizy snu i wykrywania ryzyka chorób."
+      },
+      {
+        "type": "link",
+        "label": "Post Andrzeja Dragana",
+        "url": "https://www.facebook.com/andrzejdragan/posts/pfbid0CdR8nbtuYJESPuqToYxEJHrBsukyQPuCKbJgZ9gL8w8vDKjjbmA8rPME1q11zc1Tl",
+        "description": "Przeczytajcie sami co im wyszło :)"
+      }
+    ],
+    "youtubeId": "",
+    "guestKey": "piotrek",
+    "notPublished": true
+  },
+  {
+    "id": 11,
+    "num": "11",
+    "title": "Better Dev Club #11 - Drama w Tailwindzie i upadek Stack Overflow",
+    "date": "2026-01-15",
+    "duration": "20:03",
+    "desc": "Drama w Tailwindzie, 75% zwolnień (czyli trzech ludzi) i upadek giganta – Stack Overflow. Rozmawiamy o tym, czy AI faktycznie zabiera nam pracę, czy tylko ją zmienia na przykładzie Adama Wathana i jego walki o ruch na dokumentacji. Analizujemy nowe partnerstwa z Vercelem i Google AI Studio oraz zastanawiamy się, skąd modele AI będą czerpać wiedzę za 5 lat, skoro Stack Overflow świeci pustkami. „Piotrek robi takie cuda w JSON-ach, że naprawdę palce lizać”.",
+    "tags": ["#ai", "#tailwind", "#stackoverflow", "#career"],
+    "platforms": {
+      "youtube": "https://www.youtube.com/playlist?list=PLfYUBxD2uoi6rCgRWK0SYD33M_T6JPMm1",
+      "spotify": "https://open.spotify.com/show/4EdHJK4qpJYWeGBQicZsjK",
+      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club/id1848840540"
+    },
+    "resources": [
+      {
+        "type": "link",
+        "label": "Komentarz w PR do Tailwinda",
+        "url": "https://github.com/tailwindlabs/tailwindcss.com/pull/2388#issuecomment-3717222957",
+        "description": "Komentarz Adama Wathana wyjaśniający sytuację z dokumentacją Tailwinda i zwolnieniami."
+      },
+      {
+        "type": "link",
+        "label": "Wykres użycia Stack Overflow",
+        "url": "https://data.stackexchange.com/stackoverflow/query/1926661#graph",
+        "description": "Wykres pokazujący spadek liczby pytań i odpowiedzi na Stack Overflow w ostatnich latach."
+      },
+      {
+        "type": "link",
+        "label": "Aktualna lista sponsorów Tailwinda",
+        "url": "https://tailwindcss.com/sponsor",
+        "description": "Lista aktualnych sponsorów Tailwinda, po zakończeniu 'dramy'."
+      }
+    ],
+    "youtubeId": "",
+    "guestKey": "piotrek",
+    "notPublished": true
+  },
+  {
     "id": 10,
     "num": "10",
     "title": "Better Dev Club #10 - AI Przewidywania na 2026",

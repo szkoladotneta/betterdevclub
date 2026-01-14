@@ -37,9 +37,10 @@ template = re.sub(r'const version = ".*?";', f'const version = "{data_version}";
 with open(INPUT_FILE, 'w', encoding='utf-8') as f:
     f.write(template)
 
-# Load episodes data simply
+# Load episodes data and filter published ones
 with open(EPISODES_FILE, 'r', encoding='utf-8') as f:
-    episodes = json.load(f)
+    all_episodes = json.load(f)
+    episodes = [ep for ep in all_episodes if not ep.get('notPublished', False)]
 
 def update_meta(content, episode):
     # Update Meta Tags

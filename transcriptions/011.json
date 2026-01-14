@@ -1,0 +1,209 @@
+{
+  "transcript": [
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:00",
+      "text": "Cześć Piotrek!"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:01",
+      "text": "Cześć, Kajtek"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:02",
+      "text": "Słuchaj, czy słyszałeś o tym? Pewnie słyszałeś, ale i tak ci powiem, że Tailwind ma problemy przez AI."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:09",
+      "text": "No właśnie. A Ciebie już też zwolnili? Bo tam zwolnili 75 % załogi."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:15",
+      "text": "No widzisz, teraz się cieszę, że nie pracuję w Tailwindzie. W ogóle daleko mi do tego frameworka tak ogólnie. Ale mnie jeszcze nie zwolnili. A być może szkoda. Ha ha ha!"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:30",
+      "text": "Znaczy co chciałbyś być zwolniony przez AI? Jak gdyby życzenie na 2026?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:33",
+      "text": "Wiesz... Dokładnie, raz zostałem zwolniony przez człowieka, teraz będę zwolniony przez AI. Wszystkiego trzeba spróbować w życiu. A tak serio, to ja się w ogóle nie dziwię, tak zupełnie szczerze. Ja się nigdy tailwindem specjalnie nie interesowałem, żeby powiedzieć szczerze. Trochę to zbyt uprościłem. Nie interesowałem się nimi jako firmą. Interesowałem się nimi jako frameworkiem, oczywiście, do tego, żeby sobie używać styli. Kiedyś nawet na jednej konferencji chyba opowiadałem o tym, że Blazor z tailwindem nawet się całkiem lubią i nawet to fajnie działało swego czasu. Ale dopiero po tym newsie ja się dowiedziałem, że oni zarabiają, a co więcej, że mają jakiś pracowników i teraz... Teraz już nie mają, ale to jest dla mnie to znaczenie."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "01:35",
+      "text": "To już nie jest to taki... Tyki."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "01:39",
+      "text": "Jak to triki?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "01:41",
+      "text": "No dobra, po pierwsze zwalnili się, dobra. A czy wiesz co stoi za liczbą 75 % bo 75 % to brzmi po prostu kosmos, to w ogóle jest kosmos. A ile to jest?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "01:52",
+      "text": "No to pewnie było ich czterech i został jeden. Albo coś w tym stylu."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "01:57",
+      "text": "Dokładnie tak, było czterech został jeden. To bo wiesz. Po drugie, to jest chyba jedna z takich informacji, jak powiesz, że z zespołu wleciało trzech ludzi, to już nie robi takiego wrażenia, ale 75 procent to po prostu bije. Znaczy, dobra, trochę jest tak, rzeczywiście Tailwind jest mega popularny, jak sam powiedziałeś, jest mega popularnym..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "02:05",
+      "text": "OK."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "02:24",
+      "text": "frameworkiem CSS-owym bardzo fajnie zaadoptowanym przez wszystkie LLM jak ktoś widział naszą nową stronę to ona jest postawiona na nowym Tailwindzie ponieważ tak LLM podpowiadają i tak rzeczywiście szybko łatwo się to robi. Mam kilka znajomych, pamiętam że parę lat temu mówił dlaczego Tailwind to jest zło ale jak gdyby działa, nie wygrało może to tak. I Tailwind w ogóle jako firma, tak jak sam powiedziałeś, zarabiał w zasadzie na ruchu. Oni sporo ruchu na swoich stronach, na dokumentacji i tak naprawdę tam sprzedawali powiedzmy, że płatne komponenty, uproszmy to tak, czyli tam mieli rzeczywiście te dodatkowe usługi. No i to dało im, dawało im kasę, trzeba policzyć czterech światowej klasy inżynierów. Nie mam pojęcia ile zarabiał, nigdzie to nikt nigdy tego nie powie, no ale drogi słuchacze, możecie sam wyliczyć, mam nadzieję, że jesteś klasowym, znaczy światowej klasy inżynierem, a jak nie jesteś, to chcesz być, więc jak gdyby chcesz zgadnąć te zarobki, pomnóż to razy czterech ludzi, pomnóż to pewnie jeszcze razy cztery, bo to w Stanach, a nie u nas i w tym stylu, nie? Więc trochę tej kasy rzeczywiście, żeby to się rozwijało. To należy powiedzieć. Cała drama zaczęła się od tego co jest podlinkowane niżej, że w ramach pull requestu o lepszym wsparciu LLM-ów Adam Wathan, czyli ten główny tailwindowiec, założyciel... Chciałem przeczytać nazwisko, ale ja po prostu nie wiem jak go przeczytać, on się pisze Wathan. cholera wie, mogę przeczytać go po polsku, Vat Hanh, to, ale, sorry, wybaczcie, jak ktoś wie, ja z chęcią się dowiem, który właśnie napisał, że im zleciało 80%, 70 % ruchu i przez to po prostu zarabiał dużo mniej. Ten spadek widać od dwóch albo trzech lat, chyba od 2023, że on rzeczywiście nie ten, no i to po prostu spowodowało, że nie ten, tak, bo to był... Jeden na ich źródło dochodów, a drugi źródło dochodów to są sponsorzy. Mieli trochę tych sponsorów, niewystarczające dużo. Ale bądźmy szczerze, jak masz ludzi, którzy pracują nad frameworkiem, jest to framework open source i w ogóle, ale żeby się rozwijał, potrzebujesz mieć tam kogoś, jak gdyby komuś się płaci pieniądze. Bo inaczej sam wiemy, jak z tym open sourcem jest. W sensie sam z chęcią byłbym w open source. Dużo więcej bym z niego korzystał, gdybym... Jezu, nie korzystam. Korzystam to dużo, ale bym kontribuował, żeby to rzeczywiście się działo. No dobra, to trochę zdjąłem chyba z tego nieszczęsnego Tailwind-a."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "05:25",
+      "text": "To ja tylko powiem, bo tego nie powiedziałeś, że jakby ktoś chciał zobaczyć naszą nową stronę, to zapraszamy na betterdevclub.pl. Tam możecie zobaczyć, jak Piotrka AI świetnie wygenerował naszą nową stronę, gdzie można obejrzeć już wszystkie odcinki i dodatkowo przypominamy, że można zapisać się na newsletter, który też już lada chwila odpalimy. Bo już mamy transkrypcję ogarniętą. Piotrek robi takie cuda w JSON-ach, że naprawdę palce lizać. Ale po dzisiejszym odcinku, jak w transkrypcji zobaczę klasowej światy, to myślę, że będę mocno zaskoczony i to powtórzone przynajmniej trzy razy już w tej chwili, dwa razy przez Ciebie i raz przeze mnie. Ale wracając do samego tailwinda, to ja się w ogóle nie dziwię. Jedna sprawa, no to ok, to zabrzmiało jak wielka drama, bo 75 % okazuje się, że takiej dużej dramy nie ma, no bo to raptem trzech ludzi, którzy na pewno sobie poradzą, umówmy się, ale to daje pewne sygnały. pewne sygnały, że jednak AI zabiera nam pracy. Może jeszcze nie nam, jak już ustaliliśmy na początku, ale innym być może zabierze, bo takich dwóch jak nas..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "06:57",
+      "text": "Ale to tutaj jeszcze wtręt, nie pójdziemy tym wątkiem, bo ten wątek rzeczywiście jest ważny. Bo po pierwsze zdarzyło się tak, że jak gdyby i Vercel, i Google AI Studio wyłożyło nieznaną kasę, zostali nowym typem partnera typu Diamond Partner wedle autora jak gdyby to ma, tych dwóch Diamond Partnerów ma dawać kasę na tych trzech programistów z zasady. jak gdyby na skład, czy nawet na czterech, jak gdyby nie padło, ale na ten zespół deweloperski, a im doleciało bardzo dużo w tej chwili partnerów. Dosłownie. 8 stycznia doleciało Google AI Studio, 8 stycznia doleciało Vercel, Gamut też 8 stycznia, Supabase jest 9 stycznia, Lovable 8 stycznia, Makroskop 8 stycznia, Syntax Podcast, nie wiem co to jest, 9 stycznia. ale oni weszli już na niższy level, bo te które wymieniłem wcześniej to były partnery. Partnery dają po 5 tysięcy dolców na miesiąc. Jeszcze wzrosło im według autora, wpadło im około tysiąca indywidualnych Insiderów, bo tam możesz się zapisać jak Insider, dostarczysz dostęp chyba do agents MD. Tysiąc insiderów, każdy po 10 dolców. Wedle takiego mojego z grubszego wyliczenia zakładając, że mamy dwóch partnerów, dają tam, dobrze założyłem, że obaj dają 40 tysięcy dolarów miesięcznie, żeby rzeczywiście utrzymywać tych czterech ludzi. Jak gdyby nie ten, to w sumie teren w tej chwili ze sponsoringu ma jakieś 230 tysięcy dolarów miesięcznie. Więc jakbyś to, Kaj, tak powiedzieć? Jak byłoby nas nie dwóch, tylko czterech..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "08:55",
+      "text": "To jakoś byśmy się podzielili."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "08:57",
+      "text": "Dalibyśmy radę chyba. Z tej wielkiej dramy. Mi się wydaje, właśnie nim zabierze nam pracę, to zrobiłem też stronę. Kajtek za mnie śmiał, że dużo dyskutowałem z moimi asystentami jak ta strona powinna wyglądać i ogóle co tam się powinno działać. Wrzucałem Kajtkowi przez cały weekend. On już chyba miał mnie dość, pewnie mnie wymutował w którymś momencie. Śmieję się więc na pewno mamy rację, ale trochę się zmienia ten świat. sensie po prostu to właśnie teraz możemy pogadać. Ten świat się znacząco zmienia. Nie jest tak, że AI zabiera nam pracę. Ja bym powiedział, że AI zmienia pracę, którą robimy."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "09:45",
+      "text": "I to jest bardzo dobre, bo właśnie do tego chciałem nawiązać tak realnie, właśnie przy tej luincie mamy taką, nazwijmy to największą dramę z ostatnich trzech dni, kiedy to nagrywamy. Natomiast sporo się też mówi o innych firmach, między innymi o tej firmie, a właściwie o tym jednym portalu, który znają absolutnie wszyscy. I jest to Stack Overflow. Nie wiem."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "10:13",
+      "text": "O."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "10:15",
+      "text": "No właśnie. bo mamy też, no to też oprócz tego, że to jest portal, no to też jest firma. I ta firma okazuje się, że ostatnio zaliczyła taką glebę, znaczy w tej chwili zalicza taką glebę, że odsłon miesięcznych z tak overflow jest mniej więcej tyle, ile było jakieś 15 lat temu, kiedy..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "10:43",
+      "text": "Nie wiem, jak jest z odsłonami, natomiast kojarzę ilość zadawanych pytań i te zadawane pytania."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "10:47",
+      "text": "I ilość zadawanych pytań w ostatnim czasie spadła czterokrotnie z 200 tysięcy, kiedy było w piku, ale to już było jakiś czas temu, do 50 tysięcy miesięcznie pod koniec 2025. Więc na skalę samego Stack Overflow to jest olbrzymi drop. No i tutaj też ona była... dużo bardziej cicha, ale też była mała drama, no bo Stack Overflow się sprzedał. Sprzedał się też OpenAI i Google'owi, nie wiem czy wiedziałeś. Oni sprzedali wszystkie swoje dane, które mieli, wystawili to za pomocą Overflow API i wszystkie dane ze Stack Overflow posłużyły do trenowania modeli właśnie z OpenAI i z Google'a. W związku z tym..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "11:44",
+      "text": "No to mamy chyba ciekawą sytuację. Zmieniamy mechanizm."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "11:47",
+      "text": "No mamy bardzo ciekawą sytuację. Dokładnie, dokładnie. No bo oni sami zauważyli, bo to już się wydarzyło w zeszłym roku. Albo nawet dwa lata temu. Musiałbym jeszcze raz gdzieś tam spojrzeć."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "12:02",
+      "text": "Ja kojarzę ten deal z OpenAI, nie kojarzę tego deala z Google, ale no OK."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "12:06",
+      "text": "No właśnie, właśnie dzisiaj wyczytałem, że jedni i drudzy zakupili te dane. No i to nam pokazuje też bardzo jasno, że jakby jeżeli nie dostosujemy się, nie dostosujemy swoich biznesów do nowych realiów, no to będzie bardzo, bardzo ciężko. Oczywiście tych... tych wszystkich przykładów można mnożyć w gamedewie, bo tam też jest cały czas wielka dyskusja co z tym AI'em zrobić i czy go wpuścić czy nie wpuścić. Ostatnio chyba w Battlefieldzie 6, ale myślę, że o tym to sobie jeszcze nagramy zupełnie inny odcinek. Też było głośno czy AI pomagał w stworzeniu tego tytułu czy nie pomagał. Mnie to absolutnie w ogóle nie obchodzi i ja osobiście zdziwiłbym się, gdyby oni nie korzystali z AI'a do tworzenia nowych gier, ale faktycznie jeżeli mamy taką sytuację, że firmy zaczynają, albo inaczej, nie zaczynają myśleć o zmianie swojego modelu biznesowego, no to będą miały problem. Szczególnie jeśli... jeśli miały taki lejek jak tailwind, czyli nadzieję na to, że ich ruch na stronie będzie taki sam, bo ruch na stronie jest dużo mniejszy. Mówi się o tym też, że..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "13:40",
+      "text": "Ale wiesz, to gazety, to są gazety, wiesz, poza Stack Overflow i tak były dostępne ogólnie z Google, nie? Ale wiesz, gazety zaczynają na tym cierpieć, nie? Znaczy ja wiem, że jak gdyby artykuły, boże, czy dziś jest niedziela handlowa, jestem w stanie wskazać znane polskie dzienniki z tej top, podobno z top dziennikarstwa, nie z dołu, nie?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "13:50",
+      "text": "Oczywiście."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "14:06",
+      "text": "to jak gdyby tobie się i mi pewnie nóż w kieszeni otwiera, bo taki artykuł to ja mogę wygenerować bez żadnego AI-a, jak gdyby na słuchaj na dwa lata w przód, nie, ale rzeczywiście, że..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "14:15",
+      "text": "No ale skąd oni biorą te informacje z tych artykułów?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "14:19",
+      "text": "No na pewno. Wstajesz rano jako właściciel sklepu i... Dobra, żarty na bok, że oczywiście to się zmienia, ale to się zmienia i to się zmienia. Wiesz, ja jako nazwijmy to ten techniczny, pewnie ty jako ten techniczny. OK, dobra. Jak pracujemy, nazwijmy to na co dzień, nie robimy naszą własną stronę podcastu czy cokolwiek takiego. Nie wiem, jak jest u Ciebie, ale u mnie ten... Nie, tak oczywiście zmieniło się jak trochę ludzie programują, ale to nie wpłynęło na biznes. Nadal sprzedajemy fizyczne aparaty słuchowe. Jak ktoś sprzedaje nie wiem opony albo cokolwiek takiego. Ja nie wierzę w to żeby ten biznes się zmienił. Rzeczywiście jak sprzedałeś usługę w internecie, która polega na tym, nie wiem akumuluje dany z innych źródeł albo masz ludzi, którzy coś robią czysto software'ową, to tak, no to w tym biznesie coś się może zmienić. Ale też, ale... Za to, jak my jako działa IT pracujemy, to rzeczywiście wygląda na to, że przechodzimy powolną rewolucję, powolną, może nawet ewolucję, ewolucję."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "15:28",
+      "text": "Ewolucję raczej."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "15:32",
+      "text": "No i tyle, trzeba się wziąć zakasać rękawy i jechać z tematami. Okazuje się, że nagle ogłaszasz w social media, że ten wasz framework jest popularny, przestaje i dostajesz takiego kopa od sponsorów, że dajesz radę przeżyć."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "15:38",
+      "text": "Tak. Wiesz, no umówmy się, to też jest dokładnie to samo, co było zawsze od kiedy mamy Internet. Dobra internetowa drama zawsze przyciąga pieniądze. No to było wiadome. To wiadome, że szczególnie jeżeli mówimy o właśnie frameworku, jest w tym momencie najpopularniejszy właśnie przez te narzędzie, no to wiadomo, że twórcy tych narzędzi będą chcieli... chcieli wspomóc tak, żeby to nadal działało. Więc jakby tu było wiadomo."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "16:23",
+      "text": "Stack Overflow nie wiem czy byłeś mocno aktywnym kontributorem. Ja miałem taką fazę w swoim życiu, że byłem mocno aktywnym kontributorem. Wziął moją wiedzę i sprzedał je w OpenAI. Nie to żebym miał cokolwiek, czy tam Google'owi, żeby było jasne. Nie mam z tym żadnego problemu, ale jak gdyby moja autorska praca, która była ProPublicoBono, bla, bla, bla, bla, nie dość, że dawała zarabiać tej firmie, to jeszcze... finalnie sprzedali ją, dzięki temu modele, wiecie, teraz modele tak dobrze odpowiadają. I tu patrzymy na kolegę z Stapp-a i bijemy mu brawo. Ale taka prawda, w sensie ja się bardziej martwię, raczej nie chodzi o to, w tej chwili jest tak, tylko co się będzie działo w najbliższym czasie. Jeżeli nagle mówimy, że dobre modele tak kodują, nie wiem czy tak jest, żeby to było jasne, zgaduję w tej chwili. ale zostały nauczone na Stack Overflow, bo tam było jakieś ocenianie, wybranie dobrych bądź złych wzorców i one teraz mają te dobre wzorce, bo się na tym nauczyły, to skąd je weźmiemy za 5 lat? To będzie ciekawe, będziemy się martwić za 5 lat."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "17:36",
+      "text": "Myślę, że to jest to, co też powiedziałeś, że musimy mocno się adaptować do tych zmieniających się warunków i do tego, jak to będzie wyglądało. Stack Overflow z czegoś powstawało. Zanim powstało Stack Overflow, to szukaliśmy odpowiedzi w książkach. Potem powstało Stack Overflow i książki służą nam za podstawki do monitorów w większości. Teraz Stack Overflow nie będzie."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "18:02",
+      "text": "Albo do zbierania autografów jak u Ciebie."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "18:05",
+      "text": "No tak, tak, no jeszcze gdyby to tak było faktycznie, jeszcze bym się cieszył. Ale wiesz, no po prostu jest jakiś shift i musimy coś zmienić i w swoich karierach, i w swoim podejściu do tego, jak programujemy, jak szukamy informacji, jak będziemy ustalać te najlepsze praktyki w najbliższej przyszłości i co będą właściwie oznaczały najlepsze praktyki w wytwarzaniu oprogramowania. bo to też może się zmienić i myślę, że będzie dobrze. Ja to jedyne, co właśnie chciałem ostatecznie powiedzieć, to jeżeli ktoś nas słucha i marzy mu się jakiś biznes własny i wymyślił sobie biznes, który będzie oparty na ruchu w internecie, czyli na przykład jakaś strona niszowa, na której wrzuci Google Ads-y, to to już nie będzie działać. To już nigdy nie będzie działać prawdopodobnie. i myślę, że trzeba myśleć o reklamowaniu się w OpenAI, bo chyba już niedługo będzie taka możliwość, o ile już nie ma, niż właśnie o zbieraniu hajsu z reklam wyświetlanych na stronie internetowej. I tyle."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "19:18",
+      "text": "No dobra, to tym optymistycznym akcentem jeżeli dotarliście do końca to polecamy stronę z linkami zapisać się. Jak macie jakiś komentarz to zapraszamy z chęcią w paru, już żeśmy gadali o kotach, psach i innych dziwnych rzeczach w komentarzach ostatnio. Tak kot jest. czy to... Psach też, więc jak gdyby jesteśmy na wszelkie tematy otwarcia, ale jeżeli szczególnie macie coś... coś przemyślenia na temat właśnie zabierania prac przez AI albo Tailwinda to z chęcią posłuchamy i dowiemy się od Was więcej. I cóż trzymajcie się i do zobaczenia za tydzień."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "20:03",
+      "text": "Tak jest. Do zobaczenia."
+    }
+  ]
+}
