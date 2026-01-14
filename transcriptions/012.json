@@ -1,0 +1,154 @@
+{
+  "transcript": [
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:00",
+      "text": "Cześć Piotrek!"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:01",
+      "text": "Cześć Kajtek."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:03",
+      "text": "Super, że się dzisiaj spotykamy, bo po raz kolejny będziemy pamiętać o tym, żeby namówić wszystkich, żeby zostawili pod naszym dzisiejszym odcinkiem albo łapkę w górę, ewentualnie łapkę w dół jakiś komentarz, a najważniejsze to, żeby kliknęli pod opisem tego odcinka, jest link do naszego newslettera, który już niedługo na pewno wystartuje i w którym będziemy wysyłać naprawdę super informacje i super rzeczy, także zachęcamy. bardzo serdecznie do zapisania się do newslettera Better Dev Club."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:37",
+      "text": "Dobra, dzisiaj, ponieważ nagrywamy trochę z wyprzedzeniem, bo tak akurat wyszło, wiecie, czasem w czwartek, a czasem trzeba być gdzieś indziej. Akurat tak się złożyło, obaj żeśmy musieli wyjechać, teraz nas tu nie ma, ale jesteśmy, więc jest dziwnie. Kto z Włoch, ten z Włoch. Ja jestem w Szwajcarii / Austrii."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:57",
+      "text": "Pozdrawiamy z Włoch. No właśnie, ale jesteśmy blisko."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "01:05",
+      "text": "A ty jesteś w takich Włoszech, że po niemiecku mówią. Powodzenia."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "01:08",
+      "text": "Właściwie trochę tak, ale niech tak będzie."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "01:12",
+      "text": "Dobra, to dzisiaj ja mam dla Ciebie. Ja trafiłem na to jakiś czas temu, w zasadzie nie tak dawno z mojego punktu widzenia, twojego punktu widzenia słuchaczy, to już chwila minęła. I słuchaj, trafiłem na pewien white paper, więc tym razem Twoja ocena czy to, co w ogóle mówię, ma ręce i nogi, bo może kłamię i świadomie w ogóle robię się w bambuko, czyli słuchaj, ludzie zbudowali model... Człowiek, celem jest system sztucznej inteligencji, który analizuje rutynowe dane. W zasadzie snu, w sensie użycie nie tylko snu, żeby wykryć ryzyko chorób."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "02:09",
+      "text": "OK."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "02:11",
+      "text": "Jak ci się wydaje czy to ogóle ma ręce i nogi? Tak zupełnie szczerze."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "02:20",
+      "text": "ale od strony technicznej czy od strony praktycznej?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "02:23",
+      "text": "Praktyczne, czysto praktyczne. On może ci powiedzieć, że dane są z wielu kanałów: EKG, EOG, sygnałów oddechowych. Działa on, nazwijmy to, czy tam bez halucynacji, żeby nie było, na pół miliona godzin danych. Pytanie brzmi, bo celem było 130 typów chorób z dużą dokładnością, czyli indeks powyżej 0,75. Między innymi śmiertelność ogólna, demencja, zawał serca, niewydolność serca, choroba nerek, udary."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "03:14",
+      "text": "Powiem Ci, że bardzo fajnie trafiłeś z takim problemem ze względu na to, że bardzo luźny odcinek nam się chyba zrobi, ale aktualnie czytam nową książkę Dana Brauna, \"Początek\" (czy inny tytuł), żeby nie być gołosłownym, to nawet mam ją tutaj, mogę ją pokazać. Jestem w ogóle wielkim fanem Dana Brauna i wszystkie jego książki czytam. I to jest to, co powiedziałeś, w ogóle idealnie się wpasowuje w fabułę tej książki. I w przypadku właśnie tego autora ja mam zawsze takie: o co tu się w ogóle dzieje? Tym bardziej, że on zawsze opisuje na samym początku, że wszystkie technologie, które opisuje, wszystkie dzieła sztuki i tak dalej są prawdziwe. I potem zaczynam się zastanawiać, na ile opisy badań są prawdziwe, a na ile tutaj już jest totalna fikcja. I najlepsze jest to, że jak człowiek czyta tę książkę, zaczyna sobie myśleć: kurde, to ma sens. To ma naprawdę sens. I tak nie zastanawiałem się nad tym, ale może to mogłoby być prawdziwe. I teraz, jak przeczytałeś o tym... Jak byłem mały, to mój dziadek chyba, a może mój ojciec, kupił takie małe narzędzie, które raziło prądem i ogólnie rzecz biorąc było stosowane do akupresury (tak to się chyba nazywa), w każdym razie trzeba było sobie do stopy przykładać. I on tam taką małą wiązkę elektryczną wypuszczał i to też miało działać. Wiesz, przykładasz sobie do jednej części stopy i miało ci pomóc na katar, a do drugiej to tam na płucka, a do trzeciej to jeszcze jakieś mięśniowe. I myślisz sobie: kurde, stopa? No trochę bez jaj, nie? A jednak ludzie w to wierzą i dużo osób chodzi na tego typu rzeczy, więc... Badanie snu i wykrywanie demencji dla mnie sztos. Ja w to idę. Mogę im płacić."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "05:44",
+      "text": "No to teraz widzowie mają szansę, mam nadzieję, że już macie swoje zdanie. Ja tego nie wymyśliłem. Zostało to rzeczywiście opublikowane w Nature. Ja w sumie, jak na to trafiłem, to w pierwszym momencie miałem takie: serio? A potem sobie pomyślałem, wiesz, w ogóle jak siedzę nad tym trochę dłużej... bo na przykład Stable Diffusion, to w dużej mierze te podstawy są opisywane w periodykach medycznych, w sensie tam U-NET do tego, bo to się wzięło z zabawy zdjęciami. Tak sobie zacząłem myśleć, jak widzę, jak pracują lekarze, niestety ostatnio więcej niż mniej, to jest to trochę tak..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "06:25",
+      "text": "Mhm."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "06:38",
+      "text": "Rzeczywiście do takiego szybkiego false positive'u to why not? Nie wiem czy to zrobiłeś w życiu, ja się przyznam, że wielokrotnie wrzuciłem nawet morfologię do odpowiedniego modelu, bo ja czytając tę morfologię nie mam pełnego pojęcia co tam jest napisane. Znaczy wiem, że ten wskaźnik nie trafia, ale... Co to jest? Mam z tym zawsze duży problem, bo nie rozumiem tego co jest napisane. Jak zacząłem o tym czytać, nie wiem na ile rzeczywiście im to działa. Zachęcam wszystkich do przeczytania, Ciebie Kajtek też, dostaniesz już po odcinku. Nazywa się to Sleep FM. Nie wiem na ile to rzeczywiście jest w stanie wykrywać wszystkie rzeczy, z drugiej strony jako podstawowa diagnostyka - czemu nie? Są ludzie, którzy w tej chwili opierają sobie na tym ćwiczenia. Nie wiem, czy próbowałeś, ja sobie kiedyś optymalizowałem jakiś trening z LLM-em. Bo dopóki to jest prosty trening, to tych materiałów jest na tyle dużo, że ten LLM odpowiada całkiem spoko. Może nie jest to jakoś super, ale wydaje się jak najbardziej spoko. Więc wydaje mi się, że to jest taka rzecz, która w ogóle ma szansę zadziałać. I to jest o tyle fajne z mojego punktu widzenia, że jeżeli dostaniesz coś takiego do ręki, oczywiście idziesz do lekarza, ale wiesz, że dostaniesz coś takiego do ręki, no to ekstra, że ktoś ci będzie w stanie odpowiedzieć jako taki wujek Google, czy to działa. Znaczy obawiam się potem pójścia do lekarza, jak mu powiem, że model LLM powiedział mi, że jestem na to chory. Panie doktorze, pan mnie uratuje! Ale to, że możesz to zrozumieć prostszym językiem, to jest to samo, co gadamy w programowaniu. To nie zawsze chodzi o to, że możesz napisać uberskomplikowany, superwydajny kod, ale czasem chodzi o to, że wchodzisz w repo, nie masz pojęcia co się dzieje, a to ci daje taki łatwy opis, który jesteś w stanie skonsumować w godzinę, dwie i po prostu mieć jakieś wyniki, uśmiechnąć się, zrozumieć mniej więcej od czego zacząć. I tutaj, jeżeli lekarzy jest mało, to taki przesiew mógłby robić automat. Ja miałem takie marzenie, że wszystkie moje dane medyczne są w jednym miejscu. Ktoś powie, że można mi to ukraść i to będzie straszne, ale dla mnie to marzenie. Chrzanię w tym wypadku ochronę moich danych osobowych, naprawdę, jakby lekarz mógł to przeczytać, to ja chętnie udostępnię wszystko, nie mam żadnego problemu. Może będzie wiedział, kiedy kłamię, a kiedy nie kłamię. Więc to są takie rzeczy, których zupełnie się nie spodziewałem, że mają szansę zadziałać, ale im dłużej myślę o nauce, to te modele mają niesamowitą zdolność, mają w sobie olbrzymią wiedzę. Ja wiem, że tam jest dużo bullshitu, powiedzmy sobie szczerze, ale jak ci nagle to da 10 pomysłów... Widziałem nawet taki post profesora Dragana (nie wiem czy kojarzycie, kto to jest profesor Dragan). Jak ktoś nie kojarzy, to polecam, mam nawet taką fajną książkę, którą dopiero zacząłem. Może teraz, jak już mnie słuchacie, to już ją skończyłem."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "10:24",
+      "text": "Mhm, jasne."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "10:37",
+      "text": "Nieważne, dobra i prof. Dragan właśnie tam miał takiego posta, że gadał z kolegą na temat jakiejś metody naukowej, wrzucili to właśnie w jakiś model i wyszli z kolejnym pomysłem, bo to jest ta siła, że nagle wychodzi coś nowego. Jak nagle się okaże, że na opis EKG nie musisz czekać 3 tygodnie, aż opisywacz będzie miał czas, żeby na niego zerknąć, tylko wrzucisz to w gotowca i to ci powie: jest dobrze albo jest źle. To w ogóle taki szybki filtr. Jest OK, albo jest coś dziwnego, więc idzie do człowieka. Jak jest coś zupełnie dziwnego, to na pewno ocenia człowiek. To byłoby ekstra."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "11:31",
+      "text": "To prawda, tutaj jest problemów zdecydowanie więcej niż jeden, ale pierwszy to faktycznie, jeżeli to byłoby narzędzie, które będzie zatwierdzone przez lekarzy, żebyśmy się nie spotkali z taką sytuacją, że wykupujesz sobie dostęp do narzędzia, miesiąc przykładasz telefon do poduszki, on ci analizuje sen i potem dostajesz informację: z wysokim prawdopodobieństwem za 40 lat możesz się spodziewać demencji. No i co ja mam z tą informacją zrobić, z przeproszeniem? Co ja mam teraz pójść do lekarza i powiedzieć: panie doktorze, narzędzie mi powiedziało, że za 40 lat zachoruję, niech pan coś z tym zrobi. No nie, tak być nie może. A jednocześnie ja nie chcę wiedzieć tego, że za 40 lat zachoruję, jeżeli nikt mi nie może pomóc."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "13:04",
+      "text": "Myślę, że to 40 lat to rzeczywiście nie ten, ale to, że gdyby życie się zaczyna. To nie jest, w ogóle nie, jak mówimy o demencji, to nie jest informacja dla Ciebie. To jest informacja dla tych wszystkich w koło. To tak jak ja noszę aparaty słuchowe. Aparat słuchowy nie jest narzędziem wbrew pozorom dla mnie, ten, bo on poprawia najbardziej komfort życia tym wszystkim w koło. I jest straszne, jakby jak już na tym jesteśmy, to jest straszne, dużo ludzi nie jest w stanie tego zaakceptować, odsuwa to, jak gdyby nie ten. A to jest narzędzie..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "13:23",
+      "text": "To, to jest twoją drogą."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "13:43",
+      "text": "Jak gdyby ten wynik nie jest dla Ciebie, tylko jest dla innych. No to znowu wracamy do trudnych rzeczy, problemów medycznych, własności danych. Ale masz rację, jakiś nadzór i sprawdzenie są konieczne. Ale to, że w tej chwili chyba też tak jest z tą nieszczęsną morfologią. Co to znaczy, że masz OK albo nie OK? Zakładam, że statystycznie człowiek powinien mieć od X do Y. To nie oznacza, że jak jesteś poniżej czy powyżej, to od razu jest bardzo źle, tylko że trzeba sprawdzić coś więcej. Co mogłoby robić ci diagnozę? Z morfologii jest problem. Żebyś zrobił morfologię, musisz pójść i pobrać krew. Obstawiam, żeby zebrać te dane, to musisz podłączyć się do medycznego sprzętu. Sprzęt medyczny musi mieć akredytację i tak dalej. Już 500 lat później masz wynik. Ale to, że takie narzędzia w ogóle powstają, jest dla mnie naprawdę wow. Na ogół gadamy: kodzik dobry, kodzik zły, albo architektura dobra czy zła. Nawet \"kodzik\" jest tym słowem, którego zawsze nie lubiłem, ale co tam... Tak."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "15:16",
+      "text": "Właśnie aż jestem w szoku, że go użyłeś. Już kiedyś na ten temat rozmawialiśmy."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "15:22",
+      "text": "Natomiast to, że można to zastosować do czegoś innego i rzeczywiście ludzie to robią, to jest dla mnie niesamowite."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "15:33",
+      "text": "Tak, to jest niesamowite, bo też o tym chciałem wspomnieć a propos tego postu profesora Dragana. Dla mnie niesamowite jest to też, że w tych czasach, w których budowanie jest tak proste, super jest, że są ludzie, którzy dowożą nadal. Bo nie wiem jak Ty, ale ja przez to, jak łatwo mogę zacząć nowy projekt, mam w tej chwili z dobrych 15 projektów rozgrzebanych. Mam wrażenie, że kiedyś sama ta droga dawała przyjemność - budowanie kodu, rozwiązywanie problemów technicznych. To było coś, co przez dłuższy czas mnie jarało. A w tej chwili mam masę pomysłów i problem z tym, żeby każdy z nich dokończyć, czyli przelać na produkt."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "16:11",
+      "text": "Super."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "16:32",
+      "text": "Bardziej technicznych rzeczy. To było coś, co przez jakiś dłuższy czas mnie jarało. A w tej chwili mam masę pomysłów i mam duży problem z tym, żeby każdy z tych pomysłów dokończyć, to znaczy przelać go na jakiś produkt."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "16:51",
+      "text": "Kupowałeś kiedyś domenę? Zróbmy sobie chyba następny odcinek o tym, jak ten flow budowania u nas wygląda. To będzie ciekawsze niż jak teraz zjedziemy na różne tematy. Podsumowując ten odcinek, trochę luźny, pozdrawiamy Was tam skąd jesteśmy. Z przyszłości! Dziękujemy Wam bardzo za dzisiaj. Przypominamy o łapkach w górę, w dół, co tam możecie. Zachęcamy Was do przeczytania tego artykułu. Jak będziecie mieli jakieś przemyślenia, to zapraszamy do zostawienia komentarza. Trzymajcie się i słyszymy się za tydzień."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "17:29",
+      "text": "Newslettery, dzwoneczki, komentarze. Do zobaczenia!"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "17:50",
+      "text": "Cześć!"
+    }
+  ]
+}
