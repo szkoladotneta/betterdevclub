@@ -11,7 +11,7 @@
     <meta property="og:url" content="https://betterdevclub.com/">
     <meta property="og:title" content="Better Dev Club #12 - Czy AI może analizować sen?">
     <meta property="og:description" content="Rozmawiamy o tym, jak AI może analizować nasze dane biologiczne, w tym sen, aby wykrywać ryzyko chorób. Czy nasze smartwatche staną się naszymi lekarzami pierwszego kontaktu?">
-    
+    <meta property="og:image" content="https://i.ytimg.com/vi/30Hp9Mzhyl0/maxresdefault.jpg">
     <link rel="shortcut icon" href="../img/favicon-32x32.png" type="image/png">
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Noto+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
@@ -961,7 +961,7 @@
             const [loading, setLoading] = useState(true);
 
             useEffect(() => {
-                const version = "5850d8c574";
+                const version = "3dd1e3aa18";
                 Promise.all([
                     fetch(`/episodes.json?v=${version}`).then(res => res.json()),
                     fetch(`/speakers.json?v=${version}`).then(res => res.json())
