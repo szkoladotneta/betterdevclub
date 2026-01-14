@@ -641,7 +641,8 @@
         const EpisodeDetailPage = ({ episodes }) => {
             const { num } = useParams();
             const [transcript, setTranscript] = useState(null);
-            const episode = episodes.find(e => e.num === num);
+            // Try to find in the full dataset (to allow previewing unpublished ones via direct link)
+            const episode = (window.EPISODES_DATA || episodes).find(e => e.num === num);
             
             useEffect(() => {
                 const loadTranscript = async () => {
@@ -950,7 +951,7 @@
             const [loading, setLoading] = useState(true);
 
             useEffect(() => {
-                const version = "1557851c52";
+                const version = "83e9d87740";
                 Promise.all([
                     fetch(`/episodes.json?v=${version}`).then(res => res.json()),
                     fetch(`/speakers.json?v=${version}`).then(res => res.json())

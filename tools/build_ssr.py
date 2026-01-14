@@ -40,7 +40,7 @@ with open(INPUT_FILE, 'w', encoding='utf-8') as f:
 # Load episodes data and filter published ones
 with open(EPISODES_FILE, 'r', encoding='utf-8') as f:
     all_episodes = json.load(f)
-    episodes = [ep for ep in all_episodes if not ep.get('notPublished', False)]
+    episodes = [ep for ep in all_episodes]
 
 def update_meta(content, episode):
     # Update Meta Tags
