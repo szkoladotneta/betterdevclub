@@ -28,6 +28,20 @@
       "spotify": "https://open.spotify.com/show/4EdHJK4qpJYWeGBQicZsjK",
       "apple": "https://podcasts.apple.com/us/podcast/better-dev-club/id1848840540"
     },
+    "resources": [
+      { 
+        "type": "link",
+        "label": "Benchmark AI",
+        "url": "https://artificialanalysis.ai/evaluations/gdpval-aa?models=grok-chatbot%2Cgpt-5-2%2Cgpt-5-1%2Cgpt-5-1-codex%2Cgemini-3-pro%2Cgemini-3-flash-reasoning%2Cclaude-4-5-sonnet-thinking%2Cclaude-opus-4-5-thinking%2Cdeepseek-v3-1-terminus-reasoning%2Cgrok-4-fast-reasoning%2Cgrok-4-1-fast-reasoning&gdpval-score-comparisons=gdpval-vs-intelligence-index",
+        "description": "Szczegółowe porównanie wydajności różnych modeli AI na podstawie GDPVal omawianych przez nas w odcinku."
+      },
+      {
+        "type": "link",
+        "label": "Humanity's Last Exam",
+        "url": "https://www.humanitys-last-exam.com/",
+        "description": "Strona z testem porównującym ludzką inteligencję z modelami AI."
+      }
+    ],
     "youtubeId": "4rimdlDQjas",
     "guestKey": "piotrek"
   },
@@ -44,6 +58,7 @@
       "spotify": "https://open.spotify.com/show/4EdHJK4qpJYWeGBQicZsjK",
       "apple": "https://podcasts.apple.com/us/podcast/better-dev-club/id1848840540"
     },
+    "resources": [],
     "youtubeId": "onfZ5Bh8z3A",
     "guestKey": "piotrek"
   },
@@ -60,6 +75,14 @@
       "spotify": "https://open.spotify.com/show/4EdHJK4qpJYWeGBQicZsjK",
       "apple": "https://podcasts.apple.com/us/podcast/better-dev-club/id1848840540"
     },
+    "resources": [
+      {
+        "type": "link",
+        "label": "Agentic AI Foundation",
+        "url": "https://agentic.ai/",
+        "description": "Oficjalna strona Agentic AI Foundation."
+      }
+    ],
     "youtubeId": "kGtAdYbV5KI",
     "guestKey": "piotrek"
   },
@@ -76,6 +99,20 @@
       "spotify": "https://open.spotify.com/show/4EdHJK4qpJYWeGBQicZsjK",
       "apple": "https://podcasts.apple.com/us/podcast/better-dev-club/id1848840540"
     },
+    "resources": [
+      {
+        "type": "link",
+        "label": ".NET 10 Release Notes",
+        "url":  "https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-10/overview",
+        "description": "Oficjalne notatki dotyczące wydania .NET 10."
+      },
+      {
+        "type": "link",
+        "label": "Artykuł Stevena Tauba",
+        "url": "https://devblogs.microsoft.com/dotnet/announcing-dotnet-10/",
+        "description": "Szczegółowy artykuł Stevena Tauba na temat nowych funkcji i ulepszeń w .NET 10."
+      }
+    ],
     "youtubeId": "9BmowwsNbz0",
     "guestKey": "piotrek"
   },
@@ -92,6 +129,32 @@
       "spotify": "https://open.spotify.com/show/4EdHJK4qpJYWeGBQicZsjK",
       "apple": "https://podcasts.apple.com/us/podcast/better-dev-club/id1848840540"
     },
+    "resources": [
+      {
+        "type": "link",
+        "label": "Google CodeWiki",
+        "url": "https://codewiki.google/",
+        "description": "Narzędzie Google do generowania dokumentacji kodu za pomocą AI."
+      },
+      {
+        "type": "link",
+        "label": "Google NotebookLM",
+        "url": "https://notebooklm.google/",
+        "description": "Osobisty asystent AI do zarządzania wiedzą i notatkami."
+      },
+      {
+        "type": "link",
+        "label": "Google Antigravity",
+        "url": "https://antigravity.google/",
+        "description": "IDE od Google z wbudowanym wsparciem AI i integracją z Gemini 3."
+      },
+      {
+        "type": "link",
+        "label": "Artykuł o Gemini 3",
+        "url": "https://blog.google/technology/ai/gemini-3-launch/",
+        "description": "Oficjalne ogłoszenie Google dotyczące premiery Gemini 3."
+      }
+    ],
     "youtubeId": "xsHb468qQFk",
     "guestKey": "piotrek"
   },
@@ -108,6 +171,14 @@
       "spotify": "https://open.spotify.com/show/4EdHJK4qpJYWeGBQicZsjK",
       "apple": "https://podcasts.apple.com/us/podcast/better-dev-club/id1848840540"
     },
+    "resources": [
+      {
+        "type": "link",
+        "label": "Post Kamila Gałuszkę",
+        "url": "https://www.linkedin.com/posts/galuszkak_ai-cli-tooling-is-getting-more-and-more-traction-activity-7392446896591503361-0BDM",
+        "description": "Porównanie ruchu w repozytoriach narzędzi CLI z AI."
+      }
+    ],
     "youtubeId": "81L3RqlUxxk",
     "guestKey": "piotrek"
   },
