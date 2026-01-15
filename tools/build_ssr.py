@@ -14,7 +14,9 @@ def calculate_version(files):
     for file_path in files:
         if os.path.exists(file_path):
             with open(file_path, 'rb') as f:
-                hasher.update(f.read())
+                # Normalize line endings to LF to ensure OS independent hashing
+                content = f.read().replace(b'\r\n', b'\n')
+                hasher.update(content)
     return hasher.hexdigest()[:10]
 
 # Create output directory if it doesn't exist
