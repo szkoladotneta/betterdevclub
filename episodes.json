@@ -2,6 +2,7 @@
   {
     "id": 12,
     "num": "12",
+    "notPublished": true,
     "title": "Better Dev Club #12 - Czy AI może analizować sen?",
     "date": "2026-01-22",
     "duration": "20:00",
@@ -27,8 +28,7 @@
       }
     ],
     "youtubeId": "30Hp9Mzhyl0",
-    "guestKey": "piotrek",
-    "notPublished": true
+    "guestKey": "piotrek"
   },
   {
     "id": 11,
@@ -64,8 +64,7 @@
       }
     ],
     "youtubeId": "l7E73GUI0wE",
-    "guestKey": "piotrek",
-    "notPublished": true
+    "guestKey": "piotrek"
   },
   {
     "id": 10,
