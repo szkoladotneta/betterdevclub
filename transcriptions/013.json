@@ -1,0 +1,264 @@
+{
+  "transcript": [
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:00",
+      "text": "Cześć Piotrek."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:01",
+      "text": "Cześć Kajtek."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:04",
+      "text": "Czy wiesz, że piekło zamarzło ostatnio? I okazało się, że tak, po raz kolejny. To znaczy to już jakiś czas temu, więc być może jak ten odcinek wychodzi, to już jest dawno po sprawie, ale Linus Torvalds, czyli twórca Linuxa, przyznał się do tego, że korzysta z Google Antigravity, czyli jest vibe coderem. I co Ty na to?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:29",
+      "text": "Znaczy on się chyba nawet nie tyle przyznał, co on to jawnie w repo napisał. On to jawnie w repo napisał, że kawałek UI jest wygenerowany właśnie przez Google Antigravity. Wiesz, to nawet nie to, że powiedział gdzieś tam żartem czy coś. Nie, nie, nie. On to wpisał jawnie w repo w jego nowy tool, AudioNoise. I tam jest napisane po prostu, jawnym tekstem."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:34",
+      "text": "No, faktycznie tak mogło być."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "01:00",
+      "text": "No i co, zaczęliśmy."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "01:00",
+      "text": "No to teraz to już tylko brakuje, żeby jeszcze Uncle Bob napisał coś takiego. On co prawda już nie programuje od dawna, dlatego nie warto go słuchać, ale tak, ale mam wrażenie, że to jest coś takiego, co zatrzęsło tutaj społecznością deweloperów, przynajmniej tą częścią, która z jakiegoś powodu obserwuje linusa. Ja się o tym dowiedziałem gdzieś z internetu. Być może nawet od Ciebie? Nie, chyba Ty mi to też przesłałeś, ale dowiedziałem się, bo nagle zaczęły mnie te informacje bombardować, tak jakby faktycznie to było coś, na co warto zwrócić uwagę."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "01:41",
+      "text": "Ale wiesz, to nie tylko on, bo DHH, znany DHH, czyli Ruby on Rails pewnie Ci znany, ewentualnie Hey.com albo 37signals. On też, będący wcześniej bardzo, bardzo sceptyczny, tak gdzieś w połowie 2025 roku, a teraz jawnie na blogu Heya właśnie mówi, że jak najbardziej AI agents są na plusie."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "02:17",
+      "text": "No dobra, czyli w związku absolutnie o niczym."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "02:17",
+      "text": "Wiesz o czym to świadczy? Nie, jak to, że byliśmy prekursorami, bo my żeśmy vibecordowali dużo wcześniej niż oni, elo."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "02:29",
+      "text": "Czyli w końcu jest coś, co wiedzieliśmy o programowaniu wcześniej niż Linux. To jest sumie tak, pozytywna sprawa. Jeśli ty drogi słuchaczu też już wcześniej vibe-kodowałeś, aczkolwiek nie, mieliśmy nie używać tego słowa, nie vibe-kodujemy. To jest zakazane słowo."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "02:37",
+      "text": "Proszę cię. Po vibe codowaliśmy w 2025."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "02:49",
+      "text": "To prawda, okej, tak, tak miało być."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "02:51",
+      "text": "W 20.26 vibe coding. I teraz jest gen coding."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "02:58",
+      "text": "Tak, a Linux nadal, wiesz, nadal żyje w poprzednich latach, bo on nadal myśli, że, wiesz, 2026 będzie rokiem Linuxa."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "03:01",
+      "text": "On dopiero jest na vibe-codingu, dajmy szansę. Na desktopie."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "03:13",
+      "text": "Dobra, Piotrek, ale tak zupełnie szczerze, jak już weszliśmy w temat gen-codingu – umówmy się, cały czas wierzę, że to się poniesie i będzie terminem, który się przyjmie – to jak wygląda Twój aktualny workflow? Czy jesteś człowiekiem... powiem Ci, będziesz miał tylko dwie opcje do wyboru, bo nie wierzę, że jest jakaś inna. Czy jesteś człowiekiem, który zaczyna nowy projekt od tego, że po prostu wpisuje prompta: „ej słuchaj, chcę zrobić sobie taką stronę, wygeneruj mi ją i elo, jedziemy”? Czy jesteś człowiekiem, który najpierw buduje agent.md, najpierw buduje jakieś customowe prompty, najpierw opisuje całą architekturę w tych promptach, albo – co lepsze – gada z asystentem po to, żeby wspólnie wygenerować pierwszą wersję agent.md?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "04:16",
+      "text": "Nie no, w życiu, ale zdarza mi się pogadać z którymś AI-em. Różnie bywa, w różnym momencie, żeby pomógł mi stworzyć prompta, żeby zadał mi pytanie, o czym ja muszę napisać w tym promptie. Bo kiedyś dyskutowaliśmy chyba o Lovable, tak? „Uber for boats” – no to łatwo wpiszesz „Uber for boats”, nie? Ale jak robiłem stronę naszego podcastu, to na początku, jak napisałem „chcę stronę podcastu”, to wyszedł mi totalny krap. A jak powiedziałem mu: „weź, chcę stworzyć stronę podcastu, ten podcast jest mniej więcej o tym i o tym, tu masz ze dwa odcinki, pomóż mi to stworzyć”, dałem taki długi kontekst – to chyba zadziałało. Wyszło coś, co obaj stwierdziliśmy, że wygląda spoko."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "05:16",
+      "text": "No dobra, wiesz, strona naszego podcastu, przy okazji zapraszamy. No właśnie, ale przy okazji zapraszamy betterdevclub.pl, tam możesz zobaczyć wszystkie odcinki, przejrzeć sobie transkrypcje, a przede wszystkim zapisać się na nasz newsletter, który, mam nadzieję, że kiedy oglądasz już ten odcinek, to newsletter faktycznie istnieje i będziesz dostawać."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "05:21",
+      "text": "To nie jest pewna aplikacja. Czy wychodzi?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "05:41",
+      "text": "Wychodzi, tak, bo newsletter istnieje, ale będzie już wychodził. no właśnie, nasza strona, to ja się sam uśmiałem, jak mi powiedziałaś, że mógłbym zmienić jedną rzecz, do czego nigdy w końcu nie usiadłem, ale napisałeś mi, nie martw się, będzie łatwo znaleźć to miejsce, bo wszystko jest w indeks HTML. Ja myślełem sobie, a..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "06:06",
+      "text": "No tak wyszło."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "06:10",
+      "text": "Profesjonaliści 15-20 lat doświadczenia w programowaniu wszystko wrzucili do index HTML i YELLOW i mamy stronę. No kurde. Idealnie. I to jak śmiga. Jak śmiga jest naprawdę przepiękna."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "06:20",
+      "text": "To jeszcze jak jest? Po mojemu zdziwieniu. W jednym pliku."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "06:31",
+      "text": "Ale no dobra, robiłeś – nie wiem czy nadal robisz i czy będziesz rozwijał – swojego SidePromptera. On też był wtedy wywajbowany, może dlatego nie odniósł aż takiego sukcesu, ale tam się mocno wspierałeś AI-em, no nie? I tam już było coś więcej niż index.html. I tam działałeś też na takiej zasadzie, że po prostu napisałeś..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "06:52",
+      "text": "Tak, wad za dużo."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "07:00",
+      "text": "Elo chce sobie zrobić takiego tula. Jedziemy?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "07:02",
+      "text": "Nie, zupełnie nie. W ogóle stosowałem – nawet nie wiedziałem, że to się tak nazywa – mechanizm gen-kodowania, żeby pisać najpierw specyfikację. Żeby nie pisać od prompta, tylko żeby sobie wprost tworzyć specyfikację softu, a dopiero potem wchodzą agenci, którzy generują poszczególne komponenty. Ja to robiłem zupełnie nieświadomie, bo zbudowałem sobie ADR-y, a jak już miałem ADR-y, to zacząłem rozwijać poszczególne sekcje. Więc zacząłem rzeczywiście od dokumentacji, a nie od softu. Ale jak spojrzysz na to z drugiej strony, to dzisiaj mamy wymienione chociażby Lovable, czy inne GitHub Spark, które zaczynają od prompta. Co więcej, te narzędzia powoli zaczynają Cię kierować: co masz powiedzieć w tym prompcie, co byś chciał dołożyć, żeby powstała ta strona. Ja wiem, że strona to jeszcze nie aplikacja, ale z drugiej strony – gdyby ktoś 10 lat temu powiedział, że dostajesz na start gotową stronę, a potem będziesz dorabiał „bebechy”, to chyba byś się posikał ze szczęścia. W sensie, że od razu wiesz, co masz dorabiać, nie musisz wymyślać wszystkiego od nowa. Więc to się bardzo zmieniło. A teraz jest tak – nie wiem jak u Ciebie, ale to moje doświadczenie z ostatniego półrocza – że to automat dużo ze mnie zdejmuje. Pół roku temu, jak siedziałem nad SidePrompterem, to ja musiałem bardzo dużo myśleć. A teraz dużo z tego zdejmuje za mnie automat. To nie zawsze wychodzi dobrze, ale się dzieje. Jeszcze trochę i może będzie jeszcze lepiej."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "09:20",
+      "text": "to ja ci powiem o tym, co ja ostatnio zrobiłem, bo już kilka aplikacji próbowałem napisać, znaczy napisać, próbowałem wygenerować, nazwijmy to, bo chciałem chciałem sobie a to zrobić kilka własnych narzędzi, a to miałem jakąś też potrzebę, bolączkę, która nie spełniała... nie była spełniona przez żadne narzędzie, które znajdowałem w sieci. Albo chciałem zrobić coś też dla mojej szkoły dot.net, tak żeby wspomóc moich kursantów. I za każdym razem, budowałem właśnie na takiej zasadzie, nawet jeśli miałem przygotowaną dokumentację z wymaganiami ze wszystkim, to dochodziło do tego, że... że im więcej tam się pojawiało funkcjonalności, ciężej mi było nad tym zapanować. To znaczy, jak próbowałem stworzyć kolejne rzeczy, to mój asystent zaczynał się gubić w tym wszystkim. Natomiast ostatnio też, może nie jest to wielkie jeszcze w tym momencie, ale zaczęliśmy, znaczy ja zacząłem... w porozumieniu z tobą tworzyć nowe narzędzie, które mam nadzieję już niedługo też będziemy wspólnie używać. znaczy narzędzie to... Tak, dokładnie, dokładnie. Póki co zarabiamy na tym absolutne złotych i 0 dolarów i mamy reweniów również 0, ale kiedyś może to się zmieni, a może nie."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "10:53",
+      "text": "Jesteśmy startupem w stealth modzie."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "11:09",
+      "text": "Tym bardziej, że cały kod tego wszystkiego jest publiczny, więc nie wiemy, co z tego wyjdzie. Ale kiedy zacząłem budować kolejne narzędzie, mieliśmy w głowie stack: Blazor na froncie i minimal API na backendzie. Od tego wyszedłem i zacząłem pisać prompty. Korzystam z Copilota, więc utworzyłem „Copilot Instructions” oraz oddzielne, customowe instrukcje dla poszczególnych projektów: oddzielną dla API i oddzielną dla kodu frontendowego w Blazorze. Oprócz tego mam jeszcze customowe prompty, które mogę wywołać w Visual Studio Code po slashu jednym słowem – na przykład do code review czy refaktoringu. Koduję już któryś dzień, wszystko idzie po mojej myśli, nic się nie psuje, a kod jest akceptowalny. Jestem w szoku, że przygotowanie tych promptów przynosi taką wartość. Dzięki temu, że model trzyma się kontekstu, łatwiej jest nad nim zapanować, żeby nie zaczął się rozjeżdżać w dziwne strony. Jestem naprawdę dobrej myśli."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "13:24",
+      "text": "Ale tak naprawdę nie jesteś sam. Może to dziwnie zabrzmi, ale jak spojrzymy na ankietę Stack Overflow Developer Survey z 2025 roku, zaznaczymy sobie „Experienced Devs”, czyli takich, którzy rzeczywiście coś robią... Można oczywiście kliknąć „All Responders” i wtedy te wartości nie różnią się tak bardzo. Można to samemu przeklikać. Ponad 47% zaawansowanych, doświadczonych deweloperów używa narzędzi AI-owych codziennie. Kolejne 17% używa ich, nazwijmy to, weekly – zakładam, że częściej niż raz w tygodniu. 13% używa monthly or infrequently, 6% nie, ale planuje, a 16,5% nie i nie planuje. Wyobrażasz sobie? Ponad 75% używa ich regularnie. To jest ankieta z zeszłego roku, w tym pewnie będzie jeszcze więcej. Co więcej, pada pytanie o accuracy, czyli dokładność. Znowu: ci zaawansowani w 2,5% mają „Highly Trust” – OK, to mało – ale „Somewhat Trust” i „Somewhat Distrust” są na poziomie koło 28–26%. 20% uznaje totalny „Highly Distrust”. To moim zdaniem rośnie. Jest też pytanie o to, czy są w stanie zarządzić złożonymi zadaniami: odpowiedzi „very well”, „good” to znowu prawie 45%. To jest naprawdę dużo. To po prostu jest coraz lepsze. My jesteśmy prekursorami. To się zmienia – powoli przestaniemy być koderami. Kod przestanie być wartością."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "16:12",
+      "text": "I bardzo, i bardzo dobrze. Ja się bardzo z tego cieszę. Ja się naprawdę bardzo z tego cieszę, bo mam wrażenie, że to też może być w ogóle, to wszystko mogło się pojawić w bardzo dobrym czasie. Bo mam wrażenie, że dochodziliśmy do takiego punktu kulminacyjnego, którym już nic nie było dobre. Był jeden obóz, który mówił tylko DDD. Drugi obóz tylko nie DDD. Jeden obóz tylko clean architecture, drugi obóz tylko jakiś inny architecture. I tak heksagonalny. Jakby mniejsza. Mniejsza o to w ogóle. Ale doszliśmy do takiego momentu, że nikt się z nikim nie zgadzał. Jak z kim się rozmawiałeś, to oczywiście mamy takich wyznawców, mamy innych wyznawców. I wszyscy się skupiali na tym, czyj kodzik."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "16:47",
+      "text": "hexagonu."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "17:10",
+      "text": "jest lepszy, jest ładniejszy, jest przyjemniejszy do czytania. Tak jakby to, że potem sobie ten kodzik będę czytać, to nie wiem, ja osobiście kodu dla przyjemności nie czytam, tylko dla pieniędzy, nazwijmy to, ale za to mi ewentualnie płacą. A jeżeli teraz..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "17:29",
+      "text": "Cześć! obraziłbym cię, mam jakiś taki głupi dowcip, przepraszam, czy co jesteś, jesteś facetem na godzinę, tak, za pieniądze."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "17:41",
+      "text": "Ale ja to powtarzam od bardzo dawna. Ja jestem bardzo ekskluzywną, że tak powiem, ale jednak kurtyzaną. I każdy, pracuje w konsultingu albo w ogóle w programowaniu, taka jest prawda. My się po prostu sprzedajemy za to. i kto nam zapłaci więcej za to, że będziemy czytać ich kod i ewentualnie go poprawiać. A w końcu dochodzimy do tego, mam nadzieję, że będziemy przede wszystkim stawiać na wartość biznesową."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "18:24",
+      "text": "O ja ci powiem, że ja się tego strasznie boję. Naprawdę się tego strasznie boję."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "18:31",
+      "text": "Co jeszcze się okaże, że potrafimy zrozumieć biznes?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "18:32",
+      "text": "Bo widziałem w życiu wiele organizacji, w których ludzie siedzący po stronie biznesowej – trochę tacy jak my siedzący po stronie IT – czekają, aż trafi im się oświecenie, co oni biznesowo mają zrobić. To nie oznacza, że to będzie źle, może być nawet całkiem dobrze. Ale to jest ten moment, w którym warto na te narzędzia zerknąć, jeśli jeszcze tego nie robisz, drogi słuchaczu. Mi brakuje jeszcze trochę instrukcji, jak ich używać, bo internet za każdym razem huczy. Są fajne, niedawno opublikowane materiały – pewnie zgubię linka, ale może odnajdę – gdzie twórcy Claude'a mówią, że oni w zasadzie go używają tak „vanilla”, prawie bez skomplikowanych skilli. Ja sam, korzystając z tych narzędzi AI-owych, coraz częściej dochodzę do wniosku, że nie chcę mieć nie wiadomo ilu dodatkowych plików z instrukcjami. Wiele razy się przejechałem na tym, że to, co wypluł automat, nie do końca było tym, co miało być. Chciałbym, żeby to generowało kod ze standardem. Ciekawym tematem są też AI-owe Pull Request Validatory, które mówią, na co zmiana wpłynie. Żyjemy w ciekawych czasach, skoro Linus i DHH mówią:"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "20:34",
+      "text": "Do it!"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "20:34",
+      "text": "Vibe coding, a zaraz będą mówili gen-coding – to znaczy, że jesteśmy w czasach, kiedy AI rzeczywiście wjechało już na wysokie C."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "20:43",
+      "text": "Tak. I ciekaw jestem, jak skończą faktycznie ci deweloperzy, którzy w zeszłym roku twierdzili, że absolutnie nie będą używać narzędzi AI-owych, czyli te 16,5%. Oni, oni, jeżeli, jeżeli ty jesteś drogi, tak, jeżeli drogi słuchaczu szukasz w tej chwili pracy albo chcesz wejść na ten rynek, to zaraz będzie przynajmniej 16,5 % wakatów wolnych, będzie można zająć ich miejsce."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "20:57",
+      "text": "Dopijemy się za rok."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "21:12",
+      "text": "jeśli będziesz dobrze używać narzędzi AI-owych. Ale to właśnie teraz na zakończenie też mam do was pytanie. Jeżeli korzystacie i mam nadzieję, że korzystacie już z tych narzędzi, to napiszcie nam w komentarzu, jak korzystacie z tych narzędzi. Czy jesteście bardziej Team Piotrek, czyli co tam w klepie to mi wypluje? Czy jesteście bardziej jak ja od niedawna, czyli najpierw dwa dni przygotowuje prompty, a dopiero potem zaczynam robotę? Bardzo mnie to ciekawi, jaki sposób pracujecie."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "21:50",
+      "text": "Mówiąc zupełnie szczerze."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "21:53",
+      "text": "Zobaczymy. A może skoro też nie ma dobrych praktyk albo nigdzie nie są spisane, to Piotrek, to jest kolejna sprawa. Możemy spisać dobre praktyki gen-codingu."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "21:54",
+      "text": "Więc..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "22:08",
+      "text": "Dokładnie. Będziemy jak Linus, będziemy jak Uncle Bob, jak DHH i jak wszyscy inni najwięksi. W końcu."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "22:15",
+      "text": "Wiesz co, by było najbardziej śmieszne jakby to załapało. To to... No, biorę bym się wtedy śmiać. No ale dobra."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "22:22",
+      "text": "No i tym miłym akcentem, tym razem naprawdę miłym, myślę, że możemy powiedzieć sobie spokojnie. Do zobaczenia za tydzień."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "22:32",
+      "text": "Trzymajcie się, cześć!"
+    }
+  ]
+}

@@ -1,5 +1,36 @@
 [
   {
+    "id": 13,
+    "num": "13",
+    "notPublished": true,
+    "title": "Better Dev Club #13 - Czy AI może analizować sen?",
+    "date": "2026-01-22",
+    "duration": "20:00",
+    "desc": "Rozmawiamy o tym, jak AI może analizować nasze dane biologiczne, w tym sen, aby wykrywać ryzyko chorób. Czy nasze smartwatche staną się naszymi lekarzami pierwszego kontaktu?",
+    "tags": ["#ai", "#health", "#biohacking"],
+    "platforms": {
+      "youtube": "https://www.youtube.com/playlist?list=PLfYUBxD2uoi6rCgRWK0SYD33M_T6JPMm1",
+      "spotify": "https://open.spotify.com/show/4EdHJK4qpJYWeGBQicZsjK",
+      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club/id1848840540"
+    },
+    "resources": [
+      {
+        "type": "link",
+        "label": "DHH: Promoting AI agents",
+        "url": "https://world.hey.com/dhh/promoting-ai-agents-3ee04945",
+        "description": "DHH przyzaje się że AI agents w końcu 2025 to coś co działa"
+      },
+      {
+        "type": "link",
+        "label": "AudioNoise GitHub by Linus Torvalds",
+        "url": "https://github.com/torvalds/AudioNoise",
+        "description": "W treści README znajduje się zdanie: 'Also note that the python visualizer tool has been basically written by vibe-coding.'"
+      }
+    ],
+    "youtubeId": "TODO",
+    "guestKey": "piotrek"
+  },
+  {
     "id": 12,
     "num": "12",
     "notPublished": false,
