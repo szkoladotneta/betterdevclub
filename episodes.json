@@ -2,16 +2,16 @@
   {
     "id": 13,
     "num": "13",
-    "notPublished": true,
-    "title": "Better Dev Club #13 - Czy AI może analizować sen?",
-    "date": "2026-01-22",
-    "duration": "20:00",
-    "desc": "Rozmawiamy o tym, jak AI może analizować nasze dane biologiczne, w tym sen, aby wykrywać ryzyko chorób. Czy nasze smartwatche staną się naszymi lekarzami pierwszego kontaktu?",
-    "tags": ["#ai", "#health", "#biohacking"],
+    "notPublished": false,
+    "title": "Better Dev Club #13 - Piekło zamarzło. Linus Torvalds i DHH o Vibe Coding",
+    "date": "2026-01-29",
+    "duration": "22:23",
+    "desc": "❄️ Piekło (znowu) zamarzło w IT ❄️ Linus Torvalds i DHH, którzy kojarzą się z najbardziej tradycyjnym podejściem do kodu, zaczęli mówić o Vibe Coding. W tym odcinku sprawdzamy, czy to rewolucja czy ewolucja w branży IT.",
+    "tags": ["#linustorvalds", "#dhh", "#vibecoding", "#programowanie", "#betterdevclub"],
     "platforms": {
-      "youtube": "https://www.youtube.com/playlist?list=PLfYUBxD2uoi6rCgRWK0SYD33M_T6JPMm1",
-      "spotify": "https://open.spotify.com/show/4EdHJK4qpJYWeGBQicZsjK",
-      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club/id1848840540"
+      "youtube": "https://youtu.be/giOy7r93pCk",
+      "spotify": "https://open.spotify.com/episode/2L6Iz1GSQgbOEhCeimM76n?si=Dws0WyPsQmq-YkstgQP01A",
+      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club-13-piek%C5%82o-zamarz%C5%82o-linus-torvalds-i/id1848840540?i=1000747148396"
     },
     "resources": [
       {
@@ -27,7 +27,7 @@
         "description": "W treści README znajduje się zdanie: 'Also note that the python visualizer tool has been basically written by vibe-coding.'"
       }
     ],
-    "youtubeId": "TODO",
+    "youtubeId": "giOy7r93pCk",
     "guestKey": "piotrek"
   },
   {
