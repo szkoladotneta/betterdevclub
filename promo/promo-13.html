@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Better Dev Club #13 - Battle Fixed</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --navy: #0f172a;
+            --yellow: #fbbf24;
+            --white: #ffffff;
+            --accent: #ff4500;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: #111;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Oswald', sans-serif;
+        }
+
+        .container {
+            width: 1200px;
+            height: 630px;
+            display: flex;
+            position: relative;
+            background: var(--navy);
+            border: 6px solid var(--white);
+            overflow: hidden;
+            box-sizing: border-box;
+        }
+
+        /* Żółta połowa tła */
+        .container::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 50%;
+            height: 100%;
+            background: var(--yellow);
+            z-index: 1;
+            border-left: 8px solid var(--white);
+        }
+
+        /* Styl dla postaci używający background-image do wycięcia */
+        .character {
+            position: absolute;
+            bottom: -70px;
+            width: 50%;
+            height: 100%;
+            z-index: 60; /* Wyżej niż tekst */
+            background-image: url('poses-green.png');
+            background-size: 200% auto; /* Skalujemy tak, by połowa obrazka wypełniła połowę kontenera */
+            background-repeat: no-repeat;
+            filter: contrast(1.05) brightness(1.05);
+            transform: scale(0.65);
+            transform-origin: bottom center;
+        }
+
+        .char-left {
+            left: 0;
+            background-position: left bottom;
+            filter: contrast(1.1) brightness(1.1);
+            transform-origin: bottom left;
+        }
+
+        .char-right {
+            right: 0;
+            background-position: right bottom;
+            transform-origin: bottom right;
+        }
+
+        /* Nagłówek */
+        .hook-header {
+            position: absolute;
+            top: 25px;
+            left: 50%;
+            transform: translateX(-50%) rotate(-1deg);
+            z-index: 100;
+            background: var(--white);
+            color: #000;
+            padding: 12px 50px;
+            font-size: 50px;
+            font-weight: 900;
+            text-transform: uppercase;
+            box-shadow: 8px 8px 0px var(--accent);
+            white-space: nowrap;
+        }
+
+        /* Teksty */
+        .side {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+            z-index: 20;
+        }
+
+        .left-side .content { color: var(--white); padding-left: 150px; }
+        .right-side .content { color: var(--navy); padding-right: 80px; text-align: right; }
+
+        h2 {
+            font-size: 55px;
+            margin: 0;
+            line-height: 0.85;
+            letter-spacing: -2px;
+            text-shadow: 0 0 15px rgba(0,0,0,0.3);
+        }
+
+        .sub-text {
+            font-size: 28px;
+            background: var(--accent);
+            color: var(--white);
+            display: inline-block;
+            padding: 5px 20px;
+            margin-top: 15px;
+            font-weight: 700;
+            transform: skewX(-5deg);
+        }
+
+        .right-side .sub-text {
+            background: var(--white);
+            color: var(--navy);
+        }
+
+        .vs-circle {
+            position: absolute;
+            top: calc(55% - 100px);
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(-3deg);
+            z-index: 110;
+            background: var(--white);
+            color: var(--navy);
+            font-size: 85px;
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 8px solid #000;
+            box-shadow: 8px 8px 0px var(--accent);
+            font-family: 'Inter', sans-serif;
+            font-weight: 950;
+            letter-spacing: -5px;
+        }
+
+        .badge {
+            position: absolute;
+            bottom: 25px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 100;
+            background: var(--navy);
+            color: var(--white);
+            padding: 8px 35px;
+            font-size: 18px;
+            font-weight: 900;
+            border: 2px solid var(--yellow);
+        }
+
+        .footer-cta {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: var(--accent);
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 60px;
+            z-index: 200;
+            border-top: 6px solid var(--white);
+            box-sizing: border-box;
+        }
+
+        .cta-text {
+            font-size: 34px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .cta-text span {
+            background: #000;
+            padding: 2px 12px;
+            color: #fff;
+            margin-left: 5px;
+        }
+
+        .platforms {
+            display: flex;
+            gap: 20px;
+        }
+
+        .platform-icon {
+            font-size: 35px;
+            background: white;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 12px;
+            box-shadow: 4px 4px 0px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="hook-header">KOD TO JUŻ TYLKO DETAL</div>
+        
+        <div class="vs-circle">VS</div>
+
+        <div class="character char-left"></div>
+        <div class="character char-right"></div>
+
+        <div class="side left-side">
+            <div class="content">
+                <h2>TEAM<br>PLANNER</h2>
+                <div class="sub-text">AGENT.MD & ADR</div>
+                <ul style="color: white; font-size: 32px; text-align: left; list-style: none; padding: 20px 0; line-height: 1.2;">
+                    <li>• Customowe instrukcje</li>
+                    <li>• 2 dni planowania </li>
+                    <li>• Pełna kontrola nad promptem</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="side right-side">
+            <div class="content">
+                <h2>TEAM<br>VIBE CODER</h2>
+                <div class="sub-text">INDEX.HTML I ELO</div>
+                <ul style="color: #0f172a; font-size: 32px; text-align: left; list-style: none; padding: 50px 0; line-height: 1.2; transform: translateX(80px);">
+                    <li>• Liczy się tylko wartość</li>
+                    <li>• "Prawie vanila" i dowożenie</li>
+                    <li>• Linus Torvalds Approved</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="badge">SŁUCHAJ BETTER DEV CLUB #13</div>
+
+        <div class="footer-cta">
+            <div class="cta-text">
+                POSŁUCHAJ:  <span>LINK W PIERWSZYM KOMENTARZU 👇</span>
+            </div>
+            
+            <div class="platforms">
+                <div class="platform-icon" style="color: #FF0000;"><i class="fab fa-youtube"></i></div>
+                <div class="platform-icon" style="color: #1DB954;"><i class="fab fa-spotify"></i></div>
+                <div class="platform-icon" style="color: #A347FF;"><i class="fab fa-apple"></i></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
