@@ -337,6 +337,10 @@ __pycache__/
 # Telerik's JustMock configuration file
 *.jmconfig
 
+# Credentials
+tools/credentials.json
+.env
+
 # BizTalk build output
 *.btp.cs
 *.btm.cs
@@ -396,3 +400,5 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+.venv/
