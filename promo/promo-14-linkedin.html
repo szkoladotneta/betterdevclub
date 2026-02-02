@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Better Dev Club #14 - LinkedIn Edition</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --agent-neon: #00ffcc;
+            --security-red: #ff3e3e;
+            --terminal-text: rgba(0, 255, 204, 0.1);
+            --coral-bright: #ff4d4d;
+            --coral-dark: #cc0000;
+            --bg-deep: #0a0a0c;
+            --cyan-bright: #00ffff;
+            --text-primary: #ffffff;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Oswald', sans-serif;
+            overflow: hidden;
+        }
+
+        .container {
+            width: 1200px;
+            height: 630px;
+            background: var(--bg);
+            border: 4px solid #333;
+            position: relative;
+            display: flex;
+            overflow: hidden;
+        }
+
+        /* Tło z "logami" systemowymi */
+        .bg-logs {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            font-family: 'Fira Code', monospace;
+            font-size: 10px;
+            color: var(--terminal-text);
+            line-height: 1.2;
+            padding: 10px;
+            z-index: 1;
+            pointer-events: none;
+            overflow: hidden;
+        }
+
+        /* Podział Glitch */
+        .glitch-divider {
+            position: absolute;
+            left: 50%;
+            top: 0;
+            width: 2px;
+            height: 100%;
+            background: rgba(255,255,255,0.2);
+            z-index: 5;
+            box-shadow: 0 0 15px var(--agent-neon);
+        }
+
+        .side {
+            flex: 1;
+            position: relative;
+            z-index: 70; /* Wyżej niż postacie */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 60px;
+        }
+
+        .left-side {
+            background: linear-gradient(90deg, rgba(0, 255, 204, 0.05) 0%, transparent 100%);
+            padding-left: 150px;
+        }
+
+        .right-side {
+            background: linear-gradient(-90deg, rgba(255, 62, 62, 0.05) 0%, transparent 100%);
+            text-align: right;
+            padding-right: 200px;
+        }
+
+        /* Postacie z filtrami */
+        .character {
+            position: absolute;
+            bottom: -70px;
+            width: 50%;
+            height: 100%;
+            background-image: url('poses-2.png');
+            background-size: 200% auto;
+            background-repeat: no-repeat;
+            z-index: 10; /* Niżej niż tekst */
+            opacity: 0.6;
+            transform: scale(0.65);
+            transform-origin: bottom center;
+        }
+
+        .char-left {
+            left: 0;
+            background-position: left bottom;
+            filter: sepia(100%) saturate(300%) hue-rotate(110deg) brightness(0.6) contrast(1.2);
+            transform-origin: bottom left;
+        }
+
+        .char-right {
+            right: 0;
+            background-position: right bottom;
+            filter: sepia(100%) saturate(250%) hue-rotate(-45deg) brightness(0.8) contrast(1.3);
+            transform-origin: bottom right;
+        }
+
+        .brand-header {
+            position: absolute;
+            top: 20px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            z-index: 130;
+        }
+
+        .brand-title {
+            font-size: 55px; /* Zmniejszone aby pomieścić proces ewolucji */
+            font-weight: 900;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-transform: none;
+            line-height: 1;
+            filter: drop-shadow(0 4px 15px rgba(255, 69, 0, 0.3));
+        }
+
+        .evolution-step {
+            background: linear-gradient(135deg, var(--text-primary) 0%, var(--coral-bright) 50%, var(--cyan-bright) 100%);
+            background-size: 200% 200%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: gradientShift 6s ease infinite;
+        }
+
+        .old-name {
+            text-decoration: line-through;
+            opacity: 0.6;
+            font-size: 0.8em;
+        }
+
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .arrow {
+            color: rgba(255,255,255,0.3);
+            font-size: 0.7em;
+        }
+
+        .lobster-icon {
+            width: 80px;
+            height: 80px;
+            filter: drop-shadow(0 0 15px rgba(255, 77, 77, 0.4));
+        }
+
+        .header-tag {
+            background: var(--agent-neon);
+            color: #000;
+            display: inline-block;
+            padding: 5px 20px;
+            font-size: 24px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);
+            font-family: 'Oswald', sans-serif;
+            font-weight: 700;
+        }
+
+        .right-side .header-tag {
+            background: var(--security-red);
+            clip-path: polygon(5% 0%, 100% 0%, 100% 100%, 0% 100%);
+            box-shadow: none;
+            padding-left: 80px;
+            padding-right: 30px;
+        }
+
+        h2 {
+            font-size: 75px;
+            color: #fff;
+            margin: 0;
+            line-height: 0.85;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 10px rgba(0,0,0,0.8);
+        }
+
+        .status-box {
+            font-family: 'Fira Code', monospace;
+            border: 1px solid rgba(255,255,255,0.2);
+            padding: 15px;
+            margin-top: 20px;
+            background: rgba(0,0,0,0.7);
+            font-size: 18px;
+            text-align: left;
+            max-width: 400px;
+        }
+
+        .left-side .status-box { border-left: 5px solid var(--agent-neon); color: var(--agent-neon); }
+        .right-side .status-box { border-right: 5px solid var(--security-red); color: var(--security-red); text-align: right; margin-left: auto;}
+
+        .vs-logo {
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 100;
+            background: #fff;
+            color: #000;
+            padding: 10px 25px;
+            font-size: 45px;
+            font-weight: 900;
+            border: 4px solid #000;
+            box-shadow: 6px 6px 0 var(--agent-neon), -6px -6px 0 var(--security-red);
+        }
+
+        .footer-cta {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: #ff4500;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 60px;
+            z-index: 200;
+            border-top: 4px solid #fff;
+            box-sizing: border-box;
+        }
+
+        .cta-text {
+            font-size: 30px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .cta-text span {
+            background: #000;
+            padding: 2px 12px;
+            color: #fff;
+            margin-left: 5px;
+        }
+
+        .platforms {
+            display: flex;
+            gap: 15px;
+        }
+
+        .platform-icon {
+            font-size: 28px;
+            background: white;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            box-shadow: 3px 3px 0px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="brand-header">
+            <div class="lobster-icon">
+                <svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg"> <!-- Lobster Claw Silhouette --> <path d="M60 10 C30 10 15 35 15 55 C15 75 30 95 45 100 L45 110 L55 110 L55 100 C55 100 60 102 65 100 L65 110 L75 110 L75 100 C90 95 105 75 105 55 C105 35 90 10 60 10Z" fill="url(#lobster-gradient)" class="claw-body"></path> <!-- Left Claw --> <path d="M20 45 C5 40 0 50 5 60 C10 70 20 65 25 55 C28 48 25 45 20 45Z" fill="url(#lobster-gradient)" class="claw-left"></path> <!-- Right Claw --> <path d="M100 45 C115 40 120 50 115 60 C110 70 100 65 95 55 C92 48 95 45 100 45Z" fill="url(#lobster-gradient)" class="claw-right"></path> <!-- Antenna --> <path d="M45 15 Q35 5 30 8" stroke="var(--coral-bright)" stroke-width="2" stroke-linecap="round" class="antenna"></path> <path d="M75 15 Q85 5 90 8" stroke="var(--coral-bright)" stroke-width="2" stroke-linecap="round" class="antenna"></path> <!-- Eyes --> <circle cx="45" cy="35" r="6" fill="var(--bg-deep)" class="eye"></circle> <circle cx="75" cy="35" r="6" fill="var(--bg-deep)" class="eye"></circle> <circle cx="46" cy="34" r="2" fill="var(--cyan-bright)" class="eye-glow"></circle> <circle cx="76" cy="34" r="2" fill="var(--cyan-bright)" class="eye-glow"></circle> <defs> <linearGradient id="lobster-gradient" x1="0%" y1="0%" x2="100%" y2="100%"> <stop offset="0%" stop-color="var(--coral-bright)"></stop> <stop offset="100%" stop-color="var(--coral-dark)"></stop> </linearGradient> </defs> </svg>
+            </div>
+            <h1 class="brand-title">
+                <span class="evolution-step old-name">ClaudBot</span>
+                <span class="arrow">→</span>
+                <span class="evolution-step old-name">MoltBot</span>
+                <span class="arrow">→</span>
+                <span class="evolution-step">OpenClaw</span>
+            </h1>
+        </div>
+
+        <div class="bg-logs">
+            [SYS] Initializing Moldbolt protocol...<br>
+            [AUTH] API Key detected: GH_COPILOT_***<br>
+            [WARN] Unrestricted filesystem access granted.<br>
+            [ERR] Loop detected in docker.service<br>
+            [DISK] 50GB logs written to /var/log/berserk.log<br>
+            [SYS] JARVIS_MODE: ENABLED<br>
+            [SENSITIVE] Exporting local credentials...<br>
+            [NOTICE] Google VP alert: "SAFETY RISK DETECTED"<br>
+            [SYS] Initializing Moldbolt protocol...<br>
+            [AUTH] API Key detected: GH_COPILOT_***<br>
+            [WARN] Unrestricted filesystem access granted.<br>
+            [DISK] 50GB logs written to /var/log/berserk.log<br>
+            [SYS] JARVIS_MODE: ENABLED<br>
+            [SYS] Initializing Moldbolt protocol...<br>
+            [AUTH] API Key detected: GH_COPILOT_***<br>
+            [WARN] Unrestricted filesystem access granted.<br>
+        </div>
+
+        <div class="glitch-divider"></div>
+        <div class="vs-logo">VS</div>
+
+        <div class="character char-left"></div>
+        <div class="character char-right"></div>
+
+        <div class="side left-side">
+            <span class="header-tag">The Dream</span>
+            <h2>WŁASNY<br>JARVIS</h2>
+            <div class="status-box">
+                > Autonomiczni agenci<br>
+                > Integracja z komunikatorami<br>
+                > Pełne dowożenie 24/7
+            </div>
+        </div>
+
+        <div class="side right-side">
+            <div style="display: flex; flex-direction: column; align-items: flex-end;">
+                <span class="header-tag">The Reality</span>
+                <h2>SECURITY<br>RISK</h2>
+                <div class="status-box">
+                    > Dostęp do całej maszyny<br>
+                    > Dysk zapchany logami<br>
+                    > Publiczne klucze API
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-cta">
+            <div class="cta-text">
+                BETTER DEV CLUB #14: <span>LINK W KOMENTARZU 👇</span>
+            </div>
+            
+            <div class="platforms">
+                <div class="platform-icon" style="color: #FF0000;"><i class="fab fa-youtube"></i></div>
+                <div class="platform-icon" style="color: #1DB954;"><i class="fab fa-spotify"></i></div>
+                <div class="platform-icon" style="color: #A347FF;"><i class="fab fa-apple"></i></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

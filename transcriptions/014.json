@@ -1,0 +1,239 @@
+{
+  "transcript": [
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:00",
+      "text": "Cześć Piotrek."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:03",
+      "text": "Cześć Kartek. Dzisiaj słuchaj pogadamy o naszym personalnym asystencie własnym Jarvisie. Na pewno zawsze marzyłeś jak widziałeś Aaron menażerem własnego Jarvisa."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:19",
+      "text": "I co? I to już dzisiaj? Już można?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:21",
+      "text": "I co? No moim zdaniem tak. Moim zdaniem już można. Nie nazywa się to niestety Jarvis. W ogóle nie wiadomo do końca jak się nazywa, bo to strasznie skomplikowane, bo w zeszłym tygodniu nazywał się jeszcze Kraobot, a w tym miesiącu nazywa się już Moldbolt, bo jak gdyby tam problem tak zwany z nazwami pod tytułem Claude coś tam i w ogóle."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:30",
+      "text": "To nie..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:51",
+      "text": "się nagle zrobiło problematycznie, ale słuchaj już jest. U mnie działa."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:56",
+      "text": "OK. To ja teraz mogę powiedzieć, że u mnie nie działa. Próbowałem dzisiaj. Nie poświęciłem temu prawdopodobnie wystarczająco dużo czasu. Jeszcze robiłem to na maszynie, której nie odpalałem dobre pół roku. Więc być może to jest moja wina. Ale jednak miałem nadzieję, że to pójdzie tak od strzała. Jeszcze wrócę do jednej rzeczy. Skoro nie nazywa się Jarvis, bo oczywiście zabrakło mi jakiegoś suchara na początku, skoro nie nazywa się Jarvis, to cały potencjał marketingowy przepadł mniej więcej tak jak potencjał marketingowy naszego podcastu. O, możemy teraz dalej."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "01:44",
+      "text": "Ale wiesz, jak by się jeszcze nazywał Jarvis to nie dość, że teraz mają problemy z Claude'em, aby mieli problemy z Purnam Arvelem."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "01:58",
+      "text": "No to też prawda, to też prawda. ale no cóż. A może tamci by się aż tak bardzo nie przyczepiali. Może by też zrobili na ten temat jakiś nowy film. Ale my nie o tym właściwie. Moldbot. Dlaczego..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "02:14",
+      "text": "No a teraz poczekaj, wrażłem teraz na stronę i wyszło mi, że to jest OpenClaw."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "02:18",
+      "text": "Tak, no właśnie to jest też bardzo ciekawe. Swoją drogą, jak dzisiaj próbowałem to zainstalować, to z NPM-a cały czas ściągasz albo nazywa się to właśnie repozytorium Cloudbot, a potem teoretycznie w instrukcji jest napisane, żeby odpalić OpenCLO on board, a ta instrukcja oczywiście nie działa, tylko działa Cloudbot. Więc ja myślę, to jest ten problem, że codziennie zmieniają tę nazwę i jeszcze nie do końca są w stanie zmigrować wszystko. I musimy poczekać chwilę, aż to się ustabilizuje. Mniej więcej tak jak ustabilizuje się działanie samego BOT-a, nazwijmy to na ten moment, bez względu na to jaką będzie miał jutro nazwę. Ale dlaczego Ci się podoba?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "03:14",
+      "text": "Dlaczego mi się podoba. Dobra to rzeczywiście znaczy pierwszy raz widzę takiego asystenta arierowego takiego nie w sensie że w IDRA tylko rzeczywiście takiego który coś dla mnie robi. Rzeczywiście zajęłam trochę konfiguracji i mówię że w tej chwili jest to narzędzie deweloperskie. Trzeba być deweloperem trzeba rozumieć co się klika. Odradzam zainstalowania tego na własnej maszynie, chociaż wtedy podobno działa najlepiej. Ja sobie to zainstalowałem na wirtualce, jak coś to rozwinę albo rozwinę albo cokolwiek takiego. I rzeczywiście jest tak, że no ja sobie, bo można go skonfigurować z wieloma kanałami. Można użyć tam Signala, Discord, nawet Teamsów, WhatsAppa i w Telegrama i ogóle czego chcecie. Ja sobie skonfigurowałem z Discordem, bo mi było Znaczy mam Discorda na telefonie to stwierdziłem nie chcę mieć kolejnego narzędzia jeszcze do nie wiadomo czego więc wybrałem Discorda z tych rzeczy które były. Na początku próbowałem WhatsApp ale poległem a z Discordem mi jakoś poszło w miarę szybko. Więc mogę go mieć wszędzie i mam go wszędzie. Na Discordzie robię tak że sobie gadam i po prostu mam wątki nie tworzę po prostu wątki na Discordzie jak używacie Discorda to wiecie o co chodzi jak używacie. Slacka to też wiecie o co chodzi jak używacie Teamsów to pewnie nie wiecie bo w Teamsach jest gorzej ale mogę sobie po prostu gadać w wątkach i rzeczywiście to mi w miarę całkiem spoko działa naprawdę rzeczywiście fajnie naprawdę rzeczywiście jak gdyby on funkcjonuje spytał mnie o moją osobowość, spytał mnie o parę różnych dziwnych rzeczy więc komunikuje się ze mną o ten AI taki jak bym chciał i co więcej używa mojej licencji Copilota Nie potrzebuję do tego bo on się znowu integruje ze wszystkimi dowolnymi czatami nie możecie sobie wstawić. Tłum ludzi mówi oczywiście Antropika no bo Cloud Cloud jak gdyby tego wyszło więc to to jak gdyby nie ten a rzeczywiście chyba zrobili integrację prawie ze wszystkim przynajmniej wszystko co kojarzę nie OpenRoute, GitHub Copilot oczywiście OpenAI w ogóle ZAI No po prostu tłum tych integracji. sensie to to się to to to to to to się się się się się to się to się to się to się się się się się to się się to się to się to się to się to to się Gdzie to rzeczywiście fajnie działa. Na przykład dzisiaj pokazywałem Kajetanowi coś co się męczyłem strasznie długo, aż wstyd, ale gdyby coś tam robiłem żeby sobie wygenerować okładkę, którą może jużście widzieli na social media, na moim linkinie. A jak nie to jak zwykle można sobie podklikać i to było tak, że było to zrobione w zasadzie głównie promptowaniem. On wygenerował łącznie z tym, że zrobił mi screenshot z HTMLa z przeglądarki. Czyli odpala mi pod spodem przeglądarkę. Chwila się namęczyłem, żeby przeglądarka działała, żeby zainstalował i skonfigurował tam parę razy. Musiałem niestety zrobić SSH. Ale jak już rzeczywiście zrobiłem to on mi jest w stanie odpalić HTMLa. W ogóle wejść na dowolną stronę i strzelić z niej screenshot i wysłać na Discorda. I to jest dla mnie taki po prostu pfff nie? Nie dopuszczę go jeszcze do swoich maili, chociaż tłumóź go podobno dopuszcza i są jakieś takie rytmy. Nie dopuszczę go jeszcze do swojego kalendarza, ale może już na kawałku gitowych rzeczy to się będę zastanawiał. W sensie takim, że rzeczywiście to są rzeczy, które jakoś funkcjonują. Czy to działa w pełni tak, żeby to było w totalnie autonomiczne? Nie wiem, ale przykładowo byłem ciekawy, więc zrobiłem sobie powiadomienie giełdowe, które przychodzimy codziennie rano. Czy ono działa i czy polecam wam zrobienie tego samego nie wiem jeszcze bo chodzi mi na razie parę dni więc ciężko mi powiedzieć na ile te rekomendacje finansowe są dobre czy złe ale codzienne rano zostaje rekomendacje finansowe na podstawie tam iluś źródeł. Dlatego jest pierdolijad właśnie z kili które możecie zainstalować takich typowo agentowych nie typu że jak nie chcecie używać chroma to na przykład możecie używać przegrywałem. Jedno to jest ogóle wyszukiwarka nie. Tam jest jakaś wyszukiwa reka do skonfigurowanych ale jest kilka nie możecie sobie podłączyć Pipelexity możecie sobie podłączyć Duck Duck Go Go możecie sobie podłączyć Binga możecie sobie podłączyć nie wiadomo co możecie sobie postawić normalnie Chrome nie bo to to secz działa po prostu jako app możecie sobie postawić Chrome i z Chrome na przykład robić screenshoty chociaż znowu się przyznam że SSH na parę razy było żeby zdiagnozować dlaczego my screenshoty nie działa. Więc to jest działa. I dlatego mi się podoba. Natomiast to teraz, gdyby ja, jak gdyby mały spojlaek w tym miejscu. Dlaczego tobie się nie podoba?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "08:16",
+      "text": "Mi się nie podoba, bo ja jestem przerażony po pierwsze. Jak próbowałem... Właśnie, dobrze, że powiedziałeś, że to jest dla ludzi technicznych. Bo z tego, co wyczytałem i z tego, co zrobiłem research, to ludzie to właśnie instalują na swoich prywatnych maszynach, na swoich prywatnych komputerach. A to z automatu właściwie, jeśli dobrze popatrzyłem, dostaje dostęp absolutnie do całej twojej maszyny, calu sieńkiej. I ciężko jest nad tym zapanować, ale tak przy takiej prostej konfiguracji, przy takim quick starcie, jak robisz."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "09:02",
+      "text": "Czy takiej prostej konfiguracji tak? Nie musi, może to tak. Może, ale nie musi."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "09:06",
+      "text": "Nie musi, ale nawet samo to, jaki sposób się ją instaluje. Już pomijam to, że osoba nietechniczna będzie musiała trochę pokombinować chociażby jak wywołać NPM-a, żeby zainstalować i jak w ogóle zainstalować to u siebie, bo nie ma żadnego instalatora, tylko faktycznie trzeba trochę w tym terminalu grzebnąć. albo CURL-em chyba można to zrobić. No mniejsza w każdym razie trzeba się troszeczkę nagłowić. Natomiast potem jak tam konfigurator przeprowadza krok po kroku, to on nigdzie nie mówi o tym, do czego będzie miał dostęp, ale nigdzie też nie mówi o tym, żeby ten dostęp ograniczyć. Także musisz być na tyle świadomy... żeby założyć właśnie, że to będzie miało dostęp absolutnie do wszystkiego przy prostej konfiguracji. I trzeba odpowiednio to skonfigurować, żeby mu ograniczyć ten dostęp potem. I to mnie przeraża. To mnie przeraża pod kątem tego, że nagle się tak strasznie wiralowo rozeszło to, ile osób z tego korzysta i w tej chwili, ile osób zaczęło to instalować, jak... Wbrew pozorom prosta jest taka podstawowa konfiguracja tych podstawowych kanałów do komunikacji i okej, w pierwszej chwili ja sobie pomyślałem, to może być fajne, bo mi na przykład w dotychczasowych toolach brakowało jednej podstawowej rzeczy. Tego, żebym wygodnie mógł zacząć sobie na przykład pracę z asystentem na komputerze, a kontynuować ją na przykład na telefonie. Tego mi bardzo brakowało i to rozwiązuje na pewno ten problem, bo właśnie robisz sobie integrację z Discordem i tego Discorda masz wszędzie i możesz sobie kontynuować w każdej chwili i faktycznie to może działać superowo. Także ja na pewno dam temu drugą szansę, ale mimo wszystko, no kurczę, tyle się też mówi, jeśli dobrze pamiętam."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "10:59",
+      "text": "Dokładnie tak."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "11:25",
+      "text": "Jakiś jeden z weiss prezydentów w Google'u powiedział, żeby absolutnie nie używać Moldbota, bo jest po prostu niebezpieczny dla ludzi, którzy się na tym nie znają i to jest absolutna prawda. Także jeżeli drogi słuchaczu nie wiesz, nie potrafisz, nie czujesz się w tym pewnie, to nie instaluj tego. Jeszcze nie w tym momencie, bo możesz sobie narobić bardzo dużo złego. No i dodatkowo jeszcze jest kwestia tego, że to na pewno ma potencjał w kontekście tych wszystkich pluginów, bo tam faktycznie możesz sobie zintegrować dostęp i to też na zasadzie realnie pluginów chyba, jeśli dobrze pamiętam, dostęp do poczty, dostęp do kalendarza i tak dalej, czy jako skille. No to to jest spoko, bo to faktycznie..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "12:13",
+      "text": "To są skille, to są skille agentowe."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "12:22",
+      "text": "będzie potem proste w konfiguracji? Tylko właśnie, czy jeżeli ktoś się pokusi, bo tak jak powiedziałeś, no ty jeszcze nie dałbyś dostępu do maila, nie dałbyś dostępu do kalendarza. Ja też bym nie dał dostępu do niczego, poza jednym katalogiem najchętniej i dostępem po API, chociaż właśnie z drugiej strony dajesz dostęp po API. I on też może w pewnym momencie włączyć taki berserk mode i zacząć ci nawalać toketami, przykład do nano banana do Google, bo też od razu przy pierwszej konfiguracji mnie prosił, żebym podał mu klucz API do Gminy. I jakbym mu podał ten klucz, to tak się zastanawiam, czy on w pewnym momencie, jakby tam się gdzieś nie zawiesił na mojej maszynce, czy by nie zapętlił się. To jest jedna sprawa, a druga sprawa... No?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "13:19",
+      "text": "No to ja Ci się przyznam, ja Ci się przyznam jak gdyby w tym miejscu. Ja sobie napisałem coś tam próbuję, jak gdyby jakieś krawleja zrobić. Wyvibe, wyvibe, codowałem go. Przepraszam, wygen codowałem go. Ten rzeczywiście mi zrobił. Kazałem mu go zrobić w dokerze. Zrobił mi w dokerze. Odpalił się i coś mi poszło nie tak."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "13:32",
+      "text": "No, uważaj."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "13:44",
+      "text": "Kazałem mu próbować, żeby ciągnął i próbował. w ciągu... zostawiłem go wieczorem, rano wstałem i skończyło mi się miejsce na maszynie. Ta maszyna miała wolne 50 giga. Bo dokę wpadł w pętlę. On coś logował do pliku. Zresztą tak jak mu okazałem. Restarty do Kera, bo za każdym razem nie wstawał. Napychał logi i jechało. 50 kiga w 12 godzin. Ja patrzę, że maszyna mi kwenka."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "14:10",
+      "text": "Ale próbował, nie? No, ale to jest tu."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "14:24",
+      "text": "Bo logi są przypchane, po prostu dysk mi zapchał."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "14:28",
+      "text": "No, a ile w międzyczasie jeszcze poszło requestów do samego LLM-a?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "14:32",
+      "text": "Nie, nie, requestów nie poszło, doker był w stanie, wiesz, w tokenu w ogóle nie szły, bo jak gdyby to po prostu odpalił kontener dokerowy, który wszedł w pętlę non stop'ie startu."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "14:39",
+      "text": "Aha, czyli... Okej, no to jeszcze pół biedy, bo jakby wiesz, jeszcze jakby..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "14:49",
+      "text": "bo on mi zrobił nowego, po prostu pewnie nowego dokera i jak gdyby odpalał się go w czołg."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "14:58",
+      "text": "Ok, bo tak sobie pomyślałem, że jeszcze jakby po każdej próbie zaczynał analizować i jechał z kolejnymi requestami i próbował analizować te logi, to szybko by się jeszcze Microsoft do Ciebie odezwał, czy na pewno."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "15:12",
+      "text": "No to tak, już w ogóle byłoby tragiczne."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "15:17",
+      "text": "No właśnie, trochę się tego boję, jakby mówimy o tym, trochę się mówi o tym, że będziemy wchodzić w tę erę agentik AI i tych tuli takich jak Moldbot na pewno w tym roku powstanie bardzo dużo. I gdzieś tam będziemy chcieli dążyć do tego, żeby ta praca z agentami, tym bardziej jak mówimy też o jakichś sub-agentach, którzy będą zlecać między sobą, to też jest coraz częstszy temat. będziemy dążyć do tego, żeby ci asystenci, na razie takich będę wciąż nazywał, a nie agenci, żeby pracowali dla nas 24 na 7. Byli tacy bardzo świadomi tego, żeby faktycznie robić kolejne rzeczy już trochę na własną rękę. I to jest pewnie krok trochę w tę stronę. Tym bardziej, że dużo łatwiej będzie w tej chwili ich wywoływać. No to jest jeszcze, wiesz, to jest trochę mam wrażenie, taki moldbot jest trochę jak chat GPT w 2022 roku. Taka fajna ciekawostka, na pewno trzeba patrzeć, obserwować, próbować, jeżeli się na tym znamy, ale bardziej w formie właśnie ciekawostki niż realnie czegoś, co jest super użyteczne."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "16:24",
+      "text": "Wczesne, to jest bardzo wczesne moment."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "16:42",
+      "text": "Tym bardziej, że jeżeli się zagłębimy, to zobaczymy ile osób na przykład sobie zrobiło integrację z jakimś grokiem czy z X i zaczęło na X-ie pluć kluczami API i upublicznić właśnie klucze API. Już nie mówiąc o tym, że ludzie po prostu sobie tunelują swoje domowe IP-ki. bez żadnych zabezpieczeń i wystawiają właściwie całą swoją maszynę bez żadnych zabezpieczeń do sieci. No... Trochę riski."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "17:19",
+      "text": "No niestety, dobra, to tu się zgadzam, jesteśmy na etapie, że musisz wiedzieć co robić. To jest narzędzie dla ludzi technicznych, jak nasz słuchacz, to pewnie dla Ciebie, bo większość przynajmniej naszych słuchaczy, statystyk wynika, że to osoby techniczne, więc prawdopodobnie jest to narzędzie dla Ciebie, bo Ty wiesz. Prawdopodobnie należy to zainstalować na osobnej maszynie, a na Twoim prawdziwym komputerze, to też możemy się zgodzić. i wybierasz do czego dałem mu dostęp. Też były jakieś przypadki, tam nie wiem, wykasował ludziom wszystkie maile z Gmaila, bo zrobił inbox zero, bo tak człowiek kazał nam wstępne instrukcje. To rzeczywiście kosmiczną władzę, w sensie, to jest sudo. Bądźmy szczerze, tam gdzie dajesz prawnienia, dajesz mu po prostu na maksa uprawnienia, jak mu każesz poklikać ten, ale ja ci powiem, że to jest dla mnie właśnie To czego ty się boisz, co właśnie opowiedziałeś, dla mnie to ten, to jest wreszcie taki krok wiesz. Nie w kierunku tego, że używamy tego my jako deweloperzy do kodowania naszych rzeczy i po prostu w ide siedzimy czy tam w terminalu i się zachwycamy, tylko wreszcie zrobienia czegoś innego. Wreszcie taki uniwersalny ten, to że ja jestem w nawet pomimo to, że mi desk przeciążyło i musiałem restartować maszynę i coś tam. I to, że to jestem w stanie sobie przeczatować, żeby mi coś tam zeskrapował, wrzucił. Tak jak ci tam dzisiaj wklejałem, że doszedłem do etapu, że jestem w stanie w gen kodować czy jakkolwiek opisać tą stronkę, zrobić skrinshot i ci wysłać. To dla mnie to jest po prostu miądrze. Jest, zgodzę się. Security leży. Nie, gdyby tłum rzeczy jeszcze leży i prawdopodobnie moje dzieciaki pomimo to, że jak gdyby siedzą technicznie czy nie mówiąc o mojej żonie, nie ma szans, żeby to zainstalowali. Nie jest to ten moment. Chociaż może to pomysł na kolejny startup na SASa, Open Claw, czy tam jak to się dzisiaj nie nazywa, albo słuchacz może się jakoś inaczej nazywa, Assesservice, nie? Bo jak gdyby, why not? Ludzie mają maki mini w ogóle podobno kupują żeby to chodziło w ogóle wiesz podpinają do tego lokalne modele. To jest taki faza czystej takiego wybuchu energii eksperymentów to jeszcze jest dalekie do czerokolwiek takiego ale też pokazuje problem w którym w tej chwili jesteśmy. Czyli jak używasz tych agentów to często security leży. Jak używamy tej standardizacji nie ma. jeszcze tej standardizacji nie ma. To się tak szybko rozwija, że po prostu chyba nie opanowaliśmy. Co oczywiście powoduje problemy security, latające klucze albo nie wiem, jak chcesz podepniesz to pod polimarketa, bo cię nagle podepniesz, bo ten to możesz wszystkie pieniądze albo wygrać, albo przegrać, albo wygrać i przegrać tego samego dnia albo cokolwiek innego, bo po prostu zrobisz taką dziwną rzecz. No to trzeba świadomie, To trzeba świadomie."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "20:34",
+      "text": "Tak jest, tak jest."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "20:34",
+      "text": "Ja wiem, Ty jeszcze nie, ja już mówię, deweloperze installer, Ty mówisz, deweloperze się wstrzymają. Wreszcie prysza kontra między nami."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "20:42",
+      "text": "Traktuj jako ciekawostkę, na pewno, ale tak jest, tak jest, ale też już wymyśliłem nazwę na startup. Będzie się nazywał OCBS, prostu. Open Claw but Safe."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "20:56",
+      "text": "O co to jest?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "21:00",
+      "text": "Możemy zająć się taką, będziemy robić taką usługę. Będziemy instalować OpenClo i odpowiednio zabezpieczać, tak żeby ludzie się nie tracili swoich majątków."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "21:02",
+      "text": "To? jak to? Jedziemy. No dobra."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "21:16",
+      "text": "Ale co do standardizacji to się zgadzam."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "21:16",
+      "text": "Dobra to chyba w tym jeszcze możemy skończyć."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "21:20",
+      "text": "Przepraszam, chciałem powiedzieć, że jeśli chodzi o standardyzację, to tutaj się zgadzamy. Natomiast o standardyzacji myślę, że sobie jeszcze trochę porozmawiamy, być może w przyszłym tygodniu, bo no właśnie, w tym miejscu tej standardyzacji nie ma, ale w innych już chyba zaczyna się coś pojawiać. Ale żeby do tego dojść, to zapraszamy cię. Zapraszamy cię na przyszły tydzień, a dzisiaj już chyba tym..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "21:40",
+      "text": "zaczyna się coś pojawiać."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "21:46",
+      "text": "optymistycznym akcentem, bo w końcu się nie zgodziliśmy i w końcu zaczyna być ciekawie, przynajmniej też dla nas, a nie tylko dla wszystkich innych, to nie, oczywiście zawsze jest bardzo ciekawie dla nas również. To dziękujemy Ci bardzo, drogi słuchaczu. I pamiętaj, że zawsze możesz zostawić subskrypcję, zawsze możesz kliknąć łapkę w górę, w dół, obejrzeć wszystkie linki. I zapraszamy cię oczywiście na stronę betterdevclub.pl, gdzie możesz obejrzeć wszystkie odcinki, które do tej pory wychodziły i do zapisania się na newsletter na stronie betterdevclub.pl slash newsletter. Dzięki."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "22:25",
+      "text": "A jeżeli używasz Cloudbota, Moldbota, OpenClawa czy cokolwiek innego albo gdzieś się potknąłeś to też napisz jak gdyby do czego, jak, ogóle co chcesz. Bo więc szczerze, my żeśmy się podzieli, znaczy ja się podziwiam do czego używam, bo Kajetan Polek i nie chce tego używać. Ale jakbyś ten to dawajcie znać. Trzymajcie się i do zobaczenia za tydzień."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "22:50",
+      "text": "Do zobaczenia."
+    }
+  ]
+}
