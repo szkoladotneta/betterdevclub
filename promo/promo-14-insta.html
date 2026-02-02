@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Better Dev Club #14 - Instagram Edition</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Oswald:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --safety-yellow: #f5d142;
+            --danger-orange: #ff6b00;
+            --black: #000000;
+            --white: #ffffff;
+            --coral-bright: #ff4d4d;
+            --coral-dark: #cc0000;
+            --cyan-bright: #00ffff;
+            --agent-neon: #00ffcc;
+            --security-red: #ff3e3e;
+            --terminal-text: rgba(0, 0, 0, 0.15);
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: #1a1a1a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Oswald', 'Inter', sans-serif;
+        }
+
+        .container {
+            width: 1080px;
+            height: 1080px;
+            background: var(--safety-yellow);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            border: 20px solid var(--black);
+        }
+
+        /* Tło z logami */
+        .bg-logs {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            font-family: 'Courier New', monospace;
+            font-size: 16px;
+            color: var(--terminal-text);
+            line-height: 1.4;
+            padding: 20px;
+            z-index: 1;
+            pointer-events: none;
+            overflow: hidden;
+            font-weight: 700;
+        }
+
+        /* Ukośne pasy ostrzegawcze w tle */
+        .hazard-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 200%;
+            height: 200%;
+            background: repeating-linear-gradient(
+                45deg,
+                transparent,
+                transparent 100px,
+                rgba(0,0,0,0.05) 100px,
+                rgba(0,0,0,0.05) 200px
+            );
+            z-index: 2;
+            opacity: 0.5;
+        }
+
+        .brand-header {
+            position: absolute;
+            top: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            z-index: 100;
+            background: var(--black);
+            padding: 15px 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+
+        .brand-title {
+            font-size: 36px;
+            font-weight: 900;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: white;
+            margin: 0;
+        }
+
+        .evolution-step {
+            opacity: 0.6;
+        }
+
+        .evolution-step.active {
+            opacity: 1;
+            color: var(--safety-yellow);
+            text-shadow: 0 0 15px var(--safety-yellow);
+        }
+
+        .old-name {
+            text-decoration: line-through;
+            font-size: 0.85em;
+        }
+
+        .lobster-icon {
+            width: 60px;
+            height: 60px;
+        }
+
+        .main-content {
+            position: relative;
+            z-index: 10;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 160px 0 0 0;
+        }
+
+        .vs-logo {
+            position: absolute;
+            top: 50%;
+            left: calc(50% - 40px);
+            transform: translate(-50%, -50%);
+            background: #fff;
+            color: #000;
+            padding: 10px 30px;
+            font-size: 50px;
+            font-weight: 900;
+            border: 5px solid #000;
+            box-shadow: 8px 8px 0 var(--agent-neon), -8px -8px 0 var(--security-red);
+            z-index: 120;
+        }
+
+        .comparison-container {
+            position: relative;
+            display: flex;
+            gap: 20px;
+            width: 100%;
+            justify-content: center;
+            z-index: 110;
+        }
+
+        .info-card {
+            background: rgba(0, 0, 0, 0.9);
+            border: 8px solid var(--black);
+            padding: 25px;
+            width: 450px;
+            box-shadow: 15px 15px 0 var(--black);
+        }
+
+        .card-dream { border-color: var(--agent-neon); box-shadow: 15px 15px 0 var(--agent-neon); }
+        .card-reality { border-color: var(--security-red); box-shadow: 15px 15px 0 var(--security-red); }
+
+        .card-tag {
+            display: inline-block;
+            padding: 5px 15px;
+            font-size: 24px;
+            font-weight: 900;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+        }
+
+        .tag-dream { background: var(--agent-neon); color: black; }
+        .tag-reality { background: var(--security-red); color: white; }
+
+        .info-card h2 {
+            font-size: 58px;
+            color: white;
+            margin: 0 0 15px 0;
+            line-height: 1;
+            text-transform: uppercase;
+        }
+
+        .points {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .points li {
+            font-size: 28px;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            font-family: 'Inter', sans-serif;
+            line-height: 1.2;
+        }
+
+        .points li i { margin-top: 5px; }
+        .dream-li i { color: var(--agent-neon); }
+        .reality-li i { color: var(--security-red); }
+
+        .character-container {
+            position: absolute;
+            bottom: -30px;
+            width: 100%;
+            height: 700px;
+            display: flex;
+            justify-content: center;
+            z-index: 5;
+            pointer-events: none;
+        }
+
+        .character {
+            width: 50%;
+            height: 100%;
+            background-image: url('poses-2.png');
+            background-size: 180% auto;
+            background-repeat: no-repeat;
+            opacity: 0.9;
+            transform: scale(1);
+        }
+
+        .char-left {
+            background-position: left bottom;
+            filter: sepia(50%) saturate(150%) hue-rotate(110deg) brightness(1.2) contrast(1.1);
+        }
+
+        .char-right {
+            background-position: right bottom;
+            filter: sepia(50%) saturate(120%) hue-rotate(-45deg) brightness(1.3) contrast(1.1);
+        }
+
+        .footer {
+            width: 100%;
+            background: #ff4500;
+            color: white;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-sizing: border-box;
+            z-index: 130;
+            margin-top: auto;
+            border-top: 5px solid white;
+        }
+
+        .cta-text {
+            font-size: 38px;
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+
+        .cta-text span {
+            background: #000;
+            padding: 2px 14px;
+            color: #fff;
+            margin-left: 5px;
+        }
+
+        .platforms {
+            display: flex;
+            gap: 15px;
+        }
+
+        .platform-icon {
+            font-size: 28px;
+            background: white;
+            width: 55px;
+            height: 55px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="bg-logs">
+            [SYS] Initializing Moldbolt protocol...<br>
+            [AUTH] API Key detected: GH_COPILOT_***<br>
+            [WARN] Unrestricted filesystem access granted.<br>
+            [ERR] Loop detected in docker.service<br>
+            [DISK] 50GB logs written to /var/log/berserk.log<br>
+            [SYS] JARVIS_MODE: ENABLED<br>
+            [SENSITIVE] Exporting local credentials...<br>
+            [NOTICE] Google VP alert: "SAFETY RISK DETECTED"<br>
+            [SYS] Initializing Moldbolt protocol...<br>
+            [AUTH] API Key detected: GH_COPILOT_***<br>
+            [WARN] Unrestricted filesystem access granted.<br>
+            [DISK] 50GB logs written to /var/log/berserk.log<br>
+            [SYS] JARVIS_MODE: ENABLED<br>
+            [SENSITIVE] Exporting local credentials...<br>
+            [NOTICE] Google VP alert: "SAFETY RISK DETECTED"<br>
+            [DISK] 50GB logs written to /var/log/berserk.log<br>
+            [SYS] JARVIS_MODE: ENABLED<br>
+            [SENSITIVE] Exporting local credentials...<br>
+            [NOTICE] Google VP alert: "SAFETY RISK DETECTED"<br>
+        </div>
+        <div class="hazard-bg"></div>
+
+        <div class="brand-header">
+            <div class="lobster-icon">
+                <svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M60 10 C30 10 15 35 15 55 C15 75 30 95 45 100 L45 110 L55 110 L55 100 C55 100 60 102 65 100 L65 110 L75 110 L75 100 C90 95 105 75 105 55 C105 35 90 10 60 10Z" fill="url(#lobster-gradient)"></path>
+                    <path d="M20 45 C5 40 0 50 5 60 C10 70 20 65 25 55 C28 48 25 45 20 45Z" fill="url(#lobster-gradient)"></path>
+                    <path d="M100 45 C115 40 120 50 115 60 C110 70 100 65 95 55 C92 48 95 45 100 45Z" fill="url(#lobster-gradient)"></path>
+                    <circle cx="45" cy="35" r="6" fill="#000"></circle>
+                    <circle cx="75" cy="35" r="6" fill="#000"></circle>
+                    <defs>
+                        <linearGradient id="lobster-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="var(--coral-bright)"></stop>
+                            <stop offset="100%" stop-color="var(--coral-dark)"></stop>
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </div>
+            <p class="brand-title">
+                <span class="evolution-step old-name">ClaudBot</span>
+                <span>→</span>
+                <span class="evolution-step old-name">MoltBot</span>
+                <span>→</span>
+                <span class="evolution-step active">OpenClaw</span>
+            </p>
+        </div>
+
+        <div class="main-content">
+            <div class="comparison-container">
+                <!-- THE DREAM -->
+                <div class="info-card card-dream">
+                    <span class="card-tag tag-dream">The Dream</span>
+                    <h2>WŁASNY JARVIS</h2>
+                    <ul class="points">
+                        <li class="dream-li"><i class="fas fa-check-circle"></i> Autonomiczni agenci</li>
+                        <li class="dream-li"><i class="fas fa-check-circle"></i> Integracja 24/7</li>
+                        <li class="dream-li"><i class="fas fa-check-circle"></i> Pełne dowożenie</li>
+                    </ul>
+                </div>
+
+                <div class="vs-logo">VS</div>
+
+                <!-- THE REALITY -->
+                <div class="info-card card-reality">
+                    <span class="card-tag tag-reality">The Reality</span>
+                    <h2>SECURITY RISK</h2>
+                    <ul class="points">
+                        <li class="reality-li"><i class="fas fa-exclamation-triangle"></i> Dostęp do maszyny</li>
+                        <li class="reality-li"><i class="fas fa-exclamation-triangle"></i> Dysk zapchany logami</li>
+                        <li class="reality-li"><i class="fas fa-exclamation-triangle"></i> Publiczne klucze API</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="character-container">
+                <div class="character char-left"></div>
+                <div class="character char-right"></div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="cta-text">
+                BETTER DEV CLUB #14: <span>LINK W BIO 👇</span>
+            </div>
+            
+            <div class="platforms">
+                <div class="platform-icon" style="color: #FF0000;"><i class="fab fa-youtube"></i></div>
+                <div class="platform-icon" style="color: #1DB954;"><i class="fab fa-spotify"></i></div>
+                <div class="platform-icon" style="color: #A347FF;"><i class="fab fa-apple"></i></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
