@@ -1,5 +1,30 @@
 [
   {
+    "id": 14,
+    "num": "14",
+    "notPublished": false,
+    "title": "Better Dev Club #14 - Clawdbot - Moltbot - OpenClaw?",
+    "date": "2026-02-05",
+    "duration": "22:46",
+    "desc": "Clawdbot? Moltbot? Czy OpenClaw? Bez względu na nazwę jest to jeden z najbardziej gorących tematów ostatnich dni. W tym odcinku sprawdzamy, czy to narzędzie, które święty graal agentic AI, czy może tylko niebezpieczna zabawka w rękach nieodpowiedzialnych ludzi.",
+    "tags": ["#clawdbot", "#moltbot", "#openclaw", "#agenticAI", "#security", "#betterdevclub"],
+    "platforms": {
+      "youtube": "https://youtu.be/1gDzn-SHxSw",
+      "spotify": "https://open.spotify.com/episode/7t7Drh3M65rSlQrwwjuXop?si=Nqq3lxqQQCWJuR5T4Wn5uA",
+      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club-14-clawdbot-moltbot-openclaw/id1848840540?i=1000748335547"
+    },
+    "resources": [
+      {
+        "type": "link",
+        "label": "OpenClaw",
+        "url": "https://openclaw.ai/",
+        "description": "Strona projektu"
+      }
+    ],
+    "youtubeId": "1gDzn-SHxSw",
+    "guestKey": "piotrek"
+  },
+  {
     "id": 13,
     "num": "13",
     "notPublished": false,
