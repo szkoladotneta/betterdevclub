@@ -9,7 +9,7 @@
     "desc": "Rozmawiamy o Skillach, agents.md i standardach w świecie agentic AI. Czy Vercel i Anthropic stworzyli coś, co faktycznie działa, czy może zwykły plik tekstowy z instrukcjami wciąż wygrywa? Sprawdzamy sukcesy i porażki nowej fali standardów dla agentów.",
     "tags": ["#ai", "#agents", "#skills", "#vercel", "#anthropic", "#betterdevclub"],
     "platforms": {
-      "youtube": "https://youtu.be/TODO",
+      "youtube": "https://youtu.be/lynrN0dMOLY",
       "spotify": "https://open.spotify.com/episode/7t7Drh3M65rSlQrwwjuXop?si=Nqq3lxqQQCWJuR5T4Wn5uA",
       "apple": "https://podcasts.apple.com/us/podcast/better-dev-club-14-clawdbot-moltbot-openclaw/id1848840540?i=1000748335547"
     },
@@ -27,7 +27,7 @@
         "description": "Artykuł opisujący testy i standard skilli"
       }
     ],
-    "youtubeId": "TODO",
+    "youtubeId": "lynrN0dMOLY",
     "guestKey": "piotrek"
   },
   {
