@@ -1,0 +1,279 @@
+{
+  "transcript": [
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:00",
+      "text": "Cześć Piotrek."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:01",
+      "text": "Cześć Kajtek."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:02",
+      "text": "Słuchaj, dzisiaj porozmawiamy sobie o bardzo ważnej sprawie, to znaczy o skillach, agentach, o czym jeszcze? O subagentach i OMP. Jesteś podekscytowany?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:14",
+      "text": "Jezus Maria, cała standardizacja nie istnieje."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:18",
+      "text": "Dokładnie tak, czyli o standardyzacji, która nie istnieje. Właśnie o tym chciałem z tobą porozmawiać, bo o tym zaczęliśmy rozmawiać w zeszłym tygodniu. Znaczy ja powiedziałem, że będziemy rozmawiać i dlatego o to faktycznie pociągniemy ten temat. Ja ci od razu muszę powiedzieć, że ja byłem super podekscytowany, kiedy wyszły skille, kiedy zostały ogłoszone skille i kiedy zacząłem korzystać ze skilli. I wydawało mi się, że to jest w końcu Krok, który czekam od trzech lat. A teraz już sam nie wiem."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:52",
+      "text": "Co się zmieniło w takim razie? Bo ja mam swoje zdanie, ale poczekaj, dajmy szansę osobie, która jest chyba jeszcze podekscytowana."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "01:02",
+      "text": "Jestem trochę podekscytowany właśnie, bo cały czas mam wrażenie, że szukamy i chyba jesteśmy o krok bliżej. Cały czas to nie wychodzi, ale jesteśmy o krok bliżej tego, żeby jakoś ustandaryzować to, w jaki sposób będziemy kodować właśnie z tymi agentami wszystkimi, czy z asystentami, czy jakkolwiek ich nie nazwiemy. I na początku mieliśmy mieć jakąś standardizację, która właśnie miała być za pomocą MCP. Bo MCP dawało nam możliwości rozszerzanie, rozszerzanie możliwości naszych agentów o jakieś zewnętrzne funkcjonalności. Realnie gdzieś tam było to, nazwijmy to, proste API, które było pod spodem. No jest, działa na pewno. Natomiast czy to jest krok w stronę standardizacji? No tutaj jeszcze musi na pewno, no właśnie, musi, musiałoby się wiele..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "01:45",
+      "text": "Ale to jest i działa. Nie."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "01:57",
+      "text": "rzeczy zmienić, chociażby to,"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "01:59",
+      "text": "Znaczy wróć, wróć. Jest określony standard jak wołać te zewnętrzne narzędzia. Rzeczywiście jak go napiszesz w odpowiednim standardzie to takie narzędzie jak na przykład niech będzie Visual Studio Code o daleko nie szukając najbardziej popularne narzędzie dla deweloperów umie odpytać w określony sposób niech będzie dokumentację wybranej przez Ciebie chmury albo wybranego przez Ciebie język albo nawet wybranego przez Ciebie narzędzia. I to jest i działa."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "02:30",
+      "text": "Tak, to jest i działa. I fajnie, że powiedziałeś o tych dokumentacjach właśnie chmury czy języka, bo to faktycznie działa dobrze, bo to też jest stworzone przez wielkie korporacje, którym bardzo zależało na tym, żeby to działało w miarę dobrze. Ale jest cała masa MCP, która po prostu nie działa dobrze, bo albo mają masę niepotrzebnych tuli w sobie, albo mają... Tule, które nie dają żadnej wartości."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "03:03",
+      "text": "No to ja dorzucę ci jeszcze jedną łyżkę dziegciu. Jak to się nie mówi po polsku. Jak se załadujesz tam 30 MCP do kontekstu, to twój kontekst..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "03:20",
+      "text": "Tak, dokładnie. I ten problem miały rozwiązywać skille. Ten problem miały rozwiązywać skille, bo w skillach realnie miałeś mieć... Okej, one nie były takim przełożeniem 1 do 1 właśnie do MCP, tylko bardziej cost-effective, bo miałeś w skillach mieć opisane jakieś metadane, czyli realnie tytuł skilla i krótki opis. Gdzieś tam, jeśli dobrze kojarzy, to miało się zmieścić w 100 tokenach. I wtedy na tej podstawie..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "03:48",
+      "text": "Daj przykład dla naszych słuchaczy, daj przykład co byś chciał mieć w takim skillu."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "03:54",
+      "text": "W takim skillu proste informacje o najlepszych praktykach tworzenia komponentów w Blazorze."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "04:10",
+      "text": "No to ciężki."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "04:12",
+      "text": "No czego ciężkie?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "04:13",
+      "text": "W 100 tokenach się ma zmieścić. Dla mnie skill to taka rzecz, która jest prosta, łatwa jak zbudować mój projekt i go przetestować. To jeszcze uwierzę."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "04:22",
+      "text": "No nie, ale to description miało być, jakby te meta dane dotyczące właśnie tego skila miały się łączyć, miały się mieścić w 100 tokenach. I na tej podstawie tego opisu, na podstawie tych 100 tokenów i w związku z tym, jeżeli mamy asystenta, dostaje request, to ma sobie sprawdzić jakie on ma skille i on ma w tych 100 tokenach sobie załadować wszystkie skille, w związku z tym ten kontekst Windows cały czas jest..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "04:26",
+      "text": "A OK, to bym..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "04:51",
+      "text": "dosyć szeroki i nie ma problemu, że nam właśnie tak jak MCP zjadło połowę okna albo jeszcze więcej. Tak tutaj mamy opis tych skili i dopiero kiedy asystent wie, że to jest miejsce do wykorzystania tego skila, to pobiera całość informacji na temat tego skila, które też miały się tam chyba, nie pamiętam, 500, ciężko... Teraz nie pamiętam rzędu wielkości, ale coś koło tego. Między 500 a 5 tysięcy tokenów. Powiedzmy. Wiem, że to dosyć duży. To tak jak widełki w ofertach IT. Że możesz zarabiać między 5 tysięcy a 30 tysięcy w zależności od umiejętności. Nie, nie. A tak zupełnie szczerze, to właśnie dopiero asystent miał... czy agent miał pobierać całego skilla w momencie, kiedy wiedział, że ma z niego skorzystać. A jeżeli nie ma potrzeby z niego korzystać, to nie pobiera tych wszystkich informacji. Brzmi nieźle?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "06:00",
+      "text": "No dobrze, ale mówisz o standardzie, który ile ma? Dwa miesiące. Jak dzisiaj gadamy,"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "06:07",
+      "text": "Tak. No to to już dosyć stary. No właśnie."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "06:09",
+      "text": "Wypuszczalne... No tak wiem, w sferze AI to już ogóle śmieć, nie? No dobra, to co ci nie leży? To jak gdyby masz definicję, masz opis skilla, opisałeś piękną teorię, to co nie działa?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "06:25",
+      "text": "No właśnie wszystko. Problem jest taki, że to po prostu nie działa. I do tego przyznała się właściwie firma, która stoi za tymi skillami albo stoi za hajpem związanym ze skillami, czyli Versel. Bo Versel strasznie próbował wyhajpować te skilly i Versel stworzył..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "06:48",
+      "text": "ale poczekaj, ale stworzył Antropik, w sensie Antropik opublikował standard."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "06:53",
+      "text": "Tak, ale Versel zaczął tworzyć, zaczął tworzyć realnie całą bibliotekę właśnie związaną ze skillami i samą bibliotekę skilli już gotowych. No, no, no, no, no, no, dokładnie, dokładnie. I dlatego właśnie, dlatego mówię, że oni są odpowiedzialni trochę za ten hype związany ze skillami."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "07:07",
+      "text": "Ah, mówisz o AI SDK Reacta."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "07:18",
+      "text": "Bo gdyby to Anthropic zrobił i gdyby oni za tym stali cały czas i to sobie by powolutku, powolutku gdzieś tam się rozwijało, być może byłoby to nie takie głupie. A tutaj Vercel nagle właśnie stworzył bibliotekę tych skilli. Powiedzieli, że to jest way to go i to jest absolutnie game changer i będą nasi asystenci mieli wizję jak z Matrixa, że już nagle znają nie Kung Fu tylko Reacta. I będą po prostu pisać idealny kod. No i problem się okazał taki, że sami w pewnym momencie postanowili zrobić testy tych skilli. No i właśnie okazało się, że asystenci w ogóle ich nie wołają. I problem jest właśnie taki, że jeżeli te same instrukcje były zapisane w pliku agents.md,"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "07:59",
+      "text": "I co? No to super."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "08:16",
+      "text": "to mieli success rate, jeśli chodzi o odpowiednie struktury. Tam było na podstawie Next.js na poziomie 100%. Faktycznie jeśli agents.md jest zapisane, to tak się dzieje i tam właśnie było wykorzystanie najnowszej składni właśnie z Next.js'a, 15 chyba, jeśli dobrze pamiętam. Natomiast..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "08:41",
+      "text": "Dobra, to poczekaj, poczekaj, nie biegnij dalej, dobra. To ja dzisiaj się robię dziennikarzem, nie? Więc jak gdyby... To teraz dla naszych słuchaczy, czym się różni agents.md od skills.md."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "08:54",
+      "text": "No dobra, agents.md jest plikiem, który jest zawsze załadowany i który jest po pierwsze coraz bardziej cross-narzędziowy."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "09:09",
+      "text": "To jest cross-narzędziowy, jest w zasadzie skillem, i w tej chwili też zaczyna być cross-narzędziowe."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "09:12",
+      "text": "Cross-narzędziowy też już zaczyna być, tak, natomiast agents.md jest wczytywany zawsze. On jest zawsze w kontekście, a skillsy, skillsy właśnie miały być wyszukiwane. Dokładnie tak samo, bo zaraz jeszcze sobie przejdę odrobinkę do czegoś, co w Copilocie mamy już od jakiegoś czasu, co się nazywa Custom Instructions, które też mają działać trochę jak skillsy, ale o tym za moment."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "09:26",
+      "text": "Miało być wyszukiwane, jak sam powiedziałeś."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "09:45",
+      "text": "Natomiast właśnie, jeżeli jakieś instrukcje są zapisane w agents.md i one tam są po prostu i one są dostępne dla tych asystentów, to ci asystenci czy agenci czytają z agents.md od początku do końca i zawsze się tego trzymają już w tej chwili. Natomiast jeżeli..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "10:04",
+      "text": "Jedyna wada, że siedzi to w całości w kontekście i za każdym requestem leci w całości w kontekście. No i drogi słuchaczu, jeśli jeszcze nie jesteś pewien, to główna różnica. Jak wrzucisz te wszystkie instrukcje w kontekst, fajnie to brzmi. Nie wiem ile wynoszą w tokenach te wszystkie instrukcje od Versela, można samemu policzyć, będzie link poniżej do tych instrukcji, ale jest ich dużo. Naprawdę wrzucili tam całe repo dokładnie opisujące jak robić każdą kolejną rzecz. Jak jest to opisane jako skills.md, to ma to sens, w sensie jakby działało w pełni. Czyli żebyśmy rzeczywiście dobry skill wyszukiwali w momencie, kiedy chcemy zaimplementować. A jak jest to w agents.md, no jesteś z powrotem w świecie, jak nagle wracamy do problemu MCP serverów, czyli że spora część kontekstu jest zapchana tylko i wyłącznie tym z czego możesz korzystać. No i jak jesteś naprawdę ukierunkowany i jak gdyby wiesz co robisz i wybierzesz naprawdę taki minimalny zestaw który jest ci potrzebny. No to myślę że to jest super. Natomiast rzeczywiście jest ten problem, o którym żeśmy zresztą parę razy już gadali, że nie ma czegoś takiego łatwego właśnie co by... No wróć może inaczej. Nie ma czegoś takiego żeby te modele były nauczone .NET'a. Albo jak Kajetan chciał nawet Blazora. czy innego Reacta, PowerShella albo Basha. One są generyczne, więc trzeba je tam zeskopować do tego co byśmy chcieli żeby nagle nam nie plu... Może już nie pluję kodem Pythonowym w dotnecie, ale powiedzmy to, że... Przykład z dzisiaj to, że jestem na Windowsie i używam któregoś tam narzędzia i tak mi pluję w LF-ie, czyli końcówki linuxowe zamiast CRLF. I za każdym razem jak otwieram to mnie tam narzędzie pyta czy chcę zmienić końce linii. Bo pewnie jakbym to zapisał w agents.md albo w skillu to to nie zadziała, ale w agents.md, że mam... mi pluć na Windowsie, bo jestem, to pewnie byłoby, to działałoby dobrze, a tak wali domyślnie tak jak mu ślina na język przyniesie. Być może to kwestia umiejętności problemu, też nie brzmiałoby to nigdy nie wiadomo. Ja tłumaczę słuchaczowi, żebyś miał takie trochę wyobrażenie jak gdyby co jeszcze, jak to może działać. Ale jeszcze ci zadam jedno pytanie o skilla, bo internet żyje tymi skillami. Ok, może nie do końca się nadają do programowania, ale powstaje bardzo dużo skilli w tej chwili, szczególnie dla Claude'a, bo Claude najbardziej popularny w social media, chociaż wcale nie oznacza, że najlepszy na świecie. Nie twierdzę, że nie jest, nie twierdzę, że jest, tak żeby to głośno wybrzmiało. Ma swoje zalety, swoich fanów, swoje wady, swoich hejterów. Każdy z nich ma swoje własne narzędzia. No dobra Kajtku, to powiedz co jest MVP, to trzeba pochwalić naszą firmę, to co jest fajnego w Copilocie w takim razie."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "13:15",
+      "text": "No właśnie, no właśnie, bo w Copilocie już od dłuższego czasu, jeszcze zanim powstały skille, mieliśmy coś takiego jak custom instructions. I custom instructions miały tą zaletę, że można było je zeskopować do odpowiedniego folderu, w którym tylko działały, albo do odpowiedniego projektu, albo do odpowiedniego rozszerzenia plików w kontekście, w którym działamy. I to już ma moim zdaniem trochę więcej sensu. Znaczy, jeżeli... Wiadomo, trzeba do tego bardzo świadomie też podchodzić moim zdaniem, bo możemy sobie zawalić... To jest dokładnie to samo, co z programowaniem tak realnie. Jeżeli będziesz miał aplikację front-endową... Albo inaczej, będziesz miał aplikację, jakąkolwiek, czy front-endową, czy back-endową. Jak ją sobie czystą odpalisz, taki czysty projekt bez niczego, to on się będzie uruchamiał i działał bardzo szybko. Natomiast jak nawalisz tam jakiegoś third-party libraries, jak ściągniesz tam pół NPM-a albo pół NuGet-a, to w pewnym momencie klęknie. Klęknie ze względu na to, że zanim on sobie załaduje wszystkie zależności, zanim wyrenderuje ci to, tamto, siamto, albo zanim ci załaduje to, albo tamto, albo w przypadku WebAssembly, jeżeli naładujesz do tego, to zanim on ściągnie całą tą aplikację do twojej przeglądarki, no to to siądzie. I dokładnie taką samą sytuację mamy realnie ze skillami, z Copilot Instructions, z agents.md i ze wszystkim innym. Jeżeli przesadzimy, to będziemy mieli problem. Dlatego myślę, że..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "15:13",
+      "text": "Nie problem, tylko będzie nam to więcej kosztowało."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "15:17",
+      "text": "Będziemy mieli problem, nawet jeżeli wiesz, context window jest w każdym modelu ograniczony. Nawet jeżeli używamy Gemini, to nawet jeśli tam mamy context window na poziomie 2 milionów tokenów, to co z tego, skoro on i tak będzie głównie pamiętał początek i koniec naszej konwersacji, a to co będzie tam w środku, to będzie takie coś tam kiedyś rozmawialiśmy, ale bez przesady."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "15:41",
+      "text": "O, dobra, no."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "15:46",
+      "text": "to nawet jeżeli miałbym zapłacić za te tokeny, to nie jest to dla mnie duży problem, tym bardziej, że większość tokenów, które używam, mam za darmo, więc w ogóle nie mam z tym problemu, ale po prostu jeżeli to okno kontekstowe jest za duże, to on się gubi. I dokładnie to samo było właśnie w tym teście związanym ze skillami. W momencie, w którym nawet była... robili porównanie właśnie w Vercelu. Powiedzieli, żeby zrobił jakąś funkcjonalność i jeżeli ma potrzebę, zajrzał do skilli i z tych skilli skorzystał. Wtedy działał dobrze, ale nie korzystał ze skilli realnie, bo nie miał... tak, nie czuł takiej potrzeby, więc po co tam się zagłębiać, nie wiadomo co. A jeżeli..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "16:33",
+      "text": "Bo nie miała potrzeby, no to tak."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "16:42",
+      "text": "Jeżeli mu eksplicytnie napisali najpierw, skorzystaj ze skilli w tym momencie, no to on faktycznie korzystał już z tych skilli, tylko tracił na przykład fokus na samym projekcie i nie był w stanie złapać całego kontekstu, całego projektu."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "17:00",
+      "text": "No czego oczekujesz, tak jak prawdziwy student. Jak mu powiesz, że poszedł do biblioteki i wziął książkę, to pójdzie do biblioteki i weźmie książkę. Nie zastanowi się jako, tylko on dostał po prostu instrukcję. Jak mu powiesz, że może pójść do biblioteki, ale nie musi? To nie musi, no tyle, po prostu Boże, czego oczekujemy? Sami jako ludzie tak funkcjonujemy, a chcemy żeby maszyna działała lepiej."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "17:27",
+      "text": "Być może jednak jesteśmy bliżej tego AGI niż nam się wydaje. Tylko ta sztuczna inteligencja, ta general intelligence, może po prostu jest inna niż sobie wyobrażamy. Ona po prostu będzie na poziomie studenta, nie rozumnego człowieka. Oczywiście nie obrażając żadnych studentów."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "17:33",
+      "text": "Tak, no... Też wyroczyłem... Ja byłem takim studentem, więc to tak."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "17:56",
+      "text": "No ja też byłem takim studentem, no umówmy się, wszyscy tacy byliśmy. No także, widzisz, pomimo mojego wczesnego entuzjazmu i zachwytu, że to będzie takie proste, że po prostu w terminalu, znowu w terminalu będziemy sobie wpisywać npx, spacjaskills, spacja i nazwę repo, w którym znajdziemy tego skilla. No to już niestety mój entuzjazm opadł. Zresztą potestowałem sobie i faktycznie one nie działają tak świetnie, bo jest też kilka skilli nie tylko reaktowych, ale takich ogólnych z dobrymi praktykami deweloperskimi i nigdy nie widziałem, żeby mój asystent cokolwiek czytał z tych skilli. No niestety to jeszcze chyba za wcześnie na takie coś."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "18:48",
+      "text": "Powiem ci to podsumowując ten odcinek, powiem to nadal żyjemy. Nadal to my jesteśmy na górze. Ludzie rządzą."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "18:54",
+      "text": "Tak. Całe szczęście, całe szczęście, ale mi cały czas już mnie to tak denerwuje, że ja bym chciał w końcu poznać, może to jest dziwne, ale ja bym chciał poznać dobre praktyki kodowania z AI, bo nadal takich nie ma. Tak realnie, każdy ma swoje jakieś coś, a realnie brak mi tej standardizacji, która by powiedziała, okej, idźmy tą drogą, bo ta droga doprowadzi nas do sukcesu. A mimo wszystko jest to cały czas kwestia prób i błędów."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "19:37",
+      "text": "Takie życie w IT, trzeba się cały czas uczyć, rozwijać i próbować nowych rzeczy. Nic nowego powiedziałbym."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "19:46",
+      "text": "To w sumie prawda. No to co, wracamy do nauki w takim razie?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "19:52",
+      "text": "No drogi widzu, jak ci się podobało to jak zwykle lajk w górę, w dół. Jak jeszcze nas nie subskrybujesz to oczywiście zapraszamy. I bardzo dziękujemy wszystkim tym, którzy nas słuchają. Do zobaczenia, usłyszenia następnym razem. Trzymajcie się, cześć!"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "20:06",
+      "text": "Za tydzień. Dzięki. Cześć."
+    }
+  ]
+}

@@ -1,5 +1,36 @@
 [
   {
+    "id": 15,
+    "num": "15",
+    "notPublished": true,
+    "title": "Better Dev Club #15 - Skille AI: Hype czy Game Changer?",
+    "date": "2026-02-12",
+    "duration": "20:15",
+    "desc": "Rozmawiamy o Skillach, agents.md i standardach w świecie agentic AI. Czy Vercel i Anthropic stworzyli coś, co faktycznie działa, czy może zwykły plik tekstowy z instrukcjami wciąż wygrywa? Sprawdzamy sukcesy i porażki nowej fali standardów dla agentów.",
+    "tags": ["#ai", "#agents", "#skills", "#vercel", "#anthropic", "#betterdevclub"],
+    "platforms": {
+      "youtube": "https://youtu.be/TODO",
+      "spotify": "https://open.spotify.com/episode/7t7Drh3M65rSlQrwwjuXop?si=Nqq3lxqQQCWJuR5T4Wn5uA",
+      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club-14-clawdbot-moltbot-openclaw/id1848840540?i=1000748335547"
+    },
+    "resources": [
+      {
+        "type": "link",
+        "label": "Vercel Agent Skills",
+        "url": "https://github.com/vercel-labs/agent-skills",
+        "description": "Repozytorium z gotowymi skillami od Vercela"
+      },
+      {
+        "type": "link",
+        "label": "Blog Vercel o Agent Skills",
+        "url": "https://vercel.com/blog/agent-skills",
+        "description": "Artykuł opisujący testy i standard skilli"
+      }
+    ],
+    "youtubeId": "TODO",
+    "guestKey": "piotrek"
+  },
+  {
     "id": 14,
     "num": "14",
     "notPublished": false,
