@@ -13,17 +13,17 @@
     {
       "speaker": "Kajetan Duszyński",
       "time": "00:02",
-      "text": "Słuchaj, dzisiaj porozmawiamy sobie o bardzo ważnej sprawie, to znaczy o skillach, agentach, o czym jeszcze? O subagentach i OMP. Jesteś podekscytowany?"
+      "text": "Słuchaj, dzisiaj porozmawiamy sobie o bardzo ważnej sprawie, to znaczy o skillach, agentach, o czym jeszcze? O subagentach i MCP. Jesteś podekscytowany?"
     },
     {
       "speaker": "Piotr Stapp",
       "time": "00:14",
-      "text": "Jezus Maria, cała standardizacja nie istnieje."
+      "text": "Jezus Maria, cała standaryzacja nie istnieje."
     },
     {
       "speaker": "Kajetan Duszyński",
       "time": "00:18",
-      "text": "Dokładnie tak, czyli o standardyzacji, która nie istnieje. Właśnie o tym chciałem z tobą porozmawiać, bo o tym zaczęliśmy rozmawiać w zeszłym tygodniu. Znaczy ja powiedziałem, że będziemy rozmawiać i dlatego o to faktycznie pociągniemy ten temat. Ja ci od razu muszę powiedzieć, że ja byłem super podekscytowany, kiedy wyszły skille, kiedy zostały ogłoszone skille i kiedy zacząłem korzystać ze skilli. I wydawało mi się, że to jest w końcu Krok, który czekam od trzech lat. A teraz już sam nie wiem."
+      "text": "Dokładnie tak, czyli o standaryzacji, która nie istnieje. Właśnie o tym chciałem z tobą porozmawiać, bo o tym zaczęliśmy rozmawiać w zeszłym tygodniu. Znaczy ja powiedziałem, że będziemy rozmawiać i dlatego o to faktycznie pociągniemy ten temat. Ja ci od razu muszę powiedzieć, że ja byłem super podekscytowany, kiedy wyszły skille, kiedy zostały ogłoszone skille i kiedy zacząłem korzystać ze skilli. I wydawało mi się, że to jest w końcu krok, który czekam od trzech lat. A teraz już sam nie wiem."
     },
     {
       "speaker": "Piotr Stapp",
@@ -33,7 +33,7 @@
     {
       "speaker": "Kajetan Duszyński",
       "time": "01:02",
-      "text": "Jestem trochę podekscytowany właśnie, bo cały czas mam wrażenie, że szukamy i chyba jesteśmy o krok bliżej. Cały czas to nie wychodzi, ale jesteśmy o krok bliżej tego, żeby jakoś ustandaryzować to, w jaki sposób będziemy kodować właśnie z tymi agentami wszystkimi, czy z asystentami, czy jakkolwiek ich nie nazwiemy. I na początku mieliśmy mieć jakąś standardizację, która właśnie miała być za pomocą MCP. Bo MCP dawało nam możliwości rozszerzanie, rozszerzanie możliwości naszych agentów o jakieś zewnętrzne funkcjonalności. Realnie gdzieś tam było to, nazwijmy to, proste API, które było pod spodem. No jest, działa na pewno. Natomiast czy to jest krok w stronę standardizacji? No tutaj jeszcze musi na pewno, no właśnie, musi, musiałoby się wiele..."
+      "text": "Jestem trochę podekscytowany właśnie, bo cały czas mam wrażenie, że szukamy i chyba jesteśmy o krok bliżej. Cały czas to nie wychodzi, ale jesteśmy o krok bliżej tego, żeby jakoś ustandaryzować to, w jaki sposób będziemy kodować właśnie z tymi agentami wszystkimi, czy z asystentami, czy jakkolwiek ich nie nazwiemy. I na początku mieliśmy mieć jakąś standaryzację, która właśnie miała być za pomocą MCP. Bo MCP dawało nam możliwości rozszerzanie, rozszerzanie możliwości naszych agentów o jakieś zewnętrzne funkcjonalności. Realnie gdzieś tam było to, nazwijmy to, proste API, które było pod spodem. No jest, działa na pewno. Natomiast czy to jest krok w stronę standaryzacji? No tutaj jeszcze musi na pewno, no właśnie, musi, musiałoby się wiele..."
     },
     {
       "speaker": "Piotr Stapp",
@@ -48,12 +48,12 @@
     {
       "speaker": "Piotr Stapp",
       "time": "01:59",
-      "text": "Znaczy wróć, wróć. Jest określony standard jak wołać te zewnętrzne narzędzia. Rzeczywiście jak go napiszesz w odpowiednim standardzie to takie narzędzie jak na przykład niech będzie Visual Studio Code o daleko nie szukając najbardziej popularne narzędzie dla deweloperów umie odpytać w określony sposób niech będzie dokumentację wybranej przez Ciebie chmury albo wybranego przez Ciebie język albo nawet wybranego przez Ciebie narzędzia. I to jest i działa."
+      "text": "Znaczy wróć, wróć. Jest określony standard jak wołać te zewnętrzne narzędzia. Rzeczywiście jak go napiszesz w odpowiednim standardzie to takie narzędzie jak na przykład niech będzie Visual Studio Code o daleko nie szukając najbardziej popularne narzędzie dla deweloperów umie odpytać w określony sposób niech będzie dokumentację wybranej przez Ciebie chmury albo wybranego przez Ciebie języka albo nawet wybranego przez Ciebie narzędzia. I to jest i działa."
     },
     {
       "speaker": "Kajetan Duszyński",
       "time": "02:30",
-      "text": "Tak, to jest i działa. I fajnie, że powiedziałeś o tych dokumentacjach właśnie chmury czy języka, bo to faktycznie działa dobrze, bo to też jest stworzone przez wielkie korporacje, którym bardzo zależało na tym, żeby to działało w miarę dobrze. Ale jest cała masa MCP, która po prostu nie działa dobrze, bo albo mają masę niepotrzebnych tuli w sobie, albo mają... Tule, które nie dają żadnej wartości."
+      "text": "Tak, to jest i działa. I fajnie, że powiedziałeś o tych dokumentacjach właśnie chmury czy języka, bo to faktycznie działa dobrze, bo to też jest stworzone przez wielkie korporacje, którym bardzo zależało na tym, żeby to działało w miarę dobrze. Ale jest cała masa MCP, która po prostu nie działa dobrze, bo albo mają masę niepotrzebnych toole'i w sobie, albo mają... Toole, które nie dają żadnej wartości."
     },
     {
       "speaker": "Piotr Stapp",
@@ -63,7 +63,7 @@
     {
       "speaker": "Kajetan Duszyński",
       "time": "03:20",
-      "text": "Tak, dokładnie. I ten problem miały rozwiązywać skille. Ten problem miały rozwiązywać skille, bo w skillach realnie miałeś mieć... Okej, one nie były takim przełożeniem 1 do 1 właśnie do MCP, tylko bardziej cost-effective, bo miałeś w skillach mieć opisane jakieś metadane, czyli realnie tytuł skilla i krótki opis. Gdzieś tam, jeśli dobrze kojarzy, to miało się zmieścić w 100 tokenach. I wtedy na tej podstawie..."
+      "text": "Tak, dokładnie. I ten problem miały rozwiązywać skille. Ten problem miały rozwiązywać skille, bo w skillach realnie miałeś mieć... Okej, one nie były takim przełożeniem 1 do 1 właśnie do MCP, tylko bardziej cost-effective, bo miałeś w skillach mieć opisane jakieś metadane, czyli realnie tytuł skilla i krótki opis. Gdzieś tam, jeśli dobrze kojarzę, to miało się zmieścić w 100 tokenach. I wtedy na tej podstawie..."
     },
     {
       "speaker": "Piotr Stapp",
@@ -93,7 +93,7 @@
     {
       "speaker": "Kajetan Duszyński",
       "time": "04:22",
-      "text": "No nie, ale to description miało być, jakby te meta dane dotyczące właśnie tego skila miały się łączyć, miały się mieścić w 100 tokenach. I na tej podstawie tego opisu, na podstawie tych 100 tokenów i w związku z tym, jeżeli mamy asystenta, dostaje request, to ma sobie sprawdzić jakie on ma skille i on ma w tych 100 tokenach sobie załadować wszystkie skille, w związku z tym ten kontekst Windows cały czas jest..."
+      "text": "No nie, ale to description miało być, jakby te meta dane dotyczące właśnie tego skilla miały się łączyć, miały się mieścić w 100 tokenach. I na tej podstawie tego opisu, na podstawie tych 100 tokenów i w związku z tym, jeżeli mamy asystenta, dostaje request, to ma sobie sprawdzić jakie on ma skille i on ma w tych 100 tokenach sobie załadować wszystkie skille, w związku z tym ten Context Window cały czas jest..."
     },
     {
       "speaker": "Piotr Stapp",
@@ -103,7 +103,7 @@
     {
       "speaker": "Kajetan Duszyński",
       "time": "04:51",
-      "text": "dosyć szeroki i nie ma problemu, że nam właśnie tak jak MCP zjadło połowę okna albo jeszcze więcej. Tak tutaj mamy opis tych skili i dopiero kiedy asystent wie, że to jest miejsce do wykorzystania tego skila, to pobiera całość informacji na temat tego skila, które też miały się tam chyba, nie pamiętam, 500, ciężko... Teraz nie pamiętam rzędu wielkości, ale coś koło tego. Między 500 a 5 tysięcy tokenów. Powiedzmy. Wiem, że to dosyć duży. To tak jak widełki w ofertach IT. Że możesz zarabiać między 5 tysięcy a 30 tysięcy w zależności od umiejętności. Nie, nie. A tak zupełnie szczerze, to właśnie dopiero asystent miał... czy agent miał pobierać całego skilla w momencie, kiedy wiedział, że ma z niego skorzystać. A jeżeli nie ma potrzeby z niego korzystać, to nie pobiera tych wszystkich informacji. Brzmi nieźle?"
+      "text": "dosyć szeroki i nie ma problemu, że nam właśnie tak jak MCP zjadło połowę okna albo jeszcze więcej. Tak tutaj mamy opis tych skilli i dopiero kiedy asystent wie, że to jest miejsce do wykorzystania tego skilla, to pobiera całość informacji na temat tego skilla, które też miały się tam chyba, nie pamiętam, 500, ciężko... Teraz nie pamiętam rzędu wielkości, ale coś koło tego. Między 500 a 5 tysięcy tokenów. Powiedzmy. Wiem, że to dosyć duży. To tak jak widełki w ofertach IT. Że możesz zarabiać między 5 tysięcy a 30 tysięcy w zależności od umiejętności. Nie, nie. A tak zupełnie szczerze, to właśnie dopiero asystent miał... czy agent miał pobierać całego skilla w momencie, kiedy wiedział, że ma z niego skorzystać. A jeżeli nie ma potrzeby z niego korzystać, to nie pobiera tych wszystkich informacji. Brzmi nieźle?"
     },
     {
       "speaker": "Piotr Stapp",
@@ -118,22 +118,22 @@
     {
       "speaker": "Piotr Stapp",
       "time": "06:09",
-      "text": "Wypuszczalne... No tak wiem, w sferze AI to już ogóle śmieć, nie? No dobra, to co ci nie leży? To jak gdyby masz definicję, masz opis skilla, opisałeś piękną teorię, to co nie działa?"
+      "text": "Wypuszczone... No tak wiem, w sferze AI to już w ogóle śmieć, nie? No dobra, to co ci nie leży? To jak gdyby masz definicję, masz opis skilla, opisałeś piękną teorię, to co nie działa?"
     },
     {
       "speaker": "Kajetan Duszyński",
       "time": "06:25",
-      "text": "No właśnie wszystko. Problem jest taki, że to po prostu nie działa. I do tego przyznała się właściwie firma, która stoi za tymi skillami albo stoi za hajpem związanym ze skillami, czyli Versel. Bo Versel strasznie próbował wyhajpować te skilly i Versel stworzył..."
+      "text": "No właśnie wszystko. Problem jest taki, że to po prostu nie działa. I do tego przyznała się właściwie firma, która stoi za tymi skillami albo stoi za hajpem związanym ze skillami, czyli Vercel. Bo Vercel strasznie próbował wyhajpować te skille i Vercel stworzył..."
     },
     {
       "speaker": "Piotr Stapp",
       "time": "06:48",
-      "text": "ale poczekaj, ale stworzył Antropik, w sensie Antropik opublikował standard."
+      "text": "ale poczekaj, ale stworzył Anthropic, w sensie Anthropic opublikował standard."
     },
     {
       "speaker": "Kajetan Duszyński",
       "time": "06:53",
-      "text": "Tak, ale Versel zaczął tworzyć, zaczął tworzyć realnie całą bibliotekę właśnie związaną ze skillami i samą bibliotekę skilli już gotowych. No, no, no, no, no, no, dokładnie, dokładnie. I dlatego właśnie, dlatego mówię, że oni są odpowiedzialni trochę za ten hype związany ze skillami."
+      "text": "Tak, ale Vercel zaczął tworzyć, zaczął tworzyć realnie całą bibliotekę właśnie związaną ze skillami i samą bibliotekę skilli już gotowych. No, no, no, no, no, no, dokładnie, dokładnie. I dlatego właśnie, dlatego mówię, że oni są odpowiedzialni trochę za ten hype związany ze skillami."
     },
     {
       "speaker": "Piotr Stapp",
@@ -188,7 +188,7 @@
     {
       "speaker": "Piotr Stapp",
       "time": "10:04",
-      "text": "Jedyna wada, że siedzi to w całości w kontekście i za każdym requestem leci w całości w kontekście. No i drogi słuchaczu, jeśli jeszcze nie jesteś pewien, to główna różnica. Jak wrzucisz te wszystkie instrukcje w kontekst, fajnie to brzmi. Nie wiem ile wynoszą w tokenach te wszystkie instrukcje od Versela, można samemu policzyć, będzie link poniżej do tych instrukcji, ale jest ich dużo. Naprawdę wrzucili tam całe repo dokładnie opisujące jak robić każdą kolejną rzecz. Jak jest to opisane jako skills.md, to ma to sens, w sensie jakby działało w pełni. Czyli żebyśmy rzeczywiście dobry skill wyszukiwali w momencie, kiedy chcemy zaimplementować. A jak jest to w agents.md, no jesteś z powrotem w świecie, jak nagle wracamy do problemu MCP serverów, czyli że spora część kontekstu jest zapchana tylko i wyłącznie tym z czego możesz korzystać. No i jak jesteś naprawdę ukierunkowany i jak gdyby wiesz co robisz i wybierzesz naprawdę taki minimalny zestaw który jest ci potrzebny. No to myślę że to jest super. Natomiast rzeczywiście jest ten problem, o którym żeśmy zresztą parę razy już gadali, że nie ma czegoś takiego łatwego właśnie co by... No wróć może inaczej. Nie ma czegoś takiego żeby te modele były nauczone .NET'a. Albo jak Kajetan chciał nawet Blazora. czy innego Reacta, PowerShella albo Basha. One są generyczne, więc trzeba je tam zeskopować do tego co byśmy chcieli żeby nagle nam nie plu... Może już nie pluję kodem Pythonowym w dotnecie, ale powiedzmy to, że... Przykład z dzisiaj to, że jestem na Windowsie i używam któregoś tam narzędzia i tak mi pluję w LF-ie, czyli końcówki linuxowe zamiast CRLF. I za każdym razem jak otwieram to mnie tam narzędzie pyta czy chcę zmienić końce linii. Bo pewnie jakbym to zapisał w agents.md albo w skillu to to nie zadziała, ale w agents.md, że mam... mi pluć na Windowsie, bo jestem, to pewnie byłoby, to działałoby dobrze, a tak wali domyślnie tak jak mu ślina na język przyniesie. Być może to kwestia umiejętności problemu, też nie brzmiałoby to nigdy nie wiadomo. Ja tłumaczę słuchaczowi, żebyś miał takie trochę wyobrażenie jak gdyby co jeszcze, jak to może działać. Ale jeszcze ci zadam jedno pytanie o skilla, bo internet żyje tymi skillami. Ok, może nie do końca się nadają do programowania, ale powstaje bardzo dużo skilli w tej chwili, szczególnie dla Claude'a, bo Claude najbardziej popularny w social media, chociaż wcale nie oznacza, że najlepszy na świecie. Nie twierdzę, że nie jest, nie twierdzę, że jest, tak żeby to głośno wybrzmiało. Ma swoje zalety, swoich fanów, swoje wady, swoich hejterów. Każdy z nich ma swoje własne narzędzia. No dobra Kajtku, to powiedz co jest MVP, to trzeba pochwalić naszą firmę, to co jest fajnego w Copilocie w takim razie."
+      "text": "Jedyna wada, że siedzi to w całości w kontekście i za każdym requestem leci w całości w kontekście. No i drogi słuchaczu, jeśli jeszcze nie jesteś pewien, to główna różnica. Jak wrzucisz te wszystkie instrukcje w kontekst, fajnie to brzmi. Nie wiem ile wynoszą w tokenach te wszystkie instrukcje od Vercela, można samemu policzyć, będzie link poniżej do tych instrukcji, ale jest ich dużo. Naprawdę wrzucili tam całe repo dokładnie opisujące jak robić każdą kolejną rzecz. Jak jest to opisane jako skills.md, to ma to sens, w sensie jakby działało w pełni. Czyli żebyśmy rzeczywiście dobry skill wyszukiwali w momencie, kiedy chcemy zaimplementować. A jak jest to w agents.md, no jesteś z powrotem w świecie, jak nagle wracamy do problemu MCP serwerów, czyli że spora część kontekstu jest zapchana tylko i wyłącznie tym z czego możesz korzystać. No i jak jesteś naprawdę ukierunkowany i jak gdyby wiesz co robisz i wybierzesz naprawdę taki minimalny zestaw który jest ci potrzebny. No to myślę że to jest super. Natomiast rzeczywiście jest ten problem, o którym żeśmy zresztą parę razy już gadali, że nie ma czegoś takiego łatwego właśnie co by... No wróć może inaczej. Nie ma czegoś takiego żeby te modele były nauczone .NET-a. Albo jak Kajetan chciał nawet Blazora czy innego Reacta, PowerShella albo Basha. One są generyczne, więc trzeba je tam zeskopować do tego co byśmy chcieli żeby nagle nam nie pluł... Może już nie pluło kodem Pythonowym w .NET-cie, ale powiedzmy to, że... Przykład z dzisiaj to, że jestem na Windowsie i używam któregoś tam narzędzia i tak mi pluje w LF-ie, czyli końcówki linuxowe zamiast CRLF. I za każdym razem jak otwieram to mnie tam narzędzie pyta czy chcę zmienić końce linii. Bo pewnie jakbym to zapisał w agents.md albo w skillu to to nie zadziała, ale w agents.md, że ma mu pluć na Windowsie, bo jestem, to pewnie byłoby, to działałoby dobrze, a tak wali domyślnie tak jak mu ślina na język przyniesie. Być może to kwestia umiejętności promptu, też nie brzmiałoby to nigdy nie wiadomo. Ja tłumaczę słuchaczowi, żebyś miał takie trochę wyobrażenie jak gdyby co jeszcze, jak to może działać. Ale jeszcze ci zadam jedno pytanie o skilla, bo internet żyje tymi skillami. Ok, może nie do końca się nadają do programowania, ale powstaje bardzo dużo skilli w tej chwili, szczególnie dla Claude'a, bo Claude najbardziej popularny w social media, chociaż wcale nie oznacza, że najlepszy na świecie. Nie twierdzę, że nie jest, nie twierdzę, że jest, tak żeby to głośno wybrzmiało. Ma swoje zalety, swoich fanów, swoje wady, swoich hejterów. Każdy z nich ma swoje własne narzędzia. No dobra Kajtku, to powiedz co jest w MVP, to trzeba pochwalić naszą firmę, to co jest fajnego w Copilocie w takim razie."
     },
     {
       "speaker": "Kajetan Duszyński",
@@ -253,7 +253,7 @@
     {
       "speaker": "Kajetan Duszyński",
       "time": "18:54",
-      "text": "Tak. Całe szczęście, całe szczęście, ale mi cały czas już mnie to tak denerwuje, że ja bym chciał w końcu poznać, może to jest dziwne, ale ja bym chciał poznać dobre praktyki kodowania z AI, bo nadal takich nie ma. Tak realnie, każdy ma swoje jakieś coś, a realnie brak mi tej standardizacji, która by powiedziała, okej, idźmy tą drogą, bo ta droga doprowadzi nas do sukcesu. A mimo wszystko jest to cały czas kwestia prób i błędów."
+      "text": "Tak. Całe szczęście, całe szczęście, ale mi cały czas już mnie to tak denerwuje, że ja bym chciał w końcu poznać, może to jest dziwne, ale ja bym chciał poznać dobre praktyki kodowania z AI, bo nadal takich nie ma. Tak realnie, każdy ma swoje jakieś coś, a realnie brak mi tej standaryzacji, która by powiedziała, okej, idźmy tą drogą, bo ta droga doprowadzi nas do sukcesu. A mimo wszystko jest to cały czas kwestia prób i błędów."
     },
     {
       "speaker": "Piotr Stapp",
