@@ -1,0 +1,319 @@
+{
+  "transcript": [
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:00",
+      "text": "Cześć Piotrek."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:01",
+      "text": "Cześć Kajtek."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:02",
+      "text": "Piotrek, powiedz mi na dobry początek, jaki największy projekt udało ci się stworzyć za pomocą AI-a? Mały. No, tak, no, no. No właśnie. A nie wiem, czy słyszałeś, pewnie słyszałeś, że ostatnio dwie firmy, jedne z większych oczywiście, Cursor albo ludzie stojący za Cursorem i ludzie stojący za Claudem, czyli Anthropic, pochwalili się, że zrobili bardzo dużo kodu."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:08",
+      "text": "Mały, powiedzmy szczerze, ale całkowicie za pomocą AI-a"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:32",
+      "text": "Jedni stworzyli przeglądarkę od zera, a drugi stworzyli kompilator języka C dla Linuksa i nie tylko. No i co ty..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:42",
+      "text": "Ale to duże gigantyczne, takie duże. Ile może ważyć każdy?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:48",
+      "text": "No, wyszło na to, że jeśli dobrze patrzę, 100 tysięcy linii kodu. To nie jest już tak samo. No 100 tysięcy."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:53",
+      "text": "Ile? No poczekaj, to tyle chyba ile miał Ford, którym swoim dużym tym... Nie, oni mieli półtora miliona, to więcej."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "01:00",
+      "text": "No właśnie, co ciekawe... No właśnie, a w przypadku tego kompilatora sprawa jest jeszcze ciekawsza, bo ten kompilator został napisany w języku Rust. Więc mamy... Tak jest."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "01:15",
+      "text": "W Rustcie do C Dobrze. No już chyba powiedziałeś, że średnio. Zrobiłeś spoiler. Znaczy, dobra, prawda jest taka, że nie mam bladego pojęcia, ile naprawdę ma kompilator języka C."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "01:20",
+      "text": "Jak myślisz, jak to wyszło? Ha ha ha No to jak zwykle. Też tego nie wiem. Też tego nie wiem. Domyślam się, że może mieć trochę więcej niż 100 tysięcy."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "01:41",
+      "text": "Co więcej, nie wiem w jakim języku jest napisane kompilator języka, ale... Nie wiem czy pamiętasz historię Linuksa, ale w Linuksie robiłeś Linuksa. sensie kompilowałeś... Nie pamiętam jak ten Linux się dziwnie nazywał, czy tam jeszcze Unix nawet. Że te pierwsze rzeczy z kontenaryzacją to były tak, żeby... w wersji 7.5 testowałeś w wersji 7.6 i po to tak naprawdę kontenaryzacja powstała więc nie wiem co jest napisane w celu widzę że sprawdzasz więc zaraz będziemy mieli odpowiedź nie ma tej"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "02:18",
+      "text": "Prawdzę. Według mojego szybkiego researchu aktualny kompilator C jest napisany w C++."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "02:28",
+      "text": "No właśnie to by się wydawało sensowne, we pozorem to jest sensowne, że kompilujesz starszą wersję kompilujesz nowszą, czyli jednak zgadłem, czy jestem dobry jestem zgadłem. No dobra, czyli poczekaj, a ile ma linii kodu? Doszedłeś czy nie?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "02:33",
+      "text": "Tak. O nie wiem, to możesz coś powiedzieć w międzyczasie, a ja to szybko sprawdzę."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "02:50",
+      "text": "i my mamy szybkie sprawdzanie na żywo w podcastie, ale dobra. Całość pomysłu jest w sumie ciekawa, bo ja nie do końca wiem co ma pokazać, że umiemy zbudować kompilator języka C. To znaczy, że jesteśmy zajebistymi developerami. Rozumiem, że chodzi o przetestowany jak dobry jest clod, tylko zakładając, że wygenerował to poprawnie."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "02:52",
+      "text": "Ha ha ha"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "03:20",
+      "text": "Znaczy że już żeśmy powiedzieli, chyba..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "03:28",
+      "text": "Nie do końca?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "03:28",
+      "text": "Nie do końca ale dobra przepraszam zaciąłem się. Natomiast to co dla mnie jest ciekawe. Dobra załóżmy. Dobra jestem przekonany o tym że zresztą dobra widziałem ten artykuł więc nawet wiem że Anthropic jest mega dumny. Nawet wiem ile tam kosztowało. sensie jak gdyby jakieś kosmiczne ilości tokanów nie pamiętam chyba 20000 mogłem skłamać tej chwili drogi widzów więc sprawdź sam ale powiedzmy 20000 dolarów. No i oczywiście można powiedzieć, co to w ogóle jest, 20 tysięcy dolarów, to w ogóle, że można zrobić ten, ale nie wierzę w to, że ktoś w dwa tygodnie napisałby kompilator. W sensie nie mam pojęcia ile się pisze kompilator, zupełnie szczerze przyznam. Kiedyś to robiłem, ale to było dawno temu i na studiach. Wyrobiłem się na pewno w dwa tygodnie, jak nie w dwa wieczory, ale mój kompilator był naprawdę słaby, więc..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "04:20",
+      "text": "Ja na szczęście byłem na innym wydziale i nie musiałem pisać kompilatora, tak, ogólnie rzecz biorąc to w międzyczasie sprawdziłem, GCC, czyli najbardziej popularny kompilator w tej chwili dla C, ma około 15 milionów linii kodu. Więc... No 15 milionów versus 100 tysięcy. Problem jest taki, że..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "04:50",
+      "text": "No tak, ale dobra, ale niestety prawda jest taka, że ten kompilator wygenerowany przez AI robi trochę mniej."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "05:00",
+      "text": "To znaczy, no właśnie, bo to jest moim zdaniem taki kompilator, jaki ty pisałeś na studiach. To znaczy niby się coś kompiluje. To zależy jak, wiesz, to zależy, wrażenie, jak definiujemy to, czy jest lepszy, bo na pewno ma więcej linii kodu niż ty byłeś w stanie w dwa wieczory natrzaskać, ale jemu nadal się też zdarza po prostu nie kompilować nawet na podstawowych funkcjach. Więc na jakiś tam... No."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "05:07",
+      "text": "Nie, nie, myślę, że jest lepszy, wiesz? Czyli mamy coś co jest świetnym projektem studenckim. 3,5 Panda 3 i..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "05:39",
+      "text": "Dokładnie i mam wrażenie, że to świetnie pokazuje realne wykorzystanie AI. Czyli jeżeli teraz będziesz na Politechnice Warszawskiej, tak jak chyba obaj byliśmy, i miałbyś jako projekt studencki napisać kompilator, to jesteś w stanie to faktycznie zrobić w dwa wieczory i to możesz zrobić."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "06:02",
+      "text": "Za 20 000 dolców."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "06:05",
+      "text": "O Jezus, no kredyty studenckie i te sprawy, no może w końcu ten zachód doszedł do Polski i będziemy brać kredyty studenckie, żeby sobie więcej tokenów kupić, żeby przejść jakoś przez te studie."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "06:19",
+      "text": "Ale to znaczy dobra, dla mnie ten eksperyment jest trochę dziwny. Rozumiem dlaczego wzięli Rusta a nie wzięli GCC. Bo jak wzięli GCC, w sensie wzięli Ladybird, nie GCC tylko C++ to problem byłby taki, że to już jest napisane. Więc AI widziało ten kod, ma ten kod, może go wyszukać, cokolwiek. Normalnie kod może szukać, więc nie wiem czy ten mógł... czy nie mógł, więc jak gdyby tu rozumiem, dlaczego użyli Rusta. OK, pokazuje to, że jest to w stanie zbudować coś ciekawszego, inżynieryjny problem. Może zróbmy na chwilę pauzę i na chwilę obiektywnie ocenimy, o, nie znalazłem dobre słowo, obiektywnie ocenimy projekt Cursora, bo Cursor spróbował zbudować coś, czego dużo więcej ludzi korzysta, na pewno, bo z przeglądarki. z kompilatora korzystają tylko programiści, ale to w ogóle okazało się zdarzyć się jeszcze większą porażką. czytałem, przejrzałem sobie ten artykuł na Y Combinator, gdzieś tam gdzie się pojawił, no przeczytałem na Y Combinatorze całą dyskusję, której ludzie po prostu aż... Po prostu nie chcę powiedzieć, że jechali. nie ten, ale uproszczmy, że bardzo jechali po tej całej idei, że ogóle wyszło po prostu strasznie dużo linii kodu, które w ogóle są bullshitem. Co więcej nie zbudował przeglądarki od zera. Drogi widzu, jak nas nie widzisz, to Kajetan zdecydowanie pokazał ciapki przy budowaniu od zera, tylko jak gdyby po prostu skorzystał z czegoś było. I co więcej bardzo dużo rzeczy, znaczy tak, jeden zarzut to, że to wydmuszka, że po prostu tam jest bardzo duża część, tam jest 3 miliony linii kodu, teraz to się próbuje z pamięci, może trochę więcej, może trochę mniej. Też zrobili to w Ruście. W ogóle zarzucono, że eksperyment nie był autonomiczny, jak twierdzili, bo agenty często kręciły się w kółko, a Przeglądarka ledwo renderuje podobno najprostsze strony. Najlepsze, najprostsze strony. I działa w ogóle niestabilnie. No i ciężko to nazwać vibe-codingiem. Niesłusznie, bo UI. Dobra, internal joke. Drogi widzu, jak nie wiesz co to ten internal joke o vibe-codingu to zapraszam Cię do subskriba. W innych naszych odcinkach jest dokładnie... promujemy GEN CODING, mamy nawet stworzyć 2026 manifest, odróżnić się od vibe coding, więc zachęcamy do zostawienia lajka, ewentualnie nawet bardziej komentarza. Ale wracając do tego, vibe coding to ciężko, tam znowu jest zarzut, że to ciężko, jest integralnie jakościowo, w sensie, że to po prostu jest ciężko... działać w sensie na tej całości. No i chyba nie ma nigdzie, przynajmniej ja nie znalazłem ile to kosztowało, ale znowu też jest szacunek, że to są dziesiątki tysięcy dolarów oczywiście w tokenach, jak gdyby bardzo możliwe, że dla Claude'a czy dla Antropica to generowanie obu tych rzeczy to w zasadzie za darmo było. Natomiast to jest nawet pokazane, że da się... znaczy w ogóle był taki, jest taki jeden chyba użytkownik. Dobra, w linku spróbuję go znaleźć, który jakby wygenerował jakąś miała działającą przeglądarkę, chyba 20 tysięcy linii kodu. Bo tam było takie kawałki w dyskusji. Kontra 3 miliony linii kodu wygenerowane przez agenty Cursora, więc tak da się lepiej, o tak bym to określił. Natomiast... ewidentnie to pokazuje, że jeszcze ciągle my jako ludzie jesteśmy potrzebni. Może to tak spróbuję podsumować. I że jest ciężko. W sensie ciężko jest takim w ogóle podejściem."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "10:50",
+      "text": "Bardzo ciężko jest z takim podejściem. To ja jeszcze tutaj sprostuję kilka rzeczy. A propos kosztów, bo oni też, tak, bo tam była wzmianka dotycząca kosztów. I koszty, nie mówimy tutaj, oni podeszli do tego jeszcze lepiej, bo nie podali samych kosztów, znaczy nie podali rozbicia kosztów na konkretne elementy, ale podali całościowe koszty związane właśnie i z tokenami, i z infrastrukturą."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "10:54",
+      "text": "O, dobrze."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "11:18",
+      "text": "i właściwie ze wszystkim, z mocą obliczeniową, której musieli do tego użyć i tak dalej. I wyszło, że taki projekt skonsumował 3 miliony dolarów."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "11:33",
+      "text": "3 miliony dolarów, to szybki szacunek, żebyśmy sobie policzyli ile to jest. Trzeba przyjąć jakiś szacunek na DEWA, weźmy 10 tysięcy dolarów miesięcznych. Tak jak gdyby w Polsce DEWI są tańsie niestety, ale załóżmy że amerykański, 10 tysięcy dolarów. Czyli masz zespół, powiedzmy 10 osób, to jest stosowny zespół deweloperski, czyli masz 100 tysięcy dolarów na miesiąc, 3 miliony 30 miesięcy."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "12:04",
+      "text": "Niecałe trzy lata powstaje przeglądarka, która nie działa. Brzmi jak standardowy projekt w IT tak właściwie,"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "12:09",
+      "text": "Co ja nie działa, to chyba najważniejsze. Trzy lata... Trzy lata trzymiany to live nie działa."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "12:17",
+      "text": "Trzy lata, trzy miliony. Skończ nam tę historię."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "12:22",
+      "text": "To"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "12:27",
+      "text": "No tak, ale tam się ogóle zadziało dużo więcej i chyba bardziej bym się skupił, bo Anthropic zrobił jakieś tam badanie, ono wyszło, nie wyszło, pochwalili się czy nie, to nie ma większego znaczenia. Natomiast Cursor podszedł do tego w sposób właśnie bardziej agentowy i taki sposób, w którym stworzyli wielu agentów i oni podzielili właśnie..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "12:27",
+      "text": "Dobra."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "12:55",
+      "text": "tych agentów na cały zespół, czyli w ten zespół wchodzili programiści, wchodzili testerzy, wchodzili analitycy, menadżerowie, którzy w jakiś tam sposób rozdzielali albo właśnie bardziej rozpisywali kolejne zadania i to się miało dziać w sposób autonomiczny, ale odzwierciedlając takie... prawdziwe realia programowania jakie znamy. No i co tam..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "13:27",
+      "text": "Czy są spotkania przez cały dzień? Opierdal od szefa i coś jeszcze?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "13:35",
+      "text": "Być może, gdyby się na tym skupili, gdyby się spotykali i planowali jakkolwiek, to może by to jakoś wyszło. Ale się okazało, że sprytni agenci od developmentu, na przykład, jak mieli rozpisane zadania, to łapali się tylko za proste zadania, a tych bardziej skomplikowanych nie chcieli i trzeba ich było przymuszać i tam z biczem stać niemalże. i mówić, żeby wzięli też trudniejsze zadania do wykonania."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "14:05",
+      "text": "Myślę, kursa zrobił w takim razie zbyt wielką symulację, prawda?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "14:12",
+      "text": "No i widzisz, nie wiem, mam wrażenie, nigdy nie pisałem takiej prawdziwej przeglądarki, żeby nie było. Nie wiem, nie wiem, potrzeba by było realnie czasu, żeby taki zespół 10-osobowy napisał przeglądarkę od zera, naprawdę od zera i żeby to jako tako działało. Myślę, że 3 lata to jest aż nad to."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "14:37",
+      "text": "Nie wiem, nie mam bladego pamięci."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "14:38",
+      "text": "I osobiście uważam, właśnie jeżeli liczymy tutaj załóżmy te 3 miliony dolarów i oni wyprodukowali 3 miliony linii kodu, czyli wychodzi 1 dolar za linijkę kodu. No to mi się tak nie do końca spina. I tutaj mam wrażenie, że trochę musimy wrócić właśnie do tego, do czego zmierzamy ogólnie, jeśli chodzi o branża. To znaczy, jak to jest, że w tej chwili... Agenta kodowania nie zostawisz samego. I ten eksperyment pokazał, że nie można ich zostawić."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "15:14",
+      "text": "Zostawisz samego, zostawisz samego, ale regularnie przeglądając jego pracę. O może inaczej, pętla, jezu jak się nazywa ten bohater, Ralph Wiggum, ten z Simpsonów, w sensie jest taki dodatek do Claude'a, do różnych dziwnych technik, nie wiem czy kojarzysz, w zasadzie Ralph, którym jest pętla, w sensie zbuduj, jak gdyby dajesz instrukcję i puszczasz to w pęti."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "15:24",
+      "text": "OK."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "15:44",
+      "text": "to taki teren nowy nowy produkt, że to po prostu nie działa, przynajmniej jeszcze nie działa. To nawet widać u samego twórcy Cloud Coda, bo on ostatnio wypuścił takiego, znaczy pad taki komentarz i on odpowiedział właśnie, że, znaczy pad komentarz, jak gdyby, skoro Claude Code wszystko generuje, bla, bla, to po co tam w programiści i dlaczego jest chyba 100? Dużo. dużo otwartych ról programystycznych w samym cloudie. To o co chodzi i twórca Claude Code odpowiedział, bo developer, znaczy inżynier oprogramowania, o tak bym powiedział, to tworzenie kodu tylko jedna z jego części. W sensie to, że generujemy ten kod, to nie oznacza, że ci inżynierowie nie muszą go nadzorować, w sensie wytwarzać... to jak gdyby oprogramowania to nie, może wytwarzanie oprogramowania to nie pisanie kodu, nie tylko pisanie kodu. Więc to, że ci agenci nam zabierają pisanie kodu, to właśnie fajnie by było, żeby był jakiś senior i powiedział, Boże, z temu co wy robicie. Nie? To, bo to myślę, że takich funkcji zabrakło w tym całym procesie. A czy rozumiem eksperyment? Eksperyment w sumie dość wartościowy, nie? Bo nawet jeżeli to jest średnio działająca przeglądarka, czy średnio działający kompilator, to wiesz jednak zbudowanie projektu, który... Dobra, działa, nie działa, to dość istotne. Ale przyjmijmy, że działa, sensie rzeczywiście, że coś potrafi, to jest jednak fajna rzecz. Tylko widać, ewidentnie potrzebujesz mieć jeszcze wiedzę, nie tylko z pisania kodu."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "17:28",
+      "text": "No na pewno. To jest na pewno jeden z elementów, których trzeba cały czas mówić, żeby ostudzić trochę te emocje związane z tym, że zostaniemy zastąpieni. Ale tutaj dla mnie jest jeszcze drugi problem związany w ogóle z kosztami. Subskrybcje za Claude'a, czy subskrybcje za GPT, czy jakikolwiek inny model cały czas drożeją. Te najwyższe to są w okolicach 200 do 500 chyba dolarów. I teraz jeżeli to przemnożymy przez ilość deweloperów w danym projekcie, no to nam się dodatkowe dwa etaty robią, za które trzeba zapłacić. A taki Clod realnie... Jest czymś, jak już widzimy, co trzeba nadzorować. Czyli to jest realnie taki mało rozgarnięty junior, którego musisz pilnować, bo inaczej rozwali ci absolutnie wszystko, co masz w swoim kodzie. jak to teraz, szczególnie patrząc po takich eksperymentach, jak biznesowi mamy powiedzieć, słuchaj, musisz teraz jeszcze wyłożyć... wyłożyć po 200 dolarów na każdego dewelopera, bo to jest coś co nam pomoże pisać koty. Tylko czy pomoże? Czy jeszcze jesteśmy w fazie eksperymentów? I właściwie albo pomoże, albo nie pomoże."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "19:01",
+      "text": "Myślę, że uderzał do bardzo ważnego sedna. Myślę, że chyba nie na dzisiaj. Trzeba będzie zrobić o tym osobny odcinek, bo trzeba wprowadzić metryki. Teraz trzeba zrobić brzydko rzecz, zacząć mierzyć z deweloperów, żeby pokazać, że coś się zmieniło. Jeżeli to jest 200 dolców na dewelopera, ale ten deweloper wytwarza, nie wiem, 20 % szybciej, 10 % szybciej, 50 % szybciej, 3 % szybciej. nie, to jesteś w stanie to dość szybko skalkulować. Nie, jak wyjdzie ci, że nie wytwarzą, to też jesteś w stanie dość szybko skalkulować. Nie, to jest taka, jak gdyby wchodzisz, nazwijmy to, w dużą organizację, to jesteś w stanie uzasadnić ten wydatek. Boże, bądźmy szczerzy, 200 dolców na developera, 1000 złotych. Nie, nie, gdyby w dużą organizację, gdyby gorsze wydatki... lecą na różne dziwne rzeczy, góra nie będzie integracji i trudno. Albo tam, nie wiem, owocowych czwartków. Żartuję oczywiście, bo to są inne rzeczy, które w ogóle próbujemy zaadresować, ale jesteś w stanie to policzyć. Albo uważ sobie, że teraz wchodzisz do zespołu developerskiego, mówisz, no to zaczynamy was mierzyć. I ja już widzę tę radość u wszystkich. A to jest niestety coś, co bardzo wiele organizacji teraz czeka, żeby udowodnić, że warto, nie warto. Bo całe szczęście eksperyment się nie powiódł. Bo wiesz, jakby eksperyment się powiódł i wystarczyłoby 10 licencji Claude czy tam Cursor, nie wiem jak się nazywa licencja w Cursorze, ale jak gdyby ten..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "20:43",
+      "text": "było wygorszej."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "20:53",
+      "text": "tokany Cursora i to by wystarczyło ci na 10-osobowy zespół deweloperski, ono kosztuje niebawie 500 dolarów za miesiąc. To byłoby dopiero ciężko."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "21:08",
+      "text": "To prawda, cieszmy się, że nadal AI nie potrafi pisać dobrego kodu. Ale w międzyczasie, a propos integracji, oczywiście to już tak zupełnie na zakończenie, tak sobie pomyślałem, że w jednoosobowych działalnościach gospodarczych taka licencja Claude może się..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "21:17",
+      "text": "Mata śniad..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "21:36",
+      "text": "może się przydać, bo wtedy na integracji w jednoosobowe działalności gospodarczej przynajmniej nie będzie z kim pić."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "21:45",
+      "text": "To lustro..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "21:47",
+      "text": "No, teraz nie do lustra, tylko do asystenta. A on na pewno będzie zachwycony, jak będziesz mógł się z nim napić."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "21:50",
+      "text": "No. Albo powie ci, nie, że wiesz, to sorry, to uderza w twoje zdrowie i zakaz. Przykro mi. wcale nie jest takie łatwe. Ja tam nie polecam alkoholu ogólnie, więc jak gdyby spoko."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "22:01",
+      "text": "czyli jesteśmy zgubieni. To prawda, żeby nie było, ja też nie, ale tak, to tym miłym akcentem, związku z tym drogi słuchaczu i drogi oglądaczu, jeśli nas oglądasz, dziękujemy za to, że jesteś znowu z nami. Jak widzisz, możemy nadal spać spokojnie, a przynajmniej taką mam nadzieję i widzimy się za tydzień."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "22:32",
+      "text": "A jeszcze na sam koniec mała niespodzianka bo będziemy niedługo, jak słuchasz nas na bieżąco, niedługo w Warszawie na Cloudy na Meetup, jeżeli mielibyście ochotę to zapraszamy, można nam przybić piątka i wtedy powygłupiać się nami na żywo."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "22:49",
+      "text": "Tak jest, 26 lutego po południu w siedzibie Microsoftu tam będziemy, tam możesz nas znaleźć. Co ciekawe, tam będziemy nagrywać kolejny odcinek naszego podcastu, bo się umówiliśmy z organizatorami, że wszystko będzie nagrywane, więc mam nadzieję, że będziesz i będziesz mógł zadać też swoje pytanie, jeśli będziesz miał na to ochotę, a jeżeli nie, to będzie można tego spokojnie posłuchać na naszych kanałach."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "23:17",
+      "text": "Trzymajcie się, łapka w górę, dzwonek inne. Serdecznie zapraszamy i do usłyszenia już niedługo. Trzymajcie się."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "23:28",
+      "text": "Cześć!"
+    }
+  ]
+}

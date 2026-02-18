@@ -1,5 +1,48 @@
 [
   {
+    "id": 16,
+    "num": "16",
+    "notPublished": true,
+    "title": "Better Dev Club #16 - 3 miliony dolarów za przeglądarkę, która nie działa",
+    "date": "2026-02-19",
+    "duration": "23:28",
+    "desc": "Czy AI faktycznie potrafi zbudować kompilator języka C albo przeglądarkę internetową od zera? Analizujemy głośne eksperymenty Anthropica i Cursora. Rozmawiamy o tym, dlaczego 3 miliony dolarów wydane na kodowanie przeglądarki to przepis na katastrofę, dlaczego agenci AI unikają trudnych zadań i czy subskrypcja za 500 dolarów miesięcznie to nowa norma w IT. „Agenta kodowania nie zostawisz samego”.",
+    "tags": ["#ai", "#cursor", "#claude", "#anthropic", "#coding", "#betterdevclub"],
+    "platforms": {
+      "youtube": "TODO",
+      "spotify": "TODO",
+      "apple": "TODO"
+    },
+    "resources": [
+      {
+        "type": "link",
+        "label": "Anthropic: Building a C compiler with Claude",
+        "url": "https://www.anthropic.com/engineering/building-c-compiler",
+        "description": "Opis eksperymentu Anthropica, w którym Claude wygenerował 100 tysięcy linii kodu Rusta."
+      },
+      {
+        "type": "link",
+        "label": "Dyskusja o przeglądarce Cursora na Y Combinator",
+        "url": "https://news.ycombinator.com/item?id=46646777",
+        "description": "Kontrowersje wokół projektu przeglądarki zbudowanej przez agentową armię Cursora za 3 mln dolarów."
+      },
+      {
+        "type": "link",
+        "label": "Ladybird Browser",
+        "url": "https://ladybird.org/",
+        "description": "Niezależna przeglądarka budowana od zera, o której wspomina Piotr w kontekście alternatyw dla Chromium."
+      },
+      {
+        "type": "link",
+        "label": "Meetup Cloudyna w Warszawie (26 lutego)",
+        "url": "https://app.evenea.pl/event/cloudyna-meetup-2026-vol-1/",
+        "description": "Informacje o nadchodzącym spotkaniu w siedzibie Microsoftu, gdzie będzie nagrywany kolejny odcinek."
+      }
+    ],
+    "youtubeId": "TODO",
+    "guestKey": "piotrek"
+  },
+  {
     "id": 15,
     "num": "15",
     "notPublished": false,
@@ -10,8 +53,8 @@
     "tags": ["#ai", "#agents", "#skills", "#vercel", "#anthropic", "#betterdevclub"],
     "platforms": {
       "youtube": "https://youtu.be/lynrN0dMOLY",
-      "spotify": "https://open.spotify.com/episode/7t7Drh3M65rSlQrwwjuXop?si=Nqq3lxqQQCWJuR5T4Wn5uA",
-      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club-14-clawdbot-moltbot-openclaw/id1848840540?i=1000748335547"
+      "spotify": "https://open.spotify.com/episode/3c3viM2HfzhWOgsKD2uJTi",
+      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club-15-skille-ai-hype-czy-game-changer/id1848840540?i=1000749399902"
     },
     "resources": [
       {
