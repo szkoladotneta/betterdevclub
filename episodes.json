@@ -28,6 +28,12 @@
       },
       {
         "type": "link",
+        "label": "Guess What Requires 150 Million Lines of Code?",
+        "url": "https://futuredirections.ieee.org/2016/01/13/guess-what-requires-150-million-lines-of-code/",
+        "description": " Ford indicated that they have 150 million lines of code in their new pickup, the F150!"
+      },
+      {
+        "type": "link",
         "label": "Ladybird Browser",
         "url": "https://ladybird.org/",
         "description": "Niezależna przeglądarka budowana od zera, o której wspomina Piotr w kontekście alternatyw dla Chromium."
