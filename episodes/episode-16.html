@@ -11,7 +11,7 @@
     <meta property="og:url" content="https://betterdevclub.com/">
     <meta property="og:title" content="Better Dev Club #16 - 3 miliony dolarów za przeglądarkę, która nie działa">
     <meta property="og:description" content="Czy AI faktycznie potrafi zbudować kompilator języka C albo przeglądarkę internetową od zera? Analizujemy głośne eksperymenty Anthropica i Cursora. Rozmawiamy o tym, dlaczego 3 miliony dolarów wydane na kodowanie przeglądarki to przepis na katastrofę, dlaczego agenci AI unikają trudnych zadań i czy subskrypcja za 500 dolarów miesięcznie to nowa norma w IT. „Agenta kodowania nie zostawisz samego”.">
-    <meta property="og:image" content="https://i.ytimg.com/vi/TODO/maxresdefault.jpg">
+    <meta property="og:image" content="https://i.ytimg.com/vi/wlkVnriPGYA/maxresdefault.jpg">
     <link rel="shortcut icon" href="../img/favicon-32x32.png" type="image/png">
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Noto+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
@@ -973,7 +973,7 @@
             const [loading, setLoading] = useState(true);
 
             useEffect(() => {
-                const version = "6feeecfbea";
+                const version = "24a3b879ef";
                 Promise.all([
                     fetch(`/episodes.json?v=${version}`).then(res => res.json()),
                     fetch(`/speakers.json?v=${version}`).then(res => res.json())

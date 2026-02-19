@@ -2,16 +2,16 @@
   {
     "id": 16,
     "num": "16",
-    "notPublished": true,
+    "notPublished": false,
     "title": "Better Dev Club #16 - 3 miliony dolarów za przeglądarkę, która nie działa",
     "date": "2026-02-19",
     "duration": "23:28",
     "desc": "Czy AI faktycznie potrafi zbudować kompilator języka C albo przeglądarkę internetową od zera? Analizujemy głośne eksperymenty Anthropica i Cursora. Rozmawiamy o tym, dlaczego 3 miliony dolarów wydane na kodowanie przeglądarki to przepis na katastrofę, dlaczego agenci AI unikają trudnych zadań i czy subskrypcja za 500 dolarów miesięcznie to nowa norma w IT. „Agenta kodowania nie zostawisz samego”.",
     "tags": ["#ai", "#cursor", "#claude", "#anthropic", "#coding", "#betterdevclub"],
     "platforms": {
-      "youtube": "TODO",
-      "spotify": "TODO",
-      "apple": "TODO"
+      "youtube": "https://youtu.be/wlkVnriPGYA",
+      "spotify": "https://open.spotify.com/episode/5hjVwyaNVzHIQzyiVTrgFi",
+      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club-16-projekty-ai-za-kokosy-%24%24%24-claude/id1848840540?i=1000750453755"
     },
     "resources": [
       {
@@ -45,7 +45,7 @@
         "description": "Informacje o nadchodzącym spotkaniu w siedzibie Microsoftu, gdzie będzie nagrywany kolejny odcinek."
       }
     ],
-    "youtubeId": "TODO",
+    "youtubeId": "wlkVnriPGYA",
     "guestKey": "piotrek"
   },
   {
