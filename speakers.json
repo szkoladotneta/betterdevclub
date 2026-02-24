@@ -21,5 +21,11 @@
     "role": "Guest",
     "guestRole": "Sr. Engineer",
     "picture": "https://lh3.googleusercontent.com/aida-public/AB6AXuAhRP-EFXBjptk9wHwnN0aV1zldEOXv2rUykDo1cqEhcv7Ct1dq4LyBMQUmFJxCeZM-PmwRm1cUrtExGXTNZjiFs3xpRXgIq2YhyqaQdSmS8e9RXPhkEgp5pQapJ_h_9AFq4uXdILFnT26C1wcGgFFzMz7sC6fHRH3sVbCrfYpM0JyOI6PnCMT9_ijFXiOjFVa_IEPp-WHb0XJNde2YAgDFKXVDd_zWLNltioihWwFiivBNNy8ZYfkDDvL3_yCwm2Wb8D8JtCBAjjy-"
+  },
+  "tomek_ducin": {
+    "name": "Tomek Ducin",
+    "role": "Guest",
+    "bio": "Architekt oprogramowania, trener, prelegent i tw\u00f3rca programu \u201eDeveloper Jutra\u201d. Wsp\u00f3\u0142za\u0142o\u017cyciel Warsaw Software Architecture Group (WSAG).",
+    "picture": "TODO"
   }
 }
