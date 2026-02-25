@@ -17,15 +17,21 @@
       {
         "type": "link",
         "label": "Tomek Ducin - Developer Jutra",
-        "url": "TODO",
+        "url": "https://developerjutra.pl/",
         "description": "Program i materiały Tomka Ducina o nowym podejściu do programowania w dobie AI."
       },
       {
         "type": "link",
         "label": "Warsaw Software Architecture Group (WSAG)",
-        "url": "TODO",
+        "url": "https://wsag.org.pl/",
         "description": "Meetup o architekturze oprogramowania współtworzony przez Tomka Ducina i Kamila Grzybka."
-      }
+      },
+      {
+        "type": "link",
+        "label": "Tomasz Ducin na LinkedIn",
+        "url": "https://www.linkedin.com/in/tomasz-ducin/",
+        "description": "Profil Tomka Ducina na LinkedIn."
+      },
     ],
     "youtubeId": "TODO",
     "guestKey": "tomek_ducin"
