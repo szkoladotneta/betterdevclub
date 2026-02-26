@@ -2,16 +2,15 @@
   {
     "id": 17,
     "num": "17",
-    "notPublished": true,
-    "title": "Better Dev Club #17 - Droga Tomasza Ducina: teatr, kodzik i AI",
+    "title": "Better Dev Club #17 - Od aktora do architekta jutra. Gość: Tomek Ducin",
     "date": "2026-02-24",
     "duration": "56:42",
     "desc": "Tomek Ducin \u2013 znany architekt, prelegent i \u201edeweloper jutra\u201d \u2013 dzieli się swoją historią: od teatralnych desek Gardzienic po stabilność w świecie IT. Rozmawiamy o tym, dlaczego \u201evibe coding\u201d (lub Agentic Coding) to nieuchronna przyszłość, jak uniknąć systemów zombie i czy seniorzy, którzy unikają AI, mają jeszcze miejsce na rynku w 2026 roku. Czy AI zastąpi architektów, czy może tylko ich usprawni? \u201eVibe-owanie aplikacji podczas maratonu to już poziom TikToka\u201d.",
     "tags": ["#ai", "#architecture", "#tomekducin", "#vibecoding", "#agenticAI", "#betterdevclub", "#career"],
     "platforms": {
-      "youtube": "TODO",
-      "spotify": "TODO",
-      "apple": "TODO"
+      "youtube": "https://youtu.be/tuFBcbrBFCU",
+      "spotify": "https://open.spotify.com/episode/2jH6k86F08BOqqJG5lQQey?si=gm6QgSeKTe6MFXKd2aDthQ",
+      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club-17-droga-tomasza-ducina-teatr-kodzik-i-ai/id1848840540?i=1000751715016"
     },
     "resources": [
       {
@@ -28,12 +27,12 @@
       },
       {
         "type": "link",
-        "label": "Tomasz Ducin na LinkedIn",
+        "label": "LinkedIn",
         "url": "https://www.linkedin.com/in/tomasz-ducin/",
-        "description": "Profil Tomka Ducina na LinkedIn."
-      },
+        "description": "Profil Tomka"
+      }
     ],
-    "youtubeId": "TODO",
+    "youtubeId": "tuFBcbrBFCU",
     "guestKey": "tomek_ducin"
   },
   {
