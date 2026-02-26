@@ -11,7 +11,7 @@
     <meta property="og:url" content="https://betterdevclub.com/">
     <meta property="og:title" content="Better Dev Club #17 - Od aktora do architekta jutra. Gość: Tomek Ducin">
     <meta property="og:description" content="Tomek Ducin – znany architekt, prelegent i „deweloper jutra” – dzieli się swoją historią: od teatralnych desek Gardzienic po stabilność w świecie IT. Rozmawiamy o tym, dlaczego „vibe coding” (lub Agentic Coding) to nieuchronna przyszłość, jak uniknąć systemów zombie i czy seniorzy, którzy unikają AI, mają jeszcze miejsce na rynku w 2026 roku. Czy AI zastąpi architektów, czy może tylko ich usprawni? „Vibe-owanie aplikacji podczas maratonu to już poziom TikToka”.">
-    <meta property="og:image" content="https://i.ytimg.com/vi/TODO/maxresdefault.jpg">
+    <meta property="og:image" content="https://i.ytimg.com/vi/tuFBcbrBFCU/maxresdefault.jpg">
     <link rel="shortcut icon" href="../img/favicon-32x32.png" type="image/png">
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Noto+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
@@ -973,7 +973,7 @@
             const [loading, setLoading] = useState(true);
 
             useEffect(() => {
-                const version = "e24a23354f";
+                const version = "7c169bd751";
                 Promise.all([
                     fetch(`/episodes.json?v=${version}`).then(res => res.json()),
                     fetch(`/speakers.json?v=${version}`).then(res => res.json())
