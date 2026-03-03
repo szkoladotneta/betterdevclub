@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Better Dev Club #17 - Tomasz Ducin - Wielki Teatr IT</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Montserrat:wght@400;700&family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --velvet: #800000;
+            --gold: #d4af37;
+            --black: #1a1a1a;
+            --white: #fdfcf0;
+            --shadow: rgba(0,0,0,0.6);
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Montserrat', sans-serif;
+            color: var(--white);
+            overflow: hidden;
+        }
+
+        .container {
+            width: 1200px;
+            height: 630px;
+            background: radial-gradient(circle at 50% 120%, #4a0000 0%, #1a1a1a 100%);
+            border: 15px solid var(--gold);
+            outline: 5px solid var(--black);
+            position: relative;
+            display: flex;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+
+        /* Kurtyna */
+        .curtain {
+            position: absolute;
+            top: 0;
+            width: 25%;
+            height: 100%;
+            background: linear-gradient(90deg, #600000, #900000 50%, #600000);
+            box-shadow: 0 0 50px var(--shadow);
+            z-index: 100;
+        }
+        .curtain-left { left: 0; border-radius: 0 50px 50px 0; }
+        .curtain-right { right: 0; border-radius: 50px 0 0 50px; }
+
+        /* Miejsce na zdjęcie */
+        .character-well {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 500px;
+            height: 550px;
+            z-index: 50;
+            background-image: url('../img/guests/tomasz_ducin.jpg'); /* Zdjęcie Tomka */
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: bottom center;
+            filter: drop-shadow(0 0 30px rgba(0,0,0,0.8));
+        }
+
+        /* Top Header - Szyld Teatralny */
+        .theatre-banner {
+            position: absolute;
+            top: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            z-index: 110;
+            width: 80%;
+        }
+
+        .hook-header {
+            font-family: 'Playfair Display', serif;
+            font-size: 55px;
+            color: var(--white);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin: 0;
+            text-shadow: 3px 3px 0px var(--gold), 6px 6px 15px var(--shadow);
+            font-weight: 900;
+        }
+
+        .guest-name {
+            font-family: 'Great Vibes', cursive;
+            font-size: 45px;
+            color: var(--gold);
+            margin-top: -15px;
+        }
+
+        /* Cytaty */
+        .quotes-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 140px 80px 100px;
+            box-sizing: border-box;
+            z-index: 40;
+        }
+
+        .quote-side {
+            width: 320px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .quote-card {
+            background: rgba(0, 0, 0, 0.4);
+            border: 1px solid var(--gold);
+            padding: 15px;
+            border-radius: 5px;
+            backdrop-filter: blur(5px);
+            box-shadow: 10px 10px 20px var(--shadow);
+        }
+
+        .quote-text {
+            font-family: 'Playfair Display', serif;
+            font-size: 19px;
+            line-height: 1.4;
+            font-style: italic;
+            margin: 0;
+            color: var(--white);
+        }
+
+        .quote-text strong {
+            color: var(--gold);
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        /* Footer */
+        .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 70px;
+            background: linear-gradient(0deg, rgba(0,0,0,0.9), transparent);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            z-index: 120;
+        }
+
+        .badge {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            letter-spacing: 2px;
+            color: var(--gold);
+        }
+
+        .cta {
+            background: var(--gold);
+            color: #000;
+            padding: 5px 20px;
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+
+        .platforms {
+            display: flex;
+            gap: 15px;
+            color: var(--gold);
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Kurtyny -->
+        <div class="curtain curtain-left"></div>
+        <div class="curtain curtain-right"></div>
+
+        <!-- Szyld -->
+        <div class="theatre-banner">
+            <h1 class="hook-header">3 MILIONY DOLARÓW ZA KOD?</h1>
+            <div class="guest-name">Tomasz Ducin</div>
+        </div>
+
+        <!-- Zdjęcie Tomka -->
+        <div class="character-well"></div>
+
+        <!-- Cytaty -->
+        <div class="quotes-container">
+            <div class="quote-side left">
+                <div class="quote-card">
+                    <p class="quote-text">
+                        "Vibe coding to sytuacja, w której puszczasz lejce. <strong>AI coding to moment, w którym ty jesteś pilotem.</strong>"
+                    </p>
+                </div>
+                <div class="quote-card">
+                    <p class="quote-text">
+                        "Była bezmyślność, jest bezmyślność, <strong>czegoś się nauczył nikt.</strong>"
+                    </p>
+                </div>
+            </div>
+
+            <div class="quote-side right">
+                <div class="quote-card">
+                    <p class="quote-text">
+                        "Można przesadzić z perfekcjonizmem, ale <strong>pchanie na produkcję gówna</strong> to równie wielki problem."
+                    </p>
+                </div>
+                <div class="quote-card">
+                    <p class="quote-text">
+                        "Czy chcesz być kapitanem, który jako ostatni tonie z okrętem, czy <strong>dostosujesz narzędzia do nowej epoki?</strong>"
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="badge">EPISODE #17</div>
+            <div class="cta">POSŁUCHAJ TERAZ</div>
+            <div class="platforms">
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-spotify"></i>
+                <i class="fab fa-apple"></i>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

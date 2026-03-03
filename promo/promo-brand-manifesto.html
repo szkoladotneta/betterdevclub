@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Better Dev Club - Manifesto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --black: #050505;
+            --white: #ffffff;
+            --yellow: #facc15;
+            --accent: #ef4444; /* Red for high contrast */
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: #111;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Inter', sans-serif;
+            overflow: hidden;
+        }
+
+        .container {
+            width: 1200px;
+            height: 630px;
+            background: var(--black);
+            display: flex;
+            position: relative;
+            overflow: hidden;
+            border: 10px solid var(--white);
+            box-sizing: border-box;
+        }
+
+        /* Ukośne tło */
+        .bg-slash {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at top right, #1e1e1e, #050505);
+            z-index: 1;
+        }
+
+        .main-text {
+            position: relative;
+            z-index: 10;
+            flex: 1.2;
+            padding: 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .visual {
+            flex: 0.8;
+            position: relative;
+            z-index: 5;
+            background: var(--yellow);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-left: 8px solid var(--white);
+        }
+
+        h1 {
+            font-family: 'Oswald', sans-serif;
+            font-size: 80px;
+            line-height: 0.9;
+            margin: 0;
+            color: var(--white);
+            text-transform: uppercase;
+        }
+
+        h1 span {
+            color: var(--yellow);
+        }
+
+        .tagline {
+            font-size: 26px;
+            color: var(--white);
+            margin-top: 30px;
+            max-width: 500px;
+            font-weight: 400;
+            line-height: 1.5;
+            opacity: 0.9;
+        }
+
+        .features {
+            margin-top: 40px;
+            list-style: none;
+            padding: 0;
+        }
+
+        .features li {
+            font-size: 22px;
+            color: var(--white);
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            font-weight: 700;
+        }
+
+        .features li i {
+            color: var(--accent);
+            font-size: 18px;
+        }
+
+        .character-art {
+            position: absolute;
+            bottom: -50px;
+            width: 150%;
+            height: 100%;
+            background-image: url('poses-2.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center bottom;
+            filter: grayscale(1) contrast(1.2) brightness(0.8);
+            transform: scale(1.1);
+        }
+
+        .logo-box {
+            position: absolute;
+            top: 40px;
+            right: 40px;
+            background: var(--black);
+            color: var(--white);
+            padding: 15px 30px;
+            font-family: 'Oswald', sans-serif;
+            font-size: 24px;
+            border: 4px solid var(--white);
+            box-shadow: 8px 8px 0px var(--accent);
+            z-index: 20;
+        }
+
+        .cta-bar {
+            position: absolute;
+            bottom: 40px;
+            left: 60px;
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            z-index: 20;
+        }
+
+        .cta-button {
+            background: var(--accent);
+            color: white;
+            padding: 15px 40px;
+            font-weight: 900;
+            font-size: 22px;
+            text-transform: uppercase;
+            text-decoration: none;
+            border: 3px solid var(--white);
+            box-shadow: 6px 6px 0px var(--yellow);
+        }
+
+        .socials {
+            display: flex;
+            gap: 20px;
+            font-size: 30px;
+            color: var(--white);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="bg-slash"></div>
+
+        <div class="main-text">
+            <h1>BETTER<br><span>DEV CLUB</span></h1>
+            <p class="tagline">Nie trać czasu na hype. Dowiedz się, co realnie zmienia zasady gry w świecie IT i programowania.</p>
+            
+            <ul class="features">
+                <li><i class="fas fa-bolt"></i> PRZETRWANIE W ERZE AI</li>
+                <li><i class="fas fa-code"></i> ARCHITEKTURA I JAKOŚĆ</li>
+                <li><i class="fas fa-flask"></i> REALNE EKSPERYMENTY</li>
+            </ul>
+
+            <div class="cta-bar">
+                <div class="cta-button">ZACZNIJ SŁUCHAĆ</div>
+                <div class="socials">
+                    <i class="fab fa-spotify"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-apple"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="visual">
+            <div class="logo-box">KAJETAN & PIOTREK</div>
+            <div class="character-art"></div>
+        </div>
+    </div>
+
+</body>
+</html>

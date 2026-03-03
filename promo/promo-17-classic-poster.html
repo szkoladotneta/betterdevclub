@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Better Dev Club #17 - Plakat Teatralny - Tomasz Ducin</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,700;1,700&family=Cinzel:wght@400;900&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --paper: #e8d5b5;
+            --ink: #1a1a1a;
+            --crimson: #8b0000;
+            --gold: #b8860b;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: #222;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Cormorant Garamond', serif;
+            color: var(--ink);
+            overflow: hidden;
+        }
+
+        .container {
+            width: 1200px;
+            height: 630px;
+            background-color: var(--paper);
+            background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+            border: 4px double var(--ink);
+            position: relative;
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            box-sizing: border-box;
+            overflow: hidden;
+            box-shadow: 0 0 50px rgba(0,0,0,0.5);
+        }
+
+        /* Ozdobna ramka wewnętrzna */
+        .container::after {
+            content: "";
+            position: absolute;
+            top: 20px; left: 20px; right: 20px; bottom: 20px;
+            border: 1px solid var(--ink);
+            pointer-events: none;
+        }
+
+        /* Lewa strona - Teksty i Typografia */
+        .poster-info {
+            padding: 40px 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border-right: 2px solid var(--ink);
+            z-index: 10;
+        }
+
+        .theatre-name {
+            font-family: 'Cinzel', serif;
+            font-size: 14px;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 15px;
+            border-bottom: 2px solid var(--ink);
+            padding-bottom: 5px;
+        }
+
+        .main-title {
+            font-family: 'Cinzel', serif;
+            font-weight: 900;
+            font-size: 46px;
+            line-height: 1.1;
+            text-align: center;
+            margin: 15px 0;
+            color: var(--crimson);
+            border-bottom: 1px solid var(--ink);
+            padding-bottom: 15px;
+        }
+
+        .starring {
+            text-align: center;
+            font-size: 20px;
+            margin-bottom: 25px;
+            font-style: italic;
+        }
+
+        .starring span {
+            display: block;
+            font-family: 'Cinzel', serif;
+            font-size: 38px;
+            font-weight: 700;
+            color: var(--ink);
+            margin-top: 5px;
+            font-style: normal;
+        }
+
+        .quotes-list {
+            font-size: 20px;
+            line-height: 1.35;
+            font-style: italic;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .quote-item {
+            position: relative;
+            padding-left: 25px;
+            border-bottom: 1px dotted rgba(0,0,0,0.2);
+            padding-bottom: 8px;
+        }
+
+        .quote-item::before {
+            content: "«";
+            position: absolute;
+            left: 0;
+            color: var(--crimson);
+            font-size: 24px;
+            top: -5px;
+        }
+
+        .quote-item strong {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 13px;
+            font-style: normal;
+            text-transform: uppercase;
+            color: var(--crimson);
+            letter-spacing: 1px;
+            background: rgba(139, 0, 0, 0.05);
+            padding: 0 5px;
+        }
+
+        /* Prawa strona - Grafika i Zdjęcie */
+        .poster-visual {
+            position: relative;
+            background: #111;
+            overflow: hidden;
+        }
+
+        .guest-photo {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            top: 0;
+            z-index: 5;
+            filter: sepia(0.4) contrast(1.1) grayscale(0.2);
+            background-image: url('../img/guests/tomasz_ducin.jpg');
+            background-size: cover;
+            background-position: center 20%;
+            transform: rotate(180deg);
+        }
+
+        /* Foto Signature */
+        .photo-signature {
+            position: absolute;
+            bottom: 85px;
+            right: 15px;
+            transform: rotate(-90deg);
+            transform-origin: right bottom;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 14px;
+            color: var(--paper);
+            z-index: 15;
+            letter-spacing: 2px;
+            background: rgba(0,0,0,0.4);
+            padding: 2px 10px;
+        }
+
+        /* Efekt oświetlenia scenicznego */
+        .spotlight {
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: radial-gradient(circle at 50% 30%, transparent 10%, rgba(0,0,0,0.9) 85%);
+            z-index: 6;
+        }
+
+        .performance-date {
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--paper);
+            padding: 8px 25px;
+            border: 3px double var(--ink);
+            font-family: 'Cinzel', serif;
+            font-size: 18px;
+            z-index: 10;
+            white-space: nowrap;
+            color: var(--ink);
+        }
+
+        .footer-credits {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 9px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            opacity: 0.8;
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .social-icons {
+            margin-top: 15px;
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            font-size: 18px;
+            color: var(--crimson);
+        }
+
+        .footer-cta {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: var(--ink);
+            color: var(--paper);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 40px;
+            z-index: 200;
+            border-top: 4px solid var(--crimson);
+            box-sizing: border-box;
+        }
+
+        .cta-text {
+            font-family: 'Cinzel', serif;
+            font-size: 24px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .cta-text span {
+            background: var(--crimson);
+            padding: 2px 12px;
+            color: #fff;
+            margin-left: 10px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 18px;
+        }
+
+        .footer-platforms {
+            display: flex;
+            gap: 15px;
+        }
+
+        .footer-platform-icon {
+            font-size: 22px;
+            background: var(--paper);
+            color: var(--ink);
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="poster-info">
+            <div>
+                <div class="theatre-name">BETTER DEV CLUB • SCENA PREMIEROWA</div>
+                <h1 class="main-title">3 MILIONY DOLARÓW ZA KOD?</h1>
+                <div class="starring">
+                    POD PATRONATEM INŻYNIERII JUTRA
+                    <span>Tomasz Ducin</span>
+                </div>
+            </div>
+
+            <div class="quotes-list">
+                <div class="quote-item">
+                    Vibe coding to sytuacja, w której puszczasz lejce i koń biega gdzie chce.
+                </div>
+                <div class="quote-item">
+                    Była bezmyślność, jest bezmyślność, czegoś się nauczył nikt.
+                </div>
+                <div class="quote-item">
+                    Można przesadzić z perfekcjonizmem, ale pchanie na produkcję gówna to równie wielki problem.
+                </div>
+                <div class="quote-item">
+                    Czy chcesz być kapitanem, który jako ostatni tonie z okrętem?
+                </div>
+            </div>
+
+            <div style="margin-bottom: 60px;">
+                <div class="social-icons">
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-spotify"></i>
+                    <i class="fab fa-apple"></i>
+                </div>
+                <div class="footer-credits">
+                    DYREKCJA: PIOTR STAPP & KAJETAN DUSZYŃSKI
+                </div>
+            </div>
+        </div>
+
+        <div class="poster-visual">
+            <div class="spotlight"></div>
+            <div class="guest-photo"></div>
+            <div class="photo-signature">FOTO: TOMASZ DUCIN</div>
+            <div class="performance-date" style="bottom: 80px;">
+                PREMIERA: ODCINEK #17
+            </div>
+        </div>
+
+        <div class="footer-cta">
+            <div class="cta-text">
+                BETTER DEV CLUB • POSŁUCHAJ TERAZ: <span>LINK W KOMENTARZU 👇</span>
+            </div>
+            
+            <div class="footer-platforms">
+                <div class="footer-platform-icon"><i class="fab fa-youtube"></i></div>
+                <div class="footer-platform-icon"><i class="fab fa-spotify"></i></div>
+                <div class="footer-platform-icon"><i class="fab fa-apple"></i></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

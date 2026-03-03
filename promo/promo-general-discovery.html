@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Better Dev Club - Start Listening</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --navy: #0f172a;
+            --yellow: #fbbf24;
+            --white: #ffffff;
+            --accent: #ff4500;
+            --grey: #334155;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Inter', sans-serif;
+            overflow: hidden;
+        }
+
+        .container {
+            width: 1200px;
+            height: 630px;
+            background: var(--navy);
+            border: 8px solid var(--white);
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+            box-sizing: border-box;
+        }
+
+        .header {
+            background: var(--yellow);
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 6px solid var(--white);
+            z-index: 10;
+        }
+
+        .header h1 {
+            font-family: 'Oswald', sans-serif;
+            font-size: 45px;
+            margin: 0;
+            color: var(--navy);
+            text-transform: uppercase;
+            letter-spacing: -1px;
+        }
+
+        .brand-badge {
+            background: var(--navy);
+            color: var(--white);
+            padding: 10px 25px;
+            font-weight: 900;
+            font-size: 20px;
+            transform: skewX(-10deg);
+        }
+
+        .content {
+            flex: 1;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            padding: 40px;
+            position: relative;
+            z-index: 5;
+        }
+
+        .episode-hit {
+            background: rgba(255,255,255,0.05);
+            border: 3px solid var(--white);
+            padding: 25px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            position: relative;
+            transition: transform 0.3s;
+        }
+
+        .episode-hit:hover {
+            transform: translateY(-5px);
+            background: rgba(255,255,255,0.1);
+        }
+
+        .hit-number {
+            position: absolute;
+            top: -20px;
+            right: 20px;
+            background: var(--accent);
+            color: white;
+            padding: 5px 15px;
+            font-weight: 900;
+            font-size: 24px;
+            box-shadow: 4px 4px 0 var(--navy);
+        }
+
+        .episode-hit h2 {
+            font-family: 'Oswald', sans-serif;
+            font-size: 32px;
+            margin: 0;
+            color: var(--yellow);
+            line-height: 1.1;
+        }
+
+        .episode-hit p {
+            color: var(--white);
+            font-size: 18px;
+            line-height: 1.4;
+            margin: 0;
+            opacity: 0.9;
+        }
+
+        .tagline {
+            grid-column: span 2;
+            text-align: center;
+            font-size: 32px;
+            font-weight: 900;
+            color: var(--white);
+            background: var(--accent);
+            padding: 15px;
+            margin-top: 10px;
+            border: 3px solid var(--white);
+            text-transform: uppercase;
+        }
+
+        .footer {
+            height: 100px;
+            background: var(--white);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 40px;
+            z-index: 10;
+        }
+
+        .cta-big {
+            font-size: 28px;
+            font-weight: 900;
+            color: var(--navy);
+            text-transform: uppercase;
+        }
+
+        .cta-big span {
+            color: var(--accent);
+        }
+
+        .platforms {
+            display: flex;
+            gap: 15px;
+        }
+
+        .platform {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            color: white;
+            background: var(--navy);
+        }
+
+        .bg-lines {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                radial-gradient(circle at 20% 50%, rgba(251, 191, 36, 0.1) 0%, transparent 40%),
+                radial-gradient(circle at 80% 20%, rgba(255, 69, 0, 0.1) 0%, transparent 40%);
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="bg-lines"></div>
+        
+        <header class="header">
+            <h1>Better Dev Club</h1>
+            <div class="brand-badge">POZNAJ PRAWDĘ O IT</div>
+        </header>
+
+        <main class="content">
+            <div class="episode-hit">
+                <div class="hit-number">#16</div>
+                <h2>3 MLIONY DOLARÓW ZA PRZEGLĄDARKĘ?</h2>
+                <p>Analizujemy głośne eksperymenty AI, które kosztowały fortunę, a wyprodukowały... śmieci. Dowiedz się, dlaczego agenta AI nie można zostawić samego.</p>
+            </div>
+
+            <div class="episode-hit">
+                <div class="hit-number">#11</div>
+                <h2>UPADEK STACK OVERFLOW & DRAMY</h2>
+                <p>Czy AI faktycznie zabiera pracę? Jak Tailwind CSS przeżył swoją największą dramę? Sprawdzamy, skąd będziemy czerpać wiedzę za 5 lat.</p>
+            </div>
+
+            <div class="tagline">
+                ZANIM AI ZASTĄPI TWOJEGO JUNIORA, POSŁUCHAJ NAS.
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="cta-big">ZACZNIJ <span>SŁUCHAĆ TERAZ</span></div>
+            <div class="platforms">
+                <div class="platform" style="background: #1DB954;"><i class="fab fa-spotify"></i></div>
+                <div class="platform" style="background: #FF0000;"><i class="fab fa-youtube"></i></div>
+                <div class="platform" style="background: #A347FF;"><i class="fab fa-apple"></i></div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>
