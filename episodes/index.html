@@ -1315,7 +1315,7 @@
             const [loading, setLoading] = useState(true);
 
             useEffect(() => {
-                const version = "c6424c7a3d";
+                const version = "e01bd7b674";
                 Promise.all([
                     fetch(`/episodes.json?v=${version}`).then(res => res.json()),
                     fetch(`/speakers.json?v=${version}`).then(res => res.json())
