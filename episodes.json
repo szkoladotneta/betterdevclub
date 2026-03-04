@@ -1,5 +1,48 @@
 [
   {
+    "id": 18,
+    "num": "18",
+    "notPublished": true,
+    "title": "Better Dev Club #18 - Claude na wojnie: COBOL, Trump, Pentagon i giełda",
+    "date": "2026-03-04",
+    "duration": "18:25",
+    "desc": "Jeden blogpost Anthropica o COBOL-u sprawił, że akcje IBM tąpnęły o 20%. Dlaczego giełda panikuje? Analizujemy geopolityczny chaos: od uznania Claude'a za 'Supply Chain Risk' przez administrację Trumpa, przez atak na datacenter AWS w Emiratach, aż po kontrowersyjne subskrypcje Katy Perry. Czy OpenAI to nowy 'Open-Closed Principle'? Sprawdzamy, dlaczego powrót do podstaw i niezależność od narzędzi AI to jedyny sposób na przetrwanie w dobie cyfrowej inwigilacji i wojen technologicznych. 'Polityka uderza w IT mocniej niż kiedykolwiek'.",
+    "tags": ["#anthropic", "#claude", "#ibm", "#cobol", "#cybersecurity", "#supplychain", "#aws", "#openai", "#betterdevclub"],
+    "platforms": {
+      "youtube": "https://youtu.be/PROPOZYCJA_ID",
+      "spotify": "https://open.spotify.com/episode/PROPOZYCJA_ID",
+      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club-18-geopolityka-ai-trump-claude-i-ibm/id1848840540"
+    },
+    "resources": [
+      {
+        "type": "link",
+        "label": "Anthropic: Claude's COBOL capabilities",
+        "url": "https://www.anthropic.com/news/claude-cobol",
+        "description": "Oficjalny wpis, który wywołał panikę na giełdzie i uderzył w wycenę IBM."
+      },
+      {
+        "type": "link",
+        "label": "Statement on the comments from Secretary of War Pete Hegseth",
+        "url": "https://www.anthropic.com/news/statement-comments-secretary-war",
+        "description": "Komntarz Anthropica na temat uznania Claude'a za 'Supply Chain Risk' przez administrację Trumpa."
+      },
+      {
+        "type": "link",
+        "label": "Amazon's cloud unit reports fire after objects hit UAE data center",
+        "url": "https://www.reuters.com/world/middle-east/amazons-cloud-unit-reports-fire-after-objects-hit-uae-data-center-2026-03-01/",
+        "description": "Atak na datacenter AWS w Emiratach, który wywołał obawy o bezpieczeństwo infrastruktury chmurowej oraz wpłynął na dostęp Claude'a na świecie."
+      },
+      {
+        "type": "link",
+        "label": "Katy Perry's tweet about Claude subscription",
+        "url": "https://x.com/katyperry/status/2027619173325553765",
+        "description": "Kate Perry pochwaliła się subskrypcją Claude na X"
+      }
+    ],
+    "youtubeId": "PROPOZYCJA_ID",
+    "guestKey": "piotrek"
+  },
+  {
     "id": 17,
     "num": "17",
     "title": "Better Dev Club #17 - Od aktora do architekta jutra. Gość: Tomek Ducin.",

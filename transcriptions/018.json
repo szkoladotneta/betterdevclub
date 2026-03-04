@@ -1,0 +1,174 @@
+{
+  "transcript": [
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:00",
+      "text": "Cześć Piotrek!"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:01",
+      "text": "Cześć, Kajtek."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:03",
+      "text": "Dobrze, że się dzisiaj spotykamy, bo że tak powiem, mamy całkiem bombowy tydzień."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:08",
+      "text": "Powiedziałbym, chyba, niestety dosłownie też, po prostu ilość newsów wybuchła w taki sposób, żeśmy się długo zastanawiali w ogóle o czym dzisiaj gadać."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:20",
+      "text": "To prawda, to prawda. Szczególnie, że wszystko, mam wrażenie, albo bardzo duża część tego wszystkiego, co się aktualnie dzieje, kręci się wokół jednej uwielbianej ostatnio przez developerów firmy, czyli Anthropica."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:34",
+      "text": "Claude Code przynajmniej na Twitterze wygrywa ze wszystkimi innymi narzędziami jako podstawa."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:43",
+      "text": "Dokładnie, a ciekawe właśnie... No dobra, to zacznijmy od samego początku. Może od tego, co się wydarzyło w IBM-ie. Powiesz mniej więcej?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:56",
+      "text": "W sensie to nie w IBM się wydarzyło, tylko na giełdzie. Bo tu jak gdyby Anthropic ogłosił na blogu, że jak gdyby Claude sobie całkiem nieźle radzi z Cobolem. Co zostało zrozumiane przez inwestorów, o Boże, to znaczy, że IBM traci swoje najlepsze źródło dochodu, czyli mówiąc wprost, mainframy. No i akcje zjechały tam w zależności jak patrzymy na jaki wycinek czasu, ale powiedzmy 13 %"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "01:00",
+      "text": "No."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "01:23",
+      "text": "Nawet do 20 % był taki moment piku zależnie, mówię, jak tam patrzymy. Ale jak sobie pomyślisz o tym, że jedna firma jednym blog postem zabiera na giełdzie olbrzymowi, bo ciężko IBMa inaczej nazwać, 10 % wartości i tak po prostu pyk, to w ogóle ci się pojawia takie, co się w ogóle dzieje. Ale jakby hype AI-owy, jak gdyby tu w 100 % tak działa i nie ma chyba o czym w ogóle mówić."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "01:55",
+      "text": "Teoretycznie tak, teoretycznie nie ma o czym mówić, ale z drugiej strony popatrzmy też na to, w ogóle jak IBM reaguje na to, bo IBM nagle zaczyna twierdzić, że hola hola nie jest wcale aż tak wesoło, bo oni zaczynają właśnie zatrudniać bardzo mocno, szczególnie młodych ludzi, bo twierdzą też, że ta adopcja sztucznej inteligencji... jakby też jest na jakimś poziomie i im się oczy otwierają, że to nie jest tak, że Claude Code nas zastąpi, tylko..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "02:33",
+      "text": "No to chyba rzeczywiście jest takie dość dobre podsumowanie jak gdyby rzeczywiście powiedziane, to rzeczywiście jak to wygląda, że z jednej strony oni bardzo dużo zatrudniają, bo to widzą. Zresztą gadaliśmy, będziemy o tym gadać i właśnie gadamy o to chyba tak na to powiedzieć, że skończy się, że rzeczywiście w tym IT muszę obrać. IBM chyba zaczął to widzieć i rzeczywiście zaczął zatrudniać. Natomiast to w ogóle jest jeszcze wiesz, tak naprawdę ta kwestia tej giełdy jest skomplikowana, bo sam COBOL to nie wszystko. Osobiście nadal jestem zawsze, znaczy byłem i chyba nadal jestem pod wyrażeniem architektury mainframea, bo mainframe to dla mnie była zawsze taka chmura w on-premie, którą mogły skalować w zasadzie w nieskończoność. Fakt płacąc bardzo duże pieniądze, naprawdę bardzo duże pieniądze. Ale mogłeś. tłum tych firm, które mają historię troszeczkę dłuższą, czyli banki, ubezpieczenia itd., tego mainframe'a sporo w sobie mają. Natomiast giełda jest giełdą nie ten i rzeczywiście IBM bardzo mocno tym kawałkiem oberwał. Będąc pod uwagę, że ogóle cała giełda amerykańska ostatnio mocno obrywa. To mamy takie śmieszne. Ale rzeczywiście ten ruch, który podałaś IBMa jest niesamowity. To, że zatrudniają ludzi, nagle stwierdzili potrzebujemy ludzi młodych to chyba pierwszy taki... Może nie jaskółka, no niech będzie, pierwsza jaskółka. Rzeczywiście go zaczynają głośno mówić, a ja nie do końca zabierze nam praca. Dużo Moloch mówi, a ja nie zabierze nam."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "04:17",
+      "text": "Dokładnie i to mówią w ogóle też, tak zauważmy, że to mówią najróżniejsze statystyki. Też ostatnio sobie przeglądaliśmy wspólnie statystyki związane z tym przewidywaniem, które posady nie tylko w IT, ale w ogóle we wszystkich gałęziach przemysłu czy usług będą najbardziej narażone właśnie na to, żeby zostać zastąpione. przez AI, a po tych kilku latach, kiedy mamy bardzo intensywny rozwój, wychodzi na to, że póki co jest wręcz na odwrót."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "04:56",
+      "text": "Nie są. No dokładnie, tu jak gdyby rzeczywiście się zadziało. Ale bądźmy szczerzy, to jest ten mały news z tego tygodnia. w sensie to jest taki, bo potem nastąpiła dopiero duża bomba. Nie wiem, czy drogi słuchaczu wiesz, ale jak gdyby Claude jest pod wpływem Trumpa. Znaczy wróć, amerykańskiej administracji. Był w ogóle używany w amerykańskiej administracji. I co więcej, z tego co wiem, to niestety użycie Claude'a w aktualnym ataku było użyte, w sensie do planowania przez Pentagon. Ale Claude powiedział, że nie jest gotowy wspierać, chyba tak należałoby to powiedzieć, inwigilacji Amerykanów. I Trump po prostu oszalał."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "05:53",
+      "text": "że oszalał, może ciężko szaleńcowi powiedzieć, że oszalał, nie? Trudno albo poniesie się to wyjątkowo dobrze. No ale cóż, taka jest prawda, musimy sobie to szczerze powiedzieć. To jest w ogóle dla mnie niesamowite, że w dzisiejszych czasach na jednej platformie typu X jakby..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "06:00",
+      "text": "Cześć, właśnie chyba wylecieliśmy z YouTube'a, wiesz."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "06:21",
+      "text": "Platforma X steruje i giełdą w pewien sposób, i tym, co się w ogóle na świecie dzieje, bo wystarczy jeden tweet i wszystkie zasady gry mogą się zmienić. No i tutaj problem mamy taki, że nagle z jednej strony Claude czy Anthropic powiedział, że Claude potrafi w COBOLa, więc było tąpnięcie w IBMie, a zaraz, chwilę później Anthropic dostaje po głowie i jest oznaczony jako Supply Chain Risk, co umówmy się, jest dosyć poważną sprawą, patrząc na to, jak amerykańska gospodarka albo jak Ameryka podchodzi do tego typu \"łatek\", bo właśnie, Anthropic może."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "07:17",
+      "text": "To nie jest łatka, to nie jest łatka. To jest, wiesz, co powiedziałeś, to jest jak gdyby, w sensie to jest zrównanie Anthropica z chińskimi firmami. To znaczy nie możesz go wskazać w supply chainie, w ogóle nie możesz w ogóle gdziekolwiek tego Anthropica mieć. To jest w ogóle jak gdyby tragedia. Nie wiem jak to nazwać. W sensie z punktu widzenia firmy."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "07:20",
+      "text": "OK. No zgadza się, zgadza się i teraz myślę, że bardzo szybko, szczególnie osoby, które albo firmy, które współpracują jakkolwiek z innymi firmami, na przykład chociażby w kontekście IT – jeżeli mamy w IT wykorzystanie Claude Code, to nagle musimy bardzo szybciutko się z tego wycofać i usunąć tego Claude'a, nie? To jest przerażające."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "08:07",
+      "text": "Znaczy ja jestem ciekawy jak to się rozwinie, bo to na razie mówimy o jakichś dniach, ale rzeczywiście może być tak, że nagle Claude Code przestanie być tym najbardziej popularnym narzędziem, a z drugiej strony widziałem gdzieś tweeta, mam nadzieję, że uda się go znaleźć i podlinkować, że Katy Perry, czyli piosenkarka, jak gdyby na złość Trumpowi stwierdziła, że kupuje roczną subskrypcję właśnie Claude'a. Więc tu będzie jakaś... Z jednej strony myślę, że Claude dzięki temu zyskał bardzo dużo jak gdyby wsparcia, nie, jak gdyby z publiki i w ogóle takiej gratisowej reklamy, nie, bo bądźmy szczerzy. Piosenkarka, dość znana piosenkarka – możecie lubić, możecie nie lubić, ale jest to dość znana piosenkarka – za darmo jak gdyby po prostu mówi: wybieracie to narzędzie tylko i wyłącznie na złość Trumpowi. Ona to nawet mówi: po prostu kupiłam, nie ma tam żadnego przytyku, nic więcej. Ona po prostu mówi: kupiłam. To może nagle spowodować, że Claude pójdzie w gałąź, gdzie nikt się nie spodziewał. A z drugiej strony firmy, jak chociażby nasze, w sensie takie, które cokolwiek dostarczają do amerykańskiego rządu, nagle mogą powiedzieć: może jednak weźmiemy inne narzędzie dla świętego spokoju, nawet z takim założeniem."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "09:29",
+      "text": "No właśnie, no właśnie. No i tutaj już tak, żeby totalnie mieć pewność, że ten odcinek się nie pokaże, musimy powiedzieć o tym, że w międzyczasie oczywiście drugi wspaniały człowiek, czyli sam Altman, że tak powiem, klęknął delikatnie przed panem Trumpem i stwierdził, okej, OpenAI, żaden problem, możemy się dogadać. Wszystko możemy zrobić. To pokazuje bardzo dużo na temat tego, jakie zdanie o moralności ma ogóle sam Altman. Trzeba przyznać, że to jest człowiek, który jest bardzo shady."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "10:14",
+      "text": "Mi się bardzo podoba, znaczy bardzo ostatnio mi się jak gdyby kojarzy, to to jest bezsensowne skojarzenie, ale z informatyką, że OpenAI jest tak jak w Solidzie, to jest Open Closed Principle. Oni są otwarci na okazję, ale zamknięci na wszystko inne."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "10:26",
+      "text": "Ha ha! No, widać, widać, no..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "10:36",
+      "text": "No, słuchaj, na odcinek też już mamy załatwione dzisiaj. No dobra."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "10:42",
+      "text": "No, ale coś w tym może być. No i właśnie, no i tak już kończąc realnie, to całości nie pomaga sytuacja na Bliskim Wschodzie. No bo tam Anthropic ma kolejne problemy. Anthropic powiedzmy pośrednio, ale tak, ale z tego, co ostatnio dochodzą nas informacje, no to na Bliskim Wschodzie Iran zaczyna atakować mocno datacenter AWS-a, na którym stoi cała infrastruktura Anthropica."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "11:20",
+      "text": "Ja nie wiem, czy to jest atak na Amazona, przepraszam, na AWS. Amazona, AWS, wszystko jedno. Bo to jest atak po prostu na Zjednoczone Emiraty Arabskie. Na pewno żeście słyszeli, że coś takiego się dzieje i po prostu serwerownia dostała rykoszetem, co spowodowało, że Claude był niedostępny przez jakiś czas. Bo rzeczywiście ich... Jak widać ewidentnie, tam stali bardziej albo mniej, ale wystarczająco bardzo, żeby ich infrastruktura ucierpiała. Więc zaczynamy mieć po pierwsze kolejne, jak żeśmy gadali jakiś czas temu w ogóle o różnych dziwnych awariach i w sumie żeśmy chyba o wojnie wtedy w ogóle nie omawiali – w sensie żeśmy dyskutowali o tym, jak gdyby różne dziwne awarie – ale nagle to jest przykład awarii w chmurze będącej zupełnie... olbrzymiej serwerowni przez po prostu działania wojenne. Nagle się okazuje, że musisz móc przenieść swoją infrastrukturę po prostu ze względu na wojnę. Coś, czego chyba w ogóle nikt nie brał pod uwagę."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "12:30",
+      "text": "No właśnie, to nam po raz kolejny pokazuje jak infrastruktura w chmurze stoi na drewnianych nóżkach i w każdej chwili jak się okazuje może polec właśnie ze względu chociażby na takie rzeczy, bo czy to był atak realnie na datacenter, bo wcale bym szczerze mówiąc nie wykluczał takiej opcji, bo jednak może to być pewien strategiczny punkt, czy..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "12:55",
+      "text": "Jest."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "12:57",
+      "text": "No właśnie, czy dostali rykoszetem, to już w tej chwili nie ma żadnego znaczenia. Prawda jest taka, że się dzieje. I ja mam takie jedno ostateczne przemyślenie, tak żeby jakiś wniosek w ogóle z tego odcinka płynął, jeżeli w ogóle nie zostaniemy zablokowani. Ten tydzień nam idealnie pokazuje po pierwsze... Nie musimy aż tak bardzo się martwić o to, czy będziemy mieć pracę w przyszłości. Bardziej musimy się martwić o to, czy będziemy mieli spokój w naszym sąsiedztwie albo niekoniecznie w sąsiedztwie. No i druga sprawa jest taka, że wszystko na świecie i wszystko w technologii rozwija się tak szybko, że ciężko jest – i lepiej jest – nie przywiązywać się do konkretnych narzędzi, do konkretnych firm. I właśnie przy tej adopcji tego wszystkiego, co się dzieje w sztucznej inteligencji, musimy chyba mocno patrzeć na podstawy – na podstawy tego, jak to wszystko działa pod spodem, żeby rozumieć, a niekoniecznie być przyzwyczajonym do tego, że o, na przykład Claude Code ma taką funkcję, a inne narzędzie tej funkcji nie ma, albo ma, ale inaczej troszeczkę działa."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "14:23",
+      "text": "Po pierwsze, zwrócicie uwagę, że powiedział to Kajetan, nie ja. Kajetan, który zawsze chciał mieć jedno narzędzie. Natomiast rzeczywiście chyba jesteśmy całe szczęście na tak wczesnym etapie tych wszystkich narzędzi, że rzeczywiście ta zamiana nie powinna być bardzo bolesna. To jednak jest narzędzie, na szczęście, na samej górze. Jakby się nagle okazało, że trzeba kłaść kable inaczej albo serwery i dyski przewozić, to rzeczywiście bylibyśmy naprawdę w dużym problemie. Ale jeżeli to jest narzędzie, które jest na samej górze, to myślę, że to nie jest w tej chwili jeszcze aż taki duży ból. Jakbyś miał zamienić wszystkie swoje narzędzia na inne narzędzia, myślę, że szybciej by ci poszło, niż byś zwrócił uwagę. Przez parę dni byś w tej chwili ponarzekał i tyle. Natomiast to powoduje skutki – widzimy, że geopolityka strasznie na nasz mały światek IT po prostu wpływa. I co jest w sumie przerażające, jak o tym pomyślimy, to mówiąc szczerze, nigdy w życiu bym się nie spodziewał, że decyzje geopolityczne... No i możemy jeszcze o jednej rzeczy powiedzieć, bo jak już jesteśmy przy tym i mówiliśmy o tym, że IBM zatrudnia Gen Z, to jest jeszcze taka firma, nazywa się Block i ona ostatnio ogłosiła na Twitterze, że zwalniają. Oni po prostu redukują, co poszło niby jako „ze względu na AI”, że to niby jest ich... no, fajnie, bo oni chyba głównie używają Claude'a, więc zaraz się okaże, czy rzeczywiście mają co używać. Ale tutaj jak już ktoś zrobił analizę, to nagle się okazało, że Jack Dorsey, który jest CEO tej firmy, nagle wielokrotnie napisał, że trochę przesadził ze strukturą zatrudnienia, że tam jest za dużo ludzi. I tak naprawdę nagle się okazuje, że to całe „AI AI” i w ogóle, ale powody zwolnień są zupełnie inne. Ale znowu – tu mamy odwrotny trend rynkowy na giełdzie. Giełda usłyszała AI, Twitter zobaczył AI i giełda od razu, że to jest świetny ruch. A to, że pod spodem było coś zupełnie innego – bo miał po prostu, jak rozumiem, przerost zatrudnienia – to się okazuje w zupełnie innym miejscu."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "16:55",
+      "text": "No właśnie, to jest przerażające. Pewnie zawsze tak działało, ale w tym momencie widać to zdecydowanie bardziej niż kiedyś. Właśnie to, co powiedziałeś, że polityka mocno wpływa na wiele gałęzi. A druga sprawa – to, jaką narrację przedstawimy, to jedno, a powody to zupełnie co innego. I akurat człowiek taki jak Jack Dorsey wie, w jaki sposób powinien prowadzić swoją firmę i wie, co robić, żeby firma przynosiła jak największe pieniądze. Myślę, że to nie był przypadek. To był bardzo dobrze przemyślany ruch strategiczny, który pozwoli mu zarobić i zachować w swojej kieszeni jeszcze więcej pieniędzy."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "17:50",
+      "text": "No dobrze, to moja konkluzja jest taka: chyba pomimo wszelkiego szumu nic się nie zmieniło, jesteśmy dokładnie w tym samym miejscu, gdzie byliśmy. Zachęcamy do podstaw. Nie powiedzieliśmy standardowo, że zachęcamy do kliknięcia subskrypcji, a pewnie wielu słuchaczy już tu nie ma, ale jakbyś jeszcze był, to kliknij. I widzimy się za tydzień."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "18:17",
+      "text": "Dokładnie tak. Dzięki i do zobaczenia."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "18:20",
+      "text": "Cześć."
+    }
+  ]
+}
