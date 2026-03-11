@@ -1,0 +1,174 @@
+{
+  "transcript": [
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:00",
+      "text": "Cześć Piotrek."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:01",
+      "text": "Cześć Kajtek."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:02",
+      "text": "Piotrek, co byś zrobił, gdyby twój asystent, oczywiście związany z AI-em, do kodowania, zamiast poprawić jakąś literówkę w kodzie na przykład, postanowił w ramach optymalizacji wyburzyć i od nowa postawić ci całą infrastrukturę na produkcji?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:17",
+      "text": "Obawiam się, że w dzisiejszych czasach zostało mi tylko jedno, spakować karton, napisać na LinkedInie OpenToWork i zapisać się na jakiś kurs innej roboty. Ale to tylko dlatego, że jest ciężko."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:33",
+      "text": "Bardzo możliwe, że tak by musiało być i bardzo możliwe, że ktoś ostatnio miał dokładnie tę sytuację i dokładnie to musiał zrobić, bo nie wiem czy słyszałeś, ale w Amazonie mieli ostatnio 13-godzinny pożar, no i pewnie ktoś musiał za to beknąć."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:50",
+      "text": "No tam ostatnio to w grudniu chyba było z tego co pamiętam. No dobra ostatnio."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:53",
+      "text": "No to jeszcze, wiesz, dla naszych czasów to jest jeszcze ostatnio. My pamiętamy takie, wiesz, ostatnio to jest przeciągu roku. No i okazuje się, że teraz po tym, co się wydarzyło, juniorzy w Amazonie mają zakaz wrzucania kodu, który był generowany z AI-em, bez nadzoru seniorów."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "01:18",
+      "text": "I to jest w ogóle jedna ze skrajności, która jest w tej chwili na branży. Po drugiej stronie mamy Spotify'a. I Spotify dla odmiany CEO Spotify'a powiedział, seniorzy mogą, nie chcę nazwać, że vibe-code'ować, bo to nie vibe-code'ować, ale ze slaka wrzucać rzeczy w drodze do pracy. I oni sobie zbudowali taki własny system, o Jezu, i teraz zapomniałem nazwy, chyba Hub, nie, coś takiego. I jak gdyby wiesz. To jest totalnie druga skrajność. A ja ci powiem więcej. pewnie kojarzysz takich chodzących konsultantów i ludzi na prezentacjach, którzy mówili Spotify Model is the best."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "02:02",
+      "text": "O, było tak. No, to prawda."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "02:04",
+      "text": "I zaraz będą znowu spece, którzy będą mówili Spotfire Model is the best i nie będzie innego wyjścia. A tu z drugiej strony masz skrajność AWSa, który mówi Zabraniam."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "02:21",
+      "text": "Chciałbym zobaczyć tak naprawdę, chciałbym zobaczyć realnie jak wygląda cały ten workflow, czy w Spotify, czy jak wyglądał w AWS, czy w Amazonie, bo to nie było w AWS chyba, to było w Amazonie, a może ja w AWS, nie, mniejsza. W każdym razie coś poszło nie tak w Amazonie, a w Spotify jeszcze nie poszło nie tak. bo domyślam się, że jest szansa. bo umówmy się jakby, okej, niech będzie, że Spotify Way jest najlepszy i oni mogą mieć to ogarnięte, ale przy tym, jak szybko w tym momencie potrafimy generować kod i jak szybko to się wszystko dzieje, to mam wrażenie, że w wielu sytuacjach to jest tylko kwestia czasu, kiedy coś walnie i... Pytanie, czy uda nam się to zatrzymać przed produkcją, czy niekoniecznie."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "03:21",
+      "text": "W sumie to jest fajne pytanie, bo może czasami nawet nie warto zatrzymać tego przed produkcją. Zabrzmi to, strzelę truizmem, ale najlepiej nadal testuje się na produkcji. sensie tłum rzeczy, których jednak nie możesz sprawdzić przed produkcją. Ja wiem, że to brzmi strasznie, nie róbcie tak, to co właśnie powiedziałem jest złe. ale znam wiele przypadków ze swojego życia, kiedy nie było innej opcji niż przetestowanie rzeczy na produkcji. Nie twierdzę,"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "03:53",
+      "text": "Znaczy ja się chyba znowu narażę paru osobom, ale patrząc na twój background i twoje CV i to, że w swoim CV masz jeden z największych polskich banków, który jest bardzo dobrze znany z tego, że zdarzało im się testować na produkcji, to te kropeczki mi się zaczynają łączyć."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "04:15",
+      "text": "A te błędy to mBank, cicho, to już dawno tam nie pracowałem Ale wiesz co to w ogóle jest śmieszne to dobra będzie side note nie? To w ogóle jest śmieszny side note bo zadałem pytanie znajomym i wszyscy mi powiedzieli my jako IT byliśmy kryci Jak gdyby to nie wjechało jako wiesz to nie wjechało jako błąd IT w ogóle"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "04:20",
+      "text": "No ale widzisz, ale vibe został jeszcze."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "04:40",
+      "text": "Ale jak gdyby wracając do tego co mówimy, żebyśmy nie spoczęli na starym mBanku za długo, to popatrz, że głównym problemem, który się pojawił, to nawet chyba nie chodzi o to, czy wdrażasz z tym AI-em, czy nie wdrażasz z tym AI-em, tylko jak pewnie jesteś przygotowany na wdrożenia. W sensie jak bardzo szybko, jak bardzo łatwo jesteś w stanie się cofnąć, jak bardzo łatwo jesteś w stanie przywrócić to środowisko jak szybko ogóle twój monitoring zadziała. W sensie te wszystkie rzeczy zaczynają mieć strasznie ważną część, a jeżeli chodzi o sam przegląd kodu, to powiem ci, ja się zajmuję tym ostatni tydzień, z różnych dziwnych względów rzeczywiście, zajmuję się napisaniem kawałka agenta, skilla, nazwijmy to jak chcemy, który będzie mi dobrze reviewował kod. W sensie ostatnio... przeglądam ilość PR-ów i poza tym, że mógłbym usiąść i przejrzeć to pisze kawałek skila, agenta, whatever, nazwijmy to skilem, który ma za zadanie przeglądać ten kod. I to tak naprawdę wcale nie jest takie łatwe. Poza tym, mój kontekst, ten markdown, który tam mam, naprawdę już jest długi, na co zwracać uwagę. Dodałem oczywiście świetną instrukcję, jest też principal. Coś tam deweloperem specjalizującym się we wszystkim a szczególnie w testach ponieważ sam nie lubię mokowania uważam, że mokowanie jest ostatecznością jest bardzo dobre ale wymaga świadomego użycia w związku z tym dołożyłem mu cały zestaw instrukcji jak żeby starało się minimalizować moki dołożyłem mu to żeby dodawał jak jest w PR-ze jest tylko test to żeby mu dodawał klasę jak jest tylko klasa to żeby dodawał test żeby po prostu miał cały kontekst i znajdował mi ilość tam rzeczy. Tam mu wypisałem jakiś przykład. Najbardziej typowym, który mu wpisałem jawnie jest to, że tam w kilku miejscach akurat się trafiło sprawdzanie czy to jest localhost na zasadzie porównywania URI do 127.0.0.1 localhost albo rzeczy zaczynających się od localhost. był w ogóle ten. Ale jest taka funkcja w dotnecie, która po prostu to sprawdza. Wbudowano. Zamiast tego pisać za każdym razem swojego. Na przykład to mu dałem jako przykład, weź sprawdzaj mi coś takiego. No tego naprawdę się robi dużo. To nie jest prosty skill, który ma tam jedną linijkę pod tytułem jesteś principal dotnet developer, bo akurat w dotnecie jest to pisany, ale to nie ma żadnego znaczenia. I tyle. Tam jest ileś przykładów, ileś rzeczy mi nie wychwycił, to musiałem dołożyć, ileś rzeczy mi pokazał takich, które mam takie... co są, to musiałem zrobić jak gdyby kolejną rzecz. i naprawdę siedzę codziennie i poprawiam. W sensie po prostu poprawiam mojego skilla, agenta do tego, żeby to robić w ogóle lepiej. Ale tu przyszła mi taka jedna myśl i mam do Ciebie bardzo proste pytanie. Proszę odpowiedzieć tak, nie, a potem możesz się tłumaczyć. Czy uważasz, że pull requesty są jeszcze do szczęścia potrzebne? Cisza."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "08:10",
+      "text": "Jeszcze tak."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "08:14",
+      "text": "To tak, wytnę to jeszcze."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "08:14",
+      "text": "Jeszcze! Spróbuj tylko. nie, uważam, jeszcze tak. Jeszcze dopóki mamy czynnik ludzki w kodzie, to tak. jest... Ja będę cały czas wracał do tej analogii z samochodami autonomicznymi, że największym zagrożeniem w przypadku... samochodów autonomicznych są kierowcy pozostałych samochodów. I tak samo największym zagrożeniem w generowanym kodzie jest czynnik ludzki. Właśnie to, że nie wszystko będzie generowane."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "08:56",
+      "text": "Dobra. Dobra, ale teraz poczekaj. sensie tak spójrzmy na flow. Jak gdyby spróbuję zgadnąć flow, nazwijmy to może nie pracowy, ale taki domowy. W sensie taki po godzinach. Tworzysz kod z użyciem asystentów. Potem nakładasz na niego skilla albo jakiegoś tula. Zaraz sobie możemy powiedzieć nawet jakiego. I robisz przejrzenie. Nie wiem, robisz już to ludzkie przejrzenie. No i teraz, czy potrzebny jest ten drugi człowiek, żeby to jeszcze przejrzeć? No bo pull request na ogół jest zespołowy, czyli powiedzmy jak we dwóch robimy z Kajetanem jakoś tam stronkę, to gdyby Kajetan sprawdza mnie, a ja sprawdzam Kajetana. Ale w tej chwili jest tak, że ja sprawdzam AI'a, potem Kajetan sprawdza czy ja dobrze sprawdziłem swojego AI'a."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "09:37",
+      "text": "No właśnie... No w pewien sposób tak, to prawda. To prawda. i właśnie, jeżeli przyjmujemy, jeżeli przyjmujemy, że wszystko zostanie wygenerowane, to i mamy przygotowany workflow, w którym mamy prawie że wspólnych agentów, że tak powiem, do kodowania i wspólne zasady spisane w agentach, którzy sprawdzają kod. to peer review nie jest absolutnie potrzebne. Natomiast jeżeli jest zagrożenie, że ktoś nie daj Boże maczał palce w tym kodzie, to cały workflow tak naprawdę jeszcze w tym momencie nam leży. Bo popatrz, mimo wszystko mamy taką sytuację też, że jak człowiek człowiekowi sprawdza kod."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "10:33",
+      "text": "No właśnie."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "10:56",
+      "text": "tak jak było do tej pory. To człowiek mógł źle napisać i człowiek mógł źle sprawdzić. A teraz masz agenta, który wygenerował ci kod i drugiego agenta, bardzo możliwe, że dokładnie na tym samym modelu opartego, który sprawdza ten kod. Czy to nie będzie powodowało tego, że będą popełniali dokładnie takie same błędy jak ci ludzie, którzy robili code review?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "11:24",
+      "text": "Wydaje mi się, że tak, ale w tym momencie zaczynam mieć wrażenie, że główną celem w tej chwili Code Review może się okazać, że nie jest de facto sprawdzenie kodu, pośrednio jest. Ale głównym celem jest poprawienie tych skili agentów, cegokolwiek, co tam nazwijmy to, automatyzacji, która ci ten kod poprawia. Możemy sobie powiedzieć szczerze, w sensie, takie rzeczy typu... taby, spacje, nazewnictwo i tak dalej to już od dawna jest ogarnięte. To się nazywa lintery, się nazywa jakieś reguły. Jest tłum, w różnych językach różne mamy zasady, ale to można ogarnąć. Editor config i w zasadzie Editor config załatwia Ci 90 % pod tytułem, czy się zgadza, składnia, czy pliki są dobrze podzielone, czy ładnie to wygląda, czy nie ma za długich linii. czy funkcja nazywała się zgodnie z konwencją i tak dalej i tak dalej i tak dalej i tak dalej. Więc to już też się działo u Ciebie, bo editor config na ogół się działo przed komitem. Część projektów widziałem w życiu, które w ogóle miały pre-commit hooki, pre-push hooki, które znowu wywoływały jakieś ilość walidacji takich bazowych, nawet sprawdzały czy kontrakty działają. W sensie czy są zgodne. z nowym updatem. wiem, więc to już wszystko istniało. Teraz, jak gdyby poszliśmy kawałek dalej, czy AI zrobił dobrą infrastrukturę, nie wiem jak to nazwać i nie skrzanił nic większego. I tu właśnie zaczynam mieć wrażenie, że pull requesty zaczyna być po to, żeby wychwytywać, że nasz AI się jeszcze pomylił albo tam nie sprawdził tego wystarczająco dobrze. Zakładam, że nie używasz tej samej instrukcji do generowania kodu i do sprawdzania, bo w sumie to po cholerę. Jak tak robisz drogi słuchaczu to słuchaj to napisz tu od razu od razu jak jeszcze tu dotarłeś to pamiętaj czerwony przycisk subskryb i w ogóle przypomniała mi się. Dałem w tym odcinku. To zapraszam w ogóle ogólnie do dyskusji bo to fajnie usłyszycie jak wygląda w różnych filmach bo jestem przekonany w tej chwili że wiesz że w ogóle mamy firmy na dwóch skrajnościach w tej chwili nie mamy firmy które jadą na Nie chcę tego nazwa, znaczy w Copilotcie ta komenda nazywa się YOLO, więc chyba zostanę z ją. Ale na pewnym zaufaniu, czyli budujesz dokładnie, budujesz tą strukturę, budujesz wszystkie elementy i po prostu jedziesz na jak największe automatyzacji. Mamy też firmy, które są na drugim totalnie skraju. To co ty powiedziałaś, człowiek w ogóle, tylko człowiek i człowiek jest najważniejsze. Może to nie są firmy, może to są zespoły. nie ten, ale ten jest jeszcze cała gama ludzi po środku, że np. masz ludzi, którzy już chcą jechać na pełnej automatyzacji, a masz jeszcze ludzi w zespole, którzy mówili o nie, nie. Craftowy kodzik, najlepszy kodzik, AI'owy kodzik, nie. Więc to jest w ogóle ciekawe. I tu wejdę w nowość, której żeśmy sobie gadali dzisiaj na czacie, czyli Claude Code chyba wczoraj albo przedwczoraj. drogi słuchaczu w tym tygodniu, o może to tak, wydał nowy feature, ja go jeszcze nie mogłem użyć, przyznam szczerze, bo spróbowałem, ale nie mogłem go jeszcze użyć, który nazywa się Code Review. Jest przepiękna dyskusja w ogóle, polecamy wejść na naszą stronę, kliknąć tą dyskusję, po to, żeby sobie ją przeczytać, Jak gdyby pierwszy link obiecuję, że będzie, którym ludzie dyskutują, bo Claude Code napisał w cenniku, że przejrzenie PR będzie kosztowało między 15 a 25 dolarów w zależności od codebase, bo to nie będzie takie jak ma na przykład GitHub, bo GitHub ma takie proste review czy nie wiem, CodeRabbit czy inne n narzędzi, które istnieje, tylko to będzie odpalenie wielu agentów, którzy mają bardzo dokładnie zobaczyć co się dzieje w prezydentwia strukturze. Znaleźć wycieki pamięci, znaleźć jakieś deadlocki, znaleźć ogóle wszystkie totalne rzeczy, które mogą pójść źle. I to ma po prostu zżerać to krany w takich hurtowych ilościach. No i teraz oczywiście ma się zastanowić, zresztą obaj żeśmy dzisiaj na czacie 25 dolarów, what? Mniej więcej tak wygląda Hacker News, ale podlinkuję jeszcze jednego tweeta jak go znajdę, gdzie jest przeliczane, bo zresztą możecie to zrobić sam, nie musicie czytać tweeta. Policzcie swoją pensję, policzcie ile dajecie radę przeżyć PR w dziennie. Przejmijmy że dwa, max trzy. Nie wiem jak ty Kajetan, ja więcej nie jestem w stanie. Jak mam jeszcze zrobić swoją robotę. sensie ten to dwa dziennie to nie ten. Przelić swoją stawkę godzinową 25 dolarów. Why not? O ile będzie oczywiście dobrze działało i znajdowało to co trzeba. Zakładam, że jak robisz PR pod tytułem jedna linijka w kodzie, to nie będzie kosztowało 25 dolarów, tylko będzie takie tęto, dopiero kiedy wygenerujesz AI-slopa kodu i dopiero puszczasz na to. No więc co ty na to?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "16:47",
+      "text": "No tak, no właśnie ja cały czas się biję z myślami, bo z jednej strony właśnie wspomniałeś Copilot'a na GitHubie, jego też można odpowiednio skustomizować. Tutaj nie wczytywałem się dokładnie jak to będzie działać, czy to będzie tak po prostu, że klikasz review i bez względu na to co masz w projekcie, w jakim języku i nie musisz się niczym przejmować, no to to by było ciekawe. Natomiast sam powiedziałeś na samym początku, że dla ciebie wygenerowanie instrukcji, która będzie zgodna z tym, w jaki sposób ustaliliście pewne rzeczy w projekcie i co on ma dokładnie sprawdzać i w jaki sposób on ma reagować na niektóre rzeczy w kodzie i co ma przepuszczać, a czego ma absolutnie nie przepuszczać, co ma oflagować, czego ma nie oflagować, albo samemu zmienić. Tego sobie nie wyobrażam, że po prostu sobie klikniesz review i on będzie wiedział dokładnie co ma sprawdzić. Więc boję się, że znowu pomimo tych 25 dolarów będziemy musieli siedzieć i jeszcze go poprawiać i jeszcze go tuningować. Więc nie dość, że wydamy 25 dolarów na każde review, to i tak będziemy siedzieć i sprawdzać jak go jeszcze można stuningować. bo przepuścił to, to, tamto czy owamto."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "18:15",
+      "text": "Myślę, że to jest... Zmiana podejścia, o tak bym ci to powiedział, bo te wszystkie narzędzia, które w tej chwili są na rynku, one są, powiedziałbym, że lekkie. W sensie to jest szybkie, lekkie i ten. A tu ci mówi, te 25 dolarów na chwilę jak gdyby machnijmy ręką. Jak gdyby ten będziesz szybko kalkulował czy się opłaca czy nie. Natomiast to ma trwać 20 minut. W sensie, że oni estimują, że to będzie na tym takim... w codebase chodziło o 20 minut, więc to będzie orało Twój projekt, przynajmniej tak zakładam, bardzo dokładnie. Czy to będzie korzystało z reguł? Jestem przekonany, że tak. Natomiast jak o tym pomyślisz, to fajne jest to, że Claude Code, który mówi, róbcie wszystko Claude Codem, daje Ci dodatkowe narzędzie, które będzie Ci kosztowało x, żeby sprawdzić wszystko to, co sam wygenerował. ale to jest taka. To jest zabawna pędza. Natomiast rzeczywiście myślę, że tuning będzie. Zobaczymy w ogóle jak będzie mi to, jak będzie mi to działało. Niestety z Claude Coden może to ma się inaczej, ale ja mam tak, że jak na ogół widzę ogłoszenie to przez parę dni to wiem, że jeszcze mogę sobie pomarzyć, żeby mi wszystko działało. Nim wersja spłynie, nim wszystko zadziała, nim Cloud będzie w ogóle działał to jeszcze parę dni. Więc myślę, że za tydzień, dwa tygodnie to zobaczymy jak to w ogóle. Jakie są oceny, jak inni to oceniają. Może my sami będziemy mieli okazję sprawdzić. I wtedy będzie ciekawa zabawa."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "19:56",
+      "text": "Tak jest, ale ja jeszcze tak kończąc i być może w formie też takiej zajawki na przyszłość, bo może się nad tym tematem jeszcze raz kiedyś pochylimy, zacząłem się zastanawiać, bo powiedziałeś o tym, że no właśnie, będzie to kosztowało, każdy pull request będzie, czy każdy code review będzie kosztowało około 25, 15, 25 dolarów. Mniejsza o to, ale ta cena jest związana z tym, ile tokenów będzie tam przepalanych. Będą to niewyobrażalne ilości tokenów na każdym Code Review. No i teraz na drugim biegunie mamy to, że jednak cały czas myślimy o tym, jak tych tokenów mniej przepalać, żeby nie używać MCP, tylko używać skili, żeby cashować te tokeny, żeby robić to, tamto i zaczyna się, wiesz, zaczyna się rozmowa o małych modelach. które będą działały lokalnie zamiast korzystać z LLM-ów. Mówi się o tym coraz więcej i jeszcze dodatkowo mamy newsy, na przykład mówią nam o tym, że OpenAI nie dostał finansowania w końcu na stworzenie swojego wielkiego data center. W związku z tym gdzieś zaczynają się problemy finansowe związane z infrastrukturą i właśnie z tą dostępnością, nazwijmy to tej mocy obliczeniowej, która będzie... która będzie wykorzystywana właśnie do takich czynności. Więc czy to jest na pewno taka droga, którą powinniśmy zrobić? Czy jednak może powinniśmy usiąść sobie na spokojnie, tuningować te nasze nawet trochę mniejsze prompty i trochę mniejsze skilly i trochę mniejszych agentów wyspecjalizowanych do naszego projektu, tune'ować ich przy każdym requestie i... i dbać o to, żeby one działały jak najlepiej w taki sposób mniej generyczny, a bardziej wyspecjalizowany do naszych potrzeb."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "22:02",
+      "text": "To ja mam super, ja mam chyba inne do tego podejście. sensie, jak gdyby raz na jakiś czas nie przeszkodzi mi, żeby LLM-em, tak jak nie przeszkodziło mi, żeby nazwijmy to, wchodził konsultant z zewnątrz do projektu wewnątrz firmy, na zewnątrz firmy, jak gdyby różnie to wyglądało i przeglądał to. Nie wchodził ktoś z zewnątrz. Ja trochę traktuję taki PR jako właśnie ktoś, kto przyjdzie. przemieli cały projekt zobaczy wszystkie rzeczy. Nie on się nie będzie skupiał właśnie na tym bo to jest zobaczymy jak będzie działo. Jeżeli rzeczywiście on będzie analizował tylko kod PR to to po pierwsze nie będzie kosztowało aż tyle bo nie wiem jak u Ciebie ale u mnie z reguły PR są małe i wszystkim Wam życzę do słuchaczy żeby wasze PR były małe bo jak PR są duże to znaczy że problem może być gdzie indziej i nic was nie uratuje nawet żadnego LLM. Natomiast jak te PR-y są małe to aż tyle nie będzie kosztować, bo on się będzie tylko skupiał na kontekście PR-a. Jak będzie się skupiał za każdym razem na kontekście całego projektu to znowu bez sensu. To po cholerę za to płacić za każdym razem. Jak dodajesz, nie wiem, przesuwasz przycisk w lewo albo w prawo, to litości. To już żeśmy sprawdzili performance, to już nie trzeba. czy tam nie wiem nawet dołożyliśmy nowy kolumnę do bazy danych. Jak gdyby no litości. sensie dopóki to w miarę trzymam sprawdzić, że są indeksy koniec. Jak gdyby koniec jak gdyby sprawdzamy. Więc zobaczymy po prostu chyba jak to będzie działało. Ja jestem bardzo ciekawy. W sensie jestem bardzo ciekawy, bo jak widać różne firmy mają zupełnie różne podreście. Bo poza tym, rzeczywiście bo popatrz jak wracając do początku naszej rozmowy. Z jednej strony tak naprawdę Amazon i Spotify mówią to samo. tym nazwijmy to gen kodowaniem, czyli naszym nie vibe kodowaniem, właśnie takim profesjonalnym podejściu do wytwarzania kodu za pomocą AI'a. W zasadzie te firmy mówią, oba, obie mówią, jezu, obie mówią to samo. Senior developerze. Nie junior, tylko senior. seniorzy tak mogą zrobić. Czyli ludzie, którzy i tak wiedzą jak dostarczać, czyli wiedzą co naprawdę chcą zrobić, umieją to zweryfikować. Myślę, że na tym się Amazon głównie przejechał. Na tym, że jakby pozwolił za bardzo podganiać juniorom za pomocą sztucznej inteligencji. Okazało się, że jak junior nie da odpowiedniego kontekstu, to i tak się wywalili. Takie code review ma szansę być kolejnym krokiem. Na pewno nie Ultimate Solution, na pewno nie Silver Bullet, ani niczym innym, nie, tylko takim kolejnym krokiem właśnie w próbie odciążenia tych seniorów, żeby ten senior nie tylko musiał spędzać czas na przeglądaniu kodu, bo w dzisiejszych czasach przy łatwości generowania kodu też seniorzy siedzą dużo i po prostu muszą czytać kod, nie? Tyle. Nie to cudzy kod, nawet nie własny, tylko po prostu cudzy, bo... Po prostu powstały bardzo duże funkcjonalności. No więc zobaczymy, nie? Jak ktoś powie, że za 25 dolarów za godzinę, tam za PR, tam jak gdyby można policzyć, ile tych 25 dolarów będzie, to może się okazać, że to wcale nie jest tak dużo. Z drugiej strony ludzie mogą znowu stracić pracę, no bo ilu tych seniorów by już potrzebował, jak za 25 dolarów, ja się zastanowię."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "25:40",
+      "text": "Tak jak chciałbym był cały czas, wracamy do tego, chciałbym, żeby jak najwięcej naszej pracy zostało zastąpione przez LLM-y czy przez sztuczną inteligencję, tak w przypadku akurat tego pomysłu muszę powiedzieć, że jestem raczej sceptyczny. Chciałbym się pomylić, ale jestem raczej sceptyczny. Co przyniesie przyszłość? Zobaczymy."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "26:01",
+      "text": "To ja głosuję za tym, że to będzie dobry krok, Ty głosujesz, że przeciwko sprawdzenie w czerwcu."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "26:10",
+      "text": "Ustawiaj przypomnienie i zobaczymy."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "26:12",
+      "text": "Dobra."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "26:14",
+      "text": "No dobra, no to tym miłym akcentem. Dziękujemy wam bardzo, jak zwykle, za to, że byliście z nami. Jeżeli się podobało, to jeszcze raz przypominamy, że łapki w górę. Zapraszamy na stronę betterdevclub.com.pl do zapisu na newsletter i do zobaczenia za tydzień."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "26:32",
+      "text": "Trzymajcie się, cześć!"
+    }
+  ]
+}
