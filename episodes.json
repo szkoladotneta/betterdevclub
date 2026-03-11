@@ -1,5 +1,61 @@
 [
   {
+    "id": 19,
+    "num": "19",
+    "notPublished": true,
+    "title": "Better Dev Club #19 - Amazon płonie przez AI, Spotify koduje ze Slacka, a Claude robi PR za 25$/szt",
+    "date": "2026-03-11",
+    "duration": "",
+    "desc": "Z jednej strony pożar na produkcji i całkowity ban na AI w Amazonie, a z drugiej... pełen luz, wolność dla deweloperów i deployowanie kodu prosto ze Slacka w Spotify. Bierzemy na tapet to, jak skrajnie różnie giganci technologiczni podchodzą dzisiaj do inżynierii. Na deser odpalamy nowego agenta Claude Code. Czy AI, które w pełni autonomicznie puszcza Pull Requesty za (póki co) 25 dolarów od sztuki naprawi nam dowiezie nam system za ułamek ceny, czy to tylko kolejna zabawka, która wywróci nam CI/CD do góry nogami? Zobaczymy kto tak naprawdę płaci za ten hype. Wjeżdżamy!",
+    "tags": [
+      "#amazon",
+      "#spotify",
+      "#claude",
+      "#claudecode",
+      "#ai",
+      "#betterdevclub"
+    ],
+    "platforms": {
+      "youtube": "TODO",
+      "spotify": "TODO",
+      "apple": "TODO"
+    },
+    "resources": [
+      {
+        "type": "link",
+        "label": "Hacker News - Amazon holds engineering meeting following AI-related outages (ft.com)",
+        "url": "https://news.ycombinator.com/item?id=47319273",
+        "description": "Amazon wprowadza całkowity zakaz używania AI w swoich"
+      },
+      {
+        "type": "link",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1rp9dps/introducing_code_review_a_new_feature_for_claude",
+        "label": "Reddit - Introducing Code Review: A New Feature for Claude",
+        "description": "Claude's new feature allows AI to autonomously review code, potentially changing the workflow for developers."
+      },
+      {
+        "type": "link",
+        "url": "https://claude.com/blog/code-review",
+        "label": "Claude's Blog - Code Review",
+        "description": "Official announcement from Claude about the new Code Review feature, including pricing and capabilities."
+      },
+      {
+        "type": "link",
+        "url": "https://x.com/TukiFromKL/status/2031206015899689238",
+        "label": "Tweet z wyliczeniem o którym rozmawialiśmy",
+        "description": "Tweet przedstawiający wyliczenie kosztów dla nowych funkcji Claude Code."
+      },
+      {
+        "type": "link",
+        "url": "https://techcrunch.com/2026/02/12/spotify-says-its-best-developers-havent-written-a-line-of-code-since-december-thanks-to-ai/",
+        "label": "TechCrunch - Spotify says its best developers haven’t written a line of code since December thanks to AI",
+        "description": "Spotify's approach to AI has led to a significant shift in how their developers work, with many not writing code directly since December."
+      }
+    ],
+    "youtubeId": "TODO",
+    "guestKey": "piotrek"
+  },
+  {
     "id": 18,
     "num": "18",
     "title": "Better Dev Club #18 - Claude na wojnie: COBOL, Trump, Pentagon i giełda",
