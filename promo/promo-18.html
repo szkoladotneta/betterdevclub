@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Better Dev Club #18 - Wojna o AI i IBM pod ostrzałem</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --black: #000000;
+            --yellow: #f5d142;
+            --white: #ffffff;
+            --accent: #ff6b00;
+            --danger: #ff3e3e;
+            --aws-orange: #ff9900;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: #111;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Oswald', sans-serif;
+            overflow: hidden;
+        }
+
+        .container {
+            width: 1200px;
+            height: 630px;
+            display: flex;
+            position: relative;
+            background: var(--black);
+            border: 6px solid var(--white);
+            overflow: hidden;
+            box-sizing: border-box;
+        }
+
+        .container::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #000 0%, #111 100%);
+            z-index: 1;
+        }
+
+        .character {
+            position: absolute;
+            bottom: -50px;
+            width: 60%;
+            height: 100%;
+            z-index: 10;
+            background-image: url('poses-green.png');
+            background-size: contain;
+            background-position: center bottom;
+            background-repeat: no-repeat;
+            left: 50%;
+            transform: translateX(-50%);
+            opacity: 0.8;
+        }
+
+        .hook-header {
+            position: absolute;
+            top: 40px;
+            left: 50%;
+            transform: translateX(-50%) rotate(-1deg);
+            z-index: 100;
+            background: var(--danger);
+            color: var(--white);
+            padding: 15px 50px;
+            font-size: 55px;
+            font-weight: 900;
+            text-transform: uppercase;
+            box-shadow: 10px 10px 0px var(--black);
+            border: 4px solid var(--white);
+        }
+
+        .facts-container {
+            position: absolute;
+            top: 180px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 25px;
+            z-index: 100;
+        }
+
+        .fact-item {
+            background: var(--yellow);
+            color: var(--black);
+            padding: 12px 30px;
+            font-size: 32px;
+            font-weight: 900;
+            text-transform: uppercase;
+            box-shadow: 8px 8px 0 var(--black);
+            border: 3px solid var(--white);
+            transform: rotate(1deg);
+        }
+
+        .fact-item:nth-child(2n) {
+            background: var(--white);
+            transform: rotate(-1deg);
+        }
+
+        .fact-item:nth-child(3n) {
+            background: var(--accent);
+            color: var(--white);
+            transform: rotate(0.5deg);
+        }
+
+        .badge {
+            position: absolute;
+            bottom: 100px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 100;
+            background: var(--black);
+            color: var(--white);
+            padding: 10px 40px;
+            font-size: 24px;
+            font-weight: 900;
+            border: 2px solid var(--yellow);
+        }
+
+        .footer-cta {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: var(--black);
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 60px;
+            z-index: 200;
+            border-top: 6px solid var(--white);
+            box-sizing: border-box;
+        }
+
+        .cta-text {
+            font-size: 34px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .cta-text span {
+            background: var(--danger);
+            padding: 2px 12px;
+            color: #fff;
+            margin-left: 5px;
+        }
+
+        .platforms {
+            display: flex;
+            gap: 20px;
+        }
+
+        .platform-icon {
+            font-size: 35px;
+            background: white;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 12px;
+            box-shadow: 4px 4px 0px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="character"></div>
+        
+        <div class="hook-header">BOMBOWY TYDZIEŃ W AI!</div>
+
+        <div class="facts-container">
+            <div class="fact-item">IBM TRACI 13% WARTOŚCI PRZEZ CLAUDE'A</div>
+            <div class="fact-item">ANTHROPIC JAKO "RYZYKO DLA ŁAŃCUCHA DOSTAW"</div>
+            <div class="fact-item">ATAKI NA DATA CENTER AWS W EMIRATACH</div>
+            <div class="fact-item">SAM ALTMAN KLĘKA PRZED TRUMPEM</div>
+            <div class="fact-item">ZWRÓĆCIE UWAGĘ NA PODSTAWY – GEN Z COBOL</div>
+        </div>
+
+        <div class="badge">SŁUCHAJ BETTER DEV CLUB #18</div>
+
+        <div class="footer-cta">
+            <div class="cta-text">
+                NOWY ODCINEK: <span>LINK W KOMENTARZU 👇</span>
+            </div>
+            
+            <div class="platforms">
+                <div class="platform-icon" style="color: #FF0000;"><i class="fab fa-youtube"></i></div>
+                <div class="platform-icon" style="color: #1DB954;"><i class="fab fa-spotify"></i></div>
+                <div class="platform-icon" style="color: #A347FF;"><i class="fab fa-apple"></i></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
