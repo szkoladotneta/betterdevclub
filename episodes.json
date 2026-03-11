@@ -4,7 +4,7 @@
     "num": "19",
     "notPublished": true,
     "title": "Better Dev Club #19 - Amazon płonie przez AI, Spotify koduje ze Slacka, a Claude robi PR za 25$/szt",
-    "date": "2026-03-11",
+    "date": "2026-03-12",
     "duration": "",
     "desc": "Z jednej strony pożar na produkcji i całkowity ban na AI w Amazonie, a z drugiej... pełen luz, wolność dla deweloperów i deployowanie kodu prosto ze Slacka w Spotify. Bierzemy na tapet to, jak skrajnie różnie giganci technologiczni podchodzą dzisiaj do inżynierii. Na deser odpalamy nowego agenta Claude Code. Czy AI, które w pełni autonomicznie puszcza Pull Requesty za (póki co) 25 dolarów od sztuki naprawi nam dowiezie nam system za ułamek ceny, czy to tylko kolejna zabawka, która wywróci nam CI/CD do góry nogami? Zobaczymy kto tak naprawdę płaci za ten hype. Wjeżdżamy!",
     "tags": [
@@ -16,7 +16,7 @@
       "#betterdevclub"
     ],
     "platforms": {
-      "youtube": "TODO",
+      "youtube": "https://youtu.be/Wt1LuB56tx0",
       "spotify": "TODO",
       "apple": "TODO"
     },
@@ -52,7 +52,7 @@
         "description": "Spotify's approach to AI has led to a significant shift in how their developers work, with many not writing code directly since December."
       }
     ],
-    "youtubeId": "TODO",
+    "youtubeId": "Wt1LuB56tx0",
     "guestKey": "piotrek"
   },
   {

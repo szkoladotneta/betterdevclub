@@ -149,7 +149,7 @@
                     <div class="flex items-center gap-3 mb-2">
                         <span class="text-primary text-xs font-black uppercase tracking-widest">Odcinek 19</span>
                         <span class="text-slate-300 dark:text-slate-700 font-bold">•</span>
-                        <span class="text-slate-500 dark:text-slate-400 text-xs font-semibold">2026-03-11</span>
+                        <span class="text-slate-500 dark:text-slate-400 text-xs font-semibold">2026-03-12</span>
                     </div>
                     <h3 class="text-slate-900 dark:text-white text-2xl font-bold leading-tight group-hover:text-primary transition-colors cursor-pointer">Better Dev Club #19 - Amazon płonie przez AI, Spotify koduje ze Slacka, a Claude robi PR za 25$/szt</h3>
                     <p class="text-slate-500 dark:text-slate-400 text-base font-normal leading-relaxed mt-3 line-clamp-2">Z jednej strony pożar na produkcji i całkowity ban na AI w Amazonie, a z drugiej... pełen luz, wolność dla deweloperów i deployowanie kodu prosto ze Slacka w Spotify. Bierzemy na tapet to, jak skrajnie różnie giganci technologiczni podchodzą dzisiaj do inżynierii. Na deser odpalamy nowego agenta Claude Code. Czy AI, które w pełni autonomicznie puszcza Pull Requesty za (póki co) 25 dolarów od sztuki naprawi nam dowiezie nam system za ułamek ceny, czy to tylko kolejna zabawka, która wywróci nam CI/CD do góry nogami? Zobaczymy kto tak naprawdę płaci za ten hype. Wjeżdżamy!</p>
@@ -1334,7 +1334,7 @@
             const [loading, setLoading] = useState(true);
 
             useEffect(() => {
-                const version = "f26019b19f";
+                const version = "cc77b911bd";
                 Promise.all([
                     fetch(`/episodes.json?v=${version}`).then(res => res.json()),
                     fetch(`/speakers.json?v=${version}`).then(res => res.json())
