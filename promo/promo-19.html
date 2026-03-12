@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Better Dev Club #19 - Amazon vs Spotify i Claude Code</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --black: #000000;
+            --yellow: #f5d142;
+            --white: #ffffff;
+            --accent: #ff6b00;
+            --danger: #ff3e3e;
+            --aws-orange: #ff9900;
+            --spotify-green: #1DB954;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: #111;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Oswald', sans-serif;
+            overflow: hidden;
+        }
+
+        .container {
+            width: 1200px;
+            height: 630px;
+            display: flex;
+            position: relative;
+            background: var(--black);
+            border: 6px solid var(--white);
+            overflow: hidden;
+            box-sizing: border-box;
+        }
+
+        /* Split Background */
+        .bg-split {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            z-index: 1;
+        }
+
+        .bg-left {
+            width: 50%;
+            height: 100%;
+            background: radial-gradient(circle at center, #800000 0%, #200000 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .bg-left::before {
+            content: "🔥 🔥 🔥 🔥";
+            position: absolute;
+            bottom: 60px;
+            left: 0;
+            font-size: 100px;
+            opacity: 0.3;
+            filter: blur(4px);
+            width: 100%;
+            text-align: center;
+        }
+
+        .bg-right {
+            width: 50%;
+            height: 100%;
+            background: radial-gradient(circle at center, #004d00 0%, #001a00 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .bg-right::before {
+            content: "01001 10110 01101 11001 00100 \A 10101 01100 11100 00111 10010";
+            position: absolute;
+            top: 20%;
+            left: 10%;
+            font-family: monospace;
+            font-size: 40px;
+            color: var(--spotify-green);
+            opacity: 0.2;
+            font-weight: 900;
+            line-height: 1.5;
+            white-space: pre-wrap;
+        }
+
+        /* Character */
+        .character {
+            position: absolute;
+            bottom: -50px;
+            width: 85%;
+            height: 100%;
+            z-index: 10;
+            background-image: url('poses-green.png');
+            background-size: contain;
+            background-position: center bottom;
+            background-repeat: no-repeat;
+            left: 50%;
+            transform: translateX(-50%) scale(1.3);
+            transform-origin: 50% 100%;
+            opacity: 0.9;
+            filter: drop-shadow(0px 0px 20px rgba(0,0,0,0.8));
+        }
+
+        /* Floating Badge Elements */
+        .side-content {
+            position: absolute;
+            top: 50px;
+            width: 45%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            z-index: 100;
+        }
+
+        .side-left {
+            left: 10px;
+        }
+
+        .side-right {
+            right: 10px;
+        }
+
+        .side-title {
+            background: var(--black);
+            color: var(--white);
+            padding: 15px 30px;
+            font-size: 50px;
+            font-weight: 900;
+            text-transform: uppercase;
+            box-shadow: 8px 8px 0px rgba(0,0,0,0.8);
+            border: 4px solid var(--white);
+            margin-bottom: 20px;
+            white-space: nowrap;
+        }
+
+        .side-left .side-title {
+            color: var(--danger);
+            border-color: var(--danger);
+            transform: rotate(-3deg);
+        }
+
+        .side-right .side-title {
+            color: var(--spotify-green);
+            border-color: var(--spotify-green);
+            transform: rotate(3deg);
+        }
+
+        .icon-box {
+            font-size: 70px;
+            background: var(--white);
+            width: 120px;
+            height: 120px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+            box-shadow: 6px 6px 0px var(--black);
+        }
+
+        .icon-aws { color: var(--aws-orange); }
+        .icon-spotify { color: var(--spotify-green); background: var(--black); border: 2px solid var(--spotify-green); }
+
+        /* Main Hook Bottom */
+        .hook-bottom {
+            position: absolute;
+            bottom: 120px;
+            left: 50%;
+            transform: translateX(-50%) rotate(-1deg);
+            z-index: 100;
+            background: var(--yellow);
+            color: var(--black);
+            padding: 10px 50px;
+            font-size: 70px;
+            font-weight: 900;
+            text-transform: uppercase;
+            box-shadow: 12px 12px 0px var(--black);
+            border: 5px solid var(--black);
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            white-space: nowrap;
+        }
+
+        .badge-ep {
+            position: absolute;
+            bottom: 90px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 90;
+            background: var(--black);
+            color: var(--white);
+            padding: 5px 30px;
+            font-size: 20px;
+            font-weight: 900;
+            border: 2px solid var(--accent);
+        }
+
+        /* Footer */
+        .footer-cta {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: var(--black);
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 60px;
+            z-index: 200;
+            border-top: 6px solid var(--white);
+            box-sizing: border-box;
+        }
+
+        .cta-text {
+            font-size: 34px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .cta-text span {
+            background: var(--danger);
+            padding: 2px 12px;
+            color: #fff;
+            margin-left: 5px;
+        }
+
+        .platforms {
+            display: flex;
+            gap: 20px;
+        }
+
+        .platform-icon {
+            font-size: 35px;
+            background: white;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 12px;
+            box-shadow: 4px 4px 0px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Split Background: Amazon vs Spotify -->
+        <div class="bg-split">
+            <div class="bg-left"></div>
+            <div class="bg-right"></div>
+        </div>
+        
+        <!-- Poses Image (nasze zdjęcia) -->
+        <div class="character"></div>
+        
+        <!-- Left Side (Amazon / Ban) -->
+        <div class="side-content side-left">
+            <div class="side-title">BAN NA AI</div>
+            <div class="icon-box icon-aws"><i class="fab fa-aws"></i></div>
+        </div>
+
+        <!-- Right Side (Spotify / Chill) -->
+        <div class="side-content side-right">
+            <div class="side-title">PEŁEN LUZ</div>
+            <div class="icon-box icon-spotify"><i class="fab fa-spotify"></i></div>
+        </div>
+
+        <!-- Main Hook / Big Question -->
+        <div class="hook-bottom">
+            <span>PR ZA 25$?</span>
+            <img src="blob:https://lobehub.com/67212c8c-9a0b-4d40-87a3-d9817e46d3cd" alt="Claude" style="height: 60px; margin-bottom: 5px;">
+        </div>
+        
+        <div class="badge-ep">SŁUCHAJ BETTER DEV CLUB #19</div>
+
+        <!-- Bottom Banner / CTA -->
+        <div class="footer-cta">
+            <div class="cta-text">
+                NOWY ODCINEK: <span>LINK W KOMENTARZU 👇</span>
+            </div>
+            
+            <div class="platforms">
+                <div class="platform-icon" style="color: #FF0000;"><i class="fab fa-youtube"></i></div>
+                <div class="platform-icon" style="color: #1DB954;"><i class="fab fa-spotify"></i></div>
+                <div class="platform-icon" style="color: #A347FF;"><i class="fab fa-apple"></i></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

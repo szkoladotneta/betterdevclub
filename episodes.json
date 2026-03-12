@@ -2,7 +2,6 @@
   {
     "id": 19,
     "num": "19",
-    "notPublished": true,
     "title": "Better Dev Club #19 - Amazon płonie przez AI, Spotify koduje ze Slacka, a Claude robi PR za 25$/szt",
     "date": "2026-03-12",
     "duration": "",
@@ -17,8 +16,8 @@
     ],
     "platforms": {
       "youtube": "https://youtu.be/Wt1LuB56tx0",
-      "spotify": "TODO",
-      "apple": "TODO"
+      "spotify": "https://open.spotify.com/episode/5oAnxJCFgzI7mdq9LSGpNq",
+      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club-19-amazon-p%C5%82onie-przez-ai-spotify-koduje/id1848840540?i=1000754812257"
     },
     "resources": [
       {
