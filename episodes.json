@@ -1,10 +1,64 @@
 [
   {
+    "id": 20,
+    "num": "20",
+    "title": "Better Dev Club #20 - Nasz stack AI, czyli jak kodują staff engineers",
+    "date": "2026-03-19",
+    "duration": "29:00",
+    "desc": "Z jednej strony słyszymy, że AI zastąpi juniorów, a z drugiej ankiety krzyczą: to inżynierowie na poziomie Staff i Principal wyciskają z AI najwięcej! W tym odcinku wracamy na ziemię i zdradzamy nasz aktualny roboczy stack - to z czego korzystamy na co dzień. Tłumaczymy, dlaczego pomimo jesiennych zachwytów porzuciliśmy Gemini CLI i co sprawiło, że GitHub Copilot CLI wrócił do łask w świecie enterprise. Rozmawiamy o nowościach pokroju Copilot Cowork, mieszaniu modeli przez OpenCode (w tym najnowszego prosto z pieca Gemini 3.1 Pro) i zastanawiamy się jak ułożyć architekturę i zapanować nad stadem subagentów budując dobrą bazę wiedzy. Wjeżdżamy!",
+    "tags": [
+      "#ai",
+      "#githubcopilot",
+      "#copilotcli",
+      "#claude",
+      "#claudecode",
+      "#google",
+      "#microsoft",
+      "#openai",
+      "#gemini",
+      "#opencode",
+      "#staffengineer",
+      "#betterdevclub",
+      "#programowanie"
+    ],
+    "platforms": {
+      "youtube": "",
+      "spotify": "",
+      "apple": ""
+    },
+    "resources": [
+      {
+        "type": "link",
+        "url": "https://survey.stackoverflow.co/2025/",
+        "label": "Stack Overflow Developer Survey 2025",
+        "description": "Ankieta Stack Overflow do własnej oceny tego, kto korzysta z AI i jak bardzo."
+      },
+      {
+        "type": "link",
+        "url": "https://newsletter.pragmaticengineer.com/p/ai-tooling-2026",
+        "label": "The Pragmatic Engineer - AI Tooling 2026",
+        "description": "Ankieta od Gergely Orosza do własnej oceny tego, kto korzysta z AI i jak bardzo."
+      }
+    ],
+    "agenda": [
+      "00:00 - Kto najbardziej korzysta z AI? Spoiler: Nie juniorzy",
+      "02:21 - Od czego zaczynamy dzień? Kajetan o Copilot CLI",
+      "03:50 - Piotrek i OpenCode (oraz \"wyzwania\" trybu Enterprise)",
+      "09:48 - Ewolucja Copilota i dlaczego hejt się skończył",
+      "12:26 - Copilot Cowork, subagenci i uruchamianie modeli w tle",
+      "14:20 - Team Google? Dlaczego Piotrek wybiera Gemini 3.1 Pro i 3.0 Flash",
+      "16:05 - Co daje \"Presentation mode\"",
+      "21:29 - Jak organizujemy pracę z zespołem ludzi i agentów ",
+      "26:23 - Czy Claude Code się kończy?",
+      "27:43 - Koniec! Check-up i pytania do Was"
+    ]
+  },
+  {
     "id": 19,
     "num": "19",
     "title": "Better Dev Club #19 - Amazon płonie przez AI, Spotify koduje ze Slacka, a Claude robi PR za 25$/szt",
     "date": "2026-03-12",
-    "duration": "",
+    "duration": "26:34",
     "desc": "Z jednej strony pożar na produkcji i całkowity ban na AI w Amazonie, a z drugiej... pełen luz, wolność dla deweloperów i deployowanie kodu prosto ze Slacka w Spotify. Bierzemy na tapet to, jak skrajnie różnie giganci technologiczni podchodzą dzisiaj do inżynierii. Na deser odpalamy nowego agenta Claude Code. Czy AI, które w pełni autonomicznie puszcza Pull Requesty za (póki co) 25 dolarów od sztuki naprawi nam dowiezie nam system za ułamek ceny, czy to tylko kolejna zabawka, która wywróci nam CI/CD do góry nogami? Zobaczymy kto tak naprawdę płaci za ten hype. Wjeżdżamy!",
     "tags": [
       "#amazon",

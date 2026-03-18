@@ -1,0 +1,259 @@
+{
+  "transcript": [
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:00",
+      "text": "Cześć Kajtek!"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:01",
+      "text": "Cześć Piotrek!"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:03",
+      "text": "No dobra, słuchaj, teraz mamy taki czas, że wszyscy mówią, że AI zastąpi juniorów, że to w ogóle już się stało, w ogóle już jesteśmy po ptakach. Ale z drugiej strony, jak spojrzysz na np. ankietę Stack Overflow albo już w ogóle Georgii Orosza, czyli Pragmatik Inżyniera, to tam wynika coś zupełnie innego. Tam się okazuje, że najbardziej AI'em bawią się ludzie poziomu Staff i Principal."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:31",
+      "text": "OK, to ma jak najbardziej dużo sensu, tylko też mam wrażenie, że to jest troszeczkę na innym poziomie. Bo pewnie też kojarzysz ze swojej pracy, że twoją pracą oprócz tego, że robisz dużo slajdów i dużo prezentacji, jest właśnie rozkminianie. I oni mają czas na to, żeby rozkminiać. I oni nie wchodzą na tego czata GPT. albo jakiegoś copilota w Visual Studio Code i nie pytają, nie zadają pytań, tylko budują, budują. Mam wrażenie systemy, dzięki którym potem jak wchodzą w projekt, to idą sobie, wrzucają jednego propta typu masz tu repo, zrób mi refaktor tego modułu i idą na kawę."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "01:19",
+      "text": "No i rzeczywiście chyba tak jest, bo ja mam szczerze, że się ostatnio zmieniłem w pracę, jak gdyby trochę zmieniłem zespół. I rzeczywiście jest tak, że ja zacząłem dużo więcej robić. Robić. To znaczy odpalam sobie kilku agentów różnych tych i rzeczywiście powiedzmy, że robię. Bo to nie jest problem, że w tej chwili agent potrafi wypluć ci nie wiem, tysiąc linii kodu, czy nawet parę tysięcy linii kodu. To może nie jest już software craftsmanship. Znaczy nie wiem czy to jest jeszcze software Craftsmanship, bo to zacznę obycznie ten, ale to może dzisiaj rzeczywiście się zatrzymajmy i zobaczymy czego my nawzajem używamy. Nie to co huczy internet, tylko czego my tak naprawdę nawzajem używamy, no bo ankiety jedno, życie drugie, a tak naprawdę świat w ogóle wygląda inaczej. Więc zróbmy krok w tym. Pierwsze pytanie ode mnie do ciebie. Jak dzisiaj rano przyszedłeś do roboty, to co odpaliłeś?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "02:21",
+      "text": "CoPilota. Ja jestem tym cały czas tym dumnym, dumnym Microsoft MVP i trzymam się CoPilota. CoPilota CLI. To jest mój pierwszy, pierwszy wybór w tym momencie, jeśli chodzi o kodowanie."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "02:23",
+      "text": "Jakiego Copilota? A jesteś w stanie powiedzieć dlaczego?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "02:41",
+      "text": "Tak, jestem w stanie powiedzieć dlaczego. Po pierwsze dlatego, że mam go za darmo. To jest pierwsza sprawa."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "02:48",
+      "text": "Ale poczekaj czekaj czekaj na chwilę rozróżnię nie masz go za darmo dlatego że jesteś Microsoft MVP ale służbowo prawdopodobnie to wygląda trochę inaczej nie w sensie służbowo jak odpalasz to w pracę to prawdopodobnie nie odpalasz twoje prywatne licencje może się mylę."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "03:06",
+      "text": "Nie, masz rację. Służbowo odpalam też swoją licencję copilotową ze względu na to, że w firmie, z którą współpracuję, copilot jest też pierwszym wyborem. Mamy dostęp do wielu narzędzi, tych, które sobie wybierzemy, natomiast copilot pojawił się jako pierwszy. Ja go zarequestowałem od samego początku i... i faktycznie z niego korzystam. Z kilku najróżniejszych powodów, których zaraz jeszcze powiem, ale chciałbym też zapytać Ciebie, z czego Ty korzystasz, co jest Twoim takim pierwszym wyborem."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "03:50",
+      "text": "Moim pierwszym wyborem nie jest Copilot. To właśnie jest śmieszne, bo szczerze w tym tygodniu go odpaliłem za twoimi namowami i zaraz będziemy o tym dyskutować. Moim pierwszym wyborem jest OpenCode. Czyli coś co spina ileś narzędzi na raz. A pod spodem tak naprawdę używam licencji Copilota."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "03:56",
+      "text": "Ach ty zdrajca."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "04:18",
+      "text": "Ale przyznam szczerze, że w tym tygodniu, jak gdyby przez 2 namowy, jeszcze kilku osób innych namowy, stwierdziłem, że wrócę. Drogi słuchaczu jak pamiętasz, będzie może i link w tym miejscu, to dawno temu, żeśmy w ogóle się zachwycali obaj Gemini CLI. Jak gdyby ja rzeczywiście bardzo długo z niego korzystałem, po czym nagle z niego odszedłem. Przeszedłem przez Clauda, jak cały internet huczy Claude w ogóle super najlepszy. Uważam, że Jak gdyby Antropik nie wiem jak to zrobił. Chciałbym się od nich nauczyć marketingu ale jak gdyby przeszedłem ale w pracy nie mogłem go używać. sensie jak gdyby w pracy jedyne co mi pozostaje to używanie Claude'a przez AI Foundry i mówiąc szczerze nasz request się procesuje. Najzwyczajniej na świecie. Czyste problemy compliance'owe pewnie drogi słuchaczu Kajetan to wiem że ma takie same jak ja. Jak gdyby drogi słuchaczu pewnie też masz takie problemy. Jak nie masz to słuchaj zazdrościmy pełną gębą. Ale jak gdyby w środowisku enterprise wybranie narzędzia to nie jest 30 sekund jak w startupie tylko to jest po prostu jakiś proces który trzeba przejść. byłem bardzo nieszczęśliwy z Copilot CLI. Takie jakieś 3 2 miesiące temu coś takiego. Przed wersją na pewno przed wersją 1.0. Teraz jest chyba 1.6 1.7 1.07 na jakieś coś coś niskiego. Pewnie jak nas słuchacz usłuchacz to już jest pewnie więcej bo mi się zdążyło w ciągu dwóch dni zdążyć zmienić. Rzeczywiście Microsoft włożył tam pracę i tu pozdrawienia w ogóle dla mojego szefa bo mój szef powiedział podobno ludzie w Microsoft zaczęli używać Claude Code'a i chyba widać tego efekty. W sensie że nagle GitHub Copilot po prostu zyskał bardzo dużo."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "05:45",
+      "text": "Coś takiego, no?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "06:13",
+      "text": "To czego używam to chyba w tej chwili mix opencoda z Copilot CLI. Bardzo możliwe, że mi się to znowu zaraz zmieni. Znowu dodając, strasznie się zagadałem, Kajetan przepraszam, ale znowu dodając tak naprawdę dlaczego, bo mamy licencję, mamy podpisane tam umowy właśnie z Microsoftem i najłatwiej nam korzystać z kolejnych narzędzi po prostu z Microsoftu, a nie... Załatwiać kolejne narzędzia nie wiadomo skąd."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "06:45",
+      "text": "Tak, poza tym mam wrażenie, tak w ogóle abstrahując od użyteczności najróżniejszych narzędzi, to mam wrażenie, że Microsoft i licencje związane z Copilotem są najprostsze i są takie najbardziej transparentne. To znaczy, najłatwiej przekonać swój dział compliance do tego, że to będzie bezpieczne, bo oni faktycznie mają to i... Na stronie wszystko ładnie opisane i mają oddzielne strony, tam się chwalą najróżniejszymi certyfikatami i tak dalej. Ja szukałem tego dokładnie na stronach Antropica i tak łatwo nie było mi tego znaleźć, tak szczerze mówiąc."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "07:30",
+      "text": "Ja myślę trochę, że obaj jesteśmy, przepraszam, spaczeni. Jak mamy słuchających ludzi ze świata, które nie ma nic wspólnego z Microsoftem albo nie musi mieć, to myślę, że sytuacja jest trochę inna. Tutaj w sytuacji, jesteśmy ze świata Microsoftowego, więc mieliśmy Visual Studio, mamy coś tam, mamy Office, mamy Teams itd. To jest od razu łatwiejsze. Jak jesteś w świecie, w w ogóle nie jesteś spiętym z Microsoftem to nie wiem wcale czy to aż takie łatwe jest. Nie szedłbym w tak duże uproszczenie jak ty poszedłeś bo to wcale może się okazać, że jak jesteś w świecie Google'a, masz Google Workspace, Zooma, kodujesz w Java albo czymkolwiek innym to może się okazać, że jest trochę inna."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "08:16",
+      "text": "Nie! Ale mi chodzi w ogóle o łatwość znalezienia informacji prawnych związanych z tymi licencjami. Bo ja specjalnie robiłem research. W momencie, którym zaczynasz zupełnie od zera, nie masz żadnej licencji, zakładając, jesteś gdzieś tam, wyszedłeś dopiero z jakiejś jaskini i chcesz sobie kupić pierwszą licencję, tę enterprise'ową, to..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "08:31",
+      "text": "OK."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "08:45",
+      "text": "Dla mnie znalezienie po prostu informacji na temat tego, jak twoje dane są w ogóle przetwarzane przez LLM-y właśnie w tych poszczególnych narzędziach, w Copilot-cie było najprostsze. I dlatego też byłem przekonany, zresztą umówmy się, Copilot, wbrew pozorom, pomimo tego, był przez jakiś czas, mam wrażenie, nie wiem, czy to było tylko w mojej bańce internetowej, ale ogólnie. Copilot był dosyć długo, nazwijmy to, hejtowany. Był hejtowany, albo może nie tyle hejtowany, ale co był zpychany cały czas gdzieś tam na dalsze tory, bo wszyscy mówili, że no jak już musisz korzystać, no to ok, ale spróbuj przekonać swojego pracodawcę do Claude Code'a, do Gemini, czy do czegokolwiek innego, bo ten Copilot nie daje sobie rady. Ale jakby mimo wszystko, mimo tego, co się w internecie działo, to się mocno zmieniło."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "09:48",
+      "text": "Znaczy to się zmieniło. To się zmieniło. To się po prostu zmieniło w ostatnich miesiącach."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "09:54",
+      "text": "Tak, to się na pewno mocno zmieniło, ale Copilot nigdy nie spadł poniżej trzeciego miejsca z najczęściej wykorzystywanych narzędzi AI-owych. I dopiero niedawno, dopiero w zeszłym miesiącu..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "10:09",
+      "text": "Tu drogi słuchaczu, poczekaj tu drogi słuchaczu zachęcamy Cię do kliknięcia like, subskryb, komentarza, też słusznie ten i jest na pewno pod odcinkiem link do naszej strony tam umieścimy te aporty o których ogóle gadamy żebyście mogli sami ocenić tu jest ten miejsce na marketing więc mamy miejsce marketingu z głowy Ale właśnie też żebyście se spojrzeli na to, to rzeczywiście tak jest. To co Kajetan powiedział to nie jest to, że nagle dwóch panów sobie wymyśliło, tylko rzeczywiście ilość tych raportów, przecież one też mają wiarygodność jaką mają. Nie wiem lepiej, że udział w tym, ale rzeczywiście jest tak, że on jest wysoko. Ja myślę, że to też jest kwestia właśnie tego, że bardzo dużo film jest jednak spięta z tym środowiskiem Microsoftowym. Więc to było dość łatwe, bo jednak Github"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "10:43",
+      "text": "Oczywiście."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "10:58",
+      "text": "niby github github a tak naprawdę jeszcze pod spodem wiem że to dwie osobne firmy niezależne bla bla bla buzzword buzzword ale to rzeczywiście jakoś działa"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "11:10",
+      "text": "Tak, i działa zdecydowanie lepiej w ostatnich miesiącach i to jest w ogóle diametralna różnica jak działała wersja przed General Availability, czyli przed tą wersją 1.0, a jak działa w tej chwili. Bo fakt faktem, może trochę ja nie miałem aż tak dużych oczekiwań ze względu na to, że korzystałem do tej pory z Gemini CLI, a Gemini CLI jest naprawdę mocno okrojone. Nie ma albo... Ja nigdy nie dotarłem do tego, jaki sposób dobrze wykorzystać możliwości Gemini CLI i mam wrażenie, że w tym momencie Google znowu, jeśli chodzi o ten tooling, został przynajmniej w tym obszarze, oczywiście, żeby nie było w tym jednym obszarze, został delikatnie z tyłu. Za to Github ze swoim Copilotem poszli bardzo mocno do przodu. I w ogóle widać to... Copilotcie całym, w całym ekosystemie, nazwijmy to, możemy to tak nazwać, bo też w zeszłym tygodniu była premiera Copilot Cowork, które nawet się nie kryją, że to nawet nie jest inspiracja, tylko to jest w zasadzie klon, klot, współ... No współpraca, okej, niech tak będzie, niech tak będzie, ale..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "12:26",
+      "text": "To współpraca. To współpraca. Tak, bo właśnie o to chodzi, że to nie jest, powiedziałem, że to jest klon, tylko że to jest przy współpracy."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "12:36",
+      "text": "Prze współpracy. Nie do końca wiadomo jak ta współpraca wyglądała, czy po prostu wzięli i zrobili forka i zmienili nazwę z repo, czy jakoś inaczej. W każdym razie pojawił się Copilot Cowork. Ja cały czas staram się dostać do tego programu, w którym mógłbym z niego skorzystać, ale cały czas jeszcze nie dotarłem tak głęboko w Microsoft'cie, żeby ktoś mi dał tą licencję. Niestety, ale wygląda to naprawdę ciekawie. Ako Pilot CLI wygląda mega świetnie. Oprócz tego, że jest nasz ukochany tryb YOLO. Myślę, że obaj potwierdzimy, że to jest nasza zdecydowanie ulubiona komenda, kiedy tylko startujemy z jakąkolwiek pracą. Ale to w jaki sposób w tej chwili..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "13:25",
+      "text": "Zdaję tu jem."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "13:32",
+      "text": "można sobie ułożyć swoją pracę z subagentami. Jak Copilot jest w stanie sam na podstawie naszego prompta uruchomić w procesie backgroundowym, jakimś tle uruchomić subagentów kilku naraz, którzy pracują niezależnie od siebie i... główny proces cały czas obserwuje tych agentów w tle i analizuje, kiedy oni skończą i na podstawie ich skończonej roboty jest w stanie sprąptować kolejnego agenta, żeby podciągnął dalej pracę. No to jest coś wspaniałego. Oczywiście to nadal ma swoje problemy, ale działa to świetnie."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "14:20",
+      "text": "Ale zobacz, że to jest tak naprawdę właśnie w tych trzech. Dobraną trzech. Jak gdyby to jest w Cloudzie, nie oszukujmy się, to jest w Cloudzie, jest w Copalocie, jest w tym Open Codzie, bo może powiedzmy co to jest Open Code, bo chyba żeśmy ani o tym nie powiedzieli. Open Code to jest takie, jak gdyby jest open source'owe. sensie tam to jest po prostu czystym open source'em rozwijanym przez developerów. tam niestety jest coś tam pod spadami i oni promują jakieś modely nazwijmy to z jakiegoś providera ale rzeczywiście on się tam w miarę przerącza pomiędzy pomiędzy narzędziami. Rzeczywiście i była zresztą kiedyś w którymś odcinku żeśmy dyskutowali właśnie że była awantura że Claude powiedział że non abla nie idźcie z naszymi modelami nie zgadzamy się. Natomiast jak gdyby to ten tool jak gdyby znacząco się rozwija. I popatrz, co się dzieje, bo tego żaden z nas nie powiedział, żeśmy chwilę pachajtowałeś Gemini CLI, ale ja na przykład, jeżeli chodzi o modele, to ja w praktyce jestem Team Google, bo ja nawet, ja czym nie używam, to albo używam, w tej chwili, jak koduję ostatnie półtora tygodnia, to koduję głównie z Gemini 3.1 Pro. A jak potrzebuję... czegoś na nazwijmy to taniej, bo niestety jak patrzę, kopilot ma jedną wadę straszną dla mnie. On mi pokazuje ile już zużyłem tokenów, znaczy ile już moich tokenów w tym okresie rozliczeniowym zużyłem i on mi to niestety pokazuje w tej chwili, najnowsza wersja i to mnie boli, bo ja widzę, że ten procent nie... OK, to chyba to zrobię, bo to jest coś co..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "16:05",
+      "text": "Możesz to wyłączyć. To jest kolejny ukłon Copilota w moją stronę, nie wiem dlaczego, ale oprócz komendy YOLO jest komenda presentation mode. I presentation mode w razie gdybyś chciał Copilota CLI wykorzystać właśnie w trakcie jakiejś prezentacji, presentation mode ukrywa ci wykorzystanie tokenów w tym okresie rozliczeniowym."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "16:33",
+      "text": "Znaczy OK, jak gdyby nie ten, ale w sensie właśnie, jak gdyby ja się przełączam, wracając do tego, ja ponieważ to na razie widzę, nie przełączam się presentation mode jak pracuję, to rzeczywiście głównie używam w tej chwili modeli Google'a. sensie ja lubię modele Antropica, żeby nie było, ale w tej chwili jak gdyby na co dzień głównie najwygodniej mi się pracuje z modelami Google'a, między innymi dlatego, że Flash, który jest naprawdę całkiem, naprawdę bardzo fajnym modelem przy kodowaniu. Nie wiem jak... drogi słuchaczu jak masz jakieś opinie to zapraszamy ale Flash dla mnie z bardzo fajnym modelem dokodowania kosztuje 1,3. Jak mam tam ileś prostych rzeczy które chcę zrobić, zmienić, przemielić i tak dalej to ja po prostu z Flashem bardzo dobrze mi się pracuje, jest super. Jak potrzebuję coś bardziej zaawansowanego zobaczcie że przełączam na 3.1 Pro, który jest chyba nadal w preview ale mam dostępne więc jak gdyby spoko. I zasuwam i to w ogóle działa naprawdę fajnie. więcej, feature, który chyba rzeczywiście mnie przekonuje w tej chwili, mówiąc szczerze, że się przełączę zaraz z OpenCode'a bardziej na Copilot'a, to jest feature, że mogę się podłączyć z ID. W sensie, że mogę Visual Studio Code do niego, jak mam te ile rzeczy, które on mi mówi, że mi zmienił i każe mi to w terminalu przemielić, to mogę sobie odpalić po prostu Visual Studio Code'a i mieć po prostu połączenie. I to jest akurat feature, który mi bardzo bardzo leży. Szczególnie, gdy właśnie wyplułem 500 linii kodu z moimi agentami i coś muszę z tym fantem zrobić. Wiem o terminal fajny, ale jak zaczynam przeglądać ileś plików, co tam się zmieniło, to łatwiej mi się na to patrzy, nazwijmy to w okienku. Może jestem za młody albo za stary, zależy jak patrzę. Natomiast to niektóry jeszcze poruszę na chwilę Cloud Code, bo Cloud Code jest w tej chwili tym wzorem. tu nie ma w ogóle co ten, obaj z różnych powodów nie możemy, ja czekam żeby mógł w pracy używać, chociażby po to żeby porównać, bo teraz to o czym w tej chwili gadamy to jest porównywanie narzędzia nad modelami, to nie jest porównywanie modeli, to nawet nie jest porównywanie flowu pracy, bo ten flow pracy w tych narzędziach jest bardzo podobny. Natomiast może jeszcze o flow pracy za chwilę pogadamy bo to jest troszeczkę inna rozmowa. Zaczynamy porównywac co dane narzędzie może czyli w zasadzie jak się integruje nazwijmy to plug-iny, skille albo cokolwiek. Jakie są już włączone czyli np. wiem przeglądanie internetu albo wyszukiwanie rzeczy w dokumentacji albo np. nie wiem ja dużo używam azura to podłączenia do azura albo czy tam do Kubernetesa. albo cokolwiek takiego. To jest bardzo szybko, nawzajem się gonią. Nie wiem jak to nazwać. W sensie, jak gdyby coś się pojawi w jednym, to pojawia się w drugim. Ostatnio się pojawiło, że cały Wall-Me show miał o tym, że Cloud Code wprowadził świetną nową funkcjonalność, że można tasky szedulować. Ale jak już zacząłem czytać, bo to jest strasznie fajne, obieństwo swojego OpenClawa z CloudCode'a. Tylko potem doczytałem, że to działa po pierwsze max do 3 dni, no to już słabe. Tylko jak masz otwarte sesję terminalową, proszę mi, jeszcze jeden krok i tylko jak masz otwarte komputer. A jak pominiesz ten czas, to spada. A czym to się różni od Krona? No tak słabo."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "20:03",
+      "text": "i tylko jeśli masz otwartą sesję terminal."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "20:20",
+      "text": "Nie podoba mi się albo może inaczej nie podoba mi się na przykład w Copiloc zarządzanie sesjami. sensie jak mogę się przełączyć między sesjami. Bardzo mi ten mechanizm nie odpowiada. Dużo bardziej mi się podoba jak to jest w Claude Code i jak jest w Open Codzie bo tam mogę po prostu jawnie szybko się przełączyć między sesjami a tu muszę tak naprawdę zrobić całą całą dłuższą operację żeby szybko się przełączyć między sesjami. Więc jest ilość tych narzędzi, które one po prostu strasznie rotują. Zaraz się okaże, że w ogóle Google zaraz przyniesie coś nowego, na to liczę, tak zupełnie szczerze. I znowu się jakby pętla się przemieli, bo teraz jesteśmy w tym miejscu, że najlepszy jest X, a zaraz będzie ten następny. Każdy z nas może się wskazać X. Ale zatrzymam się na chwilę tutaj, bo to jest nadal praca jednego człowieka. To znaczy jak gdyby ty z tym pracujesz, a czy próbujesz pracować z zespołem albo czymś co nie jest, może czymś co wykracza poza sesję."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "21:29",
+      "text": "ale z zespołem agentów czy z zespołem swoim?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "21:30",
+      "text": "Nie, z zespołem ludzi. Teraz robisz te długie konwersacje, gdzieś tam jesteś, coś tam implementujesz i teraz nie pracujesz sam w zespole, tylko masz ileś osób w zespole. Albo nawet sam pracujesz nad czymś nie 15 minut, czy tam pół godziny, tylko że chcesz zbudować coś większego. Czy masz jakieś mechanizmy, których to zapisujesz? Najprostszym jest sesja. sesja w tym terminalu, tam chyba wszędzie nazywa się sesja, cała szczęście, w której jak gdyby ma zapisaną tą całą historię konwersacji. Używasz czegoś innego? Czego?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "22:13",
+      "text": "Markdown."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "22:14",
+      "text": "Jeszcze raz czego?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "22:16",
+      "text": "markdown"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "22:18",
+      "text": "A czy kojarzę coś takiego jak np. speckit?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "22:25",
+      "text": "No? No? Tak, przeglądałem się temu. Przyglądałem się temu, właśnie jest kwestia tego, że ja już mam jakiś przygotowany swój workflow i on na ten moment bardzo mi pasuje, bo faktycznie ja mam kilku agentów, którzy przygotowują odpowiednie elementy i mają też swoją bazę wiedzy. bazę wiedzy, której na podstawie jakiejś sesji wyciągamy, nazwijmy to wnioski i to sobie leci do bazy wiedzy i dzięki temu jesteśmy też w stanie ulepszać naszych agentów, ulepszać nasze skille, ulepszać nasze instrukcje, cokolwiek innego. I jednym z kroków moich agentów, właściwie pierwszym krokiem to jest planowanie. I właśnie na etapie planowania po pierwsze pobieram sobie jakieś instrukcje do zadania, które mam wykonać. Mój agent planowania planuje wszystkie kroki, które ma wykonać i zapisuje to do pliku. I to jest moja potem decyzja, czy to poleci do repo, czy od razu zostanie wykonane i cały przebieg zostanie zrobiony i potem na samym końcu zostanie... jakiś ślad gdzieś w repo też mimo wszystko, że coś takiego zostało zrobione, chociażby właśnie jako taki wpis do takiej bazy wiedzy. I to działa świetnie właśnie, bo to wszystko leci sobie do repo i wszyscy mają do tego dostęp bez względu na sesję, bez względu na wszystko. Tym bardziej, że ja za każdym razem, kiedy zaczynam nowe zadanie, jakiekolwiek zadanie, startuję z nową, świeżą sesją. Z nową, świeżą sesją właśnie po to między innymi, żeby wyczyścić sobie okno kontekstowe. I to dla mnie sprawdza się zdecydowanie najlepiej, bo mimo tego, że prawdopodobnie tych tokenów trochę więcej palę, ale nie przejmuję się tym aż tak bardzo ze względu na to, że pracuję w Copilot'cie, a tam liczą się requeste, a nie tokeny spalone. Więc to faktycznie działa bardzo dobrze."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "24:40",
+      "text": "spoko. Ja wątczo, ostatnio próbowałem właśnie trochę pracować z SPEDSKITem i OpenSpeciem. Wróciłem do tego, bo z SPEDSKITem próbowałem jakieś parę miesięcy temu, średnio mi poszło. No bo to właśnie to, co chyba napisałeś seręcznie, nie wiem jak to nazwać, że budujesz tą bazę wiedzy, jest właśnie tym mechanizmem, który jest, chyba jeszcze ciągle nie ma, o tak bym to powiedział. W sensie, że nie ma do końca standardu jak sobie budować dobrze tą bazę wiedzy."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "24:57",
+      "text": "Mhm."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "25:08",
+      "text": "żebyś właśnie mógł to przeznosić, nie? Bo właśnie o to mi chodzi, nie? Że ty skomitujesz, a w tym zadaniu weźmy ktoś inny z twojego zespołu, jak będzie ja, tak? I jakoś to kontynuujemy, nie? No tym rozwiązaniem są oczywiście te pliki Markdown, tylko kwestia jest tego, jak je ułożyć, żeby to było efektywne dla agentów, nie? Żebyśmy byli w stanie sobie to zbudować. No dobra. Chyba czas powoli na podsumowanie, tak? Jak gdyby stan na... marzec 2026, połowa marca 2026, może już prawie wiosna. To wygląda na to, że obaj się skłaniały, obaj żeśmy porzucili w Gemini CLI. Co jest zadziwiające, bo jeszcze na jesieni obaj byliśmy nim zachwyceni. Wygląda na to, że przestawiliśmy się najbardziej na Copilot'a. Pomimo to, że ja mówię, ja cały czas chciałbym służbowo po używać Claude'a. Na razie nie mogę, więc nie ten. Wygląda na to, że nadal jesteśmy tak sami jak większość ankietowanych, a przynajmniej trzymamy się w górce top 3 narzędzi. I to nie jest wcale takie złe."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "26:23",
+      "text": "Absolutnie, absolutnie. Natomiast jak już podsumowujemy, to ja się pokuszę odrobne przewidywanie. Pokuszę się odrobne przewidywanie związane właśnie z Claude Code'em, bo Clot Code jest w tej chwili, powiedzieliśmy to gdzieś tam w wielu rankingach jako top 1. I moim zdaniem on spadnie. Dlaczego? Bo inne narzędzia... Ja wiem. Ale ja wiem, ja wiem, mi chodzi tylko i wyłącznie o narzędzie. Tylko i wyłącznie o narzędzie, jakim jest Claude Code właśnie w wersji CLI'owej czy jakiejkolwiek innej. Claude Code ma jedną bardzo dużą wadę moim zdaniem. Dokładnie tą samą wadę, którą ma Gemini. Ma możliwość podłączenia modeli tylko jednej firmy. I to jest bardzo duże ograniczenie."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "27:23",
+      "text": "Tak, jest to ograniczenie, chyba, które rzeczywiście, że się zgadzam z tobą, że to jest ograniczenie, to jest ograniczenie, które rzeczywiście jest duże, nie? Ale zobaczymy, no. Na razie mówię, jesteśmy tutaj, nie? Gdzie będziemy za chwilę, to się ok..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "27:43",
+      "text": "Oczywiście. No to co, kolejny check up naszych narzędzi? Znowu za trzy miesiące zobaczymy po której stronie kołka jesteśmy. Dokładnie tak. A tymczasem drogi widzu, drogi słuchaczu, dziękujemy Ci bardzo jak zwykle, że byłeś tutaj z nami, o ile jeszcze z nami jesteś. Jeżeli masz chęć i zachęcamy Cię zdecydowanie do tego, żeby podzielić się z jakich narzędzi Ty korzystasz."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "27:46",
+      "text": "No dobra."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "28:08",
+      "text": "I dlaczego? Jaki jest twój workflow pracy właśnie z asystentami, z agentami? To zachęcamy cię, żebyś zostawił komentarz, szczególnie na YouTube, może to być oczywiście na Linkedinie, jeżeli znajdziesz nas, posty, gdziekolwiek, żebyśmy mogli się z tobą jakoś skontaktować. Będzie nam bardzo miło wejść z tobą w dyskusję. No do zobaczenia za tydzień."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "28:33",
+      "text": "To są moje cieszy. Cześć!"
+    }
+  ]
+}
