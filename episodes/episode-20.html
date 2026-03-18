@@ -3,15 +3,15 @@
 <head>
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    <title>BetterDevClub | Better Dev Club Weekly #3 - Cloudflare</title>
+    <title>BetterDevClub | Better Dev Club #20 - Nasz stack AI, czyli jak kodują staff engineers</title>
     
     <!-- SEO / Meta Tags -->
-    <meta name="description" content="Cloudflare padło, a Internet przypomniał nam, że jest tak stabilny jak polski system podatkowy. Analizujemy, dlaczego 18% ruchu sieciowego zależy od jednej firmy i co się dzieje, gdy jeden przepełniony plik logów wyłącza połowę świata. Rozmawiamy o kosztach awarii liczonej w miliardach dolarów i o tym, dlaczego multi-cloud to świetny pomysł, dopóki Twój CFO nie zobaczy faktury. Czy Black Friday in tym roku będzie przypominał apokalipsę, czy po prostu wrócimy do czytania książek przy świeczkach? „Niezależnie od tego jaki to dzień, kiedy nas oglądacie, jestem przekonany o tym, że dzisiaj padła jakaś usługa chmurowa”.">
+    <meta name="description" content="Z jednej strony słyszymy, że AI zastąpi juniorów, a z drugiej ankiety krzyczą: to inżynierowie na poziomie Staff i Principal wyciskają z AI najwięcej! W tym odcinku wracamy na ziemię i zdradzamy nasz aktualny roboczy stack - to z czego korzystamy na co dzień. Tłumaczymy, dlaczego pomimo jesiennych zachwytów porzuciliśmy Gemini CLI i co sprawiło, że GitHub Copilot CLI wrócił do łask w świecie enterprise. Rozmawiamy o nowościach pokroju Copilot Cowork, mieszaniu modeli przez OpenCode (w tym najnowszego prosto z pieca Gemini 3.1 Pro) i zastanawiamy się jak ułożyć architekturę i zapanować nad stadem subagentów budując dobrą bazę wiedzy. Wjeżdżamy!">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://betterdevclub.com/">
-    <meta property="og:title" content="Better Dev Club Weekly #3 - Cloudflare">
-    <meta property="og:description" content="Cloudflare padło, a Internet przypomniał nam, że jest tak stabilny jak polski system podatkowy. Analizujemy, dlaczego 18% ruchu sieciowego zależy od jednej firmy i co się dzieje, gdy jeden przepełniony plik logów wyłącza połowę świata. Rozmawiamy o kosztach awarii liczonej w miliardach dolarów i o tym, dlaczego multi-cloud to świetny pomysł, dopóki Twój CFO nie zobaczy faktury. Czy Black Friday in tym roku będzie przypominał apokalipsę, czy po prostu wrócimy do czytania książek przy świeczkach? „Niezależnie od tego jaki to dzień, kiedy nas oglądacie, jestem przekonany o tym, że dzisiaj padła jakaś usługa chmurowa”.">
-    <meta property="og:image" content="https://i.ytimg.com/vi/G9ic7gK3nnU/maxresdefault.jpg">
+    <meta property="og:title" content="Better Dev Club #20 - Nasz stack AI, czyli jak kodują staff engineers">
+    <meta property="og:description" content="Z jednej strony słyszymy, że AI zastąpi juniorów, a z drugiej ankiety krzyczą: to inżynierowie na poziomie Staff i Principal wyciskają z AI najwięcej! W tym odcinku wracamy na ziemię i zdradzamy nasz aktualny roboczy stack - to z czego korzystamy na co dzień. Tłumaczymy, dlaczego pomimo jesiennych zachwytów porzuciliśmy Gemini CLI i co sprawiło, że GitHub Copilot CLI wrócił do łask w świecie enterprise. Rozmawiamy o nowościach pokroju Copilot Cowork, mieszaniu modeli przez OpenCode (w tym najnowszego prosto z pieca Gemini 3.1 Pro) i zastanawiamy się jak ułożyć architekturę i zapanować nad stadem subagentów budując dobrą bazę wiedzy. Wjeżdżamy!">
+    
     <link rel="shortcut icon" href="../img/favicon-32x32.png" type="image/png">
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Noto+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
@@ -129,17 +129,17 @@
             document.head.appendChild(script);
         }
     </script>
-    <script>window.INITIAL_ROUTE = "/episodes/episode-3";</script>
+    <script>window.INITIAL_ROUTE = "/episodes/episode-20";</script>
 </head>
 <body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100">
     <div id="root"><div class="max-w-[960px] mx-auto px-4 py-10">
             <div class="mb-8">
-                <p class="text-primary font-bold text-sm tracking-wider uppercase mb-2">Odcinek #3</p>
-                <h1 class="text-[#0d171b] dark:text-white text-4xl font-black">Better Dev Club Weekly #3 - Cloudflare</h1>
-                <p class="text-slate-500 mt-2">2025-11-20 • 20:07</p>
+                <p class="text-primary font-bold text-sm tracking-wider uppercase mb-2">Odcinek #20</p>
+                <h1 class="text-[#0d171b] dark:text-white text-4xl font-black">Better Dev Club #20 - Nasz stack AI, czyli jak kodują staff engineers</h1>
+                <p class="text-slate-500 mt-2">2026-03-19 • 29:00</p>
             </div>
             <div class="prose prose-slate dark:prose-invert max-w-none text-slate-600 dark:text-slate-300 leading-relaxed mb-12">
-                <p>Cloudflare padło, a Internet przypomniał nam, że jest tak stabilny jak polski system podatkowy. Analizujemy, dlaczego 18% ruchu sieciowego zależy od jednej firmy i co się dzieje, gdy jeden przepełniony plik logów wyłącza połowę świata. Rozmawiamy o kosztach awarii liczonej w miliardach dolarów i o tym, dlaczego multi-cloud to świetny pomysł, dopóki Twój CFO nie zobaczy faktury. Czy Black Friday in tym roku będzie przypominał apokalipsę, czy po prostu wrócimy do czytania książek przy świeczkach? „Niezależnie od tego jaki to dzień, kiedy nas oglądacie, jestem przekonany o tym, że dzisiaj padła jakaś usługa chmurowa”.</p>
+                <p>Z jednej strony słyszymy, że AI zastąpi juniorów, a z drugiej ankiety krzyczą: to inżynierowie na poziomie Staff i Principal wyciskają z AI najwięcej! W tym odcinku wracamy na ziemię i zdradzamy nasz aktualny roboczy stack - to z czego korzystamy na co dzień. Tłumaczymy, dlaczego pomimo jesiennych zachwytów porzuciliśmy Gemini CLI i co sprawiło, że GitHub Copilot CLI wrócił do łask w świecie enterprise. Rozmawiamy o nowościach pokroju Copilot Cowork, mieszaniu modeli przez OpenCode (w tym najnowszego prosto z pieca Gemini 3.1 Pro) i zastanawiamy się jak ułożyć architekturę i zapanować nad stadem subagentów budując dobrą bazę wiedzy. Wjeżdżamy!</p>
             </div>
         </div></div>
 
