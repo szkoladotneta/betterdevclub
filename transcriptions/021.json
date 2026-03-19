@@ -1,0 +1,584 @@
+{
+  "transcript": [
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:00",
+      "text": "Cześć Piotrek!"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:01",
+      "text": "Cześć Kajtek, dzisiaj odcinek specjalny bo mamy naszego drugiego gościa. Tym razem postanowiliśmy pokazać troszeczkę inną perspektywę i zaprosiliśmy bezpiecznika. Z nami jest Wojtek Lesicki, chociaż nie wiem czy bezpiecznik to dobre określenie, ale bezpiecznik, no jak gdyby tak zawsze się mówiło. Ja Wojtka znam z Allegro, staliśmy wtedy, ja się zawsze śmiałem, że po dwóch różnych stronach barykady, to znaczy ja chciałem, a Wojtek mnie powstrzymywał, bardzo często słusznie. Natomiast ta współpraca polegała na tym, żebyśmy doprowadzili system do bezpiecznego stanu. Więc 30 sekund dla Ciebie, żebyś powiedział dwa słowa o sobie i żeby widzowie mieli szansę Cię poznać. Naprawdę dobry bezpiecznik polecam."
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "00:49",
+      "text": "Cześć Kajetan, cześć Piotrek. Dzięki za zaproszenie, dzięki za przedstawienie. Tak nazywam się Wojciech Lesicki, preferuję tą formę niż Wojciech. I tak pracowałem w Allegro, byłem tam szefem części Zespołu Bezpieczeństwa, głównie skupionym właśnie na bezpieczeństwie aplikacyjnym. Później w GSK byłem senior incident responderem i walczyłem z różnymi rodzajami incidentami bezpieczeństwa, a teraz... Jestem w Standard Charter Bank i tam pracuję jako lead w zespole Threat Assessment and Countermeasure, czyli patrzę na to, co się dzieje w threat landscape, co threat actors i inni przestępcy używają, jak chcą zaatakować różnego rodzaju organizacje i staram się spojrzeć, co można z tym zrobić, jak to można zatrzymać, jak to można wykryć. Lubię pracować z ludźmi, także z tymi po drugiej stronie barykady, tak jak Piotrek ujął, chociaż ja tak o nich nie mówiłem, ja mówię o swoich... kolegach, przyjacielach, z którymi po prostu współpracujemy, a czasem mamy troszeczkę inne zdanie. Więc tak najczęściej mówię. I w tych 30 sekundach, które oczywiście już dawno przekroczyłem, chciałem tylko jeszcze wspomnieć taki disclaimer, tak czasem mamy wśród bezpieczników, że cokolwiek teraz będę mówił czy już mówiłem, nie przedstawia jakby stanowiska żadnego z moich byłych, aktualnych, pewnie przyszłych pracodawców. Po prostu jestem to jako osoba prywatna, nie przedstawić żadnej organizacji."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "02:16",
+      "text": "To jest w ogóle ciekawe to co powiedziałeś. Nie bardzo dobrze, że to powiedziałeś faktycznie, żebyśmy mogli sobie swobodnie porozmawiać, ale mam takie dziwne wyrażenie, że właśnie często się mówi i to taki będzie trochę side note, często się mówi o tym jaką deweloperzy mają na sobie teoretycznie odpowiedzialność, bo jak coś się zadzieje w kodzie, to muszą za tą, to muszą tą odpowiedzialność wziąć, a tak naprawdę właśnie tutaj po tej nazwijmy to drugiej stronie barykady"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "02:16",
+      "text": "Bardzo dobrze."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "02:44",
+      "text": "jest dużo większa odpowiedzialność. Takie mam wrażenie, tak zawsze odczuwam. Nie wiem czy słusznie, twoje słowa mogą to w pewien sposób potwierdzać, to jest praca, czy to bezpiecznika, czy osób też w Quality Assurance, które mają tej odpowiedzialności, które ewentualne fakapy patrzy się dużo. dużo głębiej niż na błędy programistów. Czy też masz takie wrażenie?"
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "03:22",
+      "text": "Wiesz co, to zawsze zależy od tego, co robisz, że tak powiem, bo potrafię sobie wyobrazić jakąś taką duży fakap, w którym wychodzi zespoł bezpieczeństwa na zasadzie, że czegoś zabronił, jest duży sprzeciw co do tego, to nie było odpowiednio wcześniej uprzedzone, nikt nie pomyślał, że trzeba iść do deweloperów i o czym uprzedzić. I potrafię sobie wyobrazić, że to będzie powodowało pewne napięcia i... Natomiast jak bardzo to się różni od osoby, źle użyła NPM-a i zaciągnęła jakąś totalnie lewą paczkę i też wpłynęło strasznie na produkcję. Tak jak mówiłem, bardzo lubię obserwować to, co się dzieje, co używają nasi przeciwnicy przestępcy i tych ataków na właśnie deweloperów jest bardzo sporo teraz. Szczególnie jeżeli cokolwiek ci deweloperzy robią w tematach krypto... i tym podobnym digital asset, no to tych ataków jest naprawdę sporo. Nie jestem pewien, czy odpowiedziałam na twoje pytanie, ale tak wydaje mi się, taką mam refleksję. Wydaje mi się, że każdy ma nas bardzo różne granice odpowiedzialności i każdy z nas może zrobić takie błędy, że będzie niefajnie."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "04:29",
+      "text": "Gotów! No to w sumie to już taka rzecz, bo powiedzmy, że częściowo zawsze wiedziałem po co, ale może warto to głośno powiedzieć. Bo to co powiedziałeś, na przykład deweloper zaciągnie złą paczkę npm-ową albo cokolwiek w tym stylu. No i bardzo często w dużych firmach, nawet też w średnich firmach, zaczyna się robić tak, że wiesz, wciągnięcie paczki to jest problem. W sensie, jest... Jesteś w stanie powiedzieć dlaczego..."
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "05:09",
+      "text": "do czegoś wartościowe."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "05:10",
+      "text": "W sensie, że mamy te proxy, że nie ciągnę bezpośrednio z NPM, z Nugeta, Mavena albo czegokolwiek takiego, tylko na przykład jest jakaś."
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "05:15",
+      "text": "Hmm hmm hmm hmm. To wydańczy na repozytorium, dodatkowo ma jakieś skanery itp. Wydaje mi się, że to powinno chronić przed błędami, które robisz na szybko albo przy których ktoś wykorzystuje twoje rozkojarzenie. Na przykład część z ataków na developerów związanych z krypto jest związana z tym, że wysyłają jakieś np. oferty pracy i próbują kogoś zainteresować dodatkową robotą, dodatkową pracą itp."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "05:21",
+      "text": "Tak."
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "05:46",
+      "text": "Człowiek na przykład chce zarobić trochę więcej i nie spojrzy skąd coś ściąga. Czy są teraz różnego rodzaju typosquattingi na zasadzie, że wydaje ci się, że pobierasz dobrą paczkę, gdzieś się tam coś omyksnęło i pobierzesz coś innego. Więc wydaje mi się, że zamiast gonić za ludźmi i mówić, że boże, co ty zrobiłeś albo nie, może cię czegoś ściągać, to musimy im dostarczać więcej narzędzi, które im pomagają się chronić. Tak samo czasem się mówi, o klikaniu linków z maili phishingowych. Później są szkolenia, które mówią nie klikaj w złe linki, pamiętaj, że rozpoznawaj, analizuj linki. Oczywiście to ma swoją wartość, ludzie powinni uważać, co robią, ale też powinniśmy im dostarczać narzędzia, że nawet jak przypadkowo kliknął na ten link, to jest ileś mechanizmów, które spróbują wychwycić, że coś tam było małe. W moim zdaniem ta współpraca z developerami powinna polegać zarówno na dostarczaniu wiedzy, takiego kontekstu. Wiesz, jak robisz to, pamiętaj o tym i tamtym, ale z drugiej strony to jest dostarczanie narzędzi, nawet jeżeli się zdarzy jakiś błąd, to żeby można uchronić organizację przed konsekwencjami tego błędu."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "06:57",
+      "text": "I super, myślę że fajnie to usłyszeć. Ja powiedzmy, że mam dość podobne zdanie, chociaż czasami myślę sobie o matko, albo jeszcze gorsze słowa, kiedy muszę."
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "07:05",
+      "text": "Co oni znowu wymyślili?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "07:09",
+      "text": "załatwić jedną paczkę ale tak jest prawda. Zacznęcie czegoś mało wrażliwego do firmy szczególnie do korporacyjnej sieci to trochę bez sensu. Czasem trzeba żyć."
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "07:22",
+      "text": "No to jasne."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "07:26",
+      "text": "Dobra, mamy do Ciebie jeszcze jedno pytanie, bo jesteś jedną z tych osób, które zrezygnowały z bycia menadżerem. sensie, jak gdyby byłeś na ścieżce menadżerskiej, miałeś z tego co pamiętam nawet całkiem spory ten zespół, a zdecydowałeś się wrócić do tej roli handzona, nie wiem jak to nazwać, sensie, contributor."
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "07:36",
+      "text": "Mhm. I dlaczego? Czy coś więcej o tym?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "07:54",
+      "text": "Tak i dlaczego, co to było spowodowało. Ja mogę powiedzieć co mało kiedyś spowodowało jak zrobiłem ten ruch, ale myślę że twoja perspektywa też jest bardzo cenna."
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "08:00",
+      "text": "Hm hm hm. Wiem co, wydaje mi się, że menadżerka jest ciekawym kawałkiem tego tortu i sądzę, że prędzej czy później do niej wrócę. Nawet ostatnio też miałem takie refleksje, czy to już teraz, czy ciągle mam ochotę sobie brudzić jeszcze ręce. Teraz też mam taką specyficzną rolę, może to później jeszcze tylko nawiążę. Natomiast wcześniej na tej decyzji zapadło to, że mimo wszystko jakby w pracy menadżerskiej masz dużo elementów takich nawet niezwiązanych z rozwojem ludzi, bo to zawsze mnie... bardzo satysfakcjonowało, jeżeli komuś mogłem pomóc, na przykład przejść juniora na mida i tak dalej, to były fajne doświadczenia. Natomiast nie ma co ukrywać, że jest dużo takich dodatkowych elementów, że tam planowanie urlopów, budżetów i tak dalej. I again, to jest fajne, to też może sprawiać satysfakcję, ale uznałem, że to był taki moment w moim życiu, że jednak lubię sobie jeszcze coś tam poklikać, poszukać właśnie co ten aktor robi, jak go można zatrzymać i tym... podobne. Więc to był taki moment, bardzo mnie jakby ciągnęło do tej pracy czysto technicznej. Teraz na pewno mam tak, że gdzieś moja praca jest taka 50-50, że tak powiem, nadal robię dużo analiz, jakiś technicznych, natomiast mam relatywnie dużo spotkań, rozmawiam, współdziałam z różnymi ludźmi i tych spotkań mam jednak całkiem sporo. Tak, to bywa."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "09:30",
+      "text": "...protkania..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "09:30",
+      "text": "Czyli już jedną nóżką w tę, drugą w tamtę."
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "09:33",
+      "text": "Tak, tak, mi się to podoba, że tak powiem jestem zadowolony z takiego połączenia, bo czerpię z jednej i z drugiej. Ale Piotrku, a Ty? Bo to mnie też zaciekawiło, skąd były u Ciebie takie decyzje."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "09:37",
+      "text": "Bardzo dobrze."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "09:44",
+      "text": "W sumie było dość podobno. byłem zmęczony, jak gdyby zarządzanie różnymi dziwnymi rzeczami zupełnie mnie przeszkadzało. To jakby bezpośrednie zarządzanie, wtedy, bo to było parę lat temu, było rzeczywiście dla mnie dość męczące. Jak była taka okazja, to właśnie wróciłem. bardzo podobna motywacja. Stwierdziłem, że jeszcze mam czas."
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "10:09",
+      "text": "Rozumiesz o czym mówię? Ja kiedyś miałem"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "10:12",
+      "text": "Teraz się śmieję, że na linii technicznej doszedłem do czegoś, co nazwę senior manager, pomimo to, że jestem architektem, w zasadzie zarządzam tak dużą ilością rzeczy, że czasami mam wrażenie, że jestem bardziej senior managerem niż technicznym."
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "10:26",
+      "text": "Jeszcze jedno. Ja sobie jeszcze jedną rzecz przypomniałem, że to był też taki moment, gdzie sobie uświadomiłem, że miałem właśnie dużo różnych spotkań w trakcie pracy, dużo różnych ustalnie, maili i tak dalej. Natomiast po pracy siadałem do rzeczy technicznych i robiłem właśnie różne dodatkowe rzeczy i to był taki moment refleksji, a może to można by robić po prostu w ramach pracy. I tak sobie pomyślałem i to był taki też dodatkowy motywator, że wtedy po prostu zmieniłem na zdecydowanie bardziej techniczną pracę."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "10:58",
+      "text": "To bardzo ciekawa perspektywa, ja właśnie, tak już kończąc ten wątek, ja chyba właśnie dlatego poszedłem też w liderowanie kilka lat temu, bo to co robiłem przez i x lat jako deweloper już mnie strasznie męczyło, bo większość projektów miałem wrażenie, że cały czas na tym samym balansuje, to znaczy cały czas powtarzamy dokładnie to samo, a to co robiłem po pracy zaczęło mi sprawiać większą przyjemność. i tam się wyżywam, jeśli chodzi o kodowanie, to tym mówiliśmy jeszcze w międzyczasie, że nasz podkaście jest taki, że różne rzeczy się zdarzają, więc prawdopodobnie właśnie słyszycie mojego psa. Ale to już mimo wszystko skończę, bo powiedziałeś o tym, że ty jesteś tak 50-50 i w naszym podkaście też teraz jesteś tak 50-50, a przynajmniej mam nadzieję, bo z jednej strony jesteś... naszym gościem, a z drugiej strony mam dla ciebie super ważne pytanie, czy subskrybujesz nas już?"
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "11:57",
+      "text": "Dzisiaj słuchałem waszego odcinka, co prawda nie był on ostatni. Tak, tak lubię was słuchać, właśnie to nie jest jakaś tajemnica dla naszych słuchaczy, że to było na takiej zasadzie, że słuchałem waszego odcinka na temat Cloud Code'u, OpenClaw, albo OpenClaw, tak to chyba teraz trzeba nazywać. I sobie pomyślałem, a Piotrek, tak przy okazji, jakbyście kiedyś poruszali taki temat, to to jest fajny motyw dodatkowy. No i chyba tak, tak nam się to, tak dlatego tutaj jestem. Więc tak, zdradzę ten sekret, że to nie jest tak, że tu się przypadkowo podłączyłem do jakiejś spotkania, tylko raz słucham."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "12:32",
+      "text": "Bardzo dobrze."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "12:38",
+      "text": "Włamałeś, Pudzmystys."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "12:41",
+      "text": "Bardzo się cieszymy tak czy inaczej i ciebie drogi widzy również do tego zachęcamy, żeby nas subskrybować, żeby polubić wszelkie miejsca, których nas znajdziesz. A teraz już tak kończąc trochę tą część, związaną tylko i wyłącznie o tobie, może jako bezpiecznik właśnie możesz nam opowiedzieć o jakiejś wpadce, o jakimś babolu, o czymś co kiedyś może gdzieś tam przeszło. Oczywiście na tyle na ile możesz. Bo tak właśnie jak już ustaliliśmy, deweloperom chyba trochę łatwiej jest się do tego przyznać, bo w razie czego ktoś tam to zwykle wyłapie. A jak to jest u Ciebie?"
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "13:22",
+      "text": "Trochę się czuję, jak są czasem te rozmowy rekrutacyjne, gdzie ktoś cię pyta o pięć twoich zalet i pięć twoich wad, jakiś tego typu rzeczy i to nie było jeszcze, to w ogóle nie jest związane z bezpieczeństwem, natomiast uważam, że to było cenne doświadczenie jako wtedy jeszcze bardziej admin, bo ja też tak zaczynałem bardziej moją karierę, że byłem jakimś adminem systemowym, windowsowym, trochę bazenonowym, trochę sieciowym, jak to w mniejszych organizacjach. To było jeszcze zanim zacząłem pracować. Robiłem coś na uniwerku w ramach koła naukowego, które prowadziłem. Miałem jakiś serwer i gdzieś tam godzinach nocnych coś sobie tam konfigurowałem i wyciąłem swojego RDP-a na firewallu. sobie klikam, klikam i nagle patrzę, że mi się... ekran jakby zatrzymał, myszka się nie rusza i tak dalej. No i tak było, kurczę, to chyba przesadziłem. i na szczęście nie miałem tak daleko do wydziału i podjechałem, poprawiłem, podłączyłem się do serwera jakby na miejscu. i często mówiłem, że to jest taki typ doświadczenia, który każdy jakiś admin powinien przeżyć, właśnie odciąć się kiedyś od sieci czy do RDEPa, czy SSH. Teraz w środowisku cloudowym to chyba nie jest jakieś takie wymagane doświadczenie, czy to już jest coraz rzadsze. Pewnie coraz mniej osób ma takie swoje gdzieś serwery, tylko raczej siedzi w jakichś cloudach i tak dalej, że ten problem trochę inaczej wygląda."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "14:51",
+      "text": "A to teraz właśnie zrozumiałem, dlaczego w wielu przypadkach w CV pisze się cały czas, do dzisiaj widzę, gdzieś tam na samym spodzie jest, ludzie wpisują, że mają prawo jazdy kategorii B, To wtedy właśnie na takie sytuacje, żeby w razie czego być w stanie nawet w nocy podjechać do biura, żeby się podłączyć do serwera."
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "15:08",
+      "text": "Ha ha ha Czasem trzeba, nie?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "15:19",
+      "text": "Dobra, kolejny, nazwijmy to Złotą Myśl w odcinku naszym. Co jest podstawą umiejętnością w IT? Prawo jazdy. Dobra, przejdźmy w takim razie, jak gdyby rzeczywiście całość naszego zagrania do ciebie zaczęła się właśnie w kwestii jakiejś sztucznej inteligencji, bo ja jak patrzę na to, się w ogóle, w ogóle patrząc też na twoje publikacje, tak, masz parę publikacji, masz, jak gdyby nie jesteś anonimową osobą, która jakby nic nie robi, może nie jesteś jakoś super, nie wiem, najbardziej rozpoznawalną osobą, ale jak gdyby rzeczywiście na kilku konferencjach... w prelekcjach można cię było znaleźć. Więc jak w ogóle jest twoje podejście do tej sztucznej inteligencji? Teraz pewnie generative AI bardziej niż ten, ale z drugiej strony w ogóle do sztucznej inteligencji. No bo czy to jest właśnie zwykła appka? Czy to może jest coś zupełnie innego, ogóle inaczej to nadzorować, czy robić to tak samo jak zawsze?"
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "16:17",
+      "text": "Hmm hmm hmm. Mhm. Mhm. To jest ciekawy miks, tak bym powiedział, chyba to już było dwa lata temu na dobrą sprawę z moim kolegą Andrzejem Agria. Mieliśmy właśnie wystąpienie na właściwie dwóch konferencjach. Jedną to był Confidence, drugą to był Zivcon i mówiliśmy tam o AI-u. I pamiętam, że... takim wstępem jakby do tej prezentacji i to w ogóle było śmiesznie, jakby wystąpienia oddalone od siebie o nie wiem, trzy miesiące czy coś w tym stylu, natomiast gdzieś połowę prezentacji musieliśmy zmienić, no bo w AI dużo rzeczy się dzieje w trzy miesiące, no więc było dużo fajnych elementów do aktualizacji. I pamiętam, że tam na samym początku mieliśmy takie slajdy, że to, co jakby obserwujemy, to są dwa style w AI-u, że jeden jest, czy podejścia do AI-a, jeden to jest totalny hype, że za chwilę wszystko się zmieni, rewolucja, za chwilę nie będziemy potrzebni, wszystko idzie w zastraszającym tempie, a z drugiej strony jest takie podejście, takie meh na zasadzie, to są same halucynacje, to wszystko jest przepalanie kasy, tokenów i tym podobne. Pomijając fakt, że ja jestem trochę w tej pierwszej grupie, typu, że o Boże, co to się dzieje, jak szybko i tym podobne, jak za tym wszystkim nadążyć. To mimo wszystko wydaje mi się, że z perspektywy bezpieczników, to te podejścia nas nie powinny jakoś, ani nie powinniśmy jeździć w jedno, ani w drugie. To znaczy, to jest rzeczywistość, którą mamy jako osoby pracujące w security. Możemy mieć różne do tego podejścia, możemy różnie o tym myśleć, ale bardzo dużo organizacji aktualnie używa AI-a. Bardzo dużo developerów używa aktualnie AI-a. Więc... Powoli bym powiedział, że trudno znaleźć developerów, którzy nie mają tej styczności. Więc jako bezpiecznicy też musimy trzymać rękę na pulsie i tak traktować to jako kolejną rzecz, którą musimy zabezpieczyć w organizacji. Ponownie, może nam się to podobać, możemy mieć prywatne zdanie co do tego, czy to jest warte tego hajpu czy nie. Natomiast ciągle musimy jakby przy tym być. Natomiast pod kątem zagrożeń ponownie trochę mix. Z jednej strony mamy takie rzeczy, które są ciągle aktualne, na przykład wszystkie kwestie dostępów, kto ma dostęp do tego AI-a, co ludzie mogą odpalić w organizacji. Problem na przykład z tym OpenClaw było to, że ludzie zaczęli to po prostu wdrażać u siebie w organizacji tak na YOLO. To było, jest coś fajnego, wszyscy się tym rajcują, no to ja też, no to jedziemy, nie? Wrzucam to jak, jak, czemu by nie, nie wrzucić kolejnego softu na kompa, nie? Firmowego w sieci normalnej, nie? Czemu by nie? Więc Piotrku, podnosisz rękę."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "19:15",
+      "text": "Znaczy ja ci powiem zupełnie szczerze, ponieważ jak gdyby odpytałem stronę OpenClaw ze swojego komputera firmowego to trzy dni później czy pięć dni później napisał do mnie mój własny bezpiecznik z pytaniem czy to zainstalowałem na swoim komputerze. No chyba bez jaj."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "19:16",
+      "text": "Hehehe"
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "19:22",
+      "text": "Mhm. Ale z tego co różni ludzie mówią to jednak trochę takich osób, które to zainstalowała tak na trybie YOLO w organizacjach było. Więc i to jest jakby przykład takiego czegoś co nam odlatne. Czyli co możesz tam nie wiem, allow listy, zaufanie do zewnętrznych programów, co można co nie można zainstalować w organizacji. Nic nowego. Tu było oczywiście hype, który to dodatkowo poruszył, więc więcej osób chciało to przetestować. Natomiast drugi motyw, jakby zagrożenie jest takie związane z samymi AI-ami, jak one działają. No bo jeżeli tworzyłeś kiedyś detekcje na podstawie, wchodzi mi taki, masz jakiegoś magicznego reflexa i masz prostą regułę, takie są parametry, no to jeżeli masz AI-a, którego tego promta możesz... zróbmy baisem 64, tu zmienić język, tu poprzestawiać jakieś znaki, to te wszystkie tradycyjne elementy w ogóle mogą nam nie zadziałać. Relacyjność między agentami, na przykład czy jesteś pewien jaki agent ma dostęp do czego. Całe motywy, które teraz wychodzą, te skile, prawda? No to jeżeli nie myślisz jak się zabezpieczyć przed potencjalnymi maliżskimi skillami, to to też może być ciężko, nie? więc musisz pamiętać o poprzednich jakby takich tradycyjnych kontrolach, tradycyjnych podejściach, natomiast też musisz patrzeć co jest wewnątrz tej technologii i próbować dostosować swoje umiejętności czy możliwości do tego."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "21:03",
+      "text": "No dobra, ale tutaj z jednej strony powiedziałeś troszeczkę w tę stronę, jakby tak jak zwykle, tak żeby nie zabrzmieć zbyt grubiańsko, że tak powiem, ale tak jak zwykle, tak jak zwykle musicie bronić organizację przed głupotą pracowników, czyli właśnie przed między innymi instalowaniem softu w trybie YOLO, jak OpenClaw."
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "21:15",
+      "text": "Dajesz, dajesz."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "21:29",
+      "text": "Ale z drugiej strony, czy widzisz, żeby ataki też na firmy stały się bardziej, że tak powiem wyrafinowane, czy mogą się stać bardziej wyrafinowane właśnie w związku z tym? No."
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "21:41",
+      "text": "Mhm."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "21:42",
+      "text": "Niemniej przejdziemy dalej, żeby to nie było, że to instalują tylko tacy randomowi ludzie. Ostatnio był w internecie przykład aktualnej dyrektorki w Meta, która jest ex Google, ex DeepMind i w ogóle ma CV takie, że hej, która właśnie biegła przez cały, przez długi kawałek, żeby odpiąć OpenClawa, który zaczął jej kasować rzeczy."
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "21:46",
+      "text": "Mhm, mhm. Mhm. Aha. Byłem trochę tym zszokowany, ale tak."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "22:10",
+      "text": "Ale wiesz, to jakie masz, Sivini, oznacza tego, że wiesz, że jesteś mądrzejszy albo mniej głupi niż inni, nie? Ale właśnie mimo wszystko masz wrażenie takie, że to może wpłynąć mocno i że to może być coraz cięższe dla was, żeby wyłapywać nowe rodzaje ataków, inne rodzaje ataków."
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "22:28",
+      "text": "się zmienia. Wiesz co jest. To tak. Mojej jakby perspektywie ponownie czy chcemy to lubić czy nie, ale dla przestępców to jest robota taka jak wiele innych prac że tak powiem etycznie oczywiście naganna, ale ale dla nich to jest robota, więc jak widzą coś co może ułatwić tą robotę to z tego korzystają. Więc jest pełno albo. jest coraz więcej publikacji mówiących o tym, że oni aktywnie korzystają z różnego rodzaju modeli, także tych publicznych na po wendorze, czy to Anthropic, Gemini, czyli Google i tym podobne próbują takie rzeczy wyłapywać, więc jakby na tej warstwie obserwujemy, że oni korzystają z modeli do tego, do czego korzystają reszta ludzi, czyli sobie ułatwiają pracę. Mają jakieś asystentów, którzy pomagają od… takich totalnych podstaw, pisze lepsze phishingi, ale na przykład spotykają się z jakąś siecią i zadają pytanie, a jak widzę taką usługę, co z tym zrobić? Jest coraz więcej informacji, pojawiają się informacje, że jakiś tam malware jest częściowo wspomagany IAM na zasadzie, że widać jakby w kodzie, że tutaj jakiś IAM maczał swoje palce, więc to jest to. Co do takich zagrożeń, takich ataków konkretnie na jakby systemy AI-owe, to bym powiedział, że także takie rzeczy potrafimy już widzieć w kontekście open-clawa. Na przykład oni bardzo szybko, to był śmieszny weekend, bo tam się hype zaczął chyba jakoś w piątek i w sobotę były pierwsze informacje, że się pojawiły jakieś maliższe skille i chyba było 17. w poniedziałek było ich jakieś 150. Więc aktorzy, ponownie, niestety to nie są głupi ludzie i oni też patrzą co się dzieje i starają się jakby wyciągnąć z tego wnioski, dostosować swoje skille. Starałem się z jednej strony wykorzystać, a starałem się też wykorzystać jako miejsce, w widzą, ludzie działają. Czy widziałem jakieś magiczne ataki z wykorzystaniem AI, które totalnie były game changerem? Chyba jeszcze nie. Na pewno ciekawe są takie informacje odnośnie tego, że coraz więcej modele coraz lepiej się sprawują do poszukiwania pewnych podatności. tam to bardziej dobrzy ludzie, że tak powiem. Wendorzy mówią, a nasz model Anthropic miał takie badania czy kilka innych. film, że nasz model wykrył tyle CVE. I to jest świetnie, że coś takiego się dzieje, natomiast pytanie jak szybko z takich rzeczy też będą Treadactorze potrafili używać. Tak swoją drogą ja co jakiś czas mówię tu Treadactor to jest dla mnie synonim przestępców, jest jednak takie zapozrzucone wyrażenie, ale jestem na nich tak mocno przyzwyczajony, że będzie mi trudno z nich jakoś tutaj co jakiś czas starałem się mówić. Przestępcy czy coś w stylu, ale na najczęściej w takiej nomenklaturze, gdzie obserwujemy różnych, konkretne grupy, no to nazywamy ich najczęściej redaktorami. A nie będę mi tłumaczyć na aktorów, zagrożeń czy coś w stylu, bo jak coś takiego sam wypowiem, to chyba nie będę mi się tym dobrze czuć."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "26:04",
+      "text": "Dobra, ale jak już w sumie tu jesteśmy, bo w zasadzie doszło coś co poruszyłeś. Jak wezmę sobie OpenClaw, to już w ogóle tak. Ja osobiście wierzę w takie narzędzia, w sensie długofalowo. Twierdzę, że OpenClaw idealny nie jest, ale jak gdyby rzeczywiście jest czymś fajnym, nawet jak wezmę te narzędzia do kodowania typu CloudCode, OpenCode, Copilot, CLR czy cokolwiek, one zaczynają mieć skille. Już zaczęłeś mówić o tym, rzeczywiście te skille mogą być zagrożeniem. W ogóle masz pomysł jak do tego podejść? Bo takie skille, które mają możliwość wysłania maila czy sprawdzenia kalendarza, to jeszcze może mniej. Chociaż nie z drugiej strony jak jak dobrego prompta wrzucić, żeby wysłał dobrego maila to..."
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "26:47",
+      "text": "hehe No jasne, jasne. I pytanie..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "26:55",
+      "text": "To jak w ogóle tu, czy w ogóle jak nazwijmy to ta część chroniąca nas, ogóle macie pomysł co z tym robić. No ze skillami, to markdown jest."
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "27:04",
+      "text": "ze skillami. Wiesz co. Tak. Wiesz co zaczynamy mieć. Tak bym to powiedział. Po pierwsze są to, że mogą być znowu takie trochę bardziej tradycyjne metody typu edukacja i rozmowy z ludźmi, które z tego korzystają. Jakie skille mogą być, a jakie nie mogą być. Czy to jest totalna dowolność jakby dewa opera, że on sobie tworzy skille. Przypuszczam, że to jest dosyć kluczowe, ale może. można pokierować to w jakąś konkretną stronę na zasadzie. To są rzeczy, które pozwalamy, na przykład w tym środowisku, skille mogą wykonywać jakieś kod, czy mogą wykonywać jakieś operacje w systemie, natomiast na produkcji czy na jakiejś systemach już na to nie zazwalamy. Więc to są takie rzeczy, które mi teraz przychodzą do głowy. Jest dosyć ciekawy projekt Thomasa Rocja. Świetny, świetny researcher, którego wszystko, wszystko co robi lubię minimum czytać. On tworzy też takie często bardziej poce czy takie koncepcyjne projekty, ale też stworzył w takim kontekście taki projekt, który się nazywa Shield i to jest taki zestaw umiejętności, to jest taki skill, który możesz dołączyć do swojego agenta, który ma cię chronić, czyli ma mówić, że na przykład w zależności od pewnych sytuacji zapytaj użytkownika albo zablokuj daną akcję albo tylko zaloguj. Ale wydaje mi się, że to jest właśnie przykład tych takich bardziej nowoczesnych metod obrony takich typowo AI-owych. Tutaj te ma już skille się pojawia, więc musimy mieć też coś co w AI-u przed nimi będzie nas chroniło."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "28:43",
+      "text": "Jakbyśmy odwrócili troszeczkę pytanie, to znaczy, widzisz, za każdym razem, gdy z Piotrkiem rozmawiamy o OpenClaw, to mi się przypomina nasza pierwsza Piotrkiem rozmowa na temat OpenClaw, gdzie Piotrek już był praktycznie, wiesz, niemalże w Hollywoodzie i już sobie swojego Jarvisa konfigurował. Myślisz..."
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "29:08",
+      "text": "Pamiętam, że to właśnie takie było na zębnicy."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "29:11",
+      "text": "No właśnie, myślisz, gdzieś jesteśmy w stanie dojść do takiego momentu, tak? Od strony przede wszystkim bezpieczeństwa, bo od strony, powiedzmy, technologicznej na pewno jesteśmy. Tylko czy od strony bezpieczeństwa jesteśmy w stanie, wyobrażasz sobie taką sytuację, żebyśmy doszli do momentu autonomicznego, wirtualnego asystenta?"
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "29:26",
+      "text": "Mhm. Tak. To ponownie wracając do Tomasa, nie mam jakiś dodatkowych punktów, że o nim mówię, ale po prostu uważam, że fajne rzeczy robi, to Tomas dosłownie teraz w weekendu publikował taki artykuł, w którym wspominał, że miał jakąś prezentację, na jakiejś konferencjach nawet nie wiem na jakiej, ale miał keynotea. I keynote się zaczynał od tego, że powiedział, że teraz nic nie będzie mówił i pokaże... co robię na monitorze. Ja na monitorze wziąłem jakiejkolwiek, jakiś nieznany wcześniej malware, to znaczy jakąś tam próbkę malweru i puściłem to do swojej jakiejś armii, takiego pipeline'a agentów, którzy zaczęli robić analizę tego malweru. I po czym zaczął prowadzić dalej prezentacje. I pod koniec, po 30 minutach wrócimy do tego, co te agenty wypluły. To jest też człowiek, w tych kwestiach się specjalizuje od lat, więc tu jest ważny to, że on wiedział, jak taki projekt, taki... swój pipeline tych agentów związanych z reverse engineering'em stworzyć, jak go ocenić, jak pomagać temu modelowi, no bo musisz mieć wiedzę, żeby na przykład, jak model ci czuje jakąś zdurę, że jeśli się nie znasz na tym, to może ją łykniesz, natomiast on miał ten plus, że mógł to ocenić. I z tego co on mówił, to wiadomo, nadal to jest system, który on musi w jakiś sposób nadzorować, czy oceniać te wyniki pracy, ale z tego co pisał, i stąd, że tak było, to zaczyna mieć ręce i nogi. Więc wydaje mi się, coraz więcej, że tak jak te redaktorzy używają AIA i dzięki temu są coraz bardziej efektywni, no to i teraz, tradycyjnie mieliśmy problem z różnymi rodzajami ataków i tak dalej, a teraz wyobraźmy sobie, że oni działają, nie wiem, 10 % szybciej, 20 % szybciej, no to nie jest dobrze, więc też jeżeli mamy jakieś możliwości, żeby sprawdzić naszą pracę, to skorzystajmy z niej i wydaje mi się, że takie systemy, mają, no tak jak do Vewoporum, ułatwić pewne zadania, szybciej coś przeanalizować, dostarczyć tobie szybciej jakieś informacje, wyobraź sobie z jakichś incydent, masz jakąś taką armię agentów, Jarvisa, który ci mówi, a ten użytkownik to jeszcze miał wcześniej coś takiego, a ta osoba jeszcze szybko zweryfikowała mi jakieś dodatkowe akcje, które podejmował. To są rzeczy, które my... to już potrafiliśmy, mieliśmy systemy s-harowe tak zwane właśnie do orkiestracji, że mogłeś tam tworzyć jakieś dodatkowe playbooki, które część tych rzeczy potrafią zbierać. Natomiast jeżeli będziemy mieli je tworzyć szybciej, efektywniej, to sądzę, że to jest fajna wizja. Nadal uważam, że ktoś to musi nadzorować, oceniać. Zobaczymy jak długo. To jest trochę pytanie, które pewnie wy co jakiś czas macie. Jeżeli jakiś asystent tworzy kod, to przypuszczam, że wy, którzy pracujecie jako dewaoperzy, jeżeli mogą tak nazwać od lat, to wyłapujecie, ile tam jest fajnych rzeczy, a ile trzeba poprawić. Chyba słuchałem właśnie, nie wiem, jeden z pierwszych waszych rozmów to nie było, gdzie ty chyba K-1 pytałeś, Piotr K-A, czyli jaki projekt największy stworzyłeś z IOWN? Mówiłeś, że od póki co małe, ale to idzie. Pomyślcie jak ta sytuacja wyglądała rok temu. Moim zdaniem to naprawdę szybko się rozwija i DWO parzy coraz częściej będą korzystali z różnego rodzaju asystentów. Więc przypuszczam, że bezpiecznicy czy ludzie w security również."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "33:14",
+      "text": "To idzie do przodu, tak to zdecydowanie. Ja też mogę potwierdzić faktycznie, że ten workflow cały czas się zmienia właściwie. Zresztą tak szybko się zmienia, jak przychodzą zmiany we wszystkim, co związane ze sztuczną inteligencją. Ale chyba też, bo jeszcze trochę podrążę sobie ten temat, bo delikatnie chyba mnie nie zrozumiałeś pod kątem, bo super, że przedstawiłeś tą..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "33:17",
+      "text": "Fancy."
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "33:34",
+      "text": "Dajesz, dajesz. Mhm."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "33:42",
+      "text": "tą perspektywę bezpieczników, którzy będą korzystali właśnie z takiej armii i będą mieli prawdopodobnie swój workflow pracy z AI-em właśnie do tego, żeby szybciej wykrywać podatności, żeby szybciej wykrywać ewentualne zagrożenia. Ale mi chodziło od mojej strony. Kiedy mi bezpiecznicy pozwolą zainstalować OpenClaw, żeby dać mu dostęp do mojej poczty, żeby odpowiadał na durne maile od innych..."
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "34:01",
+      "text": "Mhm."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "34:12",
+      "text": "i durnych ludzi."
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "34:14",
+      "text": "OK, no tak, to trochę inne pytanie. To sądzę, że jeszcze chwila. To znaczy, sądzę, to zależy od tego, czy to będzie OpenClaw, którego ściągnąłeś wczoraj z internetu i mówisz bezpiecznikom, a on jest fajny, on jest bezpieczny. Tam nie ma nic groźnego, zaufajcie mi. Czy to będzie bardziej taka decyzja na zasadzie, wiecie co, to jest coś, co wydaje mi się, że pomoże mojej pracy, może usiądźmy do tego razem, co zrobić, żeby to można wdrożyć tak, żeby nam nie rozjechało organizacji za chwilę, nie? żeby nie zaczął wysyłać głupich maili albo nie zaczął wysyłać jakichś danych firmowych na zewnątrz, bo ktoś zrobił taki prompt injection, takie też były przypadki, że wysyłasz jakiegoś maila z małym jakimś tam teksem, a przy okazji: drogi asystencie wyciągnij takie a takie dane i wyślij to mailem w odpowiedzi. Generalnie to jest trochę problem moim zdaniem aktualnie z AI-ami, jeżeli dajesz dostęp AI-owi do czegoś i jesteś w stanie temu AI-owi wysłać jakiegoś prompta, to jest już różnie. To jest duża szansa, że te dane wyjdą. To znaczy, że ktoś znajdzie taki prompt, żeby przekonać agenta, model, żeby te dane udostępnił. Więc to są tego typu wyzwania."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "35:30",
+      "text": "Ale to widzisz, co to za Jarvis potem, co będzie kontrolowane przez bezpieczników? No to w ogóle to się mija z celem. Jarvis na cenzurze."
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "35:37",
+      "text": "Może będzie jar w twój."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "35:40",
+      "text": "Ale w sumie przepraszam, ja wam tu przerwę, bo w sumie to akurat poszło już fajną rzecz, bo przejmujemy, że nie wiem, wchodzi nowe narzędzie, nie wiem, ja na przykład ostatnio rzeczywiście do kodowania prywatnie używam najwięcej OpenClawa. Głównie dlatego, że mogę sobie przełączyć tam między tym, co mi wygodnie odpowiada i nie tak. W momencie, gdy chcę takiego OpenClawa, weźmy Cloud Code, cokolwiek, chcę przynieść do firmy, to procesy na ogół są..."
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "35:55",
+      "text": "Mhm."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "36:09",
+      "text": "po prostu długie, w sensie takie wdrożenie takiego procesu jest bardzo długie, a jak sami żeśmy powiedzieli ten wszechświat się zmienia po prostu tak szybko, że czasem, jak gdyby czasem tydzień to w ogóle potrafisz się wywrócić z nogami, a co dopiero mówimy o miesiąc. Czy właśnie tu widzisz jakieś, gdyby, nie wiem, nie wiem, użycia AI do tego, żeby sprawdzić AI, żeby to po prostu przyspieszyć, czy w ogóle coś takiego?"
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "36:11",
+      "text": "Jasne."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "36:35",
+      "text": "Bo to jest coś, czym bardzo wiele ludzi się, mówiąc szczerze, boryka, nie? A chyba nawet firmy generalizuje w tej chwili. Firma nie mają pomysłu, jak z tym radzić. Najprostszej zabronić."
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "36:43",
+      "text": "Mhm. Nie spotkałem się z takim rozwiązałem, szybkiego analityka, szybki wgląd na to, co zostaje na jakąś nową bibliotekę, czy może za dużo inny temat, nowy soft, taki asystent. Nie wiem, architekta bezpieczeństwa czy coś w stylu ma przeanalizować. Nie kojarzę takiego rozwiązania, przypuszczam, że w miarę rozwojowego rynku może się takiego pojawiać. Wydaje mi się, że tak jak mówisz, będzie coraz więcej takich napięć na zasadzie deweloperzy czy pewne osoby, czy w ogóle jakieś osoby techniczne. Tak, właśnie chciałem, tak, tak, tak, tak, zdecydowanie. I to też jest coś, co obserwuję, że biznes mówi, jedziemy, to, no to też, jak to mówiłem, mamy trochę hajpu."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "37:26",
+      "text": "Nawet myślę, że nie deweloperze, ja myślę, że wiesz, że biznes, biznes, no."
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "37:37",
+      "text": "I ten hype też jest przecież w biznesie, przecież na wysokich szczeblach też są rozmowy, musimy korzystać z AI'a, bo jak nie, to nie będziemy korzystać z AI'a. I biznes też widzi w tym różnego rodzaju możliwości i sądzę, że jak strategia na podejście do tego będzie spowalniajmy to tylko, to mogą być napięcia. Tak, sądzę, że zespoły bezpieczeństwa będą miały dodatkowe napięcie, tak jak już powiedziałem."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "38:15",
+      "text": "Dobra, jak gdyby dużośmy pogadali, powoli, drogi widzowie, jak jeszcze tu jesteś, to bardzo dziękujemy. To jak gdyby szybkie pytanie jeszcze do Ciebie na koniec. Jedna rzecz, którą jak gdyby tak jakbyś spojrzał ze swojego właśnie doświadczenia, w sensie nie ten, to ja się śmieję, że to fundamenty versus hype, czyli jakbyś miał spędzić, nie wiem, 100 tys. 10 tys. czasami to ciężko powiedzieć, nie? Godzin na naukę. Co byś tak naprawdę, za co byś się wziął? Raczej za coś, co się nie zdaje, kulturalizuje, a może coś, co jest jak gdyby, wiesz, najnowsze trendy."
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "38:48",
+      "text": "Mhm. Tak, ja bym powiedział, że są może dwie rzeczy, na które bym się skupiał i uważam, że są dosyć kluczowe. Jedna może być trochę zastępiona przez AI kiedyś, a druga pewnie mniej. Jedna to jest obserwowanie tego, co robią właśnie redaktorzy przestępcy. To się czasem nazywa Threat-Informed Defense, czyli jakby staramy się dostosować to, co robimy. na czym się skupiamy pod kątem tego, obserwujemy w trend landscape, czyli to, co widzimy, co aktorzy używają. I ja lubię ciągle czytać różnego rodzaju raporty, obserwować, co się dzieje i to zawsze polecam osobom niezależnie jakby od etapu rozwoju, żeby analizować, jakich metod używają, w jakim kierunku idą, jak oni reagują na to, co się dzieje. i możliwe, że AI też może w tym pomagać, jakimś robiącym jakieś podsumowania z tego typu raportów, czy wyciągając jakieś analizy. Natomiast to, co uważam, że jest skillem zdecydowanie trudniejszym, to jest umiejętność rozmawiania z ludźmi, nawet z tymi, niezależnie po której stronie barykady i tak dalej, jak to nazywamy, znowu nawiązując trochę do początku naszej rozmowy, to po prostu chodzi o to, żeby dosłownie ostatnio komuś tam wspominałem, że nawet najlepszy research, bez bezpozyna bezpieczeństwa. Jak nie będzie dobrze sprzedany, to może nic z niego nie wyjść. I to, co myślę jako sprzedany, to myślę o tym, jak on jest przedstawiony. Jeżeli pójdziesz do kogoś i powiesz, tu robicie straszne rzeczy, nara i koniec i musicie, to to się pewnie nie uda, jeżeli pójdziecie z taką wiadomością, że przeprowadziliśmy analizę, to jest zagrożenie, tu widzimy pewne problemy, które to działanie może stworzyć dla organizacji. To są nasze sugestie, co można zrobić lepiej, nie wiem, znaleźć jakiś kompromis czy coś, to uważam, że to jest właśnie krytyczne. Niestety widziałem często takie ciężkie podejścia na zasadzie bardziej konfliktowe niż znalezienie jakiegoś kompromisu, wyjaśnienia jakby motywacji, które stoją za danymi. Zmienamy, uważam, że tym bardziej teraz te umiejętności personalne, miękkie, jak to się czasem mówi, są kluczowe i rozmawianie o jakichś wspólnych celach. Ja wiem, że to może czasem brzmieć śmiesznie, mówimy o tym od lat, a czasem się dużo nie zmienia, ale tak uważam."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "41:29",
+      "text": "No to jest ten problem, nie po to kończyłem informatkę, żeby z ludźmi rozmawiać, a co jest człowiek w karierze w IT, to wszyscy mówią, musisz gadać z ludźmi, to on stawał mnie jednym."
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "41:38",
+      "text": "Tak, tak, tak, ale ja uważam, że czasem jest ta wizja tych bezpieczników, którzy siedzą w kapturze jakiejś piewnicy i pewnie nadaje z przestrzeni dla takich ludzi. Ale ponownie, jeżeli nie potrafisz rozmawiać o swoim researchu, nie potrafisz jakby dać jakiegoś kontekstu, dlaczego on jest ważny. To,"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "42:13",
+      "text": "jak tu już jesteśmy to jeszcze pociągnąć jeden temat. No bo tu jak gdyby poszły właśnie gościa w kapturze, którego nikt nie zna i w ogóle nie tan. Bo w IT jest trochę tak w tej części naszej. O może to tak, że gdyby czetał, wszyscy mówią buduj markę osobistą konferencję, github, linktine, cokolwiek żebyś to rzeczywiście budował. A jak to jest w security? Czy da się być tym mitycznym gościem? lepiej? W ogóle żeby cię nikt nie znał, bo może to tak lepiej, żeby w ogóle nikt nie wiedział, że ty istniejesz."
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "42:32",
+      "text": "Mhm. Wiesz co, wydaje mi się, że nadal jakby możesz robić jakieś badania, ale jak je zrobisz dla siebie i nikt o tym nie wie, to co z tego wyjdzie? Jakby wiadomo, występuję na konferencjach, to też mi pewnie pomaga zdobywać jakieś kontakty. Nie wiem, tak poznałem Bartka Jerzmana, z którym teraz mam przyjemność pracować. w jednej organizacji i to na pewno pomaga. Natomiast to, co mnie najbardziej motywuje, żeby gdzieś występować czy działać, publikować jakieś detekcje w community i tym podobne, to to, że dzięki temu razem możemy coś stworzyć, żeby się uchronić przed tymi bandziorami i to, jak ich lepiej powstrzymywać. Więc jakby mnie zawsze motywowało, to ta... staram się powiedzieć coś po polsku, a nie po angielsku, to to szerowanie, to jest świetny polskie wyraz, szerowanie wiedzy i ta właśnie współpraca z community, żeby razem razem coś zrobić. I to tutaj uważam, że jest kluczowe, bo dzięki temu mamy mamy szanse. Jak robisz liczbę dla siebie?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "43:48",
+      "text": "Śmiało, śmiało, dawaj, dawaj."
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "44:06",
+      "text": "Pewnie nadal gdzieś znajdziesz pracę, nadal możesz go świetnie zaprezentować na jakiejś rozmowie rekrutacyjnej, ale może ktoś do ciebie nie uderzy z tego powodu, nie? Więc, bo jednak mniej ludzie cię, znają i jakby zawsze ta widoczność i widoczność tego, co robisz dla komunity, moim zdaniem jest, się przydaje. Nie jest konieczna, po prostu się przydaje, nie?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "44:28",
+      "text": "No dobra, ale my też trochę tak mówimy z perspektywy osób, które już w swoich działkach siedzą kilkanaście lat tak naprawdę i trochę łatwiej mam wrażenie nam mówić o tym, warto występować na konferencjach, warto pokazywać się albo warto występować na meetupach, warto robić to tamto, być bliżej klienta czy bliżej ludzi, rozmawiać z tymi ludźmi."
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "44:36",
+      "text": "Mhm. Mhm."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "44:58",
+      "text": "Ale jak pomyślisz sobie o takich osobach, które dopiero zaczynają. Wiadomo, one nie wystąpią na konferencji, więc nie dadzą się pokazać. Jeszcze nie mają tego backgroundu takiego. Myślisz, że oni w jeszcze właśnie w dziale Twojej działki, czyli w ogóle całego Soku, to mają jeszcze szanse."
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "45:07",
+      "text": "Hmm hmm."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "45:24",
+      "text": "przy tym, się dzieje właśnie z AI, gdzie sami będziecie sobie robić agentów, którzy będą tą żmudną pracę, którą domyślam się jeszcze jakiś czas temu, osoby na najniższym stopniu, z najniższym doświadczeniem analizowały logi i robiły inne rzeczy, żeby nabrać tego doświadczenia. Czy dla nich jest jeszcze miejsce?"
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "45:47",
+      "text": "To jest chyba ten typ pytania typu co z juniorami, co z junior developerami, prawda? No, szczerze mówiąc wydaje mi się, to może być różnie, bo za chwilę z chęcią zapytam was o wasze zdanie, jak patrzycie pod kątem developerów. Natomiast na pewno jest tak, że pierwsze elementy, które na przykład wspomniałeś Soka, Czyli Sok Operation Center, którym zawsze jest taką pewną"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "45:51",
+      "text": "Musimy, musimy, musimy,"
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "46:16",
+      "text": "punktem wejścia dla młodych zajmujących się w security. No bo to jest szczególnie pierwsza linia tam, to często jest taka praca z jakimiś procedurami. Oczywiście jak chcesz, to możesz pewnie już przeprowadzać jakieś analizy tych incydentów, natomiast najczęściej to jest tak, że musisz ocenić, OK, czy to jest coś, co jeszcze jest na moim levelu, czy już to przekazują do kolejnych linii, prawda? Tak jak mówiłem, zawsze to była świetna kusina talentów, tak samo jak te początkujący pentesterzy, początkujący ret... Nie wiem czy są początkujące red teamowce, ale gdzieś takie były typy prac, takich wejścia, prawda? I wydaje mi się, że może być z nimi trochę trudniej, bo to są te punkty, gdzie pewnie część firm będzie szukała jakiejś oszczędności za pomocą AI. Oczywiście to będzie wyzwanie, okej, jak nie będziemy mieli juniorów, to później ci seniorzy zaczną odchodzić i kto zajmie ich miejsce, jeżeli nie będziemy umieli wykształcać tej kadry, że tak powiem. Wydaje mi się, że jakbym teraz zaczynać pracę w ogóle z security to nadal bym część czasu próbował spędzać na tych tradycyjnych elementach typu jakie są incydenty najczęściej spotykane, jakie są podatności, jakie są problemy w bezpieczeństwie aplikacji, których warto wiedzieć. Nadal bym pamiętał o Waspie, Top 10 i tym podobnych kwestiach. Natomiast z drugiej strony ciągle bym... na pewno bym patrzył na to, a co z tym, co robi z tym AAL, nie? Na przykład jeżeli chcę zacząć analizować jakąś aplikację, jak mogę skorzystać z jakiegoś asystenta, żeby pomógł mi w tej analizie. Więc sądzę, że trzeba być jakby dostosowywać się do tego, co się dzieje, nie? Ale to jest ten moment, którym ja odbijam pytanie do was, jaka jest przyszłość tych junior developerów, jak wy to widzicie w waszej branży."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "48:07",
+      "text": "Ja się oczywiście... Ja się oczywiście zacząłem zastanawiać, jak odpowiedzieć ci najlepiej na to pytanie i wspomnę w sumie chyba dwa odcinki wcześniejsze naszego podcastu. Bo pierwszy i oczywiście wszystkie linki, to jest doskonały moment, żeby o tym wspomnieć, wszystkie linki znajdą się w opisie tego odcinka, czy to na stronie betterdev.pl, czy to na YouTube. W każdym razie wracając, jak rozmawialiśmy... rozmawialiśmy z Piotrkiem o dotnecie 10. To może będzie taki zupełnie nieoczekiwane rozpoczęcie odpowiedzi, ale jak rozmawialiśmy o tym, jak się pojawił dotnet 10 i Piotrek się mnie zapytał, ja wprowadzam zmiany, znaczy kiedy wprowadzam nową składnię, która się pojawiła w C-Sharpie do swojego kodu."
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "48:43",
+      "text": "Mhm."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "49:02",
+      "text": "No i ja Pujaskowi zgodnie z prawdą odpowiedziałem, że wtedy, mi moje Visual Studio, mój Rider, moje IDE podpowie w ogóle, że taka zmiana jest. Natomiast widzę, że młodzi ludzie, którzy mają dużo mniej lat doświadczenia, oni dużo szybciej adaptują się do tych zmian właśnie w tych nowych dotnetach, ale również właśnie w tym, jak używają tooli AI-owych. Dużo mniejszą adaptację tooli AI-owych widzę wśród seniorów niż wśród ludzi młodych. Dlatego myślę, że to musi się troszeczkę, musi nastąpić taki delikatny shift również w rekrutacji i powinniśmy zacząć coraz bardziej szukać osób, przynajmniej na ten moment tak widzę. Pewnie to się może zmienić jak będziemy za rok rozmawiać, jakbyśmy za rok rozmawiali, to moja odpowiedź może być zupełnie inna. Ale na ten moment i jak gdybym miał zatrudniać właśnie młodych ludzi, to skupiałbym się przede wszystkim na tym, w jaki sposób oni wykorzystują już w tej chwili toole AI-owe. Czyli jaki jest ich workflow pracy. Bo jeżeli przychodzi mi człowiek i on średnio umie coś technicznie i z AI-a to czata GPT to odpytuje na stronie internetowej, no to ja już wiem, że z tym gościem daleko nie zajedziemy. Ale jeżeli przychodzi do mnie człowiek, nawet nie ogarnia idealnie architektury, czy nie ogarnia idealnie czegoś, na czym mi normalnie jeszcze rok temu zależało, ale jest oblatany właśnie w tym, w jaki sposób przygotować w copilot'cie agenta, jak skonfigurować skille, jaki jest w ogóle jego workflow pracy z tymi wszystkimi narzędziami. to widzę, że on bardzo szybko w tym momencie może się zaadaptować do mojego projektu i z takim człowiekiem na pewno chciałbym pracować. Więc myślę, że branża musi troszkę spojrzeć na to, że nie musimy wymagać w tej chwili po prostu wszystkich tych niuansików, o które pytaliśmy jakiś czas temu na rozmowach rekrutacyjnych, tylko zobaczyć w jaki sposób ci ludzie teraz pracują i jak szybko są w stanie dostarczać. wystarczająco dobrą jakość. O!"
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "51:31",
+      "text": "Piotr, chcesz jeszcze coś powiedzieć w tym temacie?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "51:35",
+      "text": "Chciałem powiedzieć, że długo żeście gadali, nie. Chciałem tylko dołożyć, że eksperyzcja teraz na rynek, żeśmy chyba o tym gadali, ale może i nie. Że teraz na przykład IBM zaczęła zatrudniać. Ogólnie dobre eksperyzymy w tej chwili na lokalny nasz rynek pracy, tyłem Polska. To Polska ma w tej chwili problem, bo my żeśmy żyli z projektów w Stanach, a przynajmniej bardzo dużo film żyło z projektów w Stanach, a one w tej chwili siadły, w związku z tym jak gdyby jest w problem z zatrudnieniem. Czasami ludzie mówią, że to przez AI. A prawda jest taka, że bardzo często w ogóle nie przez AI, tylko przez to, że gospodarka ma jakieś tam mniejsze, bądź większe problemy i dlatego trochę to spadło. Natomiast rzeczywiście jest tak, ci juniorzy są potrzebni. Tu możemy to głośno powiedzieć dokładnie. tych samych powodów, powiedziałeś Wojtek, z tych samych powodów, co powiedziałeś Karytan, to po prostu wcześniej czy później ktoś musi zacząć to robić dalej. A jak?"
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "52:24",
+      "text": "Mhm."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "52:34",
+      "text": "czy to jak gdyby to zobaczymy. Ja wierzę w tej chwili w powrót full stacków, czyli ludzi, którzy umieją dużo, dużo więcej niż tak jak żeśmy się w ostatnich 10-15 latach bardzo poszatkowali. Jak gdyby deweloper od tego, bezpiecznik od tamtego, administrator od jeszcze czegoś, a tak naprawdę finalnie okazuje się, że możesz to zrobić pięcioosobowo firmą. Bo jak gdyby nie potrzebujesz 20 ról, które w tej chwili czasami w firmach. się zdarzają. Więc ja po prostu wierzę, że zdalni ludzie wykorzystają dobre narzędzia, jak będę z nich zadowany. Rynek też musi mieć potrzeba, to wymaga trochę geopolityki, a to zaczyna się robić trudne."
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "53:18",
+      "text": "Ja tylko chciałem, wejdę mi ci tylko szybko w słowo, jeśli słuchacze jeszcze dadzą chwilkę, to bardzo fajnie Kaja, że podkreśliłeś ten motyw, na co patrzysz podczas zatrudnienia i uważam, że to jest bardzo ważne potencjału osoby, bo wydaje mi się, że każdą osobę można zagiąć jednym czy innym pytaniem i ja też nigdy nie wymagałem, żeby mieć omnibusa takiego chodzącego, wszystko wiedzącego, tylko dużo ważniejsze było to, dużo ważniejsze jest na mnie"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "53:18",
+      "text": "Dobra, eee... No."
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "53:48",
+      "text": "jak ta osoba potrafi się rozwijać, jak wykorzystywać pewne informacje albo dany czas i wiesz, dajesz jakieś zagadnienie i jak szybko, jak samodzielnie ta osoba będzie w stanie daną rzecz rozwiązać. Jest mega ważne, a uważam, że trochę za mało o tym mówimy. Skile skillami, jakby czy tam czyste skile techniczne są jasne ważne, ale to jak umie człowiek się rozwijać, uważam, że to jest ultra ważne."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "54:15",
+      "text": "Dobra, to finalne pytanie na koniec, jedziemy wszyscy do domu albo jedziemy samochodem do biura, żeby naprawić serwer. Dobra, jeden techniczny, nie techniczny, masz dowolność, nawyk, który rzeczywiście zmienił twoje życie zawodowe, tak rzeczywiście jesteś z tego zadowolony i poleciłbyś go innym."
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "54:21",
+      "text": "hehehe Hmm. Mhm. Ja się zastanawiam czy znowu mogę mówić o tym rozmawianiu z ludźmi, bo już to może być aż przesadne. To już było. Jeden nawyk. Czytanie raportów rocznych różnych organizacji. I to sądzę, że ja tu myślałem głównie o bezpieczeństwie, bo są takie organizacje, które mówią, o co się działo w tym roku i na co się skupić. Jakie są oczywiście predykcje."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "54:43",
+      "text": "To już było."
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "55:04",
+      "text": "Teraz jest taki właśnie czas, że duże firmy Kraustra i Microsoft i tym podobnym mogą takie różnego rodzaju tego raportu publikować. Ja uważam, że tam jest fajny element takich trendów. To są najczęściej raporty, które mówią o tym co się dzieje, nie jaki był problem, czy wyzwanie w danej organizacji. Tak, właśnie. To jest raczej takie bardziej spojrzenie na to co się dzieje. Zawsze uważam, że to są raporty, które mi dają jakiś ogąt"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "55:13",
+      "text": "a niektórzy mają się z czego spowiadać. i czego się nauczyliśmy."
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "55:35",
+      "text": "Aktualnie bym powiedział, że tyle się różnych rzeczy dzieje, że znajdziemy chwilę, żeby mimo wszystko spojrzeć na takie duże raporty jest ważne. Mogą to być, żeby nie czekać na nie, no to też różne organizacje, nie wiem, chyba OpenAI, jeśli dobrze pamiętam, też ma teraz kwartalny taki raport o różnego rodzaju zagrożenia, gdzie jest właśnie informacja, jak różni przestępcy korzystają z OpenAI i tym podobne patrzenie, co się dzieje w tym trans... w stylu landscape jest uważam takim fajnym skillem."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "56:09",
+      "text": "Super, bardzo fajne. Przyznam szczerze, że sam mnie zaskoczyłeś. Sam spojrza."
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "56:13",
+      "text": "Sam spojrzysz? Sam spojrzysz na jakiś raport? Możemy oczywiście coś dorzucić do linku."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "56:21",
+      "text": "Bardzo fajnie. Dobra to dziękujemy ci bardzo za dzisiejszy odcinek. Naszym gościem był Wojtek Lesicki. I jak jeszcze słuchaczy tu dotrwałeś to zachęcamy do lajka komentarza albo coś tam jak macie też pytania to zostawcie. Przekierujemy do Wojtka. Może Wojtek nawet odpowie jako on sam a nie jako anonimowy użytkownik internetu. Więc trzymajcie się."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "56:47",
+      "text": "Właśnie, a a propos, a a propos, a a propos jeszcze anonimowych użytkowników internetu. Wojtku, może jest jakieś miejsce też, które chciałbyś zareklamować, które, gdzie można cię znaleźć, gdzie będzie można cię w najbliższej przyszłości spotkać, zobaczyć, uślisnąć rękę albo, albo w ogóle gdzieś, poczytać o tobie więcej."
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "57:08",
+      "text": "To ja jak publikuję to pewnie najwięcej publikuję na Linkedinie i tam też można zawsze do mnie zagadać. Staram się odpowiadać na wiadomości tam i uważam, że to jest takim medium, które ja sobie czytam. Natomiast jak byście chcieli mnie zobaczyć w realu to pewnie będę na konferencjach takich jak na przykład z Zivcon w Trójmieście w Gdyni mówiąc dokładnie w czerwcu. Nie będą tam całkiem długo, więc bardzo polecam tą konferencję i zapraszam do ewentualnego kontaktu, zbicia piątki i tym podobnym."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "57:43",
+      "text": "No i super, dziękujemy. Zapraszamy w takim razie. Oczywiście profil na LinkedIna też podlinkujemy w odpowiednich miejscach. A za dzisiaj chyba już dziękujemy serdecznie. Było nam bardzo miło się z tobą spotkać i porozmawiać. I do zobaczenia, mam nadzieję."
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "58:01",
+      "text": "Dzięki za zaproszenie, dzięki za rozmowę."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "58:05",
+      "text": "Cześć!"
+    },
+    {
+      "speaker": "Wojtek Lesicki",
+      "time": "58:06",
+      "text": "Dzięki"
+    }
+  ]
+}

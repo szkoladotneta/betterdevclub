@@ -1,5 +1,81 @@
 [
   {
+    "id": 21,
+    "num": "21",
+    "title": "Better Dev Club #21 - Cyberbezpieczeństwo w czasach AI z Wojciechem Lesickim",
+    "date": "2026-03-26",
+    "notPublished": true,
+    "duration": "58:00",
+    "desc": "W tym odcinku naszym gościem jest Wojciech Lesicki – doświadczony bezpiecznik, aktualnie związany m.in. z threat assessmentem. Wychodzimy poza bańkę deweloperów i spoglądamy na sztuczną inteligencję okiem security. Dlaczego puszczanie narzędzi typu OpenClaw czy innych agentów \"na YOLO\" po firmowej sieci to proszenie się o kłopoty? Jak redaktorzy (ang. threat actors) wykorzystują AI w swojej robocie, a jak dzięki agentom i LLM-om próbują przyspieszyć swoją pracę specjaliści od cyber-sec? Rozmawiamy o zagrożeniach, zarządzaniu ryzykiem, odwadze instalowania nowinek, nowym skillu Tomasa Rocji oraz tym, o czym muszą pamiętać juniorzy i seniorzy w dobie gwałtownego przyspieszenia narzędzi. Bezpiecznik to nie zawsze człowiek w ciemnym kapturze siedzący w piwnicy – zapraszamy do posłuchania!",
+    "agenda": [
+      "00:00 - Przedstawienie gościa: Kim jest Wojciech Lesicki?",
+      "04:29 - Bezpiecznicy vs Deweloperzy – dlaczego nie wolno ściągać pierwszych z brzegu paczek z NPM",
+      "07:26 - Ścieżka menedżerska vs pozycja techniczna – dlaczego Wojtek (i Piotrek) zdecydowali się wrócić „do technologii”",
+      "13:22 - Adminowe fakapy, czyli jak odciąć się od RDP-a na serwerze",
+      "15:19 - Jak bezpiecznicy patrzą na szał wokół AI i na instalowanie OpenClawa „na YOLO”",
+      "22:28 - Jak z AI korzystają przestępcy (threat actorzy) i do czego wykorzystają LLM-y?",
+      "26:04 - Czym są „malicious skills” i jak się przed tym bronić (projekt Shield autorstwa Tomasa Rocji)",
+      "35:40 - Jak nadążyć za wdrożeniami AI w firmach, gdy po kilku dniach wszystko się zmienia?",
+      "38:15 - Jakich skilli uczyć się obecnie i gdzie szukać wiedzy (raporty cyber-sec oraz… umiejętności miękkie)",
+      "44:28 - Czy AI zabierze pracę juniorom w obszarze bezpieczeństwa (np. na pierwszej linii SOC)?",
+      "48:07 - Zmiany w rekrutacji i adaptacja młodych deweloperów do nowych narzędzi",
+      "54:15 - Nawyk, który odmienił karierę Wojtka",
+      "56:47 - Gdzie śledzić aktywność Wojtka"
+    ],
+    "tags": [
+      "#cyberbezpieczeństwo",
+      "#security",
+      "#ai",
+      "#openclaw",
+      "#threatactors",
+      "#infosec",
+      "#betterdevclub",
+      "#programowanie",
+      "#kariera",
+      "#llm",
+      "#soc",
+      "#sztucznainteligencja",
+      "#it"
+    ],
+    "platforms": {
+      "youtube": "",
+      "spotify": "",
+      "apple": ""
+    },
+    "resources": [
+      {
+        "type": "link",
+        "url": "https://www.linkedin.com/in/wojciechlesicki/",
+        "label": "Wojciech Lesicki na LinkedIn",
+        "description": "Profil naszego gościa na LinkedIn - śledź jego publikacje."
+      },
+      {
+        "type": "link",
+        "url": "https://www.youtube.com/watch?v=8k3_omLVsaY",
+        "label": "Wojciech Lesicki and Andrzej Agria: Attacking and Defending LLMs in Production Environments",
+        "description": "Prezentacja Wojtka i Andrzeja Agria na konferencji x33fcon"
+      },
+      {
+        "type": "link",
+        "url": "https://x.com/fr0gger_/status/2028014798546378938",
+        "label": "Post Tomas Rocja: Malware Reverse Engineering is no longer a human problem!",
+        "description": "Post Thomasa Roccia o jego keynote na konferencji odnośnie przyszłości niektórych umiejętności/wiedzy w IT security"
+      },
+      {
+        "type": "link",
+        "url": "https://blog.securitybreak.io/shield-md-a-security-standard-for-openclaw-and-ai-agents-b38637031460",
+        "label": "SHIELD.md: A Security Standard for OpenClaw and AI Agents",
+        "description": "Artykuł Thomasa Roccia o SHIELD.md - propozycja standardu security dla agentów"
+      },
+      {
+        "type": "link",
+        "url": "https://www.x33fcon.com/#!index.md",
+        "label": "Konferencja x33fcon",
+        "description": "Konferencja, na której można będzie spotkać Wojtka"
+      }
+    ]
+  },
+  {
     "id": 20,
     "num": "20",
     "title": "Better Dev Club #20 - Nasz stack AI, czyli jak kodują staff engineers",
