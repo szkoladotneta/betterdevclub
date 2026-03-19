@@ -17,28 +17,35 @@
             --spotify: #1DB954;
         }
 
+        * {
+            box-sizing: border-box;
+        }
+
         body {
             margin: 0;
-            padding: 0;
+            padding: 24px;
             background: var(--bg-dark);
             color: var(--white);
             font-family: 'Noto Sans', sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
-            overflow: hidden;
+            min-height: 100vh;
+            min-height: 100dvh;
+            overflow-x: hidden;
+            overflow-y: auto;
         }
 
         .canvas {
-            width: 1200px;
-            height: 675px; /* 16:9 for meetup screens */
+            width: min(1200px, 100%);
+            min-height: 675px; /* 16:9 baseline for meetup screens */
             background: var(--bg-dark);
             border: 1px solid rgba(255,255,255,0.1);
             position: relative;
             display: flex;
             box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
             overflow: hidden;
+            border-radius: 24px;
         }
 
         /* Diagonal color split */
@@ -111,7 +118,7 @@
 
         h1 {
             font-family: 'Space Grotesk', sans-serif;
-            font-size: 70px;
+            font-size: clamp(3rem, 6vw, 4.375rem);
             line-height: 0.95;
             margin: 0;
             text-transform: uppercase;
@@ -125,7 +132,7 @@
         }
 
         .tagline {
-            font-size: 24px;
+            font-size: clamp(1.125rem, 2.4vw, 1.5rem);
             color: var(--gray);
             margin: 20px 0;
             font-weight: 400;
@@ -156,6 +163,7 @@
             gap: 20px;
             margin-top: 25px;
             align-items: center;
+            flex-wrap: wrap;
         }
 
         .host-img {
@@ -178,9 +186,16 @@
             font-size: 11px;
         }
 
+        .host-logo {
+            margin-left: auto;
+            opacity: 0.8;
+            max-width: 70px;
+            height: auto;
+        }
+
         .qr-container {
-            width: 300px;
-            height: 300px;
+            width: min(300px, 100%);
+            aspect-ratio: 1 / 1;
             background: var(--white);
             border-radius: 20px;
             display: flex;
@@ -240,7 +255,7 @@
             flex-direction: column;
             gap: 15px;
             margin-bottom: 30px;
-            width: 300px;
+            width: min(300px, 100%);
         }
 
         .pod-link {
@@ -300,6 +315,18 @@
             padding-top: 15px;
         }
 
+        .cta-note {
+            margin-top: 25px;
+            margin-bottom: 0;
+            font-size: 16px;
+            opacity: 1;
+            text-align: center;
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            padding: 0 20px;
+        }
+
         .floating {
             animation: floating 3s ease-in-out infinite;
         }
@@ -308,6 +335,115 @@
             0% { transform: translateY(0px); }
             50% { transform: translateY(-10px); }
             100% { transform: translateY(0px); }
+        }
+
+        @media (max-width: 1100px) {
+            body {
+                padding: 20px;
+            }
+
+            .canvas {
+                min-height: auto;
+            }
+
+            .content,
+            .cta-area {
+                padding: 36px;
+            }
+        }
+
+        @media (max-width: 900px) {
+            body {
+                align-items: flex-start;
+            }
+
+            .canvas {
+                flex-direction: column;
+            }
+
+            .canvas::before {
+                top: auto;
+                bottom: 0;
+                right: 0;
+                width: 100%;
+                height: 40%;
+                transform: none;
+                border-left: none;
+                border-top: 1px solid rgba(19, 164, 236, 0.1);
+                background: radial-gradient(circle at 50% 100%, rgba(19, 164, 236, 0.1) 0%, rgba(10, 17, 20, 0) 70%);
+            }
+
+            .content,
+            .cta-area {
+                width: 100%;
+                padding: 32px 28px;
+            }
+
+            .cta-area {
+                border-left: none;
+                border-top: 1px solid rgba(255,255,255,0.1);
+            }
+
+            .features li {
+                align-items: flex-start;
+            }
+
+            .host-logo {
+                margin-left: 0;
+            }
+        }
+
+        @media (max-width: 640px) {
+            body {
+                padding: 12px;
+            }
+
+            .canvas {
+                border-radius: 18px;
+            }
+
+            .content,
+            .cta-area {
+                padding: 24px 18px;
+            }
+
+            .badge {
+                font-size: 12px;
+                letter-spacing: 1.5px;
+            }
+
+            .tagline {
+                margin: 16px 0 20px;
+            }
+
+            .features li {
+                font-size: 16px;
+            }
+
+            .yt-button,
+            .pod-links,
+            .qr-container {
+                width: 100%;
+                max-width: 300px;
+            }
+
+            .yt-button {
+                font-size: 18px;
+                padding: 14px 24px;
+            }
+
+            .pod-link {
+                font-size: 15px;
+                padding: 14px 20px;
+            }
+
+            .hosts {
+                gap: 14px;
+            }
+
+            .host-info {
+                flex-basis: 100%;
+            }
         }
 
     </style>
@@ -349,7 +485,7 @@
                     PROWADZĄ:<br>
                     <span>Piotrek & Kajetan</span>
                 </div>
-                <img src="img/bdc-logo-backgroundless-70x70.png" alt="BDC Logo" style="margin-left: auto; opacity: 0.8;">
+                <img src="img/bdc-logo-backgroundless-70x70.png" alt="BDC Logo" class="host-logo">
             </div>
         </div>
 
@@ -358,7 +494,7 @@
                 <i class="fab fa-youtube"></i> SUBSKRYBUJ
             </a>
 
-            <div class="pod-links" style="margin-bottom: 30px;">
+            <div class="pod-links">
                 <a href="https://open.spotify.com/show/4EdHJK4qpJYWeGBQicZsjK" class="pod-link spotify">
                     <i class="fab fa-spotify"></i>
                     <span>Spotify</span>
@@ -375,7 +511,7 @@
                 </div>
             </div>
 
-            <p style="margin-top: 25px; font-size: 16px; opacity: 1; text-align: center; font-family: 'Space Grotesk', sans-serif; font-weight: 700; letter-spacing: 0.5px;">
+            <p class="cta-note">
                 Wystarczy wpisać <span style="color: var(--accent);">Better Dev Club</span>
             </p>
         </div>
