@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Better Dev Club #20 - Nasz stack AI</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --black: #050510;
+            --white: #ffffff;
+            --accent: #a371f7;
+            --copilot-purple: #a371f7;
+            --opencode-blue: #3b82f6;
+            --claude-peach: #d97757;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Oswald', sans-serif;
+            overflow: hidden;
+        }
+
+        .container {
+            width: 1200px;
+            height: 630px;
+            display: flex;
+            position: relative;
+            background: var(--black);
+            overflow: hidden;
+            box-sizing: border-box;
+            border: 2px solid rgba(255, 255, 255, 0.05);
+        }
+
+        /* Tlo premium - fioletowy kod + gradient */
+        .bg-premium {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at 50% 100%, #1a0b2e 0%, var(--black) 80%);
+            z-index: 1;
+        }
+        .bg-premium::after {
+            content: "function startAI() {\n  const stack = {\n    editor: 'Github Copilot',\n    llm: 'Gemini 3.1 Pro',\n    agent: 'OpenCode'\n  };\n  return stack;\n}\n\nmodule.exports = startAI();";
+            position: absolute;
+            top: 10%;
+            left: 5%;
+            color: rgba(163, 113, 247, 0.15);
+            font-family: monospace;
+            font-size: 32px;
+            white-space: pre-wrap;
+            line-height: 1.5;
+            filter: blur(1px);
+        }
+
+        /* Postacie ostre z neonowym blaskiem */
+        .character {
+            position: absolute;
+            bottom: -50px;
+            width: 90%;
+            height: 100%;
+            z-index: 10;
+            background-image: url('poses-2.png');
+            background-size: contain;
+            background-position: center bottom;
+            background-repeat: no-repeat;
+            left: 50%;
+            transform: translateX(-50%);
+            filter: drop-shadow(-15px 0px 25px rgba(59, 130, 246, 0.7)) 
+                    drop-shadow(15px 0px 25px rgba(163, 113, 247, 0.7));
+        }
+
+        /* Czysty tytul premium */
+        .hook-header {
+            position: absolute;
+            top: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 100;
+            background: linear-gradient(90deg, var(--copilot-purple), var(--opencode-blue));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            padding: 10px 40px;
+            font-size: 50px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            white-space: nowrap;
+            filter: drop-shadow(0 0 15px rgba(163, 113, 247, 0.3));
+        }
+
+        /* Karty "czyste" z cieneim */
+        .facts-container {
+            position: absolute;
+            top: 135px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 16px;
+            z-index: 100;
+        }
+
+        .fact-item {
+            background: rgba(20, 15, 30, 0.85);
+            color: var(--white);
+            padding: 14px 35px;
+            font-size: 30px;
+            font-weight: 700;
+            text-transform: uppercase;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(12px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            min-width: 580px;
+            transition: all 0.3s ease;
+        }
+
+        .fact-icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 45px;
+            height: 45px;
+            font-size: 40px;
+        }
+
+        .badge {
+            position: absolute;
+            bottom: 110px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 100;
+            background: transparent;
+            color: rgba(255, 255, 255, 0.9);
+            padding: 10px 40px;
+            font-size: 24px;
+            font-weight: 700;
+            letter-spacing: 4px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 30px;
+            backdrop-filter: blur(5px);
+        }
+
+        .footer-cta {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(10, 5, 20, 0.95);
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 60px;
+            z-index: 200;
+            border-top: 1px solid rgba(163, 113, 247, 0.3);
+            box-sizing: border-box;
+            backdrop-filter: blur(10px);
+        }
+
+        .cta-text {
+            font-size: 34px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .cta-text span {
+            background: linear-gradient(90deg, #ff3e3e, #ff8c00);
+            padding: 4px 16px;
+            border-radius: 8px;
+            color: #fff;
+            font-size: 30px;
+        }
+
+        .platforms {
+            display: flex;
+            gap: 20px;
+        }
+
+        .platform-icon {
+            font-size: 35px;
+            background: rgba(255, 255, 255, 0.05);
+            color: white;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="bg-premium"></div>
+        
+        <div class="hook-header">TAK KODUJĄ STAFF ENGINEERS</div>
+        
+        <div class="facts-container">
+            <div class="fact-item">
+                <div class="fact-icon" style="color: var(--white);"><i class="fa-solid fa-layer-group"></i></div>
+                NASZ CODZIENNY STACK AI
+            </div>
+            <div class="fact-item">
+                <div class="fact-icon" style="color: #ffffff;"><i class="fa-brands fa-github"></i></div>
+                COPILOT CLI WRACA DO ŁASK
+            </div>
+            <div class="fact-item">
+                <div class="fact-icon">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.666 1.488a.333.333 0 01.666 0c0 5.485 4.542 9.948 10.05 10.012a.333.333 0 010 .666C16.874 12.23 12.333 16.694 12.333 22.18a.333.333 0 01-.666 0c0-5.485-4.542-9.948-10.05-10.012a.333.333 0 010-.666C7.126 11.438 11.666 6.974 11.666 1.488z" fill="#4a90e2"/>
+                    </svg>
+                </div>
+                OPENCODE + GEMINI 3.1 PRO
+            </div>
+            <div class="fact-item">
+                <div class="fact-icon">
+                    <svg width="35" height="35" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2L22 19H18.5L12 9L5.5 19H2L12 2Z" fill="#ffb499"/>
+                    </svg>
+                </div>
+                CZY CLAUDE CODE SIĘ KOŃCZY?
+            </div>
+        </div>
+
+        <div class="character"></div>
+
+        <div class="badge">SŁUCHAJ BETTER DEV CLUB #20</div>
+
+        <div class="footer-cta">
+            <div class="cta-text">
+                NOWY ODCINEK: <span>LINK W KOMENTARZU 👇</span>
+            </div>
+            
+            <div class="platforms">
+                <div class="platform-icon"><i class="fab fa-youtube" style="color: #ff3e3e;"></i></div>
+                <div class="platform-icon"><i class="fab fa-spotify" style="color: #1DB954;"></i></div>
+                <div class="platform-icon"><i class="fab fa-apple" style="color: #ffffff;"></i></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
