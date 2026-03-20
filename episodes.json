@@ -80,7 +80,6 @@
     "num": "20",
     "title": "Better Dev Club #20 - Nasz stack AI, czyli jak kodują staff engineers",
     "date": "2026-03-19",
-    "notPublished": true,
     "duration": "29:00",
     "desc": "Z jednej strony słyszymy, że AI zastąpi juniorów, a z drugiej ankiety krzyczą: to inżynierowie na poziomie Staff i Principal wyciskają z AI najwięcej! W tym odcinku wracamy na ziemię i zdradzamy nasz aktualny roboczy stack - to z czego korzystamy na co dzień. Tłumaczymy, dlaczego pomimo jesiennych zachwytów porzuciliśmy Gemini CLI i co sprawiło, że GitHub Copilot CLI wrócił do łask w świecie enterprise. Rozmawiamy o nowościach pokroju Copilot Cowork, mieszaniu modeli przez OpenCode (w tym najnowszego prosto z pieca Gemini 3.1 Pro) i zastanawiamy się jak ułożyć architekturę i zapanować nad stadem subagentów budując dobrą bazę wiedzy. Wjeżdżamy!",
      "agenda": [
@@ -111,9 +110,9 @@
       "#programowanie"
     ],
     "platforms": {
-      "youtube": "",
-      "spotify": "",
-      "apple": ""
+      "youtube": "https://youtu.be/snn78zeyqns",
+      "spotify": "https://open.spotify.com/episode/3looZe4DEwVL6ca9683m0S",
+      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club-20-nasz-stack-ai-czyli-jak-koduj%C4%85-staff/id1848840540?i=1000756103732"
     },
     "resources": [
       {
@@ -128,7 +127,10 @@
         "label": "The Pragmatic Engineer - AI Tooling 2026",
         "description": "Ankieta od Gergely Orosza do własnej oceny tego, kto korzysta z AI i jak bardzo."
       }
-    ]
+    ],
+    "youtubeId": "snn78zeyqns",
+    "guestKey": "piotrek"
+    
   },
   {
     "id": 19,
