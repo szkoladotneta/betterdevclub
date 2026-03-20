@@ -11,7 +11,7 @@
     <meta property="og:url" content="https://betterdevclub.com/">
     <meta property="og:title" content="Better Dev Club #20 - Nasz stack AI, czyli jak kodują staff engineers">
     <meta property="og:description" content="Z jednej strony słyszymy, że AI zastąpi juniorów, a z drugiej ankiety krzyczą: to inżynierowie na poziomie Staff i Principal wyciskają z AI najwięcej! W tym odcinku wracamy na ziemię i zdradzamy nasz aktualny roboczy stack - to z czego korzystamy na co dzień. Tłumaczymy, dlaczego pomimo jesiennych zachwytów porzuciliśmy Gemini CLI i co sprawiło, że GitHub Copilot CLI wrócił do łask w świecie enterprise. Rozmawiamy o nowościach pokroju Copilot Cowork, mieszaniu modeli przez OpenCode (w tym najnowszego prosto z pieca Gemini 3.1 Pro) i zastanawiamy się jak ułożyć architekturę i zapanować nad stadem subagentów budując dobrą bazę wiedzy. Wjeżdżamy!">
-    
+    <meta property="og:image" content="https://i.ytimg.com/vi/snn78zeyqns/maxresdefault.jpg">
     <link rel="shortcut icon" href="../img/favicon-32x32.png" type="image/png">
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Noto+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
@@ -973,7 +973,7 @@
             const [loading, setLoading] = useState(true);
 
             useEffect(() => {
-                const version = "d1de0e1a85";
+                const version = "a1c9e7f5ba";
                 Promise.all([
                     fetch(`/episodes.json?v=${version}`).then(res => res.json()),
                     fetch(`/speakers.json?v=${version}`).then(res => res.json())
