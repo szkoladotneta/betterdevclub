@@ -6,9 +6,9 @@
     "date": "2026-03-26",
     "notPublished": true,
     "duration": "58:00",
-    "desc": "W tym odcinku naszym gościem jest Wojciech Lesicki – doświadczony bezpiecznik, aktualnie związany m.in. z threat assessmentem. Wychodzimy poza bańkę deweloperów i spoglądamy na sztuczną inteligencję okiem security. Dlaczego puszczanie narzędzi typu OpenClaw czy innych agentów \"na YOLO\" po firmowej sieci to proszenie się o kłopoty? Jak redaktorzy (ang. threat actors) wykorzystują AI w swojej robocie, a jak dzięki agentom i LLM-om próbują przyspieszyć swoją pracę specjaliści od cyber-sec? Rozmawiamy o zagrożeniach, zarządzaniu ryzykiem, odwadze instalowania nowinek, nowym skillu Tomasa Rocji oraz tym, o czym muszą pamiętać juniorzy i seniorzy w dobie gwałtownego przyspieszenia narzędzi. Bezpiecznik to nie zawsze człowiek w ciemnym kapturze siedzący w piwnicy – zapraszamy do posłuchania!",
+    "desc": "Dlaczego instalowanie agentów AI i narzędzi typu OpenClaw w firmie \"na YOLO\" to proszenie się o katastrofę? Wychodzimy poza bańkę programistów i bierzemy sztuczną inteligencję pod lupę z perspektywy Security! W 21. odcinku naszym gościem jest Wojciech Lesicki – doświadczony specjalista od cyberbezpieczeństwa. Rozmawiamy o tym, jak cyberprzestępcy (ang. threat actors) automatyzują ataki przy użyciu LLM-ów, jak specjaliści cyber-sec odpowiadają tym samym i jak mądrze zarządzać ryzykiem w dobie \"agentic AI\". Omawiamy też odwagę do testowania nowinek, projekt Shield (Tomas Roccia) oraz to, o czym obecnie muszą pamiętać juniorzy i seniorzy. Zapraszamy do posłuchania!",
     "agenda": [
-      "00:00 - Przedstawienie gościa: Kim jest Wojciech Lesicki?",
+      "00:00 - Po drugiej stronie barykady: Kim jest Wojciech Lesicki?",
       "04:29 - Bezpiecznicy vs Deweloperzy – dlaczego nie wolno ściągać pierwszych z brzegu paczek z NPM",
       "07:26 - Ścieżka menedżerska vs pozycja techniczna – dlaczego Wojtek (i Piotrek) zdecydowali się wrócić „do technologii”",
       "13:22 - Adminowe fakapy, czyli jak odciąć się od RDP-a na serwerze",
@@ -23,22 +23,22 @@
       "56:47 - Gdzie śledzić aktywność Wojtka"
     ],
     "tags": [
-      "#cyberbezpieczeństwo",
-      "#security",
-      "#ai",
-      "#openclaw",
-      "#threatactors",
-      "#infosec",
-      "#betterdevclub",
-      "#programowanie",
-      "#kariera",
-      "#llm",
-      "#soc",
-      "#sztucznainteligencja",
-      "#it"
+      "betterdevclub",
+      "cyberbezpieczeństwo",
+      "ai",
+      "cybersecurity",
+      "openclaw",
+      "agenticai",
+      "llmsecurity",
+      "sztucznainteligencja",
+      "infosec",
+      "development",
+      "devsecops",
+      "devops",
+      "it"
     ],
     "platforms": {
-      "youtube": "",
+      "youtube": "https://youtu.be/JEtqTZ9QsEo",
       "spotify": "",
       "apple": ""
     },
@@ -73,7 +73,9 @@
         "label": "Konferencja x33fcon",
         "description": "Konferencja, na której można będzie spotkać Wojtka"
       }
-    ]
+    ],
+    "youtubeId": "JEtqTZ9QsEo",
+    "guestKey": "wojtek_lesicki"
   },
   {
     "id": 20,
