@@ -1,0 +1,174 @@
+{
+  "transcript": [
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:00",
+      "text": "Cześć Piotrek!"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:01",
+      "text": "Cześć Kajtek, co tam u Ciebie?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:04",
+      "text": "No, bardzo dużo się dzieje, bo nie wiem czy słyszałeś, ale dosłownie przedwczoraj, jeśli dobrze liczę nasze dni, wyciekł cały kod cały kod Claude Code'a wyciekł i oczywiście cały internet huczy na ten temat, bo wszystko się zmienia, Anthropic po prostu idzie na dno, teraz wszyscy dogonią Claude'a i właściwie wszystko jest pozamiatane, ludzie z Anthropica mogą się pakować. A ja myślę zupełnie na odwrót, myślę, że to absolutnie niczego nie zmieni."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:39",
+      "text": "Nie no bez przesady jak gdyby popatrz otworzyło się trochę może nagle Anthropic w ogóle zmieni swoje podejście bo dawno dawno temu za górami za lasami chyba w zeszłym roku dyskutowaliśmy jak to Gemini rozwijał swoje CLI w pełni w open source'ie Copilot chyba też jest open source'owy A czy nam się za tę głowę uciąć? Teraz jakoś mam wahanie Open Code jest open source'owy i tylko Claude Code"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "01:03",
+      "text": "Jest, jest,"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "01:09",
+      "text": "Nie jest. Więc słuchaj może Anthropic zmieni ogóle swoje podejście skoro kod im taki już wycięł. A dobra tak ogóle między nami poczekaj, nim pójdziemy ogóle dalej. Masz u siebie na dysku?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "01:23",
+      "text": "Nie. Bo ja nadal twierdzę, że to nic nie zmieni. No to super. I co? Zmieniło ci, zmieniło to jakoś twoje życie?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "01:25",
+      "text": "A ja mam. Jeszcze nie zdążyłem, zmieniło o tyle, mam, bo już zaczęły znikać, nie wiem czy zauważyłeś, ale Anthropic podniósł szum i z GitHuba zaczęły znikać kody źródłowe, może drogi słuchacze, może zrobimy krok w tym. 31 marca ktoś z Anthropica, prawdopodobnie ponieważ Claude Code jak wiesz drogi słuchacze, jest tworzony głównie za pomocą Claude Code'a"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "01:33",
+      "text": "Hahahaha"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "02:01",
+      "text": "to ktoś się stuknął albo nie zwalidował outputu AI'a i na NPM-a wleciała sourceMapa. SourceMapa jest takim kawałkiem dla JavaScriptu, który zawiera cały kod źródłowy, żeby łatwo się dobugowało. I każdej porządnej rzyjmy produkującej CI-CD, wrzucającej coś na NPM-a powinno być ignoreMap i ignore tam coś tam jeszcze, nie pamiętam jak jest na NDIU replika, ale coś tam jeszcze trzeba było... No i pewnie gitowe pliki też jakby ignorują, jeszcze chyba coś brakowało. Teraz wyszło na to, że jestem niekompetentnym devopsem. Ale trudno. No i wleciało, ktoś pobrał, jak już ktoś pobrał to momentalnie się rozprzestrzeniło. Dużo repozytorów powstało. Anthropic zaczął robić burzę, że trzeba ściągać. Pojawił się człowiek, nie pamiętam skąd jest, ale chyba z Korei. Może nie pamiętam skąd jest ta grupa, która wzięła ten kod i pomyślała sobie, ha, a jakbyśmy użyli z tego co pamiętam Codexa, a może i samego Claude Code'a, to przepiszmy to na Pythona. Zaraz potem ktoś pojawił to przepiszmy to na Rusta, bo wiesz drogi słuchaczu jak pomyślysz o tym to przepisany kod z JavaScriptu na Pythona albo na Rusta albo na cokolwiek innego pewnie Kajetan to by wybrał .NET z zasady żeby się samo poprzepisywało to już nie jest ten sam kod źródłowy."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "03:35",
+      "text": "Ha ha ha"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "03:41",
+      "text": "I nagle to jest ta rzecz, ja twierdzę, że się nie zmieni, a ja twierdzę, że się zmieni, bo tam kilka rzeczy, dobra, jest kilka rzeczy, które wyciekły, które nie są niczym wspaniałym, bo jest powiedziane, że jest referencja w kodzie do Opusa 47 i do Sonneta 48. Któż znalazł? Mogę linka dać, jest jak gdyby u nas na stronie. Jak drogi słuchaczu masz ochotę to zapraszamy do nas na stronie od razu Subscryb od razu Like albo Dislike kliknięcie do nas na stronę tam jest link i tam można między innymi przeczytać że jest Claude Code Capybara czyli ogóle New Model Family albo nawet Capybara V2 Fast więc z jedną milionowym oknem kontekstowym nie do końca wiadomo co to jest bo jak gdyby nie ten więc Capybara przychodzi jako Fast i przychodzi jako właśnie regular thinking tak jest to ładnie określone Opus 47 i Sonneta 48 czyli wyciekły to że mają planowane nowe modele i że mają planowaną nową linię Myślę że to jest akurat taki To jest akurat taka rzecz, może dużo nie zmieni, ale konkurencji właśnie dużo powiedziało. sensie, że w ogóle coś takiego jest. Druga rzecz, która... Moim zdaniem jak gdyby właśnie się zmienia to jest poza tym że powstały właśnie właśnie forki powstały w Ruście i w. Pythonie bodajże albo w czymkolwiek innym to, że użytkownicy nagle ludzie zaczną rzeczywiście analizować bo w przeciwie, bo na przykład jak weźmiemy sobie Claude Code'a no to Claude Code jest rozliczany w zasadzie za tokeny. Znaczy kupujesz licencje ale w zasadzie jesteś rozliczany za tokeny w przeciwieństwie do github Copilot gdzie jesteś charge'owany za request."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "05:27",
+      "text": "Pytanie."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "05:52",
+      "text": "Więc nagle ludzie mogą zacząć czuć potrzebę optymalizacji jak zredukować liczbę używanych szybko tokenów. Bo skoro mają już kod źródłowy a oni za to płacą Claude Code za to nie płaci więc im aż tak nie zależy. Można powiedzieć w drugą stronę. Im bardzo zależy by jak najwięcej żebyś spalał. Więc myślę że ludzie bardzo szybko wyciągną rzeczy które można zrobić bardziej optymalnie. To jest druga rzecz moim zdaniem która się się znowu czy to duża zmiana czy nie. To zobaczymy. I trzecia rzecz, którą jak gdyby można było doszukać, jest, że w ogóle jest tam coś takiego jak instytucja Badiego, która jak gdyby z tobą, nie wiem, ładnie jest to opisane jako Tamagotchi Inside Your Terminal. Czyli masz Tamagotchi style, zwierzątko. Jak drogi słuchacze jesteś na tyle młody i nie wiesz czym jest Tamagotchi to przepraszam, ale jak jesteś na tyle stary, że jeszcze nie wiesz czym jest Tamagotchi to tym bardziej przepraszam. Ale jak gdyby większość ludzi w tym kraju wie czym jest Tamagotchi, a jak nie to jest jak się nazywa ten piosenkarz. Kurna, rapej w zasadzie. No i wleciał on."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "07:06",
+      "text": "i bona fide."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "07:09",
+      "text": "O właśnie i on ma piosenkę O Tamagotchi, więc można sobie wyrazić co oczywiście właśnie posłuchać. Jezu jestem zbyt zmęczony dzisiaj, że wylatują mi nazwiska. No więc to są takie trzy fajne rzeczy, które jak gdyby myślę, że może nie dadzą dużo komunity, ale dadzą dużo konkurencji."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "07:35",
+      "text": "I tu nadal się nie zgodzę. Tu nadal się nie zgodzę. To znaczy powiem Ci tak. Z jednej strony jest spora szansa, że oni teraz z Claude Codem pójdą open source'owo. To mógłby być nie głupi ruch, a przynajmniej gdzieś tam częściowo otworzyć się na ten świat, bo to co się stało jest... dobre dla community o tyle, że... Teraz od wczoraj na LinkedInie mam wrażenie, że wielu AI-owych guru zostało mocno zweryfikowanych w kontekście tego, jakie głupoty wypisują. Jakie głupoty wypisują i jak bardzo się jarają... Nie, muszę to powiedzieć. Jak bardzo się jarają, prostu jaka to wielka magia się nagle dzieje w..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "08:27",
+      "text": "O, daj spokój."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "08:38",
+      "text": "w Claude Codzie, że nagle odkryli po prostu coś takiego jak system prompty. Nagle odkryli, że ten Claude Code to jest coś więcej niż LLM, tylko że to jest właśnie coś, co jeszcze nam ładnie opakowuje do tego, żeby te LLM działały lepiej, żeby one robiły właściwie to, do czego zostały stworzone, bo... Cała masa ludzi i ludzi, którzy próbują przekonać nas do tego, że AI i tylko AI, nagle okazuje się, że nie miało nigdy styczności z takim czystym modelem. I dla nich to jest wielka magia, bo nigdy oczywiście nie zaglądali do tego kodu. A teraz się okazuje, że tam jest po prostu cała masa takiej bardzo dobrej i... mimo wszystko takiej starej inżynierii, która sprawia, że te narzędzia po prostu z każdym tygodniem właściwie działają lepiej. Natomiast też wydaje mi się, że sam wyciek tego kodu konkurencji nie da aż tak bardzo dużo. Bo wbrew pozorom to ci ludzie bardzo mocno ze sobą współpracują. i myślę, że spokojnie o tym mogę powiedzieć, apropo tego, czego się ostatnio w Redmond dowiedziałem. inżynierowie z Microsoftu i inżynierowie z GitHuba na co dzień mają kontakt z inżynierami z Anthropica i z Google'a. Oni siedzą i wspólnie myślą nad tym, jakie nowości wprowadzić do tych aplikacji typu Copilot, typu Claude Code i tak dalej. I to nie jest przypadek, że w jednym tygodniu Claude Code wypuści taką funkcję. Za tydzień ta sama funkcja pojawia się w Gemini, w kolejnym tygodniu w Copilocie, w jeszcze kolejnym Copilocie się jeszcze coś innego pojawia, jeszcze kolejnym znowu Claude Code kopiuje tą samą funkcjonalność. To nie jest tak, że oni nagle, o Jezu, Boże, Claude Code wypuścił nową funkcjonalność, musimy ją jak najszybciej dowieźć. bo nam uciekną. Nie, oni jak wszyscy inni ludzie dzwonią do siebie i mówią słuchajcie, robimy to, robimy tamto, a jak zrobiliście to, o zajebiście, to my też to tak zrobimy. I tak to właśnie wygląda. Więc nie, to absolutnie konkurencji też nic nie da. Ewentualnie oprócz tego faktycznie, że dowiedzieli się o czym mogli nie wiedzieć, że szykowane są jakieś inne modele, szykowana jest jakaś inna rodzina, coś w tych modelach może się... ale poza tym to jest wszystko tylko i wyłącznie narzędzie. A jeżeli ktoś nie rozumiał jak te narzędzia działają do tej pory i nagle jest zachwycony jeeeaa co tam się dzieje... No to cóż, to jego problem. Dokładnie tak. Tak, tak, to prawda."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "11:47",
+      "text": "To jego problem. To jest jego problem. Pamięćmy szczerze. Ale w sensie, jak gdyby rzeczywiście, dobra, okej, jak gdyby przyjmuję twarę argumenty, zbiję się w pierś, rzeczywiście to nie jest, to w ogóle nie jest rewolucja, w sensie znowu jak gdyby mamy, mamy szum w sieci, to nie jest rewolucja, a w zasadzie, płączmy szczerze, nawet jeżeli by ci inżynierowie w ogóle ze sobą nie gadali, Jak dodasz funkcję pod tytułem, nie wiem. przypomnij mi Krone to naprawdę zaimplementowanie takiej funkcji jak wiesz mniej więcej jak ona działa żeby działała podobnie w innym narzędziu to nie jest dużo roboty czasami może i jest czasami to nie są godziny tylko to są tygodnie ale nie jest aż taki straszny problem bądźmy szczerzy trzeba tylko stwierdzić że to jest rzeczywiście ten kawałek który chcę Dla mnie to największe tentu jest to, że konkurencja się dowiedziała dość jawnie co tak naprawdę w miarę najbliższym czasie może się po prostu w tym Claude Codzie pojawić. Jakie oni mają bety. Bo to nawet nie jest to, że jakie feature wjadą czy nie wjadą tylko, na co tak naprawdę Anthropic w tej chwili obstawia."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "13:16",
+      "text": "To jak najbardziej się zgadzam."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "13:17",
+      "text": "Szczególnie że na przykład nie wiem body jest zasłonięty, compile tam feature flagą. to wiesz żeby to włączyć ale z drugiej strony nie body no to można powiedzieć to powoli jest taki kawałek jak wiesz jak to co można powiedzieć że już od dawna Claude robi czyli trochę zabiera feature z open Claw. Także takie feature z open Claw się pojawiają że możesz pogadać przez tam signala czy tam inne badziewie."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "13:23",
+      "text": "Mhm."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "13:46",
+      "text": "Możesz oczywiście za aplikację i możesz już zrobić jakiś schedule wewnątrz tego. To są takie, wiesz, feature, które jak gdyby ja się zachwytam, chociaż ostatnio się przyznam, że zdeinstalowałem, przestałem być potrzebny. Właśnie w OpenClone to te rzeczy zaczynają się po prostu pojawiać w Cloud Codzie. Znaczy, nie używam Claude Code'a, ale zrobię coś innego."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "14:10",
+      "text": "Boże. Piekło zamarzło, jedyny orędownik OpenClaw instalował OpenClaw w Polsce. Już tylko chyba Maciek Aniserowicz."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "14:20",
+      "text": "Nie no, teraz tych in orędowników to już jest całkiem dużo, wiesz. Ja to jestem po prostu ten early adopter i ja już jestem alt, nie? gdyby... Teraz wchodzą Ci wszyscy, którzy... Wszyscy wchodzą Ci wszyscy, którzy jak gdyby teraz to dopiero odkrywały i mówili jak to wspaniałe, nie? Ja już jestem early adopter, to ja już dawno straciłem fokus na tym, to już są następne narzędzia w ogóle. Nie ma o czym gadać, Ale to może nie dzisiaj."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "14:28",
+      "text": "Ale na ewangelistę się nie... A właśnie może jest o czym gadać, ale to już nie dzisiaj. No dobra, no to ostatecznie stwierdzamy, nic się nie zmieniło, żyjemy sobie dalej. Ja poczekam na to Tamagotchi faktycznie."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "15:00",
+      "text": "Nie poczekaj. nie nie. Wszystko się zmieniło i zrobiliśmy obrót od 360 stop."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "15:08",
+      "text": "Dokładnie, dokładnie. To jest świetne podsumowanie. To jest świetne podsumowanie. Ja bym się jeszcze w ogóle nie zdziwił, gdyby ogóle ta SourceMapa miała być ostatecznie easter eggiem i tylko chcieli sprawdzić, czy ktoś to odkryje i jak szybko. Dzisiaj jak nagrywamy, mamy pierwszy kwietnia, zaraz wielkanoc, może chcieli zrobić taką niespodziankę wielkanocną wszystkim. I realnie to taki coming out. Chcieliby ci Open Source, tylko nie wiedzieli jak wszystkim powiedzieć."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "15:44",
+      "text": "Niech ci będzie. Ale jest tylko... ale wiesz co? Ale to sumie będzie fajny przykład, tak zupełnie szczerze. Jeszcze może taki wniosek na sam koniec. W firmach, które próbują uproduktować szeroko ten AI, nie chcą żeby wyciekło ich własność intelektualna, czyli zwane popularnie IP z amerykańska. I mają wpisane zapisy typu, że nic nie powinno wyciec. A tu sam wiesz. I teraz weź to zdarz z tym, że narzędzie, które go używają, samo wyciekło swoją własność intelektualną. To Internet. Ale to zobaczymy. Obród o 360 stopni, totalna zmiana wszystkiego. Jedziemy dalej do przodu."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "16:33",
+      "text": "Dokładnie. I w związku z tym widzimy się za tydzień, pewnie z kolejną dramą, a może w końcu z czymś sensownym. Natomiast ciebie, drogi wizu, jak zwykle, jeżeli jeszcze tu z nami jesteś, subskrybuj, lajkuj, komentuj, podziel się swoim zdaniem na temat tego, jak bardzo twoje życie się zmieniło od kiedy zobaczyłeś kod Claude Code'a i jak... albo nas, no właśnie, bo nie widziałeś nas już od tygodnia."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "16:56",
+      "text": "Albo nas. Albo nas."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "17:02",
+      "text": "Także do zobaczenia i trzymajcie się."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "17:08",
+      "text": "See you!"
+    }
+  ]
+}
