@@ -1,5 +1,68 @@
 [
   {
+    "id": 22,
+    "num": "22",
+    "title": "Better Dev Club #22 - Genialny easter egg czy wpadka DevOpsa? Kto stoi za wyciekiem Claude Code?",
+    "date": "2026-04-01",
+    "notPublished": true,
+    "duration": "17:10",
+    "desc": "Czy wyciek kodu Claude Code (Anthropic) to rewolucja w świecie AI? Dyskutujemy o konsekwencjach wycieku dla branży, co nam to mówi o nadchodzących modelach, jak wpłynie na konkurencję (OpenDevin, Copilot, Gemini). Zastanawiamy się czy to klęska czy może po prostu primaaprilisowy żart.",
+    "agenda": [
+      "00:00 - Cześć!",
+      "00:04 - Wyciek kodu Claude Code - internet huczy",
+      "01:25 - Jak doszło do wycieku przez source mapy na NPM?",
+      "03:41 - Co wiemy z kodu? Nowe modele Claude: Opus 47, Sonnet 48 i Capybara",
+      "05:52 - Model rozliczeniowy za tokeny, a powstawanie portów (np. Rust, Python)",
+      "07:06 - Tamagotchi w terminalu",
+      "08:38 - System prompty czy zaawansowana inżynieria LLM?",
+      "11:47 - Czego dowiaduje się konkurencja i czy giganci rynkowi i tak ze sobą nie rozmawiają?",
+      "15:08 - A może to easter egg na Prima Aprilis?",
+      "16:33 - Zakończenie odcinka"
+    ],
+    "tags": [
+      "betterdevclub",
+      "ai",
+      "claudecode",
+      "anthropic",
+      "opencode",
+      "claude",
+      "openai",
+      "llm",
+      "github",
+      "githubcopilot",
+      "it",
+      "copilot",
+      "gemini",
+      "programowanie",
+      "security"
+    ],
+    "platforms": {
+      "youtube": "",
+      "spotify": "",
+      "apple": ""
+    },
+    "resources": [
+      {
+        "type": "link",
+        "url": "https://github.com/instructkr/claw-code",
+        "label": "Rewriting Project Claw Code",
+        "description": "Repo z przepisaniem Claude Code do Python i Rust z użyciem Codex."
+      },
+      {
+        "type": "link",
+        "url": "https://kuber.studio/blog/AI/Claude-Code's-Entire-Source-Code-Got-Leaked-via-a-Sourcemap-in-npm,-Let's-Talk-About-it",
+        "label": "Claude Code's Entire Source Code Got Leaked via a Sourcemap in npm, Let's Talk About it",
+        "description": "Analiza znalezisk w wycieku w tym Buddy czyli Tamagotchi, nowe modele i nowa linia modeli"
+      },
+      {
+        "type": "link",
+        "url": "https://github.com/Kuberwastaken/claurst",
+        "label": "ClauRust",
+        "description": "Inny port Claude Code do Rust"
+      }
+    ]
+  },
+  {
     "id": 21,
     "num": "21",
     "title": "Better Dev Club #21 - Cyberbezpieczeństwo w czasach AI z Wojciechem Lesickim",
@@ -84,7 +147,7 @@
     "date": "2026-03-19",
     "duration": "29:00",
     "desc": "Z jednej strony słyszymy, że AI zastąpi juniorów, a z drugiej ankiety krzyczą: to inżynierowie na poziomie Staff i Principal wyciskają z AI najwięcej! W tym odcinku wracamy na ziemię i zdradzamy nasz aktualny roboczy stack - to z czego korzystamy na co dzień. Tłumaczymy, dlaczego pomimo jesiennych zachwytów porzuciliśmy Gemini CLI i co sprawiło, że GitHub Copilot CLI wrócił do łask w świecie enterprise. Rozmawiamy o nowościach pokroju Copilot Cowork, mieszaniu modeli przez OpenCode (w tym najnowszego prosto z pieca Gemini 3.1 Pro) i zastanawiamy się jak ułożyć architekturę i zapanować nad stadem subagentów budując dobrą bazę wiedzy. Wjeżdżamy!",
-     "agenda": [
+    "agenda": [
       "00:00 - Kto najbardziej korzysta z AI? Spoiler: Nie juniorzy",
       "02:21 - Od czego zaczynamy dzień? Kajetan o Copilot CLI",
       "03:50 - Piotrek i OpenCode (oraz \"wyzwania\" trybu Enterprise)",
@@ -132,7 +195,6 @@
     ],
     "youtubeId": "snn78zeyqns",
     "guestKey": "piotrek"
-    
   },
   {
     "id": 19,
@@ -196,7 +258,17 @@
     "date": "2026-03-04",
     "duration": "18:25",
     "desc": "Jeden blogpost Anthropica o COBOL-u sprawił, że akcje IBM tąpnęły o 20%. Dlaczego giełda panikuje? Analizujemy geopolityczny chaos: od uznania Claude'a za 'Supply Chain Risk' przez administrację Trumpa, przez atak na datacenter AWS w Emiratach, aż po kontrowersyjne subskrypcje Katy Perry. Czy OpenAI to nowy 'Open-Closed Principle'? Sprawdzamy, dlaczego powrót do podstaw i niezależność od narzędzi AI to jedyny sposób na przetrwanie w dobie cyfrowej inwigilacji i wojen technologicznych. 'Polityka uderza w IT mocniej niż kiedykolwiek'.",
-    "tags": ["#anthropic", "#claude", "#ibm", "#cobol", "#cybersecurity", "#supplychain", "#aws", "#openai", "#betterdevclub"],
+    "tags": [
+      "#anthropic",
+      "#claude",
+      "#ibm",
+      "#cobol",
+      "#cybersecurity",
+      "#supplychain",
+      "#aws",
+      "#openai",
+      "#betterdevclub"
+    ],
     "platforms": {
       "youtube": "https://youtu.be/FnW4W_WPjmc",
       "spotify": "https://open.spotify.com/episode/3Um5ubINmZHFfgNhog0owG?si=5ziAIjXhSW-nO3KWF9k_Ow",
@@ -243,8 +315,16 @@
     "title": "Better Dev Club #17 - Od aktora do architekta jutra. Gość: Tomek Ducin.",
     "date": "2026-02-24",
     "duration": "56:42",
-    "desc": "Tomek Ducin \u2013 znany architekt, prelegent i \u201edeweloper jutra\u201d \u2013 dzieli się swoją historią: od teatralnych desek Gardzienic po stabilność w świecie IT. Rozmawiamy o tym, dlaczego \u201evibe coding\u201d (lub Agentic Coding) to nieuchronna przyszłość, jak uniknąć systemów zombie i czy seniorzy, którzy unikają AI, mają jeszcze miejsce na rynku w 2026 roku. Czy AI zastąpi architektów, czy może tylko ich usprawni? \u201eVibe-owanie aplikacji podczas maratonu to już poziom TikToka\u201d.",
-    "tags": ["#ai", "#architecture", "#tomekducin", "#vibecoding", "#agenticAI", "#betterdevclub", "#career"],
+    "desc": "Tomek Ducin – znany architekt, prelegent i „deweloper jutra” – dzieli się swoją historią: od teatralnych desek Gardzienic po stabilność w świecie IT. Rozmawiamy o tym, dlaczego „vibe coding” (lub Agentic Coding) to nieuchronna przyszłość, jak uniknąć systemów zombie i czy seniorzy, którzy unikają AI, mają jeszcze miejsce na rynku w 2026 roku. Czy AI zastąpi architektów, czy może tylko ich usprawni? „Vibe-owanie aplikacji podczas maratonu to już poziom TikToka”.",
+    "tags": [
+      "#ai",
+      "#architecture",
+      "#tomekducin",
+      "#vibecoding",
+      "#agenticAI",
+      "#betterdevclub",
+      "#career"
+    ],
     "platforms": {
       "youtube": "https://youtu.be/tuFBcbrBFCU",
       "spotify": "https://open.spotify.com/episode/2jH6k86F08BOqqJG5lQQey?si=gm6QgSeKTe6MFXKd2aDthQ",
@@ -281,7 +361,14 @@
     "date": "2026-02-19",
     "duration": "23:28",
     "desc": "Czy AI faktycznie potrafi zbudować kompilator języka C albo przeglądarkę internetową od zera? Analizujemy głośne eksperymenty Anthropica i Cursora. Rozmawiamy o tym, dlaczego 3 miliony dolarów wydane na kodowanie przeglądarki to przepis na katastrofę, dlaczego agenci AI unikają trudnych zadań i czy subskrypcja za 500 dolarów miesięcznie to nowa norma w IT. „Agenta kodowania nie zostawisz samego”.",
-    "tags": ["#ai", "#cursor", "#claude", "#anthropic", "#coding", "#betterdevclub"],
+    "tags": [
+      "#ai",
+      "#cursor",
+      "#claude",
+      "#anthropic",
+      "#coding",
+      "#betterdevclub"
+    ],
     "platforms": {
       "youtube": "https://youtu.be/wlkVnriPGYA",
       "spotify": "https://open.spotify.com/episode/5hjVwyaNVzHIQzyiVTrgFi",
@@ -330,7 +417,14 @@
     "date": "2026-02-12",
     "duration": "20:15",
     "desc": "Rozmawiamy o Skillach, agents.md i standardach w świecie agentic AI. Czy Vercel i Anthropic stworzyli coś, co faktycznie działa, czy może zwykły plik tekstowy z instrukcjami wciąż wygrywa? Sprawdzamy sukcesy i porażki nowej fali standardów dla agentów.",
-    "tags": ["#ai", "#agents", "#skills", "#vercel", "#anthropic", "#betterdevclub"],
+    "tags": [
+      "#ai",
+      "#agents",
+      "#skills",
+      "#vercel",
+      "#anthropic",
+      "#betterdevclub"
+    ],
     "platforms": {
       "youtube": "https://youtu.be/lynrN0dMOLY",
       "spotify": "https://open.spotify.com/episode/3c3viM2HfzhWOgsKD2uJTi",
@@ -361,7 +455,14 @@
     "date": "2026-02-05",
     "duration": "22:46",
     "desc": "Clawdbot? Moltbot? Czy OpenClaw? Bez względu na nazwę jest to jeden z najbardziej gorących tematów ostatnich dni. W tym odcinku sprawdzamy, czy to narzędzie, które święty graal agentic AI, czy może tylko niebezpieczna zabawka w rękach nieodpowiedzialnych ludzi.",
-    "tags": ["#clawdbot", "#moltbot", "#openclaw", "#agenticAI", "#security", "#betterdevclub"],
+    "tags": [
+      "#clawdbot",
+      "#moltbot",
+      "#openclaw",
+      "#agenticAI",
+      "#security",
+      "#betterdevclub"
+    ],
     "platforms": {
       "youtube": "https://youtu.be/1gDzn-SHxSw",
       "spotify": "https://open.spotify.com/episode/7t7Drh3M65rSlQrwwjuXop?si=Nqq3lxqQQCWJuR5T4Wn5uA",
@@ -386,7 +487,13 @@
     "date": "2026-01-29",
     "duration": "22:23",
     "desc": "❄️ Piekło (znowu) zamarzło w IT ❄️ Linus Torvalds i DHH, którzy kojarzą się z najbardziej tradycyjnym podejściem do kodu, zaczęli mówić o Vibe Coding. W tym odcinku sprawdzamy, czy to rewolucja czy ewolucja w branży IT.",
-    "tags": ["#linustorvalds", "#dhh", "#vibecoding", "#programowanie", "#betterdevclub"],
+    "tags": [
+      "#linustorvalds",
+      "#dhh",
+      "#vibecoding",
+      "#programowanie",
+      "#betterdevclub"
+    ],
     "platforms": {
       "youtube": "https://youtu.be/giOy7r93pCk",
       "spotify": "https://open.spotify.com/episode/2L6Iz1GSQgbOEhCeimM76n?si=Dws0WyPsQmq-YkstgQP01A",
@@ -417,7 +524,11 @@
     "date": "2026-01-22",
     "duration": "20:00",
     "desc": "Rozmawiamy o tym, jak AI może analizować nasze dane biologiczne, w tym sen, aby wykrywać ryzyko chorób. Czy nasze smartwatche staną się naszymi lekarzami pierwszego kontaktu?",
-    "tags": ["#ai", "#health", "#biohacking"],
+    "tags": [
+      "#ai",
+      "#health",
+      "#biohacking"
+    ],
     "platforms": {
       "youtube": "https://www.youtube.com/playlist?list=PLfYUBxD2uoi6rCgRWK0SYD33M_T6JPMm1",
       "spotify": "https://open.spotify.com/show/4EdHJK4qpJYWeGBQicZsjK",
@@ -447,7 +558,12 @@
     "date": "2026-01-15",
     "duration": "20:03",
     "desc": "Drama w Tailwindzie, 75% zwolnień (czyli trzech ludzi) i upadek giganta – Stack Overflow. Rozmawiamy o tym, czy AI faktycznie zabiera nam pracę, czy tylko ją zmienia na przykładzie Adama Wathana i jego walki o ruch na dokumentacji. Analizujemy nowe partnerstwa z Vercelem i Google AI Studio oraz zastanawiamy się, skąd modele AI będą czerpać wiedzę za 5 lat, skoro Stack Overflow świeci pustkami. „Piotrek robi takie cuda w JSON-ach, że naprawdę palce lizać”.",
-    "tags": ["#ai", "#tailwind", "#stackoverflow", "#career"],
+    "tags": [
+      "#ai",
+      "#tailwind",
+      "#stackoverflow",
+      "#career"
+    ],
     "platforms": {
       "youtube": "https://www.youtube.com/playlist?list=PLfYUBxD2uoi6rCgRWK0SYD33M_T6JPMm1",
       "spotify": "https://open.spotify.com/show/4EdHJK4qpJYWeGBQicZsjK",
@@ -483,7 +599,11 @@
     "date": "2026-01-08",
     "duration": "25:00",
     "desc": "Wchodzimy w 2026 rok z prognozami, które albo uczynią nas bogatymi, albo przynajmniej dadzą nam temat do narzekania. Koniec vibe-codingu, dominacja monorepo, bo AI lepiej ogarnia jeden katalog niż dziesięć, i wielka nadzieja na migrację systemów legacy. Zastanawiamy się, czy faktycznie przepisanie systemu z Delphi na Pythona w weekend to rzeczywistość, czy tylko mokry sen inwestorów z Factory AI. Czy inżynierowie wciąż będą potrzebni, czy zostaniemy tylko 'tłumaczami' wymagań biznesowych na język ludzki? „Każdy głupi umie zbudować pipeline CI/CD. Gorzej jest go zbudować prosty, powtarzalny i tani”. ",
-    "tags": ["#ai", "#future", "#predictions"],
+    "tags": [
+      "#ai",
+      "#future",
+      "#predictions"
+    ],
     "platforms": {
       "youtube": "https://www.youtube.com/playlist?list=PLfYUBxD2uoi6rCgRWK0SYD33M_T6JPMm1",
       "spotify": "https://open.spotify.com/show/4EdHJK4qpJYWeGBQicZsjK",
@@ -499,14 +619,18 @@
     "date": "2026-01-01",
     "duration": "24:20",
     "desc": "Wojna na benchmarki trwa w najlepsze, a my sprawdzamy, czy Gemini 3 Flash faktycznie jest tak genialny, czy po prostu Google umie w marketing lepiej niż w nazewnictwo produktów. Porównujemy ELO score największych modeli i zastanawiamy się, czy senior dewelopera zastąpi dziesięciu junior-modeli. Meta kupiła Manus AI, co sugeruje, że Mark Zuckerberg jednak nie chce zostać tylko w świecie okularów Ray-Bana. Czy 'Humanity's Last Exam' to faktycznie ostatni test naszej inteligencji, czy po prostu kolejny zbiór pytań, na których polegamy? „Piotrek mi powiedział, żeby nic nie robił, bo za pół roku zmienię subskrypcję i nie będę wiedział jak przenieść pliki”.",
-    "tags": ["#ai", "#benchmarks", "#performance"],
+    "tags": [
+      "#ai",
+      "#benchmarks",
+      "#performance"
+    ],
     "platforms": {
       "youtube": "https://www.youtube.com/playlist?list=PLfYUBxD2uoi6rCgRWK0SYD33M_T6JPMm1",
       "spotify": "https://open.spotify.com/show/4EdHJK4qpJYWeGBQicZsjK",
       "apple": "https://podcasts.apple.com/us/podcast/better-dev-club/id1848840540"
     },
     "resources": [
-      { 
+      {
         "type": "link",
         "label": "Benchmark AI",
         "url": "https://artificialanalysis.ai/evaluations/gdpval-aa?models=grok-chatbot%2Cgpt-5-2%2Cgpt-5-1%2Cgpt-5-1-codex%2Cgemini-3-pro%2Cgemini-3-flash-reasoning%2Cclaude-4-5-sonnet-thinking%2Cclaude-opus-4-5-thinking%2Cdeepseek-v3-1-terminus-reasoning%2Cgrok-4-fast-reasoning%2Cgrok-4-1-fast-reasoning&gdpval-score-comparisons=gdpval-vs-intelligence-index",
@@ -529,7 +653,11 @@
     "date": "2025-12-25",
     "duration": "20:23",
     "desc": "Retrospekcja roku 2025: od zachwytów nad Stable Diffusion po marzenia o byciu hydraulikiem, żeby uciec przed Skynetem. Omawiamy, dlaczego w dobie AI 'brzydota' i ludzka niedoskonałość stają się luksusem w social mediach. Cieszymy się z lokalnych baz wiedzy i tego, że narzędzia wreszcie zaczynają działać na naszych danych, a nie tylko na halucynacjach. Jakie mamy marzenia na 2026? Mniej hype'u, więcej standardów i może wreszcie polski Bielik, który odróżni polewkę od nalewki. „Brzydota będzie w cenie... szukamy tego nieperfekcjonizmu, który daje nam komunikacja ludzka”.",
-    "tags": ["#weekly", "#tools", "#tech"],
+    "tags": [
+      "#weekly",
+      "#tools",
+      "#tech"
+    ],
     "platforms": {
       "youtube": "https://www.youtube.com/playlist?list=PLfYUBxD2uoi6rCgRWK0SYD33M_T6JPMm1",
       "spotify": "https://open.spotify.com/show/4EdHJK4qpJYWeGBQicZsjK",
@@ -546,7 +674,11 @@
     "date": "2025-12-18",
     "duration": "20:03",
     "desc": "Agentic AI Foundation wjechała na białym koniu pod banderą Linux Foundation, a my sprawdzamy, kto za to płaci i po co. Analizujemy standardy takie jak MCP, Agents.md i tajemniczego Goose'a, który ma być 'runtime'em' dla naszych agentów. Rozmawiamy o bezpieczeństwie w świecie AI, gdzie na razie największym zabezpieczeniem jest modlitwa o to, żeby junior nie wpisał złego prompta. Czy standaryzacja uratuje nas przed wojną korporacji na niekompatybilne słuchawki... wróć, modele? „Może w końcu uda nam się zabezpieczyć bazy danych przed juniorami, którzy mają zbyt dużo dostępów”.",
-    "tags": ["#ai", "#agents", "#weekly"],
+    "tags": [
+      "#ai",
+      "#agents",
+      "#weekly"
+    ],
     "platforms": {
       "youtube": "https://www.youtube.com/playlist?list=PLfYUBxD2uoi6rCgRWK0SYD33M_T6JPMm1",
       "spotify": "https://open.spotify.com/show/4EdHJK4qpJYWeGBQicZsjK",
@@ -570,7 +702,11 @@
     "date": "2025-12-11",
     "duration": "25:31",
     "desc": "Wyszedł .NET 10 LTS i jest... nudno, czyli dokładnie tak, jak specjaliści lubią najbardziej. Dostajemy 30% wydajności za darmo, a Steven Taub tradycyjnie napisał o tym 70 stron artykułu, którego nikt nie przeczytał bez pomocy AI. Rozprawiamy o nowym cukrze składniowym, ucieczce Blazora przed przeznaczeniem i o tym, dlaczego 'primary constructors' wciąż dzielą programistów na obozy. Czy warto aktualizować biblioteki tylko dla 10 nanosekund oszczędności przy JSON-ach? „Steven Taub pisze artykuł na temat zmian performansowych co roku... jest tak nudny, jak to tylko możliwe”.",
-    "tags": [".net", "microsoft", "weekly"],
+    "tags": [
+      ".net",
+      "microsoft",
+      "weekly"
+    ],
     "platforms": {
       "youtube": "https://www.youtube.com/playlist?list=PLfYUBxD2uoi6rCgRWK0SYD33M_T6JPMm1",
       "spotify": "https://open.spotify.com/show/4EdHJK4qpJYWeGBQicZsjK",
@@ -580,7 +716,7 @@
       {
         "type": "link",
         "label": ".NET 10 Release Notes",
-        "url":  "https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-10/overview",
+        "url": "https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-10/overview",
         "description": "Oficjalne notatki dotyczące wydania .NET 10."
       },
       {
@@ -600,7 +736,11 @@
     "date": "2025-12-04",
     "duration": "27:38",
     "desc": "Google wróciło do gry z Gemini 3, a my bijemy się w pierś, bo wróżyliśmy mu śmierć szybciej niż projektom Google+. Rozmawiamy o CodeWiki i NotebookLM – narzędziach, które sprawiają, że dokumentacja pisze się sama (i o dziwo ma sens). Zastanawiamy się, czy model ekosystemu wygra z modelami 'do wszystkiego' i dlaczego Perplexity nagle traci grunt pod nogami. Kajetan zrezygnował z połowy subskrypcji, a Piotrek ostrzega przed darmowymi terabajtami na Google Drive. „Papuga może zostać senior directorem w Microsofcie, wystarczy że dodaje wszędzie AI”.",
-    "tags": ["google", "cloud", "weekly"],
+    "tags": [
+      "google",
+      "cloud",
+      "weekly"
+    ],
     "platforms": {
       "youtube": "https://www.youtube.com/playlist?list=PLfYUBxD2uoi6rCgRWK0SYD33M_T6JPMm1",
       "spotify": "https://open.spotify.com/show/4EdHJK4qpJYWeGBQicZsjK",
@@ -642,7 +782,11 @@
     "date": "2025-11-27",
     "duration": "22:34",
     "desc": "Nagle wszyscy chcą wrócić do terminala, a my zastanawiamy się, czy to przez sentyment do młodości, czy po prostu Claude Code jest taki dobry. Omawiamy wyjście narzędzi AI poza IDE i to, jak CLI walczą o serca deweloperów pięknymi kolorkami i wbudowanymi przeglądarkami. Dyskutujemy o kompresji kontekstu i o tym, dlaczego 'sparing partner' w konsoli jest lepszy niż webowy czat z limitami plików. Czy to koniec ery Visual Studio Code, czy tylko kolejny gadżet dla programistów-hipsterów? „Firmy powiedziały: no to IDE do konsoli!”",
-    "tags": ["cli", "tools", "weekly"],
+    "tags": [
+      "cli",
+      "tools",
+      "weekly"
+    ],
     "platforms": {
       "youtube": "https://www.youtube.com/playlist?list=PLfYUBxD2uoi6rCgRWK0SYD33M_T6JPMm1",
       "spotify": "https://open.spotify.com/show/4EdHJK4qpJYWeGBQicZsjK",
@@ -666,7 +810,11 @@
     "date": "2025-11-20",
     "duration": "20:07",
     "desc": "Cloudflare padło, a Internet przypomniał nam, że jest tak stabilny jak polski system podatkowy. Analizujemy, dlaczego 18% ruchu sieciowego zależy od jednej firmy i co się dzieje, gdy jeden przepełniony plik logów wyłącza połowę świata. Rozmawiamy o kosztach awarii liczonej w miliardach dolarów i o tym, dlaczego multi-cloud to świetny pomysł, dopóki Twój CFO nie zobaczy faktury. Czy Black Friday in tym roku będzie przypominał apokalipsę, czy po prostu wrócimy do czytania książek przy świeczkach? „Niezależnie od tego jaki to dzień, kiedy nas oglądacie, jestem przekonany o tym, że dzisiaj padła jakaś usługa chmurowa”.",
-    "tags": ["cloudflare", "web", "weekly"],
+    "tags": [
+      "cloudflare",
+      "web",
+      "weekly"
+    ],
     "platforms": {
       "youtube": "https://www.youtube.com/playlist?list=PLfYUBxD2uoi6rCgRWK0SYD33M_T6JPMm1",
       "spotify": "https://open.spotify.com/show/4EdHJK4qpJYWeGBQicZsjK",
@@ -682,7 +830,11 @@
     "date": "2025-11-13",
     "duration": "15:00",
     "desc": "Microsoft wypuścił App Buildera, a my próbujemy zrozumieć, dlaczego dostęp do niego jest trudniejszy niż wyjście z Vima. Dyskutujemy o M365 Copilot i o tym, czy faktycznie pomaga w pracy, czy tylko analizuje, kto jest czyim szefem w Active Directory. Zastanawiamy się, czy obietnica budowania aplikacji przez nietechnicznych użytkowników to kolejna bajka, czy tym razem Microsoft faktycznie dowiezie coś, co nie jest tylko nakładką na SharePointa. Czy agenci w Teamsach to zbawienie, czy nowy 'bat' na deweloperów, który przypomni o obietnicach sprzed dwóch dni? „Dlaczego Microsoft wypuszcza potencjalnie fajną rzecz i robi tak bardzo pod górkę, żeby z tego skorzystać?”",
-    "tags": ["weekly", "tech", "it"],
+    "tags": [
+      "weekly",
+      "tech",
+      "it"
+    ],
     "platforms": {
       "youtube": "https://www.youtube.com/playlist?list=PLfYUBxD2uoi6rCgRWK0SYD33M_T6JPMm1",
       "spotify": "https://open.spotify.com/show/4EdHJK4qpJYWeGBQicZsjK",
@@ -712,7 +864,11 @@
     "date": "2025-11-06",
     "duration": "15:24",
     "desc": "W tym odcinku Kajetan i Piotrek biorą na warsztat wielki wyścig zbrojeń między Windsurfem a Cursorem. Zastanawiamy się, czy 950 tokenów na sekundę to faktycznie powód do dumy, czy raczej recepta na błyskawiczne bankructwo portfela i mózgu. Rozmawiamy o tym, dlaczego IDE zaczynają wyglądać jak choinki bożonarodzeniowe i czy kiedyś wrócimy do bycia programistami, zamiast bycia 'prompterami'. Poruszamy też temat rekordowego miliona tokenów spalonych przez Microsoft w sekundę – bo jak już marnować prąd, to z rozmachem. Całość podsumowujemy sceptycznym okiem na 'vibe coding' i przewidywaniem, kiedy to wszystko się zestarzeje. „Szybko nie musi oznaczać dobrze. No właśnie z reguły nie oznacza”.",
-    "tags": ["weekly", "start", "it"],
+    "tags": [
+      "weekly",
+      "start",
+      "it"
+    ],
     "platforms": {
       "youtube": "https://www.youtube.com/playlist?list=PLfYUBxD2uoi6rCgRWK0SYD33M_T6JPMm1",
       "spotify": "https://open.spotify.com/show/4EdHJK4qpJYWeGBQicZsjK",
