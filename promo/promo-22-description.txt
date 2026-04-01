@@ -1,0 +1,22 @@
+Czy wyciek kodu Claude Code (Anthropic) to rewolucja w świecie AI, genialny easter egg czy po prostu wpadka DevOpsa? 
+Wszystkie 🔗: 👉 https://betterdevclub.pl/episodes/episode-22
+W tym odcinku huczymy o głośnym wycieku kodu narzędzia Claude Code. Dyskutujemy o tym jak wyciek przez source mapy na NPM wpłynie na całą branżę AI.
+Co mówią nam zaszyte informacje o nadchodzących modelach typu Opus 4.7, Sonnet 4.8 i Capybara? Zastanawiamy się czy ten wyciek to katastrofa, czy może misternie zaplanowany, pierwszokwietniowy żart w postaci tamagotchi w terminalu.
+Zobacz co na ten temat uważamy my – i co może oznaczać to dla OpenCode, Copilota czy Gemini. Wjeżdżamy!
+
+_Agenda_
+00:00 - Cześć!
+00:04 - Wyciek kodu Claude Code - internet huczy
+01:25 - Jak doszło do wycieku przez source mapy na NPM?
+03:41 - Co wiemy z kodu? Nowe modele Claude: Opus 4.7, Sonnet 4.8 i Capybara
+05:52 - Model rozliczeniowy za tokeny, a powstawanie portów (np. Rust, Python)
+07:06 - Tamagotchi w terminalu
+08:38 - System prompty czy zaawansowana inżynieria LLM?
+11:47 - Czego dowiaduje się konkurencja i czy giganci rynkowi i tak ze sobą nie rozmawiają?
+15:08 - A może to easter egg na Prima Aprilis?
+16:33 - Zakończenie odcinka
+
+_O nas:_
+Piotr Stapp i Kajetan Duszyński. Jesteśmy Microsoft MVP i w tym podcaście gadamy o tym, jak AI i nowe narzędzia wpływają na naszą codzienną robotę w IT.
+
+#ai, #claudecode, #claude, #anthropic, #githubcopilot, #copilot, #gemini, #microsoft, #google, #openai, #betterdevclub, #programowanie, #devops, #security
