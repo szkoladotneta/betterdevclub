@@ -3,9 +3,8 @@
     "id": 22,
     "num": "22",
     "title": "Better Dev Club #22 - Genialny easter egg czy wpadka DevOpsa? Kto stoi za wyciekiem Claude Code?",
-    "date": "2026-04-01",
-    "notPublished": true,
-    "duration": "17:10",
+    "date": "2026-04-02",
+    "duration": "16:32",
     "desc": "Czy wyciek kodu Claude Code (Anthropic) to rewolucja w świecie AI? Dyskutujemy o konsekwencjach wycieku dla branży, co nam to mówi o nadchodzących modelach, jak wpłynie na konkurencję (OpenDevin, Copilot, Gemini). Zastanawiamy się czy to klęska czy może po prostu primaaprilisowy żart.",
     "agenda": [
       "00:00 - Cześć!",
@@ -37,9 +36,9 @@
       "security"
     ],
     "platforms": {
-      "youtube": "",
-      "spotify": "",
-      "apple": ""
+      "youtube": "https://youtu.be/oao-m6mjL0I",
+      "spotify": "https://open.spotify.com/episode/5x5ehpy3S7iuesafDvWgjf?si=kURpDPPSTU2_fbhaRdyfRA",
+      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club-22-genialny-easter-egg-czy-wpadka-devopsa/id1848840540?i=1000758800778"
     },
     "resources": [
       {
@@ -60,14 +59,15 @@
         "label": "ClauRust",
         "description": "Inny port Claude Code do Rust"
       }
-    ]
+    ],
+    "youtubeId": "oao-m6mjL0I",
+    "guestKey": "piotrek"
   },
   {
     "id": 21,
     "num": "21",
     "title": "Better Dev Club #21 - Cyberbezpieczeństwo w czasach AI z Wojciechem Lesickim",
     "date": "2026-03-26",
-    "notPublished": true,
     "duration": "58:00",
     "desc": "Dlaczego instalowanie agentów AI i narzędzi typu OpenClaw w firmie \"na YOLO\" to proszenie się o katastrofę? Wychodzimy poza bańkę programistów i bierzemy sztuczną inteligencję pod lupę z perspektywy Security! W 21. odcinku naszym gościem jest Wojciech Lesicki – doświadczony specjalista od cyberbezpieczeństwa. Rozmawiamy o tym, jak cyberprzestępcy (ang. threat actors) automatyzują ataki przy użyciu LLM-ów, jak specjaliści cyber-sec odpowiadają tym samym i jak mądrze zarządzać ryzykiem w dobie \"agentic AI\". Omawiamy też odwagę do testowania nowinek, projekt Shield (Tomas Roccia) oraz to, o czym obecnie muszą pamiętać juniorzy i seniorzy. Zapraszamy do posłuchania!",
     "agenda": [
