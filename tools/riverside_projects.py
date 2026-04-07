@@ -149,6 +149,7 @@ def check_missing_transcriptions(session, headers, projects):
     for project in projects:
         title = project.get("title", "")
         project_id = project.get("_id")
+        print(f"Checking project: {title} (ID: {project_id})")
         match = re.search(r'#(\d+)', title)
         if match:
             episode_num = match.group(1).zfill(3)
