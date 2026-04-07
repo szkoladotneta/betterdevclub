@@ -1,0 +1,124 @@
+{
+  "transcript": [
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:00",
+      "text": "Cześć Piotrek!"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:01",
+      "text": "Cześć, Kajtek."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:03",
+      "text": "Piotrek, zauważyłeś, że dużo rozmawiamy na temat developmentu, a z nas właściwie tacy developerzy jak z Koziej Dupy Trąby, za przeproszeniem. To znaczy, obaj jesteśmy na takim etapie naszego życia, że więcej niż w kodzie, to siedzimy w prezentacjach, w schematach, w raportach, w dashboardach, w mailach, w Wordach, Excelach i tego typu rzeczy. I tak się zacząłem zastanawiać, czy..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:33",
+      "text": "Zgubiłeś dwie rzeczy na pewno. Zgubiłeś specyfikacje, dokumentacje, nie mówiąc już o diagramach."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:37",
+      "text": "No? No tak, tak, diagramy, moje ulubione, UML-y, BPM-y i tego typu rzeczy. prostu... No dobra, ale myślisz teraz, no bo dużo rozmawiamy na temat sztucznej inteligencji w dewelopmencie tego, czy programiści mają się bać, czy nie mają się bać."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:51",
+      "text": "Uwaga, ma lepsze małe pikus."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "01:06",
+      "text": "tego, że sztuczna inteligencja ten kod pisze coraz lepiej. Te LLM sobie z wersji na wersję radzą z tym kodem coraz lepiej i to jest coraz większą ilością języków. A czy tacy ludzie jak my, którzy mogą się w końcu pochwalić, że jak mają wpisane w CV, że mają obsługę pakietu Office, to faktycznie jakoś to wykorzystują? Czy my się powinniśmy tym martwić według ciebie? To znaczy, czy myślisz, że LLM są pożyteczne tym, co my robimy na co dzień?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "01:39",
+      "text": "Dopóki mamy prawo jazdy i możemy dojechać do firmy jak się serwer palą i ktoś ten to wszystko jest ok. A jak drogi słuchaczu nie zaoparze do wcipu to zapraszamy do rozmowy z Wojtkiem w ogóle lajka, subskryba. Bo tam jak gdyby dużo dyskutowaliśmy z Wojtkiem na tego typu tematy. Ale na poważne jak gdyby już przestając robić autopromocję. Wiesz co, to wydaje mi się, że to trochę następuje takie spłycenie zespołu, bo popatrz. Ostatnie odkąd pamiętam, ile lat na konferencjach IT mówi się, ej deweloperzy, bądźcie bliżej klienta, porozmawiajcie z klientem. A teraz, jak gdyby, no, a jak patrzę nawet na własne doświadczenie, bo to jest jedna strona według, a pamiętam ileś takich doświadczeń z własnego rzucia, że Na przykład koleżankę, była naszym najbardziej, lubiśmy chyba najbardziej, PO, co kolegę PO też kiedyś, wystawić własną aplikację, że oni zmieniali teksty w aplikacji i im się zapalało takie głowy, taki magia, że to w ogóle działa, że to zbliżenie teraz może po prostu następują, że dzięki tym narzędziom AI-owym, jak żeśmy sobie dużo gadamy, wewnętrznie czasami w podcaście o Google Stitchu bo nam się najłatwiej robi interfejs. Jak może zrobić ten mokrap szybki w 15 minut. Dwa dni nawet. gdyby whatever. Raczej chyba w 15 minut niż dwa dni. I pogadać sobie jak to może wyglądać zobaczyć to poczuć. To ta bariera trochę zanika. To nie chodzi o to że to jest finalny produkt. Nie wiem jak to. Dobra pytanie otwarte. jak ty byś to oceniał ze swojej perspektywy? To..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "03:36",
+      "text": "Wiesz co, ja się właśnie trochę... No?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "03:38",
+      "text": "No dobra dajesz już. Ja chciałem przespytac, czy głównie spędzac czas na development czy głównie spędzac czas na tak naprawdę na tym wszystkim w koło. I to nawet jako developer, jak bylesz jeszcze developer."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "03:41",
+      "text": "Bo ja się zastanawiałem... Nie no, to jest wiesz, te statystyki, które teraz są bardzo często przytaczane, że tworzenie kodu tak naprawdę to jest na poziomie już myślę seniora, to jest jakieś 15 % czasu, który spędzamy nad tym. Wiadomo, różne są zespoły, nie? Ale bardzo często jeżeli mówimy o zespołach, które... Czasami nie mają tego product ownera, czasami jest to jakaś tam rola, tak samo jak Scrum Mastery, Product Ownersy, Project Managerowie, często to jest porozdzielane po rolach różnych ludzi, nie jest to pozycja jako taka, tylko jest to część pracy też jakiejś osoby. Mam wrażenie, że w wielu zespołach jest tak, że to pisanie kodu to nie jest wcale największa część naszej pracy. Natomiast znam też zespoły, których deweloperzy faktycznie siedzą. Siedzą 80-90 % gdzieś tam, może niekoniecznie pisząc stricte kod, ale bardzo blisko samego tego kodu i bardzo blisko projektu. I tutaj też zacząłem się zastanawiać, bo rozmawialiśmy z Tomkiem Ducinem, który mówił o tym, nazwijmy to, spłyceniu gdzieś tam tych zespołów. Rozmawialiśmy z wieloma osobami na konferencjach, które mówią o tym, że być może wrócimy do tego, co było jak zaczynaliśmy. Czyli każdy jest full stack deweloperem, każdy będzie robił backend, każdy będzie robił frontend, każdy będzie testować. i każdy być może będzie rozmawiać z biznesem, jak już będzie do tego zmuszony. Ale ja nie jestem do końca przekonany, czy na pewno tak będzie, że nagle wszyscy będą robić wszystko, bo właściwie większość rzeczy będą robić za nas LLM-y, bo jednak... Mamy pewną wciąż, pewną wiedzę domenową z każdego obszaru. Mamy pewną wiedzę, która jest unikalna. Każdy, wiele osób czuje się trochę lepiej bliżej kodu. Część osób lepiej się czuje bliżej, bliżej tego klienta. I myślę, że LLM-y nie będą nam zabierać tego aż tak bardzo. To też nie wydaje mi się, żeby nagle teraz wszyscy na hura musieli pójść do klienta, bo umówmy się. Jeżeli klient zobaczy, że taki deweloper, który do tej pory siedział w kodzie, zacznie z nim gadać potechnicznemu, to on powie, nie, weźcie mi, przyślijcie kogoś, kto mówi moim językiem. I to nie będzie koniecznie LLM, tylko to właśnie będzie jakaś osoba inna."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "06:49",
+      "text": "Alta, proszę. ale zobacz, trochę spójrz na to z drugiej strony. Ok, przyjmuję argumentację, ale spróbuję Ci przedstawić zupełnie inną. Ale w obiektie, że ten biznes nagle przestanie musieć budować niesamowite projekty, żeby zobaczyć ten efekt. Że nagle będzie się stawało taką rewolucją, która wydaje mi się, nadal jest po prostu rewolucją. To są klikalne mock-upy w Figmie. Jak się rozmawia z jakimkolwiek człowiekiem, ja wiem, że bardzo często chodzi o to, żeby ten algorytm dobrze wybierał, na przykład wyszukiwarka, czy znajdowały dobrze produkty na e-commerce, ale łatwiej się rozmawia z ludźmi, jak się pokaże, tu będzie search bar, tu będziesz klikał button, tu się coś zamieli i będzie dobrze. Powiem o to, że główny kod, który tam jest do napisania, to jest po prostu mega skomplikowany algorytm dobrego wyszukiwania. I ta rewolucja w firmie nagradała w ogóle taki wow, sensie po prostu taki efektuarny. teraz jeżeli ci ludzie, nazwijmy ich z biznesu, chociaż czasami mam wrażenie, że wszyscy jesteśmy z biznesu, ma IT, tylko wszyscy jesteśmy z biznesu, że oni będą mogli sobie coś dorobić, że ostatnio garandziłem, pałkiem, pałką na konferencji, że właśnie, jego tam jakaś, gdyby ktoś u niego zaczął robić vibe, codować dashboardy. Teraz były nie za bardzo miały sens, bo działały na danych, które by nie do końca były nie tanie. nagle mamy coś co ten człowiek chciałby osiągnąć. Ja też mam takich ludzi w firmie, że nagle ktoś zrobił coś co jest ci w stanie przynieść i powiedzieć to mniej więcej ma tak wyglądać. Tak wiesz tak się utrzymasz. to nie tylko jest ten upgrade nazwijmy to od ludzi którzy kodowali i oni możemy dyskutować czy będziesz lepszym testerem, gorszym testerem albo nie wiem lepszym front endowcem czy gorszym back endowcem. będę gorszym front endowcem to może będziesz lepszym. jak gdyby Janach Parnabyde-Korczak dwie rewarancy do frontendu ale pomimo to, że robiłem w sensie, jak gdyby swoje kariery rzeczywiście robiłem tylko, że nagle się okaże, że to spłaszczanie nie jest tylko właśnie w zespołach tylko, że jest w całości, że tutaj jak gdyby na przykład weźmy sobie rolę Scrum Mastera z której permanentnie się w życzę nabijam przepraszam wszystkich Scrum Masterów tutaj, że oni będą mogli wyciągnąć jakieś metryki, będą mogli zrozumieć co się dzieje, będą mogli zobaczyć gdzie są blokery, bo nagle będą mogli łatwo wejść na poziom danych i spróbować z tych danych coś wyciągnąć. Być może bzdurę, nie? To będzie oznaczało nie to, że oni zrobili bzdurę, bo takim wybaj kodowało, znaczy to też jest obce, ale może być tak, że my po prostu nie raportujemy rzeczy, więc jest bzdura, nie? Jak ludzie nie wpisyły rzeczy do Jiry. do czego my oczekujemy, że da się z tego cokolwiek wyciągnąć. Zobaczymy gdzie są problemy, zaczniemy je usuwać. Z punktu widzenia PO-sa, że on przyjdzie z taką bardziej dokładną specyfikacją, być może jakimś mockupem, być może czegoś. Biznes analityka, który będzie w stanie zanalizować ilość tych dokumentów, które jest w firmie, wrzucił trochę se analizy kodu i powiedzi mniej więcej gdzie czego brakuje. że tu będziesz w stanie zrobić coś, co gdyby zawsze było tą kolejnym głuchym telefonem, nagle że się ten trochę głuchy telefon przytnie. Tu jest takie coś, ja."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "10:40",
+      "text": "No i tak. Tutaj się zgadzam i tak naprawdę tutaj mamy bardzo duże pole do popisu, jeżeli ludzie, typu PO, typu PM, typu Scrum Mastery będą chcieli też wykorzystywać jak najbardziej te narzędzia, z których korzystamy my deweloperzy. To znaczy, jeżeli zaczną korzystać z narzędzi nie tylko z czata GPT w przeglądarce i do zadawania pytań, ale z budujesz... Zbudują sobie jakiś workflow pracy, w tym momencie już na dzisiaj można spokojnie ściągnąć sobie dowolne narzędzie CLIowe, czy to będzie Claude Code, czy to będzie Copilot, czy to będzie Gemini, czy to będzie Open Code, z którego korzystasz, czy cokolwiek innego i do tego podpiąć sobie tę Jirę, Azure DevOps'a, Confluence\\'a i wiele innych rzeczy. to dosłownie właściwie te narzędzia będą mogły zrobić to za ciebie, bo wystarczy, że je prosisz o to, żeby się połączyły i one to zrobią. I w końcu też skończą się tematy typu, czy możesz mi wygenerować taki raport. O nie, w Jirze akurat to jest bardzo trudne, bo trzeba by było przeklikać, albo trzeba by było zmienić coś tam, albo w Azure DevOpsie trzeba by było zmienić rodzaj projektu. albo to, czego tam używamy, że zamiast PBI-ów będziemy robić user story, albo na odwrót. Ja wiecznie słyszę w ogóle takie wymówki, nie, czegoś się nie da akurat w tym narzędziu i faktycznie często jak próbuję, to te narzędzia są ograniczone. One mają jakieś tam ograniczenia, bo czasami wymyślimy sobie nawet sami dla swoich potrzeb coś, czego po prostu twórcy nie przemyśleli. Ale zarówno Jira, jak i DevOps mają niesamowite API, z którymi jeżeli się połączymy, a DevOps nie wiem jak Jira, ale DevOps ma jeszcze swój serwer MCP, jeżeli się podłączymy pod to, to właściwie może... Jira prawdopodobnie też, tak się spodziewałem. W każdym razie mamy nieograniczone możliwości wyciągania absolutnie wszystkich danych takich, jakich chcemy i dosłownie w kilku chwilach możemy wygenerować sobie dashboardy dokładnie takie, jakie chcemy. Oczywiście, będzie do tego potrzebne kilka rund, kilka iteracji, żeby to dopracować tak, żeby to nie było zmyślone, bo czasami może być zmyślone, bo już nieraz też próbowałem i on czasami jak czegoś nie wie, to faktycznie nadal zmyśla, ale jesteśmy w stanie zrobić niesamowite rzeczy. Tylko trzeba się przyzwyczaić do tego, że te narzędzia, jeżeli zaczniemy korzystać, osoby, które są nietechniczne, zaczną korzystać z tych narzędzi, osoby techniczne, to mogą mieć olbrzymiego boosta właśnie w swoich możliwościach, które do tej pory były ograniczeniami narzędziowymi. To jest moje zdanie, a druga jeszcze sprawa jest taka i nie wiem, to może być jakby totalny strzał gdzieś tam w pustkę jakąś, ale wydaje mi się, że jeżeli na przykład... Pójdziemy bardziej w spec driven development, którym się bardzo dużo mówi, no to wtedy te osoby właśnie typu product owner będzie musiał też być bliżej w ogóle codebase'u, czyli naszych repozytoriów kodu, no bo tam będzie zbudowany cały workflow. I teraz jeżeli będziemy mieli agentów, którzy będą nam pomagali w ogarnianiu tego projektu i od strony implementacji, od strony specyfikacji, od strony testowania, to cały nasz zespół, i QA, i developerzy, i product ownerzy, i team leaderzy po prostu będą musieli być bliżej kodu. Oczywiście nie będą musieli czytać tego kodu, tylko raczej pliki typu markdown, albo jakieś JSONy, albo coś tym stylu, ale będą mogli bardziej kontribuować, że tak powiem, do tego projektu w pewien sposób."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "14:56",
+      "text": "To właśnie powiedziałaś, że nie będą bliżej kodu, oni będą bliżej specyfikacji. Że popatrz, że nagle ta specyfikacja będzie bardzo żyła, bo z jednej strony pisanie kodu będzie wpływało na tę dokumentację, ile będziemy ją utrzymywać, bo w tej chwili do dzisiaj, przynajmniej przez całą moją karierę dokumentacji to się na ogół robiło na ostatni moment, nie chcę użyć brzydkiego słowa tutaj. bo ona dużo nikomu nie wnosiła i nikt nie wiedział po co. Oczywiście dla potomnych, ale nikt nie miał czasu, a teraz to się trochę zmienia, bo z tej dokumentacji łatwo jest prostu popchnąć rzeczy dalej, więc jak gdyby strona nazwijmy to deweloperska będzie jej zależało na tym, żeby dodawać te rzeczy, zresztą ma łatwość dodawania, to trzeba powiedzieć. analityczna czy właśnie produktowa będzie mogła dodawać te rzeczy jak zobaczył że coś nie działa. To samo to samo w kwestii testerskiej że jak gdyby będziemy żyli właśnie na tej dokumentacji to dokumentacja po prostu będzie funkcjonowała tylko trzeba sobie powiedzieć że dzisiaj jeszcze tam nie jesteśmy nie takie narzędzia jak OpenSpec czy spek nie pamiętam jak się to drugie nazywa to one jeszcze jak gdyby jeszcze nie."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "16:21",
+      "text": "Pech kit."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "16:22",
+      "text": "O spekki, to dziękuję ci bardzo. One chyba jeszcze nie do końca są gotowe. sensie one fajnie działają przy małych, średnich projektach, ale pewnie przy olbrzymach to jeszcze nie. W sensie, że ten kontekst po prostu jest taki, że po prostu ciężko to ogarnąć. Że to jeszcze tam nie do końca jesteśmy, jeszcze nie do końca, ale to się dynamicznie rozwija i tu rzeczywiście może się wiesz okazać, że tu jest jak gdyby ten gap, który nagle zostanie osiągnięty. Bo to, sobie z program masterzy czy tam nie wiem, analitycy wygenerują jakieś dashboardy czy te mili darze, bo będzie im to bardziej potrzebne, to po prostu jedyne co zasypuje to dziurę tego, że nigdy nie było dewelopera, bo nie chcieliśmy go odciągać od projektu, żeby on to dewelopował, żeby się dowiedzieć tam czegoś tam, nie? A teraz ten człowiek będzie mógł to częściowo zrobić sam, bo to nie jest produkcyjne, więc tam byleby się dowiedzieć, to może będzie łatwiej. Ale że to w ogóle jest taka olbrzymia, olbrzymia po prostu możliwość przyspieszenia, tak na moim ekranie, olbrzymia. Przespieszenia tak naprawdę tej współpracy, uproszczenia tej współpracy, której wcześniej nie było. I to jest taki fajny game changer, który rzeczywiście ma szansę zmienić to, jak funkcjonujemy właśnie tacy jak my, z koziej trąby, a nie deweloperzy."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "17:47",
+      "text": "Tak, to prawda. Coś jeszcze chciałem powiedzieć na ten temat? A właśnie, że analitycy. Nie wiem czy miałeś takie do tej pory doświadczenia, ale ja pracowałem z kilkoma, może kilkunastoma analitykami i tylko dosłownie z dwoma albo z trzema do tej pory pracowało mi się dobrze. Bo bardzo często miałem problem z tym, że jeżeli analityk poszedł do klienta, dowiedział się co mamy zrobić, to nie potrafił... dogadać się bardzo często z zespołem deweloperskim, żeby przedstawić to w taki sposób, żeby przekazać intencje biznesu właśnie tym deweloperom. I miałem problem z tym, że byli analitycy tacy typowi skrybowie, którzy po prostu chodzili na spotkanie i robili transkrypcje z tego, co biznes mówił, zamiast ich tam challenge'ować. Byli tacy, którzy... Przechodzili potem na spotkania z deweloperami i uprawiali cały storytelling i nam opowiadali historię i siedzieliśmy na trzygodzinnym spotkaniu, które mogłoby się zamknąć w 15 minutach. I mało było takich analityków, z którymi pracowałem, którzy przychodzili szybko do sedna. I teraz mam wrażenie, że jeżeli oni zaczną pracować z LLM-ami i nawet jeżeli sobie zaczną przepisywać to, co biznes powiedział albo... opowiedzą temu LLM-owi całą historię swojego życia po to, żeby stworzyć nowego PBI-a czy nowe user story, no to niech tam będzie, to tam się zmieści. A potem LLM to przemieli, tak? Żeby deweloperzy byli zadowoleni. I dzięki temu wszyscy będą zadowoleni."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "19:29",
+      "text": "popatrz wybrałeś sobie jedno z naprawdę trudniejszych ról w tej branży. Tak bo ten człowiek się musi dogadać z biznesem, który gada językiem nie technicznym, się gadać z deweloperami, którzy chcą po prostu, chce specyfikacje i tasku co ja mam zrobić, wytłumaczyć te starom co oni w ogóle mają sprawdzić."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "19:34",
+      "text": "Oczywiście. Oczywiście. Oczywiście."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "19:51",
+      "text": "I jeszcze jak gdyby wspomóc produktu onera w jego wizji. w ogóle rola, którą gdyby, nie wiem, znaczy znam kilku takich, którzy byli naprawdę nieźli, znam kilku takich, którzy dość szybko się chyba wypalili w tej roli, to nawet tak bym określił, bo to po prostu było ten. Ale może rzeczywiście, jak gdyby teraz będzie łatwiej, w sensie, że zbudowanie tych rzeczy będzie łatwiejsze. Ale to znowu, w sensie, że jak gdyby mam wrażenie, że da się zrobić, że będzie bliżej. Przez ostatnie 15-20 lat żeśmy... rozmuchywali warstwy, budowali w ogóle struktury, a teraz może rzeczywiście będzie lekkie spaszcze. No zobaczymy."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "20:30",
+      "text": "Zobaczymy, zobaczymy. A jeszcze co do dashboardów, to już tak totalnie na zakończenie tak sobie pomyślałem a propos tego, że tych dashboardów nigdy się nie tworzyło, bo deweloperzy nigdy nie mieli czasu albo deweloperzy bardzo specjalnie nie chcieli mieć czasu, bo na przykład wiesz, jak przychodzi taki team leader i mówi zrób mi taki dashboard, żebym zobaczył jaka jest produktywność każdego dewelopera."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "20:54",
+      "text": "To już pójdzie."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "20:56",
+      "text": "story pointa, no a w czym innym? Przecież pracujemy w Jirze. No to tak na zakończenie i takim miłym akcentem. Także drogi PO-sie, PMie, Scrum Masterze, analityku, apel do ciebie. Jeżeli chcesz wiedzieć jak najwięcej, to subskrybuj. Zapraszamy do nas. My też jedziemy na tym samym wózku i zmierzymy się dokładnie z tymi samymi problemami co ty. i codziennie też staramy się ulepszać naszą pracę właśnie za pomocą LLM-ów sztucznej inteligencji, narzędzi typu Copilot, OpenClaw, nie, OpenClaw, nie, już nie, nie, przepraszam, tu się zapędziłem, ale wielu innych, także zachęcamy Cię do tego, żebyś słuchała naszych podcastów i cóż, możemy powiedzieć, do zobaczenia za tydzień."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "21:44",
+      "text": "Trzymajcie się."
+    }
+  ]
+}
