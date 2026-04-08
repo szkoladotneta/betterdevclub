@@ -11,7 +11,7 @@
     <meta property="og:url" content="https://betterdevclub.com/">
     <meta property="og:title" content="Better Dev Club #23 - Dev, QA, PO, Scrum Master: Jak AI zmienia role i kończy »głuchy telefon«">
     <meta property="og:description" content="Zauważyłeś, że dużo rozmawiamy na temat developmentu, a z nas właściwie tacy developerzy jak z koziej trąby? Czy programiści mają się bać, gdy AI (LLMy, Claude Code) pisze kod coraz lepiej? W 23. odcinku dyskutujemy o tym, czy czeka nas spłycenie struktury w IT. Zastanawiamy się, jak narzędzia sztucznej inteligencji pomogą PO, Scrum Masterom i analitykom wyciągać metryki z Jiry i robić klikalne mockupy w Figmie, zdejmując z deweloperów obowiązek pisania dashboardów.">
-    
+    <meta property="og:image" content="https://i.ytimg.com/vi/09RJNWE4nEI/maxresdefault.jpg">
     <link rel="shortcut icon" href="../img/favicon-32x32.png" type="image/png">
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Noto+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
@@ -973,7 +973,7 @@
             const [loading, setLoading] = useState(true);
 
             useEffect(() => {
-                const version = "cd7a892612";
+                const version = "0ac7916adc";
                 Promise.all([
                     fetch(`/episodes.json?v=${version}`).then(res => res.json()),
                     fetch(`/speakers.json?v=${version}`).then(res => res.json())
