@@ -1,0 +1,17 @@
+Zauważyłeś, że dużo rozmawiamy na temat developmentu, a z nas właściwie tacy developerzy jak z koziej trąby? Czy programiści mają się bać, gdy AI (LLMy, Claude Code) pisze kod coraz lepiej?
+Wszystkie 🔗: 👉 https://betterdevclub.pl/episodes/episode-23
+W 23. odcinku dyskutujemy o tym, czy czeka nas spłycenie struktury w IT. Zastanawiamy się, jak narzędzia sztucznej inteligencji pomogą PO, Scrum Masterom i analitykom wyciągać metryki z Jiry i robić klikalne mockupy w Figmie, zdejmując z deweloperów obowiązek pisania dashboardów.
+Zobacz co na ten temat uważamy my i czy to oznacza koniec "głuchych telefonów" z biznesem. Wjeżdżamy!
+
+_Agenda_
+00:00 - Cześć! My jesteśmy tacy developerzy, jak z koziej trąby
+01:06 - Czy z powodu AI programiści stracą pracę?
+06:49 - Klikalne mock-upy w Figmie i spłaszczenie struktury zespołów w IT
+10:40 - Jak analitycy, PO i Scrum Masterzy mogą automatyzować pracę w Jirze przy pomocy AI
+14:56 - Nowe życie dla specyfikacji: bliżej spec driven development
+17:47 - Podsumowanie: koniec głuchych telefonów z biznesem i wymówek o braku czasu na dashboardy
+
+_O nas:_
+Piotr Stapp i Kajetan Duszyński. Jesteśmy Microsoft MVP i w tym podcaście gadamy o tym, jak AI i nowe narzędzia wpływają na naszą codzienną robotę w IT.
+
+#betterdevclub, #ai, #llm, #claudecode, #jira, #figma, #agile, #management, #scrum, #productowner, #development, #it, #programowanie
