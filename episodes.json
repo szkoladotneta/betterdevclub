@@ -2,7 +2,6 @@
   {
     "id": 23,
     "num": "23",
-    "notPublished": true,
     "title": "Better Dev Club #23 - Dev, QA, PO, Scrum Master: Jak AI zmienia role i kończy »głuchy telefon«",
     "date": "2026-04-09",
     "duration": "21:45",
@@ -32,8 +31,8 @@
     ],
     "platforms": {
       "youtube": "https://youtu.be/09RJNWE4nEI",
-      "spotify": "",
-      "apple": ""
+      "spotify": "https://open.spotify.com/episode/0Kpnqvpu8mlfeZgJoTrKLy?si=QdCiwQX_Thq5H_y13oNFRw",
+      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club-23-dev-po-scrum-master-jak-ai-zmienia/id1848840540?i=1000760416238"
     },
     "resources": [],
     "youtubeId": "09RJNWE4nEI",
