@@ -1,5 +1,69 @@
 [
   {
+    "id": 24,
+    "num": "24",
+    "title": "Better Dev Club #24 - Dlaczego warto chodzić na konferencje i debiutować na scenie?",
+    "notPublished": true,
+    "date": "2026-04-16",
+    "duration": "15:55",
+    "desc": "Kajetan i Piotrek rozmawiają o tym, dlaczego warto chodzić na konferencje IT i meetupy. Piotrek zdradza swoje trzy najważniejsze powody, a Kajetan tłumaczy, dlaczego na początku uważał prelegentów za niedostępnych celebrytów. Dyskutujemy o networkingu, jedzeniu, pokonywaniu stresu przed wystąpieniami i o... treningu cardio podczas prezentacji na scenie. Zachęcamy do zgłaszania swoich propozycji na Call for Papers (CfP) i zapowiadamy nasze najbliższe aktywności konferencyjne (Update Conference, 4Developers, Konferencja Pato). Rozważamy też powrót BetterDevConf. Zapraszamy do posłuchania!",
+    "agenda": [
+      "00:00 - Dlaczego warto chodzić na konferencje?",
+      "01:13 - Celebryci IT i błędne przekonania początkujących (oraz networking i jedzenie)",
+      "03:19 - »Trening cardio« na scenie i potężny stres debiutanta",
+      "05:44 - Wystąpienia publiczne jako kluczowa umiejętność Leadera i Architekta",
+      "08:53 - Świeża krew - dlaczego warto zgłaszać się na Call for Papers?",
+      "10:44 - Nadchodzące wydarzenia: Konferencja Pato, 4Developers, Update Conference",
+      "13:08 - Siła i wartość lokalnych meetupów",
+      "13:57 - Czy BetterDevConf powróci z nową edycją?"
+    ],
+    "tags": [
+      "betterdevclub",
+      "konferencje",
+      "meetupy",
+      "prelekcje",
+      "cfp",
+      "kariera",
+      "programowanie",
+      "it",
+      "rozwój",
+      "networking"
+    ],
+    "platforms": {
+      "youtube": "",
+      "spotify": "",
+      "apple": ""
+    },
+    "resources": [
+      {
+        "type": "link",
+        "url": "https://updateconference.net/",
+        "label": "Update Conference (Kraków)",
+        "description": "Konferencja, której ambasadorem jest Kajetan"
+      },
+      {
+        "type": "link",
+        "url": "https://patoarchitekci.io/konferencja/",
+        "label": "Konferencja PATOarchitekci #200",
+        "description": "Informacje o nadchodzącej konferencji (200. odcinek)"
+      },
+      {
+        "type": "link",
+        "url": "https://4developers.org/",
+        "label": "4Developers",
+        "description": "Informacje o konferencji 4Developers, na której będziemy prelegentami"
+      },
+      {
+        "type": "link",
+        "url": "https://mstechsummit.pl/",
+        "label": "Microsoft Tech Summit",
+        "description": "Informacje o konferencji Microsoft Tech Summit"
+      }
+    ],
+    "youtubeId": "",
+    "guestKey": "piotrek"
+  },
+  {
     "id": 23,
     "num": "23",
     "title": "Better Dev Club #23 - Dev, QA, PO, Scrum Master: Jak AI zmienia role i kończy »głuchy telefon«",
