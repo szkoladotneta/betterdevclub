@@ -1,0 +1,1170 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Copilot który naprawdę działa – Warsztat live dla .NET Developerów</title>
+  <meta name="description" content="Zbudujesz deterministyczny workflow z GitHub Copilotem w 2.5h. Sprawdzone wzorce z prawdziwego projektu .NET od Microsoft MVP." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%230A0F1E'/><text y='24' x='4' font-size='22' font-family='monospace' fill='white'>C#</text></svg>" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --black:   #0A0F1E;
+      --blue:    #2563EB;
+      --blue-dark: #1D4ED8;
+      --blue-light: #EFF6FF;
+      --gray-50: #F9FAFB;
+      --gray-100: #F3F4F6;
+      --gray-200: #E5E7EB;
+      --gray-400: #9CA3AF;
+      --gray-600: #4B5563;
+      --gray-800: #1F2937;
+      --white:   #ffffff;
+      --green:   #16A34A;
+      --red:     #DC2626;
+      --badge-bg: #EFF6FF;
+      --badge-color: #2563EB;
+      --radius: 12px;
+      --shadow: 0 4px 24px rgba(0,0,0,0.07);
+      --shadow-hover: 0 8px 40px rgba(0,0,0,0.13);
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      color: var(--gray-800);
+      background: var(--white);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ====== LAYOUT ====== */
+    .container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
+    .section { padding: 96px 0; }
+    .section--gray { background: var(--gray-50); }
+    .section--dark { background: var(--black); color: var(--white); }
+    .section--blue { background: var(--blue); color: var(--white); }
+
+    /* ====== NAV ====== */
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(255,255,255,0.95);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--gray-200);
+      padding: 16px 0;
+    }
+    .nav-inner {
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .nav-brand {
+      font-weight: 700; font-size: 15px; color: var(--black);
+      text-decoration: none; letter-spacing: -0.3px;
+    }
+    .nav-brand span { color: var(--blue); }
+    .nav-cta {
+      display: inline-block;
+      background: var(--blue); color: var(--white);
+      font-size: 14px; font-weight: 600;
+      padding: 10px 20px; border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.2s, transform 0.15s;
+    }
+    .nav-cta:hover { background: var(--blue-dark); transform: translateY(-1px); }
+
+    /* ====== HERO ====== */
+    .hero {
+      padding: 112px 0 96px;
+      background: linear-gradient(165deg, #ffffff 0%, #EFF6FF 55%, #ffffff 100%);
+      overflow: hidden;
+      position: relative;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--badge-bg); color: var(--badge-color);
+      font-size: 13px; font-weight: 600;
+      padding: 6px 14px; border-radius: 999px;
+      margin-bottom: 28px;
+      border: 1px solid #BFDBFE;
+    }
+    .hero-badge .dot {
+      width: 7px; height: 7px; border-radius: 50%;
+      background: var(--blue);
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+    .hero h1 {
+      font-size: clamp(36px, 5vw, 62px);
+      font-weight: 700;
+      line-height: 1.12;
+      letter-spacing: -1.5px;
+      color: var(--black);
+      max-width: 820px;
+      margin-bottom: 24px;
+    }
+    .hero h1 span { color: var(--blue); }
+    .hero-sub {
+      font-size: clamp(17px, 2vw, 20px);
+      color: var(--gray-600);
+      max-width: 640px;
+      margin-bottom: 40px;
+      line-height: 1.6;
+    }
+    .hero-cta-group { display: flex; gap: 14px; flex-wrap: wrap; align-items: center; margin-bottom: 48px; }
+    .btn-primary {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--blue); color: var(--white);
+      font-size: 17px; font-weight: 700;
+      padding: 16px 32px; border-radius: 10px;
+      text-decoration: none;
+      transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+      box-shadow: 0 4px 14px rgba(37,99,235,0.3);
+    }
+    .btn-primary:hover { background: var(--blue-dark); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(37,99,235,0.4); }
+    .btn-secondary {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: transparent; color: var(--gray-600);
+      font-size: 15px; font-weight: 500;
+      padding: 16px 24px; border-radius: 10px;
+      border: 1px solid var(--gray-200);
+      text-decoration: none;
+      transition: border-color 0.2s, color 0.2s, transform 0.15s;
+    }
+    .btn-secondary:hover { border-color: var(--blue); color: var(--blue); transform: translateY(-2px); }
+    .hero-meta {
+      display: flex; flex-wrap: wrap; gap: 24px;
+    }
+    .hero-meta-item {
+      display: flex; align-items: center; gap: 8px;
+      font-size: 14px; color: var(--gray-600);
+    }
+    .hero-meta-item svg { flex-shrink: 0; }
+
+    /* ====== PROBLEM ====== */
+    .section-label {
+      display: inline-block;
+      font-size: 12px; font-weight: 700; letter-spacing: 1.5px;
+      text-transform: uppercase; color: var(--blue);
+      margin-bottom: 14px;
+    }
+    h2 {
+      font-size: clamp(28px, 3.5vw, 44px);
+      font-weight: 700; line-height: 1.18;
+      letter-spacing: -0.8px;
+      color: var(--black);
+      margin-bottom: 16px;
+    }
+    .section-lead {
+      font-size: 18px; color: var(--gray-600);
+      max-width: 640px; margin-bottom: 56px;
+      line-height: 1.65;
+    }
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 24px;
+    }
+    .card {
+      background: var(--white);
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius);
+      padding: 28px;
+      box-shadow: var(--shadow);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .card:hover { transform: translateY(-4px); box-shadow: var(--shadow-hover); }
+    .card-icon {
+      width: 44px; height: 44px; border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      margin-bottom: 16px;
+      background: var(--blue-light);
+    }
+    .card-icon.red { background: #FEF2F2; }
+    .card h3 { font-size: 16px; font-weight: 700; color: var(--black); margin-bottom: 8px; }
+    .card p { font-size: 14px; color: var(--gray-600); line-height: 1.65; }
+
+    /* ====== AGITATION ====== */
+    .quote-block {
+      border-left: 3px solid var(--blue);
+      padding: 20px 24px;
+      background: var(--blue-light);
+      border-radius: 0 var(--radius) var(--radius) 0;
+      margin: 40px 0;
+    }
+    .quote-block p { font-size: 17px; font-style: italic; color: var(--gray-800); line-height: 1.65; }
+    .quote-block cite { display: block; margin-top: 10px; font-size: 13px; color: var(--gray-600); font-style: normal; font-weight: 500; }
+    .timeline { display: grid; gap: 32px; margin-top: 48px; }
+    .timeline-item { display: flex; gap: 20px; }
+    .timeline-marker {
+      flex-shrink: 0; width: 44px; height: 44px; border-radius: 50%;
+      background: var(--blue); color: var(--white);
+      font-weight: 700; font-size: 14px;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .timeline-content h3 { font-size: 18px; font-weight: 700; color: var(--black); margin-bottom: 8px; }
+    .timeline-content ul { list-style: none; }
+    .timeline-content li {
+      font-size: 15px; color: var(--gray-600);
+      padding: 4px 0 4px 20px;
+      position: relative;
+    }
+    .timeline-content li::before {
+      content: '→';
+      position: absolute; left: 0;
+      color: var(--blue); font-weight: 700;
+    }
+
+    /* ====== SOLUTION / WORKSHOP ====== */
+    .workshop-parts { display: grid; gap: 20px; }
+    .workshop-part {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 20px;
+      background: var(--white);
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius);
+      padding: 28px;
+      box-shadow: var(--shadow);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .workshop-part:hover { transform: translateY(-3px); box-shadow: var(--shadow-hover); }
+    .wp-number {
+      width: 48px; height: 48px; border-radius: 50%;
+      background: var(--blue); color: var(--white);
+      font-weight: 700; font-size: 18px;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+    }
+    .wp-content h3 { font-size: 17px; font-weight: 700; color: var(--black); margin-bottom: 4px; }
+    .wp-duration { font-size: 12px; color: var(--blue); font-weight: 600; margin-bottom: 12px; }
+    .wp-content ul { list-style: none; }
+    .wp-content li {
+      font-size: 14px; color: var(--gray-600);
+      padding: 3px 0 3px 18px;
+      position: relative;
+    }
+    .wp-content li::before {
+      content: '–';
+      position: absolute; left: 0;
+      color: var(--gray-400);
+    }
+
+    /* ====== RESULTS / BENEFITS ====== */
+    .results-list { list-style: none; display: grid; gap: 16px; }
+    .results-list li {
+      display: flex; gap: 14px; align-items: flex-start;
+      font-size: 17px; color: var(--gray-800);
+      background: var(--white);
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius);
+      padding: 20px;
+      box-shadow: var(--shadow);
+      transition: transform 0.2s;
+    }
+    .results-list li:hover { transform: translateY(-2px); }
+    .check-icon {
+      flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%;
+      background: #DCFCE7;
+      display: flex; align-items: center; justify-content: center;
+      margin-top: 2px;
+    }
+
+    /* ====== SOCIAL PROOF ====== */
+    .testimonials { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; }
+    .testimonial {
+      background: var(--white);
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius);
+      padding: 28px;
+      box-shadow: var(--shadow);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .testimonial:hover { transform: translateY(-4px); box-shadow: var(--shadow-hover); }
+    .testimonial-text {
+      font-size: 15px; color: var(--gray-800);
+      line-height: 1.7; margin-bottom: 20px;
+      font-style: italic;
+    }
+    .testimonial-author { font-size: 13px; font-weight: 600; color: var(--gray-600); }
+    .stars { color: #F59E0B; font-size: 14px; margin-bottom: 12px; }
+
+    /* ====== PRICING ====== */
+    .pricing-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+      align-items: stretch;
+    }
+    .pricing-card {
+      background: var(--white);
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius);
+      padding: 32px;
+      box-shadow: var(--shadow);
+      display: flex; flex-direction: column;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .pricing-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-hover); }
+    .pricing-card.featured {
+      border: 2px solid var(--blue);
+      box-shadow: 0 0 0 4px rgba(37,99,235,0.08), var(--shadow);
+    }
+    .pricing-badge {
+      display: inline-block;
+      background: var(--blue); color: var(--white);
+      font-size: 11px; font-weight: 700; letter-spacing: 0.5px;
+      padding: 4px 12px; border-radius: 999px;
+      margin-bottom: 16px;
+    }
+    .pricing-name { font-size: 13px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--gray-600); margin-bottom: 8px; }
+    .pricing-price {
+      font-size: 42px; font-weight: 700; color: var(--black);
+      letter-spacing: -1px; margin-bottom: 4px;
+    }
+    .pricing-price sup { font-size: 20px; vertical-align: top; margin-top: 8px; font-weight: 600; }
+    .pricing-regular {
+      font-size: 14px; color: var(--gray-400);
+      text-decoration: line-through;
+      margin-bottom: 4px;
+    }
+    .pricing-label { font-size: 12px; color: var(--green); font-weight: 600; margin-bottom: 28px; }
+    .pricing-features { list-style: none; flex: 1; margin-bottom: 28px; }
+    .pricing-features li {
+      display: flex; gap: 10px;
+      font-size: 14px; color: var(--gray-700);
+      padding: 7px 0;
+      border-bottom: 1px solid var(--gray-100);
+      align-items: flex-start;
+    }
+    .pricing-features li:last-child { border-bottom: none; }
+    .pricing-features li.included svg { color: var(--green); flex-shrink: 0; margin-top: 1px; }
+    .pricing-features li.not-included { color: var(--gray-400); }
+    .pricing-features li.not-included svg { color: var(--gray-300); flex-shrink: 0; margin-top: 1px; }
+    .btn-pricing {
+      display: block; text-align: center;
+      padding: 14px; border-radius: 10px;
+      font-size: 15px; font-weight: 700;
+      text-decoration: none;
+      transition: background 0.2s, transform 0.15s;
+    }
+    .btn-pricing.primary { background: var(--blue); color: var(--white); }
+    .btn-pricing.primary:hover { background: var(--blue-dark); transform: translateY(-1px); }
+    .btn-pricing.outline { background: transparent; color: var(--blue); border: 2px solid var(--blue); }
+    .btn-pricing.outline:hover { background: var(--blue-light); transform: translateY(-1px); }
+
+    /* ====== AUTHOR ====== */
+    .author-block {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 40px;
+      align-items: start;
+    }
+    .author-avatar {
+      width: 120px; height: 120px; border-radius: 50%;
+      background: var(--blue-light);
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+      border: 3px solid var(--blue);
+    }
+    .author-avatar span { font-size: 42px; font-weight: 700; color: var(--blue); }
+    .author-name { font-size: 26px; font-weight: 700; color: var(--black); margin-bottom: 4px; }
+    .author-title { font-size: 14px; color: var(--blue); font-weight: 600; margin-bottom: 16px; }
+    .author-bio { font-size: 16px; color: var(--gray-600); line-height: 1.7; margin-bottom: 16px; }
+    .author-stats { display: flex; flex-wrap: wrap; gap: 24px; }
+    .author-stat { text-align: center; }
+    .author-stat-value { font-size: 24px; font-weight: 700; color: var(--blue); }
+    .author-stat-label { font-size: 12px; color: var(--gray-600); }
+
+    /* ====== FAQ ====== */
+    .faq-list { max-width: 800px; }
+    .faq-item {
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius);
+      margin-bottom: 12px;
+      overflow: hidden;
+      transition: box-shadow 0.2s;
+    }
+    .faq-item:hover { box-shadow: var(--shadow); }
+    .faq-question {
+      width: 100%; text-align: left;
+      padding: 20px 24px;
+      background: var(--white);
+      border: none; cursor: pointer;
+      display: flex; justify-content: space-between; align-items: center;
+      gap: 16px;
+      font-size: 15px; font-weight: 600; color: var(--black);
+      transition: background 0.15s;
+    }
+    .faq-question:hover { background: var(--gray-50); }
+    .faq-question.open { background: var(--blue-light); color: var(--blue); }
+    .faq-chevron {
+      flex-shrink: 0;
+      transition: transform 0.3s;
+    }
+    .faq-question.open .faq-chevron { transform: rotate(180deg); }
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease, padding 0.3s;
+    }
+    .faq-answer.open { max-height: 400px; }
+    .faq-answer-inner { padding: 0 24px 20px; font-size: 14px; color: var(--gray-600); line-height: 1.7; }
+
+    /* ====== GUARANTEE ====== */
+    .guarantee-block {
+      display: flex; gap: 28px;
+      background: var(--white);
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius);
+      padding: 36px;
+      box-shadow: var(--shadow);
+      align-items: flex-start;
+    }
+    .guarantee-icon {
+      flex-shrink: 0; width: 64px; height: 64px;
+      background: var(--blue-light); border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .guarantee-block h3 { font-size: 22px; font-weight: 700; color: var(--black); margin-bottom: 10px; }
+    .guarantee-block p { font-size: 15px; color: var(--gray-600); line-height: 1.7; }
+
+    /* ====== URGENCY BAR ====== */
+    .urgency-bar {
+      background: var(--black); color: var(--white);
+      text-align: center;
+      padding: 18px 24px;
+      font-size: 15px; font-weight: 500;
+    }
+    .urgency-bar strong { color: #FCD34D; }
+
+    /* ====== FINAL CTA ====== */
+    .final-cta {
+      background: var(--black);
+      padding: 112px 0;
+      text-align: center;
+    }
+    .final-cta h2 { color: var(--white); max-width: 700px; margin: 0 auto 20px; }
+    .final-cta p { color: #9CA3AF; font-size: 18px; max-width: 520px; margin: 0 auto 40px; line-height: 1.65; }
+    .final-cta .btn-primary { font-size: 18px; padding: 18px 40px; }
+
+    /* ====== FOOTER ====== */
+    footer {
+      background: #060910;
+      color: var(--gray-400);
+      padding: 40px 0;
+      font-size: 13px;
+    }
+    .footer-inner { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; align-items: center; }
+    footer a { color: var(--gray-400); text-decoration: none; transition: color 0.2s; }
+    footer a:hover { color: var(--white); }
+    .footer-links { display: flex; gap: 24px; }
+
+    /* ====== FADE IN ====== */
+    .fade-in { opacity: 0; transform: translateY(24px); transition: opacity 0.6s ease, transform 0.6s ease; }
+    .fade-in.visible { opacity: 1; transform: translateY(0); }
+
+    /* ====== RESPONSIVE ====== */
+    @media (max-width: 768px) {
+      .section { padding: 64px 0; }
+      .author-block { grid-template-columns: 1fr; }
+      .author-avatar { margin: 0 auto; }
+      .author-stats { justify-content: center; }
+      .guarantee-block { flex-direction: column; }
+      nav .nav-brand { font-size: 13px; }
+    }
+    @media (max-width: 480px) {
+      .hero { padding: 72px 0 64px; }
+      .hero h1 { letter-spacing: -0.8px; }
+      .hero-cta-group { flex-direction: column; }
+      .btn-primary, .btn-secondary { width: 100%; text-align: center; justify-content: center; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="container nav-inner">
+    <a href="#" class="nav-brand">Szkoła Dotneta <span>/ Better Dev Club</span></a>
+    <a href="#pricing" class="nav-cta">Wybierz pakiet</a>
+  </div>
+</nav>
+
+<!-- URGENCY BAR -->
+<div class="urgency-bar">
+  <strong>Early Bird aktywny przez pierwsze 48h od otwarcia sprzedaży.</strong> Potem ceny wracają do regularnych.
+</div>
+
+<!-- ======================================================== -->
+<!-- HERO -->
+<!-- ======================================================== -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-badge">
+      <span class="dot"></span>
+      Warsztat live · max 50 osób · 6 maja 2026 · Szkoła Dotneta & Better Dev Club
+    </div>
+
+    <h1>
+      Zbudujesz <span>workflow z GitHub Copilotem</span><br>
+      który w końcu działa tak jak powinien. Od .NET po CI/CD.
+    </h1>
+
+    <p class="hero-sub">
+      Koniec z eksperymentami i kodem który wygląda jakby pisał go ktoś inny.
+      Kajetan i Piotrk pokazują Ci dokładnie co robią na produkcji — .NET workflow, DevOps i CI/CD z Copilotem.
+      Nie teorię. Dwa pełne zestawy praktyk, jeden warsztat.
+    </p>
+
+    <div class="hero-cta-group">
+      <a href="#pricing" class="btn-primary">
+        Wchodzę na warsztat
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+      <a href="#workshop" class="btn-secondary">
+        Zobacz program
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 9l-7 7-7-7"/></svg>
+      </a>
+    </div>
+
+    <div class="hero-meta">
+      <span class="hero-meta-item">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        2.5h hands-on
+      </span>
+      <span class="hero-meta-item">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        Max 50 uczestników
+      </span>
+      <span class="hero-meta-item">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>
+        Nagranie dożywotnie
+      </span>
+      <span class="hero-meta-item">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        2x Microsoft MVP prowadzący
+      </span>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================== -->
+<!-- PROBLEM -->
+<!-- ======================================================== -->
+<section class="section section--gray" id="problem">
+  <div class="container">
+    <span class="section-label fade-in">Problem</span>
+    <h2 class="fade-in">Używasz Copilota... ale czy naprawdę go używasz?</h2>
+    <p class="section-lead fade-in">
+      Może skonfigurowałeś go kilka miesięcy temu. Może używasz do tabsów i tyle.
+      Może raz wygenerowałeś test i myślisz, że temat znasz.
+      Ale wiesz, że to nie to.
+    </p>
+
+    <div class="cards-grid">
+      <div class="card fade-in">
+        <div class="card-icon red">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
+        </div>
+        <h3>Generuje kod, który nie działa w Twoim projekcie</h3>
+        <p>Nie zna kontekstu, architektury, konwencji. Poprawiasz więcej niż piszesz od zera.</p>
+      </div>
+
+      <div class="card fade-in">
+        <div class="card-icon red">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+        </div>
+        <h3>Na demo robi pioruny, w prawdziwej pracy – spowalnia</h3>
+        <p>"Za każdym razem wychodzi AI slop i muszę to poprawiać. Nie wiem czy to w ogóle ma sens."</p>
+      </div>
+
+      <div class="card fade-in">
+        <div class="card-icon red">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+        </div>
+        <h3>Chaos zamiast systemu</h3>
+        <p>YouTube, blogi, Reddit, 50 narzędzi, zero spójnego przepisu. Branża pędzi do przodu, Ty stoisz w miejscu.</p>
+      </div>
+
+      <div class="card fade-in">
+        <div class="card-icon red">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </div>
+        <h3>Kolega mówi że jest 30% szybszy z Copilotem</h3>
+        <p>I czujesz się jakbyś grał w tę samą grę, ale bez instrukcji.</p>
+      </div>
+    </div>
+
+    <div class="quote-block fade-in" style="margin-top: 48px;">
+      <p>"To nie Twoja wina. GitHub Copilot to narzędzie, które wymaga konfiguracji i systemu – tak jak IDE, linter czy pipeline CI/CD. Samo zainstalowanie go to jak kupienie drogiego sprzętu i używanie go na ustawieniach domyślnych."</p>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================== -->
+<!-- AGITATION -->
+<!-- ======================================================== -->
+<section class="section" id="agitation">
+  <div class="container">
+    <span class="section-label fade-in">Dlaczego teraz</span>
+    <h2 class="fade-in">Rynek nie poczeka</h2>
+    <p class="section-lead fade-in">
+      Masz czas. Serio. Ale mniej niż rok temu.
+      Firmy zaczynają pytać jak używasz AI, nie czy go znasz.
+      Tak samo jak kilka lat temu było z Gitem.
+    </p>
+
+    <div class="timeline fade-in">
+      <div class="timeline-item">
+        <div class="timeline-marker">6m</div>
+        <div class="timeline-content">
+          <h3>Za 6 miesięcy</h3>
+          <ul>
+            <li>Junior z porządnym AI-workflow będzie produkował więcej niż Mid bez niego</li>
+            <li>Rekrutacje będą miały obowiązkowe pytanie "jak używasz AI w codziennej pracy"</li>
+            <li>Twoi współpracownicy z systemem będą widoczni, promowani i polecani</li>
+          </ul>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-marker">1r</div>
+        <div class="timeline-content">
+          <h3>Za rok</h3>
+          <ul>
+            <li>Przepaść między "używa AI systemowo" a "eksperymentuje chaotycznie" będzie znacząca na poziomie wynagrodzenia</li>
+            <li>Developerzy bez workflow będą traktowani jak ci, którzy "jeszcze nie wiedzą o Gicie"</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="quote-block fade-in">
+      <p>"Boję się, że jak nie zacznę używać AI teraz, to za rok będę już niekonkurencyjny – ale nie wiem od czego zacząć, żeby to miało sens a nie było tylko zabawą z chatem."</p>
+      <cite>— Marek, .NET Developer, Mid</cite>
+    </div>
+
+    <p class="fade-in" style="font-size: 18px; font-weight: 600; color: var(--black); margin-top: 24px;">
+      Dobra wiadomość? To się da naprawić w jedno popołudnie.
+    </p>
+  </div>
+</section>
+
+<!-- ======================================================== -->
+<!-- WORKSHOP PROGRAM -->
+<!-- ======================================================== -->
+<section class="section section--gray" id="workshop">
+  <div class="container">
+    <span class="section-label fade-in">Program warsztatu</span>
+    <h2 class="fade-in">Copilot który naprawdę działa</h2>
+    <p class="section-lead fade-in">
+      2.5h live, hands-on, na prawdziwym projekcie .NET.
+      Prowadzą Kajetan i Piotr Stapp — dwóch Microsoft MVP, każdy ze swoim kawałkiem produkcyjnego workflow.
+      Nie ktoś kto przygotował prezentację żeby o tym mówić.
+    </p>
+
+    <div class="workshop-parts">
+      <div class="workshop-part fade-in">
+        <div class="wp-number">1</div>
+        <div class="wp-content">
+          <h3>Diagnoza i konfiguracja — Kajetan</h3>
+          <div class="wp-duration">45 minut · .NET workflow</div>
+          <ul>
+            <li>Dlaczego Copilot "nie działa" – co tak naprawdę powoduje AI slop</li>
+            <li>copilot-instructions.md – jak nauczyć Copilota Twojego projektu</li>
+            <li>Konfiguracja dla projektu .NET: architektura, konwencje, ograniczenia</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="workshop-part fade-in">
+        <div class="wp-number">2</div>
+        <div class="wp-content">
+          <h3>Powtarzalny workflow i prompt files — Kajetan</h3>
+          <div class="wp-duration">45 minut · .NET workflow</div>
+          <ul>
+            <li>Prompt files – gotowe przepisy na powtarzalne zadania (.NET patterns, testy, review)</li>
+            <li>Custom agents dla .NET – jak delegować kontekstowe zadania</li>
+            <li>Live coding: refactoring, generowanie testów, dokumentacja – na prawdziwym kodzie</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="workshop-part fade-in">
+        <div class="wp-number">3</div>
+        <div class="wp-content">
+          <h3>DevOps i CI/CD z Copilotem — Piotr Stapp</h3>
+          <div class="wp-duration">45 minut · DevOps workflow</div>
+          <ul>
+            <li>Copilot w pipeline CI/CD – jak używać go produkcyjnie w procesach DevOps</li>
+            <li>Automatyzacja powtarzalnych zadań DevOps: review, weryfikacja, dokumentacja infrastruktury</li>
+            <li>Live coding: prawdziwy projekt, prawdziwy pipeline, konkretne przepisy</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="workshop-part fade-in">
+        <div class="wp-number">4</div>
+        <div class="wp-content">
+          <h3>Skills, code review i Q&A — Kajetan & Piotr</h3>
+          <div class="wp-duration">15 minut · wspólne Q&A</div>
+          <ul>
+            <li>Jak oceniać jakość kodu z AI – checklista Code Review</li>
+            <li>Q&A live: Twoje pytania, Twój projekt, konkretne odpowiedzi od obu prowadzących</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- RESULTS -->
+    <div style="margin-top: 64px;">
+      <span class="section-label fade-in">Po warsztacie masz</span>
+      <ul class="results-list fade-in">
+        <li>
+          <span class="check-icon">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          </span>
+          <span><strong>Gotowy system</strong> – copilot-instructions, prompt files, custom agents pod .NET i DevOps</span>
+        </li>
+        <li>
+          <span class="check-icon">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          </span>
+          <span><strong>Workflow który działa powtarzalnie</strong> – nie eksperymenty, a konkretne przepisy od .NET po CI/CD</span>
+        </li>
+        <li>
+          <span class="check-icon">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          </span>
+          <span><strong>Pewność</strong> – wiesz co Copilot robi dobrze, a czego nie widzi i jak to kontrolować</span>
+        </li>
+        <li>
+          <span class="check-icon">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          </span>
+          <span><strong>Materiały do wdrożenia od zaraz</strong> – repozytorium GitHub z pełnym kodem z warsztatu</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================== -->
+<!-- SOCIAL PROOF -->
+<!-- ======================================================== -->
+<section class="section" id="opinie">
+  <div class="container">
+    <span class="section-label fade-in">Co mówią uczestnicy</span>
+    <h2 class="fade-in">Szkoła Dotneta + Better Dev Club: 3 000+ developerów w społeczności</h2>
+    <p class="section-lead fade-in">
+      Opinie uczestników poprzednich warsztatów Kajetana.
+    </p>
+
+    <div class="testimonials">
+      <div class="testimonial fade-in">
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testimonial-text">"Nareszcie rozumiem dlaczego Copilot u mnie nie działał tak jak na demo. Jeden warsztat zmienił moje podejście do całego workflow."</p>
+        <div class="testimonial-author">Uczestnik warsztatu Copilot Intro</div>
+      </div>
+
+      <div class="testimonial fade-in">
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testimonial-text">"Kajetan mówi jak peer, nie jak guru. Nie tłumaczy co kliknąć, tłumaczy dlaczego to działa. Po warsztacie wiedziałem co muszę zmienić w swoim projekcie."</p>
+        <div class="testimonial-author">Senior .NET Developer</div>
+      </div>
+
+      <div class="testimonial fade-in">
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testimonial-text">"Wreszcie ktoś po polsku, kto naprawdę to robi, a nie tylko o tym mówi."</p>
+        <div class="testimonial-author">.NET Developer</div>
+      </div>
+    </div>
+
+    <div style="margin-top: 56px; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px;" class="fade-in">
+      <div style="text-align: center; padding: 28px; background: var(--blue-light); border-radius: var(--radius);">
+        <div style="font-size: 40px; font-weight: 700; color: var(--blue);">3 000+</div>
+        <div style="font-size: 14px; color: var(--gray-600); margin-top: 4px;">developerów w społeczności</div>
+      </div>
+      <div style="text-align: center; padding: 28px; background: var(--blue-light); border-radius: var(--radius);">
+        <div style="font-size: 40px; font-weight: 700; color: var(--blue);">15 lat</div>
+        <div style="font-size: 14px; color: var(--gray-600); margin-top: 4px;">doświadczenia w .NET</div>
+      </div>
+      <div style="text-align: center; padding: 28px; background: var(--blue-light); border-radius: var(--radius);">
+        <div style="font-size: 40px; font-weight: 700; color: var(--blue);">1 mln+</div>
+        <div style="font-size: 14px; color: var(--gray-600); margin-top: 4px;">PLN przychodu ze Szkoły Dotneta</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================== -->
+<!-- PRICING -->
+<!-- ======================================================== -->
+<section class="section section--gray" id="pricing">
+  <div class="container">
+    <span class="section-label fade-in">Pakiety i ceny</span>
+    <h2 class="fade-in">Wybierz swój pakiet</h2>
+    <p class="section-lead fade-in">
+      Early bird aktywny przez pierwsze 48h od otwarcia sprzedaży. Potem ceny wracają do regularnych.
+    </p>
+
+    <div class="pricing-grid">
+
+      <!-- STANDARD -->
+      <div class="pricing-card fade-in">
+        <div class="pricing-name">Standard</div>
+        <div class="pricing-price"><sup>PLN</sup>347</div>
+        <div class="pricing-regular">397 PLN regularnie</div>
+        <div class="pricing-label">Oszczędzasz 50 PLN (early bird)</div>
+        <ul class="pricing-features">
+          <li class="included">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            2.5h warsztat live z Kajetanem (hands-on)
+          </li>
+          <li class="included">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            Nagranie sesji (dostęp dożywotni)
+          </li>
+          <li class="included">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            Pliki szablonowe: copilot-instructions, prompt files, agents, skills
+          </li>
+          <li class="included">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            Repo GitHub z kodem z warsztatu
+          </li>
+          <li class="included">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            Q&A mailowy po warsztacie
+          </li>
+          <li class="not-included">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+            Biblioteka promptów (produkcja)
+          </li>
+          <li class="not-included">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+            Checklista Code Review AI
+          </li>
+          <li class="not-included">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+            Sesja 1:1 z Kajetanem
+          </li>
+        </ul>
+        <a href="https://kurs.szkoladotneta.pl/zamowienie/?add-to-cart=22683&price-id=2" class="btn-pricing outline">Wybieram Standard</a>
+      </div>
+
+      <!-- PRO -->
+      <div class="pricing-card featured fade-in">
+        <div class="pricing-badge">Najpopularniejszy</div>
+        <div class="pricing-name">Pro</div>
+        <div class="pricing-price"><sup>PLN</sup>497</div>
+        <div class="pricing-regular">597 PLN regularnie</div>
+        <div class="pricing-label">Oszczędzasz 100 PLN (early bird)</div>
+        <ul class="pricing-features">
+          <li class="included">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            Wszystko ze Standard
+          </li>
+          <li class="included">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            <strong>Prywatna biblioteka promptów .NET</strong> – z pracy produkcyjnej Kajetana
+          </li>
+          <li class="included">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            <strong>Checklista Code Review dla kodu z AI</strong>
+          </li>
+          <li class="included">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            Certyfikat ukończenia (podpisany przez Microsoft MVP)
+          </li>
+          <li class="included">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            Cheatsheet PDF: Deterministyczny AI Workflow
+          </li>
+          <li class="included">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            Grupowy follow-up Q&A live (1h, ~2 tygodnie po warsztacie)
+          </li>
+          <li class="not-included">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+            Sesja 1:1 z Kajetanem
+          </li>
+        </ul>
+        <a href="https://kurs.szkoladotneta.pl/zamowienie/?add-to-cart=22683&price-id=1" class="btn-pricing primary">Wybieram Pro</a>
+      </div>
+
+      <!-- VIP -->
+      <div class="pricing-card fade-in">
+        <div class="pricing-name">VIP</div>
+        <div class="pricing-price"><sup>PLN</sup>797</div>
+        <div class="pricing-regular">997 PLN regularnie</div>
+        <div class="pricing-label">Oszczędzasz 200 PLN (early bird)</div>
+        <ul class="pricing-features">
+          <li class="included">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            Wszystko z Pro
+          </li>
+          <li class="included">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            <strong>Prywatna sesja 1:1 z Kajetanem (30 min)</strong> – audyt Twojego konkretnego projektu .NET
+          </li>
+          <li class="included">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            Priorytetowy dostęp do kolejnych edycji warsztatu
+          </li>
+        </ul>
+        <a href="https://kurs.szkoladotneta.pl/zamowienie/?add-to-cart=22683&price-id=3" class="btn-pricing outline">Wybieram VIP</a>
+      </div>
+
+    </div>
+
+    <p class="fade-in" style="text-align: center; margin-top: 24px; font-size: 13px; color: var(--gray-400);">
+      Platnosci: karta / przelew / PayPal. Start: natychmiast po zakupie – dostep do linku do eventu.
+    </p>
+  </div>
+</section>
+
+<!-- ======================================================== -->
+<!-- AUTHOR -->
+<!-- ======================================================== -->
+<section class="section" id="autor">
+  <div class="container">
+    <span class="section-label fade-in">Prowadzący</span>
+    <h2 class="fade-in">Dwóch Microsoft MVP. Dwa zestawy praktyk z produkcji.</h2>
+
+    <!-- KAJETAN -->
+    <div class="author-block fade-in" style="margin-top: 56px;">
+      <div class="author-avatar">
+        <span>K</span>
+      </div>
+      <div>
+        <div class="author-name">Kajetan</div>
+        <div class="author-title">Microsoft MVP – Web Development Technologies & .NET Development Technologies · Szkoła Dotneta</div>
+        <p class="author-bio">
+          Programista .NET od 15 lat. Team Leader zespołu 10-osobowego. Twórca Szkoły Dotneta z ponad
+          <strong>1 milionem złotych przychodu</strong> i <strong>3 000+ developerów</strong> w społeczności.
+        </p>
+        <p class="author-bio">
+          Nie jestem trenerem Copilota. Jestem programistą .NET który go używa produkcyjnie
+          każdego dnia i pokażę Ci dokładnie to co sam robię. Nie teorię.
+          Ten sam workflow, którego użyję jutro rano.
+        </p>
+        <div class="author-stats">
+          <div class="author-stat">
+            <div class="author-stat-value">15 lat</div>
+            <div class="author-stat-label">w .NET</div>
+          </div>
+          <div class="author-stat">
+            <div class="author-stat-value">MVP x2</div>
+            <div class="author-stat-label">Microsoft categories</div>
+          </div>
+          <div class="author-stat">
+            <div class="author-stat-value">3 000+</div>
+            <div class="author-stat-label">dev społeczność</div>
+          </div>
+          <div class="author-stat">
+            <div class="author-stat-value">1M+ PLN</div>
+            <div class="author-stat-label">przychód</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- DIVIDER -->
+    <div style="border-top: 1px solid var(--gray-200); margin: 48px 0;"></div>
+
+    <!-- PIOTR -->
+    <div class="author-block fade-in">
+      <div class="author-avatar">
+        <span>P</span>
+      </div>
+      <div>
+        <div class="author-name">Piotr Stapp</div>
+        <div class="author-title">Microsoft MVP · Better Dev Club</div>
+        <p class="author-bio">
+          Ekspert DevOps i CI/CD. Współtwórca Better Dev Club. Używa GitHub Copilota w prawdziwych pipeline'ach
+          i procesach DevOps na co dzień — nie na potrzeby prezentacji.
+        </p>
+        <p class="author-bio">
+          Na warsztacie pokaże Ci dokładnie jak wygląda praca z Copilotem po stronie DevOps:
+          od konfiguracji po automatyzację CI/CD. Bez teorii, na prawdziwym projekcie.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================== -->
+<!-- FAQ -->
+<!-- ======================================================== -->
+<section class="section section--gray" id="faq">
+  <div class="container">
+    <span class="section-label fade-in">FAQ</span>
+    <h2 class="fade-in">Najczestsze pytania</h2>
+
+    <div class="faq-list fade-in" style="margin-top: 48px;">
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          Czy muszę mieć aktywną licencję GitHub Copilot przed warsztatem?
+          <svg class="faq-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">Tak, przyda się GitHub Copilot Individual lub Business. GitHub oferuje darmowy trial – możesz go aktywować przed warsztatem. Damy znać co skonfigurować w mailu powitalnym.</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          Czy warsztat jest dla Juniora, Mida czy Seniora?
+          <svg class="faq-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">Dla każdego kto pisze kod w .NET i chce mieć system pracy z Copilotem. Junior wyjdzie z gotowym workflow. Mid i Senior wyjdą z głębszym zrozumieniem jak to optymalizować pod swój projekt. Nie tłumaczę podstaw .NET – zakładam, że je znasz.</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          Co jeśli nie będę mógł być na live?
+          <svg class="faq-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">Nagranie dostępne w każdym pakiecie (dostęp dożywotni). Możesz obejrzeć kiedy chcesz i wrócić do materiałów w dowolnym momencie.</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          Jakie środowisko jest wymagane – Visual Studio czy VS Code?
+          <svg class="faq-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">Warsztat pokrywa oba. Pokażę konfigurację dla VS i VSC. Używaj tego, czego używasz na co dzień.</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          Ile trwa dostęp do materiałów?
+          <svg class="faq-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">Nagranie i pliki szablonowe – dożywotnio. Repozytorium GitHub – na zawsze.</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          Co jeśli warsztat zostanie odwołany?
+          <svg class="faq-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">Pełny zwrot kosztów. Bez pytań, bez warunków.</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================== -->
+<!-- GUARANTEE -->
+<!-- ======================================================== -->
+<section class="section" id="gwarancja">
+  <div class="container">
+    <div class="guarantee-block fade-in">
+      <div class="guarantee-icon">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+      </div>
+      <div>
+        <h3>Gwarancja pełnego zwrotu</h3>
+        <p>
+          Jeśli warsztat zostanie odwołany z jakiegokolwiek powodu – <strong>zwracam 100% kwoty</strong>.
+          Bez pytań, bez procedur, bez czekania. Płacisz za coś realnego. Nie za obietnicę.
+        </p>
+        <p style="margin-top: 12px; font-size: 13px; color: var(--gray-400);">
+          Warsztat odbywa się na żywo, z ograniczoną liczbą uczestników – buduję go po to,
+          żeby dostarczyć konkretną wartość, nie po to, żeby go odwoływać.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================== -->
+<!-- FINAL CTA -->
+<!-- ======================================================== -->
+<section class="final-cta" id="final-cta">
+  <div class="container">
+    <div class="hero-badge fade-in" style="background: rgba(255,255,255,0.1); color: white; border-color: rgba(255,255,255,0.2); margin: 0 auto 28px;">
+      <span class="dot" style="background: white;"></span>
+      Max 50 miejsc. Prowadzę to sam.
+    </div>
+    <h2 class="fade-in" style="color: white;">
+      Gotowy być tym gościem w zespole<br>który naprawdę to ogarnia?
+    </h2>
+    <p class="fade-in">
+      Nie tym co "słyszał o Copilocie". Tym, który ma system,
+      wie co robi — od .NET po CI/CD — i może to wytłumaczyć juniorowi w poniedziałek rano.
+    </p>
+    <a href="#pricing" class="btn-primary fade-in" style="box-shadow: 0 4px 24px rgba(37,99,235,0.5);">
+      Wybieram pakiet Pro i wchodzę
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+    </a>
+    <p class="fade-in" style="margin-top: 48px; font-size: 15px; color: rgba(255,255,255,0.6); font-style: italic; max-width: 600px; margin-left: auto; margin-right: auto;">
+      Programiści którzy przyszli na moje poprzednie warsztaty nie pytają po miesiącu "czy warto było?".
+      Pytają czy jest kolejna edycja, bo chcą wysłać znajomego z pracy.
+    </p>
+  </div>
+</section>
+
+<!-- ======================================================== -->
+<!-- FOOTER -->
+<!-- ======================================================== -->
+<footer>
+  <div class="container footer-inner">
+    <span>© 2026 Szkoła Dotneta & Better Dev Club. Wszelkie prawa zastrzeżone.</span>
+    <div class="footer-links">
+      <a href="https://szkoladotneta.pl/polityka-prywatnosci">Polityka prywatności</a>
+      <a href="mailto:kajetan@szkoladotneta.pl">Kontakt</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // FAQ accordion
+  function toggleFaq(btn) {
+    const answer = btn.nextElementSibling;
+    const isOpen = answer.classList.contains('open');
+    // close all
+    document.querySelectorAll('.faq-answer.open').forEach(a => a.classList.remove('open'));
+    document.querySelectorAll('.faq-question.open').forEach(q => q.classList.remove('open'));
+    // open clicked
+    if (!isOpen) {
+      answer.classList.add('open');
+      btn.classList.add('open');
+    }
+  }
+
+  // Fade-in on scroll
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+</script>
+</body>
+</html>
