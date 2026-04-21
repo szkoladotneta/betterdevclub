@@ -1,5 +1,69 @@
 [
   {
+    "id": 25,
+    "num": "25",
+    "title": "Better Dev Club #25 - Koniec taniego AI. Opus 4.7 zżera subskrypcje. Czy Kimi 2.6 to dobra alternatywa?",
+    "notPublished": true,
+    "date": "2026-04-23",
+    "duration": "22:54",
+    "desc": "Testowaliśmy nowego Opusa i... zapłaciliśmy jak za zboże! W 25. odcinku dyskutujemy o ukrytych kosztach nowych potężnych modeli AI i dlaczego Opus 4.6 nagle zniknął z GitHub Copilot. Zastanawiamy się czy 21 tanich modeli (jak Google Flash) nie sprawdzi się w codziennej pracy lepiej niż jeden wszechpotężny, ale koszmarnie drogi. Na horyzoncie pojawia się też sprzętowa alternatywa z Chin - zamknięty model Kimi 2.6 odpalany lokalnie na nowych Macach. Koniec z uruchamianiem wszystkiego na najwyższych obrotach – czas na świadomy, zoptymalizowany multi-agent workflow, o którym więcej opowiemy na naszym nadchodzącym warsztacie!",
+    "agenda": [
+      "00:00 - Testowaliśmy nowego Opusa i płacimy jak za zboże",
+      "05:30 - Pogorszenie Opus 4.6 i dowód w postaci zgłoszenie senior directora z AMD...",
+      "08:28 - 20 juniorów vs 1 senior, czyli kiedy opłaca się brać tańszy model (Google Flash, Grok)",
+      "08:56 - Znikające modele w Copilot - co się stało z Opusem 4.6?",
+      "14:10 - Chiński model Kimi 2.6 odpalany lokalnie na Macu do 100+ tokenów na sekundę",
+      "20:42 - Koniec hype'u na bezmyślne odpalanie zadań – musimy optymalizować AI pod koszty",
+      "21:59 - Zapowiedź warsztatu z multi-agent workflow (6 maja)"
+    ],
+    "tags": [
+      "betterdevclub",
+      "ai",
+      "claude",
+      "opus",
+      "githubcopilot",
+      "kimi",
+      "googleflash",
+      "programowanie",
+      "it",
+      "optymalizacja",
+      "agents"
+    ],
+    "platforms": {
+      "youtube": "",
+      "spotify": "",
+      "apple": ""
+    },
+    "resources": [
+      {
+        "type": "link",
+        "url": "https://betterdevclub.pl/warsztat-copilot",
+        "label": "Warsztaty: Multi-Agent Workflow (6 maja)",
+        "description": "Zapisy na nasze warsztaty z projektowania deterministycznych i tanich procesów opartych o agentów."
+      },
+      {
+        "type": "link",
+        "description": "Zgłoszenie senior directora z AMD o pogorszeniu Opusa 4.6",
+        "label": "Zgłoszenie na githubie o pogorszeniu Opusa 4.6",
+        "url": "https://github.com/anthropics/claude-code/issues/42796"
+      },
+      {
+        "type": "link",
+        "url": "https://llm-stats.com/blog/research/claude-opus-4-7-launch",
+        "label": "Claude Opus 4.7: Benchmarks, Pricing, Context & What's New",
+        "description": "Szczegółowe informacje o nowym modelu Claude Opus 4.7, jego wydajności, cenach i nowościach."
+      }, 
+      {
+        "type":"link",
+        "url": "https://x.com/Kimi_Moonshot/status/2046249571882500354",
+        "label": "Tweet o Kimi 2.6",
+        "description": "Chiński model Kimi 2.6 który można odpalić lokalnie"
+      }
+    ],
+    "youtubeId": "",
+    "guestKey": "piotrek"
+  },
+  {
     "id": 24,
     "num": "24",
     "title": "Better Dev Club #24 - Dlaczego warto chodzić na konferencje i debiutować na scenie?",

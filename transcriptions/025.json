@@ -1,0 +1,164 @@
+{
+  "transcript": [
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:00",
+      "text": "Cześć Piotrek!"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:01",
+      "text": "To jest kajtek."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:02",
+      "text": "Testowałeś już nowego opusa?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:05",
+      "text": "Testowałem, zapłaciłem jak za zboże i przetestowałem."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:09",
+      "text": "I co o sądzisz?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:11",
+      "text": "No że płacisz jak za zboże. W sensie jak gdyby dobra, kod który wypuszcza jest spoko, ale jak mi zadasz tak uczciwie pytanie, bo tam dobra, ale obaj chyba głównie jesteśmy na licencji Copilota, więc odniosę się do licencji Copilota, bo też testowałem na Claude, ale tam nie pamiętam cennika. Przepraszam słuchaczu, sprawdź sobie sam. To jak gdyby jest nowy Opus i zżera razy 7 liczba requestów. Standardowe modele Claude'a zżerają razy 1, a te ostatnie, czyli Opus 4.6, zżerają razy 3. A jak wyjmę sobie Haiku, czy mój ulubiony, który zawsze pokazuje Google Flash, to Google Flash zżera z tego co pamiętam razy 0.33. Czyli tak podsumowując w porównaniu z prostym modelem, a jeszcze chyba Grok w ogóle jest za 0.25, ale dobra. Wybierając mojego ulubieńca Juniora, to nazwę Google Flash, a seniorem albo uberpremier AI Inżynierem 4.7, to 21 juniorów pokrywa mi jednego seniora. Principala, dobra, nazwę go Principal."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "01:30",
+      "text": "Aż tak. No tak, muszę się z tobą zgodzić, bo ja też oczywiście od razu go wrzuciłem w maszynkę i byłem zaskoczony, że dowiózł. Dowiózł i to bez większych problemów i sam potrafił trzymać kontekst i faktycznie jakość tego kodu, którą wypluł, była naprawdę solidna, ale pierwszy raz od wielu miesięcy cieszyłem się, że realnie mam dwie subskrypcje Copilot'a w tej chwili. bo jedną, najwyższą, jaka jest, zeżarło mi w 3 dni. W 3 dni przejechałem się po całej swojej subskrypcji. No i właśnie, teraz czekam na odnowienie i zobaczymy, co to będzie dalej. Natomiast powiem ci, że trochę mnie osobiście to martwi, bo jak wychodził Opus 4.6, zresztą jak był Sonet 4.6... To wszystko wydawało się OK. Wszyscy byli zachwyceni. Boże, jak te modele teraz zapierdzielają. Jakie one są świetne. Ale jest coś w tym, że pod koniec, to znaczy pod koniec życia Opusa 4.6, czyli chwilę przed tym, jak miała być premiera 4.7, zaczęło być różnie. I to bardzo różnie. I to nie jest tylko moje odczucie, ale..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "02:56",
+      "text": "To więc nie tak tuż... To nie jest tak tuż, to jest tak z miesiąc."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "03:01",
+      "text": "No tak, tak, tak. to jest, no ale no tak, faktycznie. Jeżeli mamy nowe modele co trzy miesiące albo co cztery, no to faktycznie nie jest tak tuż. Ale informacje w ogóle z sieci też potwierdzają moje przypuszczenia, że coś się z opusem 4.6 stało i że on nie jest tak dobry jak był na początku. No i tutaj musimy się zastanowić, bo mogą być..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "03:26",
+      "text": "No tak."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "03:29",
+      "text": "ku temu przynajmniej dwa powody. Albo widzimy coś takiego jak data drift, czyli po prostu takie naturalne pogorszenie się modelu z czasem. Albo, tak to jest nudne, wiadomo, nie patrzmy na to z tej strony."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "03:46",
+      "text": "Jak nas słuchasz drogi widzu to właśnie wykonałem gest wskazujący na pewną reakcję, może nie alergiczną, ale..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "03:59",
+      "text": "Tak, ale no kurczę, trochę jednak się obawiam, że duże firmy z nami pogrywają. Żeby nie było, to nie jest nic nowego tak właściwie, że duże firmy z nami pogrywają, ale jeżeli firma, która jest na tapecie po prostu na wszystkich portalach z newsami dotyczącymi AI, wypuszcza nowy model, charge'uje za niego jakieś kosmiczne pieniądze i chwalą się jaki to on jest zajebisty, a realnie może jest trochę lepszy niż ich poprzedni model zaraz po premierze. No to z mojej strony coś jest nie tak."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "04:45",
+      "text": "Dobra, to nie przejdziemy dalej, mała reklama. Jak nadal nas słuchasz, to zachęcamy do lajka, subskrypcji i wszystkich innych takich dziwnych rzeczach. Więc jak możesz, to z chęcią komentarz albo plus w górę, plus w dół też będzie miło. Na kanale mamy około 97 % plusów w górę, więc jak na razie chyba trafiamy w content, ale jak do ciebie nie trafiamy, to też jak gdyby każda reakcja w cenie. No i suba oczywiście, tak zostawcie suba na jakiejkolwiek platformie jesteśmy. Właśnie odkrywamy z Kajetanem, gdzie jesteśmy świetnym podcastem. Ale teraz kończąc reklamę, do meritum. Jest taki wpis, który jak gdyby rozpalił strasznie, znaczy to nie wpis, to jest w zasadzie zgłoszone issue na GitHubie. O tak. Jest ono przypisywane, że to jest senior director AMD. Nie wiem na ile to naprawdę senior director AMD, bo ja aż tak nie wierzę w to, że ktoś tam coś napisał na GitHubie. Oceńcie sami na ile to jest taki człowiek. Ale rzeczywiście wklejają naprawdę bardzo duże wyliczenia ze swoich testów, czy z ich testów. Z datą kluczową 8 marca. Że wtedy nagle się znacząco pogorszyło. I teraz, jak o tym pomyślisz... Zresztą patrząc na nowy model, to teraz ci powiem sekret, bo to strasznie dużo energii pali. Nadal jesteśmy chyba na etapie, jak Uber był kiedyś, że tam w Stanach dało się zrobić przejazd za 2 dolary, a teraz nagle za 15, albo coś w tym stylu. Na pewno też pamiętacie, jak wchodził Uber, Bolt, albo inna taka usługa dla nas, że w ogóle jeździło się za darmo, a teraz nagle nie jeździ się za darmo. Ciekawe co się stało. Więc myślę, że po prostu zaczęli, wiecie, optymalizować to narzędzie, żeby ono było bardziej optymalne. Przez to zżera mniej prądu, a przez to... No, bądźmy szczerzy, no jest trochę gorsze, nie? W sensie, bo jak rzeczywiście mielili dużo więcej mocy, no to mieliśmy dużo lepszy model. To chyba nadal jesteśmy na etapie dzisiaj, że moc przekłada się na to, jak dobrze to działa przynajmniej w tych największych modelach. Im więcej włożysz, tym więcej przepalisz, a jak jeszcze do tego dołożysz, że Anthropic od jakiegoś czasu dał jeden milion okna kontekstowego, a on to okno kontekstowe zwiększa z użyciem mocy, z tego co ja pamiętam, logarytmicznie, a nie liniowo, albo kwadratowo chociaż, na pewno nie liniowo. W sensie im więcej, tym więcej musisz to przetworzyć. Ale nawet jak to jest liniowo, dobra, whatever. To potrzebujesz więcej mocy, jak potrzebujesz więcej mocy, to więcej cię to kosztuje i tak dalej. Kasy jak na razie palimy dużo, nie mamy aż tyle zysków. Damy link oczywiście na naszej stronie do tego GitHuba, żebyście sami poczytali, ale tam są naprawdę, to nie są drobiazgi w różnicach, to są naprawdę... rzeczywiście ten 8 marca spowodował jakieś znaczące... No i wiesz słuchaj, nie pamiętam, kiedy oni to ogłosili, w zeszłym tygodniu tego Opusa. Powiedzmy 15 kwietnia, miesiąc później wjeżdża nowy Opus, który kosztuje Cię, bagatela dwa razy drożej niż poprzedni."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "08:17",
+      "text": "Coś takiego."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "08:28",
+      "text": "No i wracamy chyba słuchaj do standardowego pytania, czy 20 juniorów, charge'owanych za 0,33 zapewni Ci tyle co ten Staff+ inżynier za 21 razy więcej. To chyba nawet w Twoim poście o pensjach takiej przepaści na polskim rynku nie ma. Tam jest chyba tylko pięciokrotna."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "08:56",
+      "text": "Tak, coś w tym stylu. ale może być teraz moment, którym w końcu być może będziemy musieli się zastanawiać nad tym, czego używać, do jakich zadań, bo jeszcze przed tą premierą zarówno Opus, jak i Sonnet w Copilotie miały mnożnik razy 3, czyli właściwie nie było żadnej różnicy, czy używasz mocniejszego modelu, czy... używasz tego trochę słabszego, teraz nagle ta różnica jest olbrzymia, już nie mówiąc o tym, że nagle, nie wiem czy widziałeś, ale dzisiaj w ogóle Opus 4.6 zniknął z Copilota. Jego po prostu nie ma, nie możesz go użyć. Możesz użyć Soneta 4.6 i możesz użyć Opusa 4.7, w związku z tym masz ograniczone możliwości. No i dlatego może... warto by się było zastanowić do czego używamy, jakiego modelu w końcu zacząć nad tym myśleć, bo oprócz tego, że opóz zawsze działał wolniej, bo musiał więcej tych informacji, nazwijmy to, przemielić na podstawie całego swojego datasetu, no to teraz, jeżeli wchodzi w grę cena, to zacznijmy używać tego świadomie, jakby znowu wracamy do tego, że może... jechanie po prostu na jakimś autopilocie ze wszystkim na jednym modelu to nie jest najlepsze rozwiązanie tylko jakiś workflow taki multi agentowy w którym realnie dla tych najprostszych czynności bierzesz najtańsze modele a do tych faktycznie w których trzeba pomyśleć w cudzysłowie oczywiście zaprzękniemy te trochę mocniejsze Ale jak to będzie się w ogóle przekładało?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "10:50",
+      "text": "Jak to mówiłeś, odpaliłem sobie teraz Visual Studio Code Copilot, żeby dokładnie patrzeć na dane. Dzisiaj u mnie opust 4.6 zadziałał, bo właśnie go sprawdziłem. Jego jeszcze widzę może dlatego, że mam otwarte od jakiegoś czasu. W konsoli go nie widzę, żeby nie było jasne. konsoli go nie widzę, odpaliłem w tym, bo w tym mi łatwiej, powiem o to, że rzadko używam. przyznam szczerze, że w Visual Studio Code'zie, łatwiej mi zobaczyć na cennik. To w tej chwili jak patrzę to wiesz, to jest straszna rozwałka, bo masz Hi-Q 4,5 za 0,33, Sonneta 4,6 za 1, i to nawet z High Reasoning, Opusa 4,6 za 3, też jak gdyby dowolnie Medium, znaczy nie pamiętam Low, High, nie pamiętam jak to są, Low, Medium, High, Thinking Effort. Opus, w którym nie można zdecydować czy jest on Low, Medium czy High Thinking Effort. Jest rzeczywiście 200 tysięcy okna kontekstowego, chyba wszystko ma 200 tysięcy okna kontekstowego w tej chwili chyba tak. Niektóre starsze mają tu 28. A jeszcze masz, mówiąc szczerze, kodeksa, który wjechał niedużo wcześniej, 5.4. I on też całkiem spoko se radził, przynajmniej u mnie. sensie GPT 5.4 mini to w ogóle rozczardowane za 0.33, więc też jest dość tanie. A GROK Fast 1 za 0.25, nie? mówię już o GPT-4.1 czy GPT-4.0, które są za 0."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "12:31",
+      "text": "No tak, zgadza się, ale to jest właśnie to i to jest... Ostatnio w shortie mówiłem, jakby challenge'owanie w ogóle dwóch różnych modeli ze sobą też może nam dać bardzo ciekawe efekty, bardzo często, nawet lepsze niż po prostu wrzucenie jednego zadania w ten najmocniejszy teoretycznie i najdroższy w związku z tym model. Dlatego myślę, że po prostu od czasu do czasu musimy pokombinować, jeżeli o tym myślimy, jeżeli myślimy o... korzystaniu i nie mamy otwartego portfela naszego prezesa, który po prostu za wszystko zapłaci bez mrugnięcia okiem. Bo właśnie, bo to jest coś, co będzie nas dotykało coraz bardziej i coraz częściej domyślam się i to nie tylko z Antropikiem. To musimy być tego świadomi, że teraz, zresztą powtarzaliśmy to już nie raz, teraz jest jeszcze tanio, ale to tanio się skończy i to nie tylko w przypadku Antropika, ale w przypadku GPT. I w przypadku Gemini domyślam się, że w prędzej czy później też."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "13:41",
+      "text": "Zresztą jest. Z drugiej strony masz Chińczyków, dostali... Chińczyki, no wiadomo. Gdzieś kiedyś słyszałem, nie pamiętam czy to są słowa, więc jak cytuję bez podania źródła, po prostu nie pamiętam, że Chińczycy mają na cel zrobienia tak, żeby stany na tym nie zarobiły. W sensie, że oni po prostu nie liczą się z kosztami, żeby stany były w darcie. To jest taka ciekawa perspektywa."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "13:45",
+      "text": "Ach, hinczyki."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "14:10",
+      "text": "A więc i Chińczycy wypuszczają modely otwarte. To nie oznacza, że je polecam w tej chwili, żeby to głośno wybrzmiałało. To wcale nie oznacza, że je polecam. Ja najchętniej polecam, żeby to głośno wybrzmiałało europejskie modele, ale tu mamy niestety do wyboru tylko cały jeden. I mówiąc szczerze nie wiem, dlaczego, mówiąc szczerze nie widzę w Kopilotcie, ale dobra to inna para kaloszy. To Kimi 2,5, nie skłamałem."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "14:38",
+      "text": "Dwa, sześć."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "14:40",
+      "text": "2.6, o 2.6, tak. Kimi 2.6 wyszło i Kimi 2.6 patrząc po benchmarkach, sam przyznam szczerze nie odpaliłem jeszcze, nie zdążyłem, jak gdyby na tyle jest świeżynka, że ciężko pewnie, nie ten chociaż gdzieś już czytałem właśnie jakiś post, który to porównywał, że działa całkiem OK lokalnie na Macu. Faktu należy powiedzieć, to nie jest każdy Mac, to jest chyba Mac z M4 albo z M5. Nie jestem pewien M4, M5 jestem pewien. Dość duże ilości gigaramu, ale no wiesz, kupuję sobie takiego Maca, nie wiem ile on teraz kosztuje, pewnie zdychę, strzelę. Kupuję sobie takiego Maca, biorę sobie takie Kimi. Wedle jakichś tam testów, które żeśmy patrzyli on wywala był w stanie dojść do tam nie wiem ponad 100 tokenów na sekundę. Zaczynał od jakiejś małej ilości, ale potem doszedł do jakiejś sensownej ilości 100 iluś tokenów na sekundę. to wiesz, może się okaże, że warto zainwestować w dobry sprzęt. Jakby mi się dzisiaj pojawiło w głowie. Ciebie pewnie też, jak to zobaczyłeś. Może mam powód, żebym zakupił najniższego Maca. Bo to jest alternatywa."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "15:58",
+      "text": "i... To jest na pewno alternatywa. dobra? Też ciężko powiedzieć. Tak, jeżeli stosujemy do developmentu, być może tak, jeżeli stosujemy do... do różnych rzeczy, nie tylko do developmentu, to nie wiem, czy aż tak bym w tę stronę szedł, bo jednak chińskie modele mają jeszcze ten problem, że są mocno ocenzurowane. I kiedy cię ta cenzura tam dotknie, to jeszcze jest druga sprawa, ale cenzura też musimy pamiętać, że ona też powoduje to, że... kontekst mamy już z automatu trochę zapchany samą cenzurą i tym, że on musi pomyśleć, czy w ogóle może ci odpowiedzieć, czy on będzie zawsze ci odpowiadał w dewelopmencie tak jakbyś chciał, jeżeli nagle zaczniesz..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "16:53",
+      "text": "Znaczy co, chcesz mi powiedzieć, będzie... quick-salta nie możesz."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "16:58",
+      "text": "Nie mam wiedzy na ten temat, niestety. Nie aż tak, ale mówię, zawsze z dużą rezerwą podchodzę do chińskich modeli, szczególnie do chińskich modeli, niestety. i trzeba sobie właśnie zadać pytanie, na ile benchmarki mają jakiś sens w tym wszystkim."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "17:23",
+      "text": "Nie nie, czytałem, w sosial mediach jest ta wada, że czasami ci znika i nie umiesz trafić do posta z powrotem. Ale czytałem jakiś właśnie dłuższy test i on wyglądał całkiem spoko. To nie oznacza, polecam, albo że nie ten, tylko że nagle taka alternatywa jest. To co jest fajne to jest to Mogę to odpalić lokalnie i to niech będzie daje nam tego wiesz juniora nie? Albo tam junior plusa. Mogę to odpalić lokalnie. Rzeczywiście to nie jest za darmo nie? No boże ja mówię prąd, ja jak gdyby wszystko co ja tu mam nie? Jak gdyby przekupić tego Maca, bo to na razie chyba w zasadzie tylko mówimy o niestety tej architekturze intelowa jest nie powiem gdzie, karty Nvidia i kosztu jeszcze gorzej wcale nie są aż takie super. ale to bym już o takim normalnym laptopie deweloperskim. Z górnej półki nie ma wątpliwości, ale normalnym laptopie deweloperskim to wiesz, to wcale nie jest nagle taki... znaczy to pokazuje tylko, że tam jest po prostu przestrzeń, której można by było skorzystać. Nie mówię, że to się dzieje teraz. Teraz się nie dzieje. Ewidentnie Antropiq nie ma potrzeby redukowania swoich zasobów jeszcze. Trochę to robią. ale to nie jest taki, wiesz, to nie jest taki, nie ma takiego ogłoszenia, wypuściliśmy model, który będzie charge'owany 0,33, ale daje Wam tą moc, co dawał Wam model razy 7. Bo to jest, wiesz, to jest taki, ten. Tak, na jesieni Google w sumie to zrobił, bo wypuszczając Flusha powiedział, że jest prawie tak dobry jak Pro. I rzeczywiście jak się z niego korzystało, nie wiem czy korzystacie słuchacza czy nie, Ja korzystałem nawet w gemini.google.com do jakiejś swojej roboty, czy nawet na któraś prezentacji to z Karytanem pokazywałem, że istnieje też inny świat. On jest naprawdę spoko. Nie jest tak dobry. Nie zrobi mi nie wiadomo czego, ale do bardzo wielu rzeczy jest good enough. I to jest w ogóle super. A jak dołączysz do tego fajny zestaw narzędzi, bo to też narzędzia robią robotę, bądźmy szczerze. Narzędzia do PR, narzędzia do weryfikacji kodu, narzędzia do implementacji, wszystkie te skill'y, których mówimy, tam mcp server w zależności od tego co potrzebujesz, to może się okazać, wcale nie to ości. Dla Kruda naprawdę nie trzeba odpalać, nie wiadomo co, to w większości jest mechanizm kopiego Pace'a. i trzeba się w miarę zastanowić co tam ma być, wrzucić mój wymagany i zasadzie prostym regexem by się w większości dawało zrobić. Więc why not, uruchomy te mocniejsze agenty do półrequestów to byłoby fajne. sensie, mocny agent ci leci na wejście. Jak już jest skończona robota to weź drogę mocny modelu, weź sprawdź czy to ma ręce i nogi."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "20:42",
+      "text": "Dokładnie tak. I to jest, myślę, ta myśl, z którą możemy dzisiaj skończyć, coraz częściej będziemy się zastanawiać, czy wrzucenie w prompta absolutnie wszystkiego. Ja się, jak modele były tanie, ja się łapałem sam na tym, że prosiłem model, żeby mi uruchomił moją własną aplikację, bo mi się w konsoli nie chciało np. .netrun wpisać. albo jak były w trzech projektach, no to trzy razy dotnę tran. Tylko poprosiłem model, żeby to zrobił za mnie i on mi jeszcze ładnie wyrzucił linki do localhosta, gdzie mogę sobie uruchomić moją aplikację. Super wygodne? Tak jest, super wygodne, ale jednak drogie."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "21:26",
+      "text": "i jeszcze się pasował na bieżącą logi."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "21:33",
+      "text": "I dokładnie z tymi samymi rzeczami możemy się zastanowić, czy warto robić komita, czy warto robić jakieś weryfikacje, czy puszczać .NET test, czy sprawdzać, czy testy przeszły i tak dalej, i tak dalej. Jakby musimy nasz workflow coraz częściej optymalizować właśnie pod to, żeby było trochę taniej, trochę szybciej też, a tak samo dobrze. I myślę, że teraz jest też moment na to, żeby powiedzieć, że przygotowujemy też razem z Piotrkiem warsztat, na którym będziemy pokazywać, w jaki sposób tworzyć taki multi-agent workflow, który nie tylko jest oparty o modele, ale również ma elementy totalnie deterministyczne, takie, których używaliśmy przez lata, po prostu wpięte w akcje dodatkowe, na które Cię serdecznie zapraszamy, jeżeli masz ochotę. przyjść, jeżeli masz ochotę nauczyć się czegoś nowego, to jak zwykle link będzie poniżej. Warsztat będzie 6 maja, także już dosyć niedługo. I cóż, w takiej sytuacji myślę, że możemy się pożegnać i powiedzieć, do zobaczenia za tydzień."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "22:50",
+      "text": "Wszystko to jest w porządku."
+    }
+  ]
+}
