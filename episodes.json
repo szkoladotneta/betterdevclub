@@ -30,7 +30,7 @@
       "agents"
     ],
     "platforms": {
-      "youtube": "",
+      "youtube": "https://youtu.be/Ny_AQlW6G10",
       "spotify": "",
       "apple": ""
     },
@@ -60,7 +60,7 @@
         "description": "Chiński model Kimi 2.6 który można odpalić lokalnie"
       }
     ],
-    "youtubeId": "",
+    "youtubeId": "Ny_AQlW6G10",
     "guestKey": "piotrek"
   },
   {
