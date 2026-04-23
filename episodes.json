@@ -3,7 +3,6 @@
     "id": 25,
     "num": "25",
     "title": "Better Dev Club #25 - Koniec taniego AI. Opus 4.7 zżera subskrypcje. Czy Kimi 2.6 to dobra alternatywa?",
-    "notPublished": true,
     "date": "2026-04-23",
     "duration": "22:54",
     "desc": "Testowaliśmy nowego Opusa i... zapłaciliśmy jak za zboże! W 25. odcinku dyskutujemy o ukrytych kosztach nowych potężnych modeli AI i dlaczego Opus 4.6 nagle zniknął z GitHub Copilot. Zastanawiamy się czy 21 tanich modeli (jak Google Flash) nie sprawdzi się w codziennej pracy lepiej niż jeden wszechpotężny, ale koszmarnie drogi. Na horyzoncie pojawia się też sprzętowa alternatywa z Chin - zamknięty model Kimi 2.6 odpalany lokalnie na nowych Macach. Koniec z uruchamianiem wszystkiego na najwyższych obrotach – czas na świadomy, zoptymalizowany multi-agent workflow, o którym więcej opowiemy na naszym nadchodzącym warsztacie!",
@@ -31,8 +30,8 @@
     ],
     "platforms": {
       "youtube": "https://youtu.be/Ny_AQlW6G10",
-      "spotify": "",
-      "apple": ""
+      "spotify": "https://open.spotify.com/episode/3DXevhhT9YKRfXuaFUtV6j?si=jRM7n8eOQlOHCj2o2snpSQ",
+      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club-25-koniec-taniego-ai-opus-4-7-z%C5%BCera/id1848840540?i=1000763207502"
     },
     "resources": [
       {
