@@ -1,5 +1,59 @@
 [
   {
+    "id": 26,
+    "num": "26",
+    "notPublished": true,
+    "title": "Better Dev Club #26 - Z Andrzejem Krzywdą o DDD, Event Sourcing i TDD w czasach AI",
+    "date": "2026-04-30",
+    "duration": "00:00",
+    "desc": "Andrzej Krzywda (Arkency) wpada na kanał porozmawiać o tym, jak w erze AI realizować skomplikowaną architekturę. Czy współczesne modele ogarniają Domain-Driven Design i TDD? Zastanawiamy się też, czy ukrywając się za wygenerowanym przez Copilota i Claude'a kodem, pożegnamy się na dobre z \"collective ownership\" zespołów opartych na pracy asynchronicznej. Zaparzcie kawę, bo wjeżdża zwinne, architektoniczne mięso, tęsknota za biurem i startupowy narwany duch Ruby on Rails!",
+    "agenda": [
+      "00:00 - [Intro] Andrzej Krzywda we własnej osobie - CEO, railsowiec i ekspert od TDD i DDD",
+      "02:30 - [Zdalna praca] Bóle mentoringu w asyncu vs podglądanie kolegów w biurze",
+      "06:15 - [Asynchroniczne spotkania w zespole] Nienawidzimy dzwonek, ale tęsknimy za ludźmi",
+      "10:45 - [Rola programisty a biznes] 6 sesji Claude'a i zbrojenie się w testy mutacyjne",
+      "15:03 - [Testy i ich przyszłość] AI kontra piramida testów: czy modele uśmiercą TDD?",
+      "21:26 - [Nowa ekonomia oprogramowania] Klienci i ich prośby 'Wypuść mi ten prototyp na produkcję'",
+      "22:15 - [Architektura Eventowa i DDD] Zrozumienie domeny przez AI - geniusz czy przerost formy?",
+      "27:25 - [Refaktoryzacja z AI] 15 wersji refactoringu naraz i ryzyko spalenia budżetu na tokeny",
+      "29:12 - [Wyzwania i przyszłość] Kodowanie na bezludnej wyspie, czyli Copilot, Claude i AI-slop",
+      "34:04 - [Wyzwania dla juniorów w IT] Boostujemy 'średniaków' zamiast uczyć inżynierskiego fachu?",
+      "38:36 - [Zdalna praca a mentoring] Skąd wziąć wsparcie na remote, gdy brakuje starszego kolegi z biurka",
+      "46:34 - [Inwestycje w umiejętności] W co dzisiaj włożyć swoje 10 000 godzin nauki?"
+    ],
+    "tags": [
+      "betterdevclub",
+      "ai",
+      "ddd",
+      "event-sourcing",
+      "tdd",
+      "andrzej-krzywda",
+      "arkency",
+      "ruby-on-rails",
+      "pair-programming",
+      "collective-ownership"
+    ],
+    "platforms": {
+      "youtube": "https://youtu.be/TODO_ZMIEN_MNIE",
+      "spotify": "https://open.spotify.com/episode/TODO",
+      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club-26/TODO"
+    },
+    "resources": [
+      {
+        "type": "link",
+        "url": "https://arkency.com/",
+        "label": "Arkency",
+        "description": "Firma Andrzeja o ugruntowanej kulturze remote-first i Pair-Programmingu."
+      },
+      {
+        "type": "link",
+        "url": "https://andrzejkrzywda.com/",
+        "label": "Blog Andrzeja Krzywdy",
+        "description": "Solidna warstwa wiedzy odnośnie skomplikowanej architektury i biznesu."
+      }
+    ]
+  },
+  {
     "id": 25,
     "num": "25",
     "title": "Better Dev Club #25 - Koniec taniego AI. Opus 4.7 zżera subskrypcje. Czy Kimi 2.6 to dobra alternatywa?",

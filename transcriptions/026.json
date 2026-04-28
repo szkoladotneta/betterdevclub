@@ -1,0 +1,354 @@
+﻿{
+  "transcript": [
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:00",
+      "text": "Cześć Piotrek!"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:01",
+      "text": "Cześć, Kajtek."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:03",
+      "text": "Piotrek, wiesz, że dzisiaj mamy supergościa. Gościa, którego czekałem od bardzo dawna, żeby z nim porozmawiać gdzieś w internecie. I jest to nie kto inny jak pan Andrzej Krzywda."
+    },
+    {
+      "speaker": "Andrzej Krzywda",
+      "time": "00:19",
+      "text": "Cześć Kajetan, cześć Piotr, cześć wszystkim."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:23",
+      "text": "Cześć Andrzeju, jest mi super miło, że znalazłeś trochę czasu, żeby dzisiaj z nami porozmawiać. I jest to spotkanie nieprzypadkowe, bo w naszym podcastie Better Dev Club zawsze staramy się rozmawiać o rzeczach, które powodują, że programiści są lepsi, a wydaje mi się, że albo stają się lepsi, a wydaje mi się, że to jest coś, co bardzo często... masz w głowie, kiedy publikujesz jakieś rzeczy w internecie, kiedy widujesz się z ludźmi na meetupach, kiedy robisz, kiedy piszesz bloga i najróżniejsze inne rzeczy tworzysz w internecie. Więc myślę, że możemy sobie dzisiaj całkiem przyjemnie porozmawiać."
+    },
+    {
+      "speaker": "Andrzej Krzywda",
+      "time": "01:10",
+      "text": "Cieszę się, że taką opinię mam w takim razie. Świat IT, technologia, programowanie to jest moja pasja, także lubię się tego uczyć i lubię się tym dzielić."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "01:22",
+      "text": "No dobra, to pierwsze pytanie, ale takie rozgrzewkowe, które musimy zadać absolutnie wszystkim. Czy subskrybujesz już nasz kanał?"
+    },
+    {
+      "speaker": "Andrzej Krzywda",
+      "time": "01:31",
+      "text": "Na YouTube chyba tak, aczkolwiek algorytm teraz mi tam pokazuje te wszystkie inne rzeczy, tylko nie to co mam subskrybowane, więc nie mam pewności."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "01:42",
+      "text": "To zachęcamy wszystkich."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "01:43",
+      "text": "Dobra, no to zachęcamy."
+    },
+    {
+      "speaker": "Andrzej Krzywda",
+      "time": "01:46",
+      "text": "Ale prawdopodobnie tak. Nauczyłem się akceptować to, że algorytm nie pokazuje mi wszystkiego, nie klikam w te subskrypcje, więc co algorytm podpowie, to już jadę z tym. Próbuję trasować algorytm, zamiast wymuszać subskrypcje."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "01:47",
+      "text": "Dobra. Dobra, Andrzej to pierwsze pytanie tak naprawdę do Ciebie, bo od wielu lat robisz rzeczy inaczej. sensie bardziej jesteś znany z tego, że robił się remote, kiedy w ogóle remote jeszcze nie był w modzie. sensie w ogóle chyba nie wiem czy w ogóle miałeś kiedykolwiek biuro. Czysta praca synchroniczna, DDD. No i teraz trochę spojrzone na to w ogóle..."
+    },
+    {
+      "speaker": "Andrzej Krzywda",
+      "time": "02:24",
+      "text": "Nie, nie."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "02:31",
+      "text": "Bo tak jak się patrzy przez pryzmat zwykłego człowieka w IT, to z reguły ten świat wygląda zupełnie inaczej. To raczej jest to, że są biura, gdyby, dobra, COVID coś tam zmienił, ale tak naprawdę znowu chyba wszyscy chcą, żebyśmy wrócili jak najbardziej. No i pytanie to w ogóle, to było z twargo punktu widzenia właśnie taki ogóle pomysł na biznes, jakaś kalkulacja, że są tacy ludzie, którzy chcą inaczej pracować. Czy może nie mieściłeś się, prostu nie chciałeś pracować w biurze, wolisz pracować z domu, stwierdziłeś, zrobię wszystko, żeby tylko bryń, Panie Boże, nie mieć owocowych czwartków i czegokolwiek takiego."
+    },
+    {
+      "speaker": "Andrzej Krzywda",
+      "time": "03:10",
+      "text": "To był chyba miks wszystkiego, ale ja nie podchodziłem do tego, że ja koniecznie chcę być jakiś inny czy kontrowersyjny, tylko bardziej to, co mi pasowało, a mniej się patrzyłem na innych. Ja zaliczyłem dwa lata w korporacji, tak że nawet wytrzymałem trochę i umiałem się dostosować chyba. Może nie aż tak super długo, ale też korporacja sporo mnie nauczyła. A później to już była chyba chłodna kalkulacja, że jeśli ja chcę... pracować ze świetnymi ludźmi, z najlepszymi ludźmi w mojej branży, w mojej technologii, to mała jest szansa, nawet jeśli bym został we Wrocławiu, gdzie wtedy na początku mieszkałem, mała jest szansa, że akurat wszyscy będą zlokalizowani w tym miejscu. Może to też wynikało z niszy technologicznej, że wybrałem railsy na początku już działania firmy i nie było aż tak dużo ludzi w jednym miejscu, ale tak czy inaczej to nigdy by się nie skończyło biurem. To było od początku raczej planowane jako zdalne, asynchroniczne. i tak już zostało."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "04:24",
+      "text": "Fajnie o tym słuchać tak naprawdę, że komuś się freelancer kłód udał tak bardzo, że musiał założyć firmę większą. ja jeszcze do tych biur chciałem, bo ostatnio oglądałem chyba to było na kanale u naszego kolegi Maćka, na kanale DevStyle. Właśnie mówiłeś o tej pracy asynchronicznej. Mówiłeś między innymi o tym, może to trochę uproszczę. ale że takie daily czy stand-up, w którym się codziennie wdzbaniamy jest w dużej mierze bez sensu, bo może wybijać programistów z tego flowu jakiegoś, bo muszą wcześniej się przygotować chwilę, potem muszą odsapnąć po tym spotkaniu. I szczerze mówiąc, trochę natchniony tym filmikiem, stwierdziłem, a może bym spróbował dokładnie tego samego, co powiedziałeś moim zespole. i zaproponowałem takie daily asynchroniczne. Wytrzymaliśmy realnie dwa albo trzy tygodnie i wszyscy powiedzieli, nie, musimy wrócić do spotkań, bo między innymi ludziom zabrakło po prostu tego kontaktu, tego, żeby się zwolnić, żeby się przywitać, tego, takiego mimo wszystko, jakiegoś ludzkiego kontaktu, mimo tego, że tylko i wyłącznie internetowego. Czy uważasz, że właśnie... taki sposób asynchroniczny bez spotkań, takich ceremoniałów, nazwijmy to, może być dla wszystkich, że my może coś zrobiliśmy źle, czy to trzeba rozpatrywać mimo wszystko per case."
+    },
+    {
+      "speaker": "Andrzej Krzywda",
+      "time": "06:07",
+      "text": "Spotkań jest bardzo wiele, ja w moich przekazach staram się być teraz precyzyjniejszy, że tutaj chodzi o takie niewymuszone spotkania dla wszystkich o jednej porze, a bardziej takie, które pasują danym osobom w danym momencie, takie bardziej ad hoc, bo są wtedy potrzebne z dzwonka. Jeśli u Was tak się wyszło, że cały zespół pragnie tych synchronicznych dzwonek codziennie, super. Natomiast pilnowałbym tylko takich rzeczy, żeby to się nie stało takim rytuał, bo to jest fajny rytuał, to jest coś fajnego, rytuały są dobre. Natomiast aby to się nie stało takim obowiązkiem, bo nigdy nie wiadomo komu to może w jakimś momencie nie pasować jednak i fajnie byłoby mieć jakąś taką opcję, żeby ktoś nie musiał dołączać. Ale nie chodzi właśnie o to, żeby nie rozmawiać, tylko po prostu pilnować, żeby w zespole nie było za dużo przerywników, żeby była głęboka praca, żeby pozwolić programistom się skupić, bo tych rozpraszaczy poza tym daily jest jeszcze w ciągu dnia pewnie trochę."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "07:02",
+      "text": "Pewnie. OK. To jest tak jak mówisz, trzeba pilnować, dlatego też eksperymentujemy, gdzieś tam sprawdzamy co dla nas i myślę, że to jest coś, z czym powinien się każdy kierować. Ale właśnie ty bardzo lubisz, mam wrażenie i bardzo często opowiadasz właśnie o stylu pracy Arkency, o tym jak działacie, jak się rozwijacie, jak się budowaliście. Ty się realnie dzisiaj czujesz. Czy jeszcze programistą, rzemieślnikiem, czy bardziej człowiekiem, jest już, który buduje biznes."
+    },
+    {
+      "speaker": "Andrzej Krzywda",
+      "time": "07:46",
+      "text": "To zależy jakiego dnia mnie zapytasz. Dzisiaj się czuję programistą bardziej niż budowniczym biznesu, ale nie da się od tego uciec. Założyłem firmę, chociaż tak jak mówię to był przypadek, bo miałem być freelancerem, wyszła firma, więc muszę być za to odpowiedzialny i chcę być za to odpowiedzialny. Ja ten biznes swoją drogą też pokochałem, ja bardzo lubię biznes, bardzo lubię różne aspekty biznesu. Marketing, sprzedaż, negocjacje to są fajne rzeczy i dobrze jest to rozumieć, bo to... mega wzbogaca mnie jako programistę i powoduje, że wydaje mi się, że jestem lepszym programistą dzięki temu. Natomiast oczywiście, że doba jest krótka i ja muszę poświęcać czasami jedną część swojej kariery na rzecz drugiej. Czasami jest to wymuszane, ale staram się tak balansować, że jak czuję flow, napływ jakiejś kreatywności programistycznej, to wtedy działam w programowaniu bardziej. Czasami właśnie jest to biznes, czasami jest to bardziej skupienie się na architekturalnych tematach, konsultingowych tematach. Czasami jest to też szkolenie, więc staram się czuć, na którą falę wskoczę na najbliższe 2-3 tygodnie i prostu płynąć na tym."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "08:57",
+      "text": "To będzie mnie mocno zastanawiało, jak mimo wszystko gdzieś tam udaje ci się to wszystko pogodzić, bo ja mam wrażenie, wiesz, jak z jednej strony mam być programistą, z drugiej strony chcę się rozwijać w sprzedaży, w marketingu. to ta doba. Jeszcze przed nagraniem chwilę rozmawialiśmy, jeszcze się rozwijesz, jeść cały czas, jeśli chodzi o szachy."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "08:58",
+      "text": "No!"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "09:24",
+      "text": "trochę czasu trzeba poświęcić albo jak najwięcej czasu trzeba poświęcić rodzinie. Tego jest za dużo, ale myślę, że o tym też trochę jeszcze będziemy rozmawiać."
+    },
+    {
+      "speaker": "Andrzej Krzywda",
+      "time": "09:36",
+      "text": "Podpowiem tylko, że w biznesie odpowiedzią na te problemy to jest otoczyć się naprawdę świetnymi ludźmi, którzy sami się potrafią zarządzać i też nauczyć się dobrze delegować i zaufać ludziom. jest chyba podstawa."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "09:53",
+      "text": "No dobra, to spróbujmy pójść trochę dalej albo może trochę dalej, bliżej, nie wiem jak to nazwać. Teraz jest tak, że jesteśmy w świecie, mówią, że rewolucja, ja mam wrażenie, to ewolucji, gdzie dużo, jakby trochę zmieniamy sposób jak piszemy kod, bo przestajemy go pisać jak gdyby o tak, tylko zaczynamy go rzeczywiście pisać, jakby trochę w sposób nieautomatyczny. Cóż, parę takich rewolucji mieliśmy międzyczasie, ale... Teraz jest ta obecna, więc nie usiąsie ekscytujemy. Jest taki człowiek z swojego świata, bo D. H. Church chyba jest najbardziej ze świata tak naprawdę rejsów, który, gdyby, no jest takim, nie wiem, głupio go nazwać guru, ale takie mam wrażenie, że trochę jest takim osobnikiem, który przez innych jest, jak on coś powie, to już jest weryta w kamieniu. I on w ciągu ostatniego roku w ogóle za 3 razy zmienił zdanie, jak to wygląda. Jego ostatnie podreszcie jest takie, że on w ogóle właśnie stwierdził, że on w ogóle przestał pisać ręcznie. Zresztą, że jak ja patrzę na siebie, ja chyba też zasadzie już coraz mniej piszę ręcznie. No i teraz jak na to patrzysz, bo jesteś dużo bliżej niż ja, czy Kajetan, No i jak gdyby trochę inny świat. Kajetan, programowanie, ale zupełnie inny świat. Ja bardziej infrastruktury, ale też jak gdyby... inny kawałek wszechświata, a ty jesteś chyba najbardziej tych realizów, więc trochę widzisz jak to wygląda. i teraz buduję legesji, po prostu buduję coś co nikt nigdy, nikt go nie ogarnie, czy może rzeczywiście to z twojej perspektywy wygląda podobnie."
+    },
+    {
+      "speaker": "Andrzej Krzywda",
+      "time": "11:35",
+      "text": "Czy prosisz mi, żebym ocenił jego podejście, czy żebym się na temat swojego wypowiedział?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "11:39",
+      "text": "Wiesz co, myślę, że masz się powiedzieć na temat swojego. Jesteś innym guru, wiesz dwóch guru, to jak będziecie mieli to samo, to wiadomo, jak będziecie mieli zupełnie różne, to parę wojen w historii IT już żeśmy mieli, więc też spoko."
+    },
+    {
+      "speaker": "Andrzej Krzywda",
+      "time": "11:53",
+      "text": "No kurczę, wypowiadanie się na temat sztucznej inteligencji teraz i tego, jak do tego podchodzić w programowaniu, to jest strasznie niebezpieczne, bo to co dwa miesiące się zmienia, a klipy z tego podcastu będą krążyły potem dłużej, ale ja jestem raczej umiarkowanym entuzjastą, jak najbardziej korzystam. Nie wiem, nie śledzę każdego zdania DHH, ale wydaje mi się, że nie jesteśmy jakoś odlegli od siebie w tych opiniach. Trzeba też zauważyć, że DHH jest fantastyczny w marketingu, potrafi tak skonstruować pewien przekaz. że on po prostu się niesie samodzielnie, a tak nie umiem jak on. Więc dla nas, dla railsowców on jest doskonałym szefem marketingu. Jeśli utożsamiam się z railsami, a utożsamiam się, to takiego szefa marketingu najlepiej mieć. I on tutaj przyprowadza kolejnych wyznawców do naszej sekty railsowej. Natomiast tak, wszystko się rozbija o szczegóły, jaki sposób tego AIa próbujemy pilnować. Tu możliwe, że z DHH-em bym się rozminął, bo na przykład my w siecie relsów lansujemy mocno testy mutacyjne jako swego rodzaju taki gard na AI, a wątpię, żeby DHH używał grubiowego mutanta. Do tego nie zarzucam myślenia TDD, a DHH skłania się często do jakiegoś tam pohejtowania TDD. On też ma podejście architekturalne takie jednak kródowe. Próbuję to nazywać inaczej, ale to się sprawia wszystko do kruda ładnego, co nie jest przeze mnie w pełni jakoś tam akceptowane. Ale natomiast przeglądałem kody, bo oni trochę zopensorsowali swoich produktów, bo powstało ostatnio u nich takie Fizy, to jest coś a la Trello, ładne, jeśli chodzi o UI. I też przeglądaliśmy, zrobiliśmy taki przegląd kodu trochę w środku. To powstało gdzieś chyba listopad, grudzień, więc już trochę to musiało być agentowane. ale nie wiem jak dużo i ten kodyst przyznam, że całkiem ok. Są ciekawe rozwiązania relsowe, ale to wciąż jest jakiś tam zamaskowany ładny kródzik. Więc w szczegółach to ja używam Clouda, nie używam żadnych orkiestracji ponad tym, nie wchodzę w jakieś tam Gastowny czy jakieś inne wynalazki. Mam tych sesji cloudowych jak w największym momencie miałem ze 4-5 chyba, może 6. Teraz tak jestem na dwóch maksymalnie. Przeglądam kod po agentach i uważam, że to jest odpowiedzialna rzecz, aby przejrzeć, nie puszczać tego wszystkiego. i szukam i rozbudowuję ten cały tzw. harness, czyli jaką narzędziówką mogę się otoczyć, aby agentom nie pozwolić nic zepsuć, czy nawet jak coś przeoczę, to żeby to nie weszło. Czyli głównym narzędziem to jest mutant, jest te mutacyjne, ale też jakieś... odpowiedniki czegoś co może w waszych światach by się nazywało, nie wiem, sonar graph jakieś pilnowanie architekturalne czy coś, nowe couplingi się nie pojawiły to to jest też kolejna narzędziówka no i co i trzymam kciuki żeby agent nie halucynował za mocno troszkę wiary w tym wszystkim"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "15:03",
+      "text": "Ha ha ha wiara przede wszystkim, szczególnie właśnie przy tych narzędziach, ale bo pociągnąłeś tutaj tyle tematów, albo zarzuciłeś tyle różnych tematów, o które można byłoby dalej spytać. Ja natomiast się jeszcze właśnie do tych samych testów przyczepię, no bo właśnie D.A. Żelicz wspominał o tym, że AI zabije TDD. Może trochę się cieszę, bo ja nigdy nie byłem wielkim zwolennikiem TDD jako takiego. A teraz mam wrażenie, że zmusić te narzędzia do podejścia typu TDD to jest w ogóle proszenie się o duże problemy w wielu przypadkach, bo to już naprawdę trzeba by było przekazać im bardzo solidne instrukcje na samym początku, żeby to miało... jakikolwiek sens, już nie mówiąc o tym, że jeżeli zaczniemy pisać kod od testu, potem LLM zrobi absolutnie wszystko, żeby ten test zaświecił się na zielono, bez względu na to, co się po tej stronie kodu z tą logiką pojawi. Tylko tam może być sieczka, byle tylko zaświeciło na zielono. I też mam... Coraz większe wrażenie, skoro i też o tym coraz częściej myślę, że skoro kod będzie generowany tak szybko i będzie generowany w coraz większej ilości, to pytanie czy testy, szczególnie takie jak jakieś unity, bo testy mutacyjne, testy architektury, to jak najbardziej jako takie guardrailsy na samym początku to jest must have. ale właśnie takie podejście typu, piszesz nowego feature'ka i nie zaczynasz od pisania testów, a może w ogóle przestajesz pisać testy, tylko testujesz manualnie, jak już LLM wypluje Ci ten kodzik. Czy to może być jakimś podejściem? Czy jednak zostałbyś tutaj przy tej takiej tradycyjnej inżynierii z piramidą testów i z tymi właśnie całymi ceremoniałami?"
+    },
+    {
+      "speaker": "Andrzej Krzywda",
+      "time": "17:31",
+      "text": "To jest dobre, że użyłeś pojęcia inżynieria tutaj. Ja bym zwrócił drugie pojęcie, mianowicie ekonomia. Teraz pewne praktyki, które się wyłoniły w naszym rzemieślniczym świecie, IT, włącznie z TDD, włącznie z testami, one były oparte na bardzo jednak powolnych zmianach, o ile jakiekolwiek, jeśli chodzi o ekonomię tworzenia oprogramowania. To, co teraz jesteśmy świadkami, no nie wiadomo, rewolucja czy ewolucja, no jakaś zmiana, I ona... zmienia czynnik kosztu niektórych działań związanych z programowaniem, a niektórych w ogóle nic nie zmienia. Nie zmieniła nam się szybkość komputerów jakoś drastycznie przez EIA, po zmieniło się to, że można bardzo wiele rzeczy, bardzo dużo kodu mieć nagle wygenerowanego. Na pewno tak z punktu widzenia takiego biznesowo IT programistycznie zmieniło się koszt prototypu. jest po prostu szokująco. darmo dostaliśmy nagle możliwość robienia prototypów i to jeszcze kilku naraz. i możemy to robić. jest coś, co samo to już zmienia bardzo ekonomię, bo feedback loop, na którym oparty jest bardzo wiele naszych metodyk, wiem, cały agile jest oparty na feedback loopie, jak najszybciej mieć informację zwrotną od klienta, od biznesu, jakieś metryki, to nagle samym tylko zmianą ceny prototypu już bardzo mamy szybki feedback loop, że możemy coś pokazać i na szybko zmieniać. Nawet do tego stopnia, że już nasi klienci tą rolę przejmują, czy nasi tam użytkownicy potrafią nam zwajbować jakiś prototyp. Aż tak daleko ta ekonomia zawinęła ten koszt. Ja myślę, że potrzebujemy jeszcze trochę czasu, żeby się z oswoić. Ja jeszcze sam nie znam odpowiedzi na to wszystko. A drugi czynnik, który ta ekonomia się zmieniła, to koszt generowania kodu, przegenerowania kodu, koszt tego, jak mi teraz jest łatwiej działać w technologii, której nie znałem, np. zrobić sobie mobilną appkę do mojego back-endu. Nie umiałem tego wcześniej, teraz umiem. co tu się zmieniło, mega dużo się zmieniło. to łącząc te wszystkie rzeczy razem, to np. ta kwestia unit testów i takiego TDD, jak to wyglądało jeszcze 10 lat temu, może musimy pewne rzeczy po prostu przemyśleć i przyjrzeć się tym częściom składowym TDD. Bo TDD miało nam pomóc w szczególności w designie, niekoniecznie aż tak bardzo w otestowaniu, ale druga zarata to jest otestowanie. czyli piszemy mały test, który pada, tworzymy małą implementację, refakteryzujemy i idziemy dalej. Natomiast dla mnie ekonomia jednego czynnika się zmieniła około 10 lat temu, bo 10 lat temu poznałem testy mutacyjne. Testy mutacyjne pozwoliły mi ten drugi czynnik ogarnąć, czyli to, że jakiś kod napisałem bez TDD, przyznaję się, zdarzało się jednie raz, to ja mogłem dzięki mutantowi ogarnąć dotestowanie. Łatwo mi było to mierzyć, że ja dotestuję ten... Ten test cover dużyce bardzo łatwo. Dzisiaj jeszcze z AI to nie tylko, że ja to dotestuję co AI mi dotestuje. A ja tylko będę pilnował czy on głupot nie robi, czy nie robi jakichś głupich stabów na stabie, bo one mają te AI do tego tendencje. Ja widzę jakie te koszta, no i to mi też pomaga to biznesowe myślenie, czyli zmieniły się jakieś koszta i teraz jak to wpływa na ekonomię tak do końca to jeszcze nie wiem, ale na pewno poluzowałem to myślenie TDD. Nie jestem aż tak stricty jak byłem. ponieważ dzięki mutantowi i AI'om zawsze mogę te rzeczy wygenerować, a dzięki różnym skillom czy jakimś gardom próbuję pilnować, żeby on np. poprzez dopisywanie testów nie zepsuje jakichś też również architekturalnych zasad. Nie umiem pisać testu, a to tam zmieniłem trochę kodzik, żeby się łatwiej testowało. Więc to jest dla mnie taka nowa rzeczywistość, nowa ekonomia troszeczkę. To nie jest rewolucja aż taka wielka, ale musimy przyjrzeć się, co to zmienia. Kienci piszą prototypy, to już jest nasza rzeczywistość w ARK &C, to się już nam dzieje, z tym trzeba jakoś żyć, to jest nowa rzeczywistość."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "21:26",
+      "text": "Czyli ludzie przychodzą do was z gotowym prototypem i mówią, zaimplementujcie nam to?"
+    },
+    {
+      "speaker": "Andrzej Krzywda",
+      "time": "21:32",
+      "text": "To są ci lepiej wyedukowani, bo niektórzy do przychodzą i tylko wdróżcie nam to. To się zdarza. Pamiętajcie, to jest świat relsów, gdzie tutaj zawsze była takie paracja na pewną efektywność, na taką szybkość działania. Relsy się narodziły jako technologa dla startupów. My i tak działamy w tym, taki niszy relsów, gdzie raczej z tymi dużymi aplikacjami mamy do czynienia. Czyli raczej relsy, które już na siebie zarabiają, relsy, które już mają z milion linii kodu."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "21:39",
+      "text": "przecież da się klikać, nie? To już działa."
+    },
+    {
+      "speaker": "Andrzej Krzywda",
+      "time": "22:01",
+      "text": "To jest nasza specjalizacja. Ale tam w tych światach nadal można spotkać ludzi, którzy by chcieli jutro coś szybnąć, bo dzisiaj to wymyślili. I to jest nadal taki świat tam."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "22:15",
+      "text": "No dobra, to ja trochę cię pociągnę za język, bo już my się zatrzymali trochę na testach, ale tak naprawdę jak kojarzę, zasadznie tylko twoje wypowiedzi, także osoby, które są przypadkowo u ciebie w biznesie, tak to będę teraz nazwał, to jak gdyby też się pojawiało inne dziwne rzeczy, nie? Pojawiało się DDD, pojawiało się event sourcing, które jest jeszcze sporo, twojej chyba prezentacji nie kojarza, ale jak gdyby... Czterech współpracowników to rzeczywiście kojarza dużo mówiących o architekturze eventowej. Nie wiem, czy to tak można nazwać. No i teraz, jak ja patrzę sobie, mówiąc szczerze, to, na czym się uczyło sztuczna inteligencja, kiedyś kreatant się nabijał, że to na moich odpowiedziach jest tak overflow'a. Ja psałem krudy, nie wątpię. Ale właśnie, czy to teraz trochę nie jest właśnie trochę przerostem nad treścią? Na przykład, wiesz, jak patrzę na rozwijanstwo, jak teraz ktoś przychodzi z pewnym prototypem i mówi w zasadzie, wypuść mi go na produkcję, to to całe odkrywanie domeny, budowanie całego w słownika, którym pracujemy, to jest długo i męczące. Z drugiej strony... Może nie wiem, nie? Może tak. Ja nie wiem na ile jest dobry dla ARIA, bo rzeczywiście zbudowanie mu kontekstu na 30 stron tekstu jest fajne. Nie wiem, zupełnie szczerze. Architektura eventowa jest trudna. Możemy to wprost powiedzieć. Znaczy jak jest zrobiona dobrze to działa idealnie i super szybko, ale niestety bardzo wiele widziałem w swoim życiu mechanizmów, których to nie było dobrze napisane i wtedy było bardzo źle. Więc te wzorce Jak patrzysz właśnie ze swojego doświadczenia, tego co w tej chwili robisz, to jest fajne dla sztucznej inteligencji, raczej zbyt męczące."
+    },
+    {
+      "speaker": "Andrzej Krzywda",
+      "time": "24:16",
+      "text": "Ja raczej widzę plusy tej nowej sytuacji tutaj, bo kiedyś zażutem, całkiem zasadnym było to, tak nauka tych DDD, eventów jest długa, tam się dużo trzeba nauczyć. Mam wrażenie, nawet na samym czynniku nauki AI nam bardzo pomaga, bo potrafi, nie wiem, jeśli my mamy zespół, który już jakoś tam architekturę eventową rozkminił, coś tam zrobił, jakoś to działa oparte na jakiś domenach i tak dalej. No i dołącza nowa osoba do zespołu, która załóżmy tego DDD nie znała za dużo. Teraz się trochę uczy tak na bieżąco, przyucza się. No to teraz z jakimś tam cloudem, weźmy cloud wytłumacz jaki jest flow tego scenariusza np. gdybym chciał je rozszerzyć. To AI pełni nam rolę takiego mentora i to robi całkiem dobrze, więc pod tym względem jest fajnie. I też druga rzecz, że w porównaniu do relsowego kruda, pisanie DDD w relsach wydaje się być troszkę boilerplate'owe. Tam jest jakaś zawsze taka... Bo w Railsach jest konwencją work configuration, tam się używa bardzo metaprogramistycznych sztuczek, żeby tylko coś się dało w jednej linii zrobić. Więc cokolwiek co nie jest typowym konwencją Railsową będzie ludziom wyglądało jak boilerplate. No i zawsze był argument, że tam się trzeba napisać po prostu. Teraz już nie piszemy tego kodu, go łatwo, jeśli to jest taki w miarę typowy, ten command, command handler, event handler, jakiś process manager. To są takie te skillet, które powstały u nas jako pierwsze do napisania The Cloud'a, żeby wiedział jak to ogarnąć i sobie z tym radzą. To jest dla mnie akurat bardzo miłe zaskoczenie, że AI radzi sobie z tym, jak ja mu powiem, zrób mi taki i bandit kontekst, takie i takie eventy, komendy. On sobie świetnie radzi na bazie tego samego, nie tyle, że AI jest to nauczone na jakichś danych treningowych, gdzie mało było tych dd-owych codebase'ów, ale On uczy się przez analogię z aktualnego codebase'u. Więc jak masz jakiś codebase, który już coś tam ma jakieś wzorce poukładane, ma te domeny jakoś wydzielone, są jakieś read modele i tak dalej, jest event sourcing, to w gruncie rzeczy ta warstwa, którą niby trzeba się nauczyć, no to on ją szybko ogarnia i szybko robi dobrze. Więc to sprowadza się do tej zabawy takiej lingwistycznej, której o to chodzi z DDD. Tak samo jeśli chodzi o tę zabawę lingwistyką, to kolejny dla mnie szok, że te narzędzia są naprawdę dobre do refaktoringu. To jest zaskakujące dla mnie, że one radzą sobie z refaktoringiem nieźle. Więc to cała taka pętla, ktoś mi dał jakiś kawałek kodu brzydki, ale działa, to ja mogę obetonować go testami. Dzięki mutantowi dojdę do 100 % perfekcji. Mogę napisać tam też testy integracyjne na szeroki wypadek. A potem mogę refaktorować do WOLI. To nie ja refaktoruję, tylko AI. Mogę powiedzieć spróbuj na 15 różnych sposobów to zrefaktoryzować. A on mi to na wszystkie sposoby spróbuje. Ja zobaczę, gdzie tam moje... Subiektywne metryki wychodzą najlepiej. Zaskakująco dużo plusów jest w tej sytuacji, jak ktoś robił i robi DDD z eventami i tym AI'em się wspomaga."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "27:25",
+      "text": "To ja muszę, bo teraz jak powiedziałeś o 15 różnych sposobach na refactoring, to bardzo złapałeś moją uwagę, szczególnie, że od kilku dobrych dni zaczynamy mówić o tym, że ceny idą mocno w górę. A to podejście, o którym wspominasz, mam wrażenie... że może być takim dosyć mocnym przepalaniem tokenów, bo jak będziemy próbować refakterować na 15 różnych sposobów i potem wybrać sobie ten jeden, który nam najbardziej będzie pasować, to czy to się nie zrobi zaraz zbyt drogie na to, żeby tak eksperymentować? Masz już na to jakieś rozwiązanie?"
+    },
+    {
+      "speaker": "Andrzej Krzywda",
+      "time": "28:20",
+      "text": "Na razie staram się nie przewidwać przyszłości i korzystam z tego, że te tokeny są stosunkowo tanie. Tak się wydają dla mnie. Ja patrzę też, pamiętajcie, z perspektywy gościa, który prowadzi biznes. Ja wiem, ile kosztuje programista. I to naprawdę jeszcze się nie styka. znaczy, jeszcze nie ma tego zagrożenia, że to jest ten koszt zbliżony do człowieka. Więc korzystam na razie z dobrodziejstw tej sytuacji. Nie chcę przewidwać przyszłości. Są ludzie, którzy mówią, że tokeny pójdą w górę, niektórzy mówią, że pójdą w dół. Ja nie wiem, intuicja mi znowu mówi, że to powinno się mniej więcej trzymać, że tam nie ma też monopolu, jest jakiś taki przynajmniej oligopol tych dostawców tokenów. Wydaje się, że rozwój nauki jest tutaj bardzo silny, te lokalne modele też kiedyś podłapią. Więc myślę, że staram się nie uzależniać do tego sposobu, po prostu korzystam z tego, że w tym momencie jest to bardzo tanie."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "29:12",
+      "text": "Okej, to ja chciałbym jeszcze tak, bo mówisz trochę o tym, że z jednej strony jesteś, powiedzmy, umiarkowanie optymistycznie nastawiony do ewolucji, z drugiej strony mówisz, że miewałeś sześć sesji otwartych na raz, trochę jakby cały czas eksperymentujesz i cię coraz mocniej to zaskakuje i to raczej pozytywnie z tego, co rozumiem. A chciałbym cię trochę rozliczyć z tego, co mówiłeś pewnie ze dwa lata temu, plus minus, bo pamiętam, jak cały czas wchodziliśmy w temat, zresztą mam wrażenie, że cały czas wchodzimy w temat sztucznej inteligencji, ale powiedziałeś takie słowa, że Arkency już przygotowuje się do tego, żeby... żeby brać pod maintenance wszystko, co zostanie wywajbowane przez jakieś najbliższe lata, a jednak sam zauważasz, że to jest coś, co staje się coraz bardziej jakościowe. Czy nadal uważasz, że będziecie jako Arkency mieli tyle pracy w maintenance po AI-u, po tym AI-slopie nazwijmy to?"
+    },
+    {
+      "speaker": "Andrzej Krzywda",
+      "time": "30:33",
+      "text": "Bałem się, że coś gorszego mi wyciągniesz sprzed dwóch lat. Z tym się jeszcze zgadzam. Ja powiedziałem, że moja praca jest jakościowo lepsza i jestem dzięki Ayo'owi trochę szybszy. I też widzę, że po kolegach w firmie, że też to tak wygląda. Aczkolwiek dodałbym parę disclaimerów, że oczywiście to nie jest idealne. Zdarzyły nam się wpadki, nic takiego poważnego na produkcji czy coś, ale wiadomo, że..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "30:36",
+      "text": "A nie, nie spokojnie."
+    },
+    {
+      "speaker": "Andrzej Krzywda",
+      "time": "31:01",
+      "text": "że tutaj trzeba mega ostrożnie z tym działać, szczególnie tam gdzie mamy legacy, gdzie są potężne bazy danych, gdzie nie możemy wpuścić Ejaja, żeby coś migrował na bazie i tak dalej. Więc tu jest guardrailsów, które są ustawione. Ja uważam, to jest chyba najlepsza dla mnie analogia, czy jakaś metafora, która służy mi przy zrozumieniu Ejaja, że to po prostu boostuje Twoje aktualne skilly. Czyli jak ktoś te skilly miał słabe, to będzie robił dużo więcej bołaganu. kodzie po prostu szybszym tempem. Jak ktoś tą architekturę ogarniał i wiedział czego pilnować to raczej sobie to wszystko potrafi okiełznać i z czasem się nauczy tworzyć ten swój własny harness żeby go pilnował a jednocześnie korzystać z dobrodziejstw tego, że można jakieś rzeczy robić w dużym przyspieszeniu. Więc wydaje mi się, tutaj jest te dwie rzeczy nie są ze sobą sprzeczne. My już pomagamy firmom, które sobie naslopowały i świetny jest na tym rynek. Polecam mocno. Pomagamy też firmom nieoczekiwania, usługa, której rynek sam od nas zarządzał, bo nie chcieliśmy jej tak szczerze mówiąc znaczy kolejni klienci się zgłaszają sami i pytają, a wy byście pomogli nam tego AI naszym zespołom programistycznym wdrożyć. I to jest nieoczekiwanie, nasza najpopularniejsza ostatnia usługa, gdzie wchodzimy i trochę to pomagamy, bo ludzie też używają tego AI po prostu słabo, czasami i to można im jakoś okieł znać. W praktyce to się też sprowadza z tego, co już było wymienione. Z konfigurować mutanta, z konfigurować coś, co pilnuje jakieś tam granice architekturalne. No nie pozwolić, żeby jakieś tam slopy się przedarły w ogóle do poziomu commita I tak, wierzę w to, to już po dwóch latach mogę to potwierdzić, że to się dzieje. Wierzę w to, że będzie jeszcze większy efekt tego, że tu jeszcze jesteśmy przed taką główną falą slopa w kodzie, nie? Także to jeszcze... Już dużo zobaczyliśmy, ale jeszcze dużo jest przed nami."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "32:57",
+      "text": "Ok, czyli wpisywanie, bo ostatnio już zacząłem widzieć screeny, że ludzie sobie wpisują vibe code cleaner na LinkedInie, to może być wcale nie głupia działka dla freelancerów ostatecznie."
+    },
+    {
+      "speaker": "Andrzej Krzywda",
+      "time": "33:12",
+      "text": "Na poziomie biznesowym ja traktuję AI jako booster tego, co my od wielu lat robiliśmy. Czyli my pomagaliśmy firmom, które miały duże aplikacje relsowe. W tym jesteśmy dzięki AI'owi trochę szybsi, lepsi, dokładniejsi. Jeśli ktoś taką specyfiką, bo to jest legacy, to jeśli ktoś taką specyfiką legacy się zajmował, to tak, to ma sens. Tylko trzeba zaakceptować to, że to jest legacy. Natomiast... Według mnie biznes i ekonomia wymusza to, że my będziemy teraz wszyscy się przesuwali w kierunku legacy. Ja też dodam, bo tyle jest obaw o tego swapa AI-owego, bo w dużych ilościach jest tworzone. Ja się napatrzyłem na swapa humanowego i ja wcale nie uważam, że to jest teraz dużo gorsze. Ja widziałem dużo ludzkich rzeczy, nie przeraża mnie to, co AI tworzasz tak bardzo. Tylko, że teraz jest to na dużo większą skalę oczywiście."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "34:04",
+      "text": "A jak sam mówisz o tym, waszą teraz nieoczekiwaną usługą jest to, żeby wprowadzić w firmie właśnie jakiś tam workflow, jakby nauczyć ludzi korzystania z tych umiejętności związanych ze sztuczną inteligencją, nie boisz się tego właśnie, że będziesz boostował AI średnich inżynierów zamiast... wyciągnąć ich na inżynierskim poziomie dużo wyżej, żeby skupili się właśnie na tym, żeby inżyniersko być lepszym, zanim wprowadzą ten workflow LLM-owy? Czy to nie jest znowu takie trochę niebezpieczne?"
+    },
+    {
+      "speaker": "Andrzej Krzywda",
+      "time": "34:46",
+      "text": "Praktyce. praktyce mam takie, to jest wciąż zbyt wcześnie, żeby oceniać tę usługę konkretną, bo to powiedzmy od kilku miesięcy jest jakiś napływ klientów w tym temacie. Mam wrażenie, że to w praktyce będzie oznaczało to, co mówisz, to znaczy, że to nie będzie usługa, którą będziemy nazywamy nogą w drzwi, wejście do jakiejś firmy, bo chcą mieć tego AI-a wdrażonego, ale w praktyce z tej perspektywy wdrażania AI-a my musimy poznać ich aktualny proces rozwoju oprogramowania, zrozumiemy gdzie oni mają luki. bardziej holistycznie niż tylko problem AI-a, bo problem AI-a czy nie AI-a to jeszcze nie jest najważniejszy problem w wielu organizacjach mam wrażenie. Teraz tak się próbuje tak to tworzyć, wizję tego, problemem to są właśnie to, od czego zaczęliśmy. Kiedy programista ma pracować, jak ma 6 godzin meetup, jakieś meetingów dziennie, to są na innym poziomie te problemy i owszem, jednym z nich jest to, że inżynieryjnie niektórzy z nich nie dociągają, tak, mogliby być lepsi i no my pod... podchodzimy z takich współprac holistycznie, jak to widzimy to możemy zaoferować taką pomoc, żeby trochę douczyć razem z nimi, poukładać w tym kodzie na lepszy sposób. Nie za bardzo nas interesuje ta usługa taka sama w sobie, bardziej jako wstęp do jakiejś takiej pomocy tym klientom w lepszy sposób długofalowo."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "36:05",
+      "text": "ale to wystarczy jeszcze chwilę pociągnąć zajęć, bo to zasadzie przynajmniej z tego co teraz powiadasz zatrudniasz ludzi doświadczonych. Teraz jest fajnie, bo ci ludzie są, bo zdążyli się nauczyć jeszcze przetnieć, ale to może chwilę właśnie jak widzisz to, bo mówię, różnych ludzi masz, jaka ja, że parę osób, które ściągnąłeś w ogóle do świata rejsów, do świata detentowego. W ogóle się przekwalifikowali, zostali nauczeni, ale gdzieś tego skilla zdobyli. sensie, coś tam trzeba było nauczyć. A jak widzisz, właśnie ten kawałek, bo to jest kawałek, który chyba wszyscy się w tej chwili najbardziej biją. Jak patrzę na te dyskusje w internecie, to nie jest o dyskusje, czy wspomogę tu, czy umie to, czy umie tamto, tylko... Jak w ogóle zapewnić robotę juniorom, bo juniorów w tej chwili trochę ubywa, może nie ubywa tylko firmy nie chcą zatrudniać. Gadaliśmy o tym kilkukrotnie, że powody wielorakie nie tylko sztuczna inteligencja, ale jednak rzeczywiście włączenie tym ludziom do czytania kodu wymaga pewnych godzin pracy. Nie wiem jak to nazwać. Więc zamknę się tu i zadam Ci wprost pytanie, jak widzisz wejście juniorów do świata IT, osób niedoświadczonych."
+    },
+    {
+      "speaker": "Andrzej Krzywda",
+      "time": "37:29",
+      "text": "Uważam, że dzięki AI'owi wejdą się od IT szybciej te osoby, chcą. Te osoby, które nie za bardzo czują... Ja nie wiem, czy się zgadzacie z tym, ale do IT trzeba mieć jakieś też serce, nie? I to trzeba trochę czuć. Wiem, że mieliśmy fale napływu do IT ludzi z różnych perspektyw, ja nie chciałbym ich urazić, natomiast... Chodzi mi to, że w tym świecie trzeba się ciągle rozwijać i my się wszyscy ciągle rozwijamy. Po prostu ci uniory na początku oczywiście, że mają trudniej. ale mam wrażenie też, że nigdy nie mieli lepszego mentora niż nawet AI. Ja wiem, że utrudnił im się dostęp do seniorów i tak domyślam się, że to było trochę częścią twojego pytania, że ciężej tym juniorom cię złapać, bo jest utrudniony dosąd do seniora. Owszem, jest to trudniejsze. Tak jak mówiłem, zmienia nam się trochę cała ekonomia w różnych miejscach i są rzeczy trudniejsze. To jest ta trochę negatywna strona. Natomiast czy my, zaczynaliśmy zabawę z programowaniem, mieliśmy narzędzie, którym mogliśmy wskazać dowolne repozytorium... czy na githubie, czy gdziekolwiek to kiedyś tam jeszcze leżało i powiedzieć weź mi wytłumacz jak to działa a potem powiedz mi co muszę się nauczyć a potem mnie tego naucz przecież myśmy nie mieli takich narzędzi nie teraz to wszystko jest po prostu tak no który też tak ale on był powolniejszy z całym szacunkiem dla twojego starszego kolegi zespołu on był powolniejszy niż cloud, który teraz jest u każdego na terminalu"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "38:36",
+      "text": "To się nazywał starszy kolega z zespołu. Może niedowolne repozytorium, ale... Wiesz co, ale to czego ja na przykład się boję, zawsze długo prowadzić te firmy inaczej. Ja dużo więcej pracowałem w biurze, że ja część rzeczy, które się nauczyłem, to ja prostu zobaczyłem, że ktoś coś robi. Wiesz, że po prostu przechodziłem obok jego biurka, czy nazwijmy to, byłem nawet na callu z nim i wiesz, ja nagle zobaczyłem, do dzisiaj pamiętam jak nagrał, już się zorientowałem, że w w większości idę... jest milion skrótów klawiszowych, bo ja byłem z tych co wiesz, mysz koło na początku i klikał, nie? A tu się okazało, że to można w ogóle nie odrywając rąk od klawiatury, I to jest taka rzecz, które rzeczywiście zgodzę się z tym, nie? Z Tobą, że tu trzeba chcieć, nie? To nawet nie trzeba przejść przez studia czy tam, nie wiem, technikum, czy cokolwiek, nie? Ale trzeba się chcieć rozwieczyć, rzeczywiście to jest chyba ten główny skill przynajmniej na razie w naszej branży. Ale właśnie... To, że zaczynasz gadać z tym nieszczęsnym w twoim wypadku Claudem, wypadku Kajetana bardziej Copilotem, w wypadku moim teraz sam nie wiem z czym, bo za dużo tych narzędzi ostatnio jakoś próbowałem. Jest to, że ja właśnie nie mam tej interakcji, wiesz młody, stary, że zobaczę, że nawet coś robimy inaczej. Nawet pewnie jakbyśmy sami usiedli na pół dnia w biurze, to nagle każdy z nas by stwierdził, hmm, jednak w sumie to on to robi zupełnie inaczej, może ja bym spróbował. Ale prowadzisz firmę asynchroniczną, więc może masz zupełnie inny na to pogląd, bo u Ciebie to musiało działać inaczej. Nie ma tego kolegi obok biurków, którym można zobaczyć jak on to robi."
+    },
+    {
+      "speaker": "Andrzej Krzywda",
+      "time": "40:27",
+      "text": "Ja nie wiem czy to większym czynnikiem nie jest ta zdalność czy też brak zdalności, czy to ten czynnikiem jest teraz aktualnie AI i pewnie oba się potęgują. Więc ja jako osoba prowadząca firmę zdalną, były lata, że ja byłem z 2010-2015, to już było, kiedy miałem firmę rozkręconą. Ja byłem profesorem, profesorem, to tak bardziej po angielsku, byłem wykładowcą na Uniwersytecie Wrocławskim, wykładałem kurs Ruby on Rails, bardzo prosty kurs, nie, przez 5 lat. Zdarzały mi się fajne osoby tam jako studenci, którzy proponowałem współpracę. Mówiłem dołączyć. Juniorzy, tak? To byli ludzie na drugim, trzecim, czwartym roku wtedy. I oni nie mogli przyjść do biura, żeby ze mną popracować. Mój styk ze mną mieli na wykładzie. To był maksymalny, jakaś nasza elastyczność. Dopóki studiowali. A później no, wdrożali się na projekcie i pairowaliśmy zdalnie, bo zdalnie, ale pairowaliśmy. To była najlepsza metoda wdrożenia, więc... To co Piotr mówiłeś tutaj zauważysz, że określałeś, opisywałeś pair programming, Jako metodę na mentoring. I to jest fantastyczna metoda. I ja sam akurat miałem to szczęście, że jak pracowałem w takim startupie w Londynie kiedyś, to przez praktycznie dwa lata dzień w przychodziłem do pracy i dzień w dzień perowałem po 8 godzin. Mózg parował, nie? Bo to jest mega wycieńczająca, wyczerpująca technika. I to była i mentoring, i rozwój produktu, i... Wszystko w jednym. pair programming jest cudowną techniką. Oczywiście przy zdalności jest trochę trudniejsze. Robimy tego przy pracy zdalnej dużo mniej niż byśmy robili gdybyśmy mieli biuro. Natomiast znowu będę się łapał, że szklanka jest trochę pełna do połowy. AI jest całkiem fajnym per-partnerem. Masz rację Piotr, że to pewnych nawyków AI nas nie nauczy. Ja się zgadzam. Jest tutaj luka, nie będę jej ukrywał. Natomiast dużą... Kompensacja mamy w postaci tego, co AI nam może dać jako pair-partner. Przecież pewnie wszyscy w trzech sobie gadamy o kodzie czy też o infrastrukturze z poziomu czata i to jest coś, co normalnie by się zgadało z partnerem w parze, jeśli byłby w danym momencie dostępny, a teraz możemy to robić sobie w izolacji. To nie jest też niskiego poziomu partner do rozmowy. To jest całkiem dobry partner do rozmowy."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "42:45",
+      "text": "Dobra."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "42:45",
+      "text": "To ja jeszcze chciałbym się zapytać, bo właśnie skoro AI może być dla nas dobrym partnerem do rozmowy, może być dobrym partnerem do per-programmingu i już pracy asynchronicznej robiliście tego wszystkiego oczywiście mniej standardowo, a przy narzędziach związanych z AI, z LLM-ami, może być tego jeszcze mniej. Nie boisz się tego trochę, że... Też nie wiem do końca, jak w tej chwili pracujecie, ale nie boisz się tego, że stworzenie zespołu może być coraz trudniejsze, ludzi, którzy będą ze sobą współpracować, tylko będziemy takimi wolnymi elektronami, takimi silosami. które coś tam sobie skrobią i każdy będzie miał jakieś swoje poletko, którym się będzie zajmował, a ciężko będzie się znowu teraz dogadać z drugim człowiekiem, skoro wszystko będziemy konsultować z AI. To tak mówię i od strony jakiegoś team buildingu i od strony biznesu i może trochę od strony psychologii."
+    },
+    {
+      "speaker": "Andrzej Krzywda",
+      "time": "43:56",
+      "text": "To jest ciekawa wydania. Dobre pytanie. Tu też ta ekonomia miała ogromne, ta zmiana w ekonomii ma duży wpływ na to coś, bo to jest problem, nazwalibyśmy w poprzedniej ekonomii oprogramowania, nazywałoby się, rozwiązanie tego problemu nazywa się collective ownership, gdzie nie ma tego problemu, że ktoś jest na jakiś silos przypisany i tam jest wtedy totalnie rozdzielenie ludzi. Teraz pytanie, czy zmienia się ekonomia collective ownershipu w momencie, kiedy weszło AI? Moje obserwacje z tego, co widzę w Arkency. Na razie nie widzę tych ryzyk. Na razie widzę, że zespoły działają w tradycyjny sposób, jak działaliśmy w tym aspekcie. Może jest też specyfika świata Railsów, że my zawsze mieliśmy też stosunkowo małe zespoły. Piotr wspominałeś, że Arkency przeciągnęło trochę ludzi z innych technologii, z .NET, z Java. Tak było, jest i będzie. Zapraszam, jak ktoś jest zainteresowany podbijaniem świata w Railsach. Jedno co usłyszałem o tych ludzi, którzy przeszli, powiedzieli, kurczę ja bym tutaj miał, przepraszam nie chciałbym urazić waszych technologii, ale nas by tu było 15 dotnetowców, a nas tu jest 3 railsowców i ogarniamy podobnej wielkości system. W railsach ta taka startupowa oszczędność, albo nie wiem startupowa ekonomia dążyła do małych zespołów i ta ilość linii kodu przepadających na programistę, gdzie Ruby i Railsy też są dosyć zwięzłym zapisem kodu. No jest dosyć duża. teraz jak to wpływa na collective ownership, to także te zespoły są raczej zwykle małe. Oczywiście są giganty, jest firma Shopify, jest github też na Railsach przecież, ale nawet firma się pomaga. Tam jest kilku programistów railsowych, którzy sobie pracują, więc te zespoły są stosunkowo małe. Dla mnie jest jeszcze za wcześnie, powiedzieć, że jakiś collective ownership się może zaburzyć, jeśli ktoś o niego dbał wcześniej. Bo ja mam wrażenie, że ogólnie collective ownership... nie jest popularną wartością i to nie było również przed AI, więc ten problem silosowania on chyba istniał wcześniej i to znowu AI boostuje jednostkę, boostuje organizację. Takie złe wartości czy dobre jakie firma miała, teraz będzie miała to jeszcze bardziej wyolbrzymione, jeśli silos wcześniej był problemem, to teraz będzie jeszcze większym problemem."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "46:30",
+      "text": "OK, przekonuje mnie to. Nikt będzie."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "46:34",
+      "text": "Niech będzie, o to cię mocno przekona. Dobra. Zmierzając chyba do końca, tak, w sensie, bo żeśmy chyba naprawdę szerzej nawet pogadali niż myślałem, że będziemy gadali, a z drugiej strony też już chwilę gadamy, więc... Na samym końcu zadałem takie tradycyjne pytanie, jak byś miał dzisiaj zainwestować? 100 godzin to z reguły jest za mało, 10 tysięcy godzin może i lepsze."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "46:36",
+      "text": "Niech będzie."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "47:03",
+      "text": "albo powiedzmy 1000 godzin, w sensie w jakąś umiejętność, to co by to było? Nie musi być związana z programowaniem, a to ważne."
+    },
+    {
+      "speaker": "Andrzej Krzywda",
+      "time": "47:17",
+      "text": "Znaczy tak, jeśli totalnie nie musi być z naszą rozwiązaną zainwestowaną, powiedziłbym w szachy, bo tam jest największa frajda. A jeśli chodzi o coś troszeczkę bliżej, może nie tyle programowanią co biznesu, to tak co kilka lat właśnie, co może zbliżać od tych tysiąca godzin, sobie zmieniam pewien obszar, którym się staram polepszać. To było w biznesie sprzedaż na początku, potem marketing, potem były negocjacje. Na przykład od kilku lat się uczyłem tematu negocjacji. Teraz wydaje mi się, że bym chciał się przerzucić na naukę. Znaczy robię to cały czas, ale to zajmuje jeszcze dużo czasu. Czyli bycia lepszym spikerem, bycia lepszym gościem na konferencjach, prowadzenia fajniejszych wykładów, bo też dużo więcej teraz jeżdżę po świecie z tymi konceptywnimi wykładami, więc troszkę to ma taki większy impakt."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "48:08",
+      "text": "Czyli w związku z tym myślisz, no właśnie, czy marka osobista to będzie must have według ciebie albo powinien być must have gdzieś tam też dla programistów, ogólnie rzecz biorąc?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "48:08",
+      "text": "czyli ma jaka osobista."
+    },
+    {
+      "speaker": "Andrzej Krzywda",
+      "time": "48:20",
+      "text": "No, na pewno ja jestem jakimś przykładem marki osobistej i nie będę od tego uciekał. Ja wybrałem tę drogę, gdzie marka osobista mi pomaga, więc dla mnie jest to takie oczywiste, ale to dużo biznesów, dużo programistów, którzy są bez marki osobistej i nie jest powiedziane, że coś na tym nekozie się nie wiadomo jak tracą. Mi się akurat podoba ten aspekt. Też uważam, że... Też mówię nie tylko sobie, ale jako o Arkansie. W Arkansie jest też kilka innych osób, które występują na scenach albo w inny sposób się odznaczają w naszej społeczności relacowej. Wydaje mi się, że to też jest biznesowo korzystne, że mamy osobowości, że jest pewna autentyczność. To są osoby, które można gdzieś spotkać, z której można gdzieś tam przebić piątkę na konferencji w Hamburgu. Działamy globalnie głównie na tym rynku Europy Zachodniej i Ameryki, więc to dla nich... Z naszej perspektywy bycia firmą z Europy Wschodniej, gdzie przyjęło się myśleć, to jest tani kraj do outsourcingu kiedyś tam, a my pozycjonujemy się na trochę droższych programistów, my musimy tę autentyczność gdzieś wykazać. Musimy pokazać jacy jesteśmy. Nas jest mało, ale jesteśmy ważni i to jest coś, co jest dla mnie ważne. Więc też to jest jeden z obszarów marki osobistej, to aby dobrze prowadzić wykłady na konferencji. Tak na to patrzę."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "49:46",
+      "text": "To też na pewno pomaga potem właśnie w sprzedaży, w marketingu, kiedy twój warsztat jest coraz lepszy, To wszystkie negocjacje, wszystkie rozmowy, chociażby spotkania z tej holderami, z klientem, z najróżniejszymi osobami też to się wszystko będzie przekładać."
+    },
+    {
+      "speaker": "Andrzej Krzywda",
+      "time": "50:07",
+      "text": "Zdecydowanie. jest nawet na niektórych konferencjach już widzieliśmy przełożenie. Teraz Szymon od nas był w Austin, w Texasie z wykładem i właściwie można powiedzieć, że pewne biznesowe rzeczy nam przywiózł. Ja byłem niedawno w Bangkoku, w Tajlandii i właściwie pod sceną dobijaliśmy deala z jakimś ważnym CTO, więc to było... Właśnie to też mam na myśli, że tę umiejętność public speakingu nie tylko tak ogólnie rozumianego, żeby fajnie było, ale żeby to było efektowne, żeby to przyniosło efekt. którego się spodziewam. Również biznesowy, nie wstydę się tego."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "50:41",
+      "text": "Bardzo dobrze. sam mówisz o tym, że ten biznes jest nieodłączną częścią w tej chwili twojego życia, więc nie ma co ukrywać, że tak jak wszyscy deweloperzy chcą być coraz lepszymi programistami, tak twoim celem na pewno też jest być jak najlepszym biznesmenem czy cały czas freelancerem, któremu coś w życiu nie wyszło."
+    },
+    {
+      "speaker": "Andrzej Krzywda",
+      "time": "51:07",
+      "text": "Tak, ja jestem freelancerem, którym to coś mu w życiu nie wyszło."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "51:12",
+      "text": "Ok, no to takim optymistycznym akcentem myślę, że możemy Ci bardzo podziękować za dzisiejszą rozmowę. To była naprawdę wielka przyjemność. Mam nadzieję, że również dla naszych słuchaczy będzie to coś, czego będą mogli wynieść jak najwięcej wartości. Andrzeju, na sam koniec, gdzie Cię można znaleźć? w tej chwili w sieci. Oprócz tego, że wiemy, że na różnych mistrzostwach szachowych i wtedy można ci pewnie uścisnąć dłoń, o ile nie jesteś, nie analizujesz aktualnie ostatniej partii, to gdzie można z tobą pogadać?"
+    },
+    {
+      "speaker": "Andrzej Krzywda",
+      "time": "51:49",
+      "text": "Tak można można mnie spotkać na turniejach szachowych można mnie spotkać na konferencjach szczególnie rubiowych, meetupach. Zachęcam wszystkich dotnętołowców, żałowców do przyjrzenia się rubiemu. Zagadajcie do mnie, was pokieruję w ten świat realizów cudowny. Natomiast zagadać online można chyba najprościej na LinkedInie. Także połączmy się na LinkedInie po prostu i chętnie tam pogadam. Ewentualnie też na Twitterku jestem aktywny."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "52:15",
+      "text": "Doskonale. To dziękujemy bardzo. linki do twoich profili, jeśli będziemy mogli, to zamieścimy pod tym odcinkiem. A za dzisiaj jeszcze raz wielkie dzięki i do zobaczenia."
+    },
+    {
+      "speaker": "Andrzej Krzywda",
+      "time": "52:25",
+      "text": "Bardzo wam dziękuję. Dziękuję za dobre pytania i dziękuję słuchaczom i słuchaczkom."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "52:31",
+      "text": "Zacznijmy."
+    },
+    {
+      "speaker": "Andrzej Krzywda",
+      "time": "52:31",
+      "text": "To jest..."
+    }
+  ]
+}
