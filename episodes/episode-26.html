@@ -11,7 +11,7 @@
     <meta property="og:url" content="https://betterdevclub.com/">
     <meta property="og:title" content="Better Dev Club #26 - Z Andrzejem Krzywdą o DDD, Event Sourcing i TDD w czasach AI">
     <meta property="og:description" content="Andrzej Krzywda (Arkency) wpada na kanał porozmawiać o tym, jak w erze AI realizować skomplikowaną architekturę. Czy współczesne modele ogarniają Domain-Driven Design i TDD? Zastanawiamy się też, czy ukrywając się za wygenerowanym przez Copilota i Claude'a kodem, pożegnamy się na dobre z "collective ownership" zespołów opartych na pracy asynchronicznej. Zaparzcie kawę, bo wjeżdża zwinne, architektoniczne mięso, tęsknota za biurem i startupowy narwany duch Ruby on Rails!">
-    
+    <meta property="og:image" content="https://i.ytimg.com/vi/TMeSyMF4qZg/maxresdefault.jpg">
     <link rel="shortcut icon" href="../img/favicon-32x32.png" type="image/png">
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Noto+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
@@ -136,7 +136,7 @@
             <div class="mb-8">
                 <p class="text-primary font-bold text-sm tracking-wider uppercase mb-2">Odcinek #26</p>
                 <h1 class="text-[#0d171b] dark:text-white text-4xl font-black">Better Dev Club #26 - Z Andrzejem Krzywdą o DDD, Event Sourcing i TDD w czasach AI</h1>
-                <p class="text-slate-500 mt-2">2026-04-30 • 00:00</p>
+                <p class="text-slate-500 mt-2">2026-04-30 • 52:16</p>
             </div>
             <div class="prose prose-slate dark:prose-invert max-w-none text-slate-600 dark:text-slate-300 leading-relaxed mb-12">
                 <p>Andrzej Krzywda (Arkency) wpada na kanał porozmawiać o tym, jak w erze AI realizować skomplikowaną architekturę. Czy współczesne modele ogarniają Domain-Driven Design i TDD? Zastanawiamy się też, czy ukrywając się za wygenerowanym przez Copilota i Claude'a kodem, pożegnamy się na dobre z "collective ownership" zespołów opartych na pracy asynchronicznej. Zaparzcie kawę, bo wjeżdża zwinne, architektoniczne mięso, tęsknota za biurem i startupowy narwany duch Ruby on Rails!</p>
@@ -973,7 +973,7 @@
             const [loading, setLoading] = useState(true);
 
             useEffect(() => {
-                const version = "a961c94d70";
+                const version = "609e71ce4c";
                 Promise.all([
                     fetch(`/episodes.json?v=${version}`).then(res => res.json()),
                     fetch(`/speakers.json?v=${version}`).then(res => res.json())
