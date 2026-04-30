@@ -2,10 +2,9 @@
   {
     "id": 26,
     "num": "26",
-    "notPublished": true,
     "title": "Better Dev Club #26 - Z Andrzejem Krzywdą o DDD, Event Sourcing i TDD w czasach AI",
     "date": "2026-04-30",
-    "duration": "00:00",
+    "duration": "52:16",
     "desc": "Andrzej Krzywda (Arkency) wpada na kanał porozmawiać o tym, jak w erze AI realizować skomplikowaną architekturę. Czy współczesne modele ogarniają Domain-Driven Design i TDD? Zastanawiamy się też, czy ukrywając się za wygenerowanym przez Copilota i Claude'a kodem, pożegnamy się na dobre z \"collective ownership\" zespołów opartych na pracy asynchronicznej. Zaparzcie kawę, bo wjeżdża zwinne, architektoniczne mięso, tęsknota za biurem i startupowy narwany duch Ruby on Rails!",
     "agenda": [
       "00:00 - [Intro] Andrzej Krzywda we własnej osobie - CEO, railsowiec i ekspert od TDD i DDD",
@@ -34,9 +33,9 @@
       "collective-ownership"
     ],
     "platforms": {
-      "youtube": "https://youtu.be/TODO_ZMIEN_MNIE",
-      "spotify": "https://open.spotify.com/episode/TODO",
-      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club-26/TODO"
+      "youtube": "https://youtu.be/TMeSyMF4qZg",
+      "spotify": "https://open.spotify.com/episode/2Uw1owbK1wq7PoNalFnUNS?si=HqIASFYZTemwD_a4OWPg6w",
+      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club-26-z-andrzejem-krzywd%C4%85-o-ddd-event/id1848840540?i=1000764645362"
     },
     "resources": [
       {
@@ -51,7 +50,9 @@
         "label": "Blog Andrzeja Krzywdy",
         "description": "Solidna warstwa wiedzy odnośnie skomplikowanej architektury i biznesu."
       }
-    ]
+    ],
+    "youtubeId": "TMeSyMF4qZg",
+    "guestKey": "andrzej"
   },
   {
     "id": 25,
