@@ -1,0 +1,174 @@
+{
+  "transcript": [
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:00",
+      "text": "Cześć Piotrek."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:01",
+      "text": "Cześć, Kajtek."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:03",
+      "text": "Piotrek, jakiego skilla najczęściej używasz? Mówię oczywiście o tym AI-owym."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:08",
+      "text": "aż już myślałem, że on był szerszy. Ostatnio Caveman'a."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:12",
+      "text": "Te zwykłe są nudne. Cavemana, OK. To bardzo... skill bardzo na czasie. No tak, ja też trochę... ja też trochę sobie... też się z nim trochę bawię i mam świetny ubaw, tak naprawdę, bawiąc się nim. No i to jest... tak miałem takie przemyślenie, że to jest skill przyszłości."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:16",
+      "text": "ale to głównie dlatego, że go jakoś testuję. Tak. Developer robić. Developer nie chcanić głupot. Developer dobrze implementować kod."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:44",
+      "text": "No właśnie, to jest wiesz, po pierwsze, po pierwsze jest kwestia tego, że oszczędza nam tokeny, to jest super ważny temat, a po drugie, z całym szacunkiem oczywiście do wszystkich, którzy nas słuchają, ale ja czasami mam dosyć tej korporacyjnej inkluzywności, poprawności i tego wszystkiego, co jest teraz tak super ważne we wszystkich pracach, to znaczy bardzo trzeba uważać na to, co się mówi. na uczucia innych osób i to jest jak najbardziej w porządku i to jest jak najbardziej dobre, żeby nie było, ale czasami po prostu chciałoby się tak na kogoś huknąć, żeby postawić go do pionu. No i właśnie, na Ejaja można huknąć i on wtedy coś głupkowatego odpowie i zacznie robić. Jest super."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "01:34",
+      "text": "Ty Kajtek mów, nie chrzan!"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "01:37",
+      "text": "Dokładnie, dokładnie. Ja też czasami czegoś takiego potrzebuję. Ale dobra, to caveman. A takie coś, co jest powiedzmy bardziej przydatne, jeśli mogę to tak nazwać?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "01:54",
+      "text": "niż kłóknięcie na kogoś nie ma. No dobra, teraz poważnie. Po pierwsze mam trochę i ostatnio trochę, ale to ze względu na to, że rzeczywiście jakoś tak siedzę, trochę testuję, ileś narzędzi takich około czysto pracowo, bym bym czysto pracował. około nazwijmy to mojego środowiska pracy i to w zasadzie chyba bardziej są MCP niż same skille, chociaż są przy tych przy tych MCP są jakieś skille żeby dobrze z nich korzystać, Czyli dołożyć tam jakiś tam kontekst albo nie kontekst, No i to są te narzędzia do takich najbardziej typowych, jak gdyby moich środowisk pracy, czyli jak gdyby korzystam bardzo dużo z workIQ. WorkIQ to jest taki, to też jest MCP server, ale to też jest CLI. To w zasadzie jest też biblioteka do dowolnych rzeczy, nawet w dotnecie da się zapisać do tego żebyś dobrał shared only do swoich danych z ofisa. Mówiąc o tym, że da się w dotnecie napisać kod, który może skorzystać z WorkIQ, dowiedziałem się wczoraj, nie użyłem tego, nie jestem pewien czy widzę zastosowania, natomiast to, że mogę sobie w CLI to wywołać To już mi się zdarzyło, bo jestem stuknięty i zamiast graficznego interfejsu wolę sobie wypisać coś na CLI i można wypisać na przykład jakie mam dzisiaj spotkania. Ja już mam taki automat, który mi w miarę chodzi, chociaż dzisiaj się przepinam na kołorka, chyba nie na dzisiaj. To, że się... Stop. Więc oczywiście jak były połączone dziury, Conflu... i w moim wypadku właśnie WorkIQ, bo to są te narzędzia, które na ogół używam w pracy, rzeczywiście mi się w ostatnich tygodniach bardzo fajnie sprawdzają. I powiem Ci, że nawet miałem taki prawie quasi autonomiczny flow, że coś tam potrzebowałem zbudować i udało się to zrobić właśnie w zasadzie takiej, że weź agent, tu jest zadanie, są dane na Confluence, tu coś tam weź mi, spróbuj całość obrobić i z tego jestem Bardzo mega zadowolony. Jak mówimy o kodowaniu to zależy chyba w czym koduje. Zdarza mi się korzystać z np. MCP do githuba. Zdarza mi się korzystać z skila githubowego. W sumie to samo, nawet nie wiem którego w tej chwili używam. Chyba bardziej skila githubowego. sensie takiego, nie ten żebym je automatycznie jakoś komitował, nie komitował, odkładał brancze, nie odkładał brancze i to rzeczywiście... Permanentnie korzystam. Tu chyba wynika z mojego nawet gadania, że czasami ciężko powiedzieć co jest skillem, co jest MCP-kiem. Nie wiem czy też masz takie wrażenie. Może odwrócę pytanie, a z czego ty korzystać? Może jak będziemy mieli dwie wizje, to może będzie trochę inaczej."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "04:55",
+      "text": "No... Dobrze, ja korzystam jak najmniej z MCP. To jest takie moje ostatnie przemyślenie, bo MCP, jednak podpięcie MCP zżera bardzo dużo tokenów. Załadowanie tego wszystkiego do kontekstu to jest dramat, więc jeżeli mogę coś zrobić inaczej i bardzo często wracam chociażby do zwykłego strzału po API. to staram się to właśnie tak ogarnąć. I tak na przykład przez jakiś czas korzystałem z MCP do Azure DevOps. Ostatnio przestałem korzystać i napisałem sobie skilla, który właśnie łączy się CLI'owo i w wiklu to się chyba nazywa, tworzy mi query, które potrzebuję, żeby sobie coś tam wyciągnąć. I to jest zdecydowanie... optymalniejsze jeśli chodzi o wykorzystanie właśnie tokenów, a działa myślę, że równie dobrze jak MCP. Czasami potrafi tam się..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "06:13",
+      "text": "Nie, to nie ulega wątpliwości. Te skille CLA-owe działają równie dobrze jak MCPAD. Kwestia jest taka, że część narzędzi po prostu nie ma. W sensie takim, że nie wszystkie narzędzia mają sensowne... CLI, z którego możesz skorzystać. może inaczej. Dużo już powstaje, ale jeszcze chyba nie wszystko jest."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "06:40",
+      "text": "Tak, tylko właśnie też mam wrażenie, że trochę idziemy w tym kierunku znowu, bo rok temu chyba wszyscy się zachłysnęli MCPami i jakby powstawało więcej MCP niż było potrzebne to na pewno i powstawało więcej MCP niż właśnie CLI'ów zwykłych API i tego typu narzędzi. A teraz, jak mam wrażenie kończy się tokenowe Eldorado i wszyscy zaczynają narzekać na rate limiting, na łapanie się bardzo szybko w limity, chyba że ma się te turbo najdroższe subskrypcje, to wtedy trzeba zacząć optymalizować chociaż trochę. Dlatego ja już, jak tylko mogę, to staram się przepinać właśnie z MCP na skillę. I właśnie z githubowego zdecydowanie przyjemniej. Teraz mi się jakby z czystym sumieniem korzystam ze skilla, a nie z MCP."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "07:42",
+      "text": "No tak akurat github jest fajnym przykładem, ale jak już mówimy o dostępie do miejsca gdzie masz taski. Nie wiem czy u Ciebie jest to Azure, DevOps, Gia czy github czy cokolwiek innego. To akurat tutaj mówiąc szczerze chyba ja coraz bardziej widzę MCP niż widzę skilla, bo ten skill albo będzie po prostu strasznie długi. Duży, nie wiem jak go nazwać, sensie ok, nie zawsze go potrzebujesz. kwestia wyłączenia, wyłączenia ale jak gdyby widzę to widzę rzeczywiście, że do tych narzędzi jeszcze nie do końca widzę tego CLI'a ale to może być wiesz moje klapki na oczach kwestia tego, że mam co mam a nie że że się nie da albo że nie można inaczej może trzeba będzie to przepisywać w sumie to będzie fajną projekty będą nie jak będziemy nagle przepisywać MCP na CLI, bo w sumie skoro MCP kto umie używać po API to sumie dlaczego by nie zrobić CLI, a który też by umiał to zrobić. tak, pomysł dosłownie drodzy widzowie właśnie patent pending jak to słyszycie to ja już mam patent. Wymyśliłem to dosłownie Natomiast jest kilka rzeczy, które Ci powiem, że w ogóle korzystałem, a już nie korzystam. sensie takich, że na przykład miałem przez długi okres czasu, jak robiliśmy naszą stronę albo robimy inne takie dziwne rzeczy, to miałem MCP, chociaż pewnie teraz mógłbym mieć skilla do tooli tworzących grafiki, nie? Czyli w tym wypadku, jezu jak się nazywa to Google'owe narzędzie i teraz mi z głowy wyleciało. Uratuj mnie."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "09:29",
+      "text": "Bananę. Czy chodzi ci o stitcha? Stitch, stitch."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "09:30",
+      "text": "Nie do Nano Banana, to co już mówię, co słucham? O do Stitcha, do Stitcha Google'owego i miałem rzeczywiście MCP, który z tego korzystał, ale potem stwierdziłem, że to mi zupełnie nic nie daje. W sensie takim, że łatwiej mi jest zrobić eksport z tego narzędzia, pobawić, posiedzieć w tym narzędziu i zrobić eksport, potem jak już mam gotowy eksport to się nie bawić, ale z drugiej strony jak gadałem ostatnio z jakimiś desajnerami,"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "09:37",
+      "text": "No? No?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "09:57",
+      "text": "i to nawet zupełnie czysty przypadek w sensie nazwijmy to na grillu na Majówce to oni mówią, jednak zbudowanie jakiegoś zestawu księgi to z samości to się jakoś teraz nowocześnie nazywa ale księgi to z samości gdzie masz określone jak wyglądają ekrany, wyglądają kolorki jak wyglądają jakieś różne tego typu dziwne rzeczy to oni jeszcze nie do końca wiedzą. W sensie, jak gdyby tam akurat się spotkało trzech ludzi z różnych firm i żeśmy sobie gadali przy kiełbastry, jak to mogłoby wyglądać. Może trochę oszukuję opowieść, ale przepraszam drodzy widzowie, chyba nie ma sensu, żebym Wam opowiadał historię mojej majówki. Więc tu chyba tego jeszcze nie do końca jest albo nie do końca widać, nie wiem jak to nazwać, w sensie ten kawałek jak... Bo wiesz, bo obejrz sobie to tak, że jak gdyby sięgasz, budujesz nowy ekran, od razu sięgasz do tej całej design guide'a. Jest w ogóle design MD, chyba przez Google'a stworzony. Nie wiem na ile jest wykorzystywany, nie widziałem jeszcze projektu. Jak masz w widzu projekt, to wrzucaj, że tam rzeczywiście można bardzo dużo, ale nie wiem czy już wystarczająco."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "11:16",
+      "text": "Ja mam w ogóle wrażenie, front-end jeszcze, że tam jest sporo pracy, może nie front-end, ta strona kreatywna i designerska, tam jest jeszcze sporo do osiągnięcia i sporo do poprawy, bo też właśnie jak rozmawiam z UX-owcami... z frontendowcami, z designerami, to oni też mają wrażenie, że tutaj jeszcze czegoś brakuje, że to mogłoby być lepsze, że to jakby, nawet jeśli starają się zrobić to jak najlepiej, to gdzieś to się jeszcze gubi, nie potrafi się trzymać tych guidelineów i tutaj na pewno jeszcze mamy pole do popisu. Może to jest też trochę... trochę tak zastanawiałem się, czy to nie jest trochę w stronę tego, że oni chcieliby, żeby jakiś prototyp albo jakieś makiety powstały w Canvie albo w czymś, czego są przyzwyczajeni, a nie puszczą... W figmie, boże, w figmie, oczywiście nie w Canvie, ale to teraz dałem. W Canvie to my siedzimy od czasu do czasu. W figmie."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "12:26",
+      "text": "Figmie, nie w Canvie. Figmie."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "12:38",
+      "text": "A zamiast używać tej figmy, prostu niech sobie naklepią prototyp, który będzie realnie działający, lokalnie i tam niech będą te makiety i być może to byłoby prostsze podejście. Nie wiem, to jest takie dywagacje człowieka, który się na frontendzie w ogóle nie zna i lepiej, żeby frontu nie dotykał, bo tylko Diva spierdzieli i potem będą musieli trzy dni to naprawiać. Natomiast, wracając też do tego, czego ja, bo tak ostatecznie nie powiedziałem zbyt dużo, bo ja jeśli chodzi o skille, to cały czas będę wracał mimo wszystko do dot.neta, którym mam najwięcej wspólnego. I tutaj widzę, że jest naprawdę dobrze, bo w oficjalnym repo dot.netowym jest oddzielne, albo inaczej na koncie dot.neta na githubie. jest oddzielne repozytorium ze skillami i ono jest dostępne też jako plugin w Marketplace'ach, w Cloudzie, w Copilotcie i w innych aplikacjach i możesz sobie po prostu ściągnąć taki plugin i korzystać ze skili. I nawet jest już w tej chwili skill do .neta 11, który pomaga twojemu agentowi pisać w nowościach, które pojawią się realnie dopiero w listopadzie. Jeśli dobrze pamiętam. Także widać, że jest to utrzymywane na bieżąco. Na przykład możesz sobie już w tej chwili podpiąć skilla i spróbować union typów, które się pojawią w dotnecie 11 w końcu. Także tego typu skille, takie twarde, że tak powiem, skille, które pomagają w trzymaniu się jakichś konwencji, to ja jestem zawsze na tak i zawsze jestem chętny do tego, żeby próbować i... te mam wrażenie, że działają całkiem sympatycznie. Ale tutaj znowu jeden disclaimer, że ja zawsze też mam wrażenie, dosyć otwarcie piszę na przykład w moich agentach albo w moich Copilot Instructions czy Agents MD właśnie jakiego skilla kiedy wykorzystywać. Nie zostawiam tutaj... pola do luźnej interpretacji przez asystenta, kiedy on tego skila wykorzysta, kiedy nie, tylko twardo mu pisze, jak piszesz tu, to załaduj sobie tego skila, bo potrafią się niestety pogubić nadal ze skillami i to mnie strasznie denerwuje."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "15:16",
+      "text": "Ja myślę, że cały czas w jesteśmy w takim momencie, że jedna organizacja ma to lepiej, druga organizacja ma to gorzej, bo w ogóle jak wprowadzić nowego skilla. Ok, no możemy sobie powiedzieć, że taki skill z Microsofta to pewnie jest ok skillem, ale jak znajdziesz na przykład, dzisiaj podsyłałem Kajetan skill, który mnie uwiódł i ogóle aż się zdziwiłem pod tytułem Andrej Karpathy skill. Nie wiem co kreer na ten temat sądzę, pojawia się randomowe skilla w randomowych miejscach, zasadzie też randomowe MCP. I to w ogóle jest jakiś taki problem, jak w tym zarządzać, jak to robić dobrze. Oczywiście możesz to zrobić na poziomie infrastruktury. Po prostu wszystko blokować, co wcale nie jest złym pomysłem, bądźmy szczerze. i pozwalać tylko na to co się da, bo te narzędzia prostu trzeba mieć dość dużą władzę, naprawdę, nie przeryż takiego skilla jak Andrej Karpathy. Prawde mnie rozwalił ten skill. Dzisiaj to jest co do robienia. Ale wydaje mi się, jesteśmy jednak jeszcze ciągle na takim etapie, wiecie... Niestety Caveman'a, jak gdyby trochę kamienia łupanego, że wymyślamy na nowo co można skorzystać, jak można skorzystać, jak z tego użyć sensownie. Bo to nie jest, no w ogóle nie ma standardów, tak? Nie ma standardów. A z drugiej strony jak Kajetan mi ostatnio pokazywał, jak gdyby taki cały wbudowany, znaczy wysłał mi linka do chyba do posta, na temat debagowania 2026 jako narzędzia, ogóle, Cię w ogóle nie wiadomo samo w kontekście robi nie wiadomo co."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "16:47",
+      "text": "I realnie..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "17:01",
+      "text": "To przyznam szczerze, że pomimo to jest od Microsofta, mi się dwa razy zastanowił czy ja na pewno chcę z tego korzystać. Co to w ogóle mi zrobi pod spodem z aplikacją? No chyba bym się ciągle zastanowił gdzie polecą. No wiecie, jak debagujecie aplikacje to macie wszystkie kredytaciale załadowane. Czy te kredytaciale polecą wam z tym narzędziem, czy wam nie polecą? No okej, Microsoft to dał, więc pewnie nie polecą. Z drugiej strony tam pracują tacy developerzy jak ja, no to..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "17:31",
+      "text": "Dlatego tutaj znowu wracamy do roli chyba właśnie bezpieczników, ludzi od compliance, ludzi, którzy będą dbać o te dane i myślę, że oni będą mieli masę roboty, naprawdę masę roboty mają już, bo no właśnie, włączenie konektorów w cloudzie, włączenie używanie skili, ściąganie tych skili z bóg wie jakich repozytoriów."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "17:44",
+      "text": "O chbamaj o juz."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "17:58",
+      "text": "wykorzystanie natywnych narzędzi i tego, co tam w kontrakcie z Anthropikiem, Microsoftem czy kimkolwiek innym mamy. Tam jest tyle możliwości, a już nie mówiąc o tym, że to jest to, co przed chwilą powiedziałeś. Dwa miesiące temu korzystałeś z MCP, w tym miesiącu korzystasz ze Skill'a, w przyszłym miesiącu będziesz jeszcze z czegoś innego korzystał, bo tak ci będzie wygodniej i chciałbyś, żeby można było się szybko przepinać. I ty czy ja bardzo często mamy taką możliwość, żeby eksperymentować i gdzieś tam w wyizolowanych środowiskach sobie różne rzeczy potestować, ale w korporacjach jak będziemy robić projekty, to już takiej samowolki nie będzie i nad tym trzeba będzie ostatecznie zapanować, ale jak to zrobić? Ja w tej chwili nie mam zielonego pojęcia. Jeszcze jest za wcześnie."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "18:48",
+      "text": "W ogóle w korporacjach już teraz śmieje. Znowu opowieści z grilla. Przepraszam. Teraz jest taki straszny boom na Claude'a. Brawa dla Anthropica w tym miejscu. Wchodzisz na dowolny LinkedIn, Twittera, Xa, nawet Facebooka, Instagrama, czy pewnie TikToka i widzisz Claude'a. Zresztą my sami dzisiaj powiedzieliśmy, 3x Claude powinniśmy sobie każdą dolar za każdą to odkładać na wyjazd do Japonii albo tam gdziekolwiek. Oni zrobili tak niesamowitą robotę marketingową, że ludzie to widzą i chcą tego korzystać natychmiast. To czy to ma sens czy nie ma sensu, jakby pal to licho, ale ja sam się na tym łapię, nie to, że nagle są inni, lepsi. wewnętrzny czat z Kajetan, jak ktoś chce dostęp za grube dolary, możemy udostępnić. My też mamy taki, wiecie, uuuu. Po czym odpalamy tego narzędzia, którego używacie w firmie, niech będzie, nie wiem, Copilot, Codex, Open Code, czy cokolwiek innego i się nagle okazuje, że te narzędzia wcale nie są tak daleko od siebie. Tylko jakieś tam małe feature rzeczywiście się znajdują. I ludzie to łapią i chcą tego korzystać już teraz, zaraz, bo to przecież rozwiązuje wszystkie problemy wszechświata. Teraz Karytan powiedział, nie gadamy dzisiaj o modelach, nie mówiliśmy przez dwa tygodnie, żeby wyszło wszystko. Przepraszam, Google nie wydał. To raz sztuk. że wszystko wyszło i widziałem jak gdyby guru na linkwinie czy tam na xie, którzy jak gdyby dwa tygodnie temu mówili Opus 3 to w ogóle wszystko rozjechał, po czym potem Gemini 1.5 w ogóle zaorało, a na końcu kodeks, najnowsze kodeks w ogóle się przeniosł. Ja sobie myślę stary, to gdyby to Google, nie będę wskazywał tego profilu, żeby nie było nie tam, ja sobie myślę stary. przez dwa tygodnie przeprowadziłeś się przez trzy narzędzia. Co ty robisz? Co robisz takiego co jest produktem? sensie, bo ok, na to żebyśmy sobie gadali na sosie, w mediach to w ogóle super, ale na to żebyś budował produkt, no litości, to ja spędnie zdążył się przekręcić, a ty zdążyłeś się przepręć przez tule. Nawet jak to zajmuje pół dnia, tam godzinę, no to... To właśnie zaorzałeś 4 godziny, czyli pół dnia na to, spróbować wszystkich tuli. Ale to może kwestia tego, że jak się z góry LinkedIna, to trzeba trochę inaczej postępować."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "21:43",
+      "text": "Oj tak, to zdecydowanie. to myślę, że z tym wszystkim możemy tutaj zostawić, bo testowanie jest super. Jakby emocje z tym związane też bardzo często są ciekawe, ale coraz bardziej mi się wydaje, że musimy na chłodno podchodzić do tych wszystkich rozmów, do tych wszystkich zmian, bo wiadomo, że ten cykl będzie trwał jeszcze. On będzie jeszcze, tak będziemy się kręcić w kółeczko. i tak jak te chomiki zasuwać w tym kółeczku i niektórzy będą się przepinać na te wszystkie modele i będą się podniecać tym jak to bardzo dużo zmienia, a z drugiej strony będą ci, którzy będą siedzieć, optymalizować i cieszyć się z tego, że to po prostu zaczyna działać."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "22:34",
+      "text": "No dobra drogi słuchaczu jak dotarłeś do tego momentu bo my żeśmy jak zwykle zawali marketing to zachęcamy do lajka, dyslajka, subskryba i w ogóle Kajetan ostatnio stał się gwiazdą TikToka więc jak jeszcze go nie widzieliście jako gwiazdy TikToka to zachęcamy też do polubienia nas na TikToku tam też jesteśmy można oglądać Kajetana w kółko 30 parę tysięcy odświetleń więc jak gdyby macie nową gwiazdę I bardzo Wam dziękujemy. Zachęcamy jak gdyby oczywiście do komentarzy jak napiszecie czego używacie, czego nie używacie. Może byśmy jakieś forum założyli, może, o, może jakby ktoś chciał, żebyśmy jakieś forum założyli i tam sobie pogadali, to też zachęcamy. No i czekamy na grube propozycje, grubek tysięcy dolarów na dołączenie do naszego prywatnego czata, ale to tylko do chęci."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "23:25",
+      "text": "Takie forum typu PHP BB BY PRZEMO, Takie old schoolowe, tak jak my."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "23:30",
+      "text": "Bike Open AI Copilot i coś tam."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "23:34",
+      "text": "Dobra, do zobaczenia za tydzień."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "23:39",
+      "text": "Zobaczmy co się stało."
+    }
+  ]
+}

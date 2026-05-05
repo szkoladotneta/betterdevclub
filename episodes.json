@@ -1,5 +1,39 @@
 [
   {
+    "id": 27,
+    "num": "27",
+    "title": "Better Dev Club #27 - Skille AI, czy Model Context Protocol (MCP) zżera tokeny?",
+    "date": "2026-05-05",
+    "notPublished": true,
+    "duration": "23:40",
+    "desc": "Kajetan i Piotrek rozmawiają o tym, z jakich asystentów programistycznych, skilli i narzędzi AI korzystają na co dzień. Dyskutujemy, dlaczego protokół MCP bywa bardzo zasobożerny (zżera tokeny!) i czy powrót do korzystania ze zwykłych skilli operujących po CLI jest lepszą opcją. Gadamy też o potknięciach i brakach w narzędziach UI/UX, testowaniu nadchodzących rozwiązań w oficjalnym środowisku .NET i bezpieczeństwie aplikacji. Na koniec – pochylamy się nad pętlą 'hype\\'u' na ciągłe przeskakiwanie pomiędzy Claude, Gemini, i ChatGPT, które odrywa niektórych od prawdziwej pracy.",
+    "agenda": [
+      "00:00 - [Intro] Nasze ulubione skille AI i Caveman",
+      "01:54 - [Workflow] Skille łączące ze środowiskiem pracy",
+      "04:55 - [MCP vs Tokeny] Dlaczego MCP dramatycznie zżera tokeny?",
+      "08:30 - [Design vs AI] Dostęp do narzędzi w UI/UX",
+      "12:38 - [Skille w .NET] Testowanie nowości z .NET przed premierą za pomocą skilli",
+      "15:16 - [Zarządzanie] Dziki zachód narzędzi AI (i dziwny skill Andreja Karpathy'ego)",
+      "16:47 - [Security] Ryzyko wycieku danych podczas debugowania z asystentem",
+      "18:48 - [AI FOMO] Syndrom LinkedInowego Guru i skakanie po modelach"
+    ],
+    "tags": [
+      "betterdevclub",
+      "ai",
+      "mcp",
+      "copilot",
+      "github",
+      "claude",
+      "gemini",
+      "google",
+      "llm",
+      "dotnet",
+      "frontend",
+      "security",
+      "tokeny"
+    ]
+  },
+  {
     "id": 26,
     "num": "26",
     "title": "Better Dev Club #26 - Z Andrzejem Krzywdą o DDD, Event Sourcing i TDD w czasach AI",
