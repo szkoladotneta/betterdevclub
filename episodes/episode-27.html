@@ -11,7 +11,7 @@
     <meta property="og:url" content="https://betterdevclub.com/">
     <meta property="og:title" content="Better Dev Club #27 - Skille AI, czy Model Context Protocol (MCP) zżera tokeny?">
     <meta property="og:description" content="Kajetan i Piotrek rozmawiają o tym, z jakich asystentów programistycznych, skilli i narzędzi AI korzystają na co dzień. Dyskutujemy, dlaczego protokół MCP bywa bardzo zasobożerny (zżera tokeny!) i czy powrót do korzystania ze zwykłych skilli operujących po CLI jest lepszą opcją. Gadamy też o potknięciach i brakach w narzędziach UI/UX, testowaniu nadchodzących rozwiązań w oficjalnym środowisku .NET i bezpieczeństwie aplikacji. Na koniec – pochylamy się nad pętlą 'hype\'u' na ciągłe przeskakiwanie pomiędzy Claude, Gemini, i ChatGPT, które odrywa niektórych od prawdziwej pracy.">
-    
+    <meta property="og:image" content="https://i.ytimg.com/vi/P33QkXDOmOo/maxresdefault.jpg">
     <link rel="shortcut icon" href="../img/favicon-32x32.png" type="image/png">
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Noto+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
@@ -973,7 +973,7 @@
             const [loading, setLoading] = useState(true);
 
             useEffect(() => {
-                const version = "c953b8e55c";
+                const version = "ad71bad0ca";
                 Promise.all([
                     fetch(`/episodes.json?v=${version}`).then(res => res.json()),
                     fetch(`/speakers.json?v=${version}`).then(res => res.json())
