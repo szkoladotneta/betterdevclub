@@ -4,7 +4,6 @@
     "num": "27",
     "title": "Better Dev Club #27 - Skille AI, czy Model Context Protocol (MCP) zżera tokeny?",
     "date": "2026-05-05",
-    "notPublished": true,
     "duration": "23:40",
     "desc": "Kajetan i Piotrek rozmawiają o tym, z jakich asystentów programistycznych, skilli i narzędzi AI korzystają na co dzień. Dyskutujemy, dlaczego protokół MCP bywa bardzo zasobożerny (zżera tokeny!) i czy powrót do korzystania ze zwykłych skilli operujących po CLI jest lepszą opcją. Gadamy też o potknięciach i brakach w narzędziach UI/UX, testowaniu nadchodzących rozwiązań w oficjalnym środowisku .NET i bezpieczeństwie aplikacji. Na koniec – pochylamy się nad pętlą 'hype\\'u' na ciągłe przeskakiwanie pomiędzy Claude, Gemini, i ChatGPT, które odrywa niektórych od prawdziwej pracy.",
     "agenda": [
@@ -31,7 +30,28 @@
       "frontend",
       "security",
       "tokeny"
-    ]
+    ],
+    "platforms": {
+      "youtube": "https://youtu.be/P33QkXDOmOo",
+      "spotify": "https://open.spotify.com/episode/0TcbzzIdFQpeFtHKVVe4aO?si=AY9RMfQCSIemUtBIZQbS_A",
+      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club-27-z-jakich-narz%C4%99dzi-ai-korzystamy/id1848840540?i=1000766579488"
+    },
+    "resources": [
+      {
+        "type": "link",
+        "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+        "label": "Andrej Karpathy skill",
+        "description": "Dziwny skill Andreja Karpathyego"
+      },
+      {
+        "type": "link",
+        "url": "https://github.com/dotnet/skills",
+        "label": "Dotnet Skills",
+        "description": "Oficjalne skille .NETowe od MS"
+      }
+    ],
+    "youtubeId": "P33QkXDOmOo",
+    "guestKey": "piotrek"
   },
   {
     "id": 26,
