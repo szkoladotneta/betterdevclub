@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI-Native Dev Team — Warsztat Copilot dla zespołów .NET (B2B) | Better Dev Club</title>
+  <meta name="description" content="1-dniowy warsztat dla działów IT i software house'ów z teamem 10–50 .NET-owców. Deterministyczny workflow z GitHub Copilotem, copilot-instructions.md uszyty pod Wasz stack. Prowadzą Microsoft MVP + ex-Allegro DevOps." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%230A0F1E'/><text y='24' x='4' font-size='22' font-family='monospace' fill='white'>C#</text></svg>" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --black:   #0A0F1E;
+      --blue:    #2563EB;
+      --blue-dark: #1D4ED8;
+      --blue-light: #EFF6FF;
+      --gray-50: #F9FAFB;
+      --gray-100: #F3F4F6;
+      --gray-200: #E5E7EB;
+      --gray-300: #D1D5DB;
+      --gray-400: #9CA3AF;
+      --gray-600: #4B5563;
+      --gray-700: #374151;
+      --gray-800: #1F2937;
+      --white:   #ffffff;
+      --green:   #16A34A;
+      --green-light: #DCFCE7;
+      --red:     #DC2626;
+      --red-light: #FEF2F2;
+      --amber:   #F59E0B;
+      --badge-bg: #EFF6FF;
+      --badge-color: #2563EB;
+      --radius: 12px;
+      --shadow: 0 4px 24px rgba(0,0,0,0.07);
+      --shadow-hover: 0 8px 40px rgba(0,0,0,0.13);
+    }
+
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Inter', sans-serif;
+      font-size: 16px; line-height: 1.6;
+      color: var(--gray-800); background: var(--white);
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: inherit; }
+
+    .container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
+    .section { padding: 96px 0; }
+    .section--gray { background: var(--gray-50); }
+
+    /* NAV */
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(255,255,255,0.95);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--gray-200);
+      padding: 16px 0;
+    }
+    .nav-inner { display: flex; align-items: center; justify-content: space-between; }
+    .nav-brand {
+      font-weight: 700; font-size: 15px; color: var(--black);
+      text-decoration: none; letter-spacing: -0.3px;
+    }
+    .nav-brand span { color: var(--blue); }
+    .nav-cta {
+      display: inline-block;
+      background: var(--blue); color: var(--white);
+      font-size: 14px; font-weight: 600;
+      padding: 10px 20px; border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.2s, transform 0.15s;
+    }
+    .nav-cta:hover { background: var(--blue-dark); transform: translateY(-1px); }
+
+    /* HERO */
+    .hero {
+      padding: 112px 0 96px;
+      background: linear-gradient(165deg, #ffffff 0%, #EFF6FF 55%, #ffffff 100%);
+      overflow: hidden; position: relative;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--badge-bg); color: var(--badge-color);
+      font-size: 13px; font-weight: 600;
+      padding: 6px 14px; border-radius: 999px;
+      margin-bottom: 28px;
+      border: 1px solid #BFDBFE;
+    }
+    .hero-badge .dot {
+      width: 7px; height: 7px; border-radius: 50%;
+      background: var(--blue);
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.4; } }
+
+    .hero h1 {
+      font-size: clamp(36px, 5vw, 60px);
+      font-weight: 700; line-height: 1.12; letter-spacing: -1.5px;
+      color: var(--black); max-width: 880px; margin-bottom: 24px;
+    }
+    .hero h1 span { color: var(--blue); }
+    .hero-sub {
+      font-size: clamp(17px, 2vw, 20px);
+      color: var(--gray-600);
+      max-width: 720px; margin-bottom: 40px; line-height: 1.6;
+    }
+    .hero-cta-group { display: flex; gap: 14px; flex-wrap: wrap; align-items: center; margin-bottom: 48px; }
+
+    .btn-primary {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--blue); color: var(--white);
+      font-size: 17px; font-weight: 700;
+      padding: 16px 32px; border-radius: 10px;
+      text-decoration: none;
+      transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+      box-shadow: 0 4px 14px rgba(37,99,235,0.3);
+    }
+    .btn-primary:hover { background: var(--blue-dark); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(37,99,235,0.4); }
+    .btn-secondary {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: transparent; color: var(--gray-600);
+      font-size: 15px; font-weight: 500;
+      padding: 16px 24px; border-radius: 10px;
+      border: 1px solid var(--gray-200);
+      text-decoration: none;
+      transition: border-color 0.2s, color 0.2s, transform 0.15s;
+    }
+    .btn-secondary:hover { border-color: var(--blue); color: var(--blue); transform: translateY(-2px); }
+
+    .hero-meta { display: flex; flex-wrap: wrap; gap: 24px; }
+    .hero-meta-item {
+      display: flex; align-items: center; gap: 8px;
+      font-size: 14px; color: var(--gray-600);
+    }
+
+    /* TYPOGRAPHY */
+    .section-label {
+      display: inline-block;
+      font-size: 12px; font-weight: 700; letter-spacing: 1.5px;
+      text-transform: uppercase; color: var(--blue);
+      margin-bottom: 14px;
+    }
+    h2 {
+      font-size: clamp(28px, 3.5vw, 42px);
+      font-weight: 700; line-height: 1.18; letter-spacing: -0.8px;
+      color: var(--black); margin-bottom: 16px;
+    }
+    .section-lead {
+      font-size: 18px; color: var(--gray-600);
+      max-width: 680px; margin-bottom: 56px; line-height: 1.65;
+    }
+
+    /* PROBLEM CARDS */
+    .cards-grid {
+      display: grid; gap: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    }
+    .card {
+      background: var(--white);
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius);
+      padding: 28px;
+      box-shadow: var(--shadow);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .card:hover { transform: translateY(-4px); box-shadow: var(--shadow-hover); }
+    .card-icon {
+      width: 44px; height: 44px; border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      margin-bottom: 16px;
+      background: var(--red-light); color: var(--red);
+      font-weight: 700; font-size: 20px;
+    }
+    .card h3 { font-size: 17px; font-weight: 700; color: var(--black); margin-bottom: 8px; line-height: 1.35; }
+    .card p { font-size: 14px; color: var(--gray-600); line-height: 1.65; }
+
+    .cost-list {
+      margin-top: 40px; padding: 28px;
+      background: var(--white); border: 1px solid var(--gray-200);
+      border-radius: var(--radius); box-shadow: var(--shadow);
+    }
+    .cost-list h3 { font-size: 16px; font-weight: 700; color: var(--black); margin-bottom: 16px; }
+    .cost-list ul { list-style: none; display: grid; gap: 10px; }
+    .cost-list li {
+      font-size: 15px; color: var(--gray-700);
+      padding-left: 22px; position: relative; line-height: 1.6;
+    }
+    .cost-list li::before {
+      content: '→'; position: absolute; left: 0;
+      color: var(--blue); font-weight: 700;
+    }
+
+    .quote-block {
+      border-left: 3px solid var(--blue);
+      padding: 20px 24px;
+      background: var(--blue-light);
+      border-radius: 0 var(--radius) var(--radius) 0;
+      margin-top: 32px;
+    }
+    .quote-block p { font-size: 16px; font-style: italic; color: var(--gray-800); line-height: 1.65; }
+    .quote-block cite { display: block; margin-top: 10px; font-size: 13px; color: var(--gray-600); font-style: normal; font-weight: 500; }
+
+    /* SOLUTION STEPS */
+    .workshop-parts { display: grid; gap: 20px; }
+    .workshop-part {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 20px;
+      background: var(--white);
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius);
+      padding: 28px;
+      box-shadow: var(--shadow);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .workshop-part:hover { transform: translateY(-3px); box-shadow: var(--shadow-hover); }
+    .wp-number {
+      width: 48px; height: 48px; border-radius: 50%;
+      background: var(--blue); color: var(--white);
+      font-weight: 700; font-size: 18px;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+    }
+    .wp-content h3 { font-size: 17px; font-weight: 700; color: var(--black); margin-bottom: 4px; }
+    .wp-duration { font-size: 12px; color: var(--blue); font-weight: 600; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+    .wp-content p { font-size: 15px; color: var(--gray-600); line-height: 1.7; }
+
+    /* RESULTS */
+    .results-list { list-style: none; display: grid; gap: 14px; margin-top: 48px; }
+    .results-list li {
+      display: flex; gap: 14px; align-items: flex-start;
+      font-size: 16px; color: var(--gray-800);
+      background: var(--white);
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius);
+      padding: 18px 22px;
+      box-shadow: var(--shadow);
+      transition: transform 0.2s;
+      line-height: 1.55;
+    }
+    .results-list li:hover { transform: translateY(-2px); }
+    .check-icon {
+      flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%;
+      background: var(--green-light); color: var(--green);
+      display: flex; align-items: center; justify-content: center;
+      margin-top: 2px;
+    }
+    .results-list li strong { color: var(--black); }
+
+    /* STACK / WHAT YOU GET */
+    .stack-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; }
+    .stack-card {
+      background: var(--white);
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius);
+      padding: 32px;
+      box-shadow: var(--shadow);
+    }
+    .stack-card h3 {
+      font-size: 18px; font-weight: 700; color: var(--black);
+      margin-bottom: 20px; padding-bottom: 14px;
+      border-bottom: 1px solid var(--gray-100);
+    }
+    .stack-card ul { list-style: none; display: grid; gap: 10px; }
+    .stack-card li {
+      font-size: 14px; color: var(--gray-700);
+      padding-left: 22px; position: relative; line-height: 1.55;
+    }
+    .stack-card li::before {
+      content: '✓'; position: absolute; left: 0; top: 0;
+      color: var(--green); font-weight: 700;
+    }
+
+    /* PRICING */
+    .pricing-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+      align-items: stretch;
+    }
+    .pricing-card {
+      background: var(--white);
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius);
+      padding: 32px;
+      box-shadow: var(--shadow);
+      display: flex; flex-direction: column;
+      transition: transform 0.2s, box-shadow 0.2s;
+      position: relative;
+    }
+    .pricing-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-hover); }
+    .pricing-card.featured {
+      border: 2px solid var(--blue);
+      box-shadow: 0 0 0 4px rgba(37,99,235,0.08), var(--shadow);
+    }
+    .pricing-badge {
+      display: inline-block;
+      background: var(--blue); color: var(--white);
+      font-size: 11px; font-weight: 700; letter-spacing: 0.5px;
+      padding: 4px 12px; border-radius: 999px;
+      margin-bottom: 16px;
+      align-self: flex-start;
+    }
+    .pricing-name { font-size: 13px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--gray-600); margin-bottom: 8px; }
+    .pricing-price {
+      font-size: 38px; font-weight: 700; color: var(--black);
+      letter-spacing: -1px; margin-bottom: 4px;
+    }
+    .pricing-price sup { font-size: 18px; vertical-align: top; margin-top: 8px; font-weight: 600; margin-left: 4px; }
+    .pricing-from { font-size: 12px; color: var(--gray-400); font-weight: 500; margin-right: 6px; }
+    .pricing-label { font-size: 13px; color: var(--gray-600); margin-bottom: 24px; }
+    .pricing-features { list-style: none; flex: 1; margin-bottom: 28px; }
+    .pricing-features li {
+      display: flex; gap: 10px;
+      font-size: 14px; color: var(--gray-700);
+      padding: 8px 0;
+      border-bottom: 1px solid var(--gray-100);
+      align-items: flex-start; line-height: 1.5;
+    }
+    .pricing-features li:last-child { border-bottom: none; }
+    .pricing-features li::before {
+      content: '✓'; color: var(--green); font-weight: 700; flex-shrink: 0;
+    }
+    .btn-pricing {
+      display: block; text-align: center;
+      padding: 14px; border-radius: 10px;
+      font-size: 15px; font-weight: 700;
+      text-decoration: none;
+      transition: background 0.2s, transform 0.15s;
+    }
+    .btn-pricing.primary { background: var(--blue); color: var(--white); }
+    .btn-pricing.primary:hover { background: var(--blue-dark); transform: translateY(-1px); }
+    .btn-pricing.outline { background: transparent; color: var(--blue); border: 2px solid var(--blue); }
+    .btn-pricing.outline:hover { background: var(--blue-light); transform: translateY(-1px); }
+
+    .pricing-note { text-align: center; margin-top: 36px; font-size: 14px; color: var(--gray-600); }
+    .pricing-note strong { color: var(--black); }
+
+    /* FAQ */
+    .faq-list { max-width: 820px; margin: 0 auto; }
+    .faq-item {
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius);
+      margin-bottom: 12px;
+      overflow: hidden;
+      transition: box-shadow 0.2s;
+      background: var(--white);
+    }
+    .faq-item:hover { box-shadow: var(--shadow); }
+    .faq-question {
+      width: 100%; text-align: left;
+      padding: 20px 24px;
+      background: var(--white);
+      border: none; cursor: pointer;
+      display: flex; justify-content: space-between; align-items: center;
+      gap: 16px;
+      font-size: 15px; font-weight: 600; color: var(--black);
+      transition: background 0.15s;
+      font-family: inherit;
+    }
+    .faq-question:hover { background: var(--gray-50); }
+    .faq-question.open { background: var(--blue-light); color: var(--blue); }
+    .faq-chevron { flex-shrink: 0; transition: transform 0.3s; }
+    .faq-question.open .faq-chevron { transform: rotate(180deg); }
+    .faq-answer {
+      max-height: 0; overflow: hidden;
+      transition: max-height 0.4s ease;
+    }
+    .faq-answer.open { max-height: 500px; }
+    .faq-answer-inner { padding: 0 24px 22px; font-size: 14px; color: var(--gray-600); line-height: 1.75; }
+
+    /* GUARANTEE */
+    .guarantee-block {
+      display: flex; gap: 28px;
+      background: var(--white);
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius);
+      padding: 36px;
+      box-shadow: var(--shadow);
+      align-items: flex-start;
+      max-width: 900px; margin: 0 auto;
+    }
+    .guarantee-icon {
+      flex-shrink: 0; width: 64px; height: 64px;
+      background: var(--blue-light); border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .guarantee-block h3 { font-size: 22px; font-weight: 700; color: var(--black); margin-bottom: 10px; }
+    .guarantee-block p { font-size: 15px; color: var(--gray-600); line-height: 1.7; margin-bottom: 10px; }
+    .guarantee-block p:last-child { margin-bottom: 0; }
+
+    /* AUTHORS */
+    .authors-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 28px; }
+    .author-card {
+      background: var(--white);
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius);
+      padding: 32px;
+      box-shadow: var(--shadow);
+    }
+    .author-avatar {
+      width: 80px; height: 80px; border-radius: 50%;
+      background: var(--blue-light);
+      display: flex; align-items: center; justify-content: center;
+      border: 3px solid var(--blue);
+      margin-bottom: 18px;
+    }
+    .author-avatar span { font-size: 28px; font-weight: 700; color: var(--blue); }
+    .author-name { font-size: 22px; font-weight: 700; color: var(--black); margin-bottom: 4px; }
+    .author-title { font-size: 13px; color: var(--blue); font-weight: 600; margin-bottom: 14px; text-transform: uppercase; letter-spacing: 0.5px; }
+    .author-bio { list-style: none; }
+    .author-bio li {
+      font-size: 14px; color: var(--gray-600); line-height: 1.6;
+      padding: 5px 0 5px 18px; position: relative;
+    }
+    .author-bio li::before {
+      content: '—'; position: absolute; left: 0; color: var(--gray-400);
+    }
+
+    /* FINAL CTA */
+    .final-cta {
+      background: var(--black);
+      padding: 112px 0;
+      text-align: center;
+    }
+    .final-cta h2 { color: var(--white); max-width: 760px; margin: 0 auto 20px; }
+    .final-cta p { color: #9CA3AF; font-size: 18px; max-width: 580px; margin: 0 auto 20px; line-height: 1.65; }
+    .final-cta ul {
+      list-style: none; max-width: 480px; margin: 0 auto 40px;
+      text-align: left; color: #D1D5DB; font-size: 16px; display: grid; gap: 10px;
+    }
+    .final-cta ul li {
+      padding-left: 22px; position: relative;
+    }
+    .final-cta ul li::before {
+      content: '→'; position: absolute; left: 0; color: var(--blue);
+    }
+    .final-cta .btn-primary { font-size: 18px; padding: 18px 40px; }
+    .final-cta-meta {
+      margin-top: 32px; font-size: 14px; color: #9CA3AF;
+      display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;
+    }
+
+    /* FOOTER */
+    footer {
+      background: #060910;
+      color: var(--gray-400);
+      padding: 40px 0; font-size: 13px;
+    }
+    .footer-inner { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; align-items: center; }
+    footer a { color: var(--gray-400); text-decoration: none; transition: color 0.2s; }
+    footer a:hover { color: var(--white); }
+    .footer-links { display: flex; gap: 24px; flex-wrap: wrap; }
+
+    /* FADE-IN */
+    .fade-in { opacity: 0; transform: translateY(24px); transition: opacity 0.6s ease, transform 0.6s ease; }
+    .fade-in.visible { opacity: 1; transform: translateY(0); }
+
+    /* RESPONSIVE */
+    @media (max-width: 768px) {
+      .section { padding: 64px 0; }
+      .guarantee-block { flex-direction: column; }
+      .workshop-part { grid-template-columns: 1fr; }
+      nav .nav-brand { font-size: 13px; }
+    }
+    @media (max-width: 480px) {
+      .hero { padding: 72px 0 64px; }
+      .hero h1 { letter-spacing: -0.8px; }
+      .hero-cta-group { flex-direction: column; align-items: stretch; }
+      .btn-primary, .btn-secondary { width: 100%; text-align: center; justify-content: center; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="container nav-inner">
+    <a href="#" class="nav-brand">AI-Native Dev Team <span>/ Better Dev Club</span></a>
+    <a href="#cta" class="nav-cta">Umów Discovery Call</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-badge">
+      <span class="dot"></span>
+      Warsztat B2B · zespoły .NET 10–50 dev · on-site lub online · Faktura Better Dev Club
+    </div>
+
+    <h1>
+      Twój zespół .NET ma licencje Copilota.<br>
+      Czas żeby zaczął <span>zwracać inwestycję</span>.
+    </h1>
+
+    <p class="hero-sub">
+      <strong>AI-Native Dev Team</strong> — 1-dniowy warsztat dla działów IT i software house'ów z teamem 10–50 .NET-owców.
+      Wychodzicie z deterministycznym workflow, szablonem <code style="background:#fff;padding:2px 6px;border-radius:4px;border:1px solid #BFDBFE;font-size:14px;">copilot-instructions.md</code> uszytym pod Wasz stack i zespołem, który przestaje generować AI slop.
+    </p>
+
+    <div class="hero-cta-group">
+      <a href="#cta" class="btn-primary">
+        Umów bezpłatny Discovery Call (45 min)
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+      <a href="#pricing" class="btn-secondary">
+        Zobacz warianty i ceny
+      </a>
+    </div>
+
+    <div class="hero-meta">
+      <span class="hero-meta-item">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        Microsoft MVP + ex-Allegro DevOps
+      </span>
+      <span class="hero-meta-item">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        1 dzień (8h) · do 20 osób / edycja
+      </span>
+      <span class="hero-meta-item">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+        Szablon <code>copilot-instructions.md</code> pod Wasz stack
+      </span>
+      <span class="hero-meta-item">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+        Faktura B2B · format hybrydowy
+      </span>
+    </div>
+  </div>
+</section>
+
+<!-- PROBLEM -->
+<section class="section">
+  <div class="container">
+    <span class="section-label">Problem</span>
+    <h2 class="fade-in">Czy to brzmi znajomo w Waszym zespole?</h2>
+    <p class="section-lead fade-in">
+      Większość zespołów .NET, z którymi rozmawiamy, ma dokładnie te same cztery bóle — i nie wie, gdzie się zaczyna fix.
+    </p>
+
+    <div class="cards-grid">
+      <div class="card fade-in">
+        <div class="card-icon">!</div>
+        <h3>Kupiliście licencje Copilota — ROI = zero</h3>
+        <p>Część zespołu używa, część olała, nikt nie wie czy to w ogóle przyspiesza pracę. Tysiące PLN miesięcznie i brak danych do obrony budżetu.</p>
+      </div>
+      <div class="card fade-in">
+        <div class="card-icon">!</div>
+        <h3>Copilot nie zna Waszego kontekstu</h3>
+        <p>Sugeruje rozwiązania spod sztancy, łamie konwencje projektu, ignoruje architekturę. Code review zajmuje więcej czasu niż wcześniej.</p>
+      </div>
+      <div class="card fade-in">
+        <div class="card-icon">!</div>
+        <h3>„AI slop" w PR-ach</h3>
+        <p>Generowany kod wygląda dobrze, kompiluje się, ale wprowadza dług techniczny, którego nikt nie złapie przed produkcją.</p>
+      </div>
+      <div class="card fade-in">
+        <div class="card-icon">!</div>
+        <h3>Każdy dev robi po swojemu</h3>
+        <p>Brak wspólnego workflow, brak <code>copilot-instructions.md</code>, brak governance. Senior nie wie jak weryfikować to, co robi junior z AI.</p>
+      </div>
+    </div>
+
+    <div class="cost-list fade-in">
+      <h3>Realny koszt status quo:</h3>
+      <ul>
+        <li>Tysiące PLN miesięcznie w licencjach, z których realnie korzysta &lt; 40% zespołu</li>
+        <li>Code review wydłużone o 20–40% — bo trzeba sprawdzać nie tylko logikę, ale i halucynacje</li>
+        <li>Dług techniczny narastający szybciej, niż jesteście go w stanie spłacać</li>
+        <li>Senior dev frustracja → ryzyko odejścia najlepszych ludzi</li>
+      </ul>
+    </div>
+
+    <div class="quote-block fade-in">
+      <p>"Copilot zamienia się w katastrofę dla Microsoftu [...] GHC can be so inferior in regular tasks."</p>
+      <cite>— cytat z polskiej społeczności .NET (TOP 10, mocny rezonans)</cite>
+    </div>
+  </div>
+</section>
+
+<!-- SOLUTION -->
+<section class="section section--gray">
+  <div class="container">
+    <span class="section-label">Rozwiązanie</span>
+    <h2 class="fade-in">Przedstawiamy: AI-Native Dev Team</h2>
+    <p class="section-lead fade-in">
+      1-dniowy warsztat (8h) dla zespołów .NET, który zamienia chaotyczne użycie Copilota w deterministyczny workflow całego zespołu — z gotowymi szablonami uszytymi pod Wasz stack.
+    </p>
+
+    <div class="workshop-parts">
+      <div class="workshop-part fade-in">
+        <div class="wp-number">1</div>
+        <div class="wp-content">
+          <h3>Discovery Call + Stack Questionnaire</h3>
+          <div class="wp-duration">1h · pre-warsztat</div>
+          <p>Poznajemy Wasz stack, narzędzia, bóle zespołu. Dopasowujemy program i przygotowujemy <strong>szablon <code>copilot-instructions.md</code> dla typu Waszego stacku</strong> — nie generyczny PDF z internetu.</p>
+        </div>
+      </div>
+      <div class="workshop-part fade-in">
+        <div class="wp-number">2</div>
+        <div class="wp-content">
+          <h3>Warsztat 1-dniowy</h3>
+          <div class="wp-duration">8h · do 20 osób</div>
+          <p>Hands-on na <strong>przygotowanych przykładach .NET</strong> (sandbox — nie ruszamy Waszego kodu produkcyjnego, to świadoma decyzja: bezpieczeństwo + jakość). Moderowana dyskusja o Waszym stacku. Kajetan + Piotr prowadzą razem.</p>
+        </div>
+      </div>
+      <div class="workshop-part fade-in">
+        <div class="wp-number">3</div>
+        <div class="wp-content">
+          <h3>Pakiet wdrożeniowy + follow-up</h3>
+          <div class="wp-duration">Po warsztacie</div>
+          <p>Pliki szablonowe, repo GitHub, nagranie sesji (dożywotnie dla zespołu), 1h follow-up Q&amp;A live po 3 tygodniach. Zespół ma wszystko, czego potrzebuje, żeby wdrożyć workflow.</p>
+        </div>
+      </div>
+    </div>
+
+    <ul class="results-list">
+      <li class="fade-in">
+        <span class="check-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+        <div><strong>Spójny, deterministyczny workflow AI dla całego zespołu</strong> — koniec z „każdy robi po swojemu"</div>
+      </li>
+      <li class="fade-in">
+        <span class="check-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+        <div><strong><code>copilot-instructions.md</code> uszyty pod Wasz stack</strong> — Copilot zna konwencje, architekturę, narzędzia</div>
+      </li>
+      <li class="fade-in">
+        <span class="check-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+        <div><strong>Checklista Code Review AI-kodu</strong> — seniorzy wiedzą, jak walidować pracę z AI</div>
+      </li>
+      <li class="fade-in">
+        <span class="check-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+        <div><strong>Governance i security</strong> — Content Exclusion, Privacy Filters, polityka użycia AI (w wariantach On-site/Enterprise)</div>
+      </li>
+      <li class="fade-in">
+        <span class="check-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+        <div><strong>ROI z licencji Copilot przestaje być teorią</strong> — macie procesy, materiały, certyfikowany zespół</div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- STACK / WHAT YOU GET -->
+<section class="section">
+  <div class="container">
+    <span class="section-label">Co zawiera</span>
+    <h2 class="fade-in">Pakiet dla zespołu — wszystko, czego potrzebuje, żeby wdrożyć workflow</h2>
+    <p class="section-lead fade-in">
+      Rdzeń oferty otrzymujecie w każdym wariancie. Bonusy — od poziomu On-site Pro i Enterprise.
+    </p>
+
+    <div class="stack-grid">
+      <div class="stack-card fade-in">
+        <h3>Rdzeń (we wszystkich wariantach)</h3>
+        <ul>
+          <li>1-dniowy warsztat 8h (live, on-site lub online), do 20 osób / edycję</li>
+          <li>Pre-warsztatowy Discovery Call (1h) + Stack Questionnaire</li>
+          <li>Ćwiczenia hands-on na sandboxie .NET + moderowana dyskusja o Waszym stacku</li>
+          <li>Nagranie sesji — dożywotni dostęp dla zespołu</li>
+          <li>Szablon <code>copilot-instructions.md</code> pod Wasz stack</li>
+          <li>Prompt files, Custom agents, Skills (Copilot custom)</li>
+          <li>Checklista Code Review AI-kodu</li>
+          <li>Cheatsheet PDF „Deterministyczny AI Workflow"</li>
+          <li>Repozytorium GitHub z kodem przykładowym z warsztatu</li>
+          <li>1h follow-up Q&amp;A live po ~3 tygodniach</li>
+          <li>Certyfikaty (Microsoft MVP + ex-Allegro DevOps)</li>
+        </ul>
+      </div>
+
+      <div class="stack-card fade-in">
+        <h3>Bonusy On-site Pro <span style="font-size:12px; color: var(--gray-400); font-weight:500;">(wartość ~9 500 PLN)</span></h3>
+        <ul>
+          <li><strong>AI Governance Policy Framework</strong> — gotowy szablon polityki firmy <em>(3 500 PLN)</em></li>
+          <li><strong>Security Hardening Guide</strong> — Content Exclusion + Privacy Filters <em>(2 500 PLN)</em></li>
+          <li><strong>Onboarding AI Starter Kit</strong> — 30-min nagranie + checklist dla nowych pracowników <em>(2 000 PLN)</em></li>
+          <li><strong>Dashboard ROI</strong> — arkusz/skrypt do analizy logów Copilot Enterprise <em>(1 500 PLN)</em></li>
+        </ul>
+      </div>
+
+      <div class="stack-card fade-in">
+        <h3>Bonusy Enterprise Transformation <span style="font-size:12px; color: var(--gray-400); font-weight:500;">(wartość ~20 000+ PLN)</span></h3>
+        <ul>
+          <li>Wszystkie bonusy On-site Pro</li>
+          <li><strong>Custom Agent Workshop</strong> — budujemy razem 1 agenta na sandboxie <em>(5 000 PLN)</em></li>
+          <li><strong>Internal Prompt Library</strong> — biblioteka promptów pod Waszą domenę</li>
+          <li><strong>Sesja 1:1 dla liderów</strong> — Engineering Managers / Tech Leads (KPI, mierzenie efektywności AI)</li>
+          <li>Lekki audyt 1 wybranego repo (kierunek architektury i konwencji)</li>
+          <li>2 edycje warsztatu (po max 20 osób) dla zespołów 30+ dev</li>
+          <li>3 sesje follow-up (po 1, 3 i 6 miesiącach)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AUTHORS -->
+<section class="section section--gray">
+  <div class="container">
+    <span class="section-label">Prowadzący</span>
+    <h2 class="fade-in">Dwóch praktyków z produkcji — nie korporacyjne szkolenie</h2>
+    <p class="section-lead fade-in">
+      W jednej sali macie dwie różne perspektywy z produkcji — .NET architekta MVP i DevOps-a z dużej skali. To, czego nie zrobi żadna duża firma szkoleniowa, w której prowadzący czyta z dokumentacji.
+    </p>
+
+    <div class="authors-grid">
+      <div class="author-card fade-in">
+        <div class="author-avatar"><span>KD</span></div>
+        <div class="author-name">Kajetan Duszyński</div>
+        <div class="author-title">Microsoft MVP · .NET</div>
+        <ul class="author-bio">
+          <li>15 lat w branży (finanse, tech, medical, real estate, ubezpieczenia)</li>
+          <li>Microsoft MVP od 2 lat (Web Development Technologies + .NET Development Technologies)</li>
+          <li>Team Leader od 3 lat (zespół 10-osobowy)</li>
+          <li>Założyciel Szkoły Dotneta — 5,5 roku, &gt;1 mln PLN przychodu, 3000+ osób w ekosystemie</li>
+          <li>Buduje produkty z użyciem AI produkcyjnie każdego dnia — nie sprzedaje teorii</li>
+        </ul>
+      </div>
+
+      <div class="author-card fade-in">
+        <div class="author-avatar"><span>PS</span></div>
+        <div class="author-name">Piotr Stapp</div>
+        <div class="author-title">DevOps · ex-Allegro</div>
+        <ul class="author-bio">
+          <li>DevOps senior z doświadczeniem w jednej z największych firm tech w Polsce</li>
+          <li>Współgospodarz podcastu Better Dev Club</li>
+          <li>Wspólnik 50/50 w Better Dev Club (spółka odpowiedzialna za AI-Native Dev Team)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="section" id="pricing">
+  <div class="container">
+    <span class="section-label">Inwestycja</span>
+    <h2 class="fade-in">3 warianty — wybierz pasujący do skali zespołu</h2>
+    <p class="section-lead fade-in">
+      Wszystkie ceny netto, faktura B2B z Better Dev Club. Start warsztatu: 3–4 tygodnie od podpisania umowy.
+    </p>
+
+    <div class="pricing-grid">
+      <div class="pricing-card fade-in">
+        <div class="pricing-name">Online Expert</div>
+        <div class="pricing-price">18 900<sup>PLN</sup></div>
+        <div class="pricing-label">Małe software house'y · do 20 dev / edycję · Zoom / Teams</div>
+        <ul class="pricing-features">
+          <li>Pełny rdzeń oferty (warsztat 8h online, materiały, nagranie)</li>
+          <li>Discovery Call + Stack Questionnaire</li>
+          <li>Szablon <code>copilot-instructions.md</code> pod Wasz stack</li>
+          <li>Pakiet szablonów .NET (prompt files, agents, skills, checklisty)</li>
+          <li>Repo GitHub + 1h follow-up Q&amp;A po 3 tygodniach</li>
+          <li>Certyfikaty MVP + ex-Allegro DevOps</li>
+        </ul>
+        <a href="#cta" class="btn-pricing outline">Umów Discovery Call</a>
+      </div>
+
+      <div class="pricing-card featured fade-in">
+        <div class="pricing-badge">★ POLECANY</div>
+        <div class="pricing-name">On-site Pro</div>
+        <div class="pricing-price">24 900<sup>PLN</sup></div>
+        <div class="pricing-label">Działy IT / firmy produktowe · do 20 dev / edycję · Warszawa+</div>
+        <ul class="pricing-features">
+          <li>Wszystko z Online Expert</li>
+          <li>Warsztat <strong>u Was</strong> (Warszawa + okolice; inne lokalizacje po uzgodnieniu)</li>
+          <li>BONUS: AI Governance Policy Framework <em>(3 500 PLN)</em></li>
+          <li>BONUS: Security Hardening Guide <em>(2 500 PLN)</em></li>
+          <li>BONUS: Onboarding AI Starter Kit <em>(2 000 PLN)</em></li>
+          <li>BONUS: Dashboard ROI <em>(1 500 PLN)</em></li>
+          <li>Łączna wartość bonusów: <strong>~9 500 PLN</strong></li>
+        </ul>
+        <a href="#cta" class="btn-pricing primary">Umów Discovery Call →</a>
+      </div>
+
+      <div class="pricing-card fade-in">
+        <div class="pricing-name">Enterprise Transformation</div>
+        <div class="pricing-price"><span class="pricing-from">od</span>39 900<sup>PLN</sup></div>
+        <div class="pricing-label">Zespoły 30+ dev · 2 edycje po 20 osób · finalna wycena po Discovery</div>
+        <ul class="pricing-features">
+          <li>Wszystko z On-site Pro</li>
+          <li>2 edycje warsztatu (po max 20 osób)</li>
+          <li>Custom Agent Workshop <em>(5 000 PLN)</em></li>
+          <li>Internal Prompt Library pod Waszą domenę</li>
+          <li>Sesja 1:1 dla liderów (Eng. Managers / Tech Leads)</li>
+          <li>Lekki audyt 1 repo (architektura + konwencje)</li>
+          <li>3 sesje follow-up (1, 3 i 6 miesięcy)</li>
+          <li>Łączna wartość bonusów: <strong>~20 000+ PLN</strong></li>
+        </ul>
+        <a href="#cta" class="btn-pricing outline">Umów Discovery Call</a>
+      </div>
+    </div>
+
+    <p class="pricing-note fade-in">
+      <strong>Founding Partner Program</strong> — pierwsi 3 klienci dostają Founding Partner Bonus Bundle (dodatkowa 1h sesja strategiczna dla managementu + drugi follow-up Q&amp;A po ~3 miesiącach) w zamian za case study i logo.
+      <br><br>
+      Upsell po warsztacie: <strong>Quarterly AI Refresh — 5 000 PLN netto / kwartał</strong> (2h sesja live co 3 miesiące: nowe funkcje Copilot/GPT/Claude, przegląd plików instrukcji, Q&amp;A dla nowych pracowników).
+    </p>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section section--gray">
+  <div class="container">
+    <span class="section-label">FAQ</span>
+    <h2 class="fade-in">Najczęściej zadawane pytania</h2>
+    <p class="section-lead fade-in">Pytania, które słyszymy od CTO i Tech Leadów najczęściej. Brakuje czegoś? Zapytaj na Discovery Call.</p>
+
+    <div class="faq-list">
+      <div class="faq-item fade-in">
+        <button class="faq-question">
+          Ile to trwa od decyzji do warsztatu?
+          <svg class="faq-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-inner">
+          3–4 tygodnie od podpisania umowy. Tydzień 1: Discovery + Stack Questionnaire. Tydzień 2: przygotowanie materiałów pod Wasz stack. Tydzień 3–4: warsztat.
+        </div></div>
+      </div>
+
+      <div class="faq-item fade-in">
+        <button class="faq-question">
+          Czy to zadziała w naszej domenie / branży?
+          <svg class="faq-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-inner">
+          Warsztat jest stack-specific (.NET), nie domain-specific. Discovery Call służy właśnie temu, żeby program i <code>copilot-instructions.md</code> dopasować do Waszych narzędzi i konwencji.
+        </div></div>
+      </div>
+
+      <div class="faq-item fade-in">
+        <button class="faq-question">
+          Pracujecie z naszym kodem produkcyjnym podczas warsztatu?
+          <svg class="faq-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-inner">
+          <strong>Nie — i to świadoma decyzja.</strong> Hands-on robimy na przygotowanych przykładach .NET (sandbox), o Waszym kodzie rozmawiamy w formie moderowanej dyskusji. Powód: bezpieczeństwo (kod produkcyjny nie wycieka) + jakość warsztatu (przykłady są zaprojektowane edukacyjnie). Pełny audyt kodu możemy zaoferować osobno jako konsulting.
+        </div></div>
+      </div>
+
+      <div class="faq-item fade-in">
+        <button class="faq-question">
+          Co jeśli odwołacie szkolenie?
+          <svg class="faq-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-inner">
+          <strong>Pełny zwrot kosztów</strong>, jeśli odwołanie nastąpi z naszej winy. Cap odpowiedzialności w umowie = wartość kontraktu.
+        </div></div>
+      </div>
+
+      <div class="faq-item fade-in">
+        <button class="faq-question">
+          Czy gwarantujecie konkretny wzrost produktywności?
+          <svg class="faq-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-inner">
+          Nie. Gwarantujemy dostarczenie warsztatu, materiałów i follow-up wsparcia zgodnie z umową. Konkretny ROI zależy od dyscypliny wdrożenia po warsztacie — dlatego dajemy szablony, checklisty i follow-up, a nie „30% szybciej zagwarantowane".
+        </div></div>
+      </div>
+
+      <div class="faq-item fade-in">
+        <button class="faq-question">
+          Mamy zespół 35 osób — co robicie?
+          <svg class="faq-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-inner">
+          Wariant <strong>Enterprise Transformation</strong> — 2 edycje warsztatu po max 20 osób (jakość interakcji w mniejszych grupach), 3 sesje follow-up, lekki audyt 1 repo, sesja 1:1 dla liderów. Od 39 900 PLN, finalna wycena po Discovery.
+        </div></div>
+      </div>
+
+      <div class="faq-item fade-in">
+        <button class="faq-question">
+          Czy potrzebujemy mieć już Copilot Business/Enterprise?
+          <svg class="faq-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-inner">
+          Najlepiej tak (warsztat zwraca się wtedy najszybciej), ale nie jest to warunek konieczny. Jeśli jesteście w fazie pilotażu — pomożemy też ułożyć strategię wdrożenia.
+        </div></div>
+      </div>
+
+      <div class="faq-item fade-in">
+        <button class="faq-question">
+          Jak szybko zobaczymy rezultaty?
+          <svg class="faq-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-inner">
+          Materiały i workflow są wdrażalne od następnego dnia po warsztacie. Realna zmiana w zespole (adoption, redukcja AI slop) — typowo 4–8 tygodni przy konsekwentnym stosowaniu. Follow-up Q&amp;A po 3 tygodniach służy właśnie temu, żeby zaadresować bolączki wdrożenia.
+        </div></div>
+      </div>
+
+      <div class="faq-item fade-in">
+        <button class="faq-question">
+          Faktura? On-site poza Warszawą?
+          <svg class="faq-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-inner">
+          Faktura: B2B, wystawiana przez <strong>Better Dev Club</strong> (spółka Kajetan + Piotr Stapp 50/50). On-site poza Warszawą: tak, ustalamy koszty dojazdu i ewentualnego noclegu na Discovery Call.
+        </div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GUARANTEE -->
+<section class="section">
+  <div class="container">
+    <span class="section-label">Gwarancja</span>
+    <h2 class="fade-in" style="text-align:center;">Gwarancja Better Dev Club</h2>
+    <p class="section-lead fade-in" style="margin: 0 auto 56px; text-align:center;">Mówimy o tym wprost — bo wolimy uczciwego klienta, który rozumie kontrakt, niż dziesięciu, którzy poczują się oszukani przez puste obietnice.</p>
+
+    <div class="guarantee-block fade-in">
+      <div class="guarantee-icon">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+      </div>
+      <div>
+        <h3>Pełny zwrot kosztów, jeśli szkolenie zostanie odwołane z naszej winy</h3>
+        <p><strong>Warunki:</strong> Odwołanie z naszej strony → 100% zwrotu zaliczki. Zmiana terminu inicjowana przez nas → bez dodatkowych kosztów po Waszej stronie. Cap odpowiedzialności w umowie = wartość kontraktu (czerwona linia, którą zawsze umieszczamy).</p>
+        <p><strong>Czego nie gwarantujemy:</strong> Nie gwarantujemy konkretnych rezultatów biznesowych (np. „30% szybciej") — bo zależą one od dyscypliny wdrożenia po Waszej stronie. Gwarantujemy <strong>dostarczenie warsztatu, materiałów i follow-up wsparcia</strong> zgodnie z umową.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="final-cta" id="cta">
+  <div class="container">
+    <h2 class="fade-in">Gotowi zamienić ROI z Copilota z teorii w liczby w arkuszu?</h2>
+    <p class="fade-in">Jeden Discovery Call (45 min, bezpłatny, zero zobowiązań) wystarczy, żebyśmy powiedzieli Wam:</p>
+    <ul class="fade-in">
+      <li>czy w ogóle ma sens kupować ten warsztat,</li>
+      <li>który wariant (Online / On-site Pro / Enterprise) jest dla Was,</li>
+      <li>co realnie wyniesie Wasz zespół.</li>
+    </ul>
+    <p class="fade-in" style="margin-bottom:40px;"><strong style="color:#fff;">Nie wysyłamy propozycji cenowej bez Discovery Call</strong> — bo nie chcemy sprzedawać Wam czegoś, co nie pasuje.</p>
+
+    <a href="mailto:kontakt@betterdev.club?subject=AI-Native%20Dev%20Team%20-%20Discovery%20Call" class="btn-primary">
+      Umów Discovery Call (45 min, bezpłatny)
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+    </a>
+
+    <div class="final-cta-meta">
+      <span>📧 <a href="mailto:kontakt@betterdev.club" style="color:#9CA3AF;">kontakt@betterdev.club</a></span>
+      <span>🏢 Faktura: Better Dev Club</span>
+      <span>📍 On-site (Warszawa+) lub online (Zoom/Teams)</span>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container footer-inner">
+    <div>© <span id="year"></span> Better Dev Club · AI-Native Dev Team</div>
+    <div class="footer-links">
+      <a href="#">Polityka prywatności</a>
+      <a href="mailto:kontakt@betterdev.club">Kontakt</a>
+      <a href="#pricing">Cennik</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // FAQ accordion
+  document.querySelectorAll('.faq-question').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const answer = btn.nextElementSibling;
+      const isOpen = btn.classList.contains('open');
+      btn.classList.toggle('open');
+      answer.classList.toggle('open');
+      if (!isOpen) {
+        btn.setAttribute('aria-expanded', 'true');
+      } else {
+        btn.setAttribute('aria-expanded', 'false');
+      }
+    });
+  });
+
+  // Fade-in on scroll
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+  // Year
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
