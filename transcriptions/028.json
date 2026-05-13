@@ -1,0 +1,159 @@
+{
+  "transcript": [
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:00",
+      "text": "Cześć, Kajtek."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:01",
+      "text": "Cześć Piotrek!"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:03",
+      "text": "Ja mam dzisiaj do ciebie taki temat żebyśmy sobie pogadali o dostarczaniu. Bo tak wielu rzeczach gadamy o tym, że rzeczywiście się robi, robi. Ale ja mam trochę takie wrażenie, że się robi, robi, A potem to git push i do domu. W sensie, gdyby łatwo zrobić mogę na własnym przykładzie podać, z jakiegoś powodu potrzebowałem coś przepisać z Pythona na .net. Zajęło to..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:33",
+      "text": "Słusznie."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:35",
+      "text": "Tak wyszło, długi ten, ale potrzebowałem przepisać z Pythona na .NET. Prosta rzecz, nic specjalnego. Słuchaj, puściłem to na nazwijmy to na jedno popołudnie, potem następnego dnia jeszcze trochę przyłatałem i zasadzie śmigało. Z różnych względów było mi to do szczęścia potrzebne, nie chcę wchodzić w dyskusję dlaczego, po co i w ogóle, ale wiesz, kot mam, kompiluję się. Działa. Ty co to jest?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "01:09",
+      "text": "No i jak to mawiają młodzi, pora na CS'a, nie?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "01:15",
+      "text": "No ale tu jest ten chyba, może dobra, to jest na CS'a. No dobra, ale to wiesz, ten etap kiedy, dobra poczekaj, czekaj, czekaj, ale nikt załapie. Wpierw siedzisz na CS'ie, bo LLM się kręci, tak, a potem siedzisz na CS'ie, bo zrobiłeś git push i do dom. Nie, ale może, dobra, ale jak przy tym jesteśmy, to może trochę inaczej, w sensie tak, żebyśmy się z... żebyśmy się trochę skupili, jak gdyby trochę na kontekście chyba tak bym to określał. No bo chodzi o to, że w tej chwili rzeczywiście łatwo jest dorzucić nowe rzeczy. W sensie jak gdyby to jest stosunkowo łatwe. Jak ktoś dobrze opisze taska, czy jest to nawet dług technologiczny, czy jest to coś takiego, to po prostu możesz to zrobić. Naprawdę drukarko w tej chwili musisz się odezwać. Przepraszam drogi słuchacze, może nawet to się uda wyciąć, ale... Moja drukarka wpadła w tryb czyszczony. Dobra, to super drukarka właśnie to pokazuje to co się dzieje. jest dokładnie to co się w tym momencie dzieje na świecie. Bierzesz tego taska, szybko go robisz. To są godziny. Niektóre tasky, które kiedyś potrzebowali dni, tygodni i w ogóle nie chciało ci się do nich zabrać, bo powiedzmy nie wiem, to był upgrade.net, albo tam innego npr, albo trzeba było coś tam wyrazać, poprawić, usprawnić. Bierzesz tego taska, robisz go w jedną popołudnie, robisz go w jeden dzień albo nawet podczas daily i co potem? Wdrażasz, zostawiasz, czekasz aż będzie taki zestaw takich wdrożeń, bo może inaczej. Popatrzymy na mechanizmy wdrożeń. Możesz wdrożyć od razu. Jak masz dobry proces CISCD, masz, jak gdyby sam w ograniasz od komita do proda, jest twoja odpowiedzialność jednego zespołu, to pewnie jest łatwo, nie wdrażasz. Jak nagle masz tak, że masz zespół deweloperski, potem masz zespół wdrożeniowy, nie mylić tu z żadnym DevOpsem. bo ktoś zacznie mnie wytykać palcem, ale mamy zespół deweloperski, zespół wdrożeniowy, to zespół wdrożeniowy zaczynasz ich wrzucać, zalewać, bo to nawet nie jest to, że wrzucaj, to ich zaczynasz zalewać zmianami. bo rączki umyłem, gotowe, przetestowaliśmy, znaczy AI przetestował, ale to tak jak my byśmy przetestowali. No i ja bym skręcił w ogóle poznał twoje zdanie, bo ja tam jakieś mam. Ale jak ty to widzisz?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "04:18",
+      "text": "To jest dobre pytanie, bo widzisz, dopóki nas nie ściągają z tak najpierw pół żartem, pół serię, dopóki nie ściągają nas do biur jeszcze, przynajmniej mnie, to to jest super opcja, bo w międzyczasie można posprzątać chałupę, można obejrzeć coś na Netflixie, można poczytać książkę i porobić inne rzeczy, bo masz nagle dużo czasu. Oczywiście tego czasu masz dużo do momentu, którym się coś nie rypnie. A wiadomo, że jak będziemy, jak oddamy, oddamy to wszystko w ręce ejaja, no to się rypnie, wcześniej czy później. I to już jakby, to już mamy potwierdzone, nie? To już nie poddajemy pod wątpliwość, bo już byli tacy, podobno teoretycznie mądrzejsi od nas, którzy zarobili dużo więcej pieniędzy od nas na swoich biznesach. Oni przeszli już tą ścieżkę od tego, że zwolnili ludzi, zatrudnili AI, teraz zwalniają AI i zatrudniają ludzi, bo się już tak zesrało, że ciężko to odwrócić, nie? Więc muszą przyjść ludzie, żeby to posprzątać. Więc wiemy, że jak oddamy wszystko AI-owi, to będziemy tego bardzo żałować. Dlatego musimy to testować, musimy to sprawdzać. Ja jakby cały czas mam wrażenie, to już i na konferencjach o tym rozmawiamy. i gdzieś tam na korytarzach, i na panelach dyskusyjnych, że wracamy jakby, tak jak zawsze mówimy, że jakby jest to kółko, No."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "06:00",
+      "text": "Poczekaj, ja rozumiem twoją opcję, to, jadź pragnę głęb, to wdrażajmy cały czas. Bo małe zmiany mało szkodzą. No to wiesz, ja mam takie doświadczenie sprzed czasu, jak gdyby popularne sztuczne inteligencje, czy tam generatywne sztuczne inteligencje. Jak się robiło duże zmiany i one wchodziły raz na 5 miesięcy, to nie było takiej opcji, żeby się coś nie wywaliło podczas wdrożenia. Po prostu nie zdarzyło mi się. Jak gdyby ok, były serwisy, którym się udawało, były serwisy, którym się nie udawało, jak pamiętam Z czasów M Banku, jak mówimy, 1 na 5 miesięcy zawsze w nocy coś się wysypało. Jak już się nic nie wysypało, to się cały trwkat wysypał. Wtedy trzeba było wszystko, wtedy było najzabawne. W związku z tym, jako branża mówiliśmy, częste wdrożenia są spoko. Rzeczywiście, jak nagle, pamiętam, że długo z tym walczyłem, czuję to jako zasługa, ale tu pozdrawiam wszystkich moich kolegów, koleżanki, ze mną wtedy o to walczyli. Przestawiliśmy się na raz, na dwa tygodnie. To się dużo mniej sypało. Ja już nie chcę mówić o takich rzeczach jak... mean time to recovery albo inne tam dziwne metryki DORA, które potem w branży się pojawią. Ale ty mówisz, testujmy. Ale to ja się pytam co dalej. Przetestowaliśmy, lokalnie sprawdziłeś, wiesz tam przesunąłeś guzik w lewo, on nadal działa. A jak przesuniesz 50 guzików w lewo, to któryś zgubimy po drodze, a może to tak."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "07:47",
+      "text": "No właśnie, bo jeżeli będziemy wprowadzać bardzo dużo zmian bardzo szybko, to też nie zauważymy tego problemu, nie będziemy w stanie tego też testować na bieżąco. Nawet nasi użytkownicy nie będą tego w stanie testować na bieżąco, bo nawet nie będą wiedzieli, że tyle tych zmian jest. Ja mam problem w tym momencie. Korzystając z narzędzi, które mi pomagają dostarczać jeszcze szybciej, mam problem, żeby być zawsze na bieżąco z wersją. Mówię tutaj o Copilot, Copilot CLI, Copilot Visual Studio Code. Nie wiem, czy zauważyłeś, że Visual Studio Code potrafi się trzy razy dziennie zaktualizować. Tak samo Copilot CLI. Domyślam się, że Cloud Code, Codex i wszystkie inne narzędzia mają dokładnie ten sam problem. Ja czasami więcej czasu spędzam na aktualizacji, no może nie więcej czasu, ale jakby zaczynam się stresować tym, że, że, że wiesz, że jestem na jakiejś starszej wersji i w większości przypadków pomiędzy powiem o Copilot pomiędzy wersją 1.0.4 a 1.0.42 chyba nie zauważyłem żadnej różnicy, nie? Tam może coś się pojawiało, może jakaś..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "09:03",
+      "text": "Ja zauważyłem."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "09:04",
+      "text": "No? Jaką różnicę? No?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "09:06",
+      "text": "Dwie zauważyłem. Jedno jest takie, że zlimitowało mi background agentę, bo wcześniej mogłem odpalić do 10, nie miałem żadnego problemu, a teraz mi przycztarek mówi 4 maxa masz."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "09:19",
+      "text": "A to nie, to ja nigdy dziesięciu nie odpalałem w ogóle. Ja jednak lubię mieć kontrolę nad tym, robię. Chociaż trochę. Chociaż jakby udaję, że mam tą kontrolę. No dobra, ale no, no okej, czyli zauważyłeś jedną rzecz, tak? A domyślam się, że przez te 40 wersji, które wyszło, tych zmian mogło być trochę więcej. Nie jesteśmy w stanie jako ludzie tak szybko przystosować się do tych zmian, które tam się pojawiają. W związku z tym szybsze i częstsze relisy jakby, no... OK, jakby dostarczamy jakąś wartość biznesową, tylko czy ta wartość biznesowa realnie daje komuś jakąś wartość dodaną. To jest jakby zupełnie inny temat, bo to jest wszystko kwestia biznesu, który jakby zmienia nam to postrzeganie."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "10:13",
+      "text": "Ja na to mam zupełnie inne spojrzenie, bo to nie chodzi o to, że dostarczasz tą wartość biznesową tak często, bo rzeczywiście pewny biznes tego nie zauważy, ludzie tego nie zauważy, nikt tego nie zauważy, ale redukujesz problem wdrożeniowy. Redukujesz to, że podczas wdrożenia ilość rzeczy może się wysypać, bo wdrażasz po prostu mikropaczkami. Co więcej, testy, które wykonujesz w aplikacji, testujesz te mikrokawałki, nie musisz testować z reguły całe aplikacje, bo jak wiesz, że w poprawce idzie przesunięcie przycisku, to tylko trzeba sprawdzić czy przycisk jest. A jak nagle masz wersję, której jest zmiana przycisku, zmiana komunikacji w bazie, dołożenie indeksów, migracja jakiejś tabeli i coś tam jeszcze, to nagle robisz regresję całej aplikacji. A tak nie musisz tego robić. to pomijając w ogóle sztuczną inteligencję. jak gdyby to, taki jaki masz zespół w ogóle. To, że wdrażasz szybko, wdrażasz małymi paczkami, jest ci wygodniej to sprawdzić, wygodniej wdrożyć, co więcej jesteś w stanie łatwo to wycofać. Dużo mniejsza część systemu jest dotknięta."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "11:28",
+      "text": "No okej, to realnie mam wrażenie, że wracamy do tego, co mówiliśmy też tak naprawdę przez lata, że jeżeli uda nam się jakby całościowo jako projekt, jako jakieś tam zespoły, które pracują nad danym projektem, ustabilizować proces tak, robić, jakby ja słyszałem i zawsze zazdrościłem firmom, które zazdrościłem. Może jakby... patrzyłem z podziwem na firmy, które mówiły, my robimy 5 do 10 deployów na produkcję dziennie. I myślę, że byłeś tam. to jakby ja zawsze z podziwem patrzyłem, bo u mnie, ale u mnie ja zwykle pracowałem z takimi właśnie biznesami, które powiecie, o, hola, hola, hola, tak szybko, to my tak nie możemy robić, ale to jest też kwestia."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "12:07",
+      "text": "Byłem tam."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "12:22",
+      "text": "pracowania w konsultingu i wielu innych rzeczy, które tam się działy. Natomiast fajnie, możemy sobie iść z tym, ale to możemy sobie iść z tym bez względu na to, czy była sztuczna inteligencja, czy nie była. Jeżeli jesteśmy w stanie te przyciski przesuwać odpowiednio szybko, to możemy sobie iść dalej. Natomiast tutaj problem... Wydaje mi się, który chciałeś realnie zadać jest taki, że no właśnie teraz możemy prawie że automatycznie lecieć sobie z całym tym procesem, jeżeli mamy dobre jakieś bezpieczniki bezpieczeństwa. Brakuje mi słowa. Chodzi o to, że mamy odpowiednie gaty, o dziękuję bardzo, takie bardzo polskie słowo, mamy odpowiednie gaty bezpieczeństwa związane właśnie z deploymentem, żeby nam się jakaś regresja nie wdała, żeby w ogóle nam się wszystko nie posypało. No to..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "13:16",
+      "text": "Gajta."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "13:36",
+      "text": "No to możemy pójść z tym niemalże autonomicznie, jeżeli mamy dobry workflow programistyczny, mamy dobre CI-CD, mamy wszystko na miejscu i co teraz mamy dalej robić, bo gdzie jest ta praca dla dewelopera? On może sobie w międzyczasie czytać, co ten agent robi, ale w wielu przypadkach coraz bardziej mam wrażenie, że to będzie tak chyba z czystej ciekawości. Pytanie na ile musisz mieć dobry workflow, żeby na przykład też nie powodować jakiegoś długu technicznego, bo z jednej strony sztuczna inteligencja jest super do tego, żeby ten dług technologiczny zmniejszyć, ale też jeżeli za szybko gdzieś tam pójdziemy z tym na produkcję, to obawiam się, że możemy generować w innym miejscu ten dług technologiczny i potem co z tym zrobimy. Tu jest wiele pytań, które można sobie zadać, ale no właśnie, to możemy być w przededniu problemu kolejnych wypaleń, kolejnych problemów właśnie z tym, co programista w ogóle, od czego jest ten programista, no bo znowu wyjdzie na to, że dokładnie tak jak rozmawiamy już od wielu lat, że kurde, trzeba będzie zacząć rozmawiać z ludźmi i to jest, to myślę, że wielu ludzi jeszcze przeraża. ale to nam chyba pozostanie, nie? Ostatecznie."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "15:05",
+      "text": "Jest to tak, ale z drugiej strony myślę sobie, że naciski, które mieliśmy po prostu się znacząco przesuną. Nie ja chcę mówić, że to jest programista testa albo cokolwiek takiego, czy tam nie wiem, seks. Nazwę to należy jako zespół IT. Bo z jednej strony pojawiają się jak gdyby duże firmy, to pozdrawiam kolegów, którzy pracują w tych dużych firmach i mówili na przykład użycie metosa. I metos podobno znajduje. Rzeczywiście jak gdyby Pozdrawiam wszystkich znajomych, nie będę ich wymieniał, bo trochę głupio. Szczególnie, że nazwijmy to przy piwie, nie na kolacji. A nie mówili mi tego formalnie gdzieś tam kanałami. Więc metos podobno znajduję. Podobno jest fatalny do kodowania. Od trzech osób to słyszałem. Nie, dwóch osób to słyszałem, że jest fatalny do kodowania, ale za to dużo znajduję. Nie, OpenAI wypuściło ten kodek security, chyba gpt 54 cyber albo 55 cyber. 55 cyber. Tak, który też znajdę. Ja jestem przekonany o tym, że Chińczycy też swojego mają, tylko ja pewnie nie umiem go nazwać. Znaczy jak nie ma go, to ja przegapiłem newsa albo jest i jak nie, nieważne. Dobra, zapętrzyłem się."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "16:10",
+      "text": "55."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "16:30",
+      "text": "ale też są, jak gdyby wiesz, to też jest w drugą stronę, to znaczy bądźmy szczerze ta druga strona też zacznie szybko atakować. W sensie jak się pojawią te modele, jak wyjdzie jakiś taki jeden model to dość szybko zostanie używany w drugą stronę. Myślę, że dlatego też Anthropic bardzo go hamuje. Więc z jednej strony będzie dość szybka potrzeba zmian, bo jak coś ktoś znajdzie to po prostu zero daye będą dużo szybsze."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "17:01",
+      "text": "Mhm."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "17:01",
+      "text": "Coś czego w dzisiejszych czasach bardzo często już mowystwie zależy z nim, to do nas dotrze to tygodnie miesiąca. Nie licząc chyba, jak pamiętam z ostatnich lat, Log4j, które nagle spowodowało, że ładowaliśmy wszystko po prostu na tempa, to te podatności, ale mieliśmy tak stare systemy, że nie były podatne. To było najfajniejsze, jak się takie dojadły. ale dobra, rzeczywiście te rzeczy się będą zmieniały. I to jest jedno, czyli to jest monitoring tego bezpieczeństwa, którego w większości firm na tip-top nie ma. On jest jakość, żeby był zgodny z audytem, ale myślę, że go w bardzo wielu miejscach nie ma. Druga rzecz to monitoring produkcji. Bo jak nagle będziemy wdrażać szybciej, No bo dlaczego mielibyśmy tego nie robić? W sensie dokładnie z tych powodów, których powiedziałem myślę, że wiele filmów dojdzie do tego, że lepiej jest wdrażać częściej niż po prostu wdrażać dużymi paczkami, bo nie musimy robić regresji całości. Ale to będzie oznaczało, że musimy mieć dużo lepszy monitoring na produkcję. W sensie, że bo będą nam się zdarzały lisy, które będą coś psuły. Czyli nagle ja coś użytkownicy dostaną po głowie. Nagle dużo bardziej to strategia typu canary release czy... jakikolwiek A/B testing po prostu będą naturalne w sensie będziesz testował nawet jak będziesz miał nawet o zgrozo będziesz miał desktopową apkę to nagle się okaże że że masz 50 apek na rynku teraz miałeś 3 ale to będziesz wdrażał szybko to będziesz miał 50 nie wiem czy ludzie będą je tak szybko instalowali ale jakoś będziesz musiał je wypuszczać więc ktoś będzie mógł pobierać tą wersję plus 1 Ale dobra, to może nie to. Domyślam się, że nadal App Store i Play Store będą trzymały ten reżim, żebyś musiał mieć te większe relisy raz na dwa tygodnie. Natomiast to jest ta rzecz, która w ogóle się zmieni. Myślę, że zadanie działów IT nagle się przesunie, może nie z wytwarzania, tylko z tego, żeby to było bardzo stabilne. Może to zabrzmi głupio, ale human centric. Bo to zabrzmi human centric. Ja wierzę w to, że model jest Ci w stanie w tym pomóc, ale nie jest w stanie tego zrobić za Ciebie. Bo po prostu nadal w to nie wierzę, że model ci wymyśli reguły, wymyśli ci stan. Pomoże ci je napisać. Pomoże z tobą być sparing partnerem, żebyś doprowadził je do niezłego tego, ale to będzie rzecz, która bardzo wiele filmów, po prostu w tej chwili moim zdaniem czeka. Żebyśmy doszli do tego co się dzieje. No bo to zero day, wiesz, zero day nagle, to będę. Pomijając branże, gdyby wobec sobie, nie wiem. Miejsce, gdzie płaczesz rachunki. Wyobrażasz sobie zero day, który łatwo załatwia Ci opłacone? albo spamuje innych ludzi. Na przykład wysyła twoim kanałem, jak będziesz dealerem samochodowym, wysyłasz coś do swoich klientów, żeby weszli. Teraz jest taki spoofing e-mobywatela. Nie wiem czy do ciebie dotarło, czy nie dotarło, ale do mnie dotarło, że ktoś się podszywa pod e-mobywatela i mówi, wystawiono ci mandat karne. No i to trzeba..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "20:35",
+      "text": "Osob show emote."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "20:37",
+      "text": "No i wiesz, i przechodzi to jak gdyby słuchaczu jak nie słyszysz, jak miałeś kiedykolwiek sms od obywatela, to przychodzi Ci w tej konwersacji, bo to jest spoofing, czyli podszycie się pod numer telefonu i po prostu dostajesz mandat karny i tam jest ładne wyłudzenie Twojej karty płatniczej. Done, nie? I nagle na te rzeczy, będzie trzeba dużo szybciej reagować. Po prostu ten software przyspieszy całym cyklem. I ja głośno to powiem nam nie zabraknie pracy. sensie to sztuczna inteligencja w ostatnich trzech latach już pokazała nam naprawdę nie zabraknie pracy. Ona się zmieni, ale prac nam nie zabraknie. A wszystkie te rzeczy, widzę w internecie, że AI zwolniło ludzi, już możemy powiedzieć, że jest obalone. Jak masz w czytelniku jakiś fajny przykład z parę, żeśmy omawiali w tym podcastie, może nam się uda obalić jeszcze jedno."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "21:33",
+      "text": "Ja się cieszę z jednej rzeczy, bo faktycznie coraz bardziej budzimy się w kontekście takim, że firmy zaczynają zwalniać AI, co też nie jest dobrym rozwiązaniem, ale te firmy, które najbardziej poszły w AI, zaczynają trochę zwalniać AI i zatrudniać z powrotem ludzi, bo faktycznie, tak jak mówisz, praca będzie, ona się przesunie może w trochę inne miejsca. Trzeba będzie prawdopodobnie trochę zrewidować swoje CV, można tak powiedzieć, i swoje umiejętności, bo na pewno trzeba je będzie troszeczkę przesunąć w jedną czy w drugą stronę. Ale ja też nie wyobrażam sobie, ten cykl wydawniczy to w jaki sposób będziemy... będziemy dostarczać nową wartość miało aż tak przyspieszyć właśnie głównie ze względu na to, że parę razy być może się przejedziemy na tym, że coś za szybko zostało dostarczone, coś gdzieś komuś umknęło, bo było tego tak dużo. Dlatego ostatecznie trzeba będzie znaleźć balans. Natomiast to, co powiedziałeś na temat security, to w 100 % się podpisuje, bo to, ile w tej chwili się pojawia nowych możliwości, to jest naprawdę przerażające. Także dobrze, że powstają też takie modele właśnie jak GPT, security czy mytos, bo... No bo one będą pomagały realnie w walce po tej drugiej stronie. Wiadomo, że mogą też stworzyć... będą pomagały obu stronom, ale to zawsze tak działało."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "23:31",
+      "text": "Będą pomagały obu stronom. No dobra, to chyba powoli, żeśmy dotarli do końca tego odcinka. Dwadzieścia parę minut nas słuchacie. Zapomnieliśmy jak zwykle o reklamie, więc jak jeszcze tu jesteś drogi słuchaczu to zapraszamy do subskriba, lajka, dislike'a, albo cokolwiek. Przyduszę Kajetana to przyzna jak już wyszli, o takie oba jest karteczką, pamiętaj o reklamie. Więc bardzo Wam dziękujemy, że nas wysłuchaliście. Jak macie swoje opinie to z chęcią ich wysłuchamy. Parę osób się nam chciało zgłosić do odcinka, może nam jakiś gość się niedługo trafi. Jak byś ty chciał też zostać gościem to też zapraszamy do pogadania. i słyszę się za tydzień."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "24:28",
+      "text": "Do zobaczenia i do usłyszenia."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "24:29",
+      "text": "Cześć!"
+    }
+  ]
+}

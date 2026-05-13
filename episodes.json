@@ -1,5 +1,43 @@
 [
   {
+    "id": 28,
+    "num": "28",
+    "notPublished": true,
+    "title": "Better Dev Club #28 - Koniec z 'git push i do domu'? Czyli co zrobić z deploy w erze AI.",
+    "date": "2026-05-12",
+    "duration": "24:30",
+    "desc": "Kajetan i Piotrek dyskutują o dostarczaniu oprogramowania w erze generatywnego AI. Generowanie kodu jest coraz szybsze, a taski, które kiedyś zajmowały tygodnie, można dzisiaj dowieźć w jedno popołudnie. Pytanie brzmi: co potem? Gadamy o przestarzałym podejściu 'git push i do dom', częstych releasach na produkcję redukujących dług technologiczny ułatwiających łapanie błędów oraz o testowaniu pracy modelem.\n\nPoruszamy również temat bezpieczeństwa IT: jak modele LLM pomagają w cybernetycznym wyścigu zbrojeń i bronią przed atakami (ale i potrafią je tworzyć). Omawiamy także przyszłą rolę deweloperów, przesuwanie się obowiązków z tworzenia w stronę zapewnienia stabilności systemów w oparciu o dokładny monitoring, canary releases i testy A/B.",
+    "agenda": [
+      "00:00 - [Intro] Nowe realia pisania kodu z AI, czyli 'Pora na CS'a' i gigantyczne przyspieszenie tasków",
+      "04:18 - [Deploy?] Masowe wyrzucanie kodu na produkcję bez testów",
+      "07:47 - [Narzędzia] Zmęczenie ciągłymi aktualizacjami w świecie AI",
+      "10:13 - [CI/CD] Czy deployo mikropaczkami zapobiega pożarom na prodzie?",
+      "13:36 - [Rola deva] Ewolucja odpowiedzialności deva w epoce LLM",
+      "16:10 - [Security] Cyberbepieczeństwo, ataki zero day i ...",
+      "18:00 - [Jak wdrażać] Przesunięcie kompetencji na monitoring, testy A/B i canary releases",
+      "21:33 - [Przyszłość] Czy AI w końcu nas zwolni? Zaskakujący zwrot akcji"
+    ],
+    "tags": [
+      "betterdevclub",
+      "ai",
+      "copilot",
+      "claude",
+      "opencode",
+      "development",
+      "devops",
+      "llm",
+      "deployment",
+      "ci/cd",
+      "software engineering"
+    ],
+    "platforms": {
+      "youtube": "",
+      "spotify": "",
+      "apple": ""
+    },
+    "resources": []
+  },
+  {
     "id": 27,
     "num": "27",
     "title": "Better Dev Club #27 - Skille AI, czy Model Context Protocol (MCP) zżera tokeny?",
