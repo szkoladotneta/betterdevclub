@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>AI-Native Dev Team — Warsztat Copilot dla zespołów .NET (B2B) | Better Dev Club</title>
-  <meta name="description" content="1-dniowy warsztat dla działów IT i software house'ów z teamem 10–50 .NET-owców. Deterministyczny workflow z GitHub Copilotem, copilot-instructions.md uszyty pod Wasz stack. Prowadzą Microsoft MVP + ex-Allegro DevOps." />
+  <meta name="description" content="1-dniowy warsztat dla działów IT i software house'ów dla zespołów .NET. Proces multi-agent, który jest niezawodny, i zespół, który widzi wartość w wykorzystaniu LLM w codziennej pracy od analityka po testera. Prowadzi Microsoft MVP." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -407,7 +407,9 @@
       display: flex; align-items: center; justify-content: center;
       border: 3px solid var(--blue);
       margin-bottom: 18px;
+      overflow: hidden;
     }
+    .author-avatar img { width: 100%; height: 100%; object-fit: cover; }
     .author-avatar span { font-size: 28px; font-weight: 700; color: var(--blue); }
     .author-name { font-size: 22px; font-weight: 700; color: var(--black); margin-bottom: 4px; }
     .author-title { font-size: 13px; color: var(--blue); font-weight: 600; margin-bottom: 14px; text-transform: uppercase; letter-spacing: 0.5px; }
@@ -489,17 +491,17 @@
   <div class="container">
     <div class="hero-badge">
       <span class="dot"></span>
-      Warsztat B2B · zespoły .NET 10–50 dev · on-site lub online · Faktura Better Dev Club
+      Warsztat B2B · zespoły .NET · on-site lub online
     </div>
 
     <h1>
       Twój zespół .NET ma licencje Copilota.<br>
-      Czas żeby zaczął <span>zwracać inwestycję</span>.
+      Czas, aby Copilot zaczął <span>przynosić realną wartość</span>.
     </h1>
 
     <p class="hero-sub">
-      <strong>AI-Native Dev Team</strong> to 1-dniowy warsztat dla działów IT i software house'ów z teamem 10–50 .NET-owców.
-      Wychodzicie z deterministycznym workflow, szablonem <code style="background:#fff;padding:2px 6px;border-radius:4px;border:1px solid #BFDBFE;font-size:14px;">copilot-instructions.md</code> uszytym pod Wasz stack i zespołem, który przestaje generować AI slop.
+      <strong>AI-Native Dev Team</strong> to 1-dniowy warsztat dla działów IT i software house'ów dla zespołów .NET.
+      Wychodzicie z wiedzą na temat procesu multi-agent, który jest niezawodny oraz z zespołem, który widzi wartość w wykorzystaniu LLM w codziennej pracy dla developerów i DevOpsów.
     </p>
 
     <div class="hero-cta-group">
@@ -515,15 +517,15 @@
     <div class="hero-meta">
       <span class="hero-meta-item">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-        Microsoft MVP + ex-Allegro DevOps
+        Microsoft MVP
       </span>
       <span class="hero-meta-item">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-        1 dzień (8h) · do 20 osób / edycja
+        1 dzień (8h)
       </span>
       <span class="hero-meta-item">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-        Szablon <code>copilot-instructions.md</code> pod Wasz stack
+        Proces multi-agent dopasowany do Waszego zespołu
       </span>
       <span class="hero-meta-item">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
@@ -539,19 +541,19 @@
     <span class="section-label">Problem</span>
     <h2 class="fade-in">Znacie to z własnego zespołu?</h2>
     <p class="section-lead fade-in">
-      Większość zespołów .NET, z którymi rozmawiamy, ma dokładnie te same cztery bóle. I nie wie, gdzie zacząć fix.
+      Większość zespołów, z którymi rozmawiamy, ma dokładnie te same cztery bóle. I nie wie, jak je rozwiązać.
     </p>
 
     <div class="cards-grid">
       <div class="card fade-in">
         <div class="card-icon">!</div>
-        <h3>Kupiliście licencje Copilota. ROI = zero.</h3>
+        <h3>Kupiliście licencje Copilota, ale inwestycja się nie zwraca.</h3>
         <p>Część zespołu używa, część olała, nikt nie wie czy to w ogóle przyspiesza pracę. Tysiące PLN miesięcznie i brak danych do obrony budżetu.</p>
       </div>
       <div class="card fade-in">
         <div class="card-icon">!</div>
         <h3>Copilot nie zna Waszego kontekstu</h3>
-        <p>Sugeruje rozwiązania spod sztancy, łamie konwencje projektu, ignoruje architekturę. Code review zajmuje więcej czasu niż wcześniej.</p>
+        <p>Sugeruje rozwiązania niedopasowane do realiów, łamie konwencje projektu, ignoruje architekturę. Code review zajmuje więcej czasu niż wcześniej.</p>
       </div>
       <div class="card fade-in">
         <div class="card-icon">!</div>
@@ -561,23 +563,18 @@
       <div class="card fade-in">
         <div class="card-icon">!</div>
         <h3>Każdy dev robi po swojemu</h3>
-        <p>Brak wspólnego workflow, brak <code>copilot-instructions.md</code>, brak governance. Senior nie wie jak weryfikować to, co robi junior z AI.</p>
+        <p>Brak wspólnego workflow, brak wiedzy o kontekście, brak guardrails. Senior nie wie jak weryfikować to, co robi junior z AI.</p>
       </div>
     </div>
 
     <div class="cost-list fade-in">
-      <h3>Realny koszt status quo:</h3>
+      <h3>Realny koszt:</h3>
       <ul>
         <li>Tysiące PLN miesięcznie w licencjach, z których realnie korzysta &lt; 40% zespołu</li>
         <li>Code review wydłużone o 20–40%, bo trzeba sprawdzać nie tylko logikę, ale i halucynacje</li>
         <li>Dług techniczny narastający szybciej, niż jesteście go w stanie spłacać</li>
-        <li>Senior dev frustracja i ryzyko odejścia najlepszych ludzi</li>
+        <li>Frustracja i ryzyko odejścia najlepszych ludzi</li>
       </ul>
-    </div>
-
-    <div class="quote-block fade-in">
-      <p>"Copilot zamienia się w katastrofę dla Microsoftu [...] GHC can be so inferior in regular tasks."</p>
-      <cite>— cytat z polskiej społeczności .NET (TOP 10, mocny rezonans)</cite>
     </div>
   </div>
 </section>
@@ -597,15 +594,15 @@
         <div class="wp-content">
           <h3>Discovery Call + Stack Questionnaire</h3>
           <div class="wp-duration">1h · pre-warsztat</div>
-          <p>Poznajemy Wasz stack, narzędzia, bóle zespołu. Dopasowujemy program i przygotowujemy <strong>szablon <code>copilot-instructions.md</code> dla typu Waszego stacku</strong>. Nie generyczny PDF z internetu.</p>
+          <p>Poznajemy Wasz stack, narzędzia, bóle zespołu. Dopasowujemy program dla typu Waszego stacku i struktury Waszego zespołu.</p>
         </div>
       </div>
       <div class="workshop-part fade-in">
         <div class="wp-number">2</div>
         <div class="wp-content">
           <h3>Warsztat 1-dniowy</h3>
-          <div class="wp-duration">8h · do 20 osób</div>
-          <p>Hands-on na <strong>przygotowanych przykładach .NET</strong> (sandbox). Waszego kodu produkcyjnego nie ruszamy, to świadoma decyzja: bezpieczeństwo i jakość. O Waszym stacku rozmawiamy w formie moderowanej dyskusji. Kajetan i Piotr prowadzą razem.</p>
+          <div class="wp-duration">8h</div>
+          <p>Hands-on na <strong>przygotowanych przykładach .NET</strong> (sandbox). Waszego kodu produkcyjnego nie dotykamy, żeby było bezpiecznie i konkretnie. O Waszym stacku rozmawiamy w formie moderowanej dyskusji.</p>
         </div>
       </div>
       <div class="workshop-part fade-in">
@@ -625,15 +622,7 @@
       </li>
       <li class="fade-in">
         <span class="check-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
-        <div><strong><code>copilot-instructions.md</code> uszyty pod Wasz stack.</strong> Copilot zna konwencje, architekturę, narzędzia.</div>
-      </li>
-      <li class="fade-in">
-        <span class="check-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
         <div><strong>Checklista Code Review AI-kodu.</strong> Seniorzy wiedzą, jak walidować pracę z AI.</div>
-      </li>
-      <li class="fade-in">
-        <span class="check-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
-        <div><strong>Governance i security.</strong> Content Exclusion, Privacy Filters, polityka użycia AI (w wariantach On-site/Enterprise).</div>
       </li>
       <li class="fade-in">
         <span class="check-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
@@ -643,90 +632,37 @@
   </div>
 </section>
 
-<!-- STACK / WHAT YOU GET -->
-<section class="section">
-  <div class="container">
-    <span class="section-label">Co zawiera</span>
-    <h2 class="fade-in">Pakiet dla zespołu. Wszystko, czego potrzebuje, żeby wdrożyć workflow.</h2>
-    <p class="section-lead fade-in">
-      Rdzeń oferty otrzymujecie w każdym wariancie. Bonusy: od poziomu On-site Pro i Enterprise.
-    </p>
-
-    <div class="stack-grid">
-      <div class="stack-card fade-in">
-        <h3>Rdzeń (we wszystkich wariantach)</h3>
-        <ul>
-          <li>1-dniowy warsztat 8h (live, on-site lub online), do 20 osób / edycję</li>
-          <li>Pre-warsztatowy Discovery Call (1h) + Stack Questionnaire</li>
-          <li>Ćwiczenia hands-on na sandboxie .NET + moderowana dyskusja o Waszym stacku</li>
-          <li>Nagranie sesji: dożywotni dostęp dla zespołu</li>
-          <li>Szablon <code>copilot-instructions.md</code> pod Wasz stack</li>
-          <li>Prompt files, Custom agents, Skills (Copilot custom)</li>
-          <li>Checklista Code Review AI-kodu</li>
-          <li>Cheatsheet PDF „Deterministyczny AI Workflow"</li>
-          <li>Repozytorium GitHub z kodem przykładowym z warsztatu</li>
-          <li>1h follow-up Q&amp;A live po ~3 tygodniach</li>
-          <li>Certyfikaty (Microsoft MVP + ex-Allegro DevOps)</li>
-        </ul>
-      </div>
-
-      <div class="stack-card fade-in">
-        <h3>Bonusy On-site Pro <span style="font-size:12px; color: var(--gray-400); font-weight:500;">(wartość ~9 500 PLN)</span></h3>
-        <ul>
-          <li><strong>AI Governance Policy Framework</strong> — gotowy szablon polityki firmy <em>(3 500 PLN)</em></li>
-          <li><strong>Security Hardening Guide</strong> — Content Exclusion + Privacy Filters <em>(2 500 PLN)</em></li>
-          <li><strong>Onboarding AI Starter Kit</strong> — 30-min nagranie + checklist dla nowych pracowników <em>(2 000 PLN)</em></li>
-          <li><strong>Dashboard ROI</strong> — arkusz/skrypt do analizy logów Copilot Enterprise <em>(1 500 PLN)</em></li>
-        </ul>
-      </div>
-
-      <div class="stack-card fade-in">
-        <h3>Bonusy Enterprise Transformation <span style="font-size:12px; color: var(--gray-400); font-weight:500;">(wartość ~20 000+ PLN)</span></h3>
-        <ul>
-          <li>Wszystkie bonusy On-site Pro</li>
-          <li><strong>Custom Agent Workshop</strong> — budujemy razem 1 agenta na sandboxie <em>(5 000 PLN)</em></li>
-          <li><strong>Internal Prompt Library</strong> — biblioteka promptów pod Waszą domenę</li>
-          <li><strong>Sesja 1:1 dla liderów</strong> — Engineering Managers / Tech Leads (KPI, mierzenie efektywności AI)</li>
-          <li>Lekki audyt 1 wybranego repo (kierunek architektury i konwencji)</li>
-          <li>2 edycje warsztatu (po max 20 osób) dla zespołów 30+ dev</li>
-          <li>3 sesje follow-up (po 1, 3 i 6 miesiącach)</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- AUTHORS -->
 <section class="section section--gray">
   <div class="container">
     <span class="section-label">Prowadzący</span>
     <h2 class="fade-in">Dwóch praktyków z produkcji. Nie korporacyjne szkolenie.</h2>
     <p class="section-lead fade-in">
-      W jednej sali macie dwie różne perspektywy z produkcji: .NET architekta MVP i DevOps-a z dużej skali. To, czego nie zrobi żadna duża firma szkoleniowa, w której prowadzący czyta z dokumentacji.
+      W jednej sali macie dwie różne perspektywy z produkcji: .NET architekta i DevOps-a z dużej skali.
     </p>
 
     <div class="authors-grid">
       <div class="author-card fade-in">
-        <div class="author-avatar"><span>KD</span></div>
+        <div class="author-avatar"><img src="assets/kajetan.jpg" alt="Kajetan Duszynski" loading="lazy" /></div>
         <div class="author-name">Kajetan Duszyński</div>
-        <div class="author-title">Microsoft MVP · .NET</div>
+        <div class="author-title">Microsoft MVP · .NET architekt</div>
         <ul class="author-bio">
-          <li>15 lat w branży (finanse, tech, medical, real estate, ubezpieczenia)</li>
-          <li>Microsoft MVP od 2 lat (Web Development Technologies + .NET Development Technologies)</li>
+          <li>15 lat w branży (finance, tech, medical, real estate, insurance)</li>
+          <li>Microsoft MVP (Web Development Technologies + .NET Development Technologies)</li>
           <li>Team Leader od 3 lat (zespół 10-osobowy)</li>
-          <li>Założyciel Szkoły Dotneta: 5,5 roku, &gt;1 mln PLN przychodu, 3000+ osób w ekosystemie</li>
+          <li>Założyciel Szkoły Dotneta: 5,5 roku, 3000+ osób w ekosystemie</li>
           <li>Buduje produkty z użyciem AI produkcyjnie każdego dnia. Nie sprzedaje teorii.</li>
         </ul>
       </div>
 
       <div class="author-card fade-in">
-        <div class="author-avatar"><span>PS</span></div>
+        <div class="author-avatar"><img src="assets/piotr.jpg" alt="Piotr Stapp" loading="lazy" /></div>
         <div class="author-name">Piotr Stapp</div>
-        <div class="author-title">DevOps · ex-Allegro</div>
+        <div class="author-title">Microsoft MVP · DevOps Zorro</div>
         <ul class="author-bio">
           <li>DevOps senior z doświadczeniem w jednej z największych firm tech w Polsce</li>
-          <li>Współgospodarz podcastu Better Dev Club</li>
-          <li>Wspólnik 50/50 w Better Dev Club (spółka odpowiedzialna za AI-Native Dev Team)</li>
+          <li>Architekt rozwiązań, pasjonat chmury i technologii Microsoft</li>
+          <li>Specjalista od systemów rozproszonych oraz Everything as Code</li>
         </ul>
       </div>
     </div>
@@ -739,64 +675,56 @@
     <span class="section-label">Inwestycja</span>
     <h2 class="fade-in">3 warianty. Wybierz pasujący do skali zespołu.</h2>
     <p class="section-lead fade-in">
-      Wszystkie ceny netto, faktura B2B z Better Dev Club. Start warsztatu: 3–4 tygodnie od podpisania umowy.
+      Wszystkie ceny netto, faktura B2B. Start warsztatu: 3–4 tygodnie od podpisania umowy.
     </p>
 
     <div class="pricing-grid">
       <div class="pricing-card fade-in">
-        <div class="pricing-name">Online Expert</div>
-        <div class="pricing-price">18 900<sup>PLN</sup></div>
-        <div class="pricing-label">Małe software house'y · do 20 dev / edycję · Zoom / Teams</div>
+        <div class="pricing-name">Public Workshop</div>
+        <div class="pricing-price">597<sup>PLN</sup>/os.</div>
+        <div class="pricing-label">Wariant dla małych zespołów poniżej 10 osób</div>
         <ul class="pricing-features">
-          <li>Pełny rdzeń oferty (warsztat 8h online, materiały, nagranie)</li>
-          <li>Discovery Call + Stack Questionnaire</li>
-          <li>Szablon <code>copilot-instructions.md</code> pod Wasz stack</li>
-          <li>Pakiet szablonów .NET (prompt files, agents, skills, checklisty)</li>
-          <li>Repo GitHub + 1h follow-up Q&amp;A po 3 tygodniach</li>
-          <li>Certyfikaty MVP + ex-Allegro DevOps</li>
+          <li>Zaproszenie na publiczne szkolenie Better Dev Club (4h)</li>
+          <li>5% zniżki dla grupy, jeśli zapiszecie więcej niż 5 osób</li>
+          <li>Skondensowana forma dla zespołów, które chcą zacząć szybko</li>
         </ul>
-        <a href="#cta" class="btn-pricing outline">Umów Discovery Call</a>
+        <a href="#cta" class="btn-pricing outline">Zapytaj o najbliższy termin</a>
       </div>
 
       <div class="pricing-card featured fade-in">
         <div class="pricing-badge">★ POLECANY</div>
-        <div class="pricing-name">On-site Pro</div>
-        <div class="pricing-price">24 900<sup>PLN</sup></div>
-        <div class="pricing-label">Działy IT / firmy produktowe · do 20 dev / edycję · Warszawa+</div>
+        <div class="pricing-name">Online Expert</div>
+        <div class="pricing-price">10 000<sup>PLN</sup></div>
+        <div class="pricing-label">Dedykowane szkolenie online · Zoom / Teams</div>
         <ul class="pricing-features">
-          <li>Wszystko z Online Expert</li>
-          <li>Warsztat <strong>u Was</strong> (Warszawa + okolice; inne lokalizacje po uzgodnieniu)</li>
-          <li>BONUS: AI Governance Policy Framework <em>(3 500 PLN)</em></li>
-          <li>BONUS: Security Hardening Guide <em>(2 500 PLN)</em></li>
-          <li>BONUS: Onboarding AI Starter Kit <em>(2 000 PLN)</em></li>
-          <li>BONUS: Dashboard ROI <em>(1 500 PLN)</em></li>
-          <li>Łączna wartość bonusów: <strong>~9 500 PLN</strong></li>
+          <li>Pełny rdzeń oferty (warsztat 8h online, materiały, nagranie)</li>
+          <li>Maksymalnie 16 osób na jedno szkolenie</li>
+          <li>Discovery Call + Stack Questionnaire</li>
+          <li>Pakiet szablonów .NET (prompt files, agents, skills, checklisty)</li>
+          <li>Repo GitHub + 1h follow-up Q&amp;A po 3 tygodniach</li>
+          <li>Certyfikaty MVP</li>
         </ul>
-        <a href="#cta" class="btn-pricing primary">Umów Discovery Call →</a>
+        <a href="#cta" class="btn-pricing outline">Umów Discovery Call</a>
       </div>
 
       <div class="pricing-card fade-in">
-        <div class="pricing-name">Enterprise Transformation</div>
-        <div class="pricing-price"><span class="pricing-from">od</span>39 900<sup>PLN</sup></div>
-        <div class="pricing-label">Zespoły 30+ dev · 2 edycje po 20 osób · finalna wycena po Discovery</div>
+        <div class="pricing-name">On-site Pro</div>
+        <div class="pricing-price">Kontakt</div>
+        <div class="pricing-label">Szkolenia na żywo w miejscu wskazanym przez klienta · wycena indywidualna</div>
         <ul class="pricing-features">
-          <li>Wszystko z On-site Pro</li>
-          <li>2 edycje warsztatu (po max 20 osób)</li>
-          <li>Custom Agent Workshop <em>(5 000 PLN)</em></li>
-          <li>Internal Prompt Library pod Waszą domenę</li>
-          <li>Sesja 1:1 dla liderów (Eng. Managers / Tech Leads)</li>
-          <li>Lekki audyt 1 repo (architektura + konwencje)</li>
-          <li>3 sesje follow-up (1, 3 i 6 miesięcy)</li>
-          <li>Łączna wartość bonusów: <strong>~20 000+ PLN</strong></li>
+          <li>Wszystko z Online Expert</li>
+          <li>Warsztat u&nbsp;Was - lokalizacja wskazana przez klienta</li>
+          <li>Zakres i logistyka dopasowane do wielkości zespołu oraz celu wdrożenia</li>
+          <li>Wycena ustalana indywidualnie po Discovery Call</li>
         </ul>
-        <a href="#cta" class="btn-pricing outline">Umów Discovery Call</a>
+        <a href="#cta" class="btn-pricing primary">Skontaktuj się w sprawie wyceny</a>
       </div>
     </div>
 
     <p class="pricing-note fade-in">
       <strong>Founding Partner Program</strong>: pierwsi 3 klienci dostają Founding Partner Bonus Bundle (dodatkowa 1h sesja strategiczna dla managementu i drugi follow-up Q&amp;A po ~3 miesiącach) w zamian za case study i logo.
       <br><br>
-      Upsell po warsztacie: <strong>Quarterly AI Refresh — 5 000 PLN netto / kwartał</strong> (2h sesja live co 3 miesiące: nowe funkcje Copilot/GPT/Claude, przegląd plików instrukcji, Q&amp;A dla nowych pracowników).
+      Po warsztacie: <strong>Quarterly AI Refresh — 5 000 PLN netto / kwartał</strong> (2h sesja live co 3 miesiące: nowe funkcje Copilot/GPT/Claude, przegląd plików instrukcji, Q&amp;A dla nowych pracowników).
     </p>
   </div>
 </section>
@@ -865,7 +793,7 @@
           <svg class="faq-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
         </button>
         <div class="faq-answer"><div class="faq-answer-inner">
-          Wariant <strong>Enterprise Transformation</strong>: 2 edycje warsztatu po max 20 osób (jakość interakcji w mniejszych grupach), 3 sesje follow-up, lekki audyt 1 repo, sesja 1:1 dla liderów. Od 39 900 PLN, finalna wycena po Discovery.
+          W takim przypadku rekomendujemy <strong>On-site Pro</strong> z wyceną indywidualną po Discovery Call. Ustalamy liczbę edycji, logistykę i zakres pod Wasz zespół, żeby utrzymać jakość pracy warsztatowej.
         </div></div>
       </div>
 
@@ -929,7 +857,7 @@
     <p class="fade-in">Jeden Discovery Call (45 min, bezpłatny, zero zobowiązań) wystarczy, żebyśmy powiedzieli Wam:</p>
     <ul class="fade-in">
       <li>czy w ogóle ma sens kupować ten warsztat,</li>
-      <li>który wariant (Online / On-site Pro / Enterprise) jest dla Was,</li>
+      <li>który wariant (Public Workshop / Online Expert / On-site Pro) jest dla Was,</li>
       <li>co realnie wyniesie Wasz zespół.</li>
     </ul>
     <p class="fade-in" style="margin-bottom:40px;"><strong style="color:#fff;">Nie wysyłamy propozycji cenowej bez Discovery Call</strong>, bo nie chcemy sprzedawać Wam czegoś, co nie pasuje.</p>
