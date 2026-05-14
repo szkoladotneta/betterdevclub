@@ -2,9 +2,8 @@
   {
     "id": 28,
     "num": "28",
-    "notPublished": true,
     "title": "Better Dev Club #28 - Koniec z 'git push i do domu'? Czyli co zrobić z deploy w erze AI.",
-    "date": "2026-05-12",
+    "date": "2026-05-14",
     "duration": "24:30",
     "desc": "Kajetan i Piotrek dyskutują o dostarczaniu oprogramowania w erze generatywnego AI. Generowanie kodu jest coraz szybsze, a taski, które kiedyś zajmowały tygodnie, można dzisiaj dowieźć w jedno popołudnie. Pytanie brzmi: co potem? Gadamy o przestarzałym podejściu 'git push i do dom', częstych releasach na produkcję redukujących dług technologiczny ułatwiających łapanie błędów oraz o testowaniu pracy modelem.\n\nPoruszamy również temat bezpieczeństwa IT: jak modele LLM pomagają w cybernetycznym wyścigu zbrojeń i bronią przed atakami (ale i potrafią je tworzyć). Omawiamy także przyszłą rolę deweloperów, przesuwanie się obowiązków z tworzenia w stronę zapewnienia stabilności systemów w oparciu o dokładny monitoring, canary releases i testy A/B.",
     "agenda": [
