@@ -214,9 +214,9 @@ def build_pdf(output_path: Path) -> None:
     pricing = Table(
         [
             ["Nazwa", "Cena", "Dla kogo"],
-            ["Public Workshop", "485 PLN / os.", "Wersja 4h dla mniejszych zespołów."],
-            ["Online Expert", "10 000 PLN", "Warsztat 8h online do 16 osób + materiały + follow-up."],
-            ["On-site Pro", "Wycena indywidualna", "Pełny zakres stacjonarnie u klienta."],
+            ["Public Workshop", "485 PLN netto / os.", "Wersja 4h dla mniejszych zespołów."],
+            ["Team Workshop", "10 000 PLN netto", "Dedykowany warsztat 8h dla zespołu do 16 osób."],
+            ["AI Partner", "15 000 PLN netto", "Warsztat + kwartalne wsparcie i benefity partnerskie."],
         ],
         colWidths=[36 * mm, 34 * mm, 108 * mm],
     )
@@ -250,23 +250,15 @@ def build_pdf(output_path: Path) -> None:
         )
     )
 
-    story.append(Paragraph("Programy dodatkowe", h2))
-    story.append(Paragraph("Founding Partner Program", strong))
+    story.append(Paragraph("Zakres wariantu AI Partner", h2))
     story.append(
         _bullet_list(
             [
-                "Pierwsi 3 klienci otrzymują Founding Partner Bonus Bundle.",
-                "Dodatkowa 1h sesja strategiczna dla managementu oraz drugi follow-up Q&A po ok. 3 miesiącach w zamian za case study i logo.",
-            ],
-            body,
-        )
-    )
-    story.append(Paragraph("Quarterly AI Refresh — 5 000 PLN netto / kwartał", strong))
-    story.append(
-        _bullet_list(
-            [
-                "2h sesja live co 3 miesiące.",
-                "Nowe funkcje Copilot/GPT/Claude, przegląd plików instrukcji oraz Q&A dla nowych pracowników.",
+                "Wszystko z Team Workshop.",
+                "1h sesja strategiczna dla managementu (AI w strategii firmy).",
+                "Drugi follow-up Q&A live po ok. 3 miesiącach (łącznie 2 sesje).",
+                "Quarterly AI Refresh (1 kwartał): 2h sesja live z nowymi funkcjami i Q&A.",
+                "Logo i case study na stronie (za zgodą).",
             ],
             body,
         )
