@@ -30,11 +30,13 @@
       "software engineering"
     ],
     "platforms": {
-      "youtube": "",
-      "spotify": "",
-      "apple": ""
+      "youtube": "pRNJNCVqjgo",
+      "spotify": "https://open.spotify.com/episode/7kpSrdQpm7XiVWTILmzwk5",
+      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club-28-koniec-z-git-push-i-do-domu-czyli/id1848840540?i=1000767713419"
     },
-    "resources": []
+    "resources": [],
+    "youtubeId": "pRNJNCVqjgo",
+    "guestKey": "piotrek"
   },
   {
     "id": 27,
