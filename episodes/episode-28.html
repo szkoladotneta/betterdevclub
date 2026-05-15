@@ -15,7 +15,7 @@ Poruszamy również temat bezpieczeństwa IT: jak modele LLM pomagają w cyberne
     <meta property="og:description" content="Kajetan i Piotrek dyskutują o dostarczaniu oprogramowania w erze generatywnego AI. Generowanie kodu jest coraz szybsze, a taski, które kiedyś zajmowały tygodnie, można dzisiaj dowieźć w jedno popołudnie. Pytanie brzmi: co potem? Gadamy o przestarzałym podejściu 'git push i do dom', częstych releasach na produkcję redukujących dług technologiczny ułatwiających łapanie błędów oraz o testowaniu pracy modelem.
 
 Poruszamy również temat bezpieczeństwa IT: jak modele LLM pomagają w cybernetycznym wyścigu zbrojeń i bronią przed atakami (ale i potrafią je tworzyć). Omawiamy także przyszłą rolę deweloperów, przesuwanie się obowiązków z tworzenia w stronę zapewnienia stabilności systemów w oparciu o dokładny monitoring, canary releases i testy A/B.">
-    
+    <meta property="og:image" content="https://i.ytimg.com/vi/pRNJNCVqjgo/maxresdefault.jpg">
     <link rel="shortcut icon" href="../img/favicon-32x32.png" type="image/png">
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Noto+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
@@ -979,7 +979,7 @@ Poruszamy również temat bezpieczeństwa IT: jak modele LLM pomagają w cyberne
             const [loading, setLoading] = useState(true);
 
             useEffect(() => {
-                const version = "1e24e7db5b";
+                const version = "e27adaa87a";
                 Promise.all([
                     fetch(`/episodes.json?v=${version}`).then(res => res.json()),
                     fetch(`/speakers.json?v=${version}`).then(res => res.json())
