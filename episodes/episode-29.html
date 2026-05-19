@@ -3,15 +3,19 @@
 <head>
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    <title>BetterDevClub | Better Dev Club Weekly #4 - Narzędzia CLI</title>
+    <title>BetterDevClub | Better Dev Club #29 - Czy Gartner ma rację? Wyspecjalizowane modele w finansach, medycynie i... asemblerze</title>
     
     <!-- SEO / Meta Tags -->
-    <meta name="description" content="Nagle wszyscy chcą wrócić do terminala, a my zastanawiamy się, czy to przez sentyment do młodości, czy po prostu Claude Code jest taki dobry. Omawiamy wyjście narzędzi AI poza IDE i to, jak CLI walczą o serca deweloperów pięknymi kolorkami i wbudowanymi przeglądarkami. Dyskutujemy o kompresji kontekstu i o tym, dlaczego 'sparing partner' w konsoli jest lepszy niż webowy czat z limitami plików. Czy to koniec ery Visual Studio Code, czy tylko kolejny gadżet dla programistów-hipsterów? „Firmy powiedziały: no to IDE do konsoli!”">
+    <meta name="description" content="Kajetan i Piotrek omawiają najnowsze trendy Gartnera na 2026 rok, ze szczególnym uwzględnieniem Domain Specific Language Models (DSLM) oraz systemów multi-agentowych. Rozmawiają o tym, czy przyszłość należy do wyspecjalizowanych modeli, czy nadal będą dominować wielkie LLMy.
+
+Pojawia się wątek asystentów finansowych (nowa opcja w ChatGPT) i oddawania AI dostępu do swoich kont bankowych w kontekście kwestii bezpieczeństwa. Na warsztat trafia też Mayo Clinic i ich modele medyczne. W części dla programistów Piotrek dzieli się filozoficzną rozkminką: czy w erze AI w ogóle potrzebujemy jeszcze języków programowania wyższego rzędu, skoro modele mogłyby teoretycznie wypluwać od razu zoptymalizowany asembler? Całość podsumowujemy wizją, w której własne instancje wyspecjalizowanych modeli wygryzą biznes firm konsultingowych.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://betterdevclub.com/">
-    <meta property="og:title" content="Better Dev Club Weekly #4 - Narzędzia CLI">
-    <meta property="og:description" content="Nagle wszyscy chcą wrócić do terminala, a my zastanawiamy się, czy to przez sentyment do młodości, czy po prostu Claude Code jest taki dobry. Omawiamy wyjście narzędzi AI poza IDE i to, jak CLI walczą o serca deweloperów pięknymi kolorkami i wbudowanymi przeglądarkami. Dyskutujemy o kompresji kontekstu i o tym, dlaczego 'sparing partner' w konsoli jest lepszy niż webowy czat z limitami plików. Czy to koniec ery Visual Studio Code, czy tylko kolejny gadżet dla programistów-hipsterów? „Firmy powiedziały: no to IDE do konsoli!”">
-    <meta property="og:image" content="https://i.ytimg.com/vi/81L3RqlUxxk/maxresdefault.jpg">
+    <meta property="og:title" content="Better Dev Club #29 - Czy Gartner ma rację? Wyspecjalizowane modele w finansach, medycynie i... asemblerze">
+    <meta property="og:description" content="Kajetan i Piotrek omawiają najnowsze trendy Gartnera na 2026 rok, ze szczególnym uwzględnieniem Domain Specific Language Models (DSLM) oraz systemów multi-agentowych. Rozmawiają o tym, czy przyszłość należy do wyspecjalizowanych modeli, czy nadal będą dominować wielkie LLMy.
+
+Pojawia się wątek asystentów finansowych (nowa opcja w ChatGPT) i oddawania AI dostępu do swoich kont bankowych w kontekście kwestii bezpieczeństwa. Na warsztat trafia też Mayo Clinic i ich modele medyczne. W części dla programistów Piotrek dzieli się filozoficzną rozkminką: czy w erze AI w ogóle potrzebujemy jeszcze języków programowania wyższego rzędu, skoro modele mogłyby teoretycznie wypluwać od razu zoptymalizowany asembler? Całość podsumowujemy wizją, w której własne instancje wyspecjalizowanych modeli wygryzą biznes firm konsultingowych.">
+    
     <link rel="shortcut icon" href="../img/favicon-32x32.png" type="image/png">
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Noto+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
@@ -129,17 +133,19 @@
             document.head.appendChild(script);
         }
     </script>
-    <script>window.INITIAL_ROUTE = "/episodes/episode-4";</script>
+    <script>window.INITIAL_ROUTE = "/episodes/episode-29";</script>
 </head>
 <body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100">
     <div id="root"><div class="max-w-[960px] mx-auto px-4 py-10">
             <div class="mb-8">
-                <p class="text-primary font-bold text-sm tracking-wider uppercase mb-2">Odcinek #4</p>
-                <h1 class="text-[#0d171b] dark:text-white text-4xl font-black">Better Dev Club Weekly #4 - Narzędzia CLI</h1>
-                <p class="text-slate-500 mt-2">2025-11-27 • 22:34</p>
+                <p class="text-primary font-bold text-sm tracking-wider uppercase mb-2">Odcinek #29</p>
+                <h1 class="text-[#0d171b] dark:text-white text-4xl font-black">Better Dev Club #29 - Czy Gartner ma rację? Wyspecjalizowane modele w finansach, medycynie i... asemblerze</h1>
+                <p class="text-slate-500 mt-2">2026-05-19 • 25:27</p>
             </div>
             <div class="prose prose-slate dark:prose-invert max-w-none text-slate-600 dark:text-slate-300 leading-relaxed mb-12">
-                <p>Nagle wszyscy chcą wrócić do terminala, a my zastanawiamy się, czy to przez sentyment do młodości, czy po prostu Claude Code jest taki dobry. Omawiamy wyjście narzędzi AI poza IDE i to, jak CLI walczą o serca deweloperów pięknymi kolorkami i wbudowanymi przeglądarkami. Dyskutujemy o kompresji kontekstu i o tym, dlaczego 'sparing partner' w konsoli jest lepszy niż webowy czat z limitami plików. Czy to koniec ery Visual Studio Code, czy tylko kolejny gadżet dla programistów-hipsterów? „Firmy powiedziały: no to IDE do konsoli!”</p>
+                <p>Kajetan i Piotrek omawiają najnowsze trendy Gartnera na 2026 rok, ze szczególnym uwzględnieniem Domain Specific Language Models (DSLM) oraz systemów multi-agentowych. Rozmawiają o tym, czy przyszłość należy do wyspecjalizowanych modeli, czy nadal będą dominować wielkie LLMy.
+
+Pojawia się wątek asystentów finansowych (nowa opcja w ChatGPT) i oddawania AI dostępu do swoich kont bankowych w kontekście kwestii bezpieczeństwa. Na warsztat trafia też Mayo Clinic i ich modele medyczne. W części dla programistów Piotrek dzieli się filozoficzną rozkminką: czy w erze AI w ogóle potrzebujemy jeszcze języków programowania wyższego rzędu, skoro modele mogłyby teoretycznie wypluwać od razu zoptymalizowany asembler? Całość podsumowujemy wizją, w której własne instancje wyspecjalizowanych modeli wygryzą biznes firm konsultingowych.</p>
             </div>
         </div></div>
 

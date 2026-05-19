@@ -1,5 +1,70 @@
 [
   {
+    "id": 29,
+    "num": "29",
+    "notPublished": true,
+    "title": "Better Dev Club #29 - Czy Gartner ma rację? Wyspecjalizowane modele w finansach, medycynie i... asemblerze",
+    "date": "2026-05-19",
+    "duration": "25:27",
+    "desc": "Kajetan i Piotrek omawiają najnowsze trendy Gartnera na 2026 rok, ze szczególnym uwzględnieniem Domain Specific Language Models (DSLM) oraz systemów multi-agentowych. Rozmawiają o tym, czy przyszłość należy do wyspecjalizowanych modeli, czy nadal będą dominować wielkie LLMy.\n\nPojawia się wątek asystentów finansowych (nowa opcja w ChatGPT) i oddawania AI dostępu do swoich kont bankowych w kontekście kwestii bezpieczeństwa. Na warsztat trafia też Mayo Clinic i ich modele medyczne. W części dla programistów Piotrek dzieli się filozoficzną rozkminką: czy w erze AI w ogóle potrzebujemy jeszcze języków programowania wyższego rzędu, skoro modele mogłyby teoretycznie wypluwać od razu zoptymalizowany asembler? Całość podsumowujemy wizją, w której własne instancje wyspecjalizowanych modeli wygryzą biznes firm konsultingowych.",
+    "agenda": [
+      "00:00 - [Intro] Rankingi Gartnera i trendy na 2026 rok: multi-agenty",
+      "01:04 - [DSLM] Domain Specific Language Models zamiast gigantycznych LLM",
+      "03:39 - [Finanse] ChatGPT nowym doradcą finansowym",
+      "08:37 - [Bezpieczeństwo] Czy oddamy OpenAI dostęp do konta bankowego?",
+      "15:02 - [Wyspecjalizowane AI] Modele branżowe i skany w Mayo Clinic",
+      "16:32 - [Programowanie] Czy AI potrzebuje języków programowania? O asemblerze",
+      "22:20 - [Zastosowania] AI jako asystent na co dzień (mandaty, medycyna, prawo)",
+      "23:49 - [Konsultanci] Twój lokalny model w zastępstwie za firmę konsultingową",
+      "24:23 - [Outro] Zapowiedź przyszłotygodniowego Google I/O"
+    ],
+    "tags": [
+      "betterdevclub",
+      "ai",
+      "llm",
+      "dslm",
+      "gartner",
+      "security",
+      "finance",
+      "programming",
+      "chatgpt",
+      "agents"
+    ],
+    "platforms": {
+      "youtube": "",
+      "spotify": "",
+      "apple": ""
+    },
+    "resources": [
+      {
+        "type": "link",
+        "url": "https://www.beinformed.com/gartners-top-10-tech-trends-2026-domain-specific-language-models-is-the-rising-star/",
+        "label": "Gartner’s Top 10 Tech Trends 2026: Domain-Specific Language Models is the rising star",
+        "description": "Omówienie trendów na 2026, w tym Domain Specific Language Models (DSLM) i systemy multi-agentowe."
+      },
+      {
+        "type": "link",
+        "url": "https://www.google.com/finance/beta/",
+        "label": "Google Finance Beta",
+        "description": "Nowy panel i interfejs w Google Finance wspierany modelem AI."
+      },
+      {
+        "type": "link",
+        "url": "https://openai.com/index/personal-finance-chatgpt/",
+        "label": "OpenAI: New Personal Finance Experience in ChatGPT",
+        "description": "Informacja o nowej funkcji OpenAI pozwalającej na asystowanie w finansach osobistych (na rynek amerykański)."
+      },
+      {
+        "type": "link",
+        "url": "https://newsnetwork.mayoclinic.org/discussion/mayo-clinic-ai-detects-pancreatic-cancer-up-to-3-years-before-diagnosis-in-landmark-validation-study/",
+        "label": "Mayo Clinic - AI w diagnostyce tomografii komputerowej",
+        "description": "Jak własny, wyspecjalizowany model diagnozuje wczesne stadia raka ze skanów TK."
+      }
+    ],
+    "youtubeId": "",
+    "guestKey": "piotrek"
+  },
+  {
     "id": 28,
     "num": "28",
     "title": "Better Dev Club #28 - Koniec z 'git push i do domu'? Czyli co zrobić z deploy w erze AI.",
@@ -199,9 +264,9 @@
         "url": "https://llm-stats.com/blog/research/claude-opus-4-7-launch",
         "label": "Claude Opus 4.7: Benchmarks, Pricing, Context & What's New",
         "description": "Szczegółowe informacje o nowym modelu Claude Opus 4.7, jego wydajności, cenach i nowościach."
-      }, 
+      },
       {
-        "type":"link",
+        "type": "link",
         "url": "https://x.com/Kimi_Moonshot/status/2046249571882500354",
         "label": "Tweet o Kimi 2.6",
         "description": "Chiński model Kimi 2.6 który można odpalić lokalnie"

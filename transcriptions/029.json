@@ -1,0 +1,199 @@
+{
+  "transcript": [
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:00",
+      "text": "Cześć Piotrek."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:01",
+      "text": "Cześć Kajtek."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:03",
+      "text": "Piotrek kojarzysz pewnie coś takiego jak ranking Gartnera?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:10",
+      "text": "No pewnie. I jeszcze konsultantów, którzy mówią, że to jest super. Dzisiaj miałem możliwość dużej obserwacji konsultantów. To wiem."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:17",
+      "text": "O no właśnie no i oni oczywiście na koniec dwudziestego piątego dali trendy które będą dwudziestym szóstym i mnie zaciekawiła jedna rzecz o której mam wrażenie."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:28",
+      "text": "Poczekaj, to tak jak my, my wyprzedziliśmy Gartnera, bo my też daliśmy trendy. Nie wiem czy pamiętasz, mieliśmy taki odcinek."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:34",
+      "text": "To prawda, to prawda, to prawda i chyba powoli się zbliża czas do tego, żeby zacząć podsumowywać i sprawdzać co się już zjściło, a co nie, ale to będziemy musieli naszych agentów zaprząc do tego, żeby nam przypomnieli w ogóle co tam sobie zapisaliśmy. Ty pamiętasz, a co mieliśmy, o czym mieliśmy mówić?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:49",
+      "text": "Ja pamiętam. Pamiętasz agenty AI Foundation?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:57",
+      "text": "O, było coś takiego, a to już umarło chyba, no nie?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "01:01",
+      "text": "Nie wiem, dopiero w czerwcu mamy to rozliczyć. Nie uprzedzajmy faktów."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "01:04",
+      "text": "Dobrze dobrze to w takim razie rozliczmy trochę Gartnera dzisiaj a szczególnie jedną rzecz bo oni tam mówili między innymi o tym że w dwudziestym szóstym trendem będą systemy multi agentowe i z tym się absolutnie zgadzam bo faktycznie multi agent system to jest jest coś co co jest coraz bardziej coraz bardziej na topie tam były jakieś takie. rzeczy typu confidential computing, to nikogo nie interesuje, physical AI, o tym nagrałem jedną rolkę, poniosła się i zobaczymy co z tym będzie, ale jest jedna rzecz, która mnie bardzo zaciekawiła, Domain Specific Language Models, czyli DSLM, coś co ma zastąpić teoretycznie LLM-y albo ma się rozwinąć trochę na bazie LLM-ów. czyli właśnie takie modele językowe bardzo wyspecjalizowane. My już o tym mówiliśmy, że fajnie by było, chociażby lokalne modele były wyspecjalizowane w jakimś temacie, na przykład programowania. I mam wrażenie, że w tym przypadku może programiści albo cała branża IT jeszcze za bardzo zachłysnęła się LLM-ami i... póki tokeny były tanie to po prostu jechaliśmy na tym no i jakby nie patrzeć wiele modeli jest optymalizowanych też w nowych wersjach podprogramowanie dlatego mocno się nad tym nie zastanawialiśmy ale jednak inne branże zaczęły widzieć ten problem coraz bardziej no i coraz częściej słyszy się na przykład jakiś czas temu Antropik. wypuścił artykuł dotyczący tego, że oni chcą pomóc w dostosowaniu Claude'a pod tematy legalowe. Są, coraz częściej się słyszy również o innych zmiankach, jak na przykład OpenAI mówi nam o tym, że będzie pomagało nam prowadzić nasze finance personalne. Więc czy to nie jest faktycznie coś, czym powinniśmy się mocniej zająć, a co cały czas spychamy jakby się trochę bojąc tego?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "03:39",
+      "text": "Po prostu to może jak gdyby spróbujmy nie grywać, a spróbujmy sobie pójść na jakiś faktach. Ja sobie pozwolę, jak gdyby się przygotowałem z GPT. Nie, jak gdyby w sensie ChatGPT, jak gdyby jak tu zaczynamy odchodzić od programowania, to bądźmy szczerze chyba najbardziej znane. Ja to weźmy sobie o1, chyba tak należy obtypować. No to tak, w wersji 5.5 dostaliśmy ten standardowy. Dostaliśmy PRO czyli taki, który ma multistep orchestration, scientific research and complex data analysis. Dostaliśmy thinking. Jak mi teraz ktoś skręczył wysłucham czym się różni PRO od thinking skoro tamten jest multistep i design for deep scientific research a ten jest for internal reasoning paths 200 hyper complex logic bottlenecks on the hard Edge cases before to jakby trochę zaczynam mieć problem. Czytam słowa rozumiem słowa ale sensy pod tym trochę nie ten ale on bardziej on dłużej kręci tokenami. Dostaliśmy GPT 5.5 chyba instant on się nazywa taki czy tam mini instant mini nie pamiętam teraz widać jak się przygotowałem dostaliśmy o1 cyber i jeszcze chyba dostaliśmy Codexa. W sensie, ten, jak gdyby taki podkodowanie, ale tu też widać jak się przygotowałem, ale że on jest jeszcze, jest taki. No i teraz popatrz. Jak mówimy sobie o tym, co Gartner powiedział, trochę w definicji. Gartner powiedział, będą istniały domain specific language models, które są modelami AI-owymi wytrenowanymi albo zfintunowanymi na specjalnych data setach. zaprojektowanych właśnie pod specjalne Industries, Business, Functions or Processes, tak dosłownie brzmi w definicji, właśnie się popisałem, miałem wspaniałem tragicznym angielskim, to się dzieje, w sensie się okazuje, że to się dzieje, chociaż możesz mieć wahanie, czy to jest... Czy to rzeczywiście jest sam model? Nie, bo ja czasami zaczynam mieć wrażenie, że to nie jest sam model, tylko jak gdyby instrukcje do tego modelu. Czy dostajemy olbrzymią liczbę instrukcji i to możemy dyskutować czy to jest pełnia definicja czy nie, bo nie wiem czy... Jak weźmiemy sobie serwis w tej chwili, jeżeli używacie Google Finance na cokolwiek innego, to istnieje już portal, który nazywa się Finance Beta i tam możecie, macie w prawej części, macie całego czatach, w ogóle możecie zarobić tam. jest takie otwarte mam to przeczytam. Jeszcze mogę zrobić. Dostajesz jak gdyby po prostu w panelu. Ja ten mam nawet jeszcze cały Deep Dive w European Market Somewhere bo tak mi się akurat otworzyło. Zachęcam Cię widzów do kliknięcia u nas na stronie. O właśnie, moment like, dislike, kliknięcie u nas na stronę, tam są linki. Poczekaj, ja tam dałem radę. To rzeczywiście jak wejdziesz do nas na stronę, dasz nam like pod postem, zasubskrybujesz nas, to już w ogóle super. To można sobie to zobaczyć. No i to rzeczywiście spoko działa. Próbowałem się pobawić zupełnie szczerze."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "07:07",
+      "text": "przy."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "07:21",
+      "text": "to nie wiem czy dostaję jakieś super odpowiedzi, tak zupełnie szczerze, w sensie takim szczerze i szczerze, nie wiem czy dostałem jakieś takie odpowiedzi, znaczy zadałem pytanie co mam kupić żebym dużo zarobił to wiesz, to słabo mi poszło. Ale jak widać ludzie dużo pytają w tej chwili o Nvidia więc jest, mamy taki news z OpenAI, że jest taki New Personal Finance Experience in ChatGPT, też polecamy do sprawdzenia. Gdzie jak gdyby to... Powiedziałbym, że widzisz troszeczkę chyba coś podobnego, chociaż przyznam szczerze, że ja nie mam do tego dostępu. Nie wiem, czy to nie jest tylko wyłączne dla Amerykańców."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "08:02",
+      "text": "To jest tylko dla Amerykańców, My do tego nie mamy dostępu. Ale ja powiem ci, że ja jestem w ogóle przerażony, jeśli o to chodzi. Bo oni tutaj zachęcają na przykład, żeby w Open AI'u podłączyć swoje konta bankowe. No to jest, powiem ci i oni wtedy i dzięki temu GPT będzie w stanie analizować twoją sytuację finansową i podpowiadać ci... jakiejś rzeczy typu zbuduj mi plan oszczędzania na 5 lat tak żebym za 5 lat mógł sobie kupić dom w mojej okolicy no nie tu jest taki duży red flag dla mnie i ja rozumiem znaczy ja wiem no jak co?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "08:37",
+      "text": "Nie chcesz dawać tych danych. Ale... To ja to zadam Ci inne pytania. Jak śledź jest w swej finansie? Jak ośrodzi swą finansę? Strasznie publiczne pytanie. Może powie, nie chce odpowiadać."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "08:54",
+      "text": "Nie, ja nie mam z tym problemu. Ja śledzę swoje finanse poprzez to, że mam bardzo dużo kont pozakładanych, które są bardzo celowe i dlatego wiem jak mi idzie tak naprawdę. I mam jeszcze do tego zwajbowaną aplikację, która mi pomaga i mam takie dashboardy, które nie są połączone z moimi kontami, tylko są..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "09:12",
+      "text": "Ale to dobrze, to ja się..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "09:22",
+      "text": "pewnego rodzaju symulację powiedzmy."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "09:25",
+      "text": "Ja mam takiego bardzo zaawansowanego Excela, którego w tej chwili gadam, w tym wypadku, nie ważne z którym AI-em, ale gadam ze swoim AI-em. Właśnie jak potrzebuję IKE, IKZE i tym podobne dziwne rzeczy porobić, to czasami mam właśnie wciągnięte te ileś modeli portfelowych i nie chce mi się czasami myśleć, mam bardzo prosty schemat. I od razu się drogim widzom przyznam, chociaż mój EM powie, że za bardzo mam rozprężone i powinienem posprzątać. Ale mam takie Warren Buffett skilla i kilka takich z portfelami i rzeczywiście mam. Nie chodzi o to teraz, że wrzuciłbym wszystkie swoje konta bankowe do OpenAI, chyba bym nie wrzucił. A z drugiej strony sporo danych moich finansowych. tam po prostu jest. sensie, znaczy, jest akurat nie w OpenAI, bo jest w moim Excelu, a ten moja Excel jest promptowany, ale wyciekły moje dane."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "10:27",
+      "text": "No dobra, ale to jest właśnie, no dobra, no ale to jest jakby mimo wszystko to jest kwestia troszkę, troszkę co innego jeżeli wrzucasz, tak, jeżeli wrzucasz liczby i powiedzmy jakąś swoją strategię, a dajesz dostęp fizyczny do konta, z którego on może przeczytać realnie to co jest, tak. I nie daj Boże, żeby ktoś nie doczytał, tak jak wiesz, tak jak właśnie mamy w firmach bezpieczników."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "10:34",
+      "text": "No, dwie warstwy, no. Tak, no..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "10:55",
+      "text": "Pozdrawiamy Wojtka, z którym rozmawialiśmy i wielu innych bezpieczników, z którymi pracujemy na co dzień. Oni za każdym razem jak jakaś aplikacja chce jakiś dodatkowy dostęp, to oni robią analizę ryzyka i sprawdzają to. A za przeproszeniem, typowy Amerykanin, jak OpenAI mu powie albo chat GPT mu powie, to w jakim banku masz konto? No w takim i w takim. To weź mi tutaj, weź się, zaloguj. to ja ci sprawdzę i ja ci zrobię to wszystko. I on nawet nie spojrzy, czy przypadkiem nie daje temu GPT dostępu do wykonywania transakcji."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "11:36",
+      "text": "Znaczy to tak, to ale to wiesz, to masz trochę inny poziom. Natomiast co z czym będziesz mógł pogadać o swoich finansach? Myślę o tym jako produkcie, w sensie tak skupię się na chwilę jako o produkcie. Masz jakiś system, ja mam jakiś system, większość naszych znajomych jest dość świadoma swoich finansów, tak bym powiedział. ale ja się przyznam szczerze, gdyby dobrze. Trochę lat już mam, parę razy w życiu się naciąłem na polecenie czegoś, jakiegoś produktu, który miał w ogóle nie wiadomo co i okazał się taką okrapą. Nauczyłem się trochę na własnych błędach. Natomiast jakby mógł czymś pogadać, co jest jakoś tam w miarę obiektywne, oczywiście czy chat GPT jest w miarę obiektywny czy nie, jest jak gdyby inne, jak gdyby trzeba niestety se samemu powiedzieć. bo oni pewnie będą chcieli coś wcześniej czy powinni sprzedać. Natomiast to coś, to jest taki produkt, który ja rozumiem dlaczego on chce udać, bo nie ma czegoś takiego na rynku. Jak idziesz do doradcy finansowego takiego zewnętrznego, to on ma potrzeby wcisnienia ci jakichś produktów. Jak idziesz do banku, to oni też mają sferę KPI, no sprzedać jakichś produktów i czy naprawdę doradzili ci najlepiej? Jako fajny przykład, jak... Ktoś nigdy nie słyszał, to możesz kupić sobie obligacje skarbowe całkiem nieźle oprocentowane. Jeszcze jak masz 500 czy tam 800 plus w tej chwili, to możesz je wykupić do jakiejś kwadrony, są naprawdę nieźle oprocentowane. Kurna, nikt ci tego nie doradzi, bo żaden doradca, żaden bank nie ma na tym w ogóle profitu, więc nikt ci nie doradzi. Więc to, że taki AI ci jest w stanie w tym doradzić, Bo oczywiście możemy dyskutować o formie, no ale ja to rozumiem, w sensie, to oczywiście jest taki produkt, którym rzeczywiście może cię coś zatrzyma, może coś da jakąś taką normalną rekomendację, ale to wracając do tematu, czy Gartner ma rację, się chwilę już chyba za bardzo poszli w finansę, mam nadzieję drogi widzowie, że to było ciekawe już teraz, ale wracając trochę do głównego tematu."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "13:42",
+      "text": "Właśnie."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "13:51",
+      "text": "To ma sens, sensie to, wiesz, modela generyczna, coś my za parę razy gadali. Modela generyczna ma to wadę, że są generyczne. czy po prostu wymagają strasznie dużej ilości zasobów, mocy, wiedzy i tak dalej. Modela taka jest dedykowana, no wydają się fajniejsza. Jak pomyślimy o tym, że głównym problemem w tej chwili nazwijmy to z rozwojem sztucznej inteligencji patch, ostatni news ze Starlinkiem, z kursorem i tak dalej, jak gdyby jakiś tam dostęp do, czy uda się zrobić serwerownię w kosmosie, przesadzam w tej chwili, ale chyba nie wcale nie aż tak dużo, bo prąd się kończy, bo jest problem z prądem, no to te modele tanie nie są. Myślę prądowo, nie mówimy teraz o otwotach. Robione takich modeli mniejsze to się wydaje naprawdę super."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "15:02",
+      "text": "No właśnie, ciekaw jestem w którą stronę to pójdzie, bo trochę sobie powiedzieliśmy i trochę wspomniałeś o tym, że dla ciebie to jest kwestia odpowiedniego, nie wiem czy system promptu, czy jakiegoś narzędziówki, czy jakkolwiek byśmy sobie tego nie nazwali i te elementy tutaj związane właśnie w OpenAI z tymi finansami personalnymi, no to to jest na pewno właśnie kwestia odpowiedniego. odpowiedniego skonfigurowania narzędzia realnie, bo cały czas korzystamy dokładnie z tego samego modelu. Tutaj mówimy, wydaje mi się bardziej o czymś takim, co faktycznie może nas zacząć boleć w niedalekiej przyszłości. Zresztą właśnie tak jak powiedziałeś, ta infrastruktura też jest, też jest, ma pewne ograniczenia i będziemy musieli szukać jakiś alternatyw. Jakie te alternatywy będą Ciężko mi też powiedzieć, ale wydaje mi się, że faktycznie ten fine tuning mniejszych modeli takich, które mogą być wyspecjalizowane, to może być ciekawy temat. Tym bardziej, że właśnie takie rzeczy w ogóle się dzieją, tyle że nawet na dużych modelach, jak mówimy o tym, to też ostatnio o tym czytałem, że Mayo Clinic w Stanach Zjednoczonych faktycznie wytrenował jeden model na skanach tomografii komputerowej i twierdzą już na ten moment, że są właśnie w stanie wykrywać rakad szóstki kilka lat wcześniej zanim lekarz w stanie będzie to zobaczyć. No to to jest właśnie to, o czym realnie mówimy, czyli W pewnym momencie trzeba będzie też zająć się właściwie wszystkimi branżami, między innymi moim zdaniem IT. Tyle, że tutaj jest drugie pytanie i chyba je tak zostawię na razie w zawieszeniu i może sobie o tym porozmawiamy w jakimś kolejnym odcinku, bo zastanawiam się w jaki sposób powinien być wytrenowany model, w jaki sposób powinien być przygotowany. wyspecjalizowany model do kodowania żeby on był jak najbardziej użyteczny. Czy powinniśmy mieć modele na przykład do kodowania w konkretnym języku. Czy język powinien być zupełnie nieważny albo powinniśmy wybrać jeden język przyszłości i tylko w nim kodować."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "17:48",
+      "text": "Ja Ci powiem dzisiaj akurat przy obiedzie była fajna dyskusja z kolegą. A wyobraź sobie, a po co jest ten język? Po co masz język programowany? No po to, żeby go skompilować do Assemblera i odpalić, bo w Assemblerze jest na ten. To po co jest ten język, skoro ten model mógł od razu wiesz wypluwać Assemblera. Teraz mi powiesz, żeby się dało to przeczytać, nie? Ale w sumie mogłeś drugim modelem to... przeczytać. I tak żeśmy doszli do takiego poziomu, że słuchaj, a może nam potrzebny jest taki język programowania dobry dla AI, żeby on umiał wpisać i sczytać, żeby... Może ta warstwa języka... Nie wiem, takie grybanie dzisiaj mieliśmy przeobierze, wiesz, takie, gdyby, nie tam. Ale jako ty pomyślysz, nie? Tak przez chwilę się zastanawiasz, a w sumie, sumie, kurczę... Po co ta warstwa potrzebna? Ona jest dla nas, ona jest dla ludzi, żebyśmy my byli w stanie naprze... Nie pisać tego assemblera, bo jak byś miał napisać w assemblerze, nie wiem, za kolory mi przycisk HTMLowy, no to byłoby słabo. Ale z drugiej strony, jak piszemy takiego dotneta, ten dotnet jest kompilowany do ELA, to potem jest uruchamiony przez runtime maszyny. Jak chcesz zrobić, ten, jak chcesz zrobić taką binarkę, która się odpala wszędzie od tego, ono jest tak, nie, bo kawałek tego frameworka leci. żeby nie potrzebował tego dotneta zainstalowania do celowej maszyny. Jakbyś to skompilował to na przykład jak masz wyraźnie to kompilujesz bezpośrednio do C czy tam w innym diabelstwie. W sensie nie do CE, tylko do natywnej biblioteki. To jest jakiś taki mały, przenośny jakiś... To po co ta warstwa wyższa? No nie, to się od razu asembluje. I masz. Ale tak jakby trochę łapiąc klamy, w sensie jak spojrzymy sobie na to, bo ja nadal uważam, jak... ale LLM-y będą tylko w IT to, że my przegrali. sensie ten pomysł, który jest pod spodem to trochę nie ma sensu. Nie mówię, że to złe i dobre niebo obaj w tym siedzimy, wszyscy, którzy nas pewnie słuchają w tym siedzicie, ale ten fajna rzecz jest właśnie to, że dostaniesz jakiegoś asystenta finansowego, dostaniesz na przykład... Coś z czego ostatnio skorzystałem, źle noczem zaparkowałem na takim tak zwanym prywatnym parkingu i się nie zorientowałem, że to jest prywatny parking i nie wziąłem darmowego tiketu z parkomatu na dwie godziny i dostałem ten nie mandat, tylko opłaty parkingową, ale dzięki koledze w tym wypadku Gemini, który mi podpowiedział, że odwołali się do przepisów, które nie istnieją. znaczy są już nieaktualne w Polsce, to udało mi się z nimi wykłócić, nie musiałem zapłacić tych iluś tam złotych. Są jakieś modele właśnie do rozpoznawania zdjęć, które właśnie Jan Gronowski o których Kajetan ostatnio nagrywał jako rolkę, właśnie przed chwilą też mówił. Są jakieś takie rzeczy, które dają taką filozofię, czy właśnie to co używa mnie jako mojego asystenta do jakiś finansów, czy to masz jakieś swojego. takiego, to co jest za filozofią Microsoftu w nazwie copilot, bo to nie są rzeczy, które działają autonomicznie, bo ten model do wykonywania zdjęć oczywiście wykryje to sam, czy tam prawie sam i lekarz to potwierdzi, ale ktoś mnie musi skierować na badania, żeby mi to zdjęcie zrobili, żeby to do tej sztucznej inteligencji trafiło. Jak ktoś mnie nie skieruje to nie zadziała, albo muszę dostarczyć jakoś moje finanse żeby ten model mi pomógł, czy być może muszę dostarczyć ten kod w jakiś sposób żeby ten model mi pomógł to zakodować. Więc to jest taki chyba krok, który się dzieje. Czy to będą duże czy małe? Nie wiem, tak zupełnie szczerze. Wydaje mi się, że możemy zarobić zakład i obaj nie będziemy mieli racji. dobrze pójdę, bo to chyba w ten sposób trochę. Ale fajnie, że to się pojawia, nie fajnie, że te narzędzia się pojawiają, fajnie, że tego coraz więcej jest. Ja zupełnie też szczerze mówiąc ja mam jakiegoś swojego, nie chcę go nazwać asystenta zdrowia, ale na przykład, nie wiem, dostaję badania QI i wrzucam w czata, żebym powiedział co to znaczy, bo ja nie rozumiem. Czy właśnie są jakieś dokumenty prawne, które mówię weź mi, weź mi pomóż. bo ja nie rozumiem, co tam jest napisane, nie wiem czy drog słuchaczu analizuje, na przykład politykę poprawności, czy umowę, jak gdyby wynajmu samochodu, czy cokolwiek takiego, ja w tej chwili po prostu wrzucam, weź mnie, powiedz, co tam mnie grozi, nie, jak gdyby, ja ten bym nie miał siły tego czytać, nie, albo właśnie, no jak gdyby, w różnych, jak gdyby, w różnych branżach, jak gdyby zdarza mi się w tej chwili skorzystać, albo na przykład ostatnio powiększałem tacie dokumenty, które były, wiesz, takie trzysta na trzysta, nie. skarb trochę nie wyszedł, Pojawiły się obrazki 13. To dało radę powiększyć. Nie wiem na ile dobrze, bo nie czytałem oryginału, ale jak żeśmy czytali, to miało sens, nie? Więc to w ogóle, to jest w ogóle jak gdyby taka super gałąź. Bardzo się cieszę, że to chyba powstaje. Mam nadzieję, drugi widzów też, albo słuchaczu mnie słuchaczu widzą. A Gartner chyba słuchaj ma rację. Jezu, powiedziałem to."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "23:23",
+      "text": "Tak, to też mam takie wrażenie, to nie zawsze im się udawało, ale tym razem mam wrażenie, że..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "23:35",
+      "text": "Może to jest domain language model konsultanta Gartnera. I to on wygrywa."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "23:46",
+      "text": "trochę przerażające, ale tak też może być."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "23:49",
+      "text": "To czemu przejawiające? Posłuchaj. Potrzebujesz coś wdrożyć w firmie, nie idziesz do firmy, nie wiem, McKinsey Accenture, whatever, McKinsey, weźmy se McKinsey, tylko masz domain language model McKinsey i idziesz, nie płacisz, miliona ten, tylko tam, nie wiem, trzysta dokanów i dan."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "24:11",
+      "text": "Tak będą teraz audyty wyglądać."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "24:11",
+      "text": "Jak dobrze sprąptujesz, to idziesz do szefa i mówisz podwyżka dla mnie, MacKinsey model, mówi gotowe."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "24:23",
+      "text": "No i tym optymistycznym akcentem żegnamy się dzisiaj z tobą drogi widzów, zapraszamy cię za tydzień. A za tydzień ja już mogę powiedzieć, że będziemy, bo już mówiłem to Piotrkowi zanim zaczęliśmy nagrywać, będziemy rozmawiać o tym co się działo na Google I.O. Bo właśnie w tym momencie kiedy rozmawiamy to Google I.O. się rozpoczyna i czuje, że tam może być trochę ciekawych nowości. i ci, którzy już wróżyli Google'owi to, że przegrał wyścig na AI'a, to mogą zostać mocno zaskoczeni."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "25:04",
+      "text": "albo rozsubskrybuj nas w tym miejscu. Kretan totalnie się pomylił i nasze zdanie będzie, nic się tam nie zdarzyło i musimy mieć inny temat."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "25:06",
+      "text": "Albo nie. Nie w to nie wierzę, ale zasubskrybuj i zobacz co będzie za tydzień."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "25:22",
+      "text": "Sześć, siedem. Dzięki wielkie i do zobaczenia. Trzymajcie się, cześć!"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "25:27",
+      "text": "Do zobaczenia."
+    }
+  ]
+}
