@@ -2,8 +2,7 @@
   {
     "id": 29,
     "num": "29",
-    "notPublished": true,
-    "title": "Better Dev Club #29 - Czy Gartner ma rację? Wyspecjalizowane modele w finansach, medycynie i... asemblerze",
+    "title": "Better Dev Club #29 - Trendy Gartnera. Czy nadchodzi zmierzch LLMów?",
     "date": "2026-05-19",
     "duration": "25:27",
     "desc": "Kajetan i Piotrek omawiają najnowsze trendy Gartnera na 2026 rok, ze szczególnym uwzględnieniem Domain Specific Language Models (DSLM) oraz systemów multi-agentowych. Rozmawiają o tym, czy przyszłość należy do wyspecjalizowanych modeli, czy nadal będą dominować wielkie LLMy.\n\nPojawia się wątek asystentów finansowych (nowa opcja w ChatGPT) i oddawania AI dostępu do swoich kont bankowych w kontekście kwestii bezpieczeństwa. Na warsztat trafia też Mayo Clinic i ich modele medyczne. W części dla programistów Piotrek dzieli się filozoficzną rozkminką: czy w erze AI w ogóle potrzebujemy jeszcze języków programowania wyższego rzędu, skoro modele mogłyby teoretycznie wypluwać od razu zoptymalizowany asembler? Całość podsumowujemy wizją, w której własne instancje wyspecjalizowanych modeli wygryzą biznes firm konsultingowych.",
@@ -31,9 +30,9 @@
       "agents"
     ],
     "platforms": {
-      "youtube": "",
-      "spotify": "",
-      "apple": ""
+      "youtube": "https://youtu.be/u7QGu1hetb8",
+      "spotify": "https://open.spotify.com/episode/7kuYWwa7QuWz6Vnd0oikjQ?si=zo0waqiZSzCn87WWY9Q9NA",
+      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club-29-trendy-gartnera-czy-nadchodzi-zmierzch/id1848840540?i=1000768873633"
     },
     "resources": [
       {
@@ -61,7 +60,7 @@
         "description": "Jak własny, wyspecjalizowany model diagnozuje wczesne stadia raka ze skanów TK."
       }
     ],
-    "youtubeId": "",
+    "youtubeId": "u7QGu1hetb8",
     "guestKey": "piotrek"
   },
   {
