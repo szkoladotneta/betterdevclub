@@ -9,14 +9,14 @@
     "desc": "Kajetan i Piotrek robią luźny przegląd Google I/O z perspektywy deweloperów, tym razem nagrywany z leżaków i z lekkimi problemami technicznymi po drodze. Rozmawiają o tym, dlaczego tegoroczne ogłoszenia Google wyglądają bardziej jak ewolucja niż rewolucja, co wnosi Gemini Flash oraz czy Google nie przesuwa środka ciężkości z developer experience na użytkowników biznesowych, Workspace, Androida i wyszukiwarkę.\n\nW odcinku wraca też temat toolingu: antygravity, IDE vs CLI, rosnącej roli agentów i tego, że w świecie AI coraz mniej emocjonują nas same nowe modele, a coraz bardziej konkretne zastosowania i narzędzia. Po drodze porównujemy też pozycję Google z Claude'em i zastanawiamy się, czy deweloperzy naprawdę dostali tu coś dla siebie.",
     "agenda": [
       "00:00 - [Intro] Google I/O oglądane na spokojnie: bardziej nudno czy po prostu przewidywalnie?",
-      "02:06 - [Tooling] antygravity CLI, Gemini CLI i pytanie o realną nowość",
-      "05:28 - [Modele] Gemini Flash i nowa rodzina modeli Google",
-      "07:19 - [Strategia Google] Tanie, szybkie modele i nacisk na Androida, wyszukiwarkę i Workspace",
-      "09:39 - [Biznes vs Dev] Czy AI zmierza w stronę gotowych zadań biznesowych zamiast developmentu?",
-      "11:00 - [Claude] Dlaczego wśród deweloperów nadal wygrywa Anthropic",
-      "12:37 - [IDE i CLI] Cała rodzina antygravity i unifikacja narzędzi",
-      "16:20 - [Przyszłość modeli] Plotki o kolejnych premierach i brak poczucia rewolucji",
-      "17:50 - [Podsumowanie] Podsumowanie odcinka nagranego na leżakach :)"
+      "01:48 - [Tooling] antygravity CLI, Gemini CLI i pytanie o realną nowość",
+      "05:10 - [Modele] Gemini Flash i nowa rodzina modeli Google",
+      "07:01 - [Strategia Google] Tanie, szybkie modele i nacisk na Androida, wyszukiwarkę i Workspace",
+      "09:21 - [Biznes vs Dev] Czy AI zmierza w stronę gotowych zadań biznesowych zamiast developmentu?",
+      "10:46 - [Claude] Dlaczego wśród deweloperów nadal wygrywa Anthropic",
+      "12:18 - [IDE i CLI] Cała rodzina antygravity i unifikacja narzędzi",
+      "16:02 - [Przyszłość modeli] Plotki o kolejnych premierach i brak poczucia rewolucji",
+      "17:32 - [Podsumowanie] Podsumowanie odcinka nagranego na leżakach :)"
     ],
     "tags": [
       "betterdevclub",
