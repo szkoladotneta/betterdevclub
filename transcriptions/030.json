@@ -1,0 +1,194 @@
+{
+  "transcript": [
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:00",
+      "text": "Cześć Piotrek."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:03",
+      "text": "Cześć Kajtek."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:05",
+      "text": "Piotrek oglądałeś ostatnio Google I/O? Mało. No właśnie ja trochę oglądałem, ale też nie za dużo ze względu na to, że było strasznie nudno."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:25",
+      "text": "To jest mało. Nie wiem, nie powiedziałbym, nudno, raczej powiedziałbym, że przewidywalnie. W sensie nie było żadnego wow, ale też z drugiej strony wygląda jakby Google po prostu kontynuował swój pomysł. Być może szczęścią rzeczy nie zdążył, nie do końca mu wyszło jak chciał, ale to jest taki nie rewolucja, a rewolucja."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:56",
+      "text": "No ale właśnie, bo ja zaczynam się zastanawiać, przypomniałem sobie, jak oglądałem jakieś urywki, to przypomniałem sobie naszą rozmowę sprzed kilkunastu odcinków prawdopodobnie, kiedy mówiliśmy o wyjściu nowego dotneta. I wtedy mówiliśmy, że nikt się nie ekscytuje nowymi technologiami, właśnie nowymi wersjami dotneta, nowymi wersjami czegokolwiek. I mam wrażenie, że powoli dochodzimy do tego samego momentu w LLM-ach, to znaczy..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "01:27",
+      "text": "Ale Google I/O"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "01:30",
+      "text": "Ja wiem, ale wszyscy się spodziewali jednak, bo Google trochę znowu zostało z tyłu. Mieliśmy mieć oczywiście nasze ulubione kółeczko i oczekiwaliśmy w pewien sposób, że pojawi się coś wow, jeśli chodzi o nowe modele, o nowe narzędzia, o cokolwiek, tak żeby oni faktycznie nadgonili."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "01:49",
+      "text": "Znaczy, dobra, nowe narzędzia się pojawiły czy się nie pojawiły, to możemy dyskutować."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "01:54",
+      "text": "I na pewno wędziemy za chwilę."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "01:56",
+      "text": "Bo tu jednak coś jest. Dobra, może na od razu. gdyby nie ten. No to teoretycznie jest nowe narzędzie, chociaż to chyba jest rebranding, a nie nowe narzędzia."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "02:06",
+      "text": "No właśnie, bo mamy antygravity CLI, które zastąpiło Gemini CLI. Trochę inaczej się go wywołuje, trochę inaczej się go ściąga, ale realnie pod spodem to jest dokładnie to samo, czyli coś, co nadal nie jest na takim samym etapie, jak konkurencja moim zdaniem."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "02:26",
+      "text": "Ale dobrze to teraz ja zgaduję żeby nie było czyste zgadywanie to jest trochę pójście w stronę narzędzia bardziej uniwersalnego w sensie otwarcie sobie drogi na coś bardziej uniwersalnego czyli strzelam podkreślam strzelam że tam zaraz będą nie tylko modele Google tylko będziesz się podpinał w vertex może to już nawet jest żeby się podpinał do vertex i używał wiesz całej gamy."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "02:57",
+      "text": "Tylko czy Google chciałby na to pozwolić realnie, skoro mają te swoje narzędzia, mają swoje modele, które też chwalili się w czasie konferencji, że te modele mają niesamowitą ilość użytkowników codziennych? Myślę, że to jest trochę tak samo jak GitHub chwali się Copilotem, czyli Microsoft wepchnął go absolutnie wszędzie w Windowsie i dzięki temu mają miliardy użytkowników codziennie. Tak samo Google, że z to, że wepchnął tryb AI w wyszukiwarkę, no to mają miliardy użytkowników codziennie. Ale czy to oznacza, że za tym idzie jakość?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "03:34",
+      "text": "To było rzeczywiście słuszne, tu się zgodzę, pewnie nie. Odpowiedź brzmi. Ale z drugiej strony jest to, popatrz, jest to takie, wyjście, bo dobra, na chwilę się zatrzymamy, bo wiesz, głównie jak gadamy drogi słuchacze, wiesz, o tym doskonale, to głównie patrzymy na świat software development, wytwarzania, tam nie wiem, najdalej to już dochodzimy do cyber security, to powoli jest nasza granica rozmowy. Ale z drugiej strony właśnie Google jest tą firmą, która wypucha ten AI w te miejsca, których, jak gdyby Szary Kowalski, czy może Szary Smith, pewnie nawet bardziej, nie wiem, Darksmith, sobie ten, i on właśnie jest w wyszukiwarce, on jest coraz bardziej wepchnięty, powiedzmy wepchnięty w Androida, w sensie tam jest go teraz coraz więcej, o tym też było, że rzeczywiście go dopychają tam bardziej. Czy jest to skierowanie bardziej w kierunku, nazwijmy to biznesu szary użytkownika? Rzeczywiście trochę tu się zgodzę, zapomnienia, znaczy rzucili gdzieś tam deweloperów, tam nie ten, dali, przenazwali coś, nie do końca wiemy co to tak naprawdę oznacza, mamy wyrażenie, nic, albo inaczej. Są narzędzia na rynku, które mamy wyrażenie, że są lepsze. To są nasze opinie. Masz prawo mieć widok z faro zapraszam. Właśnie like, subskryb, opinie w komentarzach to jest ten moment, którym że już my nie powiedzieli. I tu rzeczywiście wracałem do tematu, rzeczywiście jest mam wrażenie, że oni po prostu nie dopchnęli. Z drugiej strony powiedziałaś to przed sesją, więc zadam ci to pytanie, żeby był już nie tam, a co myślisz o nowym modelu?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "05:28",
+      "text": "Ok, nowy model, czyli w tym momencie to co zostało. Tylko właśnie, czy chodzi ci o nowy model, to znaczy Gemini 3.5 Flash, czy chodzi ci o nową rodzinę, która się rodzi powoli, czyli Google Omni."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "05:43",
+      "text": "No i to dobrze, to zacznijmy od Gemini Flash, czyli jak gdyby kolejnej wersji modeli, które były wypuszczone w jesień."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "05:54",
+      "text": "Tak, no i właśnie ja coraz częściej mam takie wrażenie, że Google w porównaniu do konkurencji nie do końca celuje w developerów. To znaczy Cloud ewidentnie celuje tylko w developerów. OpenAI stara się zrobić coś generycznego. Jak to wychodzi ciężko powiedzieć, a Google mam wrażenie, że idzie... mocno użytkowników biurowych, no bo oni tam bardzo mocno się chwalą właśnie tą integracją z Google Workspace'em i z tym wszystkim, jak to świetnie działa. I nie wiem czy oni bardziej nie chcą pójść właśnie w stronę takiego użytkownika codziennego, właśnie który korzysta z wyszukiwarki i zostanie zastąpiony to trybem AI, albo właśnie w takiej codziennej pracy, niż w trakcie dewelopmentu ze względu na to, że Nie mówimy jeszcze o żadnych benchmarkach. Oni teoretycznie powiedzieli, że 3.5 Flash jest lepszy niż 3.1 Pro, a za miesiąc jeszcze wypuszczą 3.5 Pro. W związku z tym będzie jeszcze lepiej, ale mocno skupili się na szybkości odpowiedzi. Mocno skupili się na tym reasoningu faktycznie, który teoretycznie ma być coraz, coraz lepszy, ale nie widzę dużego przełożenia dla developerów."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "07:19",
+      "text": "No właśnie, okej, ale popatrz, że to jest model, który jest tani, przynajmniej takie jest założenie, że Flash to jest rodzina modeli tanich. Zakładam, że tak zostanie, widziałem, to chyba widziałeś cennik, ja jeszcze nie widziałem cennika. Ale to jest właśnie rodzina modeli tanich, które szybko odpowiadają. Nawet się dzisiaj gdzieś tam śmieliśmy, że tam Claude'y to są po prostu gadatliwe, a Flash potrafi być z Google'a po prostu taki kawa na ławę i nie tak. Rzeczywiście nie zdążyli, możemy to tak powiedzieć, to że za miesiąc będzie nowy model Pro to znaczy, że nie zdążyli, więc może będzie nawet jeszcze strzelmy 3-6 flash, bo się okaże, tam albo 3-5 lepszy, bo coś tam może nie do końca zdążyli, ale to jest o tyle fajne, że nadal są na tej samej architekturze modelu. Tak, bo inaczej zwiększył się nie ten numer jak to trzeba. Widać powstało kilka, których światła dziennego nie ujrzały, bo z 3,1 na 3,5 znaczy, że coś tam coś tam popróbowali, jak gdyby nie do końca uzyskują te lepsze efekty. Czy one celują rzeczywiście w deweloperów, to diabli wiedzą, bo dopóki nie poużywam, to powiem szczerze, że ciężko mi powiedzieć. Do tej pory mi się z 3,1, no przepraszam, 3... Jeden Flash bardzo dobrze współpracowało na prostych taskach, ale bardzo dobrze się współpracowały. Rzeczywiście on zawsze był szybki. W sensie on rzeczywiście był szybki, był sprawny i tak dalej. I tani. chyba. Więc zobaczymy czy rzeczywiście... O i kamerka tam się... O nie. Witamy po przerwie technicznej, kiedy to naprawiliśmy kamerkę. Więc wracając do tematu zobaczymy po prostu jak to będzie. Ale to, że to, że ten mocny jest nacisk na Android, a to, że mocny nacisk jest na wyszukiwarkę. Ja myślę, że to jest fajny ruch taki biznesowy. To nie jest ruch... Ja nadal uważam, że dopóki AI nie wyjdzie ze świata dewelopmentu to ten cały pomysł przegrał. sensie, samo generowanie kodu to znaczy, żeśmy nie wykorzystali tego potencjału."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "09:41",
+      "text": "Wiesz, tak naprawdę to może być właśnie dobrze powiązane z tym, o czym mówiliśmy w zeszłym tygodniu, czyli właśnie wejście w te bardziej wyspecjalizowane taski biznesowe, a nie developmentowe, tak żeby ten development nie był aż tak bardzo potrzebny, czyli gdzieś być może będziemy mieli agentów bezpośrednio łączących się z LLM, którzy będą rozwiązywali nam zadania. bez potrzeby dodatkowego kodowania, czyli gdzieś tam zaczynamy się przyzwyczajać do tych chatbotów w przeglądarkach, zaczynamy się przyzwyczajać nawet do terminala i mam wrażenie, coraz więcej osób, nawet nie technicznych, zaczyna sięgać powiedzmy trochę po ten terminal. Dzisiaj nagranie będzie bardzo ciekawe, ale, ale ostatecznie... Ostatecznie właśnie być może chodzi chodzi o to, próg wejścia był jak najprostszy, żeby nie trzeba było czekać aż deweloperzy wydevelopują jakiś dodatkowy soft, z którego będziemy mogli korzystać, tylko żeby można było po prostu wykupić tą subskrypcję nawet dla całej firmy i żeby to działało. Tak samo przecież to jest sprzedawane w Microsoftie przy Copilot, przy WorkIQ. Tam teoretycznie nie potrzebujesz niczego więcej, tylko po prostu wykupić subskrypcję i masz dostęp do wszystkiego i masz kilka różnych możliwości, jak możesz z tego korzystać."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "11:06",
+      "text": "No i tu jest, tu wiesz, tak mi się wydaje, w sensie Antropik robi niesamowito robotę w sensie w tym świecie developerów, nawet jak tam się teraz jesteśmy, jak widzicie w innym dziwnym miejscu jesteśmy na konferencji, to jak gadamy z różnymi ludźmi i z Polski i nie z Polski, to wszyscy mówią z natury jak model to clod. I to część mówi clod code, część mówi modele cloda w copilotzie, część mówi modele cloda. nie wiem w open codzie albo cokolwiek innym, z reguły jak dweloperów się pyta w czym kodują to w cloudzie. sumie to jest bardzo ciekawy marketing nie? zupełnie ten. Widentnie gimbal nam się odmowa posłuszeństwa, więc macie radochę z oglądania nas w dziwnych pozycjach. Odcinek nagrywany gdzieś to zawsze ten problem. Dobra wracając do tematu. Popatrz oczywiście też poszło jedno ogłoszenie, które Grzesiu nie powiedzieli chociaż coś wspomniałaś czy właśnie agenting framework. To też się pojawiło i to trochę można powiedzieć kopiujemy się wszyscy nawzajem."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "12:15",
+      "text": "No bo tak musi być,"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "12:17",
+      "text": "No, pewnie po prostu nie tak. Nikt w tej chwili nie wyskoczy z czymś nowym, ale jak wyskoczy, to trzy miesiące później wszyscy go skopiują. Wskrócie podsumowując tą konferencję, nadal twierdzę to samo, ewolucja, kolejny krok, rewolucji żadnej nie było."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "12:37",
+      "text": "Niestety, niestety. A ja mam jeszcze ostatnie pytanie, bo powiedzieliśmy trochę o modelach, a co sądzisz o samym toolingu, czyli całej rodzinie antygravity?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "12:48",
+      "text": "To tak zupełnie szczerze to ani mnie to ziembie ani grzeje. Tak naprawdę. Jest to narzędzie jak narzędzie. Działa troszeczkę inaczej. Dobra uważam, że fajnym krokiem jest to, łączą tak naprawdę właśnie przynajmniej nazwniczo łączą nazwę i Tula i Ida. Bo wbrew temu co ty przed chwilą powiedziałeś mi się wydaje, że bardzo dużo deweloporów nie wychodzi z IDE. sensie nawet jak pracuję w terminalu, bo nie wiem jak ty, ale nawet jak ja pracuję tym to jak robię komita to i tak mi łatwiej otworzyć IDA żeby przejrzeć To na pewno. Mam iluś wśród znajomych w pracy, nie w pracy, którzy mówią, że oni jak gdyby permanentnie siedzą, jak gdyby nawet w IDE, nawet jak mają te, że podrafią mieć na przykład Visual Studio Code w terminalowym oknie, odparte IDA. albo w oknie obok, żeby widzieć zmiany. Więc to, że Google robi też to unifikację, to się wydaje fajniejszym krokiem. W sensie to tak czysto marketingowo, że to będzie miało to samo pod spodem. No, pewnie tak."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "14:00",
+      "text": "No właśnie ja się ostatecznie zastanawiam, bo to może być fajny krok. Ja nie do końca rozumiem różnice pomiędzy niektórymi, ale to już sobie zostawimy może na kiedyś jak to już sobie na spokojnie wejdzie i pewnie sobie trochę poklikamy, ale jakby to jest ten sam krok, który zrobił GitHub, Czyli mamy GitHuba aplikację desktopową, mamy Copilot'a Visual Studio Code, no bo to jest jakby ta sama rodzina, mamy CLI'a i"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "14:27",
+      "text": "Jest to mamy ewentyczny widok."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "14:30",
+      "text": "Agentic View Visual Studio Code, dokładnie, czyli każdy może sobie teoretycznie wybrać właśnie to, na co ma ochotę. Teraz to samo mamy w AntyGravity. Prawdopodobnie nie słyszycie teraz co mówimy ze względu na dużą liczbę osób, która przychodzi obok, ale trudno. Mamy to samo w Project IDX i teraz znowu zaczynam sobie myśleć, nie wiem czy będę z tego korzystać. Część osób na pewno tak, ale na przykład w Claude'zie czy w Anthropicu tego nie ma."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "14:58",
+      "text": "No bo właśnie o to chodzi, bo oni tego nie mają. Oni nie mogą ci tego dać, bo oni nie mają swojego IDE. Oni są zależni od cudzych IDE."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "15:05",
+      "text": "No dobrze, ale właśnie Google jeszcze do niedawna też był zależny. Antygravity też było początkowo forkiem z Visual Studio Code."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "15:16",
+      "text": "Jest jego w tej chwili stan czy jest nadal forkiem czy już nie, ale nie ten. Ale właśnie zaczyna budować swoje IDE. Claude tego nie zrobił. Nie wiem czy to dobrze czy źle. To się okaże w przyszłości. Ale dzisiejszy odcinek będzie śmieszny. Ale właśnie to, że to zrobili ten krok i go łączą, bo zobacz, zrobili ten krok kiedyś, połączenie jakoś wyszło, teraz to przejście, jak gdyby powiedzieniem ludziom używasz antygravity. Będzie takie bardziej uniwersalne, nie że sam wewnątrz jednej firmy mówisz, o ja używam antygravity, a ja Gemini CLI. O to pewnie inne narzędzia. A pod spodem tak naprawdę, znaczy poza tym, że jedna ma okienkę a druga nie, no pod spodem pewnie ten tooling jest bardzo zbliżony, a będzie pewnie jeszcze bardziej."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "16:03",
+      "text": "To prawda, to prawda. Czyli co, może w końcu zaczniemy trochę więcej rozmawiać o narzędziach właśnie ze względu na to, że nowe modele nas już tak nie rajcują, nie, nie, ciężko jest tam, no wiadomo, każdy jest o te 2-3 procent lepszy. Może to jest, to jest też kwestia tego, że..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "16:22",
+      "text": "Widziałem jakąś plotkę chyba wczoraj, bo wszedł na Twitterze, że w najbliższych miesiącach ma wyjść. Google 3,5 Pro to jak gdyby potwierdzone, Google powiedział. Ma wyjść nowa, podobno już gdzieś tam ktoś wyczaił w CodeBase, że mają wyjść modele kolejne z Antropica. że jest gdzieś ktoś znowu też wyszukał coś tam, że GPT też już ma zapowiedziony model 5.6. Zobacz, że to jest nadal rozwój tej samej generacji modeli. Rewolucja, która wtedy, wtedy obaj będziemy się zachwycać modelami jak 3-4 Internetu i pewnie wy też zrody słuchacza wtedy, kiedy będzie nowa era, czyli wyjdzie GPT 6, wyjdzie tam Clot, cała linia 5, wyjdzie Gemini 4 i Diablo i powiedzmy Qwen. Nie pamiętam kto ich klon ma teraz."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "17:26",
+      "text": "albo w ogóle nowe rodziny, tak jak końcu zostaniemy to udostępniony. Teraz w Google jest Omni, być może coś... Pójdzie też w GPT. Zobaczymy."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "17:34",
+      "text": "Właśnie tak. I wtedy będzie tak naprawdę ta rozmowa o modelach, bo na razie to jest... Po prostu niedużo się tych modelach dzieje. Sami nie zmieniają mocno nazewnictwa, czyli jak gdyby... No chyba kończymy dzisiaj z przygodami. Dzisiaj bardzo wam dziękujemy za wysłuchanie, ale wyszło nam jak wyszło i nagrywamy jak nagrywamy. Mamy nadzieję, że ten odcinek się że się złoży. Dajcie znać co myślicie o dziwnym nagraniu."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "18:06",
+      "text": "przyszłym tygodniu tak czy inaczej widzimy się i prawdopodobnie w standardowej naszej konfiguracji."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "18:11",
+      "text": "To pożyczało."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "18:13",
+      "text": "Faktycznie. Do zobaczenia."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "18:16",
+      "text": "To jest nieźle, czuje."
+    }
+  ]
+}
