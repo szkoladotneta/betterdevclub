@@ -979,7 +979,7 @@ Pojawia się wątek asystentów finansowych (nowa opcja w ChatGPT) i oddawania A
             const [loading, setLoading] = useState(true);
 
             useEffect(() => {
-                const version = "c77a2818d3";
+                const version = "f3ee20beca";
                 Promise.all([
                     fetch(`/episodes.json?v=${version}`).then(res => res.json()),
                     fetch(`/speakers.json?v=${version}`).then(res => res.json())
