@@ -2,7 +2,6 @@
   {
     "id": 31,
     "num": "31",
-    "notPublished": true,
     "title": "Better Dev Club #31 - Junior w erze AI: bać się czy nie? Nowe role i dane z Ubera, Palantira, Google'a i innych",
     "date": "2026-06-04",
     "duration": "29:00",
@@ -40,9 +39,9 @@
       "software engineering"
     ],
     "platforms": {
-      "youtube": "",
-      "spotify": "",
-      "apple": ""
+      "youtube": "https://youtu.be/tsva0V5jxZo",
+      "spotify": "https://open.spotify.com/episode/5maiHsh0FWRAhUK50BgMBH?si=MO_EDYgwTle8e1eoEiALOA",
+      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club-31-junior-w-erze-ai-ba%C4%87-si%C4%99-czy-nie/id1848840540?i=1000771122263"
     },
     "resources": [
       {
@@ -66,7 +65,7 @@
         "label": "Tomasz Wiśniewski: AI Rebuilding Engineering Teams"
       }
     ],
-    "youtubeId": "",
+    "youtubeId": "tsva0V5jxZo",
     "guestKey": "piotrek"
   },
   {
