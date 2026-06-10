@@ -51,16 +51,29 @@
       },
       {
         "type": "link",
-        "url": "https://www.anthropic.com/news/claude-5-fable",
+        "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
         "label": "Anthropic: Introducing Fable 5 & Mythos 5",
         "description": "Oficjalne ogłoszenie nowej generacji modeli Claude, wprowadzających token-based pricing na stałe."
       },
       {
         "type": "link",
-        "url": "https://azure.microsoft.com/en-us/blog/introducing-microsoft-mai-models/",
-        "label": "Microsoft: Introducing MAI model family",
-        "description": "Ogłoszenie rodziny siedmiu własnych modeli od Microsoftu (MAI), w tym ultra-taniego modelu do kodowania."
+        "url": "https://microsoft.ai/news/today-were-announcing-3-new-world-class-mai-models-available-in-foundry/",
+        "label": "Announcing 3 new world class MAI models, available in Foundry",
+        "description": "Ogłoszenie rodziny siedmiu własnych modeli od Microsoftu (MAI)"
+      },
+      {
+        "type": "link",
+        "url": "https://microsoft.ai/news/introducingmai-code-1-flash/",
+        "label": "Introducing MAI-Code-1-Flash",
+        "description": "Nowy lekki model do kodowania od Microsoftu."
+      },
+      {
+        "type": "link",
+        "url": "https://www.microsoft.com/en-us/surface/devices/surface-rtx-spark-dev-box",
+        "label": "Microsoft Surface RTX Dev Box",
+        "description": "Informacje o nowym sprzęcie Microsoftu zaprojektowanym do lokalnego developmentu z AI."
       }
+
     ],
     "youtubeId": "",
     "guestKey": "piotrek"
