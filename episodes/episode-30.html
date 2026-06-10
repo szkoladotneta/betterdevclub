@@ -979,7 +979,7 @@ W odcinku wraca też temat toolingu: antygravity, IDE vs CLI, rosnącej roli age
             const [loading, setLoading] = useState(true);
 
             useEffect(() => {
-                const version = "720454ca79";
+                const version = "ac87f7dc13";
                 Promise.all([
                     fetch(`/episodes.json?v=${version}`).then(res => res.json()),
                     fetch(`/speakers.json?v=${version}`).then(res => res.json())
