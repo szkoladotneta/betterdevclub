@@ -1,0 +1,274 @@
+{
+  "transcript": [
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:00",
+      "text": "Cześć Kajtek!"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:01",
+      "text": "Cześć Piotrek!"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:03",
+      "text": "Jak tam nowe modele? Co już przetestowałeś?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:06",
+      "text": "No, przetestowałem Gemmę. Chciałem przetestować MAI. Częściowo przetestowałem MAI, ale nie do końca, ale o tym zaraz. No i tego Mythos czy Falusa... Nie, nie Falusa, przepraszam. On się jakoś inaczej nazywa. No, tego od Anthropic, on dzisiaj wyszedł, jeszcze... O, Fable, o..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:26",
+      "text": "Co to Fable? Fable, taka gra była. Gra była, jak możesz to mylić?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:43",
+      "text": "No, to tego nie testowałem. A ty?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:46",
+      "text": "To ja, jak gdyby udało mi się odpalić jeden request na Mythosie. Wybacz, drogi słuchaczu, ale słyszysz nas w czwartek, a u nas jest jeszcze wtorek. Bo na ogół w środę składamy podcast, więc u nas jest jeszcze wtorek, więc jeszcze za bardzo nie ten... Ale za to poczytałem statystyki. I naprawdę, słuchaj, pozwoliłem sobie..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "01:08",
+      "text": "No i co te statystyki ci powiedziały?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "01:12",
+      "text": "przeczytać, bo wyciągnąłem różne statystyki z różnych... statystyki, te, benchmarki, o. Podam wam różne kolumny z różnych tych, bo wyciągnąłem świadomie – wziąłem nie Gemmę, tylko wziąłem Flash 3.5. No bo jak gdyby niedawno wyszedł Flash 3.5 dopiero, żeśmy o tym gadali, w zasadzie wspomnieli, bo za bardzo się... znaczy Kajetan właśnie Google I/O dzisiaj mi wysłał, Google I/O. No ale dobra, ponieważ oczywiście każdy model z każdym w raporcie danej firmy wygrywa po prostu w cuglach, to postaram się znaleźć jakieś takie kawałki, które są w miarę rzetelne. No więc dobrze. Z oficjalnego release'u 3.5 Flash czekamy cały czas na 3.5 Pro. Jednym z wierszy w tabelce jest Terminal Bench 2.1 Agentic Terminal Coding. Co prawda tu jest Terminus 2.0 Harness. W opublikowanym tweecie oficjalnym Claude'a jest Agentic Coding Bench 2.1. I teraz ważna rzecz. Wyszła 5 wersja. Ja uważam, że to jest przełom, dlatego że zmienili numery. Teraz, dodając jeszcze cały kontekst. Fable 5 jest tak sprytny, że jak zadasz pytanie o biologię, cyber security i nie pamiętam, co jest trzecie, to cię wtedy skieruje do Opus 4.8, bo on pod spodem jest super pod cyber security i mógłby w ogóle nie ten... Więc jak jest cyber security, biologia, chemia i..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "02:49",
+      "text": "No, jakoś musiało się zmienić."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "03:18",
+      "text": "distillation, powiecie po polsku, destylacja? Destylacja. No, nawet nie wiem."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "03:23",
+      "text": "No tak, tylko po prostu w Polsce to się odpowiednio kojarzy."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "03:28",
+      "text": "Ale po prostu jest łatwo, 1410 i nie myślisz, nie? Dobra, nieważne. Dzisiaj mamy dobry dzień. Więc dobra, więc on w wypadku średniej podaje... o, ciekawe jak wyliczyć tę średnią... w wypadku średniej 5% requestów trafia do Opusa 4.8, żeby te safeguardy cię po prostu przekierowały. Ale dobra, wracając do numerków, bo po to jesteśmy – stwierdzenia bez danych są tylko opiniami."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "04:12",
+      "text": "I te lubimy najbardziej teoretycznie, ale niech będzie."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "04:12",
+      "text": "Więc wracając do tego, co próbowałem przeczytać – jesteśmy na Agentic Coding Terminal Bench 2.1, przy czym w Google jest Terminus 2 Harness, a w tym nie jest coś takiego dodane. Więc jak mnie spytacie, czym to się różni, już nie doczytałem. No to tak: Claude Mythos 5, Fable 5 ma 88%, ale z gwiazdką. I tu jest napisane, co oznacza ta gwiazdka, chyba mi się nie chce do końca czytać... A, gwiazdka to jest to, że jak tam rzeczy dotyczyły biologii, cyber security i innych rzeczy, to nie poszedł do tego modelu, co trzeba i dlatego ta gwiazdka. Więc ma 88%. Claude Opus 4.8 ma 82,7%, GPT 5.5 ma 83,4 % w Codex, a Gemini 3.1 Pro ma 70,7% w Gemini CLI. Natomiast według Google'a, to Gemini Pro ma 70,3%, czyli 0,4% różnicy – nie wiem, co to jest, pewnie ten Terminus 2 Harness. Claude Opus ma 66,1%, GPT 5.5 ma 78%, czyli ogólnie 5% słabsze niż w Claude. Teraz czytam ten sam benchmark, tylko z tym właśnie Harness-em albo bez tego Harness-u, a Gemini Flash jest na poziomie 76,2%. Czyli rzeczywiście, nadal ten najnowszy model jest najlepszy, ale to jest chyba jedyny, który znalazłem, który, słuchajcie, jest taki sam... A nie, jeszcze Humanity Last Exam, o którym żeśmy kiedyś dyskutowali. Jak, drogi słuchaczu, nie pamiętasz – dawno, na początku, z pół roku temu, w ogóle inna epoka – żeśmy dyskutowali o Humanity Last Exam."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "06:20",
+      "text": "Było, no."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "06:32",
+      "text": "To one są... Humanity Last Exam też pewna liczba, okazuje się, że wcale nie jest takie łatwe. No to tak: Humanity Last Exam, Gemini 3.5 Flash daje radę 40,2%, Claude Opus 46,9%, GPT 5.5 41,4% i to są dane z Google'a. A w Claude jest... Claude 3.5 Sonnet z toolami ma 64,5%. Weźmy sobie GPT 5.5, żebyśmy mieli jakiekolwiek porównanie 41,4%. O Jezu, i teraz zgubiłem... A dobra, tu było 41,4%. O, tu jest to samo. Uuu, wreszcie mamy coś, co można porównywać. I Gemini 3 Pro też tak samo – 44,4%. Więc na Humanity Last Exam nadal, nadal... No nie no, dobra, niby Fable 5 jest powyżej 50%, z toolami 64,5%, co znaczy, że koniec, Skynet. Dobra, przepraszam za ten strasznie długi wstęp i żonglowanie liczbami, ale dałem jakieś liczby. Nie mam bladego pojęcia szczerze, co to znaczy, zupełnie miarodajne. Słuchaczu, prywatna uwaga: ogólnie tu like, subscribe, koment w tym miejscu. Co myślisz o tym?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "08:09",
+      "text": "O ile tu jeszcze jesteś po tych wszystkich cyferkach."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "08:13",
+      "text": "Ale ty mówiłeś o falusie"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "08:19",
+      "text": "W sumie."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "08:22",
+      "text": "Tak, więc na pewno twój komentarz z miłą chęcią. Ja mówię szczerze, że zaczynam mieć wrażenie, że to nie ten... Ja nadal uważam, że na tych tanich modelach można dużo zrobić. Może inaczej: moja praca jest na tyle mała, znaczy na tyle prosta, że dużo na tych prostych modelach mogę zrobić, nie potrzebuję tego najnowszego. Ale oczywiście się mylę, bo ważne jest, żeby mieć najnowszy model, bo to daje najlepsze rezultaty i cały świat tak mówi, więc pewnie tak jest. Dobra, to co się pojawiło: mamy pierwszą firmę, która powiedziała, podbiła numer. Google się nie odważył, GPT się nie odważyło, Anthropic się właśnie odważył i podbił numer."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "09:13",
+      "text": "No i czy to będzie właśnie cokolwiek zmieniało? Moim zdaniem nie do końca. Jakby wszyscy wiesz... Fable miał być, czy Mythos miał być tym, którego boją się udostępnić. Jeszcze przecież miesiąc temu mówili, że boją się udostępnić, bo nie wiadomo co to będzie. No ale jednak udostępnili albo powoli będą udostępniać i domyślam się, że specjalnie niczego to nie zmieni."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "09:30",
+      "text": "No i nadal się boją. No nie no, zawęzili go, właśnie do cyber security i tak dalej. Czyli teraz uwaga: hakerzy właśnie próbują go obejść. Ja bym tak robił."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "09:57",
+      "text": "No właśnie, to jest jakby dla mnie totalnie... argumentacja z dupy, no za przeproszeniem. Bo ograniczymy to do cyber security, więc damy hakerom realnie miejsce do tego, żeby zaczęli go hakować i zaczęli się na nim uczyć, i realnie dali im tak naprawdę dodatkowe narzędzie do roboty. Nie kupuję tej argumentacji, nie kupuję tego wszystkiego, że oni się boją czegoś tam, bo to po prostu jest takie potężne. Niech sobie będzie potężne, to jest niesamowite. Fajnie, że to coraz lepsze i coraz ciekawsze problemy rozwiązuje, i daj Boże, żeby rozwiązało wszystkie problemy, które mamy na tym świecie. Ale no właśnie, jak już mówimy o codziennej pracy dewelopera, codziennej pracy DevOpsa czy codziennej pracy IT-guy'a, to realnie Claude 4.6 Sonnet dawał radę. Haiku w wielu przypadkach daje radę. Gemini 3.1 Flash dawało radę. W tej chwili właśnie Microsoft AI, czyli nowe modele MAI od Microsoftu zaczęły wychodzić. I model do kodowania jest podobno – z tego co Microsoft powiedział – na nowo wyuczony. Oni nie wzięli żadnego innego modelu, tylko uczyli go na świeżych danych, tak powiem. W związku z tym domyślam się, że mieli trochę tych danych już z samego Copilota i pewnie na Copilocie to wszystko się uczyło. I to jest w tej chwili model, który jest tańszy od Haiku, a jest na poziomie Sonneta 4.6. I jakby skoro..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "12:04",
+      "text": "W zasadzie to można powiedzieć, że to jest pierwszy model od Microsoftu. Wówczas nie było."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "12:08",
+      "text": "Tak, to jest pierwszy model od Microsoftu i Microsoft zaczął tworzyć swoje własne modele. W ostatnim tygodniu wypuścił ich siedem, bo wypuścił model właśnie do kodowania, dwa modele do generowania obrazów, model do transkrypcji i jeszcze jakieś dwa, nie pamiętam dokładnie. Thinking, oczywiście, czyli taki najbardziej, nazwijmy to, generyczny do codziennej pracy. Więc oni też wchodzą i też zaczynają mówić 'sprawdzam', co mnie osobiście bardzo cieszy, bo im więcej takich modeli będziemy mieli komercyjnych, tym lepiej dla całego tego światka. Ale to coś, co jeszcze ja sam usłyszałem i o czym ostatnio prowadziłem rozmowę na jednej konferencji: musimy pamiętać o tym, że dzisiaj używamy najgorszych modeli, jakich będziemy w życiu używać. Te modele, które dzisiaj wychodzą, to są najgorsze modele, bo one będą najgorszymi modelami za rok. A skoro już w tej chwili, jeszcze przed premierą kolejnych modeli, przed premierą Gemini 3.5 Pro, wciąż jesteśmy... przed premierą kolejnego GPT, jesteśmy w stanie już takie rzeczy robić. To znaczy, że możemy być tylko bardziej spokojni o to, co się będzie w przyszłości działo. No bo widzimy problem taki, że Fable będzie, domyślam się, ultra drogi. I tam nawet na tej subskrypcji 20 razy to będziemy musieli..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "13:55",
+      "text": "O, tu jest wiesz..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "13:58",
+      "text": "Koniec, moment."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "13:59",
+      "text": "Nie nie nie, nie no, no, no... On w ogóle, to uwaga: do 22 albo 23, nie pamiętam, on w ogóle liczy się w subskrypcji. Czyli tam 3 tygodnie, uprośćmy sobie życie, czy tam 2 tygodnie. A potem jest tylko token-based."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "14:03",
+      "text": "A, tak? Mhm. Oooo, widzisz, no kurde. A ja myślałem, że Anthropic na token-based przejdzie dopiero po IPO, dopiero jak wejdą na giełdę. A tu jednak już ich przycisnęli. No popatrz, no szokujące to jest. Ale ciekawostka."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "14:34",
+      "text": "Ale teraz zobacz w to, co jest w zasadzie... moim zdaniem to jest gwoździem dzisiejszego odcinka. To jest mój moment, uważam, że to jest ten moment, jak trzeba wycinać, to słuchajcie teraz te 10 sekund. Anthropic nadal mówi: największy, najbardziej wypasiony model – to jest ten model. A Google i Microsoft zaczynają mówić: mały model, dostosowany, wcale nie taki olbrzym, nie? Bo Google cały czas puszcza 3.5 Flasha. No sorry, żeśmy się śmiali 2 tygodnie temu, że nie zdążyli w ogóle z poprawą, a Flash kosztuje tyle samo, co kosztował poprzedni Flash. Jak patrzymy tam na token usage, to jest naprawdę tanie, nie? Ja nadal naprawdę uważam, że w większości zadań, które ja potrzebuję, jak sobie coś robię, to on mi bardzo często wystarcza. Tak zupełnie szczerze. Więcej mi czasu zajmuje ostatnio przejście przez sklep Apple'a niż to, co muszę zakodować w mojej aplikacji, którą sobie piszę po godzinach. Flash mi wystarczy. Nie używałem tego jeszcze, byłem na długim weekendzie, wyjechałem, to nie zdążyłem poużywać tego modelu od Microsoftu. Pewnie w tym tygodniu sobie go już poużywam. Chociażby po to, żeby się... No to okej, dobra, to w przyszłym tygodniu albo za dwa tygodnie..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "16:02",
+      "text": "Jeśli go już masz, bo ja go jeszcze nie mam."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "16:09",
+      "text": "No dobra, dobra, no za 3 tygodnie, whatever. Jak wyjdzie, to na pewno zacznę go używać, chociażby tylko po to, żeby sobie porównać. Jak przechodzimy z, nazwijmy to, licencji na token-based, to wszyscy będą patrzeć na te modele, o ile już nie patrzą. A Anthropic na to mówi: ten model – ten największy, najszerszy, najwspanialszy, kosztujący... dużo, żeby nie było."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "16:41",
+      "text": "Ale wiesz dlaczego, ale wiesz dlaczego? Bo to się sprowadza do mojego przejęzyczenia z samego początku. Oni są jeszcze przed wejściem na giełdę, więc oni muszą pokazać, kto na rynku ma największego."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "16:59",
+      "text": "No to oczywiście tak jest, ale popatrz, w sumie wiesz co, nawet powiedziałbym, że inna granica. Popatrz, OpenAI mówi, że nadal największy. Oni teraz trochę są w tyle, ale zaraz będą mieli nowy model. Na Polymarkecie obstawiam, że już jest ilość dat, które mają ten największy skok. No bo teraz trzeba będzie zaraz wydać, bo oni ostatnio z tymi modelami trochę gorzej. A z drugiej strony, nie wiem, nadal bardziej... obstawiam, że bardziej popularna jest strona ChatGPT niż strona Claude'a. Nie mówimy o deweloperach."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "17:38",
+      "text": "To na pewno, na pewno."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "17:40",
+      "text": "A ludzie od infry, czyli Google, Microsoft, AWS – czekamy na AWS – oni mówią 'mniejsze', bo oni palą prąd. Mega, w ogóle super, super."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "18:02",
+      "text": "Bardzo mi się zaczyna podobać tak naprawdę. Zaczynamy mieć realny wybór. Cały czas oczywiście na LinkedInie nasi najróżniejsi guru od AI i od agentów krzyczą, że ten lepszy, tamten lepszy, ten to się skończył, i tamten też się skończył, i w ogóle ten to już przegrał walkę, a tamten to dopiero się rozpędza. Realnie ta walka dopiero... znaczy walka – stabilizacja, mam wrażenie, że zaczyna się... zaczyna się powoli nam kształtować właśnie w kontekście tego, że w końcu mamy wybór. W końcu mamy wybór, niekoniecznie musimy wybierać... nie ma już tego parcia na to, że wybieramy tylko i wyłącznie to, co jest największe, najmocniejsze, najwspanialsze, tylko zaczynamy myśleć. Zaczynamy myśleć w tej całej pogoni nad tym, co jest realnie ważne. Jeżeli ktoś ma potrzebę – i na pewno będą mieli potrzebę – do tego, żeby użyć topowego modelu, to jest jak najbardziej potrzebny model, bo jeżeli mamy sprawdzić swoje aplikacje pod względem cyber security, to oczywiście tak, powinniśmy używać tego największego, najmocniejszego Opusa czy Fable. Ale jakby zaprzęganie Opusa czy jakiegokolwiek innego modelu właśnie do po prostu do programowania, no to jest po prostu głupota. To jest po prostu głupota i z tego się bardzo szybko wyleczymy w ciągu najbliższych kilku miesięcy, bo po prostu przestanie być nas stać na to, żeby sobie wesoło wrzucać każdego agenta bezpośrednio w największy, najwspanialszy model."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "19:46",
+      "text": "No tak, oczywiście że tak."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "19:49",
+      "text": "I wiesz, jeszcze dodatkowo będą różne ciekawe kroki w najbliższych miesiącach. Ja bardzo chętnie będę to obserwował, bo Microsoft też powiedział: jakby z jednej strony mniejsze modele mogą dawać radę, a z drugiej strony we współpracy z NVIDIĄ robią taką maszynę, taką maszynę do lokalnego developmentu. Już nie pamiętam, jak to się ma nazywać... jakiś tam Microsoft DevKit, Spark, tam ultra nie wiadomo co. Ogólnie rzecz biorąc wygląda to tak, jakby Xboksa walec rozjechał, bo jest taka góra jak od Xboksa i taki wielki talerz zrobili, prostokątny. Jeszcze nie można poznać ceny, domyślam się, że no tanio nie będzie, ale ma na pokładzie... ma być tam NVIDIA Spark czy coś takiego, w związku z tym... i chyba 128 przynajmniej giga zunifikowanej pamięci. Więc na tym już będzie można... już można poznać cenę? Jaka jest cena?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "20:49",
+      "text": "Już można poznać cenę. NVIDIA DGX, pakiet to jakieś 4700 dolarów."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "21:01",
+      "text": "To wcale nie jest tak drogo... Znaczy ja myślałem, że to będzie... ale czekaj, bo mówisz o..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "21:08",
+      "text": "No taki rozjechany... dobra, no... NVIDIA Brand, NVIDIA Operating System, NVIDIA DGX OS. Nie, to nie jest chyba to. Aż kajet mi spadł, aż spadł nam wątek."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "21:25",
+      "text": "O, już wiem, jak to się nazywa. To się nazywa Surface RTX Devbox czy jakoś tak."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "21:33",
+      "text": "A właśnie, to jest... tak, bo to nie jest ten, to nie jest Spark, tylko to jest ten, rzeczywiście to jest ten nowszy."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "21:42",
+      "text": "Tak, tak, i tego ceny jeszcze nie znamy, tak jak ten, ale można się na waitlistę zapisać. Jeśli ktoś by chciał być na tej samej liście co Satya Nadella, czyli CEO Microsoftu, bo on też wspomniał, że się zapisał na tę waitlistę, no to można. No i to jest maszynka, która będzie mogła pociągnąć nawet te najmocniejsze prawdopodobnie modele lokalne. I to jest kolejne ciekawe rozwiązanie. Być być może zamiast płacić za tokeny za jakiś czas firmy – bo nie wiem czy osoby prywatne, ale firmy – będą chciały postawić sobie też taką infrastrukturę. Zobaczymy, nie wiem, ciężko powiedzieć. Kiedyś poszliśmy w chmurę i część osób wróciła na on-premise, może tutaj też wrócimy na on-premise, bo po prostu będzie taniej."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "22:29",
+      "text": "A to... zobaczymy. Dzisiaj bym powiedział, że jeszcze to nie jest ten moment, bo te modele na tyle szybko się zmieniają, że boję się, że sprzęt pod spodem by się jeszcze za szybko starzał. Ale z drugiej strony, jeżeli rzeczywiście zacznie się dużo więcej pojawiać tych modeli takich... no tak jak używasz Gemmy ostatnio, próbujesz odpalać Gemmę. Jest nawet jakiś tam short, jak macie ochotę zobaczyć na YouTubie czy na TikToku. Kajetan się trochę opowiada, nawet ma super dyskusję z ludźmi, chyba na TikToku jest w ogóle jakaś super dyskusja z ludźmi, więc zachęcamy do polubienia albo skomentowania też po swojemu. Bo jak gdyby to... znaczy ja bym powiedział, że to jeszcze nie jest ten moment, bo jak gdyby właśnie za dużo tych nowych modeli wychodzi i trochę nie do końca wiemy, jak będzie. Ale z drugiej strony, ten sprzęt powstaje, to prawdopodobnie oznacza, że powoli zaraz się okaże, że to jest ten moment. Że ja się mylę, że to nie do końca jest tak, że to powoli... jest ten moment, że rzeczywiście można zacząć sprawdzać rzeczy lokalnie. No Kajetan sam mi messengerował, bo ja byłem na wakacjach, że ta Gemma to jest OK. Jest super, jest OK."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "23:58",
+      "text": "Daje radę jak najbardziej."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "24:02",
+      "text": "I to na twoim normalnym kompie, żeby było jasne. Z tego co ja wiem, nie masz najnowszego Maca, nie masz jakiejś maszyny z Windowsem, która jak gdyby pali nie wiadomo ile prądu. Masz normalnego Maca, nie wiem, którą wersję masz. O, zamknięty."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "24:17",
+      "text": "Z M2 Pro, więc to już jest kilkuletni Mac. PC-ta mam jeszcze starszego z jakimś RTX-em, ale takim, że nawet nie dało rady pokopać żadnych Bitcoinów swego czasu, ale mam 32 giga RAM-u i to jakby wystarcza na to, żeby odpalić. Wiadomo, że nie jest to nie wiadomo jaka prędkość, bo tam wyciągam powiedzmy do 30 tokenów na sekundę, więc no... jakby trzeba się uzbroić w cierpliwość. 30 tokenów na sekundę, no, więc nie jest to powalające, ale też nie jest tak źle. A jakość odpowiedzi jest naprawdę zaskakująco dobra. Na takiej dosyć jeszcze niewielkiej próbce. Na pewno będę to jeszcze testował, na pewno będę to jeszcze sprawdzał i zobaczymy, zobaczymy jak to będzie się rozwijało dalej."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "24:49",
+      "text": "30 tokenów na sekundę? No to nie jest zła, to nie jest... Żyjemy w ciekawych czasach."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "25:18",
+      "text": "No dobra, to na pewno, to na pewno. I ty też, drogi słuchaczu, daj nam znać, jakie rzeczy, jakie newsy na koniec najbardziej cię zaskoczyły i najbardziej cię zachwyciły w ostatnim czasie. Czego używasz teraz? Jak się ostatnio zmienia twój workflow, jeśli się zmienia? No i co, słyszymy się za tydzień."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "25:43",
+      "text": "Do zobaczenia, trzymajcie się, cześć!"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "25:48",
+      "text": "Na razie!"
+    }
+  ]
+}
