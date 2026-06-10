@@ -1,5 +1,74 @@
 [
   {
+    "id": 31,
+    "num": "31",
+    "title": "Better Dev Club #31 - Junior w erze AI: bać się czy nie? Nowe role i dane z Ubera, Palantira, Google'a i innych",
+    "date": "2026-06-04",
+    "duration": "29:00",
+    "desc": "Kajetan i Piotrek zaczynają od prostego pytania: czy gdybyś był dzisiaj juniorem, bałbyś się o swoją przyszłość? Gadamy szczerze o tym, że strach w branży IT zawsze był – ale dziś algorytmy i clickbait go podbijają.\n\nNastępnie rozkładamy na czynniki pierwsze nowe role, które wyrasta w erze AI: AI Engineer, Forward Deployed Engineer, RAG Engineer, GenCoding Engineer, Agent Orchestrator i Governance Engineer. Omawiamy konkretne dane z Ubera – deweloperzy przepalili roczny budżet AI w 4 miesiące, 70% kodu jest pisane z pomocą AI, ale nikomu nie udało się udowodnić, że wartość biznesowa wzrosła proporcjonalnie do ilości kodu.\n\nDyskutujemy też o eksplozji commitów na GitHubie (300M → 500M → prawie 1,5 miliarda w 2026), rosnących kosztach subskrypcji AI i o tym, czy juniorzy mogą sobie w ogóle pozwolić na te narzędzia po podwyżkach cen GitHuba i Anthropica.",
+    "agenda": [
+      "00:00 - [Intro] Gdybyś był juniorem dzisiaj, czy bałbyś się?",
+      "03:21 - [Strach] Świat zaprojektowany na clickbait i fear-driven content",
+      "05:08 - [Opozycja] CEO Anthropica vs Sundar Pichai: AI wytnie juniorów czy ich wzmocni?",
+      "07:34 - [Nowe role] AI Engineer i Forward Deployed Engineer",
+      "09:45 - [Nowe role] RAG Engineer, GenCoding Engineer, Agent Orchestrator",
+      "11:08 - [Governance] AI Governance Engineer, AI Act i prawa autorskie do designów z AI",
+      "13:09 - [Dane z Ubera] Roczny budżet AI przepalony w 4 miesiące",
+      "16:11 - [Claude Code] 84% inżynierów Ubera używa AI, 11% backend updates bez człowieka",
+      "16:57 - [GitHub] Eksplozja commitów: ilość kodu ≠ jakość. Jensen Huang i statystyki GitHuba",
+      "20:02 - [Vibe coding] Budowanie aplikacji Flutter bez doświadczenia i spalony budżet Copilota",
+      "22:08 - [Koszty] GitHub bez darmowego Copilota dla studentów, rosnące ceny Anthropica i OpenAI",
+      "24:06 - [Porada] Czy edukacja IT kiedykolwiek była za darmo? Jak junior ma się przygotować?"
+    ],
+    "tags": [
+      "betterdevclub",
+      "ai",
+      "junior",
+      "kariera",
+      "llm",
+      "anthropic",
+      "google",
+      "uber",
+      "github",
+      "claude",
+      "copilot",
+      "flutter",
+      "vibe coding",
+      "forward deployed engineer",
+      "ai governance",
+      "software engineering"
+    ],
+    "platforms": {
+      "youtube": "https://youtu.be/tsva0V5jxZo",
+      "spotify": "https://open.spotify.com/episode/5maiHsh0FWRAhUK50BgMBH?si=MO_EDYgwTle8e1eoEiALOA",
+      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club-31-junior-w-erze-ai-ba%C4%87-si%C4%99-czy-nie/id1848840540?i=1000771122263"
+    },
+    "resources": [
+      {
+        "type": "link",
+        "url": "https://www.forbes.com/sites/janakirammsv/2026/05/17/uber-burns-its-2026-ai-budget-in-four-months-on-claude-code/",
+        "label": "Forbes: Uber developers burned through entire 2026 AI budget in 4 months"
+      },
+      {
+        "type": "link",
+        "url": "https://blog.palantir.com/a-day-in-the-life-of-a-palantir-forward-deployed-software-engineer-45ef2de257b1",
+        "label": "Palantir: A Day in the Life of a Forward Deployed Software Engineer"
+      },
+      {
+        "type": "link",
+        "url": "https://www.reddit.com/r/csMajors/comments/1kjz31p/arent_palantir_forward_deployed_engineers/",
+        "label": "Reddit: Aren't Palantir Forward Deployed Engineers?"
+      },
+      {
+        "type": "link",
+        "url": "https://tomaszwisniewski.com/thoughts/ai/2026/05/26/ai-rebuilding-engineering-teams.html",
+        "label": "Tomasz Wiśniewski: AI Rebuilding Engineering Teams"
+      }
+    ],
+    "youtubeId": "tsva0V5jxZo",
+    "guestKey": "piotrek"
+  },
+  {
     "id": 30,
     "num": "30",
     "notPublished": true,

@@ -1,0 +1,254 @@
+{
+  "transcript": [
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:00",
+      "text": "Cześć Piotrek."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:01",
+      "text": "Cześć Kajtek."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:03",
+      "text": "Piotrek, gdybyś dzisiaj juniorem, to czy bałbyś się o swoją przyszłość?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:09",
+      "text": "Nie wiem. No nie, wróć, na pewno bym się bał."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:13",
+      "text": "Na pewno byś się bał. Dlaczego byś się bał?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "00:14",
+      "text": "Na 100%. Skoro się bałem, jak byłem juniorem, to w litości, no to dlaczego teraz miałbym się, znaczy nie wydaje mi się, żeby coś się takiego w moim życiu zmieniło, że nagle, jakbyś mnie przewinął, to tam, nie wiem, 20 lat w tył, to bym się nie bał o swoje przyszłości. A ty się nie bałeś?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:35",
+      "text": "Ja się bardzo bałem, bo ja nie potrafiłem programować w ogóle, jak wszedłem do pierwszej pracy. To był mój duży problem. Wyszedłem ze studiów, bo studia myślę, że do dzisiaj mają ten problem, że one nie uczą programowania. Nie uczą rzeczy, tak samo jak liceum ogólnokształcące macie ogólnie wykształcić. Taki studia w wielu przypadkach, jakby sama ta podstawa programowa, ona nie ma za zadanie, to jest moje oczywiście prywatne zdanie, wszyscy mogą mieć inne. Studia nie mają za zadania przygotować się do pracy. I moje na pewno nie przygotowały mnie do pracy. Moje nie nauczyły mnie niczego, co byłoby przydatne w pracy. Przynajmniej na juniorskim poziomie."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "01:16",
+      "text": "To ja nie mam aż takich wyrażeń. Ja tu bardzo serdecznie chciałbym pozdrowić Krzysztofa Masakowskiego i Pawła Kupisa z Pawłem, z reguły ja nie się widzę, więc jak lubię łatwiej Krzysztofa. To jest dwóch ludzi, którzy nauczyło mnie kodować w dotnecie. Udowodnili mi, że w półtorej godzinie ćwiczeń jestem w stanie zrobić to i w win-upi. Naprawdę duży szacunek, bardzo dziękuję. Nauczyło mnie, to mnie naprawdę nauczyło, że w półtorej godzinie jestem w stanie napisać. Uwierz mi, cuda byłem w stanie napisać. Więc jak gdyby ja nie miałem takiego tego, ale miałem wiele różnych dziwnych rzeczy, bo na przykład to, że umiałem programować, to wcale nie wydawało mi się, że to, że umiałem napisać algoritm albo nawet półprzezroczyste okno. To może nie spowodowało, że nagle szedłem do pracy jako ten odważny i tak dalej, a potem jak poszedłem to w ogóle trafiłem na głęboko w wodę. Nagle się okazało, że to win-up i nagle mi się... Wszyscy mówili, że to będzie bzdura i nikt tego nie będzie używał, a ja po trzech miesiącach swoich... Nie, chyba czterech miesiącach. W swojej prawdziwej pracy musiałem napisać wtyczkę w tym diabełstwie, które używało, mogło używać w tym ludzi. Więc odpowiadałem na twoje pytania."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "02:28",
+      "text": "To widzisz, to ja zaczynałem, to ja jeszcze, ja jeszcze tylko jak już tak to sobie wspominamy, to ja jak zacząłem uczyć się C-Sharp, znaczy miałem jakiś tam przedmiot C-Sharp na studiach, ale ten przedmiot polegał na tym, że przychodziliśmy na laborki, dostawaliśmy skrypt na kartkach i ten skrypt mieliśmy przepisać do komputera, do Visual Studio i zobaczyć czy to się uruchamia. No uruchamiało się, no bo przepisywaliśmy kropkę w kropkę. Ale nic mnie to nie nauczyło i moja pierwsza praca w dotnecie to była przy Silverlightie, który rok później umarł albo może dwa lata później umarł. Miałem dużo szczęścia, że się w ogóle utrzymałem realnie. No ale właśnie, wracając do oryginalnego pytania, gdybyś był dzisiaj juniorem, to trzebałbyś się bardziej niż szybałeś 20 lat temu?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "03:21",
+      "text": "To chyba jest takie gdyba, nie wiem czy bym się bał bardziej. Teraz mamy trochę kawałek świata, który jest nastawiony na to, że tam wszystko żyje strachem. Żeby nawet nie było, w sensie drodzy słuchacze to jest ten moment jak chcecie, lajka, subskriba i tak dalej to bardzo poprosimy, komentarz bardzo poprosimy, ale użyję jako przykładu naszego podcastu. I wiecie drodzy słuchacze, czasami się bawimy typu z okładkami albo z tytułami. Sami patrzymy w ogóle jak działa algorytm YouTube'a. To ja mam takie wrażenie i mam na to chyba nawet po parę cios danych. I to ci parę razy pokazywałem, że jak jest taki wbudowany strach clickbaitowy, to się odcinek lepiej klika. Więc dzisiaj ten świat jest tak zbudowany, pewnie bym się bał bardziej, bo świat jest zbudowany na tym, że rzeczywiście trochę bardziej się boję. Więc myślę, że dobra. Odpowiadając na pytanie, tak bałbym się bardziej. A jak nie bardziej, to i tak się dużo bałem, więc..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "04:25",
+      "text": "A myślisz, że w związku z tym, realnie są powody do tego, żeby się bać? Czy to jeśli chodzi o juniora, czy o seniora, który jest osadzony mocno w jednej technologii?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "04:38",
+      "text": "Nie wiem, wiesz, jest chyba aż taki, aż dzisiaj chyba nie mam takiej dnia na wyrzucanie takich opinii z tego, więc dzisiaj się chyba powstrzymam. Nie wiem, może powiem na szczerze przyznam, nie wiem, czy jest aż tak stres, jak bałem. Ten świat się w tej chwili zmienia, ale z drugiej strony, wiesz, jak gadaćmy nawet z zeszłym tygodniu, nie no, to ten świat się tak bardzo pozmieniał w ostatnich latach, że... Jedna technologia w lewo, jedna technologia w prawo. Dobrze będzie."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "05:08",
+      "text": "Jakby też mam takie odczucia, ale mimo wszystko świat jest w tej chwili bardzo mocno podzielony i ta sztuczna inteligencja jeszcze bardziej, mam wrażenie, że jeszcze większe podziały tworzy, bo wiesz, jak mieliśmy przez lata podziały związane z tym, że dżawowcy się naśmiewali z dotnetowców, dotnetowcy się naśmiewali z dżawowców, to ostatecznie to wszystko było, wszyscy wiedzieli, że to jest w żartach. Wszyscy wiedzieli, że właściwie to większego znaczenia nie ma, ale teraz mamy dwie największe albo dwie jedne z większych firm, które pracują przy sztucznej inteligencji, czyli mamy Anthropica i mamy Google. Dlaczego o nich mówię akurat, a nie o innych? Bo ich CEO właśnie stoją w bardzo dużej opozycji do siebie. To znaczy CEO Anthropica mówi... AI wytnie wszystkich. AI jeszcze kilka lat, a właściwie juniorów to już właściwie tam, to już nie ma co zbierać, ale jeszcze chwila i prawdopodobnie w ogóle możemy zapomnieć. A Google i... A Sam bardzo mocno zatrudnia to swoją drogą. To jest to, wiadomo, jeśli chodzi o to, to jakby ten, kto zaufa prezesa... Nie, może lepiej nie będę tego mówił, bo jeszcze prezesi będą tego słuchać."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "06:19",
+      "text": "A sam pod zamocą zatrują."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "06:34",
+      "text": "Ale z drugiej strony CEO Sundar Picai jest CEO, chyba jest CEO Google'a czy alfabetu, mówi, o nie, nie, nie, nie, to zupełnie nie w tę stronę, to AI właśnie wzmocni tych juniorów, bo pierwszy raz w życiu mają taką szansę, żeby tak szybko się rozwijać. I tylko jest kwestia tego, czy wykorzystają tę szansę. No i komu wierzyć?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "07:03",
+      "text": "Tak jest to, jak zwykle pewnie prawda jest gdzieś po środku, bo zobacz, że już dzisiaj, chyba jesteśmy ile, trzy lata po ewolucji, trzy lata odkąd zasadzie taki ten, dobra, whatever. Po pandemii czas płynie tak szybko, że człowiek się, że się trochę zorientowuje, bo się zaczęły już pojawiać nowe role i te role, to wiesz, to zaczyna widać wzrost, w sensie są dane, w których widać, że się pojawiało takie role jak"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "07:17",
+      "text": "Prawie cztery, bo to w dwudziestym drugim."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "07:34",
+      "text": "AI engineer, który próbuje, nazwijmy tego rolą jest, spróbuję zdefiniować tę rolę, żeby to nie było, bo AI engineer to może być wszystko dzisiaj. Ale to jest człowiek, który próbuje zintegrować LLM w produktach. Czyli jakieś ragi, fine tuning, prompty, czaty i tak dalej. To rzeczywiście z tego co tam są jakieś dane, to głównie są senior level. nieźmiesznie jak być AI Inżynerem, senior level po trzech latach istnienia czegoś, ale to możemy sobie dyskutować. To senior level możesz być z innego powodu, więc to nie tan. Więc to jest jakiś taki, po pierwsze taka rola, która się pojawiła i które jakby są na to ogłoszenie. Rzeczywiście są. Zresztą nie oszukujmy się wiele firm dzisiaj takich ludzi szuka, bo chce dokładać LLM-y do swoich produktów. Chcę, nadal chcę. Jak odpalasz dowolny nowy serwis, uwierz mi zawsze czat tam jest."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "08:33",
+      "text": "No No dobra, no tak, no powiedzmy, tak jakby no tak, biznes, dobrze. Biznes tego chce, czy klienci tego chcą, jest druga sprawa, to jest jeszcze."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "08:41",
+      "text": "daleko nie szukając... Druga rola, która się pojawiła to jest to co zaczął Palantir czyli tak naprawdę to się nazywa Forward Deployed Engineer bardzo mi się ta nazwa podoba to jest nowa rola w tej chwili chyba zarówno OpenAI już na pewno ma Antropik wydaje mi się, że też takich ludzi zatrudnia jeszcze parę innych firm też umiem nazwać, że już takie nawet na Linkedinie dostałem taką propozycję na Forward Deployed Engineer czyli ludzi, którzy mają wejść w środowisko klienta i pomóc mu to AI poużywać, tak żeby było lepiej. Kiedyś nazwalibyśmy taką rolę konsultant, ale to jest passe i teraz mamy forward deployment. Wiadomo, że trzeba mieć jakieś skill. Tak, konsultant wyrożeniowiec."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "09:40",
+      "text": "konsultant wdrożeniowiec."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "09:45",
+      "text": "Mamy ludzi, którzy tak naprawdę specjalizują się, kiedyś pewnie byśmy powiedzieli, że data engineer, a teraz pewnie nazwiemy go RAG engineer albo cokolwiek takiego, czyli człowiek, który zajmuje się, powiedziałbym, uporządkowaniem trochę danych i upewnieniem się, że ten... Output jest wystarczający. Nie? No pojawiały się też ludzie, którzy, nie wiem jak by ich nazwać, nie? To są różne nazwy, żeśmy kiedyś go nazwali, my żeśmy go nazwali Gen, Jezus maja, Gen Inżynier, o, już zapomniałem, co? Tak? To..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "10:33",
+      "text": "GENCODING ENGINEER GENCODING"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "10:38",
+      "text": "Tak to się nazywa też jak gdyby pojawia się nazwy jako Vibe Engineering pojawia się chyba o Jezu jak to się nazywa agent, agent, master, nie agent, master pewnie Orkestrator, o pewnie agent, Orkestrator, o tak czyli człowiek, który jak gdyby buduje, zarządza wiesz z tymi tłumem agentów, którzy wykonują robotę, nie. No i jest jeszcze coś, ktoś, kto pewnie zna to chyba"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "10:50",
+      "text": "Orkiestrator."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "11:08",
+      "text": "Trotworks to wprowadził, ale też kojarzę, że jest chyba w Shopify, gdzieś jeszcze pewnie też, czyli Konteksy Inżynier. I to są w ogóle nowe które rosną. A jeszcze, przepraszam, jeszcze jedna ważna rola, która się w ogóle pojawia, u mnie w firmie też się ostatnio pojawia, to jest człowiek od, tego musiałem spojrzeć w notatkach, żeby z nią znaleźć, czyli człowiek, który jak gdyby jest od governanceu. I wbrew pozorom to wcale nie takiego."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "11:34",
+      "text": "ogóle od prawa, wiadomo. No to jest chyba coś, co będzie bardzo ważne tak naprawdę."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "11:41",
+      "text": "Ja Ci podam jakiś śmieszny przykład, czy możesz użyć designów z wigmy. Nie w sensie, że AR Ci zrobił design albo w stitch. Czy jak je użyjesz w produkcie to jest OK czy nie OK. Czy one łamią prawa autorskie czy nie?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "12:00",
+      "text": "Nie mam zielonego pojęcia."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "12:02",
+      "text": "Nie? No to wiesz, to wbrew pozorom jest ważne pytanie, czy jak ci taka figma, stitch albo cokolwiek innego wypluje design i ty go zaimplementujesz, no wiadomo, dobra. Jak jesteśmy na etapie Kajetan Piotrek, który robił stronę podcastu, to mamy to totalnie, przepraszam bardzo, wrażę co, pobijemy się w pieśń i tyle. Ale jak jesteś dużą firmą, która wytwarza produkt jeszcze jak gdyby customer, znaczy do..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "12:04",
+      "text": "No. w pompie po prostu."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "12:31",
+      "text": "końcowego użytkownika to zaczyna się robić, wiesz, trudne pytanie, nie? Czy jak ktoś przyjdzie i nam, wiesz, rzuci, że to łamie prawa autorskie, a my powiemy, że AI to zrobił, to przejdzie, nie przejdzie, nie? Ja już nie mówię o takich rzeczach, jak, wiesz, jak AI Act, jak, nie wiem, jakieś pewnie normy ISO, albo cokolwiek takiego. No i security, I security, która też tu jest. To taka rola teraz, dobra chyba w wiele wrzuciłem w jeden worek, nie? Ale tu rośnie."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "13:09",
+      "text": "Rośnie, rośnie i tych ofert też się pojawia coraz więcej. Są dane, które pokazują, że to jest w tej chwili, jakby te role, o których wspomniałeś, nazwijmy to role z łatką AI, to są role, które rosną zdecydowanie najszybciej rok do roku. A ja z drugiej strony cały czas mam pewien... Tutaj dysonans, chodzi o to, co mam myśleć w ogóle o tym wszystkim, bo w wielu przypadkach ludzie szukają tych AI-inżynierów, agent-orkestratorów i tak dalej, a z drugiej strony mamy informację z Ubera. Nie wiem, czy ona jest w 100 % potwierdzona. Ale mówi się o tym, że deweloperzy..."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "14:04",
+      "text": "Zrobimy sprytny zabieg, cytując na przykład Forbes."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "14:09",
+      "text": "O, świetnie. Doskonale i już rączki umyte."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "14:13",
+      "text": "Drogi słuchacze, ten news jest w wielu miejscach, więc możemy sobie sprzeć na przykład Forbesa i damy link do Forbesa i będzie..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "14:24",
+      "text": "Doskonale. I co tam wyczytaliśmy? Że deweloperzy w Uberze w 4 miesiące wykorzystali cały budżet AI-owy, który mieli przeznaczone na cały 26 rok. I to spoko. Czyli jadą z AI-em na grubo. Tyle że jest drugi news."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "14:47",
+      "text": "Dobra, poczekaj, to ja przetoczę dane, bo wykorzystali cały budżet, nie oczekujmy, że wszyscy będą czytali to wszystko, bo to bez sensu. Co oznacza z danych, które tam są w tych artykułach się pojawiają? To oznacza, że koszt miesięczny na pojedynczego inżyniera jest między 150 a 250 dolców średnio. z power-userami, którzy spalają pomiędzy 500 a 2000 Naga, czyli jak gdyby jeden z tych, jak gdyby ten mówi, że potrafił spalić z 1200 w dwugodzinnej sesji. jak gdyby, ten, rozumiem, nie? Ale tam pojawia się druga rzecz, nie? Tam się pojawia druga rzecz pod tytułem, że nie do końca umieją udowodnić, czy dowożył więcej. Znaczy dowożył więcej kodu, tu nie ma wątpliwości, tam są jakieś nawet, po pierwsze tam jest powiedziane jeszcze tak, że 95 inżynierów w Uberze używa, to dużo, nie oszukuj, znaczy, dobra, dużo, mało, 70 % committed code jest jak gdyby"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "15:59",
+      "text": "Mhm."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "16:11",
+      "text": "powiązane z tymi narzędziami i mają nawet 11 % live backend updates, które zostały stworzone tylko i wyłącznie przez agentów, bez człowieka w tym. To jest to, co spalili, bo oni udostępnili Claude Code w koniec 2025. I im wzrosło tak naprawdę użycie z 32 % inżynierów używających agenty coding w lutym do 84 % na koniec marca."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "16:57",
+      "text": "No i właśnie, ja mam duży problem z tym, bo coraz częściej i oczywiście nie byłbym sobą, gdybym że tak powiem, kija w to mrowisko też nie włożył, ale coraz częściej też na LinkedInie widzę posty, jak ludzie opisują, wiesz, na przykład... Subskrypcja Cloda za 200 dolarów to jest w ogóle must have dla wszystkich, bo ktoś tam sobie wyliczył, że za te 200 dolarów to on spala 1700 dolarów. Więc to w ogóle jak za darmo. Oczywiście to jest jak za darmo w związku z tym. Tyle że ja i że to jest w ogóle i że wszyscy powinni z tego korzystać, wszyscy deweloperzy, bo to jest taka świetna sprawa. I ja się tylko zacząłem zastanawiać i też oczywiście to skomentowałem, że to jest bardzo ciekawe, że zaczęliśmy oceniać jakość na podstawie ilości przepalonych pieniędzy, a nie dowiezionej wartości. I nagle ci autorzy faktycznie bardzo często się wycofują z tej rozmowy, bo mówią, no nie no tak. krótkim okresie to ciężko jest ocenić czy to lepiej, czy to gorzej. Tak samo jak Jensen Huang, który pokazał jak szybko, właściwie swoją drogą nie wiem dlaczego akurat Jensen Huang się chwalił tymi, czy pokazywał te wykresy, których pokazywał ile komitów, ile PR-ów, ile kodu przybywa na GitHubie. Jakby to jest z jednej strony pokazane dlaczego GitHub ma teraz problemy. A z drugiej strony ludzie mówią, no to w końcu jesteśmy w tym miejscu, którym AI dowozi nam kot. Tylko co z tego, że on nam dowozi kot? Jak ten kot nadal może być gównianej jakości."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "19:02",
+      "text": "Dobra, to uzupełniając trochę liczbami, żeśmy się dzisiaj przygotowali z Kajetanem, to oznacza, że to co padło w 2023 było 300 milionów komitów, 2024 było 400 milionów, w 2025 500 milionów i pierwsze miesiące 2026 niemalże potroiły tą wartość z poprzedniego roku. To jest taki skok. Co oznacza, że w ciągu tych miesięcy wyprodukowaliśmy więcej niż 20-25 na GitHubie."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "19:51",
+      "text": "I niestety, boję się, że przynajmniej 2 trzeciestego kodu powinno wylądować w koszu."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "20:02",
+      "text": "Po prostu nie wiem. To chyba skomplikowane. Czy powinno wylądować w koszu czy nie? No dobra. Weźmy, wezmę z siebie na przykład. Kajetan wie, bo testuje. Ja sobie piszę aplikację na iPhone'a. Nigdy w życiu nie napisałem aplikacji na iPhone'a. Napiszę ją we Flutterze. W życiu bym jej nie napisał. W życiu by mi się nie chciało poświęcić tyle czasu, żeby to napisać. A jest to coś, co pomyślałem sobie może ułatwi mi życie. I myślę, że tłum ludzi zresztą boże, jak gdyby wskaże, nie wiem czy Kajetan publicznie przyzna czy nie, co on tam wymyśla, ale jak gdyby Kajetan też pisze takie rzeczy. Nie, bo nagle przychodzi nam pomysł do głowy i po prostu się klapie. A w sumie mam tą subskrypcję. Dzisiaj się naśmiewałem słuchaczu, słuchacz na 4 czerwca, ale u nas jest dzisiaj 2 czerwca. albo słuchasz nas nawet później. Ja już przepaliłem, ponieważ zmieniła się licencja na githubie, to sobie pomarę do tutaj. Przeszliśmy już z tych request bytes na niestety token based. To ja się uczciwie przyznam, że ja swojej prywatnej licencji Copilot'a potrafiłem nie przepalić w ciągu miesiąca. Permanentnie zostawałem na poziomie 60, zostawało mi 40%, 30%. I nie dlatego, że nie nachrzaniałem, tylko po prostu zbudowałem swój workflow pod request based i kazałem mu się dopytywać permanentnie, w związku z tym cały czas jechałem w jednym requestie i kazałem mu mielić, aż byłem happy. I to potrafiłem mieć sesję po 2, 3, 4 godziny, zależy jak często odpowiadałem. A dzisiaj jest 2 czerwca, dorabiam jakieś 2 drobiazgi do tej mojej aplikacji. Naprawdę drobiazgi, to znaczy... Próbuję zrobić tak, żeby już zasubmitować do sklepu. Jeszcze trochę poprawić leje od trzech rzeczy, które mi nie pasują i przepaliłem 24 % swojego budżetu."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "22:08",
+      "text": "Tak, no to ja się też przyznam, że ja też zacząłem budować, ale to bardziej pod kątem eksperymentów i na pewno się nimi będę chwalił. Być może porozmawiam z tobą w podcaście, być może na LinkedInie, ale jeszcze chcę sobie dać kilka dni. Natomiast dzisiaj zacząłem, bo wczoraj nie miałem czasu z prywatnej subskrypcji skorzystać, dzisiaj zacząłem i dzisiaj też już 1,4 tokenów przepaliłem, a działałem tylko i wyłącznie na haiku. tylko i wyłącznie na haiku, czyli na jednym z tańszych modeli. Więc jest grubo. Ale no właśnie i teraz zamykając tak naprawdę ostatnie pytanie. Jeżeli juniorzy się zaczynają bać, bo zawsze się bali i my się baliśmy i ci juniorzy, którzy teraz wchodzą na rynek pracy też będą się bali, być może jeszcze bardziej ze względu na to, co się dzieje na świecie, co się dzieje w branży, co się dzieje... w różnych innych aspektach. Jak oni się mają przygotować? Bo to jest w tej chwili dla mnie naprawdę ważne pytanie i jeszcze nie znam na nie odpowiedzi, bo do tej pory te subskrypcje były super tanie i one dawały super dużo. Jeszcze Copilot dawał dla studentów w ogóle tego Copilota za darmo. Github dawał Copilota za darmo dla studentów. W tej chwili Github nie daje już nic studentom za darmo. GitHub zwiększył ceny, zatem oczywiście będą szły wzrosty cen wszystkich innych dostawców, bo i Anthropic będzie podnosił ceny, i Gemini będzie podnosił, czy Google będzie podnosił ceny, i OpenAI też będzie podnosił ceny i jesteśmy tego w 100 % pewni. To jak ci biedni juniorzy mają się tak naprawdę w tej chwili przygotować do tych nowych ról, skoro będą musieli tyle zapłacić, żeby w ogóle móc korzystać z tego wszystkiego?"
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "24:06",
+      "text": "To może inaczej. Ja bym się na sekundę zatrzymał. IT przez wiele lat było taką fajną zabawką, że dużo nie trzeba było włożyć. Gdyby kasy, żeby się tego nauczyć. bardzo wielu zawodach tak nie jest. sensie, musisz włożyć trochę własnej roboty. Jeszcze taki fight można to nazwać. Może to trochę unormalizowanie. Jeszcze jak patrzymy z perspektywy Polski, gdzie studia są za darmo, zasadzie całą edukację możesz przejść totalnie za darmo. Pomimo to, że praktyce pewnie nikt... Kto nas słucha nie przeszedł całej edukacji za darmo, bo się pojawiły dodatkowe lekcje angielskiego, korepetycje z czegoś, zajęcia sportowe i tym podobnych dziwnych rzeczy. Nie jako tata mogę powiedzieć, że moje dzieci wcale nie darmowej edukacji. I to pomijając to, że moja córka chodzi do społecznego liceum, a mój syn chodzi do publicznego. Czasami się śmieję, że to... Wcale nie oznacza, że jedno jest tak naprawdę tańsze niż drugie. Akurat u nich jest, ale gdyby pewnie, jakbym się ogólnie zastanawiał to już by było gorzej. Jak się łączy te wszystkie zajęcia, patrz się na to wszystko to wcale nie. Ale dobra. Więc ta edukacja po prostu nigdy nie była za darmo i może inaczej była na jakimś kredyt, może część tych rzeczy należy zrobić. Z drugiej strony ja widzę niesamowity potencjał. bo teraz naprawdę możesz pobudować. Ok, wydać to, niech będzie 200 dolarów na tą licencję CLODA, która być może rzeczywiście w tej chwili jest najbardziej optymalna. Nie wiem, to nie jest porada marketingowa, nic takiego. prostu nie wiem, pewnie sam muszę teraz zrobić seryseć, co jest najbardziej korzystne. Pewnie Chińczycy wyjdą najbardziej korzystnie, ale nie wiem czy chcę ich wspierać, inny problem. Więc może to... Po prostu trochę pieniędzy rzeczywiście trzeba wyłożyć, bo nadal ta potęga za to generative AI jest. Nadal możesz zrobić rzeczy, których w życiu byś nie zrobił. Nadal możesz się pokierować, to o czym żeśmy dyskutowali w wielu odcinkach, nawet shortsach, czy dyskusjach naszych na prezentacjach czy czegokolwiek takiego. Nadal ten potencjał olbrzymi jest. On nie zamyka w ogóle ci... drogi, nawet wręcz powiedziałbym, że ją otwiera. To, że pojawiają się nowe odłamy, to trzeba trochę doczytać. Teraz nie oszukujmy się. Jak chcesz zbudować raga i oczekujesz, że zbudujesz go w jeden wieczór za pomocą Generative AI i to będzie twoje przygotowanie do zawodu, no to jak taki drogi słuchacz miałeś plan, to mogę ci od razu powiedzieć, wiesz, wszyscy inni też mogą tak zrobić. więc prawdopodobnie to, że ty tak zrobisz, to nie da ci tej przewagi konkurencyjnej. No więc wracamy tak naprawdę do tego, co my mieliśmy. Trzeba włożyć coś. Czasami to jest praca, czasami to jest zbudowanie marki osobistej, czasami to jest nauczenie się czegoś, czasami doczytanie jakiejś książki, czasami pobudowanie. To ten najważniejszy etap, w mam wrażenie, że jak gadam z niektórymi młodymi ludźmi, mam wrażenie, że ginie, że oni... jak gdyby słyszał te wszystkie wiesz, że AI buduje wszystko, więc chcą budować za pomocą AI'a, ale żeby dobrze budować za pomocą AI'a, to musisz zbudować ileś warstw podstaw, Wiedzieć co to jest CI-CD, wiedzieć co to jest testowanie, wiedzieć jakie są rodzaje testów. Jak gdyby zbudować ten cały obudowy, Który jak gadamy czasami o workflow, to umieć zbudować ten workflow dla AI'a, on, no czy dobrze, dla jakiegoś agenta... kodującego, żeby on się poruszał w tym wąskim obszarze i nie wyskakiwał zawarty. Ale żeby to porobić trzeba samemu pobudować. Trzeba poćwiczyć, posprawdzać, zobaczyć, dotknąć. To się w ogóle nie zmieniło. jest nadal tak samo. po prostu nadal trzeba niestety przejść ileś tam kroków dziennie i tyle."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "28:35",
+      "text": "Przekonujesz mnie. Mam nadzieję i mam nadzieję, że również Piotrek was przekonał. Więc my już dzisiaj kończymy. Dziękujemy wam bardzo, że byliście z nami jak zwykle. A teraz po prostu do roboty."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "28:50",
+      "text": "I komentowania. I komentowania. A ja je można komentować."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "28:55",
+      "text": "Trzymajcie się, do zobaczenia."
+    },
+    {
+      "speaker": "Piotr Stapp",
+      "time": "28:57",
+      "text": "Do zobaczenia za tydzień. Cześć!"
+    }
+  ]
+}
