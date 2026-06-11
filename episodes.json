@@ -4,7 +4,6 @@
     "num": "32",
     "title": "Better Dev Club #32 - Wojna benchmarków, nowe modele MAI i powrót do on-premise?",
     "date": "2026-06-11",
-    "notPublished": true,
     "duration": "25:50",
     "desc": "Kajetan i Piotrek biorą pod lupę najświeższą wojnę na benchmarki wywołaną głośną premierą rodziny modeli Claude 5 (w tym Mythos 5, Fable 5 i Opus 4.8) oraz niespodziewanym debiutem własnych modeli MAI od Microsoftu. Rozmawiamy o twardych liczbach z Agentic Coding Terminal Bench 2.1 oraz Humanity Last Exam, zderzając je z realnymi kosztami. Czy czeka nas przejście z subskrypcji na token-based billing? \n\nW drugiej części odcinka analizujemy niesamowity model do kodowania od Microsoftu, który ma być tańszy od Haiku i dorównywać Sonnetowi 4.6. Zastanawiamy się też, czy wysokie ceny tokenów w chmurze nie popchną firm do powrotu do on-premise, zwłaszcza w dobie premier sprzętu takiego jak Surface RTX Devbox czy lokalnego uruchamiania modeli pokroju Google Gemma bezpośrednio na naszych Macach. „Dzisiaj używamy najgorszych modeli, jakich będziemy w życiu używać”.",
     "agenda": [
@@ -38,9 +37,9 @@
       "cybersecurity"
     ],
     "platforms": {
-      "youtube": "",
-      "spotify": "",
-      "apple": ""
+      "youtube": "https://youtu.be/b5IROxTh6ds",
+      "spotify": "https://open.spotify.com/episode/00XyyGtrcmrL3S4Bd2faPQ?si=4oYyQFKmSMeq4EXWQbXu7Q",
+      "apple": "https://podcasts.apple.com/pl/podcast/better-dev-club-32-wojna-benchmark%C3%B3w-nowe-modele-mai/id1848840540?i=1000772171189"
     },
     "resources": [
       {
@@ -75,7 +74,7 @@
       }
 
     ],
-    "youtubeId": "",
+    "youtubeId": "b5IROxTh6ds",
     "guestKey": "piotrek"
   },
   {
