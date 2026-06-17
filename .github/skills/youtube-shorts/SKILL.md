@@ -1,34 +1,47 @@
----
 name: youtube-shorts
-description: 'Generate dynamic YouTube Shorts scripts and metadata based on our Better Dev Club channel strategy. Use when the user asks for a youtube short, scripts for shorts, news-jacking, or short video ideas based on tech news.'
----
-
-# YouTube Shorts Generator for Better Dev Club
-
-This skill orchestrates the creation of YouTube Shorts scripts using the channel's growth strategy (`grow/YOUTUBE_STRATEGY.md`) and previous conversational patterns. It ensures every YouTube Short is perfectly tuned to the channel's style, targeting retention, controversy, and algorithm discovery.
-
-## When to use
-- When the user asks you to create a "YouTube Short" script based on an article, URL, or tech news.
-- When the user asks you to act as their "YouTube Growth Hacker".
-- When creating a promotional script for an episode or a "news-jacking" short.
-
-## Core Rules & Checklists
-1. **Analyze the source:** Read the provided URL or text to extract the main tech news.
-2. **Link to previous episodes:** Always search `episodes.json` or `transcriptions/*.json` for related topics and mention them to build a Shorts-to-Full-Episode Funnel. 
-3. **Pacing and Structure:** The script should be ~45 seconds long and divided into blocks:
-    - **[0:00 - 0:08] HOOK:** Controversial, shocking, or surprising fast opening. NEVER say "Hi" or introduce the speakers. Do not ask users to check the description or links here - it kills watch time.
-    - *(Wskazówka montażowa / Editing hint)*: Quick visual/meme prompt.
-    - **[0:08 - 0:28] MIĘSO (The Meat):** Fast-paced tech info. Focus on conflict, cost, security, or dramatic changes.
-    - **[0:28 - 0:35] KONTROWERSJA / TŁO (Controversy / Context):** Elevate the stakes.
-    - **[0:35 - 0:45] CTA i PYTANIE (Call to action):** Ask a definitive question to farm comments, and tell them to subscribe. Links to sources are mentioned here or displayed as text at the very end.
-4. **Metadata (Description & Tags):**
-    - Generate a clickbaity description with relevant links.
-    - Create a Pinned Comment template that asks an engaging question.
-    - Provide 10-15 exact hashtags combining narrow topics and broad topics (e.g. `#ai`, `#it`, `#programowanie`, `#podcastit`, `#betterdevclub`).
-5. **Titles:** Propose 3 title options. Use the viral formula `[Chwytliwy Krótki Tytuł] w #[Narzędzie] #[InneNarzędzie] #betterdevclub #shorts` if appropriate.
-
-## Procedure
-1. If the user provides a URL or topic, use tools (`fetch_webpage`, `read_file`, `grep_search`) to grab context from the internet and from `episodes.json` about related episodes.
-2. Draft the script utilizing the 4-part structure outlined above.
-3. Keep the tone natural, dynamic, and highly pragmatic—you are talking to experienced IT professionals.
-4. Output the 3 Title options, the Script, and the Metadata checklist.
+description: 'Generate dynamic YouTube Shorts scripts. Heavy focus. Practical value. No fluff. Actionable code or engineering truth.'
+context:
+  channel: Better Dev Club
+  target_audience: Experienced developers, IT professionals
+when_to_use:
+  - User ask Short script from URL or news
+  - User need YouTube Growth Hacker
+value_engine:
+  rule: Kill theory. Give real tool, real code, or fix real bug in 30 seconds.
+  paths:
+    bad_vs_good: Show shitcode. Show clean code.
+    three_steps: Step 1, Step 2, Step 3. Done.
+    production_trap: Tool look good. Production go boom. Why.
+    cli_review: Run command. See result.
+rules:
+  data_gathering:
+    - Use tools. Fetch text from source.
+    - Match episodes.json or transcriptions for funnel.
+  structure:
+    total_time: Max 45 seconds
+    parts:
+      hook:
+        time: "[0:00 - 0:08]"
+        action: Punch pain point. No greetings. No intro. No early CTA.
+        edit_hint: Show code diff or meme.
+      meat:
+        time: "[0:08 - 0:28]"
+        action: Pure code, CLI, config, or real technical change. No general talk.
+      reality_check:
+        time: "[0:28 - 0:35]"
+        action: High stakes. Cost, security, or production failure risks.
+      cta:
+        time: "[0:35 - 0:45]"
+        action: Hard technical question for comments. Command to subscribe.
+  metadata:
+    - Clickbaity description with relevant links.
+    - Pinned comment template with engaging question.
+    - 10 to 15 tags mixing narrow and broad topics (e.g., #ai, #it, #programowanie, #betterdevclub).
+  titles:
+    - 3 options.
+    - Formula: "[Chwytliwy Krótki Tytuł] w #[Narzędzie] #[InneNarzędzie] #betterdevclub #shorts"
+procedure:
+  1: Read tech source using tools. Read episodes.json.
+  2: Pick Value Engine path.
+  3: Write script. Use dev slang. No marketing words.
+  4: Output chosen path, 3 titles, script, metadata.

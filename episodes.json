@@ -1,5 +1,88 @@
 [
   {
+    "id": 33,
+    "num": "33",
+    "notPublished": true,
+    "title": "Better Dev Club #33 - Pstryk i nie ma AI: co ma zrobić EU a co Polska?",
+    "date": "2026-06-18",
+    "duration": "21:50",
+    "desc": "Kajetan i Piotrek omawiają dynamiczną sytuację wokół nagłej premiery i jeszcze szybszego zniknięcia modelu Claude 5 Fable. Zastanawiają się nad powiązanym z tym ryzykiem geopolitycznym oraz uzależnieniem Europy od amerykańskich dostawców technologii AI. Czy Trump lub jakikolwiek inny rząd może jednym pstryknięciem odciąć nas od modeli? \n\nW drugiej części odcinka dyskutują o problemie vendor lock-inu w erze sztucznej inteligencji, europejskiej kulturze regulacji (AI Act) kosztem innowacji oraz o tym, dlaczego założyciele ElevenLabs musieli przenieść się do USA. Analizują programy takie jak AI Giga Factories, pomysły zakupu Anthropic przez Unię oraz rolę polskich inicjatyw, by na koniec zaapelować: nie zakochujcie się w modelach, lecz w stabilnych procesach.",
+    "agenda": [
+      "00:00 - [Intro] Trudne tematy polityczne w podcaście technologicznym",
+      "01:07 - [Znikający Fable] Premiera Fable 5 i nagła dezaktualizacja poprzedniego odcinka",
+      "02:00 - [Geopolityka] Czy rządy mogą wyłączać modele komercyjne? Ryzyko zależności od USA",
+      "04:10 - [Debata w sieci] Komentarze i tweet prof. Piotra Sankowskiego o europejskim narzekaniu",
+      "07:15 - [Regulacje vs Innowacje] ElevenLabs i ucieczka innowatorów do USA przed AI Actem",
+      "09:46 - [Głos z Europy] Co mówią brytyjscy, holenderscy i francuscy politycy o zależności technologicznej?",
+      "10:35 - [Kupmy Anthropic!] Szalony pomysł Piotra na uniezależnienie Europy",
+      "13:15 - [Polska innowacyjność] Jak rozkładają się środki publiczne w Polsce i rola programów unijnych",
+      "14:15 - [AI Giga Factories] Rządowy program budowy infrastruktury AI w Europie i jego tempo",
+      "17:10 - [Vendor locking] Dlaczego nie wolno uzależniać się od jednego dostawcy AI",
+      "19:07 - [Wsparcie lokalne] Dlaczego powinniśmy inwestować w Mistrala, Bielika i słuchać mądrych ludzi",
+      "21:18 - [Outro] Linki, podsumowanie i zaproszenie do dyskusji w komentarzach"
+    ],
+    "tags": [
+      "betterdevclub",
+      "ai",
+      "geopolitics",
+      "fable 5",
+      "anthropic",
+      "ideas ncbr",
+      "ai act",
+      "elevenlabs",
+      "giga factories",
+      "vendor locking",
+      "mistral",
+      "bielik",
+      "innovation"
+    ],
+    "platforms": {
+      "youtube": "TODO",
+      "spotify": "TODO",
+      "apple": "TODO"
+    },
+    "resources": [
+      {
+        "type": "link",
+        "url": "https://www.euronews.com/2026/06/13/wake-up-call-europe-reacts-to-anthropic-halting-access-to-its-fable-5-and-mythos-5-ai-mode",
+        "label": "'Wake-up call': Europe reacts to Anthropic halting access to Fable 5 and Mythos 5",
+        "description": "Artykuł Euronews na temat reakcji Europy na zablokowanie dostępu do najnowszych modeli Anthropic."
+      },
+      {
+        "type": "link",
+        "url": "https://x.com/piotrsankowski/status/2065795919623438546",
+        "label": "Piotr Sankowski na X",
+        "description": "Komentarz prof. Piotra Sankowskiego dotyczący nagłego zablokowania dostępu do modelu Fable."
+      },
+      {
+        "type": "link",
+        "url": "https://x.com/tonyszko/status/2066092136529879505",
+        "label": "Tomasz Onyszko na X",
+        "description": "Wypowiedź Tomasza Onyszki na temat niezależności i szans Polski oraz Europy w wyścigu technologicznym."
+      },
+      {
+        "type": "link",
+        "url": "https://x.com/AlexanderKnigge/status/2066416974494917075",
+        "label": "Alexander Knigge na X",
+        "description": "Wpis Alexandra Knigge o nadchodzącym przełomowym tygodniu dla AI."
+      },
+      {
+        "type": "link",
+        "url": "https://mistral.ai/",
+        "label": "Mistral AI",
+        "description": "Europejska firma tworząca konkurencyjne, otwartoźródłowe modele językowe, będąca kluczowym graczem w unijnej strategii AI."
+      },
+      {
+        "type": "link",
+        "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-factories",
+        "label": "AI Factories",
+        "description": "Program Komisji Europejskiej mający na celu wsparcie infrastruktury i datacenter dla modeli sztucznej inteligencji o wartości 20 miliardów euro."
+      }
+    ],
+    "youtubeId": "cMyUR7mNLOA",
+    "guestKey": "piotrek"
+  },
+  {
     "id": 32,
     "num": "32",
     "title": "Better Dev Club #32 - Wojna benchmarków, nowe modele MAI i powrót do on-premise?",
