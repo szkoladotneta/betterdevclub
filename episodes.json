@@ -2,7 +2,6 @@
   {
     "id": 33,
     "num": "33",
-    "notPublished": true,
     "title": "Better Dev Club #33 - Pstryk i nie ma AI: co ma zrobić EU a co Polska?",
     "date": "2026-06-18",
     "duration": "21:50",
@@ -37,9 +36,9 @@
       "innovation"
     ],
     "platforms": {
-      "youtube": "TODO",
-      "spotify": "TODO",
-      "apple": "TODO"
+      "youtube": "https://youtu.be/b3ioeHYYThQ",
+      "spotify": "https://open.spotify.com/episode/5lIWNcJBbW7NTOeD27Ez16?si=Wgrzg_mZQEavuni5cXfooQ",
+      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club-33-pstryk-i-nie-ma-ai-co-ma-zrobi%C4%87-eu-a-co-polska/id1848840540?i=1000773231622"
     },
     "resources": [
       {
@@ -79,7 +78,7 @@
         "description": "Program Komisji Europejskiej mający na celu wsparcie infrastruktury i datacenter dla modeli sztucznej inteligencji o wartości 20 miliardów euro."
       }
     ],
-    "youtubeId": "cMyUR7mNLOA",
+    "youtubeId": "b3ioeHYYThQ",
     "guestKey": "piotrek"
   },
   {
