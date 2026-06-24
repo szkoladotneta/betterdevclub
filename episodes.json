@@ -1,5 +1,85 @@
 [
   {
+    "id": 34,
+    "num": "34",
+    "title": "Better Dev Club #34 - Czas się rozliczyć: które przewidywania o AI trafiliśmy?",
+    "date": "2026-06-25",
+    "notPublished": true,
+    "duration": "38:28",
+    "desc": "Po ponad pół roku regularnego, cotygodniowego podcastu Kajetan i Piotrek robią rachunek sumienia i wracają do przewidywań, które obiecali sprawdzić „w czerwcu”. Zaczynają od Agentic AI Foundation, która właśnie ogłosiła przyjęcie 43 nowych członków (w tym F5, GoDaddy, Stripe i TRON oraz instytucji takich jak US Army) — czy fundacja faktycznie napędza adopcję otwartych standardów agentowych jak agents.md i MCP, czy działa wolno niczym Unia Europejska?\n\nW dalszej części odcinka rozliczają kolejne tezy: zapowiadany „koniec vibe codingu” (i nieprzyjęty termin gen-coding), spór monorepo vs multirepo i mit jak największego okna kontekstowego, migrację legacy od zera (Cobol → dotnet, akcje IBM i historia dotnetomaniaka), wejście modeli lokalnych na Maca, eksplozję małych modeli (Gemma, model w Chrome, MAI-Code-1-Flash, Gemini Flash) oraz pytanie, czy Claude Code spadnie z pierwszego miejsca przed IPO Anthropic. Szczerze przyznają, gdzie trafili, a gdzie mocno się pomylili.",
+    "agenda": [
+      "00:00 - [Intro] Pół roku podcastu i czas na rozliczenie przewidywań",
+      "00:56 - [Agentic AI Foundation] Nowa strona, 43 nowych członków i adopcja agents.md oraz MCP",
+      "04:02 - [Membership] Associate members, US Army i pomysł na zostanie ambasadorem AAIF",
+      "06:14 - [Koniec vibe codingu?] Dlaczego termin gen-coding się nie przyjął",
+      "07:49 - [Vibe coding żyje] Przesunięcie w stronę dyscypliny, testów i workflow",
+      "11:56 - [Monorepo vs multirepo] Czy agenci ogarniają więcej niż jedno repozytorium?",
+      "14:22 - [Okno kontekstowe] Mit „im więcej kontekstu, tym lepiej” i analogia do megapikseli",
+      "17:37 - [Migracja legacy] Cobol do dotneta, akcje IBM i dotnetomaniak po latach",
+      "22:15 - [Modele lokalne] Tylko dla freaków? Gemma na Macu i koszt sprzętu",
+      "25:33 - [Małe modele] Gemma, model w Chrome, MAI-Code-1-Flash i Gemini Flash",
+      "30:07 - [Czy Claude Code spadnie z #1?] Marketing, IPO Anthropic i wojna narzędzi",
+      "33:20 - [Tooling i UX] Claude vs ekosystem Microsoftu (M365, Copilot CLI, VS Code)",
+      "37:06 - [Outro] Autoreklama, wakacyjne plany i zaproszenie do dyskusji"
+    ],
+    "tags": [
+      "betterdevclub",
+      "ai",
+      "predykcje",
+      "agentic ai foundation",
+      "agents.md",
+      "mcp",
+      "vibe coding",
+      "gen-coding",
+      "monorepo",
+      "legacy",
+      "cobol",
+      "local models",
+      "gemma",
+      "claude code",
+      "anthropic"
+    ],
+    "platforms": {
+      "youtube": "",
+      "spotify": "",
+      "apple": ""
+    },
+    "resources": [
+      {
+        "type": "link",
+        "url": "https://www.linuxfoundation.org/press/agentic-ai-foundation-adds-43-new-members-as-enterprise-and-government-adoption-of-open-agent-standards-accelerates",
+        "label": "Agentic AI Foundation Adds 43 New Members",
+        "description": "Komunikat Linux Foundation o przyjęciu 43 nowych członków AAIF (m.in. F5, GoDaddy, Stripe, TRON oraz instytucji rządowych i akademickich), pokazujący rosnącą adopcję otwartych standardów agentowych."
+      },
+      {
+        "type": "link",
+        "url": "https://aaif.io/",
+        "label": "Agentic AI Foundation",
+        "description": "Strona fundacji, której projektami założycielskimi są MCP, goose i AGENTS.md."
+      },
+      {
+        "type": "link",
+        "url": "https://agents.md/",
+        "label": "AGENTS.md",
+        "description": "Otwarty standard pliku konfiguracyjnego dla agentów AI, zdobywający rynek niezależnie od narzędzia."
+      },
+      {
+        "type": "link",
+        "url": "https://modelcontextprotocol.io/",
+        "label": "Model Context Protocol (MCP)",
+        "description": "Otwarty protokół do łączenia modeli i agentów z narzędziami oraz źródłami danych."
+      },
+      {
+        "type": "link",
+        "url": "https://microsoft.ai/news/introducingmai-code-1-flash/",
+        "label": "Introducing MAI-Code-1-Flash",
+        "description": "Lekki, wyspecjalizowany model do kodowania od Microsoftu, omawiany w kontekście wzrostu małych modeli."
+      }
+    ],
+    "youtubeId": "",
+    "guestKey": "piotrek"
+  },
+  {
     "id": 33,
     "num": "33",
     "title": "Better Dev Club #33 - Pstryk i nie ma AI: co ma zrobić EU a co Polska?",
