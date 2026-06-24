@@ -979,7 +979,7 @@ W drugiej części odcinka analizujemy niesamowity model do kodowania od Microso
             const [loading, setLoading] = useState(true);
 
             useEffect(() => {
-                const version = "885c78f327";
+                const version = "eaeccfc380";
                 Promise.all([
                     fetch(`/episodes.json?v=${version}`).then(res => res.json()),
                     fetch(`/speakers.json?v=${version}`).then(res => res.json())
