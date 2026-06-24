@@ -1,0 +1,364 @@
+{
+  "transcript": [
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:00",
+      "text": "Cześć Piotrek."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:01",
+      "text": "Cześć Kajtek."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:03",
+      "text": "Piotrek, zauważyłeś, że prowadzimy nasz podcast już ponad pół roku. Nieprzerwanie od pół roku, co tydzień w czwartek wychodzą nowe odcinki, ale to... No dobra, no trochę więcej, ale to jest coś, co muszę ci powiedzieć zupełnie szczerze, że robię najdłużej regularnie, jeśli chodzi o rzeczy poza pracowe, poza rodzinne."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:12",
+      "text": "Więcej! Od listopada!"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:29",
+      "text": "Także uważam to już za wielki sukces. Dziękuję ci bardzo, że mnie za to, do tego motywujesz. Ale w związku z tym przyszedł czas na pewne podsumowania. To znaczy jakie podsumowania? W kilku odcinkach powiedzieliśmy, że będziemy do czegoś wracać w czerwcu albo za pół roku, albo kiedyś tam. No i tak się składa, że mamy czerwiec, właściwie mamy już końcówkę czerwca, dlatego jest to ostatni moment, żeby nagrać ten odcinek. I pora się rozliczyć."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:56",
+      "text": "bo miało być w ogóle w czerwcu. Wiele rzeczy mówiliśmy, że w czerwcu to sprawdzimy. jak zwykle on track. Dobra, to pierwsze pytanie, tym, żeśmy chyba gadali w grudniu, ale też gadaliśmy o tym kilka razy później. sensie, wspomnieliśmy chyba ze 3 odcinki temu o Agentic AI Foundation. I powiedzieliśmy chyba jawnie, że sprawdzimy to w czerwcu i miałem to wbite w kalendarz stąd."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "01:01",
+      "text": "Dokładnie. Dokładnie."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "01:22",
+      "text": "moje przypomnienie, że musimy to rozliczyć. No więc słuchaj, co myślisz?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "01:31",
+      "text": "To znaczy ja myślę, że... najpierw, co wiem? Wiem, że zmienili stronę. Z tego, co widziałem, to chyba wywajbowali stronę. Bo ma dużo gradientów, dużo emotikonek, ma dużo różnych fajnych rzeczy, więc mają nową stronę. Więc coś się na pewno zmieniło. Natomiast jeśli chodzi o same projekty, które mają pod swoimi skrzydłami, jeśli chodzi o rozwój tych projektów... No to ja nie wiem, trochę mam wrażenie, że tak nawiązując do odcinka z zeszłego tygodnia, Agentic AI Foundation działa mniej więcej jak Unia Europejska, powoli, ale może też o to chodzi, bo ja jakby póki co nie widzę żadnej różnicy."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "02:20",
+      "text": "To ja wyciągnę ze strony tak naprawdę ich parę liczb. Po pierwsze jest ogłoszenie o tym, że dołączyło bardzo wielu nowych członków, tej chwili ponad 43 i sumarycznie mają, ojej zgubiłem liczb, ale mają już dużo. I dołączają takie duże organizacje, w sensie dołącza na przykład F5, które być może kojarzycie jako takie coś, co z reguły jak się chciało mieć Load Balancer, F5 szczególnie w dużych firmach. Dołączyło Gold 80, które na pewno kojarzycie. Dołączył Stripe, dołączył Tron i to na przykład jako ci Gold Members. Dołączyło bardzo dużo Silver Memberów. Silver Memberami już zaczyna się robić problem, bo ja nie do końca kojarzę te nazwy. Poza ostatnim, bo jest ich sporo i kojarzę VeriSign. Natomiast fajne jest to z associate members, bo tam dołączył uniwersytety, dołączył jakby takie naukowe, sensie fundacje naukowe, amerykańskie chyba, prawy niedobre, nie wszystkie amerykańskie, ale także US Army, więc ta ewidentnie się rozrasta, być może tak jak powiedziałeś jak Unia Europejska muszą mieć to ciało, więc to jak gdyby wydaje się, że że to rośnie i standard, który jest pod nimi, agents.md, nie oszukujmy się, zdobywa rynek. A MCP-ki też."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "04:02",
+      "text": "No dobra, może i tak. Ja nie wiem, może ja jeszcze, że tak powiem jestem za młody, żeby rozumieć jak fundacje działają, a może jestem zbyt biedny, żeby zrozumieć jak fundacje działają, ale ja szczerze mówiąc miałem chyba trochę większe oczekiwania. Miałem trochę większe oczekiwania, że faktycznie coś się zacznie bardziej dziać wokół tego, że... że będzie głośno o samej fundacji, że będą tam jakieś faktycznie kroki związane z samymi tymi projektami, bo oni faktycznie tu robią jakąś konferencję, tam coś przygotują, to jest spoko, ale jakoś, nie wiem, jestem osobiście trochę jeszcze nastawiony tak średnio do całego tego pomysłu, natomiast jedna jest rzecz na pewno ciekawa. bo powiedziałeś o tych associate memberach. I żeby zostać associate memberem, to trzeba powiedzieć od razu, nie trzeba nic płacić. To jest jedyny membership, który nie trzeba płacić. Ale trzeba być non-profit. związku z tym, i tutaj ja znowu mam, czy US Army jest non-profit, czy nie, jakby dla mnie to jest trochę, trochę, trochę shady. Natomiast my jako my, no pewnie jako Better Dev Club ciężko byłoby, żebyśmy zostali memberami nie płacąc, ale za to zostało ogłoszone, że można zostać ambasadorem Agentic AI Foundation. Więc co ty na to?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "05:41",
+      "text": "Nie powiem jaki tekst mi się przypomniał o byciu ambasadorem. A co? Jak Tony Halik."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "05:46",
+      "text": "O-ho! Teraz to mnie zaciekawiłeś. Oj, nie wiem, nie pamiętam."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "05:52",
+      "text": "Który chce być ambasadorem, jak Tony Halik. O Jezu, nie kojarzysz tego filmowego tekstu? Dobra, nieważne. Może kwestia, kwestia, kwestia, następiła właśnie kwestia tego, że jednak między nami jest te parę lat różnicy, nie?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "05:58",
+      "text": "Czekaj, no właśnie nie wiem. Trudno, potem jak zejdziemy z wizji i z nagrywania, to może mi powiesz w takim razie."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "06:14",
+      "text": "Dobra, drogi słuchaczu, niezależnie od tego czy jesteś tak stary jak ja, albo tak młody jak Kajetan, to zachęcamy Cię w ogóle do skomentowania, danie like'a, dislike'a na ten odcinek. Oczywiście jak chcesz wiedzieć o tym jak nasze przewidywania sprawdzą się w przyszłości, to tym bardziej zapraszamy do subskryba, zresztą uprzeżania naszych starych odcinków, żeby sama autoreklama była, koniec autoreklamy. Natomiast jak spojrzymy na to przewidywanie, to zamykając je, bo rzeczywiście zostać ambasadorem Agentic AI Foundation brzmi dumnie. Nawet jak to będzie Kajetan i Piotrek, a nie Better Dev Club, bo w sumie nie mamy żadnej organizacji ani firmy, to ciężko nam będzie, jak będzie Better Dev Club jest głównie domeną. Natomiast można powiedzieć, że fundacja nie umarła, nie w sensie jak patrząc na nasze przewidywanie, nie w sensie fundacja rzeczywiście nie umarła. A Ridge and Sambdi wygrał chyba tą wojnę formatów, aż nasze oczekiwania chyba były większe. O, może to tak. Nie wiem sensie, ale to może się jeszcze, ale jeszcze, wiesz, połowa roku mają jeszcze czas, może się w grudniu, w grudniu jak będziemy robić pewnie podsymowanie, jak już 2026, na pewno będziemy robili i prognozę na 2027, właśnie spoiler na odcinek w okolicy przełomu grudnia i stycznia. to może jeszcze wrócimy i okaże się, że będziemy zadziwem. Dobra. Drugi temat, którym żeśmy... Są? Jedziemy dalej. Dobra, drugi temat, którym żeśmy mówili, to koniec vibe-codingu. Nawet żeśmy uknuli nowy termin gen-coding. No i co?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "07:49",
+      "text": "Iziem medali. Iziem medali. No i trzeba przyznać, że gen-coding się nie przyjął. znaczy chyba nie mamy aż takiej siły przebicia, jaką myśleliśmy, że będziemy mieli. Natomiast według naszych przewidywań, vibe-coding miał się skończyć i uwaga, nasze przewidywania, zwykle, albo może nie jak zwykle, ale były błędne. Dlaczego? Bo vibe-coding ma się dobrze. I... Pomimo tego, jak bardzo staraliśmy się walczyć z vibecodingiem, a promować gencoding, to ja się cieszę, że on przetrwał. Z jednego głównego powodu, ludzie zaczęli rozumieć czym jest vibecoding i przestali, albo zmniejsza się ilość wariatów, którzy twierdzą, że są w stanie stworzyć sobie dowolną aplikację i jeszcze ją utrzymywać. I to mówię zarówno jeśli chodzi o programistów, jak i nie programistów. I teraz mamy w końcu, mam wrażenie, że zaczyna nam się budować taki wspaniały świat, który mieliśmy realnie przed powstaniem Chata GPT i przed powstaniem agentów i tego wszystkiego, z czym się teraz mierzymy. To znaczy, biznes jest sobie biznesem i wymyśla rzeczy, a inżynierowie są sobie inżynierami i te rzeczy tworzą. Tyle że... Trochę się to wszystko zbliżyło do siebie i teraz bardzo często biznes jako biznes nie tylko wymyśla i marnuje nasz czas na spotkaniach, żeby nam opowiedzieć swoją wizję, tylko po prostu siedzi i waibuje. Waibuje sobie jakiś prototyp, tworzą jakiś prototyp, pokazują tą wizję wtedy na takim prototypie, a potem przekazują to do inżynierów, którzy orają to już całkowicie i zaczynają po inżyniersku prowadzić ten projekt. I to jest coś, co mi się bardzo podoba."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "10:04",
+      "text": "No to ja może to dołożę, bo w zasadzie się Tobą zgadzam, że ten vibe coding przesunął się w kierunku dyscypliny, czyli pojawiły się testy, jakaś test coverage, czy coś tam, static analysis, w sensie te wszystkie narzędzia właśnie wchodzą w proces, czyli zaczynamy od jakiejś wywibowanej strony, zrobionej przez kogoś na szybko, bo te narzędzia są bardzo fajne. Nie oszukujmy się, w kilku takich narzędzie sam sobie wywibowałem. Taka ja tam też wiem, że sobie wywibowałeś, bo już my się czasami nawet chwalili między sobą, co tam nowego, żeśmy sobie wywibowali. I te fajne narzędzia powstają, ale jak mówisz, poszło w taki workflow. Nawet sami o tym mówimy na konferencjach, przynajmniej ostatnio. że to po prostu poszło w taki workflow dokładnych, które powiedziałeś. Bo to nawet nie chodzi o to, że nagle to robimy po inżyniersku, tylko że ten workflow tam się po prostu zaczyna pojawiać, żeby nad tymi dużymi projektami w jakiś sposób zapanować. Więc co można powiedzieć? To, że koniec wyeprodingu, żeśmy się mylili, a brand to już w ogóle niestety się nie przyjął. Ale drogi słuchaczu, namawiamy Cię nadal na używanie naszego brandu, jak będziemy mieli... A jak jeszcze nas nie subskrybujesz, to koniecznie nas zasubskrybuj w tym momencie, bo jak będziemy mieli 500 z plusem już subskrybantów."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "11:14",
+      "text": "Tak jest."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "11:42",
+      "text": "Może po 600 dobijamy, ale jak będziemy mieli, zamiast to dołożymy jeszcze słowo tysięcy, to wtedy na pewno nasze trendy będą się tak przebijać, tak. Jak za magiczną ruszkę. Dobra. Czyli mówiąc po prostu pierwsze w miarę, żeśmy trafili, z drugim poszło nam zdecydowanie gorzej. Co było trzecie?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "11:56",
+      "text": "Tak będzie. Trzecie, dominacja monorepo versus multirepo. Czy agenci ogarniają więcej niż jedno repozytorium? Czy dalej mamy problem z tym, że wszystko musimy trzymać w monorepo, żeby cokolwiek, jakkolwiek móc dalej pisać agentowo?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "12:26",
+      "text": "To mówiąc szczerze, to chyba jest taka rzecz, nastąpiła, nie wiem jak to nazwać, chyba nic się nie stało, tak bym to określił. W sensie, że to jest taka rzecz, której nikt nie mówi. Z jednej strony, patrzyliśmy na koniec 2025, to wszyscy mówili, jak najwięcej kontekstów w jednym miejscu, dzięki temu agenci będą mieli nie wiadomo ile do zrobienia. I stąd, gdyby się pojawiły te głosy, że Monorepo to jest ta jedyna droga. A teraz nawet zdradzając tu niedługo będzie wywiad z naszym gościem ze znanej, dużej firmy polskiej. Bardzo zachęcamy, może nie będę spoilerował jakoś za bardzo, ale zachęcamy, bo będzie rzeczywiście niedługo, jest fajny, bo już żeśmy nagrali, ale jeszcze musi przejść przez... cały proces publikacji, weryfikacji i tak dalej."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "13:23",
+      "text": "To jest na tyle duża firma, że ktoś musi na to spojrzeć, zanim my to publikujemy. To nam się jeszcze nie zdarzyło."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "13:32",
+      "text": "No to prawda. Więc myślę, że będzie fajnie, jak pogadamy się o tym, jak to wygląda w takiej inżynierskiej firmie. Wasza racja nie zdarzyła nam się. Więc tym bardziej zachęcamy, ale nie padło. W sensie, żeśmy dużo gadali o kontekście i ogóle ten pomysł ono poniepadł, a kontekst jest ważny. Bo nagle się okazało, że nie chodzi o to, żeby mieć jak najwięcej kontekstu. co na koniec 2025 chyba wszyscy mówili jak najwięcej kontekstu, tylko zaczęło się mówić mi ten kontekst, który potrzebujesz. Tam nawet padło, że nadal człowiek jest potrzebny z kontekstem tej rozmowy, jeszcze byli, jeszcze wiecie, jesteśmy uratowani. Pewnie za jakieś dwa, może trzy tygodnie się rozmowa pojawi, więc będziecie mogli też sami przesłuchać."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "14:22",
+      "text": "To jest w ogóle dla mnie tak, no właśnie to jest dla mnie ciekawe tak naprawdę właśnie w kwestii tego monorepo i multirepo, bo mam wrażenie, że był taki moment, bo dlatego o tym też rozmawialiśmy, bo był taki moment, że wszyscy się nad tym zastanawiali, jakby wszystkim jeszcze tego, tej jednej rzeczy brakowało, żeby ci agenci ogarniali jakiś flow pomiędzy pomiędzy różnymi repozytoriami. A ostatecznie jakby tutaj"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "14:22",
+      "text": "A twoje zdanie?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "14:51",
+      "text": "Ciężko mówić, czy trafiliśmy, czy nie trafiliśmy z jakimiś naszymi przewidywaniami ze względu na to, że po prostu cały krajobraz pracy z agentami tak mocno się zmienił, że to pytanie po prostu jest bez sensu w tym momencie. Jakby znaleźliśmy zupełnie inne ścieżki, dzięki którym jesteśmy w stanie tak samo dobrze pracować w multi-repo, jak i w mono-repo prawdopodobnie. Natomiast właśnie a propos tego wielkiego kontekstu, też mam, cały czas mam wrażenie, że jeszcze wciąż firmy, oczywiście trzy największe, chociaż chyba nie wszystkie trzy, ale przynajmniej dwie, chcą nas przekonać do swoich modeli tym, że tam okno kontekstowe jest o takie, że aż się na ekranie nie mieści. Chyba zaraz, nie wiem czy w tym momencie, chyba mamy maksymalnie milion. Coś słyszałem, że zaraz będzie w którymś modelu półtora miliona okno kontekstowe. I no właśnie, ja mam wrażenie, że to jest znowu taka rozmowa jak w telefonach komórkowych i aparatach. To dajmy im więcej megapikseli. Tak, dajmy im więcej megapikseli, to te aparaty to będą już takie zdjęcia robiły, że o matko. A jakby..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "16:05",
+      "text": "Bo to jest taka męska rozmowa."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "16:15",
+      "text": "tylko garstka osób kojarzy, że te megapiksele to tam gówno zrobią jeśli matryca będzie o taka maciupka."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "16:22",
+      "text": "Jak ktoś nie umie robić zdjęcia, pokazuje palcem na takiego osoby, to dużo megapikseli powoduje, że nadal jest jakiczny."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "16:26",
+      "text": "To żadne megapiksele. Nie pomogą."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "16:37",
+      "text": "Albo można zesumować."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "16:37",
+      "text": "To prawda."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "16:41",
+      "text": "Dobra, ale podsumowując, nie po prostu, znaczy zamykając już ten temat, nim już wpadniemy z Kajetanem w jakąś kretyńską dyskusję, nie, to po prostu jest chyba temat, który po prostu, sensie to nie jest tak, że, znaczy, inaczej, nie ma takiej potrzeby, nie, sensie, jak wydawało się, to pół roku temu, czy nawet trochę więcej, wydawało się, że to jest ten sposób."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "16:41",
+      "text": "Ważne żeby... A, do..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "17:05",
+      "text": "Nareszcie okazało się, że chyba nie ma potrzeby. Jak już w ogóle potrzebujesz wiele repozytorów, dodajesz wiele katalogów do jednej sesji i z głowy. Albo robisz git checkout, obrobisz sobie to w zasadzie wszystko w jednym repie. W tej chwili agenty raczej wybierają minimum, co potrzebują niż maksimum całości. Nikt chyba nie wpycha całego swojego repo do jednego modelu. Chociaż może do fejbla ktoś próbował."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "17:37",
+      "text": "No to pewnie Fejbl nie zdążył skończyć czytać, zanim go wyłączyli. Mniejsza. Następna rzecz, którą ja Cię koniecznie muszę zapytać, i to jest jakby trochę łączy się z tym, jak agenci czytają i co czytają i jak sobie radzą z różnymi projektami, bo się zastanawialiśmy, jak... Jak się uda migracja legacy od zera? No bo wiadomo, że jak mamy Greenfielda, to tam możemy sobie wszystko zrobić i ty to miałeś sprawdzić. Miałeś sprawdzić na swoim ukochanym dotnetomaniaku, o którym chciałbym, żeby było nas więcej niż tylko nas dwóch, którzy pamiętają jeszcze czym jest dotnetomaniak i czym był dotnetomaniak, żeby nie było dla całej społeczności dotnetowej w Polsce. No ale jak tam ci poszło?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "18:32",
+      "text": "To główne brawa dla Pawła to dla Pawła to dla mnie, bo to on to zbudował i tworzył. to w którymś momencie przejrzałem, jak Paweł nie miał czasu, chęci, nie wiem. Jak Paweł słuchasz, to sam się wypowiedz, żeby nie było. Więc jak coś tam patrzcie w komentarz. Natomiast rzeczywiście miałem to zrobić i zupełnie nie miałem na to czasu. W sensie, prostu jakoś zupełnie do tego nie doszedłem. Ale z drugiej strony z rynku pojawiły się jakieś takie głosy, że wiecie jak nagle Antropik powiedział, że Claude umie w Cobola, akcje, był taki dzień, że akcje IBMa spadły o 13%. Tam się jakieś takie duże ruchy zadziały, więc wygląda na to, że te modele potrafią w ten legacy. Claude, w sensie to, dobra, jak ja sobie to gdzieś testowałem, nie przepisywałem całego dotnęta maniaka, tylko po prostu dotkałem, jak się repozytowali, w których nie, nie gdyby na oczy nie widziałem. no to on sobie, one sobie całkiem nie zdaradzą. Naprawdę jako taki partner, użyję teraz nazwy Microsoftu, wbudowany jako copilot, czyli coś co mnie wspomaga, no to rzeczywiście to bardzo dobrze działało. Nie to rzeczywiście nie ten. Ale żeby przypisać jeden do jednego, kurczę nie. Nie, a jak jeszcze na przykład, żeśmy byli z Kajetanem na 4Developers, na prezentacji z banku, zresztą... Jak prezentacja pytania do nich był na pewno super. Jak oni migrowali jeszcze sprzed czasów AI, z Cobola do dotneta. Może tu warto się kiedyś uśmiechnąć do znajomych starych i zaprosić ich, żebyśmy o tym sobie pogadali. Nie wiem na ile będą mogli mówić, bo to też pewnie taka duża firma. Akurat nie ta, która rewoluje następny odcinek, ale tu pewnie też będzie rewoluł potrzebne, żeby się za bardzo nie wygadali. Natomiast to coś się tam zadziałało. sensie, rzeczywiście to przepisanie Legasi, wydaje mi się, że przestało być jakimś takim problemem. Kojarzę kilka rozmów z różnymi ludźmi, którzy powiedzieli, nie było żadnego problemu, żebyśmy zaupgradeowali sobie wersje dotneta, java, javascriptu czy czegokolwiek, że to po prostu poszło tak, wiecie, po prostu w miarę sprawnie. To nie poszło idealnie, nie było bez... jak gdyby w TOP gdzieś tam coś tam, tylko że to po prostu mnie zajmowało tak jak kiedyś pamiętam, że migrację dot neta to bożysz ty miesiąca. Nie, a to po prostu nazwijmy to dwa popołudnia i jest. Czy jak żeśmy to opowiadali w którymś odcinku ja podałem ten przykład, że musiałem przepisać coś z pythona dot neta, z różnych dziwnych powodów nie wchodząc ten, no to bez problemu. efekt był bezproblemowy, jak gdyby wziąłem gotowego MCP-ka w Pythonie, potrzebowałem go zmigrować na dotneta, jak gdyby dostosować do naszych standardów, bo to głównie było co nam przepisano, dostosować go do standardów, uzyskać po prostu ten jakość w obudowie, którą mamy i rozwiązać problem, jak gdyby 4x... taki open source, zaufany czy nie zaufany, to słuchaj, dwa popołudnie działało i śmigało bez żadnego problemu. Więc nie widzę jak gdyby żadnej blokady, żeby to zrobić z dotneta maniakiem, ale nie wiem czy kiedykolwiek się do tego zabiorę."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "22:00",
+      "text": "Rozumiem, że wolisz jednak vibe'ować swoje kolejne startupy niż zavibować się w Legazdy."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "22:05",
+      "text": "Oczywiście, wszystkie trafią w to samo miejsce. Dotknę to maniak przynajmniej żył, ale nie ja go zrobiłem."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "22:15",
+      "text": "To niestety wiele o nas mówi. Dobrze, modele lokalne. To jest kolejna rzecz, z której powinniśmy się wyspowiadać. Czy one są nadal tylko dla freaków? Czy one są nadal dla ludzi, którzy są zajarani tym, żeby taki malutki zrobić, takim świetnym, wyspecjalizowanym? Czy może coś w tym jest, że może jednak zaczyna to rosnąć?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "22:41",
+      "text": "Ja widzę przykłady, zresztą wskażę palcem. Znam takiego kolesia, siedzi tu po drugiej stronie kamery, który zaczął odpalać np. Gemmę na swoim kompie i był w miarę zadowolony. Przedstawiam Wam Kajetan Duszyński, nie czuje się frekiem, a jednak to zrobił. I był w miarę zadowolony i mu chodziło. Nie wiem, czy miałeś efekt wow, ale efekt good enough miałeś."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "23:10",
+      "text": "Efekt wow na pewno nie miałem, ale efekt o to działa. To na pewno. Byłem zaskoczony, że się udało i że było w miarę rozsądnie. Co prawda, bo próbowałem te modele odpalić na dwóch laptopach. Jeden był Maciem, drugi był nie-Maciem. I ten nie-Mac prawie wybuchł w międzyczasie, ale Mac sobie radzi świetnie. I to jest jakby... Jak macie Mac, nie, nie, to jest kilkuletni Mac. Więc jeżeli ktoś ma nowego Maca z tego roku, z zeszłego roku i jeszcze tam trochę go doinwestował, to to śmiało, to myślę, że śmiało można już to robić. Natomiast właśnie, mimo wszystko uważam, że żeby to działało dobrze i żeby to działało inaczej, bo to może działać dobrze dla freaków."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "23:39",
+      "text": "I to nie jest najnowszy mak."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "24:09",
+      "text": "A żeby to działało dobrze dla niefrików, to trzeba mieć dużo w portfelu. Bo faktycznie te maszyny potrzebują, żeby tam z odpowiednią ilością parametrów, z odpowiednią kwantyzacją, z tym wszystkim, żeby uruchomić takie większe modele, no to potrzebujemy faktycznie trochę tego ramu. Trochę musimy w tą maszynkę sobie doinwestować. bo inaczej będziemy zmuszeni, żeby bawić się mniejszymi modelami, które będą miały swoje oczywiście minusy. Jeżeli jesteś freakiem, to możesz się to bawić, jeżeli jesteś freakiem, to możesz się bawić w fine tuning i w różne inne elementy, które spowodują, że będziesz budować bardziej wyspecjalizowany model. Natomiast na ten moment uważam, że jeśli nie chcecie w to bawić, to nadal subskrypcja jeszcze u dużego dostawcy jest tym odpowiednim krokiem, ale zobaczymy jak to będzie znowu za kolejne pół roku czy za rok, no bo jednak widać głosy na rynku, że firmy chcą nas przekonać, że może to będzie niegłupi pomysł, żeby sobie taką maszynkę kupić."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "25:33",
+      "text": "Ja się to Tobą w ogóle nie zgodzę. Znaczy, dobra, jedną rzecz się zgodzę, że wyszło bardzo dużo maszyn. Po pierwsze wyszedł frame'u na Maki, który właśnie pozwala Ci odpalać te modele na procesorach M bardzo sprawnie. jest jedna rzecz. Gadaliśmy o tym niedawno, że została ogłoszona współpraca Nvidia z Surface'em i ma zostać taki development laptop, żebyś mógł sobie odpalać. ten sprzęt dla deweloperów właśnie powstał. Ale ja się nie zgodzę z tym, że te małe modele nie wchodzą, bo ja je widzę. sensie jedno to, żeśmy sobie powiedzieli o gemie, ale Gemma jest o tyle fajna, że w ogóle już na części Nvidiów jest. I to ok, zależy do..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "26:17",
+      "text": "Wiesz mały model to w pewnym momencie wszyscy zauważyli jak Chrome sobie ściągnął lokalnie 4 giga."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "26:24",
+      "text": "Dokładnie, to jest ten drugi przykład. Nie, zostało ściągnięte 4 giga chyba, coś takiego. Ale wiesz co, to jest model, który odpalasz lokalnie i on Cię wspomaga w Chrome. Ok, to nie jest zastosowanie może do wytwarzania super, nie wiadomo jakiego kodu, albo czegokolwiek, ale już podsumowanie spotkania, prawdopodobnie ten model dźwignie. W sensie tak po prostu. Masz go. Chcesz czy nie? Masz go. Jak go nawet skasujesz, to i tak Ci go ściągnie ponownie. Więc jak gdyby, pomijając ten dawczy, więc to, w ogóle się pojawia, Mamy oczywiście Antropica, z którą jak gdyby się śmiejemy, że zobaczymy, znaczy wszystko się w Antropiku dzieje do IPO i potem będzie po IPO, które jak gdyby ma być na jesieni, czyli jak wejdą na giełdę i przed tym. I Antropic jest tą firmą, która cały czas mówi, największy, mam największego i on jest najlepszy, bo jest największy."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "26:59",
+      "text": "Tak jakby chrom mało wiesz."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "27:24",
+      "text": "No dokładnie ta narracja jest, Tu się śmiejesz, że tu wiesz, taka prawdziwa męska narracja. A jak patrzymy już na inne firmy, to jak gdyby Google wypuszcza Flasha i mówi, że Flash w tych rankingach jest naprawdę niezły, nie? W sensie nowy Flash znowu okazał się niezły, ten jest szybki i mały, nie? W sensie on nie kosztuje dużo. Microsoft wypuścił... O no, Mike, Mike Hoda, coś tam, Flash 1, nie umiem tej nazwy. Nie potrafię nawet, może potrafisz. Ale też wypuścił mały model. No oddajesz."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "28:05",
+      "text": "Ja potrafię, w końcu się nauczyłem, tak, to jest myCode1.flash. Tak to wygląda. Ale to jest jedyny z siedmi modeli, które wypuścili, którego nazwę udało mi się zapamiętać."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "28:13",
+      "text": "Brawo, brawo. Ale właśnie to jest, wiesz, jest ta zmiana, nie? Że nagle te firmy... No dobra, no mówię, Antropik ma trochę, mam wierzenie, że ma trochę inny... Nie wiem, cel, tak bym to nazwał, nie? Niż Microsoft i Google, Czyli ludzie od Info, że oni nagle zaczynają wypuszczać właśnie te mniejsze modele i one rzeczywiście już są, nie? To nie jest to, że to jest pieśń przyszłości, tylko one rzeczywiście... już są, one są jakoś dedykowane. Nie umiem Ci dokładnie powiedzieć co zrobi ten w Chrome, a czego nie zrobi. No pewnie zakodować z nim, on nie jest po to wyćwiczony. Dla odmiany jak mamy ten model od Microsoftu właśnie Code One obstawiam, że dużo lepszy jest w kodowaniu niż w pisaniu essay, czy tam nie wiem. Znowu trzeba by było popróbować zobaczyć w czym ser radzał dobrze, w czym ser radzał słabiej, ale one są właśnie jakoś tam dedykowane. Czy są na tyle mało, żebyś to odpalił na Mi Bandzie? No nie, no to możemy sobie powiedzieć. Na Apple Watchu też nie. Jak kiedyś się śmiałem z kolegami, czy Kubernetes wejdzie na Apple Watcha, nigdy nie wszedł tak, to czy jakiś model nie wejdzie na Apple Watcha, już bym się tak nie założył. Nie, w sensie... Takie przewidywanie na przyszły rok, czy następnym w chątwie będzie model na Apple Watcha. Pewnie nie, bo Apple ostatnio z tymi modelami to tak sierno żyje. Ale już na telefonie Android są."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "29:42",
+      "text": "No a- No Apple to w ogóle chyba się poddał. Skoro Siri będzie działała na Gemini Google'owym, to z tego co wiem, no to chyba jest jasny sygnał od Apple'a. Nie ma to większego znaczenia. Idźmy dalej. Co dalej?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "30:07",
+      "text": "No to chyba został nam ostatni rzecz, który... Kayetan twierdził, że Cloud Code spadnie z numeru 1. Już się załamał."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "30:16",
+      "text": "O nie. O nie. znaczy ja cały czas uważam, bo po prostu nie zmieściłem się w timelineie. Cały czas uważam, że Claude Code spadł. No, oni spadną. Ja jestem przekonany, że to w końcu, nie powiem co brzydko, ale huknie o ziemię, bo nie wierzę w to, że oni właśnie..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "30:27",
+      "text": "Jeszcze masz szansę, jest połowa roku. Jest połowa roku, jeszcze wiesz."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "30:44",
+      "text": "tą całą swoją narracją, oni mają supermarketing i to trzeba sobie powiedzieć jasno. To są ludzie, którzy świetnie potrafią marketing i świetnie potrafią pompować ten balonik przed IPO. To jest coś niesamowitego, jeśli miałbym szansę i jeśli się dowiem, to zrobić, sam bym zainwestował w momencie IPO i kupił sobie trochę, trochę akcji Anthropica, ale bardzo szybko bym je też sprzedawał. pewnie tego samego dnia. Natomiast, tak, jeśli chodzi o Cloud Code, no tak, nadal są numer im jeden. Jeśli chodzi o agentów dokodowania albo jeśli chodzi o tool dokodowania, ale, ale, ale te różnice też uważam, że są coraz mniejsze. Szczególnie jeśli chodzi o trzy firmy. to znaczy jeśli chodzi o Microsoft, Anthropic i OpenAI. Google zostało, jeśli chodzi o tooling deweloperski, moim zdaniem, nadal pomimo tego, że już tym rozmawialiśmy, moim zdaniem oni zostali mocno w tyle i to się po prostu w tym momencie, jak dla mnie, nie nadaje do niczego. tak jak chyba mniej więcej pół roku temu rozmawialiśmy sobie o Gemini CLI. które miało mieć najwięcej PR-ów, miało się najszybciej rozwijać i miało się najlepiej adaptować przez community, tak oni zostali straszliwie z tyłu, tak naprawdę bardzo z tyłu w stosunku właśnie do Codex, Cloud Coda i Copilot. I teraz mam wrażenie, że te trzy narzędzia, i one są zbliżone, bo umówmy się, że cały czas... a szczególnie już w tej chwili, jak się pojawia jakaś komenda, jakiś tulik w jednym, to w drugim i trzecim zaraz też jest. To się może inaczej trochę nazywać, to się może gdzieś tam delikatnie różnić tym, jak to będzie działało, ale one są wszystkie podobne. Natomiast faktycznie ClotCod na ten moment, muszę niestety przyznać, że jest numerem jeden. pomimo tego, że nie jestem w 100 % pewne, czy ma na pewno najwięcej użytkowników. Ale to jest tylko i wyłącznie, mówię to, żeby włożyć trochę kij w mrowisko ludziom z Dinktina, bo statystyki są różne i różnie można je interpretować. I tu już więcej nic nie powiem."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "33:20",
+      "text": "twierdzenie bez danych jest tylko opinią. Tu Kajetan rzucił swój opinię. Natomiast jako osoba, która dużo korzysta z innych copilotów to jak gdyby różnica pomiędzy cloud desktop a tym co jest niestety w narzędziach Microsoftu i nie mówimy tu już o github copilotcie tylko o m365 copilocie to jest UX-owa przepaść."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "33:24",
+      "text": "To prawda."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "33:49",
+      "text": "Naprawdę to jest UX-owa przepałek. Ostatnio próbowałem sobie zrobić w Copilot Studio to naprawdę poszło słabo. Nie chodzi o to jak to działało pod spodem, bo to akurat z różnych względów tam się wysypało z innego tego. Ale Boże, litości. sensie to po prostu jest tak tragiczne. A jeszcze w M365 masz koło EK. który działa inaczej, normalny chat działa inaczej, coś działa inaczej. Jak odpalasz nawet narzędzia deweloperskie od Microsoftu, to masz tak, jedną rzecz masz w Copilot CLI, ostatnio żeśmy dyskutowaliśmy, że ten nieszczęsny model, którego znowu nie umiem wymienić nazwy, Code One, coś tam od Microsoftu, jest dostępny już Visual Studio Code, ale nie ma w terminalu, jak się setupuje, MCP-ki, Visual Studio Code, to ono o machach."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "34:46",
+      "text": "CLI-u i Visual Studio już jest od dzisiaj."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "34:50",
+      "text": "No tak, on już jest, tak, od dzisiaj już jest. No właśnie, tak, od dzisiaj już jest, bo na rynku już jest od dawna, więc od dzisiaj już jest. Że MCP-ki, wiesz jak masz Visual Studio Code, GitHub, Copa, CLI i jeszcze Agentic Bureau Visual Studio Code to są setupowane osobno i coś tam, a to po prostu Anthropic robi dobrze. że to jest po prostu zrobione dobrze i pomimo to, że dyskutowaliśmy przed chwilą jest standard, są mcp, jest agents md i w ogóle to ten tooling po prostu od nich działa sprawnie. sensie to nie wiem czy to jest kwestia PR czy to jest kwestia jak gdyby innych rzeczy, po prostu robią swoją robotę dobrze, a inni gonią i czasami robią to po prostu, przepraszam, na power. i to czasami wychodzi różnie. Chociaż rzeczywiście jak mówimy o samych narzędziach terminalowych to przyznam szczerze, że ponieważ ostatnio pracuję we wszystkich czterech bo jeszcze używam OpenCode'a to w zasadzie masz rację, nie widzę aż takiej różnicy. Ale jak próbuję tylko wyjść na inne narzędzia to to zaczyna się robić słabo. Ale to na pewno Twoje przewidywanie albo nasze przewidywanie w połowie roku na razie jest xx. Nie udało Zobaczymy jak będzie na koniec. Na koniec też obstawiam, że jak dzisiaj miałbym strzelać to się nie uda. IPO spowoduje, że wiesz, będzie jak będzie. Za późno będzie IPO i jeszcze nie zdążył spaść."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "36:29",
+      "text": "Hmm. Zobaczymy, zobaczymy jak to będzie, porozmawiamy po i po. I po tym jak będą, w końcu muszą mieć jakieś problemy. No, umówmy się, każdy ma jakieś problemy."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "36:43",
+      "text": "No na pewno, no ostatnio za dwa dni mieli problemy, bo coś tam nie działało i jak gdyby down detector pokazywał..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "36:46",
+      "text": "No dobrze, no z Fablem mają problemy, tak, także wcześniej czy później coś tam jakiś faka piks clodchodem też na pewno zaliczą. Ja tylko zacieram rączki i czekam. No to co? To chyba mamy to mniej więcej."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "37:06",
+      "text": "Drogi słuchaczu, na sam koniec jeszcze ta tzw. autoreklama. Jeżeli się podobało to zachęcamy plus zagłosowany łapkę w górę, dany subskrebek, jeszcze nas nie subskrybujecie, wpisany coś w komentarz. Jak wychwyciliście, coś jeszcze, żeśmy powiedzieli, że mieliśmy rację, a nie mieliśmy racji, albo coś byście chcieli jeszcze usłyszeć, albo może macie jakiś gości, których chcielibyście usłyszeć, to zachęcamy do kontaktu. O!"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "37:30",
+      "text": "A może sami jesteście takim gościem, który chciałby wystąpić?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "37:35",
+      "text": "Właśnie sami jesteście takim gościem i macie coś ciekawego do opowiedzenia, to w ogóle dajcie znać. Nie musicie w komentarzu, możecie w offline. I zapraszamy! Najbliższe czasy z wakacjami, więc odcinki będziemy się starać z Kajetanem wypuszczać non stop, żebyście mogli sobie tam na plaży, w górach albo innych podróżach słuchać. Może dręczyć swoją rodzinę wam w samochodzie. Puszczę wam Better Dev Club! Eee..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "38:07",
+      "text": "Nie róbcie tego swojej rodzinie, nie?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "38:10",
+      "text": "Co to za go? Moja córka regularnie słucha. Ona lubi mój głos, więc..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "38:17",
+      "text": "Ale twoja córka jest trochę na innym poziomie niż być może... A, dobra. Do zobaczenia, do usłyszenia, trzymajcie się i słyszymy się za tydzień."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "38:28",
+      "text": "Hard quit przez Kajetana, żebyśmy już skończyli. Trzymajcie się i widzimy się za tydzień."
+    }
+  ]
+}
