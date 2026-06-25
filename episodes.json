@@ -4,7 +4,6 @@
     "num": "34",
     "title": "Better Dev Club #34 - Rozliczamy przewidywania o AI w 2026: co się spełniło?",
     "date": "2026-06-25",
-    "notPublished": true,
     "duration": "38:28",
     "desc": "Po ponad pół roku regularnego, cotygodniowego podcastu Kajetan i Piotrek robią rachunek sumienia i wracają do przewidywań, które obiecali sprawdzić „w czerwcu”. Zaczynają od Agentic AI Foundation, która właśnie ogłosiła przyjęcie 43 nowych członków (w tym F5, GoDaddy, Stripe i TRON oraz instytucji takich jak US Army) — czy fundacja faktycznie napędza adopcję otwartych standardów agentowych jak agents.md i MCP, czy działa wolno niczym Unia Europejska?\n\nW dalszej części odcinka rozliczają kolejne tezy: zapowiadany „koniec vibe codingu” (i nieprzyjęty termin gen-coding), spór monorepo vs multirepo i mit jak największego okna kontekstowego, migrację legacy od zera (Cobol → dotnet, akcje IBM i historia dotnetomaniaka), wejście modeli lokalnych na Maca, eksplozję małych modeli (Gemma, model w Chrome, MAI-Code-1-Flash, Gemini Flash) oraz pytanie, czy Claude Code spadnie z pierwszego miejsca przed IPO Anthropic. Szczerze przyznają, gdzie trafili, a gdzie mocno się pomylili.",
     "agenda": [
@@ -40,9 +39,9 @@
       "anthropic"
     ],
     "platforms": {
-      "youtube": "",
-      "spotify": "",
-      "apple": ""
+      "youtube": "https://youtu.be/EqXHSW7ODiQ",
+      "spotify": "https://open.spotify.com/episode/0G91bkpFe0TQfUQGc8Dvze?si=taObElGRQ_WFJUgKQgdlXA",
+      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club-34-rozliczamy-przewidywania-o-ai-w/id1848840540?i=1000774153005"
     },
     "resources": [
       {
@@ -76,7 +75,7 @@
         "description": "Lekki, wyspecjalizowany model do kodowania od Microsoftu, omawiany w kontekście wzrostu małych modeli."
       }
     ],
-    "youtubeId": "",
+    "youtubeId": "EqXHSW7ODiQ",
     "guestKey": "piotrek"
   },
   {
