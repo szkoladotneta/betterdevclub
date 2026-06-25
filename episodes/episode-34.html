@@ -15,7 +15,7 @@ W dalszej części odcinka rozliczają kolejne tezy: zapowiadany „koniec vibe 
     <meta property="og:description" content="Po ponad pół roku regularnego, cotygodniowego podcastu Kajetan i Piotrek robią rachunek sumienia i wracają do przewidywań, które obiecali sprawdzić „w czerwcu”. Zaczynają od Agentic AI Foundation, która właśnie ogłosiła przyjęcie 43 nowych członków (w tym F5, GoDaddy, Stripe i TRON oraz instytucji takich jak US Army) — czy fundacja faktycznie napędza adopcję otwartych standardów agentowych jak agents.md i MCP, czy działa wolno niczym Unia Europejska?
 
 W dalszej części odcinka rozliczają kolejne tezy: zapowiadany „koniec vibe codingu” (i nieprzyjęty termin gen-coding), spór monorepo vs multirepo i mit jak największego okna kontekstowego, migrację legacy od zera (Cobol → dotnet, akcje IBM i historia dotnetomaniaka), wejście modeli lokalnych na Maca, eksplozję małych modeli (Gemma, model w Chrome, MAI-Code-1-Flash, Gemini Flash) oraz pytanie, czy Claude Code spadnie z pierwszego miejsca przed IPO Anthropic. Szczerze przyznają, gdzie trafili, a gdzie mocno się pomylili.">
-    
+    <meta property="og:image" content="https://i.ytimg.com/vi/EqXHSW7ODiQ/maxresdefault.jpg">
     <link rel="shortcut icon" href="../img/favicon-32x32.png" type="image/png">
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Noto+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
@@ -979,7 +979,7 @@ W dalszej części odcinka rozliczają kolejne tezy: zapowiadany „koniec vibe 
             const [loading, setLoading] = useState(true);
 
             useEffect(() => {
-                const version = "cc070b2f73";
+                const version = "64dfec04d3";
                 Promise.all([
                     fetch(`/episodes.json?v=${version}`).then(res => res.json()),
                     fetch(`/speakers.json?v=${version}`).then(res => res.json())
