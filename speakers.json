@@ -33,5 +33,11 @@
     "role": "Guest",
     "bio": "Ekspert bezpieczeństwa IT, prelegent i współtwórca szkolenia „Cloud Security Master”. Aktywny kontrybutor projektów open source oraz frameworku MITRE ATT&CK, zaangażowany w rozwój społeczności pod hasłem #TogetherWeAreStronger.",
     "picture": "/img/guests/wojtek_lesicki.jpg"
+  },
+  "marcin_malinowski": {
+    "name": "Marcin Malinowski",
+    "role": "Guest",
+    "bio": "Principal software engineer w Allegro Pay, na co dzień działający w AI Engineering Foundations i przy agentach kodujących. Łączy solidne inżynierskie rzemiosło (FP, DDD, CQRS, event sourcing) z praktycznym podejściem do agentic coding, o którym pisze na blogu.",
+    "picture": "/img/guests/marcin_malinowski.jpg"
   }
 }

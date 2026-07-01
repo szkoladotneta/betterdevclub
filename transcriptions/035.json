@@ -1,0 +1,569 @@
+{
+  "transcript": [
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:00",
+      "text": "Cześć Piotrek!"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:01",
+      "text": "Cześć Kajtek. Dzisiaj specjalny odcinek, zaprosiliśmy gościa. Ja specjalnie zaprosiłem człowieka, którego znam parę ładnych lat. Mówiąc szczerze, na PR-ach mnie przetrzepał wielokrotnie. Nie udało mu się nauczyć mnie F-Sharpa, ale bardzo silnie próbował, więc znamy dzisiaj Marcina. Marcin, słuchaj. Masz solidne inżynierskie rzemiosło, potwierdzam. Potwierdzam to na długich PR-ach i dyskusjach. Masz też bardzo świeże i praktyczne podejście do agentic coding, bo sam się tym chwalisz przynajmniej ostatnio na blogu. Pochodzisz z takiej dużej firmy, wszyscy chyba słuchacze z niej korzystają, nazywa się Allegro, chociaż ty jesteś z takiego kawałka Pay. Więc jakbyś powiedział dwa słowa o sobie, to byłoby super."
+    },
+    {
+      "speaker": "Marcin",
+      "time": "00:57",
+      "text": "Cześć chłopaki w ogóle. Miło być waszym gościem. Dobrze, o mnie. Jestem w Payu, jestem principalem, czyli principal software engineerem. Ostatnio się dowiedziałem, jak to jest po polsku. Główny inżynier oprogramowania, nie wiem czy widzieliście."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "01:16",
+      "text": "To nowość dla mnie."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "01:16",
+      "text": "Brzmi chyba lepiej."
+    },
+    {
+      "speaker": "Marcin",
+      "time": "01:19",
+      "text": "Dzięki za oglądanie."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "01:20",
+      "text": "Głównej mrzymieją, pryncypał brzmi lepiej. Mnie się pryncypał kraju z pryncypałkami, ja nie umiem tego wyrzucić."
+    },
+    {
+      "speaker": "Marcin",
+      "time": "01:23",
+      "text": "Tak, tak. Z pryncypołkami czekoladowymi, chociaż się popsuły, bo były z prawdziwej czekolady, a teraz są z takiej podrabianej. Mam nadzieję, że to nie znaczy czegoś więcej."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "01:35",
+      "text": "Ale z drugiej strony mam wrażenie, że jak jest główny, to znaczy, że powinien być jeden, a to chyba nie zawsze jest jeden pryncypał, że tak powiem."
+    },
+    {
+      "speaker": "Marcin",
+      "time": "01:44",
+      "text": "No nie, u nas jest dwudziestu paru, ale jest jeden starszy. Przy czym on nie jest naszym przełożonym. Tak, jest... Można być starszym głównym inżynierem. Tak jest. Jest jeszcze przyszłość. Nie, Znaczy, w swoim planie, czy uważasz, że ja jestem stary, bo Paweł jest w moim wieku. Jest to nie... Dobra."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "01:49",
+      "text": "starszy principal."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "01:51",
+      "text": "To pan jest najszczęściej głównym inżynierem. A bye, zostajem."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "02:09",
+      "text": "Dobra, wróćmy do ciebie na razie."
+    },
+    {
+      "speaker": "Marcin",
+      "time": "02:11",
+      "text": "Dobrze, wróćmy. Dobra, ja działam nie tylko w Payu, ale w całym fintechu. Czy wiecie, że fintech to jest także np. Allegro Finance, który jest drugim operatorem płatności w Polsce. I teraz tak. Piotrek już mówił, że znamy się parę lat, bo ja z tym Payem wylądowałem razem ze startupem, który został kupiony przez Allegro. No i tak. Czym ja się tam zajmuję? Pewnie was nie zdziwi, że właśnie sztuczną inteligencją głównie w ostatnich miesiącach. Niespodzianka. Szok, tak jest. Z jednej strony jest to platforma techniczna dla agentów, czyli takich produktowych rozwiązań, których część już jest widoczna dla sprzedawców czy dla klientów. Z drugiej strony działam w..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "02:47",
+      "text": "Szok, szok i niedowierzanie."
+    },
+    {
+      "speaker": "Marcin",
+      "time": "03:05",
+      "text": "czymś, co my nazywamy AI Engineering Foundations, czyli takie miejsce, gdzie synchronizujemy, koordynujemy wszystko ze sztuczną inteligencją w Allegro. No i oczywiście działam też przy agentach kodujących, bo to jest najbardziej gorący i modny temat teraz, więc doradzam zespołom, jak wdrażać spec-driven development, jak zaprząc tego agenta do każdej możliwej roboty i jeszcze jak spróbować zmierzyć efekty jego pracy. Więc tym się zajmuję, ale nadal się uważam za programistę, może to was zdziwi przy tym wszystkim."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "03:46",
+      "text": "No myślę, że taka rola, dopóki gdzieś tam kończy się na tym inżynierze, to co będzie miała wcześniej, to jednak trochę będzie się z tym kodem wiązała, ale jednak trzeba mieć na uwadze, że bycie tym principalem, głównym programistą, to jest rola troszeczkę inna niż taki, nazwijmy to, standardowy senior."
+    },
+    {
+      "speaker": "Marcin",
+      "time": "03:47",
+      "text": "Nawet jeśli nie piszę kodu sam."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "04:13",
+      "text": "senior developer. Tak się domyślam, że to jest zdecydowanie rola szersza niż takiego standardowego inżyniera oprogramowania. No właśnie."
+    },
+    {
+      "speaker": "Marcin",
+      "time": "04:24",
+      "text": "Oj tak, to może być niespodzianka, więc zawsze uprzedzamy kandydatów na pryncypałów. Mamy też taki program półroczny, masz buddy'ego i możesz zobaczyć jak to jest, być tym pryncypałem. No bo nie każdemu to może odpowiadać. To jest taka trochę rola, ni pies, ni wydra i w zasadzie nie ma jednego określonego archetypu. Will Larson to kiedyś sklasyfikował, że są różne archetypy staff inżynierów, pryncypałów. Więc może być po prostu lider techniczny, może być architekt, ekspert od jakichś trudnych przypadków albo trudnej technologii, a może być prawa ręka jakiegoś dyrektora. Jeszcze tam kilka było wymienionych. A w praktyce może być tak, że w zależności od projektu czy czasu to zakładasz inny kapelusz i trochę tego, trochę tamtego jest."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "05:27",
+      "text": "No właśnie, a czy myślisz teraz, że pojawienie się sztucznej inteligencji, pojawienie się narzędzi takich jak Gemini, jak Claude Code, jak to wszystko, z czym się dzisiaj spotykamy, czy Copilot, czy cokolwiek innego, zmienia jakoś trochę tę rolę principala? To znaczy, w jakimś aspekcie ona jest łatwiejsza, czy jest ona zupełnie inna, czy może właśnie jakiś archetyp dzięki temu będzie wygrywał, nazwijmy to, będzie jeszcze mógł urosnąć szybciej, a drugi taki, jak nie wiem, może ekspert, będzie tracił, bo ekspertem będzie AI."
+    },
+    {
+      "speaker": "Marcin",
+      "time": "06:14",
+      "text": "ekspert od takiej wiedzy, jest dostępna powszechnie na rynku, pewnie tak. Znaczy, którą można zdobyć i na której on się mógł wytrenować. Natomiast, jeśli powiedzieć, że pryncypał poza tymi rolami, to generalnie każdy jest też taką... taką warstwą kontekstową w organizacji. My jesteśmy jako pryncypałowie. To znaczy, wiemy, dlaczego pewne rzeczy są robione w taki, a nie inny sposób. jakie kompromisy za tym stały, jaka była historia. I to jeszcze jest po jakiś, trzeba mieć jeszcze jakieś umiejętności miękkie, umieć się skomunikować, umieć zarządzić czasem sytuacją, ale generalnie jesteśmy tym warstwą kontekstową. No i to jest właśnie też słabość Ejaja, że on tego nie ma. Próbujemy zbudować na różne sposoby mu ten kontekst organizacji. A już się pojawiają też jakieś pierwsze produkty, które próbują to... brzydko mówiąc zaadresować. Natomiast odpowiadając czy pomaga na pewno dzięki temu zacząłem znowu produkować kod, bo jakby w tych wszystkich rolach, zajęciach jest coraz mniej i gdzie masz cenny to jest coraz trudniej wygospodarować ten moment na to żeby napisać kawałek kodu dlatego, że zawsze jest coś ważniejszego. A ten kawałek kodu może napisać ktoś inny. Wystarczy, że opiszysz swoją ideę i albo potem spojrzysz na PR-a i nagle ten samokodowanie, czyli coś co przez wiele lat było dla mnie frajdą, no było coraz mniej, coraz mniej, coraz mniej miejsca, a teraz znowu jestem w stanie czy hobbystycznie, ale też w firmie, generować dużo więcej kodu. Większość z niego nie idzie na produkcję, to są z reguły jednak jakieś R &D. No ale mam z tego niesamowitą frajdę. To jest jakby jedno, a drugie też eliminuje takie punkty bólu w, z taką pracą, powiedzmy, korporacyjną zarządzaniem, znajdowaniem salna, spotkania, liderzki, warsztaty, to wszystko można ogarnąć AI-em. Można ogarnąć... statusu przygotowania, statusu przygotowania prezentacji się tym wspomóc i też to dużo szybciej powstaje i jest to iluzja, że przygotowanie prezentacji jest tym samym czym programowanie trochę, bo podejście typu space driven developmentu się też sprawdza. Więc tak na pewno, żebym, moja praca się zrobiła znowu dużo bardziej techniczna niż była przez ostatnie pół rok."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "09:02",
+      "text": "Wreszcie ja Cię spróbuję pociągnąć za język w dwóch tematach. Niestety nie zdążyłem Ci przerwać, ale widać jesteś pryncypałem, więc jak gdyby umiesz gadać do innych ludzi. No dobra, powiedziałeś o warstwie kontekstowej, w sensie, że wiecie dlaczego, co i tak dalej. Czyli jakby was rzucić do Markdowna, w sensie zatrudnić was, żebyście teraz przez trzy miesiące siedzieli i odpowiadali, to rozumiem, że to rozwiąże ten problem. To oczywiście trochę dowcip, ale właśnie to jest ten problem tej wiedzy plemiennej. Ale chodzi mi o to, że to jest problem, z którym w zasadzie zawsze żeśmy się mierzyli, a z drugiej strony chyba nadal się mierzymy, właśnie: brakuje tej dokumentacji, bardzo wiele decyzji jest w głowach ludzi."
+    },
+    {
+      "speaker": "Marcin",
+      "time": "09:36",
+      "text": "Ale już wiesz, że nie rozwiążę. Wiesz, że on tak nie działa niestety."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "09:57",
+      "text": "Bardzo wiele dokumentacji jest w głowach ludzi i właśnie dokładnie to opisałeś, że wy, żeście tam byli, wiecie dlaczego te decyzje były podjęte i wiecie co z nimi zrobić, żeby było lepiej. A kiedyś to po prostu umierało, nie? A teraz jakby to spisywać, mówisz: ale dalej nie ma tego kontekstu. Ale jakbyś, nie wiem, dzisiaj wziął Kajetana i zatrudnił, albo mnie zatrudnił, ja pewnie mniej, bo coś tam siedziałem w Allegro, Kajetan nie ma bladego pojęcia. To trzeba włożyć w nas wiedzę z tej domeny, nie?"
+    },
+    {
+      "speaker": "Marcin",
+      "time": "10:33",
+      "text": "No to powiem Piotrek, że od twoich czasów jest lepiej. Znaczy lepiej jest od ponad pół roku, bo tytaniczną robotę wykonało Allegro, żeby ulepszyć dokumentację. I to oczywiście jest spowodowane AI-em. Więc to, jaka jest teraz dokumentacja, jak łatwo ją poprawić, można powiedzieć po prostu na Slacku: o, widzę tutaj błąd, popraw. I to jest dramatycznie ulepszone, i wyszukiwanie, i zorganizowanie tego, i łatwość podpięcia z każdego miejsca zasadniczo. To dla człowieka też jest wygodne, ale oczywiście celem było spięcie ze sztuczną inteligencją. I to się ulepsza, natomiast też już widać pewien limit tego. No bo widzisz, że to nie wystarczy rzucić do Markdowna, nie wystarczy rzucić na to RAG-a. Próbujemy też bazę grafową zapiąć na przykład. Różne takie rzeczy. I się okazuje, że ogrom tych informacji, czasem też niekompletność, to też trzeba powiedzieć, powoduje, że on nie wie jak się w tym połapać. Bo w ogóle już się zadowala pierwszą możliwą odpowiedzią. I to jest to, co ostatnio na konferencji w Londynie widziałem, że ludzie na świecie próbują do tego jakoś podejść, tzn. stworzyć hierarchię tej warstwy kontekstowej, możliwość ustalania priorytetów, może wprowadzeniem jakichś heurystyk szukania: okej, nie zadowól się pierwszą odpowiedzią w dokumentacji, bo to może być ADR, który opisywał sytuację, która była trzy lata temu, od tego czasu się to zmieniło, to może jeszcze spójrz w dyskusję na Slacku albo w jakieś tikety w Jirze czy coś takiego, bo to nie jest takie proste w dużych organizacjach."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "12:29",
+      "text": "To powoduje, że to co opisujesz, znaczy, że nadal jest bałagan. To, że zbierzesz tą dokumentację historyczną, to po prostu jeszcze nie oznacza, że masz rozwiązany problem. Bo nadal masz ten bałagan, który jest spowodowany tym, że to co opisałeś, że coś się zadziałało w międzyczasie, jak ktoś czegoś nie zanotował, coś się odbyło na jakimś spotkaniu i wszyscy poszli do domu i byli zadowoleni."
+    },
+    {
+      "speaker": "Marcin",
+      "time": "12:55",
+      "text": "Tak, ale nadal musisz ułożyć ją hierarchicznie, bo nie możesz mu zrobić dokumentu, jednego dokumentu, tylko musisz od ogółu do szczegółu przejść, bo inaczej on tam będzie przeskakiwał, będzie pomijał, tak jak potrafi pomijać w dużych klasach, część po prostu skacze po tym pliku i nie wczytuje całego, Więc map."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "12:59",
+      "text": "Tak. Nic się nie zmieniło, kluczem w AI, w sensie szeroko pojętym, nie generatywem AI w operator ORM, są dane. Właśnie odkryliśmy Amerykę po raz 500. Dobra, wiesz co, to ja ci zadam jedno pytanie jeszcze taki, ten, no bo jak gdyby... Sam to trochę powiedziałeś, ja to powiem trochę więcej, nie? Jak gdyby masz bardzo dużo taki, kredan by to nazwał, kraftowy, kraftowe doświadczenia o kraftowych kodzikach i kraftowych... metodologii jak nie można tu wymienić DDD, CQRS jak gdyby kojarzy że pracowałeś z Legasi jak gdyby F-Sharp Pad, więc functional programming też oczywiście no i teraz jak na to patrzysz właśnie z perspektywy może nawet prywatnej w sensie nawet nie służbowej tylko prywatnej bo sam powiedziałeś wróciłem do dokodowania sprawa Metafryda pamiętam jak już miałeś dość w sensie dość za dużo było w pracy roboty i mózg był przeciążony też byłem na takim etapie, też wróciłem niedawno do zabawiania się w domu i jestem zadowolony, że mogę coś tam porobić gorszym, bądź lepszym skrótkiem. Natomiast rzeczywiście coś się zmieniło. i teraz jak byś trochę powiedział, czy to, czy co, co, o ile cokolwiek, widzisz, że teraz po prostu się wydaje, że jest przydatne, nie? Że właśnie, że to, co miałeś kiedyś, to doświadczenie, to wszystkie... posoby wytwarzanej oprogramowania dały Ci bonus, jak dołożyłeś do tego AI. Czy po prostu wziąłeś AI, działa i nara."
+    },
+    {
+      "speaker": "Marcin",
+      "time": "15:03",
+      "text": "Nie, właśnie tak z pudełka to działa, jak odpalić sobie hobbystyczny pomysł, który miałeś zawsze w szufladie schowany i nie chciałeś i można bardzo długo jechać, o, działa, działa, działa, a potem jak chcesz wziąć realne przypadki, to szybko dosyć docierasz do trudności, które trzeba pokonywać i tu się jednak przydaje ta wiedza nabyta. Ale zaczynając z tego kraftowego, bo tak mi się skojarzyło, teraz kraftowy to może nie jest kod, ale prompty są kraftowe. Hardness jest kraftowy i baza wiedzy może być kraftowa dla AI. I tak faktycznie ja miałem, jak wielu pewnie programistów, zachłystywałem się różnymi nowinkami. Nawet było tak, że prawie miałem plakat Kenta Becka tego od TDD i stream programingu. w firmie powieszony, miałem, że nie plakat, ale cytaty miałem z niego powieszony nad biurkiem i byłem takim neofitą nieznośnym dla otoczenia, przepraszam, moich ówczesnych współpracowników. A potem programowanie funkcyjne, to ciebie przepraszam za to, że molestowanie programowaniem funkcyjnym, ale to się, moim zdaniem, się przydaje, bo i teraz będzie może mnie... Jaki ja miałem problem z tym swoim nawróceniem, byciem neofitą. Ja chciałem zmusić ludzi do nieludkich zachowań. I uważam, że w extreme programingu TDD, czy takim metodycznym podejściu do e-sourcingu CQRS-a, problemem nie są założenia, to, nie zawsze człowiek jest w stanie sprostać, żeby w pełni podążyć ścieżko na przykład extreme programingu. A maszyna, czemu nie, ona ma próg bólu dużo dalej i też jest jakby jak masz prawo malejących przychodów w korzyści z tego, że masz więcej testów, to moim zdaniem dla człowieka on jest gdzie indziej, a gdzie indziej jest dla maszyny. Możesz sobie pozwolić na dużo więcej testów, jeśli chcesz mieć to pokrycie praktycznie 100%. To czemu nie? Jeśli te testy są kruche, to on nie poprawi. Oczywiście on ma tendencję do oszukiwania w tych testach, ale to masz mutacyjne testy, żeby jakość tego suitu testowego mieć lepszą, sobie zapuścić. Moja perspektywa jest taka, że to wszystko się przydaje, a w szczególności także programowanie funkcyjne czy na przykład event sourcing, które cię zmuszało wcześniej do tego, żeby sobie..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "17:24",
+      "text": "No to prawda, że..."
+    },
+    {
+      "speaker": "Marcin",
+      "time": "17:46",
+      "text": "pomyśleć i zaplanować strukturę kodu, bo tam wychodzisz od typów albo od eventów, struktur danych i dopiero później siadasz do programowania i one jakby określają, w którą stronę to programowanie pójdzie. Tam nie się to bardzo kojarzy z, albo takie mam podejście do space driven development teraz."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "18:09",
+      "text": "To prawda, że test driven development, ja się nawet śmiałem, że wrócił do łask, że ja zacząłem, że nigdy w życiu go nie stosowałem, a teraz nagle zaczynam przytasować test driven development, bo mogę. I nawet to całkiem spoko działa. Nigdy w życiu to nie była ta technika. Próbowałem to 3 razy w życiu, poddałem się, ciężko"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "18:30",
+      "text": "Ja zawsze uważałem, że w TDD problem nie jest w ogóle w pisaniu testów, tylko w zrozumieniu wymagań i dlatego nigdy TDD nie zadziałało w projektach, ale to jest zupełnie side note i mam wrażenie, że TDD mimo wszystko, nawet jeśli agenci będą nam robili testy, to i tak jest skazane już na zagładę. Ale tak sobie..."
+    },
+    {
+      "speaker": "Marcin",
+      "time": "18:57",
+      "text": "Wiesz co? Mogą robić wyżej testy na wyższym poziomie niż takie unitowe. Faktycznie te DDD działają średnio, bo on ma jeszcze tendencję do tego, żeby robić je małej wartości te testy, bo mu kazałeś to je na trzepie, bez sensu, jakby różne warianty robi. Więc takie testy, które wynikają wprost z wymagań, specyfikacji na wyższym poziomie lepiej działają z nim. Bo dla człowieka one są z kolei bardzo żmudne, tak? Im wyżej tej tyramidzie to..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "19:04",
+      "text": "To tak."
+    },
+    {
+      "speaker": "Marcin",
+      "time": "19:26",
+      "text": "trudniej są bardziej kruche, ale on to może robić, więc czemu nie?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "19:30",
+      "text": "Oczywiście, oczywiście, tak. Tylko, no właśnie to jest wszystko wiesz, tak naprawdę TDD mogłoby zadziałać w momencie, którym mielibyśmy na kilku innych poziomach działające elementy, jak definition of ready, potem definition of done i tak dalej i tak dalej, ale tak jak mówię, to moglibyśmy, wydaje mi się, o samym TDD nagrać cały odcinek. A ja chciałbym wrócić trochę do tego też, do samego Allegro, tak bezpośrednio i do twojej roli tam w tym Allegro. Bo wspomniałeś o tym, twoje, nazwijmy to zabawy z AI, są bardziej pod kątem R &D, że tam twojego kodu prawdopodobnie, albo twój kod produkcji nie dotyka. Ale domyślam się, że to nie jest jakby ogólna zasada w Allegro w tym momencie i jednak jest dużo kodu... który generuje cię za pomocą AI, który ląduje na produkcji. Mógłbyś trochę uchylić rąbka tajemnicy właśnie. I w ogóle jakie jest twoje podejście do tego i jaka jest rola agentów w firmie finansowej w tym momencie i czy to ma rację bytu, czy to jest jakby, jak słyszymy, wiesz, jak słyszymy na X, że... W większości już mam wrażenie firm kod jest tylko i wyłącznie generowany. W Anthropiku Clot to sam się pisze. Zresztą w OpenAI pewnie też. I w wielu firmach, u Maska prawdopodobnie też. Mask prawdopodobnie zaraz wszystkich zwolni, bo będzie miał agentów, którzy będą robić za niego rakiety, znając życie. A jak to jest naprawdę w takiej firmie nie małej jak AllegroPay?"
+    },
+    {
+      "speaker": "Marcin",
+      "time": "21:35",
+      "text": "Dobra, jedna rzecz na pewno, znaczy na to są już liczby, bo mierzyliśmy adopcję, takie liczby, jeszcze zanim się El Dorado skończyło, czyli zanim się ten wynik zwiększył, no to już było kilkanaście procent więcej PR-ów i dwa razy tyle, nie pamiętam, ale 20-30% kodu więcej, to liczba linii kodu rośnie szybciej niż liczba PR-ów. Przy czym, co ciekawe, większość tego kodu to nie był kod bezpośrednio platformy Allegro czy Allegro Paya, czy Allegro Finance, tylko nowy kod obok rozwiązujący jakieś nowe wewnętrzne problemy. Czyli to, na co się ludzie najpierw rzucili, to zaczęli realizować jakieś pomysły usprawniające wewnątrz pracę. Ja sam popełniłem takiego agenta do diagnozowania incydentów. Trudno powiedzieć, że to jest kod produkcyjny, bo to nie jest część platformy Allegro. I mnóstwo takich pomysłów było realizowanych. Ja napisałem na blogu o agencie, który napisał u nas ryzyko do generowania raportów z hurtowni danych. Czyli ludzie zaczęli automatyzować swoją pracę. I przy okazji powstał jakiś kod albo jacyś agenci do tego i to było to większe. Z jednej strony to było użycie AI, a z drugiej strony było to generowanie AI. To jest ten przyrost. Na pewno też pewnym problemem stały się kontrybucje pomiędzy zespołami. Bo na przykład platforma techniczna zaczęła trochę narzekać, że zbyt dużo dostaje PR-ów, bo ludzie poprawiają różne rzeczy, ale ponieważ nie rozumieją pełni kontekstu, to czasem te PR-y po prostu trzeba było odrzucać. No i to nie jest jakby fajne, ktoś, znaczy tutaj akurat AI, ktoś jednak miał dobrą wolę i coś zrobił, no a potem trzeba mu powiedzieć: no przeoranie tego PR-a, żeby on się nadawał, to i tak nam zajmie dużo czasu i nie jesteśmy w stanie tego zrobić, nie mamy tego w roadmapie i i tak nie możemy tego przyjąć. Więc takie anegdotyczne sytuacje się pojawiały."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "24:01",
+      "text": "OK, OK, ale... Właśnie, to też mnie bardzo ciekawi, też to już bezpośrednio ze swojej firmy, różnych klientów słyszałem, że są ciekawe w ogóle podejścia w firmach, które bardzo chcą właśnie jak największej tej adopcji AI. I też mnie ciekawi, jak to u was wygląda, to znaczy, czy tych agentów, czy te narzędzia były budowane przez... inżynierów oprogramowania za pomocą AI, że tak powiem jako jakiś tam dodatkowy element pracy? Czy to ludzie, którzy bezpośrednio pracują, nie wiem, przy analizie ryzyk, czy przy jakichś innych tematach, ciężko mi jest opowiedzieć konkretne stanowiska, ale ludzie niezwiązani na co dzień z programowaniem. zaczęli tworzyć swoich agentów, zaczęli tworzyć swoje wewnętrzne narzędzie w związku z tym."
+    },
+    {
+      "speaker": "Marcin",
+      "time": "25:02",
+      "text": "To jest coś, co mnie bardzo zaciekawiło, po parę tygodni temu, ja pisałem to na blogu, o takie dwa ekstremalne przypadki na tej osi, jak używania AI, jak dużo... Kto to robi po pierwsze? Czy to robią inżynierowie, czy to robią nieinżynierowie eksperci z jakiejś dziedziny? I też jak dużo swobody pozwalamy... No i jak dużo z to błędów pozwalamy AI-owi, czy to kot kręci ogonem, czy ogon kręci kotem trochę, bo, tak, bo masz z jednej strony rozwiązania tak na platformie, której działam dla agentów produktowych, czyli tam używamy ADK, Google'owego i Landgrafa, gdzie w sumie jest to tradycyjne oprogramowanie, deterministyczny program w Pythonie, gdzie LLM jest jakimś kolejnym zewnętrznym API, tak, i to jeszcze obłożonym często sporymi obostrzeniami, czyli na przykład są jakieś fallbacki do innego API, gdy model jest niedostępny, jeśli zadania są prostsze, to jest tańszy model, trudniejszy jest droższy, większy, jest human in the loop, jeśli jest jakiś próg odcięcia, po którym ustawiamy, że odpowiedź jest niesatysfakcjonująca i człowiek wchodzi wtedy i wykonuje to zadanie, albo w ogóle jest jakiś fallback do gorszego, deterministycznego rozwiązania. i tak dalej i tak dalej. Jest to mnóstwo inżynieryjnej pracy. I to robimy w takich rozwiązaniach, które są albo dla klienta, albo mają jakieś specjalne regulacje. Tam wpisałem akurat przykład agenta do procesu KYCML sprzedawców, czyli dosyć ostro regulowanego procesu. No i to jest jedno ekstremum, gdzie ten..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "26:56",
+      "text": "bo warto powiedzieć co to jest proces KYC"
+    },
+    {
+      "speaker": "Marcin",
+      "time": "27:00",
+      "text": "No to jest: poznaj swojego klienta, a AML to jest proces przeciwdziałania praniu brudnych pieniędzy, po polsku. A jeśli ktoś chce sprzedawać na platformie Allegro i żebyśmy mogli mu przelać pieniądze jako sprzedawcy, że on coś sprzedał i klient mu zapłacił, no to jest mocno regulowane przez prawo i musimy się dużo o nim dowiedzieć, dużo rzeczy sprawdzić i jeszcze musimy to regularnie sprawdzać. Więc to nie są proste rzeczy w tym wszystkim. I to wymaga sporo inżynieryjnej pracy i nie można tak puścić AI-a samopas, żeby sobie tam coś zachalucynował, bo to musi być w pełni audytowalne i musimy się wytłumaczyć z każdej decyzji, która została podjęta. I to jest jedno, że to tworzą inżynierowie, ale są drugie rozwiązania, na drugim ekstremum, gdzie daliśmy wszystkim dostęp do Copilota czy OpenCode'a i przez OpenCode'a do copilotowych modeli i nagle ludzie wpadali na różne pomysły. I nasze ryzyko, które nie potrafi programować w Pythonie, stworzyło sobie agenta, który automatyzuje tworzenie przez nich raportów z hurtowni danych. I to nie jest takie proste narzędzie, które mówi: weź mi tutaj z kwerendy i tabelki. Bo ono ma całą bazę wiedzy o tym, jak te dane są w hurtowni ułożone, jakie są dobre praktyki SQL-owe specyficzne dla naszej organizacji, heurystyki postępowania tych ekspertów. Zapięli to wszystko w skille, zbudowali podagentów do poszczególnych zadań, zbudowali, w sensie w OpenCode'zie czy w Copilocie, to jest po prostu Markdown, wszystko, tak, czy skill, czy podagent. No i zapięli to przez MCP-a do Snowflake'a i to jest bardzo sprytne, bo potrafi się to samo uczyć. To znaczy generuje raport przyrostowo. Jeśli użytkownik koryguje tego agenta, to on stwierdza, że być może trzeba poprawić jakiegoś skilla albo rozbudować bazę wiedzy i proponuje zmianę samym sobie. I to w zasadniczym sensie nie potrafiąc programować. Dla mnie to było, to mi otworzyło oczy, bo to jest to zastosowanie, o które ja nie prosiłem, a je dostałem od AI-a. Nie prosiłem też o kod, ale generowanie kodu nie wymagało dla mnie sztucznej inteligencji, żeby mi ktoś rozwiązał ten problem. A tu jest coś, czego się nie dało wcześniej zautomatyzować, bo opiera się mocno na heurystykach, bo te analizy za każdym razem są trochę inne. I wymagają specyficznej wiedzy i podejmowania decyzji w trakcie, bo budują się przyrostowo. Na podstawie tych danych idziemy w prawo albo w lewo. Takich rzeczy wcześniej nie dawało się programować. I to jest dla mnie wow ze sztucznej inteligencji."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "30:00",
+      "text": "To prawda, to jest rzeczywiście takie, nawet nie sztuczna inteligencja, tylko rzeczywiście modele językowe. Dobra, to nim przejdziemy dalej. Drogi słuchaczu, zachęcamy do komentarzy, pytań, też jak macie do Marcina, to jest ten moment, like, dislike oczywiście, żebyśmy wiedzieli, gdzie się trzymamy. Powinniśmy to powiedzieć dużo wcześniej, bo jest 30 minut mniej więcej nagrania. Ci, co tu trwali, to tym bardziej like, dislike, jesteśmy bardzo wdzięczni. Jak macie też pytania do Marcina, to oczywiście zadawajcie. Te artykuły do bloga oczywiście będą u nas na stronie jakoś tam podlinkowane, więc wystarczy kliknąć ten link w opisie i wszystko będzie jak zwykle na stronie, więc będziecie mogli sobie doczytać, więc oczywiście zachęcamy. Dobra, koniec. Hasz, autopromocja, przepraszam, slash, autopromocja, done. Dobra, ale zadam Ci jeszcze jedno pytanie, trochę nie w temacie, bo tak naprawdę nie do końca odpowiedziałeś wprost teraz, kto to robi. Bo teraz, zadając takie pytanie wprost: czy to jest w stanie zrobić człowiek, niech będzie, analityk finansowy? To są takie osoby, żeby było jasne, którzy, nazwijmy to, kodu nie widzieli, ewentualnie jakieś SQL-e trzepali. Albo być może nawet jeszcze osoby, nie wiem, mogę sobie wyobrazić prawnika do procesu KYC czy cokolwiek takiego, czy jednak to są ludzie, którzy powiedzmy mają jakieś doświadczenie hands-on."
+    },
+    {
+      "speaker": "Marcin",
+      "time": "31:43",
+      "text": "Eee... Wiesz co, na... na... jest trudne, bo..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "31:44",
+      "text": "Trudne pytanie. Trudne pytanie, bo możesz kogoś obrazić przez przypadek kto z Tobą pracuje."
+    },
+    {
+      "speaker": "Marcin",
+      "time": "31:51",
+      "text": "Nie, nawet tak anegdotycznie miałem niedawno taką rozmowę z biznesem, z samą menedżerką. Ja zapytałem: no jak mamy te wszystkie narzędzia, to po co wy nam, inżynierowie, jesteście? Tak, prowokacyjnie, prowokacyjnie. No ja odpowiedziałem tym samym. Jak mamy te wszystkie narzędzia, to po co nam jest biznes? Bo to działa też w drugą stronę."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "32:05",
+      "text": "Bardzo dobre pytanie, bardzo mi się podoba. Zwolnić was."
+    },
+    {
+      "speaker": "Marcin",
+      "time": "32:21",
+      "text": "obosieczne. Ja potrafię też robić wychodzące poza moją ekspertyzę dzięki temu. ale jednak najlepiej to wychodzi, jeśli nie oddalasz się poza swoją dziedzinę. i bym powiedział tak, że wydaje mi się, że jednak inżynierom to wychodzi lepiej. I też nagrania tego nas potrzeba jakby ta edukacja."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "32:23",
+      "text": "Fajdo!"
+    },
+    {
+      "speaker": "Marcin",
+      "time": "32:50",
+      "text": "Tak, ale z drugiej strony..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "32:51",
+      "text": "Raczej chodzi mi o to, czy macie takie przypadki ludzi, jakby właśnie... bo ok, ja się tobą zgadzam, że wychodzi lepiej. To wynika z tego, co my sobie przed chwilą gadali, że masz te wszystkie doświadczenia, więc ci łatwiej to zbudować. Ale raczej się pytam, czy zaczęliście wciągać po prostu ludzi właśnie obok. sensie strzeliłem prawnika, może to zły prawnik. Oczywiście, wydaje się całkiem, wbrew pozorom, dobrym. czy takich ludzi też próbujecie właśnie dociągnąć, żeby oni dołożyli tej wiedzy do tej dokumentacji, bo oni są w stanie przeczytać tego Markdowna, może to nie jest najlepszy format, ale może też są w stanie coś włożyć."
+    },
+    {
+      "speaker": "Marcin",
+      "time": "33:35",
+      "text": "No i tutaj jest dla nas, inżynierów, którzy myśleli, że to wymaga jakichś specjalnych umiejętności, to poza tym pierwszym etapem, że wielu ludzi nigdy nie miało konta na GitHubie i musiało przejść naszą allegrową instrukcję, jak założyć sobie konto na GitHubie, żeby mieć dostęp do Copilota, ale już jak miało tego Copilota, to nagle już z marszu sobie poradziło, bo się szybko rozeszło, że mamy Obsidiana, można korzystać z tego Obsidiana i ludzie zaczęli budować własne bazy wiedzy w Obsidianie i ludzie pokazywali do czego tego używają. Czasami trzeba było jednak stopować entuzjazm, bo ludzie podpinali najróżniejsze rzeczy i zaczęli w Tableau generować dashboardy przez Playwrighta, automatyzować sobie generowanie tych dashboardów. Czemu nie? Bardzo fajne zastosowanie. Więc jak widać, nie potrzebujesz skończyć wcześniej technicznych studiów, nawet znać SQL-a czy coś, żeby zaprząc do roboty coś, co automatyzuje twoją pracę."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "34:48",
+      "text": "To ja spróbuję zamknąć ten temat jeszcze takim ostatnim pytaniem, bo dość szybko żeśmy przeskoczyli, że właśnie ludzie robią, ale jest gdzieś szczególnie w finansach, tak brzmi moje doświadczenie, w branży medycznej jest równie parszywie, pewnie w innych branżach, których nie dotkałem w swoim życiu też może być równie parszywie, to jest kwestia tej dane dostępnej, odpowiedzialność."
+    },
+    {
+      "speaker": "Marcin",
+      "time": "34:48",
+      "text": "Wiem."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "35:12",
+      "text": "procesy, audyty i tym podobne takie zamknę taki bardzo szeroki poeg i jednym pytaniem. Co się dzieje właśnie z tym? Bo w sensie to, nie wiem, ktoś zrobi, niech będzie w tablo wykradł ze swojej bazy wiedzy i na podstawie tego nie wiem, odmówi komuś kredytu, całości nie udzielacie, więc to nie tan, może być zakwestionowane przez Tak, dba..."
+    },
+    {
+      "speaker": "Marcin",
+      "time": "35:44",
+      "text": "Może być. Tu jest wiele podstawowych rzeczy, które trzeba rozwiązać. Na przykład choćby to, że jeśli wrzucasz tam dane klientów, to trzeba zadbać o to, że to są modele hostowane w Europie na przykład. Takie rzeczy trzeba zawrzeć, jeśli w ogóle mówimy o pieniądzach..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "36:04",
+      "text": "Wrzucasz danych klientów, to jeszcze musisz mieć zgodę na to."
+    },
+    {
+      "speaker": "Marcin",
+      "time": "36:08",
+      "text": "Fuuu..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "36:10",
+      "text": "do jakiegoś przetwarzania, może się okazać, że musisz mieć na to zgodę."
+    },
+    {
+      "speaker": "Marcin",
+      "time": "36:12",
+      "text": "Nie, nie, tak, tak, ale ta wiedza o tym w jaki sposób można przetwarzać, bo jeśli to jest przetwarzanie polega na tym, że generujesz SQL, który robi zestawienie i potem on wyciąga wnioski, ci pozwalają zrobić jakoś raport wewnętrzny, jest czymś innym jak jest też użycie wewnętrzne do jakichś analiz, które potem sterują tym, jak mamy akcję marketingową, a czym innym jest zaprzegnięcie produktowo AI'a, żeby on choćby klientowi doradzał coś. albo decydował o losie klienta, na w tym procesie AML KYC, to tam musiałem te wszystkie obostrzenia i wytłumaczenie się z każdej decyzji musi być zawarte. Jakby, jeżeli mamy o tym możliwości odwołania się, gdyby klient był niezadowolony. I tak samo, jeśli przetwarzamy pieniądze, to to jest ciekawy temat, który my też eksplorujemy, to jest na agent payments protocol, który pozwala... kryptograficznie podpisywać intencje użytkownika i nie tylko takie proste, że chce coś kupić na Allegro za pomocą swojego agenta, ale chce na przykład zlecić okresowe zakupy albo w ramach jakiegoś budżetu w poszukiwaniu najlepszej oferty, czyli może całą intencję podpisać i weryfikować. I to są nowe rzeczy, które dopiero pączkują. Mogę powiedzieć, że takie rzeczy się pojawią. No, jestem przekonany niedługo, mógł się szerzej pochwalić. No i także takim rzeczom, jak mamy asystenta AI-owego w Allegro już od zeszłego roku i on się robi stopniowo coraz mądrzejszy, więc się też powoli maturę z finansów zdobywa i będzie można różne rzeczy finansowe zapytać."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "38:09",
+      "text": "Nie boisz się pozwów?"
+    },
+    {
+      "speaker": "Marcin",
+      "time": "38:09",
+      "text": "Czap, czap!"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "38:12",
+      "text": "To prywatne pytanie, nie ty będziesz decydował, więc będzie łatwo. Możesz też nie odpowiadać swobodnie."
+    },
+    {
+      "speaker": "Marcin",
+      "time": "38:24",
+      "text": "Wiesz co, pomieńmy to. Staramy się to mocno trzepać z naszymi prawnikami. Zresztą każdy pomysł na produktowe użycie EIA zaczyna się od kawy z Janą, czyli z prawniczką naszą. W ogóle polecam."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "38:26",
+      "text": "Dobra, pomińmy je, pomińmy je, będziemy je wycinać."
+    },
+    {
+      "speaker": "Marcin",
+      "time": "38:51",
+      "text": "polecam na LinkedInie, to może z nimi zdenkujemy, bo ona pisze bardzo dużo fajnych artykułów o AI-u, AI-akcie, w aspektach prawnych, komplajansowych AI-a. No i idziesz na kawę z Janą i masz jakiś pomysł. No i ona ci powie, ok, to czy to w ogóle da się prawnie? A teraz jeśli się da, no to na co trzeba uważać? Jakby, no, ja tak sobie żartowałem, ale generalnie nie jedziemy na YOLO z tym. Od tego w ogóle zaczynamy. Każdy."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "39:26",
+      "text": "Tak się można domyślać. ogóle jeszcze zastanawiam się, bo nie wiem, czy mieliście ten problem i to tak wracając bardziej też do inżynierskiej samej pracy. I początkowo byliśmy cały, mocno zachłyśnięci w ogóle tą technologią. Nie wszyscy chcieli generować od... W początku tego miesiąca, albo inaczej, od początku czerwca, bo nie wiem dokładnie, kiedy ten odcinek zostanie opublikowany, ale od początku czerwca wszelkie jazdy JOLO z AI-em trochę się ukróciły i będą ukracane coraz bardziej, bo to już nie będzie takie tanie, bo to już nie będzie takie przyjemne. Natomiast chciałem w ogóle o... zapytać o organizację też waszych waszych zespołów. Tak gdzie widzisz, jeśli chodzi o wdrażanie AI teraz największe, największe trudności? Czy to wciąż jest jeszcze sama technologia i nauczenie się jakichś dobrych praktyk właśnie pracowania z tymi narzędziami? Czy to jest pilnowanie jakości? Czy może poukładanie procesu i ludzi wokół tego, wokół tych narzędzi? Pytam też dlatego, Bo ja i to mnie już po prostu rozsierdza na każdym spotkaniu, jak słyszę, że któryś z moich programistów, pozdrawiam wszystkich z mojego zespołu, bardzo serdecznie, jak mi któryś mówi, klot mi to wygenerował albo copilot mi to wygenerował. I tak jakby trochę chcieli zrzucić tę odpowiedzialność, pomimo tego, że jakby świadomie z tego powinni korzystać. I za każdym razem I to po prostu powtarzam, mam wrażenie, jak mantrę kilka razy w tygodniu, nie klot ci to wygenerował. Ty bierzesz za to odpowiedzialność. I jak to wygląda właśnie u was? Czy udało ci się przejść beyond ten punkt, gdzie ludzie przychodzą i mówią, że to czy tamto mógł wygenerował Copilot? Czy to nadal się zdarza?"
+    },
+    {
+      "speaker": "Marcin",
+      "time": "41:39",
+      "text": "Zgadzam się z przedmówcą. Tak polityka w prawie każdej firmie jest taka, że koniec końców to ty jesteś podpisany pod komitem i ty bierzesz na niego odpowiedzialność. Czy tak będzie za rok, to ja nie powiem ci, bo może się to zmienić. Natomiast... Widać już, że nie jesteśmy w stanie szybko zbudować takiej siatki bezpieczeństwa weryfikacyjnej, która by pozwoliła, żeby ten kod powstawał autonomicznie bez ludzkiego nadzoru. Próbujemy, pół świata próbuje to robić i powiem, że z mieszanymi sukcesami, a my sobie nie możemy pozwolić. Na to nie wiem co właśnie robi Clot, że po prostu ma trzy update dziennie, a tym jest wyścig zbrojeń. Chodzi o to, mieć jak najwięcej feature'ów nowych i i i i i i i i i i i i i i i i i i i i i i i i oko, że tam coś mi nie działa. Allegro ma działać w mojej pamięci, która z niego korzysta. Ona by była niezadowolona, gdyby przestało działać. Więc tu na pewno nie ma tego YOLO. Jesteś odpowiedzialny za kod. ale jednocześnie budujemy te siatki bezpieczeństwa, agent weryfikuje agenta, jakby PR-y są różni agenci pod różnymi kątami weryfikują swój PR, jakie on jest jakości, no i teraz musisz teraz zapuścić swojego agenta, żeby on odpowiedział na tamte komentarze wygenerowane przez innego agenta. Myślę, że to się zmierza w takim kierunku, że będzie jakaś analiza ryzyka i PR-ów, które PR-y wymagają ludzkiego nadzoru, a które można puszczać praktycznie automatycznie. Że to w tym kierunku zmierza, ale jeszcze tam nie jesteśmy."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "43:59",
+      "text": "No dobra, ale czy w takim razie, bo dużo się też mówi o tym właśnie, że ten shift odpowiedzialności jest właśnie na tych PR-ach, przed 2022 rokiem, nazwijmy to, bo tak sobie układam tę premierę narzędzi kodujących typu GPT, przed 2022 mieliśmy jakość w napisaniu kodu i ewentualne sprawdzenie na PR-ze. Miałem wrażenie, że tak to w większości zespołów wyglądało. Teraz jakość tego kodu jest właśnie, bo on jest tani, on jest szybki, on jest w większości generowany, więc ten fokus na jakości musi być na PR-ze i to się mocno przesuwa. Czy właśnie twoi inżynierowie też zaczynają to rozumieć i dużo więcej czasu poświęcać na review tego kodu, czy dużo więcej patrzy się, no bo jednak mam wrażenie, że na ten moment jeszcze mamy w większości workflow takie, że programista siada, zaprzęga swoich agentów tam pejczykiem, żeby kolejnego taska natrzepać, powinien czysto teoretycznie sprawdzić, co to narzędzie wygenerowało, powinien to przetestować lokalnie i wystawić PR-a. Natomiast wiemy, jak jest. Wiemy, jak jest i czasami ktoś tam się zapędzi."
+    },
+    {
+      "speaker": "Marcin",
+      "time": "45:36",
+      "text": "Wiemy, jak między ludźmi też było i jest, to znaczy, że generalnie jest tak, że śklepnij mi tego PR-a i ufasz człowiekowi. O ile cię nie poprosi, bo mam wątpliwości, zajrzyj tam i czy to jest dobrze zrobione, to obejrzewam, że spora część PR-ów review jest bardzo powierzchowna albo się opiera na zaufaniu."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "45:48",
+      "text": "Ufasz... Właśnie."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "46:03",
+      "text": "Marcin kłamie. Marcin teraz kłamie. Prosiłem go takie PR, a potem miałem..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "46:13",
+      "text": "Bo Marcin domyślił..."
+    },
+    {
+      "speaker": "Marcin",
+      "time": "46:13",
+      "text": "No dobra, ale ja się czepiałem, o spację się czepiałem."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "46:14",
+      "text": "Ale to dawno temu było."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "46:17",
+      "text": "Marcin, domyślam się, że jestem takim seniorem, jakbyście zapytali ludzi ode mnie z firmy, szczególnie ludzi, którzy przeżyli ze mną staż, że jest taki senior i tutaj musiałbym wypikać, bo nie chcę brzydko mówić, ale zawsze powinien być gdzieś jeden taki senior zły, który będzie uczył realnie tych ludzi na PR-ach i to jest jego cel, żeby nauczyć kogoś na PR-ze. i po prostu objechać go od góry do dołu i cztery razy mu odrzucić tego PR-a, zanim się w końcu nauczy. Ale to jest, to jest, to, to swoją drogą. Ale tak, mimo wszystkim..."
+    },
+    {
+      "speaker": "Marcin",
+      "time": "46:52",
+      "text": "Znaczy, najistotniej wydaje mi się, że w tej chwili na PR-ze to jest za późno. To znaczy, bo jeśli mamy więcej kodu, więcej PR-ów i jednocześnie ludzie nie tworzą tego kodu przez to, co w chwili przestaną wiedzieć co w nim jest, jeśli byli dalej iść tą drogą, no to też będą słabimi recenzentami, bo to ja, jeśli byłem dobrym recenzentem, to tylko tych kawałków, których się orientowałem tak naprawdę, bo jeśli miałem review czegoś, zupełnie nie znam, to jakieś oczywiste rzeczy mogłem wypatrzeć. I to pewnie dotyczy każdego. Więc, bodaj mi zdaniem, tą siatkę bezpieczeństwa i o jakąś trzeba zadbać wcześniej, bo inaczej to za chwilę może mieć problem wszyscy jako branża. Nie mówię konkretnie o Allegro, bo nie będziemy wiedzieli co robić z tym nadmiarem kodu i nadmiarem PR-ów. Ja w ogóle jeśli optuję wchodzę do zespołu, który rozpoczyna przygodę albo rozpoczyna przygodę z AI-em, to zajmijcie się najpierw sprzątaniem długu technicznego za pomocą AI-a. Zróbcie jakieś refaktory. Przy okazji się go nauczycie, ale też zobaczycie co mu się udaje, co mu się nie udaje. Być może co mu trzeba do tej bazy wiedzy dorzucić albo ulepszyć baterię testową albo zaprząc mu jakiegoś lintera albo jakoś statyczną analizę kodu. Rzeczy, które wcześniej były tak średnio przydatne dla człowieka powiedzmy sobie szczerze, a nagle są dobrym sensorem dla A.I. żeby ten kod robił trochę lepszy i potem nam robił mniej robotny review. A w ogóle kluczowe jest to, żeby on nie wyrzucał takiego blob kilka tysięcy linii kodu, tylko żeby podzielił niezależne od siebie komity, których każdy ma być dyplodowany i tak samo małe PR-y. Jakby to, nie wiem, wielkie PR-y wygenerowane AI-em od razu mają odrzutę u mnie. Proszę to podzielić na mniejsze kawałki."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "49:14",
+      "text": "Dobra, wiesz co, w sumie tak, jak gdyby, może chyba przeskakując do następnej rzeczy, zamkając trochę wątek samego Allegro, bo żeśmy chyba właśnie z niego trochę wyścili, to wiesz co, to ja miałbym do Ciebie pytanie, no bo to jest fajne, jak gdyby z punktu widzenia ludzi doświadczonych, nie? A co zrobić z tymi nieszczęsnymi ludźmi, zresztą też trochę dyskutujesz o tym, dyskutujesz, piszasz o tym na blogu. W sensie co zrobić z tymi entry level jobs? ciężko będzie, wiesz... Dobra, Karytanś kiedyś ze mnie śmiał, że ja jestem dobry w programowaniu z AI-em, dlatego że na tyle dużo PR-ów przeleżałem w swoim życiu, że teraz jak przeglądam PR AI-a, po prostu jest to naturalny ten, ale no..."
+    },
+    {
+      "speaker": "Marcin",
+      "time": "50:06",
+      "text": "Trzeba, masz bibliotekę, to trzeba też dużo czytać w życiu, bo teraz nagrałem, to jest ścianotekstu za ścianotekstem, a on dopiero się odchrząknął, więc ta umiejętność szybkiego czytania ze zrozumieniem się przydaje."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "50:21",
+      "text": "Ale właśnie jak w ogóle to widzisz, co w ogóle, jakbyśmy rozgadywać, bądźmy szczerze, zgadujemy dzisiaj w tym momencie, robimy profesjonalne estimacje."
+    },
+    {
+      "speaker": "Marcin",
+      "time": "50:34",
+      "text": "Bardzo dobrze, że to powiedziałeś. Wszystko, co powiedziałem do tej pory, co było jakąś prognozą albo że wydaje mi się, że będzie dokładnie z tą gwiazdką na pewno się mylę. Tak, większa szansa, że się mylę niż, że się nie mylę. Takie czasy bardzo niepewne są."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "50:48",
+      "text": "No właśnie, jakbyś miał obstawiać, nie? Jakbyś miał obstawiać, jakby ci przyszedł, pewnie przychodzą wam stażyści, młodzi. Co w ogóle byś włożył w pracę takiego człowieka? Czy oni mają trudniej? Bo może to jest bzdura rynku, którym jak patrzysz, jak byliśmy młodzi i wbiegaliśmy na Pałac Kultury bez zadyszki, to było bardziej wspaniale, ale może to jest bzdura, że młodzi mają trudniej. Masz obserwacje z dużo organizacji, więc może po prostu masz jakieś przemyślenie, jak to wygląda."
+    },
+    {
+      "speaker": "Marcin",
+      "time": "51:29",
+      "text": "No dobra, przyznam, że ja uwielbiam pracować z juniorami, bo są takimi, co żadnej pracy się nie boją, a jednocześnie są otwarci na rady, bo ich zapał mi się udziela."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "51:40",
+      "text": "Tacy są najlepsi. Jeszcze zadam pytanie o ten poziom niżej. Tacy, którzy chcą, może już nie jest tak, że są super otwarty na wszystko."
+    },
+    {
+      "speaker": "Marcin",
+      "time": "51:53",
+      "text": "No dobra, bo co do tej diagnozy, że jest się trochę czego bać, to może się zgodzimy, bo to w skrócie polega na tym, że całym tym krzywej dzwonowej zadań od prostych do trudnych, no to skoro AI te proste zadania robi bardzo dobrze, także nawet nie wymaga specjalnego nadzoru, to teraz jeśli przyjmujesz takiego przelatnika programistę do zespołu i on wcześniej mógł się uczyć on the job na tych prostych zadaniach i przynosił je nacześnie wartość firmie i sobie, A tu masz pokusę, żeby nie potrzebujesz go do tych zadań. To co mu dać. I on ma też tą pokusę. Będzie ją robił i nie będzie się uczył przy okazji, bo on mu coś wygeneruje, to działa, przełożony klepną działa, a on się nie nauczył. Powłożicie ja im trochę, tak się nauczył."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "52:28",
+      "text": "Ale on też ma tę pokusę, bo to nawet nie tyle, że... On się nauczył. Poczekaj, on się nauczył. Dokładnie tak. On się nauczył, że jak wrzucił to do AI-a i to AI jest OK, przełożony klepnie, to jedziemy dalej. Więc jakby nauka poszła. Nie ma tak, że nie było nauki, tylko być może to nie jest ta nauka, co byśmy chcieli, żeby on miał."
+    },
+    {
+      "speaker": "Marcin",
+      "time": "52:58",
+      "text": "No gdzieś słyszałem takie porównanie, to jest tak jak ze sportowcami. Nie płacą ci, że chodzisz na trening, na siłkę, tylko płacą ci za wyniki w zawodach. I trochę tak się dzieje teraz z juniorami. Niestety nie możemy ci za te zadania płacić, ale i tak musisz ćwiczyć. Musisz robić te pompki i inne ćwiczenia, czyli musisz napisać kod z ręki, bo się nie nauczysz. Przynajmniej na tym etapie, nie wydaje się, że to też jest takie prorokowanie, że jeszcze bardzo długo będziemy musieli umieć zajrzeć pod tą warstwę abstrakcji, co tam jest pod spodem. To więcej te jeszcze niższe warstwy abstrakcji też się nadal przydają, rozumienie jak działa komputer na przykład. Co to jest pamięć, co to jest CPU, GPU i tak dalej. To się przydaje, więc te rzeczy... No po prostu są niestety wymagane i trzeba je zdobyć w własnym zakresie. Tyle i teraz stworzyć coś pozytywnego. No bo to jest tak, więcej wymagamy więc żeby się teraz ten junior sam nauczył, bo się nie nauczy w pracy. Znowu mi to sportem się skojarzenie bierze, ze wspinaczką, którą trochę uprawiam, że dlaczego te wyniki na ściance, czy w skałach, które w latach 60. czy 70. to był absolutny top ekstremalny, to teraz robią średniacy. Albo dlaczego teraz miliony ludzi biega maratony na świecie, czy tylko sprzęt?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "54:37",
+      "text": "Sprzęt się zmienił."
+    },
+    {
+      "speaker": "Marcin",
+      "time": "54:43",
+      "text": "Nie tylko wspinacze mają lepsze buty, lepszej gumy. Chodzi o dostęp do wiedzy, jak się trenować. Jak ja zaczynałem, studiowałem informatykę, to jedynym źródłem wiedzy był mój profesor. No nawet nie było literatury. W internecie nic nie było. Nie było YouTube'a. Jak zaczęliśmy jeździć na konferencje, to to było źródło wiedzy, ale nie było nagrań z tych konferencji nigdzie dostępnych."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "54:52",
+      "text": "To prawda."
+    },
+    {
+      "speaker": "Marcin",
+      "time": "55:13",
+      "text": "A teraz masz najróżniejsze kursy. W zasadzie mógłbyś nic nie robić, tylko się uczyć nowych technologii. Za darmo. Tak, bo się bardzo też zdemokratyzowało. Nie potrzebujesz też za większość tych rzeczy płacić."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "55:28",
+      "text": "No nawet jak musisz płacić, to to są nieduże pieniądze. W sensie, bądźmy szczerze, tak? To nie są pieniądze."
+    },
+    {
+      "speaker": "Marcin",
+      "time": "55:31",
+      "text": "Dokładnie, czyli możliwości zdobycia tej potrzebnej wiedzy są dużo większe, więc to jest pozytyw, tak? Uczyć się. Można się uczyć, zaprząc AI-a do tego, żeby cię uczył. Opracował ci plan treningowy w nauce programowania."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "55:41",
+      "text": "Czy uczyć się?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "55:53",
+      "text": "No dobra, teraz, to gdybyś, bo dużo różnych rzeczy, o wiele różnych rzeczy zahaczyłeś. O budowę komputera, o to właśnie w ogóle jak się uczyć i czego się uczyć. A gdybyś ty, ty jako ty, jako Marcin miał teraz zacząć zupełnie od nowa, nie masz tej wiedzy, którą, znaczy no właśnie."
+    },
+    {
+      "speaker": "Marcin",
+      "time": "55:54",
+      "text": "Czemu nie?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "56:22",
+      "text": "Musisz zacząć swoją karierę zupełnie od początku. To w co byś zainwestował, powiedzmy, 1000 godzin jako student, jako człowiek, który dopiero będzie wchodził na ten rynek? Czego ty byś się uczył, żeby odnieść sukces po raz kolejny?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "56:45",
+      "text": "Jak pytanie o to, tam, to w co dzisiaj inwestujesz? sensie, właśnie może nie we wspinaczkę, tylko bardziej zawodowo."
+    },
+    {
+      "speaker": "Marcin",
+      "time": "57:06",
+      "text": "Ja uważam, że warto się dowiedzieć, co w tym AI-u siedzi pod maską w tym momencie. To nie jest abstrakcja, czysta abstrakcja, black box, tylko jeśli wiesz, jaka jest architektura transformerów, na czym polega inferencja, to wiesz czego się spodziewać. Dlatego też ludzie, u nas, ale nie tylko u nas, zajmujący się AI-em, znaczy ML-em zajmowali się wcześniej, o dziwo bardzo dobrze adoptują się do np. agentowego kodowania, bo oni rozumieją to narzędzie działające pod spodem. I też jesteśmy w takich czasach, że musimy zaprzęgnąć tego AI-a do roboty, zbudować mu tę uprząż, jeszcze nikt nie wie jak to dobrze zrobić, bo to jest w ogóle bardzo ciekawe. Więc im więcej się dowiemy na temat samej sztucznej inteligencji i wszystkiego z tym związanego, to ja w to inwestuję swój czas. Ale tak generalnie, bo to jest te przysłowiowe 10 tysięcy godzin, to uważam, że tak naprawdę to nie ma aż takiego wielkiego znaczenia. Ważne, żeby zgłębić jakiś jeden temat, porządnie być w czymś ekspertem. Jak jesteś ekspertem w jednej dziedzinie, powiedzmy w programowaniu, to bardzo łatwo jest transferować tę wiedzę na inne. Bo to jest sama etyka pracy."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "58:42",
+      "text": "Czekaj, czekaj, spróbuję dać analogię, jak poświęcisz 10 tysięcy godzin w programowaniu, to stajesz się hydraulikiem."
+    },
+    {
+      "speaker": "Marcin",
+      "time": "58:53",
+      "text": "Nie, nie, dlatego powiedziałem: w ramach jednej dziedziny, tak? Programowania, tak. Czyli nawet jakbyś teraz zainwestował w C czy C++, to byś na tym nie stracił moim zdaniem. Bo byś to przeniósł na Rusta. Musiałbyś się... Tam jest skomplikowany nowy model mentalny, ale jak już się nauczyłeś template'ów w C++, to już wszystko potem łykniesz."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "58:57",
+      "text": "W ramach jednej dziedziny, tak, właśnie, tego chyba zabrakło. Myślę, że mógłbym to łatwo przenieść na cokolwiek innego."
+    },
+    {
+      "speaker": "Marcin",
+      "time": "59:23",
+      "text": "To jakby ta, jest ważna sama etyka zgłębiania tematu i umiejętność uczenia się. Jeśli jesteś, jesteś w stanie się stać ekspertem w jednej dziedzinie, w ramach tej powiedzmy szerokiej branży jesteś w stanie przeskakiwać na poboczne gałęzie dosyć łatwo."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "59:43",
+      "text": "Dobra, super."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "59:47",
+      "text": "A w takim razie, gdybyś miał dać ostatnią radę, już teraz tak zapominamy o 10 000 godzin, ale taką jedną radę, którą ktoś mógłby wziąć sobie z dzisiejszego odcinka, jedna rada, techniczna, nietechniczna, jakiś jeden nawyk, coś. Rozmawialiśmy chwilę przed nagraniem. Niekoniecznie musimy do tego wracać, absolutnie nie musimy do tego wracać, ale... Coś, co poprawiło twoje życie zawodowe, coś, co poleciłbyś tak naprawdę słuchaczom bez względu na AI, bez względu na to, co się teraz dzieje. Ty jako Marcin, ostatnią radę, którą można zaimplementować już jutro."
+    },
+    {
+      "speaker": "Marcin",
+      "time": "60:29",
+      "text": "Faktycznie rozmawialiśmy i to mi się tak wtedy bez pytania nasunęło. To jest w sumie banalnie prosta rada. Techniczna powiedzmy, no techniczna. Robić odręczne notatki z lektur, spotkań, prezentacji. Byle tylko długopisem na papierze, może być rysikiem na tablecie, ale nie klawiaturą. Bo ja na przykład potrafię pisać po tylu latach na klawiaturze bez udziału świadomości, myśleć o czym innym i rozmawiać na przykład, i pisać. Natomiast jeśli robię notatki i jeszcze potem jest jeden element: mam te notatki i spróbuję potem przerobić je na tekst narracyjny, jakbym komuś relacjonował coś lub wyjaśniał, jak coś działa albo temat, to tak, to pisanie staje się myśleniem i ono mi nie tylko się utrwala, ale ja to wszystko lepiej rozumiem. Po prostu działa. A jeszcze jedna mi rzecz przyszła do głowy: meta-nawyk. Generalnie zamieniajcie wszystko, na czym wam zależy, w nawyki. Małymi krokami, dzień za dniem, wszystko się dzieje, a nie jakimiś wielkimi skokami. Trzeba sobie wbić w kalendarz, zaplanować to spotkanie z Piotrkiem, które mieliśmy zaplanować i zapomnieliśmy. Trzeba wszystko zamieniać w nawyk."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "62:00",
+      "text": "No i spotkanie się nie wydarzyło, ale teraz mamy kolejny plan, żeby to zostało zaplanowane. No dobra, dotarliśmy chyba tym pozytywnym akcentem do końca. Jeżeli, drogi słuchaczu, jeszcze raz masz jakieś pytania, chciałbyś też skomentować, pisz w komentarzach, zachęcamy. Postaramy się z Kajetanem, żeby Marcin odpowiedział na pytania, które są. Jak coś, to zrobimy dogrywkę, jakich będzie już naprawdę dużo, ale myślę, że..."
+    },
+    {
+      "speaker": "Marcin",
+      "time": "62:00",
+      "text": "No. hehehe Bardzo chętnie."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "62:29",
+      "text": "Na kilka spokojnych Marcin Dorado. Ten dajcie znać czy się podobało, nie podobało nawet komentarz me too albo I like, albo tam nie wiem podobało się, wykszyknij będzie bardzo milo widziane. To dla Marcina, żeby wiedział, że to fajne, że warto przyjść. Może nam się zaprosić, dzięki temu jeszcze jakiś fajnych goście. I bardzo wam dziękujemy za dzisiaj. Trzymajcie się i do zobaczenia."
+    },
+    {
+      "speaker": "Marcin",
+      "time": "62:54",
+      "text": "Ja również, dziękuję chłopaki."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "62:57",
+      "text": "Do zobaczenia."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "62:59",
+      "text": "Pa!"
+    }
+  ]
+}
