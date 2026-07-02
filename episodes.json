@@ -2,7 +2,6 @@
   {
     "id": 35,
     "num": "35",
-    "notPublished": true,
     "title": "Better Dev Club #35 - Marcin Malinowski (Allegro Pay) o agentach, spec-driven development i przyszłości juniorów",
     "date": "2026-07-02",
     "duration": "63:00",
@@ -42,12 +41,24 @@
       "principal-engineer"
     ],
     "platforms": {
-      "youtube": "",
-      "spotify": "",
-      "apple": ""
+      "youtube": "https://www.youtube.com/watch?v=v6XGynzVA4M",
+      "spotify": "https://open.spotify.com/episode/0zALxqaMsposhJmjBbYRmE?si=kqRBU7tqQRC1nIPEl-vW4w",
+      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club-35-marcin-malinowski-allegro-pay-o/id1848840540?i=1000775118382"
     },
-    "resources": [],
-    "youtubeId": "",
+    "resources": [
+      {
+        "type": "link",
+        "url": "https://www.linkedin.com/newsletters/ai-act-decoded-7412972161813995521/",
+        "label": "Profil Joanny na LinkedIn",
+        "description": "Joanna Kornas - allegrowa głowa od AI compliance i jej artykuły o AI Act"
+      },
+      {
+        "type": "link",
+        "url": "https://www.linkedin.com/in/marcin-malinowski-0335ab/",
+        "label": "Marcin Malinowski",
+        "description": "Profil Marcina na LinkedIn"
+      },],
+    "youtubeId": "v6XGynzVA4M",
     "guestKey": "marcin_malinowski"
   },
   {
