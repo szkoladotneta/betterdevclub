@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Better Dev Club — Sezon 1 Promo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;900&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #050510;
+            --bg-soft: #0f1220;
+            --white: #ffffff;
+            --yellow: #f5d142;
+            --red: #ff3e3e;
+            --muted: rgba(255, 255, 255, 0.75);
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #141414;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .canvas {
+            width: 1200px;
+            height: 630px;
+            position: relative;
+            overflow: hidden;
+            background: radial-gradient(circle at 78% 20%, #1a2038 0%, var(--bg) 55%);
+            border: 2px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .grid-lines {
+            position: absolute;
+            inset: 0;
+            background:
+                linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+            background-size: 40px 40px;
+            opacity: 0.35;
+            z-index: 1;
+        }
+
+        .layout {
+            position: relative;
+            z-index: 2;
+            display: grid;
+            grid-template-columns: 1.1fr 0.9fr;
+            height: calc(100% - 90px);
+            padding: 20px 44px 0;
+            gap: 24px;
+        }
+
+        .left {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            gap: 10px;
+        }
+
+        .eyebrow {
+            display: inline-flex;
+            width: fit-content;
+            padding: 6px 12px;
+            background: rgba(245, 209, 66, 0.12);
+            border: 1px solid rgba(245, 209, 66, 0.45);
+            color: var(--yellow);
+            text-transform: uppercase;
+            letter-spacing: 1.4px;
+            font-size: 11px;
+            font-weight: 800;
+        }
+
+        .title {
+            font-family: 'Oswald', sans-serif;
+            color: var(--white);
+            text-transform: uppercase;
+            line-height: 0.95;
+            font-size: 60px;
+            letter-spacing: 1px;
+            max-width: 620px;
+        }
+
+        .title span { color: var(--yellow); }
+
+        .title-logo {
+            display: inline-block;
+            height: 54px;
+            width: auto;
+            vertical-align: -8px;
+            margin: 0 8px;
+            filter: drop-shadow(0 6px 14px rgba(0, 0, 0, 0.35));
+        }
+
+        .subtitle {
+            max-width: 590px;
+            color: var(--muted);
+            font-size: 16px;
+            line-height: 1.25;
+            font-weight: 600;
+        }
+
+        .stats {
+            display: flex;
+            gap: 10px;
+            margin-top: 2px;
+            flex-wrap: wrap;
+        }
+
+        .stat {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.14);
+            border-radius: 12px;
+            padding: 8px 12px;
+            min-width: 112px;
+        }
+
+        .stat strong {
+            display: block;
+            color: var(--yellow);
+            font-family: 'Oswald', sans-serif;
+            font-size: 28px;
+            line-height: 1;
+            letter-spacing: 0.8px;
+        }
+
+        .stat span {
+            display: block;
+            color: var(--white);
+            text-transform: uppercase;
+            font-size: 10px;
+            letter-spacing: 1.2px;
+            margin-top: 3px;
+            opacity: 0.85;
+            font-weight: 700;
+        }
+
+        .info-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-top: 0;
+        }
+
+        .info-card {
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.14);
+            border-radius: 12px;
+            padding: 8px 10px;
+        }
+
+        .info-title {
+            font-size: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+            color: var(--yellow);
+            font-weight: 800;
+            margin-bottom: 6px;
+        }
+
+        .info-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+            color: var(--white);
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .info-list li {
+            line-height: 1.2;
+        }
+
+        .compact-list li {
+            font-size: 11px;
+            line-height: 1.15;
+        }
+
+        .top-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+        }
+
+        .top-col-title {
+            font-size: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1.1px;
+            color: var(--yellow);
+            font-weight: 800;
+            margin-bottom: 4px;
+        }
+
+        .info-list-muted {
+            color: var(--muted);
+            font-size: 11px;
+            font-weight: 600;
+            line-height: 1.25;
+        }
+
+        .right {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .photo-wrap {
+            width: 500px;
+            height: 430px;
+            position: relative;
+        }
+
+        .photo {
+            position: absolute;
+            border-radius: 18px;
+            background-size: cover;
+            background-position: center;
+            border: 3px solid rgba(255, 255, 255, 0.22);
+            box-shadow: 0 30px 50px rgba(0, 0, 0, 0.5);
+        }
+
+        .photo-kajetan {
+            width: 250px;
+            height: 320px;
+            left: 25px;
+            top: 64px;
+            background-image: url('../img/kajetan.jpg');
+            transform: rotate(-5deg);
+        }
+
+        .photo-piotrek {
+            width: 250px;
+            height: 320px;
+            right: 25px;
+            top: 36px;
+            background-image: url('../img/piotrek.jpg');
+            transform: rotate(6deg);
+        }
+
+        .badge {
+            position: absolute;
+            left: 50%;
+            top: 8px;
+            transform: translateX(-50%);
+            background: var(--red);
+            color: var(--white);
+            padding: 8px 14px;
+            border-radius: 999px;
+            font-family: 'Oswald', sans-serif;
+            font-size: 15px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            box-shadow: 0 8px 20px rgba(255, 62, 62, 0.35);
+            white-space: nowrap;
+        }
+
+        .platform-pills {
+            position: absolute;
+            bottom: 8px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .platform {
+            background: rgba(5, 5, 16, 0.86);
+            border: 1px solid rgba(245, 209, 66, 0.34);
+            color: var(--yellow);
+            padding: 4px 8px;
+            border-radius: 999px;
+            font-size: 10px;
+            letter-spacing: 1px;
+            font-weight: 800;
+            text-transform: uppercase;
+        }
+
+        .footer {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            height: 90px;
+            background: var(--red);
+            color: var(--white);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 42px;
+            z-index: 3;
+            box-shadow: 0 -6px 24px rgba(0, 0, 0, 0.35);
+        }
+
+        .footer-left {
+            font-family: 'Oswald', sans-serif;
+            font-size: 24px;
+            letter-spacing: 0.8px;
+            text-transform: uppercase;
+            white-space: nowrap;
+        }
+
+        .footer-cta {
+            font-family: 'Inter', sans-serif;
+            font-size: 26px;
+            font-weight: 900;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            white-space: nowrap;
+        }
+
+        .footer-cta span {
+            background: var(--white);
+            color: var(--red);
+            border-radius: 8px;
+            padding: 4px 10px;
+            margin-left: 8px;
+        }
+
+        .footer-url {
+            font-family: 'Oswald', sans-serif;
+            font-size: 23px;
+            letter-spacing: 0.8px;
+            text-transform: uppercase;
+            white-space: nowrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="canvas">
+        <div class="grid-lines"></div>
+        <div class="layout">
+            <div class="left">
+                <div class="eyebrow">Podcast dla devów, którzy chcą ogarniać AI</div>
+                <h1 class="title">1. sezon <img class="title-logo" src="../img/bdc-logo.webp" alt="Better Dev Club">?<br>35x „nagraj”<br>i dużo frajdy</h1>
+                <p class="subtitle">35 odcinków praktycznych rozmów o narzędziach, kodowaniu i realnych zmianach w branży.</p>
+
+                <div class="stats">
+                    <div class="stat"><strong>35</strong><span>odcinków</span></div>
+                    <div class="stat"><strong>15h+</strong><span>treści</span></div>
+                    <div class="stat"><strong>4</strong><span>gości</span></div>
+                    <div class="stat"><strong>8 mies.</strong><span>publikacji</span></div>
+                </div>
+
+                <div class="info-row">
+                    <div class="info-card">
+                        <div class="info-title">Goście sezonu 1</div>
+                        <ul class="info-list">
+                            <li>Tomek Ducin</li>
+                            <li>Wojciech Lesicki</li>
+                            <li>Andrzej Krzywda</li>
+                            <li>Marcin Malinowski</li>
+                        </ul>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-title">Najpopularniejsze (YouTube / Spotify)</div>
+                        <div class="top-grid">
+                            <div>
+                                <div class="top-col-title">YouTube</div>
+                                <ul class="info-list compact-list">
+                                    <li>#11 — 1652 plays</li>
+                                    <li>#16 — 1082 plays</li>
+                                    <li>#31 — 833 plays</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <div class="top-col-title">Spotify</div>
+                                <ul class="info-list compact-list">
+                                    <li>#27 — 204 plays</li>
+                                    <li>#26 — 132 plays</li>
+                                    <li>#25 — 96 plays</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right">
+                <div class="photo-wrap">
+                    <div class="badge">Season 1 — wszystkie odcinki</div>
+                    <div class="photo photo-kajetan"></div>
+                    <div class="photo photo-piotrek"></div>
+                    <div class="platform-pills">
+                        <div class="platform">YouTube</div>
+                        <div class="platform">Spotify</div>
+                        <div class="platform">Apple Podcasts</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer-left">Better Dev Club</div>
+            <div class="footer-cta">Kliknij i odpal sezon 1 <span>▶ teraz</span></div>
+            <div class="footer-url">betterdevclub.pl</div>
+        </div>
+    </div>
+</body>
+</html>
