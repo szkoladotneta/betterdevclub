@@ -979,7 +979,7 @@ W drugiej części odcinka dyskutują o problemie vendor lock-inu w erze sztuczn
             const [loading, setLoading] = useState(true);
 
             useEffect(() => {
-                const version = "9b97040955";
+                const version = "15de68164f";
                 Promise.all([
                     fetch(`/episodes.json?v=${version}`).then(res => res.json()),
                     fetch(`/speakers.json?v=${version}`).then(res => res.json())
