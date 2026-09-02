@@ -1,0 +1,314 @@
+{
+  "transcript": [
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:00",
+      "text": "Cześć Piotrek."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:01",
+      "text": "To jest Kajtek."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:03",
+      "text": "Wracamy! Kończymy wakacje, niestety, ale za to spotykamy się tutaj znowu i znowu będziemy co tydzień w czwartki o 9 z najnowszymi informacjami na temat programowania, temat AI, na temat wszystkiego, o czym chcecie oczywiście słuchać i właściwie przede wszystkim o tym, o czym my chcemy rozmawiać. Startujemy z nowym sezonem, sezonem drugim, dlatego jeśli chcesz, żeby... żebyś nie przegapił żadnego odcinka, to koniecznie dzisiaj już zasubskrybuj, polajkuj, daj dzwoneczek i zrób wszystko, żeby tylko dostać powiadomienie o kolejnym odcinku. I jak to już mamy za sobą, Piotrek, co tam u ciebie?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:49",
+      "text": "O Jezus, tak dużo się działo przez wakacje, że ja nawet nie wiem od czego zacząć. Ale wiem od czego zacznę. Zacznę od sprzętu. Jesteś już w kolejce do nowego Maca Mini za 90k złotych? Czy jesteś w kolejce za OpenAI i innymi dużymi firmami, które stają i wykupują je zdaje się hurtowo?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "01:13",
+      "text": "Chyba jeszcze nie jestem tak bogaty jak OpenAI i po prostu nie stać mnie na Maca Mini za 92 tysiące złotych, bo tyle widziałem, że chyba można maksymalnie skonfigurować w tym momencie, chyba że jeszcze coś podrożało, także ciężko mi powiedzieć, ale ceny są grube, ceny są grube, patrząc przy tym, że... Mac Mini, a nie, przepraszam, bo ja powiedziałem o Mac Studio za 92 tysiące. Mac Mini są, tak, Mac Mini chyba są ciut tańsze, aczkolwiek wydaje mi się, że też konfigurowałem coś w okolicach 100 tysięcy, więc można, można. I przy tym właśnie, że Mac Mini jeszcze do niedawna oni się chwalili, że można było w jakiejś tam promocji edukacyjnej kupić za dwa koła chyba, no to teraz nagle, no tanio to już było."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "01:42",
+      "text": "Tak, Mac Studio, przepraszam. No w ogóle Maki podrożały. Maki podrożały w te wakacje dość mocno. Nastąpiła podobno przez RAM..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "02:15",
+      "text": "Hmm... No..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "02:17",
+      "text": "Ale w benchmarkach daje radę. Jak to mój syn dzisiaj powiedział, jak mu pokazałem benchmarki, powiedział: tata, może wreszcie Nvidia stanieje, będę mógł sobie kupić kartę do laptopa."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "02:32",
+      "text": "To ma... to znaczy Nvidia nie stanieje, ale o tym za chwilę, bo Nvidia poszła właśnie na grube zakupy, w związku z tym też będzie musiała sobie odrobić, znając życie. Natomiast no benchmarki mówią, mówią same za siebie. Jeżeli idziemy w stronę LLM, a idziemy jeszcze może w stronę lokalnych LLM-ów, no to na ten moment środowisko Apple to jest jedyne sensowne środowisko. Bo mimo wszystko jeden taki Mac Studio z M5 Ultra to jest wydajność rzędu 10 RTX 5090, które normalnie kosztują też ponad 20 tysięcy... będą kosztowały dolarów oczywiście. A to same karty, a gdzie je jeszcze trzeba wsadzić?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "03:21",
+      "text": "A tu mamy stówę, ale złotych. Tam dziewięćdziesiąt kilka tysięcy, więc to jest w zasadzie to samo, nie?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "03:28",
+      "text": "Tak, tak. To jest w zasadzie to samo, tyle że tutaj mamy same karty graficzne, a tu już mamy gotowy sprzęt. Po prostu kupujesz, podłączasz do prądu i działa. Więc zresztą ja mogę potwierdzić, ja mogę potwierdzić, bo pracuję na Macu na co dzień. No oni wygrali tym, że jakiś czas temu poszli w tę zunifikowaną pamięć. No tutaj po prostu wykosili wszystkich i dopóki inni nie zaczną tak robić... no to niestety nie dogonią. To jest jedyna słuszna droga."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "03:59",
+      "text": "Wiesz, wymyślili nową architekturę procesora. To jest chyba ten... i akurat w tej dziedzinie okazała się ona super po prostu. Ale dobra, skończmy, skończmy o tym, bo będziemy za długo gadać. Powiedziałeś, że Nvidia musi odrobić, bo kupiła... Co kupiła? Hugging Face?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "04:20",
+      "text": "Hugging Face, i to jest... to jest też bardzo..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "04:26",
+      "text": "Powiem Ci, że ja sobie myślę, jak wiem jeszcze za ile to kupili... no, kurde."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "04:32",
+      "text": "Hehe."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "04:34",
+      "text": "Drogi słuchaczu, czy wiesz na czym polega ten serwis? Znaczy wiesz, bo słyszałeś na pewno, ale to jest storage. To jest serwis do storage'u, możliwość ściągania dużych plików z internetu, całość serwisu. Jakieś drobne funkcjonalności na froncie, żeby dawało się niektóre odpalić. Ile zapłacili? Pamiętasz?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "05:01",
+      "text": "13 miliardów?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "05:04",
+      "text": "13 miliardów, chyba 12,9."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "05:05",
+      "text": "Dolarów. No coś koło tego, tam zaokrągliłem. No to jest niesamowite, to jest niesamowite, ale jakby to pokazuje po pierwsze, jakie horrendalne pieniądze za tym stoją, bo oczywiście zakupów w tym odcinku jeszcze będzie ciąg dalszy, też horrendalnych, ale... ale to też pokazuje... no bo powiedziałeś tak: platforma storage'owa, platforma, w której są właściwie wszystkie modele do ściągnięcia, które są udostępnione. Jest tam wiele opisów, tam wiele danych, ale przede wszystkim za tym znowu stoi jakaś społeczność. Jest coś, co napędza tę stronę. Hugging Face nie jest tylko i wyłącznie jedną jedyną stroną w internecie, na której można ściągnąć te modele, ale z jakiegoś powodu to jest ta strona, o której wszyscy słyszeli, to jest ta strona, o której wszyscy wiedzą, o której wszyscy mówią. No to jest ta jedna strona, która wiadomo, że będzie takim miejscem go-to dla każdego, kto będzie zainteresowany nowymi modelami, które będą dostępne publicznie. I jakby nadal... to jest niesamowita kwota. Chciałbym zrobić tak prostą stronę, jaką jest Hugging Face i sprzedać ją za takie pieniądze. To się zdarza prawdopodobnie raz w historii, ale mówię..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "06:39",
+      "text": "Ja Ci polecam przeczytać, kto jest founderem tego i co zrobił wcześniej. Drogiemu słuchaczowi też polecam, bo to nie będę tu spoilerował ani robił dużego offtopa. Polecam zobaczyć. To nie jest jego pierwszy strzał. To jest człowiek, który potrafi zrobić dokładnie to: zrobić platformę i sprzedać. W zasadzie sprzedaje infrę plus olbrzymi marketing."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "06:57",
+      "text": "To prawda, to prawda. No dokładnie, dokładnie tak. To co... po prostu tak jak mówię, sprzedajesz ten ruch, który tutaj też był odpowiednio wykręcony wcześniej. No dobra."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "07:27",
+      "text": "Ale jak już jesteśmy w tym, to słuchaj, jak już jesteśmy w przetasowaniach, no to powiedzmy sobie szczerze, że OpenAI wyciągnęło kartę z rękawa i powiedziało: Cursor, papa."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "07:44",
+      "text": "No właśnie, ale dlaczego?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "07:48",
+      "text": "Bo nie lubią Muska. Przepraszam, dla mnie jest to napisane tak bardzo wprost, to moja własna interpretacja. Nie do końca im się podoba jak Musk zarządzał xAI-em i ten... Jakby to powiedzieć: Musk ma pretensje do OpenAI, że nie jest open, to OpenAI pokazuje mu, że nie jest open."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "08:16",
+      "text": "Na co Musk też sobie jedzie wtedy bardzo, bardzo mocno po OpenAI i wojenka oczywiście trwa. Wszyscy na tym realnie zyskują, bo jeszcze więcej się mówi o Cursorze, o OpenAI, o SpaceX-ie i oni tak sobie będą oczywiście gadać, ale... no właśnie, ale to pokazuje po raz kolejny: te firmy mogą zrobić tak: hop i już nas nie ma. I my jako użytkownicy też musimy o tym zawsze pamiętać, że w pewnym momencie ktoś nam może zrobić hop i już nie będzie tego modelu albo innego modelu, albo jeszcze czegoś innego."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "08:56",
+      "text": "Ale z drugiej strony popatrz: ilość narzędzi, która się pojawiła przez te wakacje, albo przynajmniej do mnie dotarła... no, może to tak: to się naprawdę zaczyna robić grubo. No bo tak, Qwen mi się bardzo rozwinął, chyba jeszcze przed wakacjami. Jest o3, Facebook wydał swoje, którego nawet nie pamiętam jak się nazywa. Miałem spróbować, ale nawet nie zdążyłem. Coś jeszcze... DeepSeek chyba też wypuścił swoje. Google usprawnił swoje Antigravity, a w ogóle wydał w międzyczasie Gemini 1.5, potem 2.0... powiedział chyba, że w ogóle nie będzie wydawał na razie Pro, bo nie widzi sensu. Kurna, wiesz, w ogóle sama ilość tego... Oczywiście jak spojrzymy na górę, na różnych tych twitterowych guru, linkedinowych guru: „teraz twój najlepszy model to...”, Jezu! No i w ogóle przecież jak gdyby przed chwilą żeśmy gadali, że właśnie Anthropic wypuścił Claude 5.1 Fable, 5.1 Mythos, pewnie będzie cała seria... Jak słuchasz, to już pewnie jest, a my żeśmy nawet nie zdążyli, bo to przecież... Zanim złożymy ten odcinek i go wypuścimy... Dzieje się. Ale rewolucji chyba nadal nie ma."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "10:21",
+      "text": "No nie ma, właśnie o tym chciałem powiedzieć i zastanawiam się czy będzie, bo w ogóle tak: Google wypuścił modele przez... powiedzmy dwa modele przez wakacje, jeden tuż przed wakacjami zaraz po Google I/O, rozmawialiśmy o tym, rozmawialiśmy, że w ogóle nas to nie podnieca i szczerze mówiąc, kolejne wersje podnieciły mnie jeszcze mniej. To znaczy w końcu wracamy do, albo powoli chyba przechodzimy do tego, o czym mówiliśmy, że chcielibyśmy, żeby się stało: żeby te nowe release'y nowych modeli albo nowych narzędzi nawet, nikogo już tak nie jarały. To znaczy, wiadomo, ci linkedinowi guru, którzy jadą tylko i wyłącznie na tym, że co tydzień mogą napisać, że teraz to jest twój najlepszy model... I wszyscy zwolennicy OpenAI lajkują w tym tygodniu, zwolennicy Google lajkują w kolejnym tygodniu i tak się to kręci. Ale realnie, jak wchodzisz, to to przestaje mieć znaczenie. Jakby ok, klikniesz sobie: wybiorę sobie dzisiaj ten, wybiorę sobie tamten i przepinasz się, i nie ma wielkiej zmiany. Jest po prostu ewolucja, która jeszcze trochę spowoduje, że jest nam trochę przyjemniej, trochę lepiej nam się pracuje. Jakby fajnie, że te narzędzia się pojawiają, bo one też zaczynają konkurować oczywiście pomiędzy sobą i te wszystkie harnessy, które będą wychodziły, to też będą konkurować pomiędzy sobą. Ale dla nas, dla użytkowników, myślę, że coraz mniejsze znaczenie będzie miało to, którego harnessa będziemy realnie używać, czy którego modelu będziemy realnie używać, bo one już będą wszystkie na tyle dobre, że w większości zadań po prostu będą nam wystarczały."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "12:31",
+      "text": "Ja tu powiem spoiler jako już do następnego odcinka, bo dzisiaj na pewno o tym nie pogadamy, że teraz chyba powoli dochodzimy do etapu, w którym zaczyna się robić problem z zarządzaniem markdownami. Nie wiem jak tam jest u Ciebie, jak jest u mnie, jak jest gdziekolwiek indziej, ale jak się gada z ludźmi, to na razie jesteśmy chyba na etapie: jeszcze tworzymy te markdowny, w sensie instrukcje, agendy itd. Ale zaraz trzeba będzie to sprawdzać, zmieniać, zobaczyć czy jest lepiej. To myślę, że przed bardzo wieloma firmami teraz chyba stoi takie zadanie. W ogóle, ale to sobie pogadamy, słuchaj, w którymś odcinku tego sezonu. Myślę, że sobie zrobimy dedykowany odcinek w ogóle co z tym zrobić, bo to może jakiegoś gościa do tego zaprosimy. Bo goście też będą w tym sezonie na 100%. Już jeden, już jeden..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "13:25",
+      "text": "Myślę, że fajnie. Będą, jak najbardziej."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "13:29",
+      "text": "Pozdrawiamy Cię, przyszły gościu! Bo już mamy dogadane i tylko musimy termin nagrania dograć, ok."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "13:36",
+      "text": "I pamiętaj, że jeżeli ty chciałbyś zostać gościem w naszym podcaście, to też napisz do nas na LinkedInie, na Messengerze, na kontakt@betterdev.pl – czasem sprawdzamy nawet tego maila – albo gdziekolwiek, gdzie nas znajdziesz, chętnie porozmawiamy."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "13:52",
+      "text": "Albo jak masz jakiegoś gościa i chciałbyś, żebyśmy go pomęczyli, też jak najbardziej dajesz. To... co tam, panie, w Microsofcie?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "14:00",
+      "text": "Tak, a co tam, panie, w Microsofcie? To ja teraz przejmę. Wiesz co? No?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "14:07",
+      "text": "MVP dostałem. Nie, ale poważnie, poważnie wyszły... Znaczy coraz częściej ci powiem, że zdarza mi się przełączać na te małe modele. No i teraz... małe, ty umiesz te nazwy, ja ich nie umiem. Coś tam: Phi, Code, Flash, Speed, whatever z Microsoftu..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "14:09",
+      "text": "Ja też."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "14:36",
+      "text": "Osobista prośba: weź mi daj nazwę, którą możesz powtórzyć w podcaście."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "14:41",
+      "text": "No ale one wcale nie są aż takie złe. Jak w końcu zrozumiesz... no tak. Jak w końcu zrozumiesz, co za nimi stoi, tylko musisz chwilę się zastanowić. Bo one są od Microsoft AI. To jest pierwsza realnie nazwa, która, kurde, w Microsofcie ma sens. No i nie jest Copilot, tak. I w Microsoft AI masz Code do kodowania, Thinking..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "15:01",
+      "text": "Nie jest Copilot."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "15:11",
+      "text": "do myślenia za ciebie i Image do tworzenia obrazków. No w końcu to jest łatwe. A dodatkowo one są naprawdę niezłe, bo MAI-Image-v1 w wersji preview okazało się, że w rankingach jest na pierwszym albo na drugim miejscu, jeśli chodzi o modele właśnie do, nazwijmy to, generowania obrazków."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "15:19",
+      "text": "Nowe."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "15:37",
+      "text": "I to w wielu rankingach, nie tylko w jakimś jednym wybranym przez Microsoft, ale ja już na kilku arenach, kilku leaderboardach i w kilku testach widziałem, że oni faktycznie przodują. Wiem, że masz inne zdanie na ten temat, bo testowałeś. Możemy nawet te testy pokazać gdzieś w internecie, na LinkedInie."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "15:58",
+      "text": "No co, Kajetan mi napisał: weź, jest super, zrobię okładkę, zajawkę nowego sezonu. Pokażemy. Albo nie, nie wiem, dobra, nie wiem czy aż tak warto. Jak jesteś chętny, jesteś ciekawy, to poprosimy o info, to będziemy linkować."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "16:23",
+      "text": "No tak, tylko oczywiście... no tutaj trzeba się wczytać, na czym polegają te testy, na czym polegają te benchmarki, co one właściwie sprawdzają. No bo największy zarzut, jaki możesz mieć do tego obrazka, który sobie wygenerowałeś, to to, że wstawił ci gówniany tekst, mniej więcej na poziomie jakiegoś Midjourney sprzed półtora roku, że po prostu... albo właśnie tego google'owego... o Jezu, Imagen czy Banana też w wersji sprzed tej, która jest aktualnie. No on nie radzi sobie z tym, żeby włożyć tekst po prostu w ten obrazek, bo nie został jeszcze... No włożył, ale niepoprawny, no czyli dokładnie tak samo jak to robiły poprzednie modele, właśnie ze względu na to, że w Dall-E / Imagen z tego co wiem i w GPT realnie to działa troszeczkę tak, jakby udało się..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "17:01",
+      "text": "Nie włożył, tylko niepoprawny."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "17:18",
+      "text": "wyciągnąć warstwy tego obrazka, że on tworzy albo generuje obrazek i na to nakłada drugą warstwę już bezpośrednio z tekstem. Dlatego mu to idzie tak dobrze. Natomiast ten model, on jeszcze jest na etapie, że generuje obrazek tekstu. O, i dlatego on sobie tak dobrze jeszcze z tym nie radzi. Tak, więc to pewnie będzie dopracowane w którejś wersji, natomiast te benchmarki, które są aktualnie robione, no to one troszeczkę inne rzeczy sprawdzają, na przykład właśnie generowanie krajobrazów, generowanie ludzi, generowanie obiektów i generowanie tego na podstawie właśnie prompta, czyli jeżeli w prompcie zrobisz: wygeneruj mi piękny obraz tego i tamtego, to on faktycznie powinien sobie z tym bardzo dobrze poradzić."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "18:21",
+      "text": "No dobra, zgadzam się, pozwolę się zgodzić nie zgadzając. Zobaczymy jak to będzie, ale rzeczywiście na plus jest to, że jest to mały tani model. To na pewno. W sensie, że Microsoft rzeczywiście próbuje iść w te małe tanie modele. I to bardzo fajnie. Ale jak już jesteśmy właśnie przy opłatach, to mi się rzuciło w oczy, ponieważ jestem ze świata .NET-u, a nie z jakiegoś innego, ale w pewnych innych miejscach też się pojawiło, że jest taki projekt, nazywa się Polly i Polly wprowadza, słuchaj, Open Source Maintenance Fee dla organizacji. Czyli chyba kończy nam się, można powiedzieć, że kończy nam się... No tam wiecie, to jest jakieś tam, tak, bezpłatny open source. To nie jest dużo, w sensie jak się śmiałem ostatnio w organizacji, chyba trudniej nam będzie przeprocesować to, żebyśmy mogli to płacić, niż żebyśmy to płacili, nie? Bo to mniej więcej chyba..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "19:01",
+      "text": "Tak jest, bezpłatny open source."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "19:19",
+      "text": "Znaczy dla dużych firm to większym tematem jest proces wewnątrz, jak my to możemy zapłacić, niż samo opłacenie. Bo tam nie wiem, ta opłata jest jakaś tam śmiesznie mała. Ale wiesz..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "19:33",
+      "text": "20 dolarów miesięcznie per organizacja, a nie per projekt, więc tak jak mówisz, jeżeli są duże organizacje, to nawet milionowe czy miliardowe organizacje będą płaciły 20 dolarów miesięcznie i tyle. Jedna organizacja i jedna opłata, i będzie ona robiona poprzez sponsorship na GitHubie, więc jeszcze prościej. Natomiast jak ostatnio rozmawialiśmy..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "19:59",
+      "text": "Prościej?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "20:00",
+      "text": "Nie prościej, przepraszam, nie, oczywiście dla organizacji to będzie super trudne, dla małej firmy, która nie ma tej całej papierologii, będzie super prosto. Aczkolwiek też nie wiem właśnie w jaki sposób, czy to będzie kwestia zaufania, że faktycznie... nie wiem, nie chcę w to wchodzić."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "20:18",
+      "text": "Nie no, wiesz, tu masz prostą sytuację, to nie jest kwestia zaufania, to jest kwestia licencji. Jak ci ktoś pokaże, że tego nie masz albo ty sprzedajesz ten soft i coś tam, przy tak niskiej kwocie ryzyko jest niewspółmierne."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "20:28",
+      "text": "No tak, no... Zgadza się, zgadza się, ale jedna rzecz, bo ostatnio rozmawiałem z Kamilem Kiełbasą – pozdrawiam Kamila, z Kamilem ostatnio, w związku z tym, że razem pracujemy, często rozmawiamy – i Kamil zwrócił uwagę na jedną ciekawą rzecz, że teraz można zrobić tak, bo jakby płacą tylko te organizacje, które... bezpośrednio korzystają z Polly. Tak. A co by się stało, gdybym założył teraz organizację typu non-profit, w której zrobiłbym wrapper dookoła Polly i inne organizacje korzystałyby z tego wrappera? Ja wiem, jest wiadomo, ale... no ale właśnie, tylko mówię, na ile w ogóle to jest..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "21:10",
+      "text": "używają bezpośrednio."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "21:39",
+      "text": "Jak już Piotrek kręci głową, to już przypomnijmy sobie, że to jest 20 dolarów miesięcznie. To tak, tak tylko mówię."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "21:48",
+      "text": "Wiesz, jakby się to dało łatwo w organizacji czasami zrobić, to pewnie jeden z ludzi by po prostu machnął kartą, nie swoją, i w ogóle zapomnieli. Cały dowcip polega na tym, że trzeba całe takie koło zrobić, czy zapamiętać. Jak ktoś nigdy nie pracował w dużej organizacji, to pewnie nie wie o tym, że 20 milionów to się wydaje tak, a 20 dolarów: uaa. To jest to, to będzie ból. To będzie ból dla bardzo wielu firm. Na całe szczęście nie mój problem, nie muszę się tym zajmować."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "22:22",
+      "text": "Dokładnie, to nie my wyciągamy karty w naszych firmach. I to może być i dobre, i..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "22:25",
+      "text": "Tak. Ja chciałem powiedzieć, że chyba się znajdzie ktoś u mnie, kto się tym zajmie. A jak nie, to może ja będę przechodził... No weź, co o tym myślę."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "22:36",
+      "text": "To powodzenia. Słuchajcie, to chyba wydaje mi się, że tyle. Oczywiście tych newsów było dużo więcej, ale mamy nadzieję, że to jest taki skrót, który nas chyba najbardziej zaciekawił przez ostatnie tygodnie, czy nawet już dwa miesiące. Natomiast oczywiście zachęcamy was do tego, żeby słuchać nas dalej. I Piotrek o czymś zapomniał."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "23:02",
+      "text": "Ale już trudno, już się pożegnałeś, to już trudno, będzie na następny raz."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "23:05",
+      "text": "No to będzie na następny raz, więc jeżeli chcecie dowiedzieć się o czym Piotrek zapomniał, to koniecznie słuchajcie nas już za tydzień w kolejny czwartek o godzinie dziewiątej. Pamiętajcie, że możecie, a nawet powinniście – byłoby super, bylibyśmy super wdzięczni – gdybyście nas zasubskrybowali, polajkowali, a przede wszystkim komentowali, bo bardzo chcielibyśmy mieć jak najlepszy kontakt z wami. Także jeżeli macie jakieś newsy, o których chcielibyście, żebyśmy podyskutowali, albo jakiś temat, to koniecznie, koniecznie komentujcie. No i jeszcze raz witamy w drugim sezonie Better Dev Club. Mamy nadzieję, że będzie jeszcze lepszy. O ile poprzedni był dobry, tak ten będzie jeszcze lepszy. Więc do zobaczenia za tydzień. Cześć!"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "23:53",
+      "text": "Do zobaczenia!"
+    }
+  ]
+}

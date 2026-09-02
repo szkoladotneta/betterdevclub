@@ -1,5 +1,69 @@
 [
   {
+    "id": 36,
+    "num": "36",
+    "title": "Better Dev Club #36 - Start Sezonu 2: Mac Studio za 90k, Nvidia kupuje Hugging Face i Polly z opłatami dla korpo",
+    "date": "2026-09-03",
+    "duration": "24:00",
+    "notPublished": true,
+    "desc": "Rozpoczynamy Sezon 2 podcastu Better Dev Club! Po wakacyjnej przerwie wracamy z przeglądem najgorętszych wydarzeń ze świata AI, sprzętu i programowania. Zaczynamy od cenowego szaleństwa wokół nowego sprzętu Apple – Mac Studio i Mac Mini w kosmicznych konfiguracjach oraz dlaczego zunifikowana pamięć Apple Silicon to wciąż jedyny sensowny wybór do lokalnych LLM-ów w porównaniu z farmami RTX 5090.\n\nW dalszej części omawiamy potężne przejęcie: Nvidia kupuje Hugging Face za niemal 13 miliardów dolarów. Dyskutujemy o napięciach między OpenAI a Cursorem i Muskiem (xAI), wysypie nowych modeli i narzędzi po wakacjach (Qwen, DeepSeek, Google Antigravity, seria Claude 5.1 Mythos / Fable) oraz o tym, dlaczego nowe wersje to już raczej spokojna ewolucja niż rewolucja. Na koniec przyglądamy się nowym modelom od Microsoft AI (Code, Thinking, Image/MAI-Image-v1) oraz kontrowersyjnemu ruchowi w ekosystemie .NET: wprowadzeniu Open Source Maintenance Fee ($20/miesiąc) dla organizacji korzystających z biblioteki Polly.",
+    "agenda": [
+      "00:00 - [Intro] Wracamy po wakacjach! Start Sezonu 2",
+      "00:49 - [Sprzęt pod AI] Mac Studio i Mac Mini za 90k zł, pamięć zunifikowana vs 10x RTX 5090",
+      "04:20 - [Wielkie zakupy] Nvidia przejmuje Hugging Face za 13 miliardów dolarów",
+      "06:39 - [Founder & Storage] Fenomen Hugging Face, infrastruktura i potęga społeczności",
+      "07:27 - [Przetasowania na rynku] OpenAI vs Cursor, spór z Elonem Muskiem i xAI",
+      "08:56 - [Zalew modeli i narzędzi] Qwen, DeepSeek, Google Antigravity, seria Claude i tempo wydań",
+      "10:21 - [Ewolucja zamiast rewolucji] Dlaczego nowe wydania modeli już tak nie ekscytują",
+      "12:31 - [Markdowny i instrukcje] Problem z zarządzaniem plikami instrukcji i context engineering",
+      "14:00 - [Microsoft AI] Nowa linia modeli bez Copilota w nazwie: Code, Thinking i MAI-Image-v1",
+      "16:23 - [Generatory obrazów] Benchmarki, renderowanie tekstu na grafikach i specyfika modeli",
+      "18:21 - [Open Source Maintenance Fee] Polly w .NET wprowadza $20/msc dla korporacji",
+      "20:28 - [Obejścia i licencje] Spór o wrappery open source i problem procesowania $20 w korpo",
+      "22:36 - [Outro] Zapowiedź kolejnych odcinków, goście w Sezonie 2 i podsumowanie"
+    ],
+    "tags": [
+      "betterdevclub",
+      "ai",
+      "mac-studio",
+      "apple-silicon",
+      "rtx-5090",
+      "nvidia",
+      "hugging-face",
+      "openai",
+      "cursor",
+      "elon-musk",
+      "xai",
+      "claude",
+      "anthropic",
+      "deepseek",
+      "microsoft-ai",
+      "polly",
+      "dotnet",
+      "open-source"
+    ],
+    "platforms": {
+      "youtube": "TODO",
+      "spotify": "TODO",
+      "apple": "TODO"
+    },
+    "resources": [
+      {
+        "type": "link",
+        "url": "https://huggingface.co",
+        "label": "Hugging Face",
+        "description": "Platforma z otwartymi modelami AI, datasetami i przestrzeniami demo"
+      },
+      {
+        "type": "link",
+        "url": "https://github.com/App-vNext/Polly",
+        "label": "Polly (.NET resilience library)",
+        "description": "Biblioteka Polly i model Open Source Maintenance Fee"
+      }
+    ],
+    "youtubeId": ""
+  },
+  {
     "id": 35,
     "num": "35",
     "title": "Better Dev Club #35 - Marcin Malinowski (Allegro Pay) o agentach, spec-driven development i przyszłości juniorów",
