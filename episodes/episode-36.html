@@ -15,7 +15,7 @@ W dalszej części omawiamy potężne przejęcie: Nvidia kupuje Hugging Face za 
     <meta property="og:description" content="Rozpoczynamy Sezon 2 podcastu Better Dev Club! Po wakacyjnej przerwie wracamy z przeglądem najgorętszych wydarzeń ze świata AI, sprzętu i programowania. Zaczynamy od cenowego szaleństwa wokół nowego sprzętu Apple – Mac Studio i Mac Mini w kosmicznych konfiguracjach oraz dlaczego zunifikowana pamięć Apple Silicon to wciąż jedyny sensowny wybór do lokalnych LLM-ów w porównaniu z farmami RTX 5090.
 
 W dalszej części omawiamy potężne przejęcie: Nvidia kupuje Hugging Face za niemal 13 miliardów dolarów. Dyskutujemy o napięciach między OpenAI a Cursorem i Muskiem (xAI), wysypie nowych modeli i narzędzi po wakacjach (Qwen, DeepSeek, Google Antigravity, seria Claude 5.1 Mythos / Fable) oraz o tym, dlaczego nowe wersje to już raczej spokojna ewolucja niż rewolucja. Na koniec przyglądamy się nowym modelom od Microsoft AI (Code, Thinking, Image/MAI-Image-v1) oraz kontrowersyjnemu ruchowi w ekosystemie .NET: wprowadzeniu Open Source Maintenance Fee ($20/miesiąc) dla organizacji korzystających z biblioteki Polly.">
-    
+    <meta property="og:image" content="https://i.ytimg.com/vi/YQG1eIejxYc/maxresdefault.jpg">
     <link rel="shortcut icon" href="../img/favicon-32x32.png" type="image/png">
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Noto+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
@@ -979,7 +979,7 @@ W dalszej części omawiamy potężne przejęcie: Nvidia kupuje Hugging Face za 
             const [loading, setLoading] = useState(true);
 
             useEffect(() => {
-                const version = "15de68164f";
+                const version = "0b2a888b2e";
                 Promise.all([
                     fetch(`/episodes.json?v=${version}`).then(res => res.json()),
                     fetch(`/speakers.json?v=${version}`).then(res => res.json())

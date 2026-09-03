@@ -979,7 +979,7 @@ W dalszej części odcinka rozliczają kolejne tezy: zapowiadany „koniec vibe 
             const [loading, setLoading] = useState(true);
 
             useEffect(() => {
-                const version = "15de68164f";
+                const version = "0b2a888b2e";
                 Promise.all([
                     fetch(`/episodes.json?v=${version}`).then(res => res.json()),
                     fetch(`/speakers.json?v=${version}`).then(res => res.json())
