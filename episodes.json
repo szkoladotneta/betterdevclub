@@ -5,7 +5,6 @@
     "title": "Better Dev Club #36 - Start Sezonu 2: Mac Studio za 90k, Nvidia kupuje Hugging Face i Polly z opłatami dla korpo",
     "date": "2026-09-03",
     "duration": "24:00",
-    "notPublished": true,
     "desc": "Rozpoczynamy Sezon 2 podcastu Better Dev Club! Po wakacyjnej przerwie wracamy z przeglądem najgorętszych wydarzeń ze świata AI, sprzętu i programowania. Zaczynamy od cenowego szaleństwa wokół nowego sprzętu Apple – Mac Studio i Mac Mini w kosmicznych konfiguracjach oraz dlaczego zunifikowana pamięć Apple Silicon to wciąż jedyny sensowny wybór do lokalnych LLM-ów w porównaniu z farmami RTX 5090.\n\nW dalszej części omawiamy potężne przejęcie: Nvidia kupuje Hugging Face za niemal 13 miliardów dolarów. Dyskutujemy o napięciach między OpenAI a Cursorem i Muskiem (xAI), wysypie nowych modeli i narzędzi po wakacjach (Qwen, DeepSeek, Google Antigravity, seria Claude 5.1 Mythos / Fable) oraz o tym, dlaczego nowe wersje to już raczej spokojna ewolucja niż rewolucja. Na koniec przyglądamy się nowym modelom od Microsoft AI (Code, Thinking, Image/MAI-Image-v1) oraz kontrowersyjnemu ruchowi w ekosystemie .NET: wprowadzeniu Open Source Maintenance Fee ($20/miesiąc) dla organizacji korzystających z biblioteki Polly.",
     "agenda": [
       "00:00 - [Intro] Wracamy po wakacjach! Start Sezonu 2",
@@ -43,9 +42,9 @@
       "open-source"
     ],
     "platforms": {
-      "youtube": "TODO",
-      "spotify": "TODO",
-      "apple": "TODO"
+      "youtube": "https://youtu.be/YQG1eIejxYc",
+      "spotify": "https://open.spotify.com/episode/2g3TLq42A3j1p2jZwz6fmw?si=L5BPTUrPQ0mETiZq7nzfbg",
+      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club-36-sezon-2-mac-studio-za-90k-nvidia/id1848840540?i=1000787589760"
     },
     "resources": [
       {
@@ -61,7 +60,7 @@
         "description": "Biblioteka Polly i model Open Source Maintenance Fee"
       }
     ],
-    "youtubeId": ""
+    "youtubeId": "YQG1eIejxYc"
   },
   {
     "id": 35,
