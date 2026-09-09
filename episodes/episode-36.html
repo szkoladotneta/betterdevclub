@@ -979,7 +979,7 @@ W dalszej części omawiamy potężne przejęcie: Nvidia kupuje Hugging Face za 
             const [loading, setLoading] = useState(true);
 
             useEffect(() => {
-                const version = "0b2a888b2e";
+                const version = "849b196043";
                 Promise.all([
                     fetch(`/episodes.json?v=${version}`).then(res => res.json()),
                     fetch(`/speakers.json?v=${version}`).then(res => res.json())
