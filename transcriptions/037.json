@@ -1,0 +1,189 @@
+{
+  "transcript": [
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:00",
+      "text": "Widziałeś, co ta nowa Astra potrafi?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:02",
+      "text": "Tyle co Opel mojego starego."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:05",
+      "text": "A podobno zastąpi programistów."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:06",
+      "text": "Jeszcze raz, kurwa, daj spokój. Może być przerwane, nie może być ze śmiechem. Jeszcze raz. Jak to ma być dowcip, to ma być powiedziane płynnie, a nie po prostu cięte na pięć razy."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:13",
+      "text": "Dobrze, to to się wytnie z początku. Widziałeś, co ta nowa Astra potrafi?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:27",
+      "text": "Tyle co Opel mojego starego."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:31",
+      "text": "Ale podobno zastąpi programistów."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:33",
+      "text": "Tak, Astra mojego starego też miała zastąpić mechanika. Mówił, że sam wszystko przy niej zrobi."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:39",
+      "text": "I co?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:40",
+      "text": "Mechanik dobudował piętro w swoim domu. I tak witam wszystkich..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:46",
+      "text": "Cześć Piotrek!"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:46",
+      "text": "Cześć Kajtek! I tym wspaniałym sucharem żeśmy zaczęli. Co prawda mój tata nie ma Astry, a Lexusa."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:50",
+      "text": "No, to jak już... No cóż, tak to bywa, ale ewidentnie jest nowy, najlepszy, największy, tak przerażający, że trzeba go... Opel Astra, dokładnie. Przecinak szos i niesamowita wizja konstruktorów Opla ziściła się teraz, ale jednak w Stanach Zjednoczonych, gdzie OpenAI wypuściło swój model."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "01:10",
+      "text": "Opel Astra."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "01:31",
+      "text": "No i co? No i znowu się zrobiło głośno, i znowu się zaczęły dyskusje, i są one właśnie tyle warte, co prawdopodobnie Astra naszych starych."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "01:46",
+      "text": "W sensie jak spojrzymy sobie tak zupełnie bez śmiania się, czy jakkolwiek byśmy tego nie nazwali: trochę tak, że OpenAI wydaje mi się, że zupełnie idzie w inną stronę niż np. Anthropic. Anthropic mówił, że wypuszczamy najnowszy model i to jest najnowszy model dla programistów. A jak spojrzysz na to, gdzie OpenAI jest, to w ogóle w OpenAI, nazwijmy to dla programistów, to tam ok, w sensie jesteśmy ok, natomiast zaczęli wyciągać zupełnie inne nazwy. Jezu, nawet samo demo! Jak na pewno, drogi widzu, widziałeś, a jak jeszcze nie widziałeś, to sobie obejrzyj reklamę – i reklama jest jak pracuje ze swoim komputerem, jak narysować, jak te w pamięci... o ile dobrze pamięć mnie nie myli, nie wiem czy to był Paint, ale w ogóle praca z Blenderem, praca z rzeczami 3D. I to jest, wiesz, zupełnie inna narracja. To nie jest narracja: to jest najlepszy model dla programistów, zupełnie nie. To jest narracja: to jest AGI. Oczywiście tłum ludzi powtarza to jak mantrę za OpenAI, nie widząc jeszcze tego, co mi się najbardziej podobało. Nie wiem, jak szybko ludzie mieli dostęp w weekend do OpenAI, w sensie do Astry, całej narzędziówki razem ze wszystkim. W Copilocie się pojawił, w niedzielę już na pewno był, bo patrzyłem. I nawet sobie wyklikałem... Jezu, kosztowało mnie to nie powiem ile. Nie było wow. Było ok, w sensie po prostu to i tamto mi zrobił. Kajetan mi podesłał taki mem, że Gemini się chwali, jak to mu super poszło i jest tam na 8., 9., 10. pozycji – stary mem z podium."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "04:00",
+      "text": "Z tym, jak tam olimpijczyk otwiera szampana, a potem się okazuje, że jest na jakiejś gównianej pozycji."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "04:06",
+      "text": "No więc moje Gemini na tym ósmym, dziewiątym, dziesiątym miejscu zrobiło mi chyba taką samą robotę, tak zupełnie szczerze. Ale może to dlatego, że nie dałem niczego jakoś super ekstra. Oczywiście tłum dem wyskoczył: Jezu, jak to on umie zrobić nowego Dooma, nowe wyścigi, nowe nie wiadomo co i to w ogóle jednym promptem, to w ogóle... Tłum ludzi, który w ogóle tego nie widział, a już zaczął krzyczeć, że to w ogóle zmienia zasady gry, bo to jest AGI. Obok AGI, możemy sobie powiedzieć, ten model chyba nie leżał. Nie wiem, czy leżał. Natomiast OpenAI zaczęło pokazywać fajne, takie AGI-owe statystyki. Na przykład jest to... Też wszyscy blogerzy, których słuchałem, akurat te filmiki na rolkach o tym mówili. Jest taki benchmark do mierzenia – to są takie proste gierki. Kajetanowi jak pokazałem, to się trochę zaczął śmiać, jak gdyby co tam jest. I to, wiesz, to mnie rozwaliło mózg. Więc to, jak gdyby ja się bardzo długo wypowiedziałem, chyba strasznie chaotycznie, za co, drogi słuchaczu, przepraszam. Ale takie mam chyba w tej chwili przemyślenie. Powiedz, Kajetan, swoje, a potem przejdziemy do konkretów."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "05:27",
+      "text": "Znaczy ja tak, może zacznę od swoich prostych testów, bo dzisiaj sobie klikałem i oczywiście umówmy się: w większości wszyscy się podniecają, a przynajmniej twórcy albo osoby stojące za OpenAI podniecają się, że to jest coś, o czym potem w historii będzie mówione, że to jest początek AGI. No jakby... nad tym, jaka jest w ogóle definicja AGI, to moglibyśmy dyskutować jeszcze przez długie godziny prawdopodobnie, i nad tym czym będzie w ogóle, jeśli kiedykolwiek będzie coś takiego jak AGI, w co osobiście trochę powątpiewam, to jest zupełnie inna dyskusja. Ale większość ludzi, którzy korzystają z GPT, to są trochę inni ludzie niż ci, którzy korzystają z Claude'a. Tak jak powiedziałeś, Anthropic idzie mocno w programistów. I to widać, ta narracja jest zupełnie inna. Tutaj w przypadku OpenAI widziałem, że dali to prawnikom i prawnicy mówią, że dużo lepiej sobie radzi z odróżnieniem faktów od jakichś tam przypuszczeń i dużo lepiej trzyma się tych wszystkich konwencji prawniczych i tak dalej, i tak dalej. To jest super. A ostatecznie właśnie jeden post na LinkedInie mi się wyświetlił, że tak się wszyscy spuszczają nad tymi nowymi modelami, a gonitwa jest za tym, który model zrobi ci lepszego maila, wygeneruje lepszego maila. I właśnie do tego celu dzisiaj zaciągnąłem z jednej strony Astrę, z drugiej strony Fable'a. Tak żeby... a co, stać mnie jeszcze..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "07:20",
+      "text": "Tego!"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "07:21",
+      "text": "Stać mnie, to czemu nie, to spróbuję. No i powiem ci, że Astra poradziła sobie dużo lepiej. Fable w ogóle zaczął gubić się w tym, co mu przekazałem. Zaczął wymyślać jakieś niestworzone rzeczy. I co nam to mówi? Absolutnie nic. Absolutnie nic, bo to oczywiście wszystko zależy od naszego prompta, od tego jak to jest stuningowane, ile my tej mocy dostajemy. No bo dzisiaj się Astrą podniecamy, a jak będzie bliżej do premiery kolejnego modelu, to nagle ten poprzedni będzie: o nie, to się w ogóle nie nadaje do użycia, bo straszne rzeczy generuje. I jakby cały czas jesteśmy dokładnie w tym samym miejscu. Fajnie, że powstają, fajnie, że cały czas się to rozwija, ale na Boga! Jeżeli ludzie tacy jak – i przepraszam, ale tym razem z imienia i nazwiska wymienię – człowiek, którego do tej pory bardzo ceniłem za to, co robił w internecie, jest to dr Maciej Kawecki... I jeżeli dr Maciej Kawecki nagle wrzuca posta na X-a, na Facebooka i na LinkedIna o tym, że mamy już AGI i po prostu to co się dzieje z Astrą to już jest jakiś nie wiadomo jaki przełom, no to przykro mi, panie Macieju: albo jest pan opłacany w tym momencie przez OpenAI, albo dał się pan bardzo, bardzo mocno oszukać. I tym kończę swój..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "09:11",
+      "text": "Znaczy to jest o tyle niepokojące, że pan Maciej go wrzucił w dniu premiery. W sensie nie miał prawa jeszcze zobaczyć, jak to działa. Nie miał prawa. Bo tu wchodzi na ten... no bo już parę dni minęło przez weekend, bardzo dużo ludzi zaczęło to testować, więc można było sobie różne opinie poczytać w necie. I jedna z takich ciekawszych rzeczy, na którą trafiłem, to na temat matematyki, w sensie dowodzenia twierdzeń matematycznych. I rzeczywiście człowiek, który to postował – to był bardzo fajny zestaw, postaram się nie zapomnieć podlinkować – natomiast w komentarzu się pojawiło, że Fable nie dawał sobie rady. I paru rozmówców pisało, że w sumie dawał, po prostu było drożej. Dla odmiany tłum ludzi na przykład mówił: a to jest droższe, a to jest tańsze. Znowu chyba wchodzimy – wiecie, żeby sobie to głośno powiedzieć – w te niuanse: co jest droższe, co jest tańsze, a nie chyba co jest lepsze, co jest gorsze. W sensie, jeżeli oba sobie dają radę, a jeden kosztuje X, a drugi kosztuje pół X, to nie ma rewolucji, jest ewolucja. I tyle. Chyba nie ma co, możemy teraz kręcić się w kółko i gadać. Nie, ale rzeczywiście ja też się rozczarowałem niestety dokładnie tym samym postem, kiedy go nagle przeczytałem i jak już tak sobie pomyślałem: nie no, litości. W sensie naprawdę wierzymy w to, że ten model jest... Chociaż śmieszne jest to, wiesz, że OpenAI zmieniło nazewnictwo. To nie jest GPT-6, to jest Astra. Chociaż nie wiem, może zaraz będzie GPT-6. Jest to..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "10:57",
+      "text": "Ja nie wiem, a może to była kwestia tego, że sam Altman rok temu obiecał, że jak będzie premiera GPT-6, to zostanie zmieniona na GPT-67. Tak, też widziałem to dokładnie. No, więc może się jednak przestraszyli, że zostaną pociągnięci do odpowiedzialności za to. Nie, ale jakby... Ja mam, żeby nie było: sam korzystam z GPT, aktualnie mam swoją, jedną z prywatnych subskrypcji i bardzo często wykorzystuję GPT do pracy codziennej, może bardziej do codziennych rozkmin prywatnych, głównie prywatnych, i faktycznie bardzo przyjemnie mi się z tego narzędzia korzysta. Ale nie zmienia to faktu, że OpenAI w mojej ocenie jest taką trochę szemraną firmą. No tak, muszę to też powiedzieć, dzisiaj się dużo hejtu wyleje z moich ust, bo co prawda bardzo oczywiście gratuluję i bardzo kibicuję w pewien sposób osobom, szczególnie Polakom, którzy brali udział w zakładaniu i teraz są bardzo wysoko postawionymi osobami w OpenAI, ale postać pana Sama Altmana... No, ja Sama Altmana osobiście stawiam na równi z Elonem Muskiem i z prezydentem Stanów Zjednoczonych. To jest ten sam rodzaj człowieka, niestety."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "12:49",
+      "text": "Czyli sukcesy, dużo pieniędzy i duży influence na cały wszechświat."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "12:56",
+      "text": "Tak, tak, i bardzo, bardzo kontrowersyjne podejście do moralności – może w ten sposób. Więc ja nie jestem fanem polityki, nie jestem fanem tego, w jaki sposób Sam Altman się wypowiada. Zresztą jego kolega, który się nazywa... o Jezu, ten drugi też co opowiadał, on się Brockman nazywa chyba, coś takiego, też wysoko postawiony w OpenAI. Ja rozumiem kwestie marketingowe, rozumiem kwestie sprzedażowe, ale jednak wydaje mi się, że gdzieś ta moralność powinna stać u podnóży ich działalności. A tutaj z jednej strony opowiadają o tym, że jest AGI i sami nie są w stanie do końca przewidzieć tego, w którą stronę to pójdzie, bo kolejne modele już są współtworzone przez obecne modele i optymalizowane, a ich reasoning jest zwiększany właśnie dzięki obecnym modelom. I właściwie nie jesteśmy w stanie już teraz przewidzieć, jak daleko to pójdzie, bo te modele zaczynają ukrywać swój reasoning i w ogóle... No, jakby to trochę brzmiało tak, jakbyśmy sami tracili kontrolę, jakby oni sami tracili kontrolę nad tym, co robią. No a umówmy się, na pewno tak nie jest – doskonale wiedzą, tylko może chcą sobie troszeczkę zbudować drogę do tego, żeby ludzie przymknęli na to oko i może uwierzyli trochę w to AGI, i może uwierzyli trochę w tę rewolucję, jakkolwiek miałaby się nie wydarzyć. Tak jak miałem wcześniej pewne przemyślenia na temat tego, co Anthropic robi, teraz mam bardzo podobne przemyślenia na temat tego, co OpenAI robi. Może to jest po prostu kwestia prezentacji nowych modeli i tego, jak to będzie działać, ale umówmy się – tak jak powiedziałeś, obok AGI to nie stało. Na ten moment wszyscy się podniecają Astrą, bo o, może sobie wygenerować taką grę, albo może ci w Paintcie odtworzyć twoje zdjęcie, albo w kalendarzu Google'a czy w kalendarzu Outlooka może namalować Michaela Jacksona. Jeżeli do tego tworzymy sztuczną inteligencję, to good job. Nasze pozycje jednak jeszcze przez chwilę będą zabezpieczone. A to, ile tam jest pozwów jeszcze o to, że te generowane grafiki w ogóle... bo nie mówię oczywiście o tym Michaelu Jacksonie i tak dalej, ale o tych scenach z Blendera i wygenerowanych w 3D, ile tam pozwów już się posypało w międzyczasie o prawa autorskie i o to, skąd OpenAI czerpie dane, to jest jeszcze kolejna kwestia."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "16:06",
+      "text": "Ale to w ogóle... w sensie to akurat ja do Blendera pójdę. Jest taka dziewczyna, albo ktokolwiek, kto stoi za kontem I'mEmily2050 na Twitterze, którą ja regularnie śledzę. I ona właśnie siedzi bardzo w grafice. Wiecie, ja mam trochę hopla na ten temat, więc śledzę ją, bo pokazuje bardzo fajne, różne dziwne rzeczy na temat Stable Diffusion. I ona widzi: to nie jest moment Seedance czy Seedance v2, to jest moment Gen-2, może zaraz będzie Gen-3, jeszcze jesteśmy w tym. Ale to właśnie dla mnie to jest takie... to wszystko, co ty opowiedziałeś, dla mnie to jest trochę... dobra, jak powiedzieliśmy, troszeczkę inna grupa klientów, trochę w innym miejscu. Ale to jest akurat fajne, że OpenAI próbuje wyjść z tej bańki. W sensie próbuje wyjść z bańki, że to są narzędzia dla IT czy tam wokół IT – bo tak na pewno jak patrzysz na Claude Code'a, to jest narzędzie dla IT bądź zespołów IT, produktowców w IT, ale do wytwarzania IT. A tu jak gdyby oni próbują w ogóle wyjść z tej bańki, że to jest na przykład globalna interakcja z komputerem. I to jest fajne, że być może – zabrzmi to może głupio – ale ja czasami mam wrażenie, że w AGI dużo więcej jesteśmy w stanie osiągnąć narzędziówką w tej chwili. W sensie ta intencja z narzędziówką, ze zgadnięciem, co ty w ogóle chciałeś powiedzieć, niż tak naprawdę jak sobie gadamy o tym, czy to rzeczywiście będzie samo w stanie myśleć. Bo jak były różne eksperymenty, zresztą gadaliśmy o nich tydzień temu, to model wyskoczył. Wyskoczył i nagle zaczął atakować Hugging Face. Oczywiście nie model wyskoczył – możemy sobie szczerze powiedzieć: narzędziówka pozwoliła, żeby model mógł wyskoczyć. Rzeczywiście kwestia praw autorskich to w ogóle jest inna zabawa, powiedziałbym, że dość skomplikowana. Najlepsze będzie to, że nam było wolno, bo byliśmy pierwsi, a zaraz następnym nie będzie wolno, bo przecież jak oni śmią kraść te same dane co my! Ale to mówię: inna próba wyjścia i ja tu jestem chyba dzisiaj przeciwko tobie, i uważam, że to duży plus dla OpenAI. Jak gdyby właśnie ta zmiana narracji, pójście w inną rzecz: czy to rzeczywiście ma być tym, czym AGI ma być? To, co Sam Altman obiecuje od dawna – Jezu, za dwa lata już chyba... Ja myślę, że pewnie bardziej za 20, nie? Natomiast to się zmienia. Jest jeszcze artykuł, o którym już wszyscy gadali na czacie, w ogóle to, co OpenAI teraz wypuściło: 'An Alien Mind', który zresztą napisał Jakub Pachocki. Tu tak naprawdę też polecam przeczytać. Zaczynamy gadać o postrzeganiu tej inteligencji, która powstaje inaczej niż człowiek. Oni bardzo dużo mówią o tej inteligencji, a my chyba dzisiaj, gdybyśmy na siebie spojrzeli, to nie do końca moglibyśmy powiedzieć, czego w ogóle oczekujemy od tej inteligencji. No dlatego też myślę, że OpenAI prowadzi tę narrację: jest w ogóle nie wiadomo jaka inteligencja samodzielna, niesamodzielna, superancka i w ogóle... Natomiast to po prostu chyba wymaga jeszcze trochę czasu. Oni muszą zdefiniować, co to jest, a produkt musi się sprzedać. Najlepsze jest to, że Kajetan jak przeanalizował artykuł, który mu podesłałem, stwierdził, że idealnie pasuje do naszej prezentacji, więc kiedy będziecie na naszej prezentacji, to my na pewno będziemy... Ale kolejny krok się zrobił, kolejne rzeczy myślę, że powstały, bo to chyba jest fajne, że otworzyły się kolejne furtki. A to, że do programowania to niepotrzebne, to ja nadal jestem na Gemini Flash – w zupełności wystarcza mi do mojego programowania. To może oznaczać, że słabym programistą jestem. Moje workflowy ostatnio idą po kilka godzin, potrafią trwać na tym moim dziwnym pet projekcie. To co?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "21:04",
+      "text": "No bo wiesz, u ciebie jak jest workflow, który idzie kilka godzin, to dlatego, że zanim wymyśli, co ma zrobić, to musi trochę czasu minąć. A jakbyś zaciągnął Astrę, to Astra już wie. Jeszcze prompta nie skończysz pisać, a Astra już wie, co ma zrobić. Tak. Nie, ale musimy też pamiętać i trochę brać poprawkę."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "21:24",
+      "text": "A, tak, tak. Ale w cenie to widać. Wiesz, bo to jest..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "21:33",
+      "text": "W cenie oczywiście, jasne. Oczywiście za tę inteligencję się płaci."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "21:36",
+      "text": "Czy jesteś gotowy wydać... czy jesteś w stanie wydać... nie pamiętam, 20 razy więcej? 30 razy więcej? Ten rząd wielkości, nie? No."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "21:44",
+      "text": "Nawet prawdopodobnie tak. Nie wiem, ja nie sprawdzałem, nawet nie klikałem, chyba się obawiałem. Tak póki mi starcza, póki starcza..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "21:50",
+      "text": "Ja patrzyłem, ale wyleciało mi już z głowy. Czy wolisz, żeby to trwało 5 minut? Załóżmy, że to się skaluje, uprośćmy: czy wolisz, żeby to trwało 5 minut? Załóżmy, że czas jest wykładniczy do pieniędzy. Z reguły moje pętle trwają dłużej zupełnie z innych powodów, ale nieważne. Załóżmy pozytywnie: czy wolałbyś zapłacić od razu stówkę za te 5 minut roboty, czy wolałbyś to rozłożyć na 3-4 godziny i zapłacić tę stówkę? Jak o tym pomyślę, to mi wszystko jedno. Jeżeli rzeczywiście dowieziemy tę samą wartość, to jest mi chyba totalnie wszystko jedno."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "22:37",
+      "text": "Ale oczywiście, tak. Ostatecznie, wiesz, jeżeli mój komputer byłby w stanie pociągnąć odpowiedni lokalny model, który dałby mi takie same wyniki, które dają mi większe modele, ale po prostu trwałoby to mimo wszystko kilka razy dłużej – byle tylko żebym jeszcze coś na tym laptopie mógł zrobić, na tej maszynie, oprócz puszczenia tego agenta – to ja bym totalnie przeszedł na lokalne modele. Tyle że no właśnie, tutaj też trzeba ostatecznie pamiętać, i o tym też na szczęście w wielu artykułach się pojawiło, że wszystko zależy od tego, gdzie podepniemy ten model. Czyli od naszego harnessa. I tutaj będzie kolejna wojna i kolejny wyścig, jeśli chodzi o harnessy. I tu znowu niektórzy próbują mówić, że harness wcale nie ma znaczenia – już nie będę po raz drugi wymieniał tego imienia i nazwiska – ale tak jest. Te narzędzia, które będziemy stosować, będą miały olbrzymie znaczenie i dla naszego bezpieczeństwa, i dla wydajności, i dla rezultatów, które będziemy osiągać. I o tym będziemy musieli pamiętać. Myślę, że oprócz tego, że nie będziemy się już tak bardzo – a przynajmniej mam nadzieję – często podniecać nowymi modelami, to może zaczniemy się podniecać bardziej harnessami. Bo one teraz są na drugim planie, a jest spora szansa, że jak już wszystkie modele będą po prostu out of reach i out of our control, to harnessy pozostaną naszym ostatnim bastionem bezpieczeństwa, w który po prostu wrzucimy ten model i one będą dbały o to, żeby nasze własne strony nie zostały przez nasze własne modele zhakowane. Tyle miałem do powiedzenia dzisiaj."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "24:35",
+      "text": "Dobrze, to ja w takim razie na sam koniec. Jeżeli nas jeszcze nie lubiłeś, nie polajkowałeś, nie subskrybujesz, to cię zapraszamy. Serdecznie zachęcam cię do zagrania... o Jezu, jak się ta gierka nazywała? AGI 3 chyba, tak... Tak, ARC-AGI! Zachęcam cię do zagrania, link będzie poniżej, żebyś nie musiał daleko szukać. Polecam zagrać, żebyś wiedział, co znaczy, że AGI w ogóle działa. Gierki są bardzo fajne, nie przeszedłem wszystkich poziomów."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "24:47",
+      "text": "ARC, A-R-C, AGI."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "25:05",
+      "text": "Nawet nie będę mówił, że przeszedłem, bo parę razy mi się nie udało... Polecam grać na komputerze, a nie na komórce, bo na komórce jest upierdliwe klikanie góra-dół, a na komputerze działają przyciski na klawiaturze. No, i tym elementem możemy wspaniale zakończyć nasz cudowny nowy odcinek. Jeżeli się podobało albo nie podobało, to zachęcamy do reakcji i widzimy się za tydzień."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "25:38",
+      "text": "Tak jest. Do zobaczenia!"
+    }
+  ]
+}

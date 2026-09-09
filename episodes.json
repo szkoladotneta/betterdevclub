@@ -1,5 +1,65 @@
 [
   {
+    "id": 37,
+    "num": "37",
+    "notPublished": true,
+    "title": "Better Dev Club #37 - Nowa Astra od OpenAI. Mamy AGI czy studnię bez dna?",
+    "date": "2026-09-10",
+    "duration": "25:50",
+    "desc": "OpenAI znów zatrzęsło internetem – nowy model („Astra”) wywołał falę zachwytów, obietnic AGI i demówek generujących gry w 3D czy grafiki w Blenderze jednym promptem. Kajetan i Piotrek z dystansem rozbierają ten spektakl na części pierwsze: sprawdzają, jak model radzi sobie w prostych codziennych zadaniach (od pisania maila po dowodzenie twierdzeń matematycznych), konfrontują go z Claude i Gemini oraz bez ogródek komentują viralowy post dr. Macieja Kaweckiego, który obwieścił nadejście AGI w dniu premiery.\n\nW drugiej części dyskutują o zmianie strategii OpenAI – wyjściu z bańki programistycznej w stronę globalnej interakcji z komputerem, kontrowersjach wokół praw autorskich i artykułu Jakuba Pachockiego ('An Alien Mind'). Rozważają też twardą ekonomię reasoningu: czy opłaca się płacić 30 razy więcej za 5 minut pracy modelu, dlaczego lokalne modele wciąż kuszą oraz dlaczego to nie same wagi modeli, lecz bezpieczne i sprytne harnessy będą ostatecznym bastionem programistów. Na koniec polecajka benchmarku ARC-AGI François Cholleta.",
+    "agenda": [
+      "00:00 - [Suchar na start] Nowa Astra i Opel Astra ojca",
+      "00:46 - [Nowy model OpenAI] Premiera „Astry”, narracja o AGI i demówki z Blenderem",
+      "04:06 - [Gemini i mem z podium] Czy nowe modele naprawdę deklasują konkurencję?",
+      "05:27 - [Testy w praktyce] Pisanie maili, Claude vs Astra i zderzenie z hype'em",
+      "07:21 - [Gównoburza o AGI] Post dr. Macieja Kaweckiego i krytyka bezkrytycznego zachwytu",
+      "09:11 - [Dowodzenie twierdzeń] Matematyka w modelach i dylemat: ewolucja czy rewolucja cenowa?",
+      "10:57 - [Kulisy OpenAI] Sam Altman, moralność, marketing i ukrywanie reasoningu modeli",
+      "13:50 - [Pixel art i darmowe gry] Michael Jackson w Excelu i generowanie gier vs realna wartość",
+      "16:06 - [Wyjście z bańki IT] Grafika 3D, Stable Diffusion, I'mEmily2050 i pozwy o prawa autorskie",
+      "18:40 - [An Alien Mind] Jakub Pachocki o nieludzkiej naturze inteligencji maszynowej",
+      "21:04 - [Czas vs pieniądze] Czy warto płacić 30x więcej za reasoning w 5 minut?",
+      "22:37 - [Harness to przyszłość] Dlaczego środowisko uruchomieniowe staje się ważniejsze od modelu",
+      "24:35 - [Outro & ARC-AGI] Gierki logiczne François Cholleta i prawdziwy test na AGI"
+    ],
+    "tags": [
+      "betterdevclub",
+      "ai",
+      "openai",
+      "astra",
+      "agi",
+      "anthropic",
+      "claude",
+      "sam-altman",
+      "jakub-pachocki",
+      "arc-agi",
+      "harness",
+      "reasoning",
+      "gemini",
+      "blender"
+    ],
+    "platforms": {
+      "youtube": "https://www.youtube.com/@BetterDevClub",
+      "spotify": "https://open.spotify.com/show/2vFp58L1h9l5jP6bZ5mH3j",
+      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club/id1848840540"
+    },
+    "resources": [
+      {
+        "type": "link",
+        "url": "https://arcprize.org",
+        "label": "ARC Prize / ARC-AGI",
+        "description": "Benchmark logiczny François Cholleta badający prawdziwe zdolności AGI"
+      },
+      {
+        "type": "link",
+        "url": "https://openai.com",
+        "label": "OpenAI",
+        "description": "Oficjalna strona OpenAI i publikacja 'An Alien Mind' Jakuba Pachockiego"
+      }
+    ],
+    "youtubeId": ""
+  },
+  {
     "id": 36,
     "num": "36",
     "title": "Better Dev Club #36 - Start Sezonu 2: Mac Studio za 90k, Nvidia kupuje Hugging Face i Polly z opłatami dla korpo",
