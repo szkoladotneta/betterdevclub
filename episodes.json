@@ -1,5 +1,72 @@
 [
   {
+    "id": 38,
+    "num": "38",
+    "notPublished": true,
+    "title": "Better Dev Club #38 - 10% szans, że AI nas zabije? Wielka czwórka błaga o regulacje i wstrzymuje IPO",
+    "date": "2026-09-17",
+    "duration": "22:00",
+    "desc": "Były szef bezpieczeństwa Anthropic ostrzega: istnieje 10% szans, że AI doprowadzi do zagłady ludzkości w ciągu kilkunastu lat. W odpowiedzi liderzy największych potęg AI – Sam Altman (OpenAI), Dario Amodei (Anthropic), Demis Hassabis (Google) oraz Elon Musk – niespodziewanie zaczynają mówić jednym głosem i nawołują do spowolnienia oraz regulacji. Altman ogłasza wstrzymanie wejścia OpenAI na giełdę (IPO). Kajetan i Piotrek z humorem i dystansem rozpracowują ten medialny spektakl: czy to realna troska o bezpieczeństwo, czy może genialna zasłona dymna i próba zabetonowania rynku przed tańszą konkurencją z Chin (nowy DeepSeek)?\n\nW drugiej części panowie schodzą na ziemię i do realnego IT: jak dziś wygląda security i ucieczki modeli z harnessów, czy grozi nam atak na infrastrukturę krytyczną, paraliż banków lub panika giełdowa, oraz dlaczego w firmach bezpieczeństwo leży odłogiem, dopóki coś nie wybuchnie. Dyskutują też o rzekomym rozwiązaniu problemu milenijnego przez OpenAI, ekonomii tokenów i geopolitycznym starciu USA–Chiny, w którym jedynym wyborem ma być komunizm albo cyberpunk. Na koniec: optymistyczna wizja, w której AI zamiast budować bomby, leczy raka i ratuje planetę.",
+    "agenda": [
+      "00:00 - [Wstęp] Jimmy Fallon, Trump i obietnica bezpieczeństwa AI",
+      "01:53 - [10% szans na zagładę] Odejście z Anthropic i czarne scenariusze",
+      "02:45 - [Sojusz gigantów] Altman, Amodei, Hassabis i Musk chcą regulacji",
+      "04:00 - [Regulacje czy monopol?] Kto naprawdę zyskuje na spowolnieniu wyścigu",
+      "05:11 - [Czynnik chiński] Tani DeepSeek depcze po piętach amerykańskim gigantom",
+      "05:53 - [Kulisy IPO] Dlaczego Sam Altman wstrzymuje wejście OpenAI na giełdę",
+      "08:00 - [Bańka strachu] Czy pompowanie paniki to tylko cyniczny marketing?",
+      "10:24 - [Realne cyberzagrożenia] Ucieczki z harnessów, wycieki danych i cyberataki",
+      "12:33 - [Rzeczywistość w firmach] Dlaczego security ma niski priorytet, dopóki nie wybuchnie",
+      "13:50 - [Problem milenijny] OpenAI chwali się matematycznym przełomem",
+      "15:50 - [Ekonomia tokenów] Ile firmy są w stanie zapłacić za reasoning?",
+      "16:51 - [Geopolityka AI] USA vs Chiny, europejskie regulacje i wizja Cyberpunka",
+      "19:33 - [300 tokenów na sekundę] Tempo rozwoju wg DeepSeek i utopijna przyszłość AI",
+      "21:34 - [Zakończenie] Podsumowanie i pożegnanie"
+    ],
+    "tags": [
+      "betterdevclub",
+      "ai",
+      "anthropic",
+      "claude",
+      "openai",
+      "sam-altman",
+      "deepseek",
+      "ipo",
+      "regulacje",
+      "bezpieczenstwo",
+      "security",
+      "harness",
+      "google-deepmind",
+      "cyberpunk"
+    ],
+    "platforms": {
+      "youtube": "https://www.youtube.com/@BetterDevClub",
+      "spotify": "https://open.spotify.com/show/2vFp58L1h9l5jP6bZ5mH3j",
+      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club/id1848840540"
+    },
+    "resources": [
+      {
+        "type": "link",
+        "url": "https://www.anthropic.com",
+        "label": "Anthropic",
+        "description": "Oficjalna strona Anthropic i doniesienia o bezpieczeństwie AI"
+      },
+      {
+        "type": "link",
+        "url": "https://openai.com",
+        "label": "OpenAI",
+        "description": "Oficjalna strona OpenAI, plany IPO oraz postępy w modelach logicznych"
+      },
+      {
+        "type": "link",
+        "url": "https://www.deepseek.com",
+        "label": "DeepSeek",
+        "description": "Tanie i wydajne modele reasoningowe z Chin"
+      }
+    ],
+    "youtubeId": ""
+  },
+  {
     "id": 37,
     "num": "37",
     "title": "Better Dev Club #37 - Nowa Astra od OpenAI. Mamy AGI czy studnię bez dna?",
@@ -418,7 +485,6 @@
         "label": "Microsoft Surface RTX Dev Box",
         "description": "Informacje o nowym sprzęcie Microsoftu zaprojektowanym do lokalnego developmentu z AI."
       }
-
     ],
     "youtubeId": "b5IROxTh6ds",
     "guestKey": "piotrek"

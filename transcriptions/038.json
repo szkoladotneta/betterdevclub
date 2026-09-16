@@ -1,0 +1,149 @@
+{
+  "transcript": [
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:00",
+      "text": "Cześć Piotrek!"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:01",
+      "text": "Cześć Kajtek, widziałeś wycinek z Fallona?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:03",
+      "text": "No właśnie tak i jestem zszokowany. Jestem naprawdę zszokowany, ale też czuję się bezpiecznie."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:12",
+      "text": "To jeszcze bezpiecznie, bo..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:14",
+      "text": "No bo prezydent powiedział, że będzie dobrze. Może nie nasz prezydent, ale prezydent podobnego pokroju, no, powiedzmy."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:26",
+      "text": "Dla osób, które nie kojarzą kim jest Jimmy Fallon – prowadzi bardzo popularny talk-show w Stanach Zjednoczonych. Jakbyście zobaczyli twarz (powinniśmy ją w wideo wkleić, nie wiem czy my potrafimy takie rzeczy), to byście od razu wiedzieli kim jest Jimmy Fallon i od razu byście skojarzyli, bo na 100% widzieliście go. I Jimmy Fallon po raz kolejny w tym roku nabijał się z naszego ulubionego prezydenta – tego zza wielkiej wody, który popłynął... nie wiem jak to nazwać."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "01:05",
+      "text": "Znaczy nie no, prezydent zza wielkiej wody myślę, po prostu był sobą no i to nie jest pierwsza tego typu wypowiedź. Przypomnijmy właśnie, może też oczywiście podlinkujemy: powiedział, że spokojnie, będziemy bezpieczni, bo mówimy tutaj oczywiście o wyścigu AI-owym, o którym pewnie sobie trochę w ogóle dzisiaj porozmawiamy. Trump powiedział o tym, że żeby nad tym zapanować jest jedno rozwiązanie: potrzeba nam silnego i mądrego, czytaj z wysokim IQ, prezydenta. No i na szczęście już takiego mają, więc nie ma problemu."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "01:53",
+      "text": "Dobra, dla kontekstu. Ja może zrobię długi kontekst, on jest chyba trochę skomplikowany. W zeszłym tygodniu pojawił się taki człowiek od Claude'a, szef bezpieczeństwa z tego co pamiętam (mógłbym schrzanić stanowisko), który odszedł z Anthropic i udzielił wywiadu, w którym powiedział, że jest 10% szans, że AI nas zabije."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "02:25",
+      "text": "I to dosyć szybko, żeby nie było. Nie musimy na to bardzo długo czekać. Tam było chyba 10-15 lat."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "02:32",
+      "text": "No to szybko. To jeszcze przed moją emeryturą, bez sensu. Tyle lat pracuję, żeby iść na emeryturę... Dobra, nieważne. Wydawało się to mega dziwne. Jest chyba komentarz, że był podpuszczony, ale ogólnie spowodowało to, że nagle wielka trójca – bo nawet nie wielka dwójka, tylko wielka trójka – powiedziała: to może byśmy troszeczkę wstrzymali rozwój AI? Bo to powiedział CEO Anthropic, czyli Dario, a zaraz od razu dołączył Sam Altman z OpenAI. Co wiecie – już ich dwóch, gdy się zgodzili, to w ogóle było niezłe kombo! A jeszcze do tego, w razie gdyby nagle się okazało, że następny Gemini Flash będzie jednak AGI (w zeszłym tygodniu gadaliśmy, że zaraz wszystko będzie AGI i hype'em), to Demis Hassabis z Google'a też szybko dołączył."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "03:44",
+      "text": "Ja jeszcze tylko dołożę jedną rzecz, bo tam była jeszcze czwarta osoba, z której też lubimy się od czasu do czasu pośmiać, ale Elon Musk też przyznał rację Amodeiowi za chwilę."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "03:59",
+      "text": "No to już mamy czterech wielkich... Twórców? Nie, twórców marionetek, którzy zgodzili się razem, że w ogóle jest to sytuacja. No dobra, ale tak rozbijając to troszeczkę, o co chodzi: ja mam trochę wrażenie, że oni w tej chwili mówią: dołóżmy regulacji, AI jest niebezpieczne, zwolnijmy, AI jest niebezpieczne. No bo bądźmy szczerzy – tam są inni, którzy próbują nadgonić, a takie regulacje, co ja wam mam powiedzieć, na pewno ich przyspieszą, nie? Zawsze takie regulacje przyspieszały wszystkich, prawda? A oni już tam są. W Europie to tam... Natomiast ta drama oczywiście poszła dalej. Można sobie przeczytać post Sama Altmana, można sobie przeczytać post Dario. Google nawet – wszyscy się nabijają z Google – 'my to już robimy, my tu nawet nie musimy zwalniać, myśmy już zwolnili'..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "04:44",
+      "text": "Jak widzimy w Europie,"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "05:11",
+      "text": "Wiecie, bo nagle jest trochę inaczej. Jeszcze w międzyczasie, mimochodem, wyszedł nowy DeepSeek 4.1 czy cokolwiek, który nagle wcale tak nie odstaje. A jest tańszy? Tak, o rząd wielkości. Więc mamy taką śmieszną dramę, w której wszyscy biorą udział. Pytanie brzmi: co z tym fantem zrobić? No dobra, to ponieważ my tu gramy tylko na opiniach, to jak myślisz Kajetan, na czym to się skończy dla nas? Nas dwóch."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "05:53",
+      "text": "Dla nas dwóch absolutnie niczym. Moim zdaniem to nic nie zmieni. Znaczy, wiesz, ja trochę zacząłem się zastanawiać, jak faktycznie kolejni się dołączali i zaczynali grać do tej samej bramki, co wydaje się bardzo dziwne i co jest faktycznie ewenementem na dużą skalę. Bo już były chęci do tego, żeby przynajmniej tych dwóch panów, czyli Dario i Sam Altman, podali sobie kiedyś ręce, żeby pokazali, że idą w tym samym kierunku. I to było w czasie AI Summit w Indiach chyba, jeśli dobrze pamiętam. Ludzie chcieli, żeby sobie zrobili wspólnie zdjęcie, jak się trzymają razem za ręce. No to oni jedyne co zrobili (nie wiem czy kojarzycie to zdjęcie) – podnieśli pięści obok siebie, ale absolutnie nie dotykając się. Więc jeżeli oni zaczynają się zgadzać, robi się dziwnie. Z jednej strony cały czas mam wrażenie, bo mimo wszystko zarówno OpenAI, jak i Anthropic będą szli w stronę IPO. Co prawda Altman powiedział, że on teraz wstrzymuje to IPO i wstrzymuje wejście na giełdę, no bo jeżeli faktycznie podejdą do tych regulacji i będą chcieli spowolnić, to w pewien sposób spowolnią swoje zyski. Bo być może nie będą mieli już najmocniejszego, najlepszego, największego i w ogóle. A to się udziałowcom może oczywiście nie spodobać. Dlatego cudowne rozwiązanie: Altman sam powiedział, że wstrzymuje IPO i nie wejdą na giełdę jeszcze w tym roku. Ale cały czas..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "07:56",
+      "text": "i zobacz jakie ładne wyjście z twarzą"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "08:00",
+      "text": "Ładne wyjście z twarzą, oczywiście. Ale no właśnie – wyjście z twarzą. Ja mam nieodparte wrażenie, że to jednak wszystko cały czas jest marketing. Bo trochę mam wrażenie, że to jest kwestia tego, że chcemy, żeby o nas mówiono cały czas. I AI samo w sobie budowało pewną bańkę strachu od samego początku: od 2022 roku, jak pojawił się ChatGPT, to ta bańka rosła. Ale ona rosła samoistnie. Oczywiście twórcy internetowi bardzo pomagali, media społecznościowe pomagały, telewizja i tradycyjne media. A teraz nagle podchodzą prezesi największych firm z pompką do pompowania balonów i tam jeszcze dopychają. I to jest cały czas w mojej głowie. Ale z drugiej strony gdzieś z tyłu myślę sobie: kurde, a może my jesteśmy w jakiejś fazie wyparcia? Jak Ukraińcy przed rozpoczęciem wojny z Rosją: widzą te wojska stojące na granicy, ale 'spokojnie, oni na pewno nie wejdą, bo to tylko ćwiczenia'. Aż nastał moment, w którym weszli. Wydaje mi się, że w krótkiej perspektywie na pewno niczego to nie zmieni. I na pewno nie wierzę w to, że miałoby się wydarzyć coś takiego, o czym wspominali byli pracownicy Anthropic. Nie sądzę, żeby zagrożenie było realne, ale..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "10:24",
+      "text": "Dobra, ja tu dołożę: realne, nierealne... Przecież treningi modeli – nawet gadaliśmy sobie o ataku na Hugging Face'a, który im wyskoczył przez przypadek. Włączmy na chwilę Cyberpunka 2077, zróbmy sobie apokalipsę na chwilę. Bo w tej chwili jest tak, że skoro te modele podczas treningu wyskakują z harnessa – bo nikt się nie certoli, tam nie ma żadnego harnessa – to jak przez przypadek komuś uda się znaleźć fajną podatność, to nie wiem, może wjedzie do elektrowni? Nie chodzi o to, że ten model sam się uwolni ze wszystkiego i zaatakuje elektrownię, nie przesadzajmy. Ale jak się nagle okaże, że znajdzie fajną podatność i zrobi jakiś boom... Nie wierzę, że nagle ktoś się włamie do elektrowni atomowej i wysadzi ją albo odpali rakietę – to jest zabezpieczone na tyle dobrze (tam po prostu nie ma internetu). Natomiast nagle coś zaatakuje dziwnego i spowoduje panikę na giełdzie czy cokolwiek takiego? Why not, wcale aż tak dalekie to nie jest. W zeszłym tygodniu Revolut publikował, że im dane wyciekły? Wyobraźcie sobie, że nagle AI – czy człowiek za nim stojący – włamuje się do któregoś banku i robi jakiś szacher-macher."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "12:15",
+      "text": "Coś takiego, coś, chyba w zeszłym tygodniu było."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "12:33",
+      "text": "W bankach. Nie wiem na ile to może spowodować kryzys, a skoro jeden facet może podrożyć benzynę do 9 złotych, to zakładam, że różne rzeczy mogą się zdarzyć. Wybuchu takiego, że nas wszystkich pozabija – nie, miejmy litość. Ale to, że jakiś kryzys się pojawi – why not? Z pytaniem czyje AI się dostanie i kto będzie chciał spowodować taki atak. Nie, że świat się skończy, ale jakieś dziwne rzeczy będzie się dało zrobić, bo nie zarządzamy na co dzień bezpieczeństwem i wszystkimi podatnościami. Wszyscy jak nas słuchacie i pracujecie w małych, dużych, średnich firmach, to wiecie jak jest: utrzymaniówka i security z reguły mają niski priorytet, chyba że coś wybuchnie – wtedy mają najwyższy. Ale przed wybuchem wszyscy wiemy, gdzie to leży. Zresztą to, że te modele szybciej pozwalają podatności wyklikiwać – oczywiście. Natomiast zrobię drugiego off-topa: OpenAI ogłosiło, że rozwiązało jeden z problemów milenijnych w matematyce. Oczywiście jest drama: czy na pewno rozwiązało, czy skorzystało z pracy matematyków? Ani ja, ani Kajetan nie wiemy. Natomiast nawet jeśli skorzystało z ich pracy i połączyło fakty, których oni nie skończyli, to znaczy, że umie rozwiązywać naprawdę zaawansowane problemy logiczne. To, że panowie nagle stanęli i zaczynają się odwoływać do górnolotnych stwierdzeń – miejmy litość, chodzi raczej o odcięcie konkurencji albo skupienie się na tym, co Chińczycy robią, bo oni robią to taniej. Ile firma słuchacza czy nasza jest w stanie wydać na tokeny? Jest jakiś limit. Jeśli da się zrobić taniej i podobnie – a patrząc po benchmarkach wygląda na to, że się da – nawet Google dał radę. Jest taniej."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "16:51",
+      "text": "Czy ja wiem, czy takie straszne – właśnie mam wrażenie, że trochę uspokajasz. Ale to, o czym wspomniałeś na samym końcu: we wszystkich tych dyskusjach przewijają się Chiny. Powinniśmy zająć się regulacjami i bezpieczeństwem, ale patrząc bardzo mocno w kierunku Chin. Nie Europy – bo w Europie mamy już regulacje, jesteśmy tam, gdzie Ameryka chce być. Ale na razie były słowa – nie wiadomo, czy będą czyny."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "17:56",
+      "text": "Może wezmą nasze regulacje?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "18:22",
+      "text": "Wydaje mi się też, że czyny mogą się pojawić, jeśli Chiny do tego przystąpią i zobaczą w tym wartość. A oni mówią, że za jakiś czas będziemy mieli albo komunizm, albo Cyberpunka i to są jedyne dwa wyjścia."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "18:53",
+      "text": "To jest cytat z inżyniera DeepSeeka."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "19:00",
+      "text": "Tak, tak, tak. Czy Stany wprowadzą regulacje i będą patrzeć, jak Chiny ich wyprzedzają? Też nie jestem przekonany."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "19:33",
+      "text": "Dobra, no to chyba tym optymistycznym jak zwykle akcentem... Zapomnieliśmy jak zwykle: subskrybujcie, komentujcie, lajkujcie! Kajetan jak widać na wakacjach, więc przywiezie na pewno jakieś nowości. Ja skorzystam jeszcze z jednego cytatu inżyniera DeepSeeka: AI potrafi w tej chwili wnioskować z prędkością 300 tokenów na sekundę, wpisać polecenie w pół sekundy i produkować fragment kodu w 20 sekund. Posuwająca się fajnie technologia, więc miejmy nadzieję, że nie wylądujemy ani w powszechnym komunizmie, ani w Cyberpunku 2077. Ja mam nadzieję, że wylądujemy w świecie, gdzie będziemy pili drinki z palemką i cieszyli się życiem, a te cudowne narzędzia zamiast budować bombę powiedzą nam, jak np. wyleczyć raka, ograniczyć CO2 i naprawić naturę. Pamiętajcie, że ta droga też istnieje."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "21:34",
+      "text": "A tymczasem dopóki... tak jest. I dopóki jeszcze nam wyginięcie nie grozi w najbliższym czasie, to pamiętajcie, że widzimy się dokładnie za tydzień. Do zobaczenia."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "21:46",
+      "text": "Chyba że nas zmiecie. Ale wtedy wy nas nie widzicie, a my nie produkujemy. Jest dobrze. Trzymajcie się, do zobaczenia. Hej."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "21:51",
+      "text": "Oby nie. Trzymajcie się!"
+    }
+  ]
+}
