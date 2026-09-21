@@ -15,7 +15,7 @@ W drugiej części panowie schodzą na ziemię i do realnego IT: jak dziś wygl�
     <meta property="og:description" content="Były szef bezpieczeństwa Anthropic ostrzega: istnieje 10% szans, że AI doprowadzi do zagłady ludzkości w ciągu kilkunastu lat. W odpowiedzi liderzy największych potęg AI – Sam Altman (OpenAI), Dario Amodei (Anthropic), Demis Hassabis (Google) oraz Elon Musk – niespodziewanie zaczynają mówić jednym głosem i nawołują do spowolnienia oraz regulacji. Altman ogłasza wstrzymanie wejścia OpenAI na giełdę (IPO). Kajetan i Piotrek z humorem i dystansem rozpracowują ten medialny spektakl: czy to realna troska o bezpieczeństwo, czy może genialna zasłona dymna i próba zabetonowania rynku przed tańszą konkurencją z Chin (nowy DeepSeek)?
 
 W drugiej części panowie schodzą na ziemię i do realnego IT: jak dziś wygląda security i ucieczki modeli z harnessów, czy grozi nam atak na infrastrukturę krytyczną, paraliż banków lub panika giełdowa, oraz dlaczego w firmach bezpieczeństwo leży odłogiem, dopóki coś nie wybuchnie. Dyskutują też o rzekomym rozwiązaniu problemu milenijnego przez OpenAI, ekonomii tokenów i geopolitycznym starciu USA–Chiny, w którym jedynym wyborem ma być komunizm albo cyberpunk. Na koniec: optymistyczna wizja, w której AI zamiast budować bomby, leczy raka i ratuje planetę.">
-    
+    <meta property="og:image" content="https://i.ytimg.com/vi/Y7p_FeqFkGw/maxresdefault.jpg">
     <link rel="shortcut icon" href="../img/favicon-32x32.png" type="image/png">
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Noto+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
@@ -979,7 +979,7 @@ W drugiej części panowie schodzą na ziemię i do realnego IT: jak dziś wygl�
             const [loading, setLoading] = useState(true);
 
             useEffect(() => {
-                const version = "670b6234f7";
+                const version = "580f0e7b79";
                 Promise.all([
                     fetch(`/episodes.json?v=${version}`).then(res => res.json()),
                     fetch(`/speakers.json?v=${version}`).then(res => res.json())
