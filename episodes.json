@@ -2,7 +2,6 @@
   {
     "id": 38,
     "num": "38",
-    "notPublished": true,
     "title": "Better Dev Club #38 - 10% szans, że AI nas zabije? Wielka czwórka błaga o regulacje i wstrzymuje IPO",
     "date": "2026-09-17",
     "duration": "22:00",
@@ -40,9 +39,9 @@
       "cyberpunk"
     ],
     "platforms": {
-      "youtube": "https://www.youtube.com/@BetterDevClub",
-      "spotify": "https://open.spotify.com/show/2vFp58L1h9l5jP6bZ5mH3j",
-      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club/id1848840540"
+      "youtube": "https://youtu.be/Y7p_FeqFkGw",
+      "spotify": "https://open.spotify.com/episode/48NLthOrEFnw51O6NCIRIW?si=NTUUv3nLTb6jWjnhC_OdJA",
+      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club-38-10-szans-%C5%BCe-ai-nas-zabije-wielka/id1848840540?i=1000790312940"
     },
     "resources": [
       {
@@ -64,7 +63,7 @@
         "description": "Tanie i wydajne modele reasoningowe z Chin"
       }
     ],
-    "youtubeId": ""
+    "youtubeId": "Y7p_FeqFkGw"
   },
   {
     "id": 37,
