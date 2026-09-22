@@ -1,5 +1,70 @@
 [
   {
+    "id": 39,
+    "num": "39",
+    "notPublished": true,
+    "title": "Better Dev Club #39 - Czy SDLC naprawdę przyspieszyło? O kodowaniu w sekundę, długu i powrocie Waterfall",
+    "date": "2026-09-24",
+    "duration": "44:25",
+    "desc": "Czy generowanie kodu z pomocą sztucznej inteligencji faktycznie sprawiło, że zespoły dostarczają oprogramowanie 10x albo 100x szybciej? Piotrek i Kajetan biorą pod lupę cały cykl wytwarzania oprogramowania (SDLC) i analizują, co tak naprawdę uległo zmianie. Choć pisanie samego kodu skróciło się niemal do zera, wąskie gardła wcale nie zniknęły – przeniosły się na fazę zbierania wymagań, code review, weryfikację PR-ów, testy akceptacyjne (UAT) oraz rozmowy z klientem. Zamiast armii programistów zmagających się ze sztywnym podziałem na frontend i backend, programiści wreszcie wychodzą ze swoich baniek, zaczynają przeklikiwać własne aplikacje na środowiskach deweloperskich i wyłapują błędy znacznie wcześniej.\n\nW drugiej części odcinka panowie dyskutują o paradoksie Maerska (gdzie wdrożenie pojedynczej zmiany trwało 42 tygodnie, z czego samo kodowanie zaledwie 5 dni) oraz o tym, jak mierzyć efektywność zespołów, by nie wpaść w pułapkę metryk typu liczba linii kodu czy story pointy. Zastanawiają się również nad prowokacyjną tezą: czy w epoce błyskawicznej generacji kodu hejtowany przez lata Waterfall i precyzyjne zbieranie wymagań z pomocą narzędzi takich jak Figma nie wrócą do łask, a mikroserwisy nie ustąpią miejsca dobrze zaprojektowanym monolitom?",
+    "agenda": [
+      "00:00 - [Wstęp] Suchar na start i czy jesteś już 100x deweloperem?",
+      "01:05 - [4 filary szybszego dostarczania] Output, Time to Market, mniej błędów i koszty",
+      "04:05 - [Czy da się to zmierzyć?] Story pointy, kartki w backlogu i problem mierzalności",
+      "06:50 - [Realny deployment] Software medyczny vs specyfika e-commerce i Allegro",
+      "10:54 - [Jakość a nie jakość] Deweloperzy wreszcie klikają we własny soft i łapią błędy",
+      "13:20 - [Koniec silosów] Front vs Back – deweloperzy wychodzą poza swoje bańki",
+      "16:05 - [Paradoks Maerska] 42 tygodnie na zmianę, z czego tylko 5 dni kodowania",
+      "19:10 - [Prawdziwe wąskie gardła] Zrozumienie raportu, testy z użytkownikami i UX",
+      "22:22 - [Projektowanie od zera] Weryfikacja tożsamości gestem, bezpieczeństwo i on-prem",
+      "24:15 - [Produkt vs Konsulting] Ładowanie na taczkę i presja dowożenia sprintów",
+      "25:52 - [Przesunięcie wąskiego gardła] UAT-y, weryfikacja kodu i czy agent ma sprawdzać agenta?",
+      "27:18 - [Nowy podział ról] Mniej devów, więcej QA i analityków?",
+      "28:18 - [Mierzenie efektywności] Jak mierzyć postęp i pułapki metryk (Dostajesz to, co mierzysz)",
+      "31:57 - [Czy Waterfall wraca?] Tydzień zamiast roku – renesans dokładnej analizy wymagań",
+      "34:39 - [Figma i nowoczesne narzędzia] Mockupy zamiast Painta i czy jeden prompt wystarczy dla banku?",
+      "38:10 - [Zmierzch mikroserwisów?] Powrót do monolitu, gdy jeden zespół i agenci ogarniają całość",
+      "40:54 - [Nowa rola inżyniera] Nie bądź zombie patrzącym w licznik tokenów",
+      "42:14 - [Metafora taczki] Czas na myślenie i rozwiązywanie realnych problemów biznesowych",
+      "44:06 - [Zakończenie] Poszukiwany designer na kolejny odcinek i podsumowanie"
+    ],
+    "tags": [
+      "betterdevclub",
+      "sdlc",
+      "ai-coding",
+      "dora-metrics",
+      "programowanie",
+      "waterfall",
+      "agile",
+      "mikroserwisy",
+      "qa",
+      "code-review",
+      "figma",
+      "monolit",
+      "efektywnosc"
+    ],
+    "platforms": {
+      "youtube": "",
+      "spotify": "",
+      "apple": ""
+    },
+    "resources": [
+      {
+        "type": "link",
+        "url": "https://dora.dev/",
+        "label": "DORA Metrics & Accelerate",
+        "description": "Metryki efektywności zespołów inżynieryjnych i badania Accelerate"
+      },
+      {
+        "type": "link",
+        "url": "https://www.figma.com",
+        "label": "Figma",
+        "description": "Współczesny standard prototypowania i precyzowania wymagań UX/UI"
+      }
+    ],
+    "youtubeId": ""
+  },
+  {
     "id": 38,
     "num": "38",
     "title": "Better Dev Club #38 - 10% szans, że AI nas zabije? Wielka czwórka błaga o regulacje i wstrzymuje IPO",

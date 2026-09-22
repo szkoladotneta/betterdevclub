@@ -3,15 +3,19 @@
 <head>
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    <title>BetterDevClub | Better Dev Club #23 - Dev, QA, PO, Scrum Master: Jak AI zmienia role i kończy »głuchy telefon«</title>
+    <title>BetterDevClub | Better Dev Club #39 - Czy SDLC naprawdę przyspieszyło? O kodowaniu w sekundę, długu i powrocie Waterfall</title>
     
     <!-- SEO / Meta Tags -->
-    <meta name="description" content="Zauważyłeś, że dużo rozmawiamy na temat developmentu, a z nas właściwie tacy developerzy jak z koziej trąby? Czy programiści mają się bać, gdy AI (LLMy, Claude Code) pisze kod coraz lepiej? W 23. odcinku dyskutujemy o tym, czy czeka nas spłycenie struktury w IT. Zastanawiamy się, jak narzędzia sztucznej inteligencji pomogą PO, Scrum Masterom i analitykom wyciągać metryki z Jiry i robić klikalne mockupy w Figmie, zdejmując z deweloperów obowiązek pisania dashboardów.">
+    <meta name="description" content="Czy generowanie kodu z pomocą sztucznej inteligencji faktycznie sprawiło, że zespoły dostarczają oprogramowanie 10x albo 100x szybciej? Piotrek i Kajetan biorą pod lupę cały cykl wytwarzania oprogramowania (SDLC) i analizują, co tak naprawdę uległo zmianie. Choć pisanie samego kodu skróciło się niemal do zera, wąskie gardła wcale nie zniknęły – przeniosły się na fazę zbierania wymagań, code review, weryfikację PR-ów, testy akceptacyjne (UAT) oraz rozmowy z klientem. Zamiast armii programistów zmagających się ze sztywnym podziałem na frontend i backend, programiści wreszcie wychodzą ze swoich baniek, zaczynają przeklikiwać własne aplikacje na środowiskach deweloperskich i wyłapują błędy znacznie wcześniej.
+
+W drugiej części odcinka panowie dyskutują o paradoksie Maerska (gdzie wdrożenie pojedynczej zmiany trwało 42 tygodnie, z czego samo kodowanie zaledwie 5 dni) oraz o tym, jak mierzyć efektywność zespołów, by nie wpaść w pułapkę metryk typu liczba linii kodu czy story pointy. Zastanawiają się również nad prowokacyjną tezą: czy w epoce błyskawicznej generacji kodu hejtowany przez lata Waterfall i precyzyjne zbieranie wymagań z pomocą narzędzi takich jak Figma nie wrócą do łask, a mikroserwisy nie ustąpią miejsca dobrze zaprojektowanym monolitom?">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://betterdevclub.com/">
-    <meta property="og:title" content="Better Dev Club #23 - Dev, QA, PO, Scrum Master: Jak AI zmienia role i kończy »głuchy telefon«">
-    <meta property="og:description" content="Zauważyłeś, że dużo rozmawiamy na temat developmentu, a z nas właściwie tacy developerzy jak z koziej trąby? Czy programiści mają się bać, gdy AI (LLMy, Claude Code) pisze kod coraz lepiej? W 23. odcinku dyskutujemy o tym, czy czeka nas spłycenie struktury w IT. Zastanawiamy się, jak narzędzia sztucznej inteligencji pomogą PO, Scrum Masterom i analitykom wyciągać metryki z Jiry i robić klikalne mockupy w Figmie, zdejmując z deweloperów obowiązek pisania dashboardów.">
-    <meta property="og:image" content="https://i.ytimg.com/vi/09RJNWE4nEI/maxresdefault.jpg">
+    <meta property="og:title" content="Better Dev Club #39 - Czy SDLC naprawdę przyspieszyło? O kodowaniu w sekundę, długu i powrocie Waterfall">
+    <meta property="og:description" content="Czy generowanie kodu z pomocą sztucznej inteligencji faktycznie sprawiło, że zespoły dostarczają oprogramowanie 10x albo 100x szybciej? Piotrek i Kajetan biorą pod lupę cały cykl wytwarzania oprogramowania (SDLC) i analizują, co tak naprawdę uległo zmianie. Choć pisanie samego kodu skróciło się niemal do zera, wąskie gardła wcale nie zniknęły – przeniosły się na fazę zbierania wymagań, code review, weryfikację PR-ów, testy akceptacyjne (UAT) oraz rozmowy z klientem. Zamiast armii programistów zmagających się ze sztywnym podziałem na frontend i backend, programiści wreszcie wychodzą ze swoich baniek, zaczynają przeklikiwać własne aplikacje na środowiskach deweloperskich i wyłapują błędy znacznie wcześniej.
+
+W drugiej części odcinka panowie dyskutują o paradoksie Maerska (gdzie wdrożenie pojedynczej zmiany trwało 42 tygodnie, z czego samo kodowanie zaledwie 5 dni) oraz o tym, jak mierzyć efektywność zespołów, by nie wpaść w pułapkę metryk typu liczba linii kodu czy story pointy. Zastanawiają się również nad prowokacyjną tezą: czy w epoce błyskawicznej generacji kodu hejtowany przez lata Waterfall i precyzyjne zbieranie wymagań z pomocą narzędzi takich jak Figma nie wrócą do łask, a mikroserwisy nie ustąpią miejsca dobrze zaprojektowanym monolitom?">
+    
     <link rel="shortcut icon" href="../img/favicon-32x32.png" type="image/png">
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Noto+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
@@ -129,17 +133,19 @@
             document.head.appendChild(script);
         }
     </script>
-    <script>window.INITIAL_ROUTE = "/episodes/episode-23";</script>
+    <script>window.INITIAL_ROUTE = "/episodes/episode-39";</script>
 </head>
 <body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100">
     <div id="root"><div class="max-w-[960px] mx-auto px-4 py-10">
             <div class="mb-8">
-                <p class="text-primary font-bold text-sm tracking-wider uppercase mb-2">Odcinek #23</p>
-                <h1 class="text-[#0d171b] dark:text-white text-4xl font-black">Better Dev Club #23 - Dev, QA, PO, Scrum Master: Jak AI zmienia role i kończy »głuchy telefon«</h1>
-                <p class="text-slate-500 mt-2">2026-04-09 • 21:45</p>
+                <p class="text-primary font-bold text-sm tracking-wider uppercase mb-2">Odcinek #39</p>
+                <h1 class="text-[#0d171b] dark:text-white text-4xl font-black">Better Dev Club #39 - Czy SDLC naprawdę przyspieszyło? O kodowaniu w sekundę, długu i powrocie Waterfall</h1>
+                <p class="text-slate-500 mt-2">2026-09-24 • 44:25</p>
             </div>
             <div class="prose prose-slate dark:prose-invert max-w-none text-slate-600 dark:text-slate-300 leading-relaxed mb-12">
-                <p>Zauważyłeś, że dużo rozmawiamy na temat developmentu, a z nas właściwie tacy developerzy jak z koziej trąby? Czy programiści mają się bać, gdy AI (LLMy, Claude Code) pisze kod coraz lepiej? W 23. odcinku dyskutujemy o tym, czy czeka nas spłycenie struktury w IT. Zastanawiamy się, jak narzędzia sztucznej inteligencji pomogą PO, Scrum Masterom i analitykom wyciągać metryki z Jiry i robić klikalne mockupy w Figmie, zdejmując z deweloperów obowiązek pisania dashboardów.</p>
+                <p>Czy generowanie kodu z pomocą sztucznej inteligencji faktycznie sprawiło, że zespoły dostarczają oprogramowanie 10x albo 100x szybciej? Piotrek i Kajetan biorą pod lupę cały cykl wytwarzania oprogramowania (SDLC) i analizują, co tak naprawdę uległo zmianie. Choć pisanie samego kodu skróciło się niemal do zera, wąskie gardła wcale nie zniknęły – przeniosły się na fazę zbierania wymagań, code review, weryfikację PR-ów, testy akceptacyjne (UAT) oraz rozmowy z klientem. Zamiast armii programistów zmagających się ze sztywnym podziałem na frontend i backend, programiści wreszcie wychodzą ze swoich baniek, zaczynają przeklikiwać własne aplikacje na środowiskach deweloperskich i wyłapują błędy znacznie wcześniej.
+
+W drugiej części odcinka panowie dyskutują o paradoksie Maerska (gdzie wdrożenie pojedynczej zmiany trwało 42 tygodnie, z czego samo kodowanie zaledwie 5 dni) oraz o tym, jak mierzyć efektywność zespołów, by nie wpaść w pułapkę metryk typu liczba linii kodu czy story pointy. Zastanawiają się również nad prowokacyjną tezą: czy w epoce błyskawicznej generacji kodu hejtowany przez lata Waterfall i precyzyjne zbieranie wymagań z pomocą narzędzi takich jak Figma nie wrócą do łask, a mikroserwisy nie ustąpią miejsca dobrze zaprojektowanym monolitom?</p>
             </div>
         </div></div>
 

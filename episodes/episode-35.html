@@ -979,7 +979,7 @@ W drugiej części Marcin zdradza twarde liczby z Allegro Pay: ile kodu naprawd�
             const [loading, setLoading] = useState(true);
 
             useEffect(() => {
-                const version = "580f0e7b79";
+                const version = "cc42b18aa0";
                 Promise.all([
                     fetch(`/episodes.json?v=${version}`).then(res => res.json()),
                     fetch(`/speakers.json?v=${version}`).then(res => res.json())

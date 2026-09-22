@@ -1,0 +1,314 @@
+{
+  "transcript": [
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:00",
+      "text": "No tak, ale możemy coś wymyślić, jeszcze jakiś devchip na start. Suchar na start. Ale możemy też... Nie wiem, nie mam trochę zdania."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:04",
+      "text": "He. Musimy wcześniej przygotowywać, musimy naszego agenta przygotowywać na to, że każdy odcinek ma być zaczęty sucharem."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:20",
+      "text": "No bo jezu, jeszcze trzeba do Sebastiana napisać rok."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:23",
+      "text": "O no, dobrze. Dobra, zaczynamy, bo to się już nagrywa."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:26",
+      "text": "Dobra."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:29",
+      "text": "Cześć Piotrek!"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:30",
+      "text": "Cześć, kajtak."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:32",
+      "text": "Piotrek, czy jesteś już deweloperem 10 razy, a może 100 razy i dostarczasz wszystko 1000 razy szybciej?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:41",
+      "text": "Ja w ogóle nie jestem developerem. Od bardzo dawna. To cały czas mi to wymawiasz, że jeszcze jestem developerem. Ja w ogóle nie jestem developerem."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:48",
+      "text": "No dobra, inaczej. Czy twój zespół dostarcza dużo szybciej?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:55",
+      "text": "To jest bardzo dobre pytanie, według jakiej miary."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:59",
+      "text": "według miary prędkość czasu, przestrzeń."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "01:05",
+      "text": "Ale poczekaj, nie nie, poczekaj. Dostarcza dużo szybciej. To znaczy, kawałek żeśmy skrócili. Bo teraz tak abstrakcyjny, nie? To ja spróbuję zadać kilka pytań. Drogi widzu, jak masz ochotę na jakieś pytania, których żeśmy nie poruszyli, właśnie nie będą dzisiaj, to słuchaj, tu są komentarze, można dać lajka, subskryba i napisać o czym żeśmy zapomnieli, bo dzisiaj będzie trudno, bo dzisiaj spróbujemy poruszyć temat. SDLC, czyli Software Development Life Sack, jaką się trochę zmieni. Dużo się o tym mówi, to my też chcemy. No więc odpowiadając na Twoje karetone pytanie, co to oznacza, że szybciej dostarcza? To oznacza, że... Wrzucam więcej feature'ów, czyli mam większy powiedzmy że output. W sensie nie jest więcej PR-ek, więcej zadań ruszonych, to możemy dyskutować PR-ka wydaje mi się z tym, ale powiedzmy jest więcej itemów z backlogu. To takie pierwsze chyba naturalne. Czyli po prostu biorę więcej itemów z backlogu i szybciej je procesuję. Jak byśmy spojrzeli na taką metrykę agile'ową, tak naprawdę ilość story pointów, które dajemy radę w sprzęcie wzrosła. Proszę wszystkich o tu wyrozumiałość i niepróbowanie mi dyskutować o story pointach, ale teoretycznie przynajmniej. Ilość mandarii w mandarii wzrosła. Druga rzecz, którą możemy wziąć sobie pod uwagę, to jest to, że powiedzmy, że No bo to dostarczasz szybciej. Czyli klasyczna Dora i w tym momencie Accelerate Time to Market. Szybciej ląduje na Pyrotie. Możemy powiedzieć, że to jest drugie, że szybciej dostarczam. Trzecie jest to, powiedzmy, chociaż tu bym się zawahał, ale że mam mniej błędów. Dostarczam powiedzmy tak samo, ale mam mniej błędów. pewnie jeszcze coś bym był w stanie wymyśleć. W sensie w tych tematach mogę wejść... A jeszcze przepraszam, to nie zostało ruszone, ale myślę, to ważne. Dostarczam tak samo, ale taniej. Koszt produkcji tego jest tańszy. Oto takie 4 filary ci dam. No to teraz słuchaj, o co ci chodzi? Nie zakładam, że on jeszcze kosztnie, bo pytałeś o ten, czy zwiększyłem output? Czy mam szybszy time to market? Czy być może mam lepsze quality, ale wszystko jest tak samo? Może to tak. Jeszcze umiem wymyśleć parę innych."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "03:57",
+      "text": "to ja się zapytam przywrotnie, czy który z tych trzech punktów wzrósł?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "04:05",
+      "text": "I to jest bardzo trudne pytanie, bo w większości wypadkach to tego, żeśmy nie mierzyli. Tak, w sensie nie wiem jak jest u Ciebie, ale bardzo dużo, no ale jak najbardziej wiesz. Wiele rzeczy jak się, jak o tym zaczynamy gadać, to jest ciężko mierzalne, nie? Jak weźmiemy sobie pierwsze, wzrosła liczba jak gdyby kartek, które żeśmy wzięli, no to trzeba wziąć naprawdę długi okres czasu, żeby to zmierzyć, nie? To w sensie..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "04:13",
+      "text": "No to jakżeś się przygotował do odcinka."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "04:34",
+      "text": "Bo tak jak dzisiaj gadamy, to co teraz z Kajetanem gadamy, jak gdyby drogi słuchaczu, to prawdopodobnie u Ciebie w firmie te dyskusje są takie same i te punkty, które ja w tej chwili robię, jak adwokat diabła i będę teraz głupio uzasadniał, a Kajetan będzie robił za tego pytającego, nazwijmy to, które próbują dowodnić, że jest lepiej, to są pytania, które pewnie u Was w firmie też są. Jak ich jeszcze nie ma, to chyba słowo jest jeszcze. Jak już wiecie doskonałe jakie są odpowiedzi, no to super, znaczy, że już po prostu jesteście za tymi pytaniami, jesteście nie tak, ale bardzo dużo organizacji jest w tej chwili na etapie wymyślania co można w to włożyć. No to wracając do, znowu polecam, subskryb, komentarz, whatever. No to tak, jeżeli mówimy o tym, że nam wzrosła liczba kartek, no to jest kwestia czy tam kartek, epików, nie wiem, tasków, VGR. Cokolwiek. Przepraszam ja używam słowa kartek bo u nas z różnych względów się używa słowo kartka. No to teraz pytanie bym mówił czy te kartki są porównywalne? Jaki okres czasu badamy? I czy przez przypadek nie było innej rewolucji? No więc odpowiedź brzmi no chyba jest lepszy. sensie teraz mogę powiedzieć, no chyba jest trochę lepiej ale to się ciężko mierzy bo przy okazji były jeszcze inne rewolucje. I teraz pytanie bym mówił to któreś nie wpłynęło. Jeżeli mówimy o tym, że dostarczamy szybciej do klienta, no to mam wątpliwość, akurat ze względu na to, że jak gdyby na co dzień pracuję w firmie medycznej, to akurat spoiler. My dostarczamy głównie, tu pokażę na wizji, część osób już to wydziała, ja noszę na co dzień aparaty słuchowe, pracuję w takim bardzo fajnym, bardzo fajnym firmie, która wytwarza aparaty słuchowe. Możemy sobie powiedzieć, że software dostarczamy szybciej, ale to chyba o to. Co urządzenie jest ważne. Oczywiście feczarki też, wewnętrzne feczarki też, gdyby nie tam. Ale jak gdyby, no to znowu spojrzę na siebie, no znowu nie chcę zdradzać, jak jest naprawdę u nas firmie, ale możecie sobie, bo tutaj uwaga wyłączyłem to, że pracuję gdzieś na co dzień, coś robię, ale jak gdyby my mamy jakiś zestaw wymagania, nie wiem jak jest u Ciebie w pracy. ale u nas nie ma presji tego, żeby codziennie pojawił się nowy przycisk w appce. to się po prostu nikt z biznesu, a nie nikt z klientów, może to tak, nikt z klientów chyba tego nie oczekuje. Więc to jest kolejna metryka, której chyba ciężko by było się zmierzyć. Jak gadam z różnymi kolegami, no u nich jest, no dość podobnie. Wiadomo są takie firmy, zresztą sam pracowałem kiedyś w Allegro. No to tam się realizował tyle w ciągu dnia ile trzeba było. Jak było trza pięć to było pięć, jak był jeden to był jeden. Ale dzień bez realizów to się nie zdarzał. Przynajmniej średnio dzień bez realizów się nie zdarzał. No co z tego, że nagle będzie siedem? Nie wiem, to pytanie Marcin u nas było, opowiadał jakiś czas temu, polecamy odcinek. Można posłuchać Marcin, bardzo mądre rzeczy mówił, ale oni nie czuli potrzeby nagle. Przynajmniej nie usłyszałem od Marcina, że czuli nagle potrzeby. Jeżeli mówimy o jakość, teraz tu mam takie wyrażenie po rozmowie z różnymi dziwnymi ludźmi, że na przykład rzeczywiście to jest lepiej, że jakość wzrosła. Bo nagle testów, które nie trzeba było, znaczy nie chciało mi się pisać, tu zacytuję, boże, chyba za 4 osoby mi to powiedziały. i to w w różnym, dziwnym miejscu, gdzie tam gadałem, nazwijmy to na grillu, w pracy, czy w ogóle gdzieś tam. Wszyscy powiedzieli to samo, jak gdyby, deweloperzy mówią, że teraz łatwiej im się przyuniósł test. Czy tam jakieś tam testy. Zresztą też, żeśmy karetan o tym gadali. sensie, że no, jak gdyby kiedyś to był wysiłek, sam zresztą powiedziałeś, że ty nie za bardzo lubiłeś pisać testy, a teraz są tak, nie? Więc jakość, no teraz to... To pytanie do mojego taty, a nie do mnie, może kiedyś zaprosimy mojego taty na temat testowania. ten, mój tata jest specjalistą w tym temacie i to nie tylko praktykiem, ale teoretykiem. Czy to, że mamy więcej testów, to znaczy, że jakość wzrosła? Nie wiem, ale powiedzmy sobie, że tak, że to jest jakaś good enough. No to teraz... Tu mamy trzy punkty, a o kosztach pozwolę sobie nie mówić, bo nie wiem. W sensie na tej zasadzie, że ciężko mi w tej chwili oceniać, bo teraz oczywiście możecie jak spojrzeć się na rachunki firmowe, czy przyjdzie do was wasz ten, no jak się nazywa główny księgowy z angielskiego skrótu? CFO, o CFO, Chief Financial Office, to powie jest tragicznie, bo wydajecie nie wiadomo ile na to tokanie. Pewnie u was też. Gdziekolwiek indziej, z jego punktu widzenia to jest krzywa, która nie była, teraz jest. Ale to czy jest taniej czy nie jest taniej, może robić się więcej właśnie w projektach, a może coś tam, więc to cholera wiedzę. Wiedzieć, a może tu nie życzę wam, jesteście w firmach, która ze względu na to, że można robić właśnie szybciej albo wszystkim się wydaje, że można robić szybciej. Wykonała w tej chwili dużą redukcję, wskazała palcem AI'a i jak gdyby niestety szukacie pracy, wtedy bardzo trzymam za Was mocno kciuki. Też, żeśmy o tym gadali, my mamy podejrzenie, to, tak jak tu we dwóch siedzimy, że to nie przez AI'a w tej chwili firmy zwalniają, ale to jest świetny powód, żeby to wykonać tą robotą. Czy to odpowiedział na Twoje pytania?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "10:54",
+      "text": "Trochę tak, trochę tak, a trochę nie. To znaczy, bo to się trochę pokrywa z tym, co ja też widzę, ale też mam wrażenie, że znowu jakaś obietnica i jeszcze przynajmniej, ale nie wiem czy w ogóle, nie została spełniona. Bo jak to mój, nie wiem czy mogę powiedzieć, kolega, to będę się musiał potem tłumaczyć dlaczego były. ale były kolega z pracy, o to już brzmi lepiej, mówił, teraz przestaje być, bo on zawsze mówił, że u nas jest jakość, a nie jakość, a teraz zaczyna być jakość, a nie jakość. I to faktycznie też, to jest też jedna rzecz, którą zauważyłem. To znaczy w zespołach, które obserwuję, no właśnie, czy przesuwamy szybciej kartki? Może. Czy spalamy więcej story pointów w sprincie? Nie bardzo, ale widzę, że deweloperzy, którymi pracuję, częściej klikają w to, piszą, że tak powiem. To znaczy, rzadziej się dzieje tak, że ktoś zrobi kod, nawet napisze jakieś testy, unit testy, które bardzo często są... wiemy dobrze, że napisane po to, żeby były, a nie po to, żeby coś sprawdzały. I nawet ostatecznie tej zmiany nie przeklika. A teraz mam wrażenie, że przynajmniej jeśli chodzi o zespół, dużo częściej jest tak, że w zespole jest kilku deweloperów, każdy coś tam swojego wrzuci, to zdeployujemy na jakieś deweloperskie środowisko i... W momencie, w którym agenci piszą już kolejne karteczki, to ten developer siedzi i nawet trochę z nudów sobie przeklika to wszystko. I dzięki temu łapie błędy. I dzięki temu łapie jakieś case. I dzięki temu zaczyna myśleć. Zaczyna myśleć i wychodzić poza swoją bańkę. Bo też miałem wrażenie i to jest trochę też to, co... to co prawdopodobnie kiedyś też rozmawialiśmy, że przez to, że mamy od kilku lat bardzo mocny podział na front-end developerów i back-end developerów, to każdy patrzy tylko na swój koniec i nie patrzy na tą drugą stronę. To znaczy back-end developer bardzo często dostarcza kod, dostarcza kontrakt API na przykład. i dostarcza jakąś tam wartość, jakąś tam logikę, na którą się umówili na samym początku z front-endowcem. I to na etapie gdzieś tam wstępnych teoretycznych rozmów, to się sprawdza. Ale potem, jak już zaczynamy klikać po tym froncie, to się okazuje, że to można by było zeptymalizować, to można by było przenieść się jednak do innego requestu. i załadować jakoś tam leniwie, to zrobić inaczej, to zrobić inaczej, to zrobić inaczej. No i nagle zaczyna się okazywać, że teraz back-end deweloperzy, zaczynają klikać realnie w ten front, ten zdeployowany na środowisku deweloperskim, zaczynają sami myśleć o takich rzeczach, co się jeszcze nie tak dawno w ogóle nie zdarzało. I przynajmniej u mnie, w moim zespole, błędów, które zgłaszają... QA jest dużo mniej niż było. W związku z tym realnie wartość, jakby sama wartość produktu rośnie, bo czas na jakieś tam ułaty, właśnie na jakieś elementy związane z QA są skrócone. Czy to jest dobra wiadomość dla developerów? Ciężko powiedzieć tak naprawdę, bo bo właśnie, bo znowu... Trochę się nie pisaliśmy na to, żeby być QA-ami, takimi pierwszymi, taką pierwszą linią obrony, bo wszyscy myśleliśmy o tym, że jesteśmy pasjonatami, którzy uwielbiają pisać kod. To nigdy nie była prawda. Ale to zaczyna gdzieś tam się lekko zmieniać. No ja wiem, że nie u wszystkich. Ja nigdy nie lubiłem aż tak bardzo pisać kodów, to znaczy klepać kolejnych linijek."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "15:35",
+      "text": "No to, wystarczaj, poczekaj, to ja cię tu zatrzymam. Bo popatrz. Zatrzymałeś się tylko i wyłącznie na jednej. Sosia."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "15:44",
+      "text": "Ja wiem, ja wiem, ale no bo tak, zatrzymałem się na jednej roli ze względu na to, że głównie w SDLC mówimy o tym, SDLC, które się zmienia za pomocą AA, mówimy o tym, że kod będzie generowany 100 razy szybciej i według niektórych, według internetu to powinno rozwiązać wszystkie problemy. Czy rozwiązuje? No nie."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "16:05",
+      "text": "To była... No dobra, to poczekaj, to zróbmy krok w tył. Jak cofnijmy się parę lat temu, załóżmy, że nie ma tego generowania kodu albo jesteśmy w innym wszechświecie, jedno. to dlaczego gadaliśmy cały czas o tym nieszczęsnym generowaniu kodu? Dlatego, że to trwało najdłużej. To nie zawsze była prawda, kiedyś tam patrzyłem na czas deployment'u maerska. który opowiadał, że im to zajmuje jedna zmiana 42 tygodnia, szczegół kodowania to jest tam mniej więcej 5 dni. Jest taki wykres, mam gdzieś na prezentacji, jak nie zapomnę to podlinkuję. I oni mieli to dokładnie opisane. Im zmiana zajmowała randomowa zmiana, 42 tygodnia. Nazwijmy to nowy przycisk w aplikacji. Od pomysłu zauważenia do momentu, kiedy użytkownik to miał. Ale to nie zmienia tego, że w bardzo wielu władkach, jak na przykład robiło się startup, albo cokolwiek takiego, to był taki... botelnek, o tak byśmy to nazwali, że nie było dewelopera, który by to napisał. Jeszcze doszliśmy do takiej paranoji, że jest osobno frontend, osobno backend, osobno devops, osobno coś tam, osobno dla Android, osobno dla iPhone, osobno koleś od chmury itd. Nagle się okazało, że żeby napisać prosty projekt to trzeba było mieć sześciu ludzi. Oczywiście potem się, znaczy, wpierw byli full stack i potem znowu się pojawili full stack i cokolwiek by full stack, nie tam, ale Problemy inne były zasypywane tym problemem. sensie po prostu one przykrywały ten problem. Bo np. niech będą te nieszczęsne testy. I tu nie mówimy o unit testach czy nie unit testach, nawet testy z użytkownikiem. sensie, jak robisz porządny produkt, to fajnie by było zrobić test z użytkownikiem. Jak mówimy o raporcie. No już nawet się nie bawmy w coś skomplikowanego. Każdy z nas raport widział. I nie wiem jak ty kreatan, nie wiem jak wysłuchacz, ale ja tak regularnie mam, że widzę jakieś kreski i mam na niej jakąś interpretację i teraz planuję czy ja dobrze rozumiem to, co autor raportu chciał mi przekazać. Albo czy umiem wyfiltrować to, co mnie interesuje. Przeznam szczerze, że ja, wskazując palcem na siebie, bardzo często miałem z tym problem. bo nie rozumiałem indancji autora. Samy robiłem jakieś dziwne raporty, których inni nie rozumieli. To żebym był bez winy. Ale to pokazuje trochę, że zrobione na przykład testu z użytkownikami, czy oni rozumieją ten raport. Zwykły raport niech będzie spalania kosztów. Jak jesteście w jakiejkolwiek chmurze, większość pewnie z was jest albo robicie inną aplikację mobilną, to spróbujcie sobie policzyć. jak wydajecie 1 dolar, to co to dla Was oznacza? Na co to się w ogóle przekłada? Jak macie app, który sprzedajecie, oznacza ile wy dostaniecie do ręki. To wcale nie jest rywalne. Jak jesteście w chmurze, to jak macie, to spróbujcie zrobić predykcję na przyszły tydzień. To nagle się okazuje, że w tych narzędziach to wcale nie jest łatwe, a przeciwnie jest trudne. Ale jak gdyby do brzegu. W Software Development Life Sack to tak naprawdę należy liczyć od pomysłu do użytkownika. I to nie do użytkownika, użytkownik to ma. Tylko użytkownik tego używa. No to teraz jak skrócimy ten kawałek, załóżmy że kodowanie. Załóżmy że wynosi 0. Że dzisiaj kodowanie wynosi 0. Bo można to zrobić dużo szybciej. No to właśnie jest to, o czym ty mówisz, że nagle developerzy dotkają też innych części, zaczynają testować, zaczynają coś sprawdzać, zaczynają może optymalizować, czy cytując Macina, być może zaczynają czyścić dług technologiczne, które tam się nazbierają. Myślę, że jeszcze nie jesteśmy na etapie, że wszystko jest wyczyszczone, tak... tam. Są już próby, bo że u mnie ostatnio widziałem, jak gdyby na psanu... umacham koledza, który będzie, nie wiem czy mogę go wymienić z imienia, który zaczął pisać automat, który bierze jak gdyby, nie jest jedyny, To też żeby głośno wybrzmiał, bierze automat, jest dzierka, bierzesz dzierki, wyszukuje błędy tam po systemach, naprawia systemy, robi PR-ka. Jak gdyby automat, w deweloper w ogóle tego nie dotyka, nie? sensie w ogóle nie ma, nie ma deweloper dopiero dostaje, a i jest PR-ka. I to nadal nie spowodowało, jest dużo... Znaczy, znowu, czy jest dużo szybciej? Znowu wracam maesk 42 tygodnie od pomysłu do produkcji. Dla buga to jest inny flow. Pomyślysz o tym, dla buga to jest inny flow. Masz buga, łatasz go, możesz go wdrażać czy do ręki. Dla pomysłu chciałbym dodać nowy przycisk wysyłania. Nie wiem, co fajnego można teraz wysyłać. Dobra, wideo. wideo do internetu w aplikacji do bankowej aplikacji, która potwierdza moją tożsamość, ale myślą fajny feature, no to to wymaga... Na przelew musisz to robić, Zrób gest przelewu. Co ja są? Nie? Ale no, i gdy."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "22:16",
+      "text": "Przepraszamy ludzi, którzy nas nie oglądają, tylko słuchają."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "22:22",
+      "text": "Teraz było warto. To jest ten moment, i to jest dopiero ten etap. Właśnie wymyśliłem bardzo bezpieczną funkcjonalność. Muszę zrobić gest, który jest dla Ciebie unikalny. Absurdalnie nie ten wideo potwierdza, że to tylko Ty robisz ten gest. Pełna analiza wideo. Ale to trzeba przećwiczyć z użytkownikami, zobaczyć jakie oni mają kameryki. czy w ogóle zaprojektować to. Spisać analizę jak to się ma zachowywać, jak długo przechowujemy ten storage, jak rozwiązać problemy technologiczne, bo jak nagle przecież piszecie to dowolnego AI'a, no to on wam powie, to wam gaduję w tej chwili. Kafka, Redis, jakaś chmura ze storydżem i coś tam jeszcze. Tylko że u was kawkę, żeście już dawno odrzuciły, cokolwiek, akurat jesteście w on-premie, bo jesteście bankiem, a przynajmniej to są dane wrażliwe, więc nie chcecie ich tam mieć i cokolwiek takie. To trzeba zrobić taką analizę, zastanowić się czego my możemy użyć, czy przez przypadek musimy kupić jakiś nowy sprzęt, nie, ile to będzie kosztowało. Potem trzeba zrobić testy i to nie tylko te testy, że to działa, ta funkcjonalność, tylko potem zrobić testy z użytkownikami, że to rzeczywiście nie tak, wyrysować to metodą bety, zabrać reologii, poobserwować produkcję, zobaczyć czy to ogóle funkcjonuje, no i wtedy dopiero ten feature jest. No i co z tego, że kodowanie nie zajęło 5 dni czy 15 dni, tylko zajęło jeden dzień. Ten Software Developer LifeSarc nadal nie jest jakiś super szybki. Oczywiście dla buga typu wyświetla się, jak wpisuję maila to nie mogę wpisać plusa. To jest tak, to rzeczywiście spoko. To jest łatwe."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "24:15",
+      "text": "Piotrek, ale ja mam wrażenie, że Ty jesteś trochę za bardzo nasiąknięty już firmą produktową. Bo widzisz, jak ja pracuję w konsultingu, w konsultingu pracujemy dla klientów i bardzo często ci klienci mają pomysł, pomysł, pomysł, pomysł. I jak jest pomysł, to jest implementacja, implementacja, implementacja. No mamy sprinty. W tych sprintach trzeba, wiesz, nałożyć na taczkę, czasami nie zdążysz nałożyć na taczkę. A już musisz kończyć dowożenie, bo już kolejne pomysły tam czekają za rogiem. tutaj, ale no właśnie, tutaj znowu jakby te 42 tygodnie w Maersku to dla konsultanta to jest w abstrakcja, Wiadomo."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "24:53",
+      "text": "No, OK. Nie, no wiadomo, jakby absurd. Dla mnie też to jest absurd. Ale dobro, dowożysz te 10 pomysłów temu klientowi. I kiedy on to sprawdza? Kiedy on mówi, że jest dany?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "25:09",
+      "text": "to ja naprawdę nie chciałbym w ogóle w takiej firmie pracować. No właśnie, no właśnie i to jest problem, bo to oczywiście jest problem, bo jakby w konsultingu mam wrażenie jest czasu na development w ogóle zdecydowanie więcej albo inaczej, developmentu jest samego w sobie więcej właśnie ze względu na to, że ten okres na przykład do zdobycia akceptu na to, żeby zrobić jakąś zmianę, jest dużo krótszy w wielu przypadkach. Natomiast..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "25:48",
+      "text": "Nie jest, tylko ty go nie widzisz."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "25:52",
+      "text": "Nie, to zależy, to w wielu przypadkach zależy. Natomiast mówię, jeżeli nie wydłużymy tutaj analizy jakiejś właśnie tego zbierania wymagań, to wydłużymy po tej drugiej stronie, czyli właśnie na ułatach i tak dalej, bo tam nagle sobie biznes wszystko przypomni, nie, o czym zapomniał. A ta tutaj płytka związana z dewelopmentem, ona się może skrócić. do nawet zera, ale te dwie nadal będą cały czas rosnąć. jeszcze, a jeszcze dodatkowo jest jeszcze drugi problem, bo jak mimo wszystko, jak ta kładka tutaj związana z developmentem zejdzie do zera, to jeszcze właśnie wskoczy ta kładka związana z weryfikacją tego, co zostało wyplute. No bo znowu wracamy, czy jeden agent powinien sprawdzać drugiego agenta, że ten pierwszy napisał dobry kod?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "26:25",
+      "text": "Dokładnie tak."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "26:49",
+      "text": "No to jest wiadomo, cały czas shady, nie? Trzeba się zastanowić jak to weryfikować, ale to są realne problemy, którymi się dzisiaj mierzą firmy. To znaczy skróciliśmy development, za to wszyscy siedzą i sprawdzają PR-y. No to jest przecież bez sensu. Albo skróciliśmy development, zrezygnowaliśmy z PR-u, wszystko leci do maina i wszyscy siedzą i testują. No kurde, to nam nie pomaga. To nam nie pomaga."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "27:18",
+      "text": "Nie, to po prostu przesuwa odpowiedzialność. właśnie o to mi chodzi. Coś co kiedyś było górko, potrzebujesz mieć, nazwijmy to, 5 DW na jednego QA i jednego analityka. Strzeliłem właśnie z sufitu te liczby, żeby były jasne. To nie jest jakaś wiedza książkowa. No to nagle się okazuje, że teraz potrzebujemy dwóch QA i dwóch analityków i jednego DW. Znowu strzeliłem te dane z sufitu."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "27:18",
+      "text": "Tylko? Wiesz? Tak. No dobrze, ale to co możemy w takim razie zrobić? Czy masz jakiś pomysł, co musiałoby się wydarzyć w całym procesie SDRC, żeby realnie było szybciej? Żeby realnie było lepiej? Żeby... O! O! O! Żeby było szybciej, taniej i lepiej?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "28:08",
+      "text": "A ja ci to powiem, ale jestem przekonany, że nie spodoba ci się tam."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "28:16",
+      "text": "Dawaj."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "28:18",
+      "text": "I najpierw trzeba zacząć mierzyć, co ludzie robią. trzeba mieć bardzo to pomierzone, bo jak masz to pomierzone... Ale popatrz, jak na to spojrzeć, bo to nie chodzi teraz o to, co to oznacza. Nie chodzi o to, żeby ktoś patrzył na was na monitor, wy, co wy robicie na monitorze. Ale jak macie dobrze pomierzone te kawałki, to możecie zacząć eksperyment."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "28:26",
+      "text": "Ajejej... wielu osobom może się to nie spodobać."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "28:52",
+      "text": "Nie macie ich pomierzonych? Tu się ciężko sprawdza. Jak sprawdzić, że jest dobrze, lepiej i taniej? Taniej ok. Taniej akurat możemy próbować przy firmach, nazwijmy to software house, czy tam consulting, bo oni będą mogli zacząć oferować niższą stawkę, wchodząc na proje. To tu możesz patrzeć na to, czy jest tanie. Mniej ludzi potrzeba."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "29:17",
+      "text": "Nie mów tego moim szefom."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "29:20",
+      "text": "Nie, ale to nie chodzi o to, Właśnie nie, to chodzi o to, że twoi szefowy wystartują do pięciu przetargów, a nie do czterech. To, to, to... Znaczy, kurna, nie wystartują do przetargów źle. Wygrają pięć przetargów zamiast czterech i bez problemu je dowiozą. W sensie takich, co mieli kiedyś. To, to, to, to, to, mogą próbować zmierzyć. To prawdopodobnie jest taki sensowny, jak gdyby, w sensie, wartość biznesowa w firmie, która..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "29:27",
+      "text": "No tak, stacara taka jest."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "29:48",
+      "text": "Twa firma nie jest software house'em, uproszczę. Konsultingiem, software house'em, czy dostarczającą usługi dla kogoś. W firmie produktowej prawdopodobnie ta metryka nie ma sensu. firmie takiej, gdzie to zatrudnione, to ma sens, to prawdopodobnie i tak jest mierzone. To sensie niezależnie od tego... czy tam padamy tego AR czy nie, to jest mierzone. Rany Julek, nie? Ta firma ma zarabecz, każda firma ma zarabecz. Nawet firmy produktywnej też coś jest takiego mierzone, tylko czasami niektóre kawałki są mniej lub bardziej. Ale jak my chcemy się dowiedzieć, jak skrócić Software Development Life Sack, co nam nie działa, to trzeba niestety wykonać jakieś miały. I to nie musi być, żeby to właśnie wybrzmiało, nie? To nie musi być... To ile linii kodu wypluwasz, to jest głupia metryka. Nie musi być nawet to ile tam story pointów dowodzisz, bo teraz jak gdyby ile linii kodu, no to wiemy co się stanie. Enter po każdym, ileś commitów, commit po każdym klawiszu. I tak dalej, tak dalej. Wybrany tych metryk, bo teraz właśnie nie chodzi o to, żeby mierzyć konkretnie Kajatana, czy konkretnie Piotrka, tylko wymyślanie takich metryk, których w tej chwili nie mam. Mam to na swojej e-mapie, zastanawiam się jakie takie metryki mogą być. Coś tam w głowie mam, ale może nie będę gadał. Ale to jest to coś, pozwala nam zmierzyć. Jedną z fajnych metryk, którą możemy sobie wyobrazić, to jest właśnie metryka, znajdujemy mniej bagów. Tylko to jest bardzo groźna metryka. Fima jest nagradzana za to, żeby znajdować mniej bagów. To się mniej bugów znajduje. Jak testerzy są nagradzeni za jak największą liczbę bugów, to się znajduje jak największa liczba bugów. Trzeba bardzo uważać, bo dostajesz co mierzysz. Natomiast wprowadzenie jakiś metryk w ogóle pozwala nam pójść dalej, bo bez tych metryk po prostu jest ciężko."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "31:57",
+      "text": "Piotrek, długo już gadamy, ale ja się muszę jeszcze jedną rzecz zapytać. Co o tym sądzisz? Bo oglądałem i na pewno ten filmik też, on jest króciutki, więc też zachęcam do obejrzenia. Tam pojawiła się pewna opinia, nad którą też zacząłem się zastanawiać. Bo jesteśmy przyzwyczajeni do tego od kilku lat przynajmniej. Czy to jest dobre, czy to jest niedobre, to... to nie jest w tym momencie najlepszy moment na to, żeby o tym porozmawiać, ale taki jest w 99 % filmu prawdopodobnie. Pracujemy w sprintach, pracujemy zwinnie, pracujemy tak, że jesteśmy w stanie dostosować się do dowolnej zmiany. Czy to przypadkiem nie przestaje mieć znaczenie, znaczy, inaczej, czy to nam przypadkiem nie zaczyna przeszkadzać, czy... Ten hejtowany, jakieś 10 lat temu, waterfall nie zaczyna mieć znowu więcej pozytywnych aspektów, momencie, w którym możemy właśnie skupić się na tej fazie analizy, potem skupić się na fazie jakiegoś QA, UATA i tak dalej, a... bardzo skrócić ten proces buildu, bo waterfall przestał działać właśnie w momencie, w którym nagle deweloperzy po zebraniu wymagań stwierdzali, no to my się teraz zamykamy na rok, nara i za rok zobaczycie swoją aplikację i to nie działało. A teraz nagle ten rok skraca się do tygodnia, dwóch tygodni, bo jakbyśmy dobrze zebrali wymagania i dobrze je przekazali agentom, to zamiast roku będziemy mieli... zamknięty ten proces developmentu bardzo szybko."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "33:52",
+      "text": "Zrobię tak zwane coś, czego nie wypada, czy odpowiem pytaniom na pytania. Słuchaj, czy widziałeś gdzieś w projekcie to przezobane wymaga?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "34:09",
+      "text": "Nie."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "34:12",
+      "text": "I myślę, że to jest kluczowe. Ale rozumiem, teraz może będzie lepiej."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "34:16",
+      "text": "Ale, ale, nie, nie, nie, nie, może te wymagania nigdy nie były zbierane dobrze właśnie ze względu na to, że nie mieliśmy czasu na to, żeby zbierać wymagania, bo musieliśmy ładować na taczkę. To znaczy musieliśmy jak najszybciej zacząć development, żeby się jak najszybciej wysypało to, czego nie przewidzieliśmy."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "34:39",
+      "text": "Pyszto! Wyskoczę na chwilę z roli technicznej, nie wróć, nie z roli technicznej, wyskoczę z roli takie kolesia od kodu. Spójrz na narzędzia, które powstały w międzyczasie. Weźmy sobie taką figmę. W tej chwili figma jest jakimś standardem. Nie wiem czy będzie nadal za 3 lata, ale 3 lata temu chyba już była, dzisiaj na 100 % jest. W figmie robi się mockup. Pokazuje się temu cupy wszystkim. Kącowym użytkownikom, klientowi coś tam. Bo jak zbudujesz sobie takie mo cupy w filmie, rzeczywiście, to bądźmy szczerze, jedna i druga strona wie co ma zrobić. Jakby umiemy sobie obrazić. Dawno, dawno temu ktoś próbował rysować interfejsy w Wordzie albo innym nieszczęsnym pęcie, czym tam, co mu tam miał. I sobie, jakby to było ten interface, który był zaprojektowany, po czym jak ludzie go klikali, to Jezus Maria. W tej chwili ten etap, narzędzia dały ten etap. Jak mówiliśmy sobie o zbieraniu, jak gdyby nazwijmy to infrastruktury, coś tam, no to kiedyś tłumem czasu było Jezus Maria, jakie serwery ja muszę kupić. W tej chwili... Nie ma takiego etapu. i to w bardzo wielu miejscach, jak gdyby wiesz, po prostu się skróciło. Teraz czy Waterford wróci? Nie wyobrażam sobie, użyłem dzisiaj przykładu banku, to niech będzie bank, że zrobisz analizę, niech będzie migracji banku gdzieś tam. Wyobrażmy sobie migrację banku do nowego interfejsu. Robiłem kiedyś taki wrzucił projekty. i to w jednym promptem ogarniesz? Gdyby nie ten, a na końcu pokażesz to i będziesz potem promptował 500 razy, żeby to poprawić? Nie wiem. Natomiast rzeczywiście rzeczy, które żeśmy wprowadzili, na przykład mikroservisa, mikrofrontenda, może inaczej, tak jak mniej wierzę w to, że te krótkie iteracje się skrócą, bo ten szybki feedback z użytkownikiem daje wszystkim Fajny flow. Szybko widzimy zmiany, szybko iterujemy, możemy się poruszyć w innym kierunku, bo ten pomysł nie do końca zadziałał. Jednak klienci nie do końca chcieli różową barbię. Oni chyba jednak wolał GI Joe. Szybko możesz zrobić kawałek, pokazać MVP i pojechać. Zrobić kolejną funkcjonalność, zobaczyć czy działa styka, nie styka, a jedziemy dalej. Tu trochę popchnąć raporty, a tu trochę popchnąć, nie wiem, tam klikanie mapki, a w innym wypadku jeszcze coś tam. Nie, bo akurat tu użytkownicy wchodzą, a tamto w ogóle do raportów to nikt nie wszedł, a mapkę to wszyscy klikają. Cokolwiek, wymyśl tam jakieś funkcjonalności z losowych app. Natomiast... Bardziej się zastanawiam czy nie zniknął takie rzeczy jak np. mikroserwisy. Bo mikroserwisy rozwiązywały problem tego, że miałeś 20 zespołów pracujących nad tym, czy nawet 3 zespoły pracujące nad tym. I one musiały się ze sobą bardzo gęsto komunikować. A słuchaj a teraz? Może jeden zespół da radę to wszystko ogarnąć? To pogrzyba te mikroserwisy. Tak oczywiście nie mówimy o problemie skalowania. Nie mówimy o jakimś tam problemie, czymś tam, ale w sensie to nagle może być, rasa. Bo nagle nie musisz mieć wiele komponentów gazujących ze sobą, to możesz po prostu mieć jednego kloca. Nie wiem, nie? To pokazuje ci inną stronę medalu, ten, bo Włotar Fola, powrót Włotar Fola na razie nie wierza. W sensie tak jak mówimy szczerze, sorry, no nadal zbudowanie produktu, to sam kod, OK. To żeśmy powiedzieli szybciutko, ale ta reszta przetestowanie, zobaczenie czy to dobrze funkcjonuje, czy przejścia są ok, czy się nic nie wysypuje na ekranie komórki, na innym ekranie komórki, na laptopie, na tablecie, czymś tam jeszcze. Tak, wiem, wszystko można agentami, tylko to też trzeba obkodować, żeby to w ogóle..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "39:17",
+      "text": "Nie wiem, nie jestem do tego wszystkiego przekonany. To znaczy do tego co powiedziałeś na temat mikroserwisów, ja też ani nigdy nie rozumiałem do końca dlaczego oddzielny zespół musi się za każdy mikroserwis brać, bo potem... Ja wiem, rozumiem, rozumiem, rozumiem, że..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "39:34",
+      "text": "Nie, nie. W drugą stronę. To zawsze. Że łatwiej było zespołowi rozwijać swój kawałek, niż pięciu zespołom siedzieć nad jednym codebase'em."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "39:44",
+      "text": "Tak, tak. Teoretycznie tak, ale jakby tak z drugiej strony... To też, jeżeli w wielu przypadkach widziałem, jak było podzielenie 5 mikroserwisów, 5 zespołów i nagle wszyscy siedzieli większość czasu na spotkaniach, żeby ogarnąć wszystkie kontrakty itd., to też nigdy nie działało. I to jest problem. Tak. Tak, tak. to jest problem, że..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "40:15",
+      "text": "No, ale potem mówimy o te oj, nie? Za każdym razem mówimy chyba o te oj w tej chwili."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "40:23",
+      "text": "że my w teorii to dowoziliśmy, a w praktyce zawsze po deadline'ie było dowiezione, teraz może udałoby się coś dowieźć przed deadline'em, może jakimś cudem i to już, no to, i to jest właśnie coś, do czego powinniśmy dążyć. I może tym optymistycznym akcentem, aczkolwiek nie wiem w ogóle, czy my dzisiejszego odcinka nie podzielimy na dwa odcinki, bośmy się rozgadali przeokrutnie i nie wiem."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "40:35",
+      "text": "To jest supermatyka. No, ja nie będę spocieszał."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "40:54",
+      "text": "ale wydaje mi się, że to też jest ważne, żeby o tym rozmawiać i żeby widzieć. Jednak zmienia się to wszystko, co znaliśmy do tej pory. Zmienia się ewidentnie to, jak powinniśmy podchodzić do naszej pracy. Bo ja już nie mówię o tym, co Piotrek tutaj, że wiecie, że ktoś wam zacznie zaglądać, że tak powiem... przez ramie na monitor i zobaczy, że właściwie wy od 20 minut patrzycie na ten licznik i ile tokenów dany agent zeżarł albo cała armia tych agentów i właściwie oprócz tego to nic nie zrobiliście. Jak takie zombie zaczynacie siedzieć, bo to po pierwsze jest prosta droga do tego, żeby was wyrzucili, a po drugie to jest prosta droga do tego, żeby się wypalić zawodowo. A realnie myślę, że warto wykorzystać ten czas na to, żeby zrobić coś, co będzie rozwiązywały kolejne problemy. I niekoniecznie problemy programistyczne, ale może problemy właśnie związane z waszym zespołem, związane gdzieś tam z firmą, czy cokolwiek innego, czy jakikolwiek inny problem. To zdecydowanie polecam."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "42:14",
+      "text": "Ja jeszcze dodam od siebie, słuchajcie, że to jest czas, mieć wreszcie być może dla części z nas, żeby mieć czas, żeby pomyśleć, a nie szybko przyrzucać... Znaczy jest taki cudowny mem z taczką, nie? sensie, że tam koleś pokazuje kółko i to nie mamy czasu, bo przywrócamy kamienie, nie? Może to jest właśnie ten moment. Kajetan ma dzisiaj przepiękną koszulkę, idealnie... pasującą no limit. Więc pamiętajcie no limit. Mówiąc szczerze, to gadamy bardzo długo dzisiaj, a mam wrażenie, że w ogóle jesteśmy na wierzchołku góry lodowej. sensie tak po prostu już my poruszczyli, no prawda, nie ten. Więc jeżeli jakieś tematy by Was interesowały drodzy słuchacze, chcielibyście, żebyśmy pogadali sobie trochę głębiej albo macie jakieś pytania, albo chcielibyście jakiegoś gościa, może macie kogoś, albo sami byście chcieli przejść."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "43:10",
+      "text": "Może interesuje was też konkretny etap w procesie SZLC, o którym jeszcze nie porozmawialiśmy. My z Piotrekiem, myślę, że obaj, mamy ogląd na cały ten proces. Bardzo mocno się już przez naszą karierę przyglądaliśmy i chyba obaj byliśmy na każdym etapie gdzieś tam w pewnym momencie. Piotrek..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "43:33",
+      "text": "Nie, ja nigdy nie byłem na designerze."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "43:38",
+      "text": "A nie, no dobrze, no dobra, no to faktycznie, ale... Tak, tak. Tylko my po prostu nie urodziliśmy się, bo gdybyśmy my się zajęli designem, to absolutnie nic byśmy nie dowieźli, bo wszystko byłoby tak obrzydliwe jak my. No. Ale jeżeli chcielibyście, żebyśmy o czymś porozmawiali oprócz designu, to jesteśmy bardzo otwarci. A jeżeli chcielibyście, żebyśmy porozmawiali o designie, to też dajcie znać..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "43:40",
+      "text": "Ale to jest mega ważny"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "44:06",
+      "text": "to znajdziemy takiego gościa, którego przepytamy od DZ. O. Doskonale. To dzięki za dzisiaj i do zobaczenia, jak zwykle."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "44:16",
+      "text": "Trzymajcie się, sub, like, komentarz, whatever, jak żeście dotrwali do końca."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "44:22",
+      "text": "Tak jest. Do zobaczenia za tydzień. Siema."
+    }
+  ]
+}
