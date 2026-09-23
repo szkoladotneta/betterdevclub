@@ -51,6 +51,36 @@
     "resources": [
       {
         "type": "link",
+        "url": "https://seldo.com/posts/we-are-all-product-engineers-now/?utm_source=unknownews",
+        "label": "We are all Product Engineers now (Seldo)",
+        "description": "Esej Laurie Voss (Seldo) o transformacji programistów w inżynierów produktu w erze AI"
+      },
+      {
+        "type": "link",
+        "url": "https://newsletter.posthog.com/p/if-ai-writes-all-the-code-whats-left?utm_source=unknownews",
+        "label": "What happens to engineers when AI writes all the code? (PostHog)",
+        "description": "Artykuł PostHog o roli deweloperów sterujących pętlą produktową, gdy kod pisze AI"
+      },
+      {
+        "type": "link",
+        "url": "https://youtu.be/4CHVV6NM-HA?si=gUtK_pEEh9Eesslb",
+        "label": "AI Makes Us Code Like It's 1990 (YouTube)",
+        "description": "Wideo analizujące wpływ narzędzi AI na współczesny styl programowania i powrót do dawnych praktyk"
+      },
+      {
+        "type": "link",
+        "url": "https://www.uber.com/us/en/blog/efficient-software-factory/?utm_source=substack&utm_medium=email",
+        "label": "Running a Software Factory Efficiently at Uber Scale (Uber Engineering)",
+        "description": "Wpis inżynierów Ubera o optymalizacji i skalowaniu fabryki oprogramowania oraz cyklu wytwórczego"
+      },
+      {
+        "type": "link",
+        "url": "https://www.databricks.com/blog/managing-ai-coding-costs-scale?utm_source=substack&utm_medium=email",
+        "label": "Managing AI Coding Costs at Scale (Databricks)",
+        "description": "Praktyczne spojrzenie Databricks na kontrolę i skalowanie kosztów generowania kodu i modeli AI w organizacji"
+      },
+      {
+        "type": "link",
         "url": "https://dora.dev/",
         "label": "DORA Metrics & Accelerate",
         "description": "Metryki efektywności zespołów inżynieryjnych i badania Accelerate"
