@@ -15,7 +15,7 @@ W drugiej części odcinka panowie dyskutują o paradoksie Maerska (gdzie wdroż
     <meta property="og:description" content="Czy generowanie kodu z pomocą sztucznej inteligencji faktycznie sprawiło, że zespoły dostarczają oprogramowanie 10x albo 100x szybciej? Piotrek i Kajetan biorą pod lupę cały cykl wytwarzania oprogramowania (SDLC) i analizują, co tak naprawdę uległo zmianie. Choć pisanie samego kodu skróciło się niemal do zera, wąskie gardła wcale nie zniknęły – przeniosły się na fazę zbierania wymagań, code review, weryfikację PR-ów, testy akceptacyjne (UAT) oraz rozmowy z klientem. Zamiast armii programistów zmagających się ze sztywnym podziałem na frontend i backend, programiści wreszcie wychodzą ze swoich baniek, zaczynają przeklikiwać własne aplikacje na środowiskach deweloperskich i wyłapują błędy znacznie wcześniej.
 
 W drugiej części odcinka panowie dyskutują o paradoksie Maerska (gdzie wdrożenie pojedynczej zmiany trwało 42 tygodnie, z czego samo kodowanie zaledwie 5 dni) oraz o tym, jak mierzyć efektywność zespołów, by nie wpaść w pułapkę metryk typu liczba linii kodu czy story pointy. Zastanawiają się również nad prowokacyjną tezą: czy w epoce błyskawicznej generacji kodu hejtowany przez lata Waterfall i precyzyjne zbieranie wymagań z pomocą narzędzi takich jak Figma nie wrócą do łask, a mikroserwisy nie ustąpią miejsca dobrze zaprojektowanym monolitom?">
-    
+    <meta property="og:image" content="https://i.ytimg.com/vi/Z5Xk2nM4A8Q/maxresdefault.jpg">
     <link rel="shortcut icon" href="../img/favicon-32x32.png" type="image/png">
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Noto+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
@@ -979,7 +979,7 @@ W drugiej części odcinka panowie dyskutują o paradoksie Maerska (gdzie wdroż
             const [loading, setLoading] = useState(true);
 
             useEffect(() => {
-                const version = "f6aa092342";
+                const version = "4d633b2918";
                 Promise.all([
                     fetch(`/episodes.json?v=${version}`).then(res => res.json()),
                     fetch(`/speakers.json?v=${version}`).then(res => res.json())
