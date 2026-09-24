@@ -2,7 +2,6 @@
   {
     "id": 39,
     "num": "39",
-    "notPublished": true,
     "title": "Better Dev Club #39 - Czy SDLC naprawdę przyspieszyło? O kodowaniu w sekundę, długu i powrocie Waterfall",
     "date": "2026-09-24",
     "duration": "44:25",
@@ -44,9 +43,9 @@
       "efektywnosc"
     ],
     "platforms": {
-      "youtube": "",
-      "spotify": "",
-      "apple": ""
+      "youtube": "https://youtu.be/Z5Xk2nM4A8Q",
+      "spotify": "https://open.spotify.com/episode/4YrUPWAKo2Wtw8DsZ7z96C?si=0XqJcthySX-Og18wVGg4zA",
+      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club-39-czy-sdlc-przyspieszy%C5%82o-o-kodowaniu/id1848840540?i=1000791417079"
     },
     "resources": [
       {
@@ -92,7 +91,7 @@
         "description": "Współczesny standard prototypowania i precyzowania wymagań UX/UI"
       }
     ],
-    "youtubeId": ""
+    "youtubeId": "Z5Xk2nM4A8Q"
   },
   {
     "id": 38,
