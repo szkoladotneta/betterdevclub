@@ -151,7 +151,7 @@
                         <span class="text-slate-300 dark:text-slate-700 font-bold">•</span>
                         <span class="text-slate-500 dark:text-slate-400 text-xs font-semibold">2026-10-01</span>
                     </div>
-                    <h3 class="text-slate-900 dark:text-white text-2xl font-bold leading-tight group-hover:text-primary transition-colors cursor-pointer">Better Dev Club #40 - Prawa inżynierii oprogramowania w erze AI: Brooks, Conway, Gall, Goodhart i Amdahl</h3>
+                    <h3 class="text-slate-900 dark:text-white text-2xl font-bold leading-tight group-hover:text-primary transition-colors cursor-pointer">Better Dev Club #40 - Czy 9 agentów AI urodzi dziecko w miesiąc? Prawa IT i AI</h3>
                     <p class="text-slate-500 dark:text-slate-400 text-base font-normal leading-relaxed mt-3 line-clamp-2">Czy rewolucja generatywnego AI jest w stanie obalić fundamentalne prawa inżynierii oprogramowania, które rządzą naszą branżą od kilkudziesięciu lat? W 40. odcinku Better Dev Club Piotrek Stapp i Kajetan Duszyński biorą na warsztat klasyczne zasady wytwarzania software'u i sprawdzają, czy dorzucenie tokenów i armii agentów AI pozwala obejść ograniczenia, z którymi mierzymy się od dekad. Od dowcipu o 9 kobietach rodzących dziecko w miesiąc (Prawo Brooksa), przez architekturę odzwierciedlającą strukturę zespołów (Prawo Conwaya), po ewolucję systemów od prostych do złożonych (Prawo Galla).
 
 W dalszej części rozmowy panowie dyskutują o pułapkach metryk efektywności w dobie AI (Prawo Goodharta i 'token maxing'), wyjaśniają, dlaczego dyskusje w internecie stały się zbyt grzeczne przez LLM-y, oraz analizują Prawo Amdahla na autentycznym przykładzie 3-tygodniowego debugowania błędu klawiatury w aplikacji terminalowej na iOS. Czy AI to faktycznie rewolucja wywracająca zasady gry, czy raczej ewolucja, która tylko uwypukla i wzmacnia klasyczne problemy inżynierii oprogramowania?</p>
@@ -1761,7 +1761,7 @@ Poruszamy również temat bezpieczeństwa IT: jak modele LLM pomagają w cyberne
             const [loading, setLoading] = useState(true);
 
             useEffect(() => {
-                const version = "4ebe0f9527";
+                const version = "147da70e4f";
                 Promise.all([
                     fetch(`/episodes.json?v=${version}`).then(res => res.json()),
                     fetch(`/speakers.json?v=${version}`).then(res => res.json())
