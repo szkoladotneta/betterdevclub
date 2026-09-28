@@ -1,0 +1,294 @@
+{
+  "transcript": [
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:00",
+      "text": "Dobrze. Czę ty mówisz, cześć Piotrek."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:02",
+      "text": "Nie, ty mówisz Cześć K1"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:04",
+      "text": "A, dobrze. A kiedy mówię ci, jaka jest różnica?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:10",
+      "text": "Zaraz po cześć Kajetan. Ty mówisz cześć Kajetan, ja mówię cześć Piotrek, a potem pytasz się, jaka jest różnica."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:21",
+      "text": "Dobrze. Dobrze, na szczęście już my nie zaczęli. Gotowe?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:21",
+      "text": "Dawaj, bo to się już nagrywam. O nie, i oczywiście pies, kurwa. Wiadomo. Poczekaj chwilę. Ja tak, pies nie. Zobaczcie co się dzieje przed drzwieniem. Co ciekawe nic się nie dzieje. Dobra, żona go wzięła ją wzięła do sypialni. To możemy zaczynać. I czego się drzesz? Dobra, już będzie spokojnie."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "01:17",
+      "text": "To Ty musisz powiedzieć cześć Piotrek a ja powiem cześć Karetan jaka jest różnica między prawami fizyki a inżyniery o programowaniu. O Jezu zmutowałem Cię, sorry. Już Cię odmutowałem."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "01:30",
+      "text": "Dobra, to lecimy. Cześć Piotrek!"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "01:36",
+      "text": "Cześć Karytan. Wiesz jaka jest różnica między prawami fizyki a prawami inżynieru i oprogramowania?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "01:42",
+      "text": "No jaka?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "01:43",
+      "text": "Praw fizyki nie da się obejść chyba. A prawa inżynieru oprogramowania to chyba każdy menadżer próbuje obalić przynajmniej raz na kwartał, nie jak nie raz na tydzień i za każdym razem można powiedzieć, że dziwi się, że jednak grawitacja działa."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "02:01",
+      "text": "Szczególnie teraz, kiedy zrzuci się na produkcję agentów AI. Witamy w kolejnym odcinku. Jak możecie się domyślić, tym razem będziemy rozmawiać o prawach, które rządzą naszą branżą od wielu lat, niektóre nawet dłużej niż my żyjemy z Piotrkiem. I które dobrze wszyscy znamy i chcemy zobaczyć, czy one właściwie wszystkie będą jeszcze działały w najbliższych latach. kiedy mówimy o tym, że jednak sporo się zmieni. Piotrek, co ty o tym sądzisz?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "02:36",
+      "text": "No na pewno warto. Zacznijmy chyba od standardowego, czyli prawa Brooksa. Jak ktoś nie kojarzy to ten karetan zaraz da definicję, tak na start. To ten, jak mówimy o ten dowcip o 9 kobietach, które urodzą dziecko w 1 miesiąc, to to jest dokładnie prawo Brooksa."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "02:56",
+      "text": "Tak, właściwie kawał bardzo dobrze znam już od dawna i bardzo często go powtarzam, szczególnie moim klientom, którzy się pytają bardzo często, czy jak dodamy sobie więcej osób do zespołu, to uda się to szybciej dostarczyć. I dopiero przed chwilą, niedawno dowiedziałem się, że jest to prawo Bruksa i mówi ono dokładnie, uwaga, dodanie pracowników do opóźnionego projektu programistycznego jeszcze bardziej go opóźnia. i wynika to z konieczności wdrożenia i przeszkolenia nowych osób przez doświadczonych członków zespołu oraz wykładniczego wzrostu liczby kanałów komunikacyjnych w grupie. No i teraz miało to sens, to zawsze miało sens, nie? No bo faktycznie nawet kiedy wyceniamy projekty nowe albo kolejne projekty dla tych samych klientów, no to zawsze dodajemy jakiś czas na on-boarding, zawsze dodajemy jakiś czas na wdrożenie. Zawsze dodajemy jakiś czas na to, aż ci ludzie realnie zaczną być produktywni. Ale czy możemy o tym mówić właśnie w momencie, którym na przykład chcielibyśmy dodać kolejnego agenta AI do naszego zespołu agentów AI? Czy on musi się on-bordować, czy nie musi się on-bordować? Czy on od razu przyniesie wartość, jeśli dopalimy mu trochę tokenami, trochę dolców mu dorzucimy jeszcze do piece? Czy to oznacza, że to prawo Brooksa w tym momencie przestaje mieć znaczenie i 9 agentów AI będzie w stanie urodzić dziecko w miesiąc?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "04:31",
+      "text": "Znaczy powiem przewrotnie, że wydaje mi się, że ponieważ to prawo wytrzał mocnego dowodu na jakby ubicie go, to niestety nadal jest, no niestety albo stety nadal jest aktualne. No bo jak chwila o tym, tak spróbujemy to zrozumieć na czynniki pierwsze. Nie jak coś tam Kretan masz inne zdanie, to ty jak gdyby mów, nie, ale jak patrzę na czynniki pierwsze. Jest problem i do przyjemy nowego agenta niech to będzie, nie wiem. Pisać testów jednostkowych. brakuje nam testów jednostkowych. Albo pisać butonów na front-end'rze. Albo tam nie wiem co. No nie wiem. No próbuję mówić, czy da się jakąkolwiek sensowną rolę, którą umiem nazwać. No mogę puścić dwóch... Uber, senior, ninja, hyper, developerów. Ale to nie zrobię nowego agenta, tylko powiem drugiemu agentowi, weź teraz bądź hyper, uber, super, developerem i tu masz kolejną listę tasków i bierzesz task z góry. Jeżeli mówimy na pewno o dodaniu nowego agenta, który jest nowy, w sensie jest inny, to myślę, że to w ogóle moja opinia. skarżą na siebie palcem to chyba nie ma sensu. Jak widzicie jakąś super nową funkcjonalność, żartowałem oczywiście z tym super dodawacz przycisków na front-endzie, nie wiem, dołączymy sobie członka security albo dołączymy sobie członka weryfikacji jakiejś formalnej, dołożymy mu konkretne skille weryfikujące projekt. No to tak chyba dziwnie, Jak weźmiemy, zduplikujemy agenta, czyli mówiąc wprost podepniemy agenta znowu subskrypcjowo, pewnie głównym limitem to jest nie dzisiaj liczba tych agentów chodzących, tylko liczba tokenów, które nagle przepalasz, no to on po prostu będzie generował więcej kodu, więcej PR-ów na godzinę. Czy to spowoduje, że to jest szybciej, czy ten senior inżynier, który będzie patrzył na te PR-y... ewentualnie dopisze sobie agenta sprawdzającego PR czy to na pewno spowoduje, że projekt się będzie posuwał szybciej? Nie wiem. Chyba, że zapanujemy dobrze nad wymaganiami. O to może wtedy."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "06:58",
+      "text": "Czyli dodamy na kagenta do wymagań."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "07:01",
+      "text": "Nie wiem czy tu możemy dać agenta, ale może tak, że jak dodamy agenta do wymagań, to może i tak, to rzeczywiście, to tu może by się udało."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "07:13",
+      "text": "Z mojej perspektywy to się tak naprawdę fajnie łączy z tym, o czym rozmawialiśmy w zeszłym tygodniu. I w razie, gdybyś, drogi słuchaczu, nie oglądał, to zachęcamy Cię do tego, żeby wrócić do odcinka z zeszłego tygodnia, gdzie rozmawialiśmy o nowoczesnym SDLC. I jeżeli jeszcze nie subskrybujesz, to koniecznie zasubskrybuj nasz kanał. Koniecznie kliknij dzwoneczek, lajka, dyslajka i wszystko inne i skomentuj dzisiejszy odcinek. To najważniejsze. Natomiast wracając, jakby o tym rozmawialiśmy, że realnie kod nie jest wąskim gardłem, więc dołożenie, albo inaczej tworzenie kodu nie jest i nie było wąskim gardłem, więc dołożenie kolejnych agentów, którzy będą dokładać jeszcze więcej i jeszcze szybciej tego kodu, też nie jest to rozwiązaniem. To realnie może nam w wielu przypadkach właściwie spowolnić całe dostarczanie. No bo właśnie, bo ten zespół, jest aktualnie, który robi review, który testuje, który robi najróżniejsze inne rzeczy zostanie zalane taką ilością jakiegoś kodu, że nie będziemy w stanie nad tym zapanować i realnie będziemy jeszcze w gorszym miejscu niż byliśmy na samym początku. W przypadku dołożenia... agenta, który będzie zajmował się czymś innym niż tylko kodowanie, czyli tak jak powiedziałeś security albo innym regionem kodowania, czyli podzielilibyśmy nie wiem back and front end czy jakkolwiek, czy do pisania testów, czy do czegokolwiek innego, no to to wdrożenie też będzie potrzebne. To wdrożenie będzie jakby troszeczkę inne niż było do tej pory, bo nie będziemy siedzieć z takim, a właściwie będziemy siedzieć, będzie... Dobra, nie, cofam to. będzie wyglądało dokładnie tak samo jak wygląda w tym momencie. Czyli będziesz musiał sobie, że tak powiem, usiąść z takim agentem, tak jak kiedyś siadałeś z juniorem i opowiedzieć mu o całym projekcie, opowiedzieć mu o wszystkich zasadach, o tym jak pracujemy, o tym za co jest odpowiedzialny i tak dalej. Tyle, że nie na spotkaniu, tylko po prostu w formie jakiegoś na ten moment pliku md. w przyszłości zobaczymy, który będzie mu opisywał te wszystkie zasady, więc jeżeli nie zrobiłeś tego wcześniej, no to wiadomo, że trzeba będzie ten czas na on-boarding nowych agentów poświęcić. Potem, jeżeli nagle się okaże, że właśnie przepalamy limity i trzeba będzie dołożyć kolejną subskrypcję, no to tak, oczywiście wtedy będzie to szybsze, tylko czy to będzie rozwiązywało jakikolwiek problem? Wątpię."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "09:55",
+      "text": "Podsumowując ten kawałek prawo ma szansę zostać złamane wtedy jeżeli wytwarzanie kodu jest tym podstawowym blokerem. Jeżeli w danym projekcie to kod jest problemem to rzeczywiście tak. Tegas Szmegas nowy agent, nowa subskrypcja i done."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "10:06",
+      "text": "Tak, tak. I jedziemy. Niby się aktualnie przydało, ale to jest inna sprawa. Dobra, lecimy z drugim. Chyba jeden, przynajmniej w mojej bańce, jedno prawo, które jest bardzo często przypominane na LinkedInie, na IKSie. Prawo Conwaya. Prawdopodobnie wszyscy znają, wszyscy słyszeli. Struktura systemu lub oprogramowania stworzonego przez organizację. Odzwierciedla strukturę komunikacyjną tej organizacji. Czy to się zmieni? Czy to ma nadal? Tak. Dobra, lecimy dalej."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "10:51",
+      "text": "Ja uważam, tak. sensie wróć. Prawo nadal będzie aktualne, ale zmieni się struktura organizacji. To się twierdza, że organizacje w określony sposób wyglądały, w zależności od tego jak wytwarzaliśmy software, między innymi do tego doszliśmy, żeby były te niezależne serwisy i coś tam szyna, mikroserwisy i dodaj tłuminy, mikrofrontendy. podziały i tak dalej, no po to właśnie żeby zespoły sobie spokojnie działały. Ale teraz wydaje mi się, że zmieni się układ zespołów. W sensie, to już się pojawia takie artykuły, że robią się zespoły, które są bardziej uniwersalne, tak byśmy to powiedzieli, sensie członkowie zespołu są dużo bardziej wymienialni. Coś co kiedyś było utopią, wszyscy mówili tak, tak, każdy w zespole skramowym to może robić wszystko, tylko Ja miałem dwie lewe ręce do front-endu, a Karetan miał dwie lewe ręce do dewopsa. To są przykłady. Akurat w moim wypadku prawda, u Karetana nie. A czy teraz się Karetan zastanawia? Więc wiecie, to chyba zmieni się układ zespołu. Tak mi się wydaje, że gdyby te zespoły się spłaszczą bardziej... Znaczy to już są takie przykłady, to nie jest to, to nagle wymyślam coś z głowy. Już są firmy na rynku, które tak eksperymentują. Czytałem o różnych sukcesach i niesukcesach, ciężko mi o tym powiedzieć, bo tym się za bardzo nikt nie chwali, nikt nie chce przyjść na konferencję, powiedzieć, zrobiliśmy ewolucję u nas w organizacji, mamy inny układ zespołów i dzięki temu produkujemy lepiej. Przyznam szczerze, że poszedłbym na taki wykład, ale boję się, że on nie zrobiłby furory, przynajmniej... Ale jakby ktoś się chciał czymś takim podzielić, jak to wyszło u nich w organizacji, napiszcie, słuchajcie, skontaktujcie się, jak jeszcze możesz o tym powiedzieć na żywo i powiedzieć z jakiej jesteś firmy, to już w ogóle, ale jak nie możesz mówić z jakiej jesteś firmy, to nadal zapraszam. Bo to się dzieje, jest to opisywane, ale chyba jeszcze ciągle nie ma na to, nie ma na to... Dawadów w literaturze. O, może Dawadów w literaturze."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "13:18",
+      "text": "No dobra, teoretycznie tak, w ogóle mówisz trochę o strukturze zespołu, która ewoluowała też w związku z tym jak zaczęła wyglądać architektura oprogramowania tak naprawdę, bo zaczęliśmy tworzyć mikroserwisy, jak zaczęliśmy tworzyć mikroserwisy to zaczęliśmy stwierdzać, że może każdy zespół powinien być odpowiedzialny za swoją część i tak dalej, ale tutaj jeszcze moglibyśmy się cofnąć o jeden kroczek, to znaczy Czy, no bo właśnie, jakby prawo Conwaya nam mówiło też o strukturze samej architektury, właśnie samego oprogramowania, nie tylko zespołu. To znaczy w momencie, w którym widzimy, że jesteśmy w stanie w organizacji w ogóle podzielić system na takie struktury biznesowe, czy takie modele biznesowe, które odpowiadają też właśnie samej organizacji, no to wtedy byliśmy w stanie podzielić system na jakieś sensowne mikroserwisy, jeżeli sama firma... Serwisy, okej, tak, słusznie, tak, tak, tak, zgadza się. Ale co ja chciałem powiedzieć? A, chciałem powiedzieć to, że jeżeli okazuje się, że firma, dla której robimy soft jest jedną wielką kulą błota i każdy jest odpowiedzialny za wszystko,"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "14:21",
+      "text": "Sajwisa, sajwisa. Nie mikoł."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "14:45",
+      "text": "no to wtedy idealnie się taki monolicik tam wpasowywał. Robiliśmy szybciutko naszą robotę, cyk, dziękujemy, zapraszamy za 10 lat. Jak zmienicie organizację firmy, to my wam zmienimy soft, policzymy jeszcze raz i wszyscy będą zadowoleni. A teraz realnie, jak mamy agentów, to znowu zaczynamy mieć, sposób komunikacji z naszymi agentami będzie wpływał też... na to, w jaki sposób będziemy tworzyć oprogramowanie? O może tak zatem to."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "15:20",
+      "text": "Nie, myślę, nie. Tak zupełnie szczerze myślę, że myślę, nie. Bo to jest jak złe prawo, które odwołuje się do ludzi. To w ogóle w sensie to, jak ci ludzie pracują, w sensie to jest prawo, tak, przepraszam, bardzo je parafrazując po tym jak ja je rozumiem. To jest prawo, które mówi o tym, że jak postawisz gdzieś ludzką barierę, to ona będzie widoczna w software'ze. Że jak posadzisz ludzi osobno,"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "15:23",
+      "text": "Myślisz, że nie? Mhm."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "15:47",
+      "text": "to oni na pewno zrobią między sobą jakąś interface, barierę, nazwij to jak chcesz. To wydaje mi się, że zostanie. Co więcej boję się, że agenci to tylko i wyłącznie uwypuklą, bo jak ty będziesz go promptował, czy dawał mu instrukcję, czy mu otebra, że pilnuj tej bariery, to on będzie bardzo silniej pilnował. On jej nie zlikwiduje, on ją jeszcze wzmocni."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "16:14",
+      "text": "Trochę tak może być, trochę tak może być. Gorzej, jeżeli zaczniemy mylić komunikację właśnie organizacyjną z komunikacją z agentami i to też nie zostanie przemapowane odpowiednio, no to wtedy właśnie znajdziemy się w bardzo złym punkcie, które też ma odzwierciedlenie w kolejnym prawie, które chcieliśmy dzisiaj przytoczyć. I tutaj chyba obaj się przyznamy, że pierwszy raz słyszeliśmy właśnie jak zaczęliśmy sobie trochę robić research na temat tego, o czym chcemy porozmawiać w dzisiejszym odcinku, to natrafiliśmy na ciekawe prawo, które jakby jest sensowne, ale nigdy nie zostało sformułowane gdzieś przed naszymi oczami, czyli prawo GALA, które mówi o tym, że każdy działający skomplikowany system wyewoluował z prostego systemu, który działał... Prawidłowo. No i tu mamy bardzo prostą rzecz. Jeżeli zaczniemy myśleć na samym początku, w momencie zbierania wymagań, trochę to jest kwestia tego też, o czym mówiliśmy w zeszłym tygodniu, Waterfalla i tak dalej. Jeżeli sobie zaplanujemy olbrzymi system na samym początku i zaczniemy go realizować i zaczniemy go testować na samym końcu, to znaczy jak skończymy pisać, no to on na pewno nie zadziała. Tylko musimy wdrożyć jakieś MVP. zobaczyć, że MVP działa i potem ewolucyjnie gdzieś tam go zmieniać, dodawać kolejne funkcjonalności. I teraz też mam wrażenie, że jest taka pokusa tego, żeby strzelić sobie jednego prompta, opisać nawet w kilku tysiącach linii cały system, który chcemy stworzyć, poczekać 10 godzin, aż 15 agentów tam naklepie ten kodzik i trzymamy kciuki. że wszystko od strzała za działa, nie?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "18:07",
+      "text": "No i wszyscy wiemy jak jest, działa. W sensie po prostu nie działa. Jak myślę, jak właśnie zaczęliśmy gadać w ogóle o tych prawach, właśnie myślę o tym prawie, no to po prostu tak jest, bo to nie chodzi o to, że software nie działa. To co powiedzmy głośno, to nie chodzi nagle o to, że software nie robi tego, co żeśmy zapisali. On dokładnie robi to, co żeśmy zapisali, co więcej nawet był przetestowany, czy zrobiony zgodnie z tym, co żeśmy przepisali, tylko nagle się okazuje, że to, co my żeśmy myśleli, że ludzie byli potrzebować, a to co ludzie potrzebują to są dwie różne rzeczy. To jest ta główna rzecz w tym prawie, którą należy zwrócić uwagę. Bo to nie chodzi o to, że ten agent nie zrobi software'u, który nie będzie robił dokładnie tego co mu opisałeś. Będzie robił. Idealnie. Tylko, że jak zobaczysz co napisałeś i stwierdzisz o Jezus Maria, on rzeczywiście to robi, ale mi chyba jednak chodziło o coś innego. Ten przycisk nie ma być ukryty pod 3 warstwami menu, tylko on ma być chyba na głównym poziomie, albo tam nie wiem. To ma się liczyć na gdzieś tam, w pamięci. Chciałbym to liczyć w pamięci, a nie gdzieś tam w cache'u, na innym komputerze, bo to trochę nie ma sensu. Za co się kiedyś śmiałem, bo mówiliśmy o tym w którymś odcinku, że jak robią prostą apkę to... Nagle mi dołożył kawkę, postgresa i coś tam, a ja powiedziałam, ale ja bym chciał to dla jednego użytkownika na lokalnej maszynie i nic więcej, to chyba SQLite w pamięci wystarczy. No w sumie tak. To jest chyba dokładnie to. to agenci niestety znowu, agenci uwypuklą problem. W sensie jak gdyby AR uwypukli problem, bo twoja intencja zostanie popchnięta do skraju."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "19:53",
+      "text": "To jest trochę, trochę ostatnio przy tym wszystkim i przy zbieraniu wymagań i właśnie tego, jak te systemy powinny być tworzone, gdzieś mi się rzucił wpis. Już nie pamiętam, już trochę żałuję, że go nie zapisałem, aczkolwiek, aczkolwiek to też była taka, takie luźne przemyślenie, dlaczego zbieranie wymagań nigdy nie idzie nam zbyt dobrze. I to nie jest wina tego, że my nie potrafimy zbierać wymagań i to nie jest wina tego, że my nie potrafimy potem na przykład agentom ich przekazać, bardzo często, tylko okazuje się, i chyba się tym zgadzam, że my jesteśmy ogólnie jako ludzie, w większości przypadków, nie mówię, że wszyscy, nie jesteśmy najlepsi w tym, żeby myśleć kreatywnie, to znaczy, żeby kreatywnie wyobrazić sobie już cały ten system i zobaczyć, w jaki sposób on powinien działać, tylko mamy jakąś tam wstępną wizję. I potem też dlaczego na przykład klienci zawsze zmieniają zdanie, bo my jako ludzie jesteśmy świetni w krytykowaniu. Jak już coś zobaczymy, to potrafimy to skrytykować i wtedy już wiemy, że to nie działa tak, jak byśmy chcieli, ale musimy najpierw to zobaczyć, musimy to kliknąć, musimy tego dotknąć i wtedy dopiero tak działa. No dlatego właśnie prawdopodobnie też bracia Wright nie stworzyli silników odrzutowych na samym początku i nie polecieli od razu... w jakąś podróż transatlantyczną, tylko tak wznieśli się, chwilę przelecieli sobie, OK, mamy to, teraz możemy działać dalej i zobaczymy, co z tego wyjdzie."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "21:32",
+      "text": "to odeszle do naszego poprzedniego odcinka do komentarzy, bo tam jest to bardzo fajnie przez jednego z naszych słuchaczy obsane w komentarzu, więc jak ktoś ma ochotę to zresztą pozdrawiamy. Niestety ciężko po niej kupo przeczytać imię i nazwisko albo cokolwiek co można zrobić, więc tym bardziej pozdrawiamy i zapraszamy do zaetnięcia."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "21:57",
+      "text": "Dobra."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "21:57",
+      "text": "Ale dobra, ale mają jest tego takie, że kolejne prawo, które wydaje nam się, słuchaj, że zostaje."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "22:04",
+      "text": "Tak, prawdopodobnie tak i nic się nie zmieni."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "22:07",
+      "text": "Na razie obaliliśmy tylko i wyłącznie prawo Bruksa pod warunkiem, że mamy gotowe, pewne wymagania."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "22:16",
+      "text": "Czego nie będziemy mieli? No dokładnie. Dobra kolejne prawo. Prawo Goodhearta ulubione prawom menadżerów a może najbardziej znienawidzone prawom menadżerów. Gdy dany wskaźnik staje się celem samym sobie przestaje być dobrym wskaźnikiem. Czyli realnie jeżeli. No tak."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "22:18",
+      "text": "Ale może bytniemy, nie? he he Dostajesz co mierzysz."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "22:40",
+      "text": "Dokładnie tak, dostajesz to co mierzysz. Jeżeli będziemy mierzyć naszą wydajność na podstawie liczby PR-ów, nie ma żadnego problemu, będziemy tych PR-ów trzaskać ile będzie trzeba. Możemy target roczny machnąć w jeden dzień. Jeżeli będziemy liczyć na ilość deployów dziennie, też nie ma problemu, też to możemy zrobić. A teraz mam wrażenie, że jeszcze szybciej, więc... Tutaj chyba jakby to jest takie prawo, które naprawdę jest niemalże jak prawem fizyki. Tego się nigdy nie zmieni. Co by się nie działo, jaka rewolucja by się nie wydarzyła, no to zawsze będziemy w stanie tak zakombinować, żeby się dopasować do metryk."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "23:36",
+      "text": "To chyba tak naprawdę jest jedyna słuszna metryka, która zawsze powinna być, czyli to jest jaka wartość biznesowa została dostarczona do końcowego użytkownika, której on może skorzystać. Żadne feature flagi, ani żadne kanały, ani żadne tłumy innych dziwnych rzeczy, mamy. Bądźmy szczerze zawsze... Ja promuję, w sensie dla mnie to są zawsze ważnymi rzeczami, żeby mieć to już na produkcji nawet jak to jest niewyłączone i coś tam, ale prawda jest taka, że zaczynasz to mieć sens, to liczysz, to jest od pomysłu do tego jak końcowy użytkownik może z tego skorzystać. No to po prostu trwa. I nic z tym chyba nie zrobisz, a jak zaczniesz... dodawać te metryki to dostaniesz dokładnie to co robisz. Jak powiesz używajcie więcej AI to będziesz miał token maxing. Jak nagle ludziom dasz w KPI jak mają używać więcej AI to będziesz miał token maxing i nawet do prostego wywołania polecenia będą używali AI. Jak powiesz im jak najwięcej PR to będą robili itd. Pewnie zajął w tym sen. Niestety co staje."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "24:53",
+      "text": "Tak i o tym też mam wrażenie, że bardzo dużo się w tym momencie mówi i z tego miejsca od razu, no bo dzisiaj nagrywamy, znaczy nagrywamy to wcześniej niż to się oczywiście ukazuje ten odcinek, nagrywamy go sobie w poniedziałek, 28 września i z tego miejsca ja bardzo chciałbym pozdrowić Tomka Ducina i Marcina Czarkowskiego, którzy dokładnie o tym pisali dzisiaj swoje wpisy na LinkedInie, bardzo elegancko nam się wpasowując w to, o czym mówimy. I tak, tutaj na szczęście jesteśmy zgodni. Mam wrażenie, tak a propos właśnie naszych kolegów, że ostatnio jakoś rzadziej się kłócimy w w internecie. To znaczy, albo, nie wiem, albo zaczęliśmy jakoś przekładać, bo czekaj, zaraz cię dopuszczę do głosu, spokojnie. Mam wrażenie, że... Ostatnio bardzo mocno się podzieliliśmy jako ludzie. To znaczy są ludzie, którzy są w miarę rozsądni. Znaczy prawdopodobnie zawsze tak było, tylko teraz to jest jeszcze bardziej widoczne. Są ludzie rozsądni i w miarę rozsądni, którzy się ze sobą zgadzają. I są szamani, którzy tam niosą jakieś brednie i zaczynają przekonywać nas do swoich bredni. i tamtych zaczęliśmy coraz częściej ignorować, a z tymi się po prostu zgadzamy i tam zbyt dużo nie dyskutujemy."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "26:24",
+      "text": "No to słuchaj, mając gosz."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "26:25",
+      "text": "Oczywiście jest jeszcze Trump i Elon Musk jako ludzie, którzy są zupełnie poza tym rankingiem."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "26:32",
+      "text": "Ja swoje 3 grosze, które dałem radę wytrzymać i nie przebrałem, to słuchaj, bo jak się odpowiada na komentarze w internecie używając LLM, żeby dobrze odpowiadać, to on jest miły. Tak w pełni się zgadzam. To świetny punkt widzenia. Czy pomyślałeś jeszcze o... Tu był bib i moje zdanie jest ważniejsze niż twoje. A ponieważ ludzie, tu polecam post chyba sprzed dwóch tygodni Oskara Dudycza, który zastanawiał się po co ludzie to robią i nie chciał wrzucić w LLM, a se od razu odpowiedział, ja wrzuciłem, wkleiłem po co ludzie to robią, więc ludzie zwiększają zasięgi nie kłócąc się, bo LLM automatycznie im daje taką formę, żeby nie była wiesz, darcie mną. Wiem nie podoba ci się to."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "27:32",
+      "text": "No nie podoba mi się to. Ja zawsze lubiłem się pokłócić w internecie, a teraz nie ma o co. No trudno. W każdym razie pozdrawiamy naszych kolegów jeszcze raz i przechodzimy do ostatniego prawa, którym chcieliśmy dzisiaj porozmawiać. No."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "27:35",
+      "text": "Ale dobre. Słuchaj, wiesz co, czekaj, możemy po prostu powinniśmy ich zaatakować, tak jeszcze personalnie. Drugi słuchaczu, jak chciałbyś nas zaatakować personalnie to tu są komentarze. Dajesz. Jesteśmy z Karytanem gotowi, będziemy odpowiadać osobiście, bez elema."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "28:06",
+      "text": "Tak. I każdy hejt przyjmiemy. Ja bardzo chętnie. A widzisz, a naszych kolegów, żebyśmy obrażali? No, Tomka to ja obrażam co drugi dzień prywatnie i on się z tego śmieję, więc to już przestaje być zabawne i przestaje być ten. Z Marcinem aż tak dobrze się nie znamy, żeby go obrażać i żeby wiedział, że to są żarty, więc tu się jeszcze powstrzymam, bo zbyt bardzo go szanuję. Jeszcze. Może tyle wystarczy."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "28:35",
+      "text": "Uuuu, no już już już już jest, widzisz, już jest to, już. Dobra."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "28:36",
+      "text": "Ha ha ha! Dobrze, zanim powiem o jedno słowo za dużo, prawo Amdala. Prawo Amdala, ostatnie prawo, które chcielibyśmy dzisiaj przytoczyć, czyli przyspieszenie wykonywania zadania jest ograniczone przez tę jego część, której nie da się zrównoleglić."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "28:58",
+      "text": "Można to inaczej powiedzieć, że jest to ogręczone przez najwolniejszą część sekwencyjną. Bo to tak naprawdę jest inny określenie. Co mam powiedzieć? Cały zeszły odcinek, żeśmy o tym gadali. No, no, to jak to by no co? Co, co, znaczy wiesz, jak coś ci się, znaczy jak nawet zakodujesz to szybko i coś tam, nie wiem, i będziesz miał jakąś głupią funkcjonalność albo nie wiem, wyciek pamięci albo race condition albo cokolwiek, nie? No to nawet w części kodowania no, tego kawałka nie zmienisz, nie zmienisz, nie? Ja się zawsze śmiałem, że ja jako architekt przez wiele lat regularnie robiłem zadania takie wiesz, blisko kodu. Po to żeby nie odlecieć, żeby nie zapomnieć o tym, czasami jedna linijka kodu wymaga 5 dni debugowania, jak czasami człowiek źle pójdzie. I w świecie agentów AI może zrobić to głupio, ale to aż tak mi się nie zmieniło. Czasami ten AI zrobi to za mnie szybciej, czasami jest lepiej. ale dobra, patrząc na własny ostatni przypadek, robię sobie aplikację do łączenia się z SSH z terminalem, może jak już wyjdzie ten odcinek to wreszcie będzie publiczna, bo ostatnio, nie wiem, 3 dni jest w Apple'u i czeka na review, żeby wreszcie mógł je wypuścić, nie? Ale tam miałem ogólnie taki problem i wyjdzie appka z tym błędem, że nagle zmienia mi się klawiatura na taką z małpą, z małpą spacja-małpa. czy ten mailowa, w którymś momencie znalazłem ten. Kombinowałem ze 3 tygodnie, żeby to naprawić. Ja tej appki używam sam jako sam nie, więc to już od dawna ją w testplejcie ten Karetan też ma do niej dostęp, chociaż używa jej dużo mniej niż ja. Jak gdyby nie zwrócił mi tego, ale mnie to irytuje, nie wiecie, mnie to irytuje. I wiecie, puszczałem mocne modele, słabe modele, jakieś review, coś tam, bo nie mogłem zwalać w przypadku. A jak nagle znalazłem przypadek... Dokładnie wiecie, miałem dokładnie sekwencję odtworzenia, bo nie byłem w stanie znalazć sekwencji odtworzenia błędne. Nagle znalazłem sekwencję odtworzenia, to ten Ej, to mi w sumie to już było najmniej potrzebne, chociaż wrzuciłem mu, powiedziałem mu, to jest dokładnie ta sekwencja i poprawą mi to zmieniając trzy linieki. Ale znalezienie tego zajęło mi 3 tygodnie. tak mniej więcej, jak gdyby mniej więcej. No i to... I co z tego, że mam tego AI, co z tego, że tłum rzeczy mi znalazł, jak nagle to poprawienie tej funkcjonalności wydaje się kluczowe, bo nagle zmienia się układ klawiatury i entry zaczyna inaczej działać. W wypadku mojej aplikacji kluczowej zajęło po prostu nieskończenie dużo czasu, bo to był ten najwolniejszy kawałek. I tego nie zmienimy, nie może będzie mniej tych kawałków, może ten proces będzie, w sensie ten proces sekwacyjny może się uda poskracać te kawałki, ale to nadal nie spowoduje, że to nagle będzie super szybkie. No i co? No i mamy piąte prawo i piąte prawo niestety można powiedzieć, nie bądź pan głom, praw informatyki pan nie zmienisz, tak? Parafrazując znanym cytat o fizyce."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "32:12",
+      "text": "To ja chciałem jeszcze inaczej podejść do tego, bo prawo Amdala mi się od razu z boiskowym prawem Pascala skojarzyło, że prawo Pascala, kto zepsuje, ten szuka i zapierdala i mam nadzieję, że nie zapomnę tego wypikać, ale jest taka szansa. Więc jeśli nie zobaczysz drogi słuchaczu tego odcinka, to to jest moja wina."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "32:28",
+      "text": "Zapomnijs."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "32:37",
+      "text": "Ale taka prawda i wydaje mi się, że jedną możemy sobie powiedzieć po raz kolejny, jakby rozmawiając na temat tych praw, które rządzą naszą branżą, rządzą jak rządzą, są cały czas prawdziwe przez tyle już lat, bo niektóre z tego, co pamiętam, to jeszcze w latach 60. były sformułowane. Pokazuje nam, że AI czy jest rewolucją? w pewien sposób tak, rewolucją tego jak pracujemy, ale w kontekście całej branży bardziej ewolucją moim zdaniem, bo gdyby to była rewolucja, to któreś te prawa by padły."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "33:21",
+      "text": "Ja na sam koniec jeszcze do siebie dorzuca, w ramach całej rewolucji AI-owej polecam książkę Thinking in Systems. Ona naprawdę dużo człowiekowi układa trochę jak to jest zbudowane. To nie do końca w sumie jest chyba... Znaczy, dobra, jest techniczna, ale nie powiedziałbym nawet, że się tyczy informatyki jako informatyki. Nie, ale to jest taka książka, która człowiekowi trochę w mózgu układa. I chyba tym optymistycznym końcem, czyli zachęcam Cię do przeczytania książki zamiast słuchania podcastu. Nieluaki słuchaczu. Już zawaliłem iKetting jak to ja skajetanem, jak zwykle."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "34:06",
+      "text": "Potem mi pisze, że nie wie dlaczego subskrybentów tam nie dochodzi."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "34:11",
+      "text": "No bo nie umiem wmaka eting no. Dobra."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "34:17",
+      "text": "Dzięki za dzisiaj."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "34:19",
+      "text": "Dzięki wielkie i do zobaczenia za tydzień. Trzymajcie się, cześć!"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "34:23",
+      "text": "Na razie."
+    }
+  ]
+}
