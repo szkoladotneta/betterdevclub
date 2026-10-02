@@ -1,0 +1,20 @@
+{
+  "fontFamily": "Libre Franklin",
+  "title": {
+    "fontSizeMin": 72,
+    "fontSizeMax": 80
+  },
+  "episodeNumber": {
+    "fontFamily": "Open Sans",
+    "fontSize": 44.4,
+    "color": "text"
+  },
+  "colors": {
+    "primary": "#f9fa30",
+    "text": "#ffffff",
+    "highlight": "#ff3131",
+    "personOutline": "#2ebef7"
+  },
+  "logo": "img/bdc-logo-backgroundless.png",
+  "background": "thumbnails/assets/backgrounds/background.png"
+}

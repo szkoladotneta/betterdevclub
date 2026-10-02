@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=1280">
+  <title>Better Dev Club — podgląd okładki</title>
+  <style>
+    @font-face {
+      font-family: "Libre Franklin";
+      src: url("$title_font") format("truetype");
+      font-weight: 100 900;
+    }
+    @font-face {
+      font-family: "Noto Color Emoji";
+      src: url("$emoji_font") format("truetype");
+      font-weight: 400;
+    }
+    @font-face {
+      font-family: "Open Sans";
+      src: url("$number_font") format("truetype");
+      font-weight: 300 800;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; width: 1280px; height: 720px; }
+    .cover {
+      position: relative;
+      width: 1280px;
+      height: 720px;
+      overflow: hidden;
+      background: #041321 url("$background") center / cover;
+      isolation: isolate;
+    }
+    .logo {
+      position: absolute;
+      left: 44px;
+      top: 32px;
+      width: 145px;
+      filter: brightness(0) invert(1);
+      z-index: 3;
+    }
+    .number {
+      position: absolute;
+      right: 44px;
+      top: 35px;
+      font-family: "Open Sans", sans-serif;
+      font-size: $number_size;
+      font-weight: 800;
+      line-height: 1;
+      color: $number_color;
+      z-index: 3;
+    }
+    .person {
+      position: absolute;
+      filter: url("#person-outline") drop-shadow(0 6px 10px #0008);
+      z-index: 1;
+    }
+    .person-image {
+      display: block;
+      width: 100%;
+      height: 100%;
+      filter: $grayscale;
+    }
+    .title {
+      position: absolute;
+      left: $title_left;
+      top: $title_top;
+      width: $title_width;
+      margin: 0;
+      font-family: "Libre Franklin", sans-serif;
+      font-weight: 900;
+      font-size: $title_size;
+      line-height: 1.14;
+      letter-spacing: -2px;
+      text-align: center;
+      text-transform: uppercase;
+      text-shadow: 0 3px 0 #000, 0 6px 18px #000;
+      z-index: 2;
+    }
+    .title-line { display: block; white-space: pre; }
+    .emoji {
+      font-family: "Noto Color Emoji";
+      font-weight: 400;
+      text-shadow: none;
+    }
+    .filter-definitions { position: absolute; width: 0; height: 0; }
+  </style>
+</head>
+<body>
+  <svg class="filter-definitions" aria-hidden="true">
+    <defs>
+      <filter id="person-outline" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+        <feMorphology in="SourceAlpha" operator="dilate" radius="3" result="expanded"/>
+        <feFlood flood-color="$outline" result="color"/>
+        <feComposite in="color" in2="expanded" operator="in" result="outline"/>
+        <feMerge>
+          <feMergeNode in="outline"/>
+          <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+      </filter>
+    </defs>
+  </svg>
+  <main class="cover">
+    <img class="logo" src="$logo" alt="Better Dev Club">
+    <div class="number">#$episode</div>
+    $people
+    <h1 class="title">$lines</h1>
+  </main>
+</body>
+</html>

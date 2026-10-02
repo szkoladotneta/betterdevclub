@@ -1,0 +1,22 @@
+{
+  "episode": 36,
+  "fontSize": 80,
+  "headTop": 170,
+  "eyeOffset": 110,
+  "headCenters": { "left": 120, "right": 1160 },
+  "titleTop": 85,
+  "titleWidth": 720,
+  "grayscale": true,
+  "people": {
+    "left": "kajetan-03-lewo",
+    "right": "piotrek-04-prawo"
+  },
+  "lines": [
+    { "text": "CO     SIĘ", "color": "primary", "fontSize": 96 },
+    { "text": "ODJ***ŁO?! 🤯", "color": "highlight", "fontSize": 80, "gapAfter": 12 },
+    { "text": "Czyli", "color": "text", "fontSize": 34, "gapAfter": 10 },
+    { "text": "POWAKACYJNY", "color": "text", "fontSize": 64 },
+    { "text": "PRZEGLĄD", "color": "primary" },
+    { "text": "A.I.  &  DEV", "color": "text" }
+  ]
+}

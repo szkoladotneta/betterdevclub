@@ -1,0 +1,48 @@
+{
+  "piotrek-01-lewo": {
+    "side": "left",
+    "headTop": 40,
+    "headCenterX": 490,
+    "eyeY": 238
+  },
+  "piotrek-02-lewo": {
+    "gesture": "palm",
+    "extendsIntoTitle": true,
+    "side": "left",
+    "headTop": 40,
+    "headCenterX": 300,
+    "eyeY": 257
+  },
+  "piotrek-03-lewo": {
+    "side": "left",
+    "headTop": 40,
+    "headCenterX": 505,
+    "eyeY": 227
+  },
+  "piotrek-04-prawo": {
+    "side": "right",
+    "headTop": 40,
+    "headCenterX": 442,
+    "eyeY": 226
+  },
+  "kajetan-01-prawo": {
+    "gesture": "point",
+    "extendsIntoTitle": true,
+    "side": "right",
+    "headTop": 40,
+    "headCenterX": 610,
+    "eyeY": 204
+  },
+  "kajetan-02-prawo": {
+    "side": "right",
+    "headTop": 40,
+    "headCenterX": 372,
+    "eyeY": 210
+  },
+  "kajetan-03-lewo": {
+    "side": "left",
+    "headTop": 40,
+    "headCenterX": 354,
+    "eyeY": 210
+  }
+}

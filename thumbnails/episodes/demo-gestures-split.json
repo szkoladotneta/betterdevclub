@@ -1,0 +1,17 @@
+{
+  "episode": 40,
+  "fontSize": 80,
+  "headTop": 170,
+  "eyeOffset": 110,
+  "titleTop": 170,
+  "grayscale": true,
+  "people": {
+    "left": "piotrek-02-lewo",
+    "right": "kajetan-02-prawo"
+  },
+  "lines": [
+    { "text": "TWÓJ", "color": "primary", "gapAfter": 140 },
+    { "text": "TYTUŁ", "color": "text" },
+    { "text": "ODCINKA", "color": "highlight" }
+  ]
+}

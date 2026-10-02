@@ -1,0 +1,44 @@
+{
+  "episode": 40,
+  "fontSize": 72,
+  "headTop": 170,
+  "eyeOffset": 110,
+  "headCenters": {
+    "left": 130,
+    "right": 1150
+  },
+  "titleTop": 135,
+  "titleCenterX": 600,
+  "titleWidth": 620,
+  "grayscale": true,
+  "people": {
+    "left": "piotrek-04-prawo",
+    "right": "kajetan-01-prawo"
+  },
+  "lines": [
+    {
+      "text": "SDLC",
+      "color": "primary",
+      "fontSize": 96,
+      "offsetX": 80,
+      "gapAfter": 90
+    },
+    {
+      "text": "W ERZE AI",
+      "color": "text"
+    },
+    {
+      "text": "Kod  2 DNI ⚡",
+      "color": "primary"
+    },
+    {
+      "text": "DeplOY",
+      "color": "text"
+    },
+    {
+      "text": "42 tyg. 🤦‍♂️",
+      "color": "highlight"
+    }
+  ],
+  "layout": "pointing"
+}
