@@ -1,5 +1,71 @@
 [
   {
+    "id": 41,
+    "num": "41",
+    "notPublished": true,
+    "title": "Better Dev Club #41 - DHH idzie na emeryturę programistyczną. Czy rzemiosło umarło?",
+    "date": "2026-10-08",
+    "duration": "30:38",
+    "desc": "Głośny keynote DHH (Davida Heinemeiera Hanssona) na Rails World wstrząsnął całym światem IT. Twórca Ruby on Rails ogłosił, że po 20 latach przestaje pisać kod ręcznie i w zasadzie przechodzi na 'emeryturę programistyczną', oddając pisanie w ręce modeli AI. W 41. odcinku Better Dev Club Piotrek Stapp i Kajetan Duszyński rozkładają to wystąpienie na czynniki pierwsze. Czy Software Craftsmanship i dyskusje o czystości kodu to już przeszłość? Co z pasjonatami programowania, którzy weszli do branży z miłości do klepania linijek – czy czeka ich los dawnych malarzy po wynalezieniu aparatu fotograficznego?\\n\\nPanowie bez owijania w bawełnę analizują swoje codzienne nawyki: czy w ogóle jeszcze czytają wygenerowany kod, dlaczego testy stały się jedyną uprzężą trzymającą projekt w ryzach i czy tester z LLM-em w ręku może wkrótce zastąpić klasycznego programistę. Dyskutują także o zmianie struktury zespołów (od pełnej specjalizacji ku 'dyrektorom kreatywnym'), pułapce traktowania kodu jak czarnej skrzynki oraz o tym, dlaczego paradoksalnie zrozumienie architektury komputera i fundamentów systemowych staje się ważniejsze niż kiedykolwiek.",
+    "agenda": [
+      "00:00 - [Wstęp] Suchar o DHH i echa keynote'a na Rails World",
+      "03:02 - [DHH i Ruby on Rails] Języki programowania tracą znaczenie na rzecz modeli AI",
+      "04:45 - [Koniec Software Craftsmanship?] Czy techniki rzemieślnicze były tylko ukłonem w stronę zespołu?",
+      "06:01 - [Co z pasjonatami kodu?] Strach przed pasjonatami i analogia do malarstwa po wynalezieniu fotografii",
+      "08:51 - [Nowa warstwa abstrakcji] Czy programiści naprawdę kochali klepać każdą linijkę?",
+      "12:03 - [Czytasz jeszcze kod?] Dlaczego nikt nie czyta generowanego kodu, a testy stają się 'harness'",
+      "13:31 - [LLM pisze lepsze testy] Pokrycie przypadków brzegowych, testy E2E i wspomnienie code review",
+      "15:52 - [Co zostało z rzemiosła?] Skoro kod i testy pisze AI, czy wystarczy dać LLM-a testerom?",
+      "18:22 - [Rewolucja w zespołach] Od full stacka, przez wąską specjalizację, po programistę jako dyrektora kreatywnego",
+      "21:10 - [Stolarz a fabryka mebli] Czy ręcznie strugany kod stanie się niszą dla entuzjastów?",
+      "23:06 - [Kod jako czarna skrzynka] Uncle Bob, agenci AI wymykający się spod kontroli i architektura",
+      "25:53 - [Powrót do fundamentów] Dlaczego musisz rozumieć architekturę komputera, by rozmawiać z modelem",
+      "26:22 - [Rok utrzymywania kodu z AI] Czy po roku pracy z aplikacją stajesz się prawdziwym inżynierem?",
+      "27:40 - [90% pracy to CRUD-y] Kraftowy kod kontra biznesowa rzeczywistość",
+      "29:19 - [Spełniony sen o IT i biznesie] Koniec barier i optymistyczne spojrzenie w przyszłość"
+    ],
+    "tags": [
+      "betterdevclub",
+      "dhh",
+      "rails-world",
+      "ruby-on-rails",
+      "software-craftsmanship",
+      "ai-coding",
+      "programowanie",
+      "testowanie",
+      "architektura-oprogramowania",
+      "sdlc",
+      "llm",
+      "inzynieria-oprogramowania"
+    ],
+    "platforms": {
+      "youtube": "",
+      "spotify": "",
+      "apple": ""
+    },
+    "resources": [
+      {
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=FkWK_6nL8g4",
+        "label": "Rails World 2024 / DHH Keynote",
+        "description": "Głośny keynote Davida Heinemeiera Hanssona (DHH) o przyszłości programowania i odejściu od ręcznego pisania kodu"
+      },
+      {
+        "type": "link",
+        "url": "https://world.hey.com/dhh",
+        "label": "DHH Hey World Blog",
+        "description": "Oficjalny blog i wpisy DHH na temat technologii, Ruby on Rails i programowania"
+      },
+      {
+        "type": "link",
+        "url": "https://en.wikipedia.org/wiki/Software_craftsmanship",
+        "label": "Software Craftsmanship",
+        "description": "Ruch rzemiosła oprogramowania stawiający na jakość, profesjonalizm i dbałość o czystość kodu"
+      }
+    ],
+    "youtubeId": ""
+  },
+  {
     "id": 40,
     "num": "40",
     "notPublished": true,

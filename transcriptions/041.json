@@ -1,0 +1,224 @@
+{
+  "transcript": [
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:00",
+      "text": "Cześć Piotrek."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:01",
+      "text": "Plac kajtajk."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:02",
+      "text": "Wiesz dlaczego DHA przestał pisać kot ręcznie?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:06",
+      "text": "Nie."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:08",
+      "text": "Bo wreszcie znalazł kogoś, kto pisze kod w wrawi równie arogancką jak on, tylko w ułamku sekundy."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:16",
+      "text": "O, to widzę, że pijesz do aktualnie słynnej prezentacji DHR na Starcie. No jezu, jak się ta konferencja nazywała? Na Kinot Zrabi coś tam, no."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:28",
+      "text": "Rabi World? coś takiego. Nie znamy tego świata, ale keynote pojawił się. Rails Word. O, Rails Word. Dokładnie. Andrzej zna na pewno i myślę, że też oglądał, bo chyba wszyscy oglądali albo dużo osób oglądało. A, możliwe. To też jest możliwe. No w każdym razie, no... Prezentacja i ogóle wystąpienie ten keynote..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:29",
+      "text": "Brawo, biłot. To jest... Adreys ma. O, to jest... On chyba był."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:58",
+      "text": "poniósł się szerokim echem. I nie tylko w świadku Rabii on Rails i ogóle świata Rabii poszedł, ale we wszystkich technologiach. No skoro do nas dotarło, to znaczy, że faktycznie coś tam się wydarzyło takiego, że musiało... Musieliśmy usiąść i się zastanowić nad tym wszystkim, bo trzeba przyznać, a przynajmniej ja się muszę przyznać, ja DH'a kojarzyłem właśnie głównie z X'a. On tam sobie coś tam pisał, ale tak czasami oprócz tego, że oczywiście traktowałem go jako bardzo solidnego, powiedzmy, programista i takiego człowieka, który faktycznie wie o czym mówi i ma coś do powiedzenia. Ale jednak zawsze traktowałem go z lekkim przymrużeniem oka, tak jak większość osób, które piszą na Xie. Nie wiem, czy to jest moja bańka, że... No, ja wiem. To jest moja bańka, której jakoś ja się osobiście do Xa aż tak mocno nigdy nie przekonałem, nigdy sam tam nie pisałem, bo nie byłem w stanie jakoś zrozumieć fenomenu całej tej platformy. A już od kiedy nasz ulubiony pan prezydent Stanów Zjednoczonych i nasz ulubiony prezes jednej z kilku największych spółek, pan najbogatszy na świecie, mocno się tam uzewnętrzniają, to mam jeszcze gorsze zdanie na temat tej platformy. Ale to wystąpienie faktycznie obejrzałem z bardzo dużym zaciekawieniem. faktycznie daje sporo do myślenia na temat przyszłości całej naszej branży."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "03:02",
+      "text": "Dobra, ja mam zupełnie inne odczucia, tak zupełnie szczerze. Ja mam zupełnie inne odczucia, może dobrze. Drogi widzą, jak parę razy D.A. Church już był w naszych dyskusjach, bo jest właśnie głośną postacią. Kajetan się śmierdził, że prawie o nim nie słyszę, a gadałem nim już za czwarte razy w historii zniejotego podcastu. Fakt, że jeden odcinek z Andrzejem Krzydą na pewno nas wspomógł, bo Andrzej..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "03:07",
+      "text": "OK."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "03:31",
+      "text": "Znaczy zachęcamy, o może to tak, zachęcamy gdzieś tam do poszukania starego odcinka i posłuchania odcinka z Andrzejem, był rzeczywiście wartościowy. Od razu też like, subscribe, albo whatever, tam Ci przyjdzie, łapka w górę, łapka w dół, to od razu ten moment, żebyśmy dostali. Natomiast ja mam wrażenie, że D.A. Church po prostu nie, znaczy dobra, no, jak gdyby... Dobra, no możemy sobie głośno powiedzieć, nie? Jak gdyby D.A. Church był osobą, którą walczył pomimo to, że... Zwłaszcza ja już Wam słowa pomimo. Ja jest taka sama technologia jak dotnet. ten kreator zaraz mi powie, że dotnet lepsza, ale tam bzdura. Nie czy tam Java czy inny Node.js. Nie, nie, bądźmy szczerze. Nie oszukujmy się, że to jakoś w ogóle wiadomo. Byłem tam, walczyłem na dźdy, widły i inne tam taby i spacja. Natomiast chyba Dirichard właśnie zauważył to, co chyba wszyscy zauważamy, że ten język programowania... to trochę przestałem mieć znaczenie, w sensie, że to po prostu nagle przestało mieć znaczenie i to walczenie o tego Software Craftsmanship, które ja zawsze traktowałem jako, było to ładnie powiedzieć, ukłon w stronę innych ludzi pracujących na projekcie. Że ja mogłem wejść na projekt, były zastosowane te wszystkie znane mi techniki i ja mogłem się zorientować co się dzieje w projekcie. Ja wiedziałem gdzie szukać kodu, Ja wiedziałem jak mniej więcej się warstwy ze sobą komunikują, rozumiałem czym są eventy, jak gdyby mogłem sobie zobaczyć np. agregaty czy cokolwiek innego. Nie, jak gdyby teraz wymieniam randomowe buzzwordy z wytwarzanym opieku, ale popatrz, teraz już nie muszę. Teraz mogę wejść na projekt, totalny Legasje, ostatnio wszedłem na swój własny. Powiedziałem mu, weź co autor miał na myśli te 3 lata temu, nie pamiętałem nic. I powiedziałem całkiem dobrze, nie muszę myśleć o tym w kodzie, chyba to D.H.Glosz tam powiedział, że on idzie na emeryturę jako programista, on nie idzie na emeryturę jako inżynier, on tego nie powiedział, że on idzie na emeryturę jako inżynier, on po prostu powiedział, że idzie na emeryturę jako programista. Czy się z tym nie zgadzasz? Kodujesz jeszcze ręcznie? Kiedy naprzesz ostatnio 20 linii z palca?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "06:01",
+      "text": "Nie, nie, no ja nie koduję absolutnie, nie koduję absolutnie, jakby to faktycznie w tę stronę idziemy i to absolutnie się zgadzam, tylko zastanawiam się cały czas, to dobrze, jakby nie mówię, czy to dobrze dla nas, bo my i tak już nie kodowaliśmy, albo rzadko kodowaliśmy, albo mało kodowaliśmy, potrafiliśmy to robić. ale z tego nie korzystaliśmy albo korzystaliśmy rzadko, powiedzmy, albo w jakichś specyficznych przypadkach. natomiast to kiedyś, kiedyś rozmawiałem o tym z Oskarem Dudyczem. Oskar, do dzisiaj pamiętam jego słowa, powiedział mi, że on się boi pasjonatów. On się boi pasjonatów, bo ciężko jest z pasjonatami rozmawiać, jak otwarcie używając sensownych argumentów, bo pasjonaci mają bardzo często bardzo mocno zwróconą swoją uwagę w jedną stronę i coś, co oni uważają, że jest dobre, to jest tylko i wyłącznie dobre. I tu możemy mówić właśnie w przypadku programistów o pasjonatach dotneta javy i tak dalej, ale... Też widzę po ludziach, z którymi rozmawiam bardzo często, że mamy w naszej branży pasjonatów pisania kodu. Im są ludzie, którzy po prostu to lubią, którzy lubią 8 godzin usiąść sobie na tyłku i klepać kod. I tak jak dla nas to już nie ma większego znaczenia, czy my ten kod będziemy klepać ręcznie, czy będzie go ktoś klepał... ktoś klepał za nas nieręcznie, to już nie ma znaczenia, bo dla nas w wielu przypadkach liczy się ten efekt końcowy. Ale co z tymi ludźmi, którzy właśnie do całej branży poszli po to, żeby pisać kod? Czy oni dadzą radę jak jak ten człowiek, który malował obrazy, właśnie nawiązując do kinouta... który malował obrazy i nagle pojawił się aparat i on przez chwilę nie wiedział co ze sobą zrobić."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "08:24",
+      "text": "Pojawił się aparat i powstały wspaniałe dzieła sztuki, cała gałąź malarstwa, która wcześniej w ogóle nie istniała, bo byliśmy na odtwarzaniu rzeczywistości, a nagle mogło być mieć... Ja tu sobie strzelę, siedzę, czekam, gadałem, nie wiem czy kreasz, taki jest malarz Miro i on ma takie płótno, na których jest kres."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "08:49",
+      "text": "Ano, kojarzę."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "08:51",
+      "text": "To kojarzy. Niesamowite to. Jak się ogląda to na komputerze to w ogóle nie robi wyrażenia. Bo to robi wyrażenie dopiero jak wchodzisz do tej sali i widzisz, że ten obraz jest na pół ściany. I to naprawdę robi wyrażenie. Przepraszam, koniec, koniec, przepraszam. Odpaliłeś mnie tematem o sztuce i jakoś mi się włączyło. Wiesz co, nie... Po pierwsze nikt nikomu nie zabrania pisać kodu ręczny. nadal wydaje się. Może są już takie firmy, czasami potkają takie Tik Toki, że CEO zabrał nam klawiaturę i musimy teraz gadać. Nadal wydaje mi się, że nadal, ja się pamiętam z okresu, kiedy kochałem piseczkod. Ale to nie oznacza, że kochałem piseczkod, znaczy, na każdą linijkę spędzałem milion ten, żeby zmienna mi wizualnie pasowała. Może ja nie byłem tą osobą. Ale weszła kolejna warstwa abstrakcji. jest przecież cały taki... No czy dobra. Na pewno w wielu firmach jest trend pod tytułem używajmy AR. Patrzmy jak bardzo jest to kreatywne i czy szybciej to przynosi wartość, wolniej. Nikt z nas tego jeszcze pewnie nie wie. Bo jeszcze to już my sobie gadaliśmy od innych odcinków. Ale ja się nie dziwię, że... I teraz masz faceta, Wracając do DHR, dzisiaj za bardzo... Masz faceta, który mówi, że ostatnie 20 lat klapałem kodzik. 20 lat to robią. I to dla mnie to jest zasadzie u niego trochę kłamstw samoj sobie, bo on jeszcze robił tłum marketingu, pisał książkę, rozkręcał firmy i tak dalej. On... no wiesz... no kurczak, nie? Brzydkie słowo, bo gorsze by poszło tutaj. Nie wierzę w tą narrację. Dla mnie to jest jakaś narracja, która znowu usłysza cały świat. jakby usłyszał jej wycinek, kawałek, który ładnie umieścił na prezentację, żeby się dobrze zrobiło. Natomiast to nie jest do końca, wiesz, Co się stanie z takim ludźmi, nikt tego nie wie, ale no... Jezu, no to nie wiem. Nikt tego nie wie. Pytanie bym nie czy wydał pieniądze w branżę czy tam będziesz sklepał kodzik czy nie będziesz sklepał kodziku. Zresztą bardziej jak o tym myślę i myślę o tym, jak gdyby po prostu o tym rzemiosłce, to zmieniło się rzemiosło. sensie zmienia się w tej chwili rzemiosło. No doszły nowe narzędzia. Kiedyś bawiliśmy się tylko i wyłącznie, dawno dawno temu był Assembler, to waliliśmy kamieniem. Teraz mamy piłę, młotek i nóż, albo cokolwiek innego jest spoko, ale teraz ktoś zaczął wprowadzać maszynę automatną. Czy to powoduje, że jest inaczej? No jest inaczej, trzeba się inaczej wyszkolić, trochę inne rzeczy poznać, ale w litości."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "12:03",
+      "text": "Nie wiem do końca jak się do tego odnieść, tak zupełnie szczerze ci powiem, bo sam też powiedziałeś, że coraz mniej kodu piszesz, albo w ogóle kodu nie piszesz, a sporo generujesz. Czytasz ten kod, który generujesz? Tak zupełnie szczerze. No właśnie, nie czytasz."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "12:21",
+      "text": "Nie. Nie czytam, mogę powiedzieć dlaczego, bo dlaczego go nie czytam. Nie czytam całości kodu, za to pilnuję, żeby były testy. I testy na przykład czytam. Jako swój harness traktuję testy."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "12:39",
+      "text": "Mhm."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "12:43",
+      "text": "Tak jak kiedyś sprawdzałem PIR, czy są testy i czy się pokrywa, to teraz wiesz, to jest to samo, testy mają ograniczać, nie wiem. Jak wykryjesz buga, to dopisujesz test."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "12:57",
+      "text": "Dobrze, to pójdę dalej. Dobrze, to pójdę dalej. dużo czasu spędzasz na pisaniu tych testów? Nie, bo domyślam się, że nie piszesz tych testów. Jak dużo czasu spędzasz na czytaniu tych testów i próbie zrozumienia, czy wszystkie ścieżki są pokryte? Czy faktycznie to, co zostało wygenerowane, pokrywa to, co powinno być pokryte? I czy tam się nic nie wymknie?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "13:31",
+      "text": "Dobra, to poczekaj. To jest tak. Jak wezmę LLM na swój kod, z reguły potrafię napisać lepsze testy niż ja. sensie jeżeli mówimy o pokryciu i przypadkach. Z reguły potrafię wymyśleć przypadki, które mój mózg nie ogarniał. Ja je na ogół dodawałem, jak mi się coś wysypywało. Nie wiem drogi słuchaczu, nie wiem Kajetan jak Ty, ale ja nie wiem, nigdy nie byłem takim specjalistem, że siadałem... Nie umiałem wszystkie nagle przypadki pokryć. Nie umiałem. Tak gdyby LLM z reguły potrafi być więcej przypadków niż ja. W sensie, kiedykolwiek umiałem. Kiedyś napisanie dla mnie testu end to end to byłam jakaś masakra. To wymagało do mnie strasznie dużo pracy w projektach, żeby to w ogóle nam działało. Teraz jesteśmy w stanie to zrobić szybko. Znaczy szybko. rabialnie, sensie i dodawanie tych testów też jest rabialne. I teraz, czy czytam je dokładnie? Nie. Czy czytam, czy testują mniej więcej to, co bym się spodziewał, że przetestują, czyli na przykład ścieżkę krytyczną, co się dzieje w wypadku straty połączenia, co się dzieje w wypadku ponowienia połączenia, no to tak, to jest ten moment, co czytam. Ale żeby głośno to wybrzmiałe, ja z reguły jak... pracy to nie dużo, no czy to dobrze, jakieś tam mcpki pisze. W domu to pisze sobie jakieś aplikacje domowe, nie? To nie są jak gdyby najbardziej krytyczne może na świecie, no ale... Ale no do licha, kiedyś czytałem super te testy czy jak dawałem koledze z zabiurka to ten, to pozdrawiam Marcina Malinowskiego, mieliśmy kiedyś z nim odcinek. Marcin umiał przeczytać moje PR i wskazać mi, że gdzieś zrypałem spacie albo cokolwiek takiego i wtedy żeśmy wdrożali Lintera, bo ja nie miałem ochoty z Marcinem przechodzić kolejnego PR. Nie ma chyba takiej potrzeby, po prostu używam. Przepraszam, zatrzymam się do... A czy jak dawałeś Juniorowi Tuska, albo nawet innemu koledze Tuska, to bardzo dokładnie czytałeś jego kod i byłeś pewien, że on nic nie skrzanił jak przeczytałeś? Zacznijmy."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "15:52",
+      "text": "Eee Bo to jest to, do czego ja chciałem realnie dotrzeć w tej rozmowie. To znaczy przyznajemy się, że nigdy realnie się nie skupialiśmy na tym, czy na pewno wszystko dobrze zostało napisane. Nigdy też dobrze nie pisaliśmy testów, więc to rzemiosło jako takie... które mieliśmy było związane z umiejętnością programowania, czyli z czymś, inni nie potrafili robić w dużej mierze. Jak mówimy o całym SDRC, którego się uczyliśmy też przez nasze doświadczenia, przez lata naszego doświadczenia, ale jednak zaczynaliśmy od tego, że potrafiliśmy robić coś, czego nie potrafili robić inni ludzie. Czyli potrafiliśmy programować. takim czy innym języku to nie ma w tym momencie żadnego znaczenia, ale wiadomo, że dotknie najlepsze. A teraz co nam z tego rzemiosła, bo mówisz o tym, że rzemiosło jakby ewoluuje. A co nam z tego rzemiosła zostało? Skoro kod, LLM-y piszą lepszy. Skoro testy, LLM-y piszą lepsze. Więc co... co jakby stoi na przeszkodzie, faktycznie dać... Nie mówię biznesowi, bo to już troszeczkę jeszcze na dzisiaj to troszeczkę za daleko, ale dać testerom po prostu. Dać testerom LLM-a i powiedzieć słuchajcie, on ma napisać kod, on ma napisać testy jednostkowe, wy to macie przetestować, nara oddajemy biznesowi."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "17:39",
+      "text": "Nie no poczekaj, poczekaj, no właśnie to opisujesz jedną z patologii, była. Developer pisał kod, a tester pisał testy jednostkowe."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "17:50",
+      "text": "Nie, nie, nie, nie, nie mówię o testach jednostkowych, nie, nie, nie, nie, nie, nie, Teraz LLM-y, LLM-y piszą kod, LLM-y piszą testy, tester manualnie se tam przeklika, zobaczy czy mniej więcej o to chodziło biznesowi, nara oddajemy biznesowi. I potem Agile, super, bo biznes powie, a ja to chciałem inaczej, więc tester szybko powie LLM-owi, ej, klient jednak chciał inaczej, więc zrób tą zmianę, dopisz testy, żeby się zgadzało, bo i tak zrobisz to lepiej, ja to przeklikam."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "17:53",
+      "text": "No."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "18:19",
+      "text": "Nara, jedziemy na produkcję."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "18:22",
+      "text": "i tak to podobnie czeka nas rewolucja w składzie zespołów. Nie chodzi o to, że nagle będą inne zespoły. To będą inni ludzie. Nie chodzi o to, że nagle wywalimy połowę Może się tak zdarzyć, żeby to głośno wybrzmiało. Tylko że nagle zmienimy twoją rolę w zespole. Kiedyś była taka rola. Jak byłem młodym studentem to kiedyś w Zespole był full stack developer. On musiał zrobić wszystko. Potem następł taki etap, że się trochę rozdmuchało nam. I był specjalista od jednego, znaczy iOSa, specjalista od Androida, specjalista od Weba, specjalista, który umiał pseczkę połączenia od bazy danych, specjalista, który umiał tylko pseczkę w bazie danych, specjalista i tak dalej. Zdarza się sprawę, że przesadziłem chyba nigdzie nie było takiego zespołu, ale... zaraz ktoś napisze w komentarzu, a u mnie byłem. I wcale tak mało takich firm nie będzie. Natomiast już podzielone, że mieliśmy zespół front-endowy, back-endowy i od bazy danych to już widziałem, bo to na własne oczy widziałem. Może trochę się zmieni skład zespołów, nie chodzi o to, że... zrobił to tak ładnie, ogóle on o tym mówił, że staniemy się dyrektorami kreatywnymi albo czymś takim albo recenzentami wspaniałymi w ogóle tego, co się nie dzieje. Ja myślę, tak. To jest fajnie się jakby wypromować, pat pat, zajebisty jesteś dyrektorze kreatywnym w piocznej stapie. Natomiast... Wiesz, to prostu trochę się zmienia, tak jak Jezu, no to jak weźmy się cofnijmy do fabryk. Kiedyś stoły się robiło, jak gdyby ręcznie siedział stolarz i strugał, potem nagle fabryka to zaczęła robić trochę bardziej sprawnie. Tyle. No to tak, czy branża się zmienia? Tak. Czy zmienia się to jak pracujemy? Tak. Czy czeka, czy dla ludzi, byli, jak gdyby chcieli strugać stoły ręcznie i siedzieć we wnętrzu swojej piwnicy i strugać stoły ręcznie, czy będzie nadal tyle pracy, ile było? Nie. Tak, no to się trochę zmieni, To nagle stanie się, niech będzie tym dyrektorem kreatywnym, który nadzoruje kod i jego funkcjonalność. Ale wiesz, nagle pojawiła się rzecz, której my nigdy w życiu nie mieli, bo budowałaś... No, no, w naszej bańce, budowałaś zespoły dotnetowe. Nagle ktoś przychodził i mówił, że, powiedzmy, RAST w tym konkretnym przypadku będzie dużo szybszy. Co robiły zespoły dotnetowe? Nie ma szans. A teraz możesz wziąć tego RASTA, pokazać mu turist kod w dotnecie, weź nam pomóż, jak gdyby, przepisać w ogóle, POC wreszcie. i porównać wydajność. Nie wiem czy to ma sens, żeby to głośno było. Wziąłem specjalny przykład z Rastem, bo teraz Rast jest mega popularny, tak samo jak były różne dziwne języki wcześniej, jak pracowałeś w firmie i miałeś ludzi wyszkolonych w tym staku, to zmiana staku w ogóle nie wchodziła w gra. Nie było takiej opcji. A teraz możesz. No to zmienia się. Po prostu się zmienia na tyle. Ale jak przechodziliśmy z Assemblera do C to nikt z nas nie pamięta ani te, też się zmieniło. Jak nagle weszło jQuery to akurat pamiętam, to też coś się zmieniło. Jak przeszedł React i Angular to też w ogóle się zmieniło. Teraz jak gdyby front-endowcy od paru lat mówią, że Angular i React to blebo są zbyt skomplikowane i musisz używać nie tą ustawę nazwy frameworka."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "22:40",
+      "text": "Dziekuję."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "22:42",
+      "text": "No, dżajko, tak. Nie wiem, Ale wiesz, znowu internet zachuczał, przepraszam, łącza mi się maruda, internet zachuczał, bo padły słowa, które jak gdyby szokowały. Spójrz na nasz kanał, nie? Jak walnęliśmy sobie czasami okładkę, która była bardziej kontrowersyjna, to mieliśmy więcej wyświetleń."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "23:06",
+      "text": "No, wiadomo, że tak to działa, oczywiście, i tym nie będę... Jakby... I wiadomo, że to jest bardzo kontrowersyjna opinia, ale te opinie też się w pewien sposób powtarzają, tak? Zresztą my też je w jakiś sposób powtarzamy. Jakby to jasno mówimy, że to pisanie kodu jakby przestaje mieć sens. Czytanie kodu, tak soł soł, ale wiesz... Ja się też coraz bardziej zastanawiam, no, D.A. Chase też tutaj powiedział, że on już coraz częściej traktuje to, co zostanie wygenerowane w pewien sposób jak czarną skrzynkę. On już nawet nie patrzy, nie? Oczywiście już byli tacy, co mówili, że nie patrzą, już chociażby... Kto to ostatnio? Uncle Bob oczywiście też, i jakby to taka dygresja, bo to akurat dla mnie człowiek mem, który się coraz bardziej robi. Ale on też mówił, że już nie patrzy w kod i już ma po prostu takie testy napisane, że nie musi patrzeć w kod, do momentu, aż któregoś nie napisał, o Jezu, wywaliło mi się wszystko i muszę zaczynać od nowa, bo agent poszalał, bo się wyrwał z tego wszystkiego. Natomiast rozmawialiśmy z Ducinem na przykład. Ducin mówił, musimy myśleć jeszcze cały czas o architekturze. Rozmawialiśmy... z kilkoma innymi, teraz akurat tylko i wyłącznie Tomek i jego rozkminę na temat tego, że musimy się skupiać właśnie na tej architekturze, to pamiętam. Teraz przechodzimy kilka miesięcy dalej i czy to myślenie i czy te umiejętności związane z architekturą za pół roku będą ważne? Jakby trochę tak. A z drugiej strony, a co jeśli faktycznie zaczniemy myśleć o tym jako czarnej skrzynce? Niech on sobie zrobi tą architekturę jaką chce, leby potrafił sobie nad nią zapanować. I tylko damy mu w pewien moment, nie, nie, nie, nie. No, jakby architektura mamy na kilku poziomach, nie? Możemy mieć architekturę w samej aplikacji, możemy mieć architekturę naszej infrastruktury, możemy mieć architekturę całego systemu, jakby..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "25:06",
+      "text": "A nie, poczekaj, czekaj, zdefiniuję architektura. Zdefiniuję architektura."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "25:23",
+      "text": "Czego mamy się uczyć jako programiści? Czy to jest jeszcze w ogóle ważne? Czy może właśnie będziemy działać na takiej zasadzie zrób se to panie jak se pan chcesz, a jak będzie źle, to ja ci jeszcze dosypię tych tokenów i powiem popraw to, żeby było trzy raz lepiej."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "25:43",
+      "text": "Ja mam poczucie, może już stary jestem i to z tego."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "25:51",
+      "text": "Ty już masz bliżej do emerytury, także w ogóle się niczym nie przyjmujesz, ale bliżej niż ja."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "25:53",
+      "text": "Nie, nie mam jeszcze. Ostatnie liczba. A, bliżej niż tu? Tak. Natomiast, bez co? Że musisz rozumieć jak to... Znaczy, że nagle wrócimy do tego, że warto wiedzieć jak zbudowany jest komputer. Coś co ogóle uciekło przez ostatnie parę lat. Jak zbudowany jest komputer. Znaczy, po to, żeby można było z tym cholestem pogadać i nie mówić mu fix it."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "26:00",
+      "text": "No."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "26:22",
+      "text": "Nie? Tylko żebyś mógł to zrobić. Ja ostatnio nawet widziałem taką rolkę, ale nie zapisałem, miałem czy nawet wysłać, że facet jak gdyby mówił, że po roku, znaczy taka kontrowersyjna opinia, że czy po roku warkodowane aplikacje starać się prawdziwym jak gdyby programistą. I wiesz co? I wiesz, i właśnie się uśmiechnęłeś, ja też się uśmiechnęłem, a a potem zacząłem o tym myśleć i... Kurczę, no może rzeczywiście. Jak przez rok utrzymujesz tą aplikację, przez rok ją rozwijasz. Przez rok, jak gdyby trafiasz na błędy, przez rok je zmieniasz, to to się naprawdę aż tak różnie od tego co ja robiłem przez całe życie? No chyba nie, no jak gdyby... To właśnie brzmi to wiesz, jak na pierwsze, właśnie na pierwsze to jest ta absurdalna, potem nie no, no to ma chyba sens, nie? Że właśnie że ostałeś się inżynierem, nie? Tylko zaczynasz być inżynierem, który ma robota pod sobą, a nie... Nie ten, czy będziesz musiał do końca wiedzieć jak to zrobię, to zależy jak będzie wyglądała twoja praca. Prosty krót do bazy, no litości. Pisałeś prosty krót do bazy, ja też pisałem. Naprawdę wymagała jakiejś umiejętności, nie. Kopiąc ctrl-v ze staka weflą."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "27:40",
+      "text": "No tak, i umówmy się, to jest to, co do dzisiaj pamiętam, jak odchodziłem z jednej firmy, jak mi jeden z dyrektorów powiedział, że no praca programisty to jest 90 % właśnie klepania kródów, a 10 % rozwiązywania jakichś sensowniejszych problemów, bo większość aplikacji, które piszemy to są... bardziej lub mniej skomplikowane kródy. One tam mogą mieć jakieś trigery pod sobą, najróżniejsze rzeczy, ale to są jednak ostatecznie jakieś tam kródy. Wprowadzamy dane, wyprowadzamy dane, nara i to dzień zamykamy z sukcesem. Natomiast, wiesz, tak mnie też uderzył ogóle sam początek znowu tego keynotea, którym cały czas rozmawiamy, jak zresztą... Też podszedłeś do kwestii artystycznej i porównania właśnie do malarzy i co oni zrobili ze sobą, jak się pojawiły aparaty. Zmienili, jakby wytworzyło się zupełnie nowe pole do tworzenia zupełnie nowych obrazów. Natomiast gdzie będzie i cały czas ten... kraftowy malunek, że tak powiem, żeby zaraz do tego nawiązać. sens, a wręcz kosztuje teraz olbrzymie pieniądze. Więc czy będzie jeszcze miejsce w branży na kraftowy kodzik i czy on będzie bardziej albo mniej cenny?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "29:19",
+      "text": "Ale popatrz, jak zaczynałeś swoją karierę, jeździłeś na konferencję i tam mówili weź mu bliżej IT z biznesem połącz. Wszyscy mówiły, że taki zwykły programista ma mało słaby TAN, że jak się masz rozwijacz to musisz zrozumieć jak działa biznes, ogóle wszystkie te techniki... TAN? No patrz, stało się."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "29:38",
+      "text": "Oczywiście. Mokry sen naszych kolegów sprzed 10-15 lat się w końcu zjeścił. Tak, no w pewien sposób tak. Ale nie wiem, cały czas mnie to ciekawi, gdzie będziemy za tych kilka lat i jak to będzie wyglądało. Jakie my będziemy miejsce zajmować za tych kilka lat i jak to realnie oby. Mam taką nadzieję. Albo po prostu będziemy codziennie się spotykać i nagrywać sobie takie rzeczy, a reszta będzie się już robiła w tle."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "29:48",
+      "text": "No, słabo stało się. My na emerytorze. No dobrze, słuchaj, to chyba wygląda na to, że nasza przysłówść jest optymistyczna. Możemy w tym miejscu zakręcić, jak drogi słuchaczu dotarłeś do tego wspaniałego miejsca, zachęcamy cię do jakiejś reakcji i słyszymy się za tydzień."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "30:14",
+      "text": "Tego sobie i nam życzę. Tak jest, dzięki wielkie i do zobaczenia."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "30:37",
+      "text": "Cześć!"
+    }
+  ]
+}
