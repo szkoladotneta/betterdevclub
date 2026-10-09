@@ -86,7 +86,12 @@ bez prośby użytkownika. Nie zmieniaj jego tekstu po cichu.
 ## Weryfikacja i wynik
 
 1. Obejrzyj PNG przez `vision_analyze`: pełna prawdziwa okładka, czytelny
-   banner pod nią, poprawne emoji, brak obcięcia.
+   banner pod nią, poprawne emoji, brak obcięcia. Sprawdź też mały podgląd:
+   żółty palec na żółtym tle może być słabo widoczny mimo poprawnego fontu.
+   Oceń osobno kontrast emoji i separację bannera od okładki; przechodzące
+   testy renderera nie potwierdzają jakości projektu. Przy takim problemie
+   pokaż wariant z ciemnym tłem i wyraźnym separatorem, zachowując poprzedni
+   obraz oraz dokładny tekst. Nie zmieniaj domyślnego stylu bez wyboru użytkownika.
 2. Sprawdź wymiary oraz zachowanie źródła: dla PNG porównaj piksele górnej
    części; dla JPEG dopuszczalna jest drobna różnica dekodowania kolorów.
 3. Podaj gotowy obraz (w Discordzie `MEDIA:/absolutna/ścieżka/do/pliku.png`),
