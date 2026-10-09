@@ -14,6 +14,27 @@ składanie i eksport gotowych obrazów. Przykładowe polecenia:
 
 Osobny `youtube-thumbnail` nadal służy do propozycji samych tekstów.
 
+## Prawdziwa okładka z bannerem do posta
+
+Skill [episode-promo](../.github/skills/episode-promo/SKILL.md) pobiera
+**opublikowaną okładkę odcinka ze strony lub YouTube** i dodaje pod nią
+banner „link w komentarzu 👇”. Nie generuje ani nie odtwarza miniatury.
+Przykład prośby: „Przygotuj prawdziwą okładkę odcinka 41 z bannerem do posta”.
+
+Po pobraniu źródła do lokalnego pliku:
+
+```bash
+python3 thumbnails/render_promo.py thumbnails/output/041/source-youtube.jpg \
+  --output thumbnails/output/041/promo-link-comment.png
+```
+
+Własne CTA podaj przez `--text "Obejrzyj — link w komentarzu 👇"`.
+Okładka zachowuje oryginalny rozmiar i kadr; pasek jest dodawany poniżej,
+nie nakładany na obraz. Dla 1280 × 720 wynik ma 1280 × 840 px.
+Powstaje również HTML z lokalnym obrazem i fontami. Istniejące PNG/HTML
+nie są nadpisywane — dla kolejnego wariantu wybierz nową nazwę.
+Źródła i eksporty w `output/` nie trafiają do Git.
+
 ## Generowanie podglądu
 
 ```bash

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<title>Better Dev Club — post promujący odcinek</title>
+<style>
+@font-face { font-family: "Libre Franklin"; src: url("$title_font"); font-weight: 100 900; }
+@font-face { font-family: "Noto Color Emoji"; src: url("$emoji_font"); }
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+.promo { width: ${width}px; background: $primary; }
+.cover { display: block; width: ${width}px; height: ${height}px; }
+.banner { height: ${banner_height}px; display: flex; align-items: center;
+  justify-content: center; padding: 0 ${padding}px; color: #111111;
+  font-family: "Libre Franklin", "Noto Color Emoji"; font-weight: 900;
+  font-size: ${font_size}px; }
+.cta { white-space: pre; line-height: 1.25; }
+.emoji { font-family: "Noto Color Emoji"; font-weight: 400; }
+</style>
+</head>
+<body>
+<main class="promo">
+<img class="cover" src="$cover" alt="Okładka odcinka Better Dev Club">
+<footer class="banner"><span class="cta">$text</span></footer>
+</main>
+</body>
+</html>
