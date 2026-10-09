@@ -2,7 +2,7 @@
   {
     "id": 41,
     "num": "41",
-    "notPublished": true,
+    "notPublished": false,
     "title": "Better Dev Club #41 - DHH idzie na emeryturę programistyczną. Czy rzemiosło umarło?",
     "date": "2026-10-08",
     "duration": "30:38",
@@ -39,9 +39,9 @@
       "inzynieria-oprogramowania"
     ],
     "platforms": {
-      "youtube": "",
+      "youtube": "https://youtu.be/HertC6CwddA",
       "spotify": "",
-      "apple": ""
+      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club-41-dhh-idzie-na-emerytur%C4%99-programistyczn%C4%85/id1848840540?i=1000793818739&uo=4"
     },
     "resources": [
       {
@@ -63,12 +63,12 @@
         "description": "Ruch rzemiosła oprogramowania stawiający na jakość, profesjonalizm i dbałość o czystość kodu"
       }
     ],
-    "youtubeId": ""
+    "youtubeId": "HertC6CwddA"
   },
   {
     "id": 40,
     "num": "40",
-    "notPublished": true,
+    "notPublished": false,
     "title": "Better Dev Club #40 - Czy 9 agentów AI urodzi dziecko w miesiąc? Prawa IT i AI",
     "date": "2026-10-01",
     "duration": "34:23",
@@ -107,9 +107,9 @@
       "system-thinking"
     ],
     "platforms": {
-      "youtube": "",
+      "youtube": "https://youtu.be/e-VZx-X8Zew",
       "spotify": "",
-      "apple": ""
+      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club-40-czy-9-agent%C3%B3w-ai-urodzi-dziecko/id1848840540?i=1000792523848&uo=4"
     },
     "resources": [
       {
@@ -149,7 +149,7 @@
         "description": "Prawo Amdahla: Przyspieszenie zadania jest ograniczone przez jego sekwencyjną część"
       }
     ],
-    "youtubeId": ""
+    "youtubeId": "e-VZx-X8Zew"
   },
   {
     "id": 39,
