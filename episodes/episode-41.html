@@ -977,7 +977,7 @@ Panowie bez owijania w bawełnę analizują swoje codzienne nawyki: czy w ogóle
             const [loading, setLoading] = useState(true);
 
             useEffect(() => {
-                const version = "4e0732e4d0";
+                const version = "c9249e3e7d";
                 Promise.all([
                     fetch(`/episodes.json?v=${version}`).then(res => res.json()),
                     fetch(`/speakers.json?v=${version}`).then(res => res.json())

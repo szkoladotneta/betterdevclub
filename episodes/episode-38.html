@@ -979,7 +979,7 @@ W drugiej części panowie schodzą na ziemię i do realnego IT: jak dziś wygl�
             const [loading, setLoading] = useState(true);
 
             useEffect(() => {
-                const version = "4e0732e4d0";
+                const version = "c9249e3e7d";
                 Promise.all([
                     fetch(`/episodes.json?v=${version}`).then(res => res.json()),
                     fetch(`/speakers.json?v=${version}`).then(res => res.json())

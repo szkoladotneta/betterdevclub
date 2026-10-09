@@ -806,7 +806,7 @@
   {
     "id": 30,
     "num": "30",
-    "notPublished": true,
+    "notPublished": false,
     "title": "Better Dev Club #30 - Google I/O na luzie. Gemini Flash, antygravity i brak rewolucji",
     "date": "2026-05-27",
     "duration": "18:16",
@@ -835,12 +835,12 @@
       "workspace"
     ],
     "platforms": {
-      "youtube": "",
+      "youtube": "https://www.youtube.com/watch?v=laP-lPa7YPU",
       "spotify": "",
-      "apple": ""
+      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club-30-google-i-o-na-luzie-gemini-flash/id1848840540?i=1000769961443&uo=4"
     },
     "resources": [],
-    "youtubeId": "",
+    "youtubeId": "laP-lPa7YPU",
     "guestKey": "piotrek"
   },
   {
