@@ -32,6 +32,7 @@ def build_html(cover: Path, preview: Path, text: str = DEFAULT_TEXT) -> tuple[st
         width=width, height=height, banner_height=banner_height,
         padding=width * 40 / 1280, font_size=width * 52 / 1280,
         primary=brand["colors"]["primary"], text=content, cover=asset(cover, preview),
+        separator=brand["colors"]["personOutline"], separator_height=width * 6 / 1280,
         title_font=asset(ROOT / "assets/fonts/LibreFranklin.ttf", preview),
         emoji_font=asset(ROOT / "assets/fonts/NotoColorEmoji.ttf", preview),
     )

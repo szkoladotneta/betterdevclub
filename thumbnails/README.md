@@ -18,7 +18,8 @@ Osobny `youtube-thumbnail` nadal służy do propozycji samych tekstów.
 
 Skill [episode-promo](../.github/skills/episode-promo/SKILL.md) pobiera
 **opublikowaną okładkę odcinka ze strony lub YouTube** i dodaje pod nią
-banner „link w komentarzu 👇”. Nie generuje ani nie odtwarza miniatury.
+banner „link w komentarzu 👇”: ciemne tło, żółty napis i niebieski separator.
+Nie generuje ani nie odtwarza miniatury.
 Przykład prośby: „Przygotuj prawdziwą okładkę odcinka 41 z bannerem do posta”.
 
 Po pobraniu źródła do lokalnego pliku:

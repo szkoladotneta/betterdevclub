@@ -71,8 +71,10 @@ bez prośby użytkownika. Nie zmieniaj jego tekstu po cichu.
 
 - Obraz źródłowy pozostaje w oryginalnych wymiarach, bez rozciągania,
   przycinania, retuszu ani bannera nakładanego na tytuł lub twarze.
-- Banner jest **dodany pod okładką**: żółty kolor marki z `brand.json`,
-  czarny napis Libre Franklin, lokalny pełny Noto Color Emoji.
+- Banner jest **dodany pod okładką**: ciemne tło `#080f18`, żółty napis
+  Libre Franklin (`primary` z `brand.json`), lokalny pełny Noto Color Emoji.
+  Niebieski separator (`personOutline` z `brand.json`) ma 6 px przy szerokości
+  1280 px i mieści się wewnątrz wysokości bannera. To zatwierdzony styl domyślny.
 - Okładka 1280 × 720 daje PNG **1280 × 840**; banner ma 120 px.
   Dla innych wymiarów jego wysokość i typografia skalują się z szerokością.
 - HTML korzysta z istniejącego obrazu i lokalnych fontów, bez Base64 i sieci.
@@ -89,9 +91,10 @@ bez prośby użytkownika. Nie zmieniaj jego tekstu po cichu.
    banner pod nią, poprawne emoji, brak obcięcia. Sprawdź też mały podgląd:
    żółty palec na żółtym tle może być słabo widoczny mimo poprawnego fontu.
    Oceń osobno kontrast emoji i separację bannera od okładki; przechodzące
-   testy renderera nie potwierdzają jakości projektu. Przy takim problemie
-   pokaż wariant z ciemnym tłem i wyraźnym separatorem, zachowując poprzedni
-   obraz oraz dokładny tekst. Nie zmieniaj domyślnego stylu bez wyboru użytkownika.
+   testy renderera nie potwierdzają jakości projektu. Zachowaj zatwierdzone
+   ciemne tło i niebieski separator; nie wracaj do żółtego tła za emoji.
+   Kolejne zmiany stylu przedstaw jako wariant, zachowując poprzedni obraz
+   oraz dokładny tekst. Nie zmieniaj domyślnego stylu bez wyboru użytkownika.
 2. Sprawdź wymiary oraz zachowanie źródła: dla PNG porównaj piksele górnej
    części; dla JPEG dopuszczalna jest drobna różnica dekodowania kolorów.
 3. Podaj gotowy obraz (w Discordzie `MEDIA:/absolutna/ścieżka/do/pliku.png`),

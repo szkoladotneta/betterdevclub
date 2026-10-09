@@ -60,6 +60,8 @@ class PromoTests(unittest.TestCase):
             render_promo.render(source, output)
             with Image.open(output) as result, Image.open(source) as original:
                 self.assertEqual(result.size, (1280, 840))
+                self.assertEqual(result.convert("RGB").getpixel((10, 720)), (46, 190, 247))
+                self.assertEqual(result.convert("RGB").getpixel((10, 726)), (8, 15, 24))
                 self.assertEqual(result.crop((0, 0, 1280, 720)).convert("RGB").tobytes(), original.tobytes())
             with self.assertRaises(FileExistsError):
                 render_promo.render(source, output)
