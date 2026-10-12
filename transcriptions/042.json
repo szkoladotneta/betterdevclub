@@ -1,0 +1,274 @@
+{
+  "transcript": [
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:00",
+      "text": "Cześć Piotrek."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:01",
+      "text": "Cześć, Kajtek."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:02",
+      "text": "Piotrek, wiesz czym się różni model decyzyjny od szefa?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:05",
+      "text": "Nie mam dlatego pojęcia."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:07",
+      "text": "model decyzyjny zawsze bierze pod uwagę dane, a szef nie do końca."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:13",
+      "text": "No, rzeczywiście chyba coś w tym jest. Ty jesteś szefem z tego co pamiętam, to musisz to ocenić we własnym sejduszku."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:20",
+      "text": "O nie! I teraz, no różnie to bywa. Ale teraz widzisz, dzięki modelom decyzyjnym może być łatwiej, bo za każdym razem jak ktoś w zespole zada pytanie, to faktycznie będzie łatwiej podejmować decyzje, bo będą one oparte o konkretne dane. Ale dlaczego o tym mówimy?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:42",
+      "text": "No dajesz, dlaczego o tym mówimy? Dzisiaj ty prowadzisz..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:45",
+      "text": "No bo dzisiaj ja prowadzę, no niech będzie, bo nasza ukochana firma jako jest Microsoft, którą serdecznie pozdrawiamy wszystkich, których znamy z Microsoftu, wypuścił oczywiście nowy model, model decyzyjny, czyli Microsoft-Decision-1. I nie jest to specjalna nowość, jeśli chodzi w ogóle o cokolwiek. Co, znowu ci się nazwa nie podoba? Nazwa jest świetna."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "01:09",
+      "text": "Nie, nazwa spoko, ale zacząłeś od tego, że ogóle od modelu z Microsoftu, zamiast o tym, którym wszyscy mówią, chcesz nas wbić na sam dół YouTube'a?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "01:20",
+      "text": "Ale no bo właśnie do tego chciałem przejść na spokojnie, bo właśnie Microsoft wypuścił Microsoft-Decision-1 jako konkurencja dla tego najbardziej znanego, czyli Jeva. I Jev tutaj też się dużo rzeczy zadziało, bo dostał spore finansowanie, jak wszyscy oprócz nas niestety na tym rynku, ale dużo się dzieje. I ja muszę się na dobry początek podzielić jedną rzeczą. Widać, szczególnie właśnie przy tych publikacjach, jak dużo mamy ciekawych person na LinkedInie i innych social mediach, które nazywają się osobami, ogarniają AI, które... edukując AI, które chcą edukować z AI i robią najróżniejsze inne rzeczy. Niektóre na szczęście są jeszcze nazywane, znaczy same siebie nazywają entuzjastami AI, ale wiemy jakie mają aspiracje. Natomiast grono osób kompletnie nie rozumie w ogóle, jaka jest różnica pomiędzy modelem decyzyjnym a LLM i zaczynają porównywać. Bardzo możliwe, to jest kwestia tego, że po prostu swojego agenta wrzucili artykuł na temat Microsoft-Decision-1, gdzie sam Microsoft porównuje siebie, znaczy porównuje Microsoft-Decision-1 do modelu GPT. No i to wiadomo, że to będzie wielki rozjazd. Natomiast i w pierwszej wersji tego artykułu nie porównali sami siebie do Jeva. I to kolejny strzał w kolano. Ale na szczęście już poprawili ten artykuł, poprawili te informacje. Ktoś im zwrócił uwagę też, że chyba jednak powinni tego Jeva opublikować jako swojego konkurenta. No i wyszło, że i tak jest całkiem nieźle. To znaczy ten model sobie bardzo dobrze radzi, ale właściwie z czym on sobie radzi? Właśnie, czym powiedzmy, albo może ty powiesz, czym jest właściwie model decyzyjny? I czym on się różni?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "03:36",
+      "text": "Ja się zgubiłem, wiesz, ogóle właśnie dotarło do mnie, że ty jesteś w zupełnie innym miejscu social mediów niż ja, pomimo to, że teoretycznie zajmujemy się tym samym. Wywadzimy razem podcast, nie? W ogóle nie zobaczyłem tego artykułu. Tak jak o Jevie, po prostu zalany jestem, ogóle nie dałem. O Microsoft'cie widziałem ze dwa posty. Zresłownie dwa posty i tyle."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "03:49",
+      "text": "Naprawdę? A to nie, to ja widziałem bardzo dużo postów na temat Decision-1, natomiast w większości to właśnie były posty, że teraz według Microsoftu zaczyna się era małych modeli, które będą specjalizowane w czymś tam. I według Microsoftu nie powinniśmy już używać GPT Astra, tylko powinniśmy się skupić i fine-tunować Decision-1. I myślę sobie, Boże drogi, jakie jest wielkie niezrozumienie w ogóle całego pojęcia."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "04:42",
+      "text": "Jesteś w jednym kawałku i pamiętasz to niż ja zdecydowanie. Ale to może i do… To bardzo dobrze. To bardzo dobrze, bo możemy jak gdyby dać obaj swoją jakąś opinię. To to dobrze. To może rzeczywiście zaczniemy od tego, czym… nie nowym? No nazwijmy to tak. Czym nie nowym są modele decyzyjne? Jak byś to… Dobra, jak byś powiedział jednym zdaniem, tak z cyklu Ford Amis?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "04:45",
+      "text": "Jest taka szansa. Jest taka szansa. No model decyzyjny jest modelem, który ma podjąć decyzję. I tylko i wyłącznie od tego jest. To jest jakby kolejna ewolucja w pewien sposób do tego, co też już widzieliśmy, bo na samym początku mieliśmy LLM-y same. Oczywiście to... Aaaa... No."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "05:26",
+      "text": "Stój! Stój! Siakie ale lewe, litości!"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "05:32",
+      "text": "Ja wiem, ty chcesz się jeszcze w ogóle cofać dużo, dużo wcześniej, bo..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "05:35",
+      "text": "Ja pisałem, słuchaj, słuchaj, ja w studiach napisałem sieć neuronową, praca magisterska, która rozpoznawała cyfr pisma ręcznego i ona na końcu dawała takie prawdopodobieństwo na ile to coś, co jest narysowane na kartce, co jest powiedzmy siódemką, a jedynką. To były dwie moje ulubione, bo siódemka u Amerykanów jest taka, tu jak oglądacie nas to taka pionowa, znaczy wróć, jedynka to jest taka pionowa kreska, a siódemka to jest taka kreska z daszkiem, nie, to kreska z daszkiem. A 7 jest przekreślona, więc jak pisarze jakkolwiek Europejczyk akurat albo wrzucałem sam swoje to regularnie 7 była jedynką, 1 była nieokreślona i coś tam. I to jest tak, to ja teraz powiem, swoje jedno znałem, to trochę jest model decyzyjny. On ci da jakieś prawdopodobieństwo, to co teraz może inaczej, to co teraz jest modne. O, teraz że dostajesz, dajesz mu konkretne odpowiedzi. On ci daje albo wskazuje ci, które jest najbardziej prawdopodobne, albo wskazuje ci prawdopodobieństwo, albo mówi ci tak, nie."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "06:39",
+      "text": "Tak, ty się cofasz, bo jakby ty się cofasz do czasów sprzed generative AI. Ludzie już nie pamiętają tych czasów. To, że pod tym wszystkim jest machine learning, to w ogóle nikogo nie interesuje, więc teraz ty nam zabijasz całą oglądalność, bo nikogo takie szczegóły techniczne nie interesują. I dlatego ja chciałem powiedzieć o tym, że było już podejście, oczywiście..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "06:48",
+      "text": "No tak!"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "07:07",
+      "text": "przed Generative AI była cała masa takich podejśń. Dlatego na samym początku powiedziałeś, że to nie jest nic nowego. Modele decyzyjne nie są niczym nowym. Natomiast teraz troszeczkę też działają w nieco inny sposób niż działało wcześniej. Bo jednak, no właśnie, też jak działa Microsoft-Decision-1, to nie jest zupełnie nowy model, tylko jest to model decyzyjny przygotowany na podstawie modelu Qwen tam w odpowiedniej wersji."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "07:34",
+      "text": "I to jest ten kawałek internetu, którym ja byłem. Że to się Microsoft nie zrobił swojego modelu, on zrobił fine tuning Qwen. Normalnie frame spam."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "07:45",
+      "text": "Tak, ale też przyznają, że to jest pierwsze podejście, bo są już w trakcie fine-tunowania swoich modeli typu Thinking One i innych z stajni Microsoft AI. Ale zaraz, bo chodzi mi o to, żeby jeszcze powiedzieć, to jest nowe podejście, troszeczkę inne, gdzie pod spodem jednak jest ten duży model, tylko on jest odpowiednio przygotowany i my mieliśmy wcześniej już... Zanim się pojawił Jev, mieliśmy takie podejście do czegoś takiego, bo było coś takiego jak LLM ze structured output. To znaczy mogliśmy skonfigurować sobie agenta, który mógł odpowiadać w sposób ustrukturyzowany, czyli realnie mógł nam zwrócić JSON-a. Tyle że mimo wszystko u podstaw tego był LLM, który jako taki... nie działa w ten sposób jak model decyzyjny. To znaczy on bierze sobie odpowiedź i generuje token po tokenie. I kolejny token jest generowany na podstawie tego poprzedniego tokenu, który został wygenerowany. Dlatego te odpowiedzi mogą się różnić. Dlatego za każdym razem, kiedy damy mu jakąś decyzję do podjęcia, on może decyzję podjąć inną niż w poprzednim prompcie, niż w poprzedniej sesji. Natomiast modele decyzyjne są przygotowane w taki sposób, zawsze dawały prawdopodobieństwo przynajmniej w taki sam sposób."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "09:22",
+      "text": "Nie, nie prawdopodobieństwo. Zależy od tego co wybierzesz. Albo prawdopodobieństwo, albo wskazanie odpowiedzi, albo tak, nie. Co się... No tak."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "09:28",
+      "text": "Tak, tak, tak, tak, tak, tak, tak, tak, tak, tak, tak, tak, tak, tak, tak, Natomiast to ma również działać na parafrazy, jeżeli parafrazujemy pytanie, to on też powinien dać taką samą odpowiedź. I to też jest sprawdzane w benchmarkach modeli decyzyjnych, w związku z czym tutaj jest ta podstawowa różnica pomiędzy tymi modelami, to znaczy LLM-ami, a modelami decyzyjnymi. Kończymy ten temat. znaczy nie kończymy tematu, tylko kończymy wprowadzenie, które nam zajęło bardzo dużo czasu. Natomiast jak widać, jakby i historia stojąca za modelami decyzyjnymi jest dużo dłuższa niż mogłoby się wydawać. I też zrozumienie, przynajmniej z tego co ja widzę, modeli decyzyjnych nie jest takie oczywiste. Dlatego też chciałem i chcieliśmy zrobić takie dłuższe wprowadzenie. Ale realnie... Co nam to zmienia, że mamy takie modele decyzyjne? Skoro mieliśmy LLM, one też potrafiły podejmować decyzje."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "10:40",
+      "text": "Przepraszam, ale potrzebuję 30 sekund na to, wypuścić kota, bo już mnie dwa razy ugryzł, co mogło widać było. Odpowiadając na Twoje pytanie co nam to zmienia w zasadzie zupełnie inny mechanizm podejmowania decyzji bo w przeciwieństwie do LLM takie modele są szybkie czyli przestajemy liczyć odpowiedzi w grube sekundy tylko zaczynamy liczyć odpowiedzi w milisekundy czyli jak gdyby jesteś w stanie spytać swojego szefa i To ja muszę pomyśleć, przyjdę do Ciebie z decyzją jutro, tłumacząc to na ludzki, tylko szef Ci mówi od razu tak, nie, nie ma. To jest chyba ta podstawowa różnica, której rzeczywiście to działa. Może inaczej działa, nie działa. To jest to coś w czym modele decyzyjne mają tak naprawdę tą przewagę. Pomyślysz drogi słuchaczu, od w ogóle like, subskribe, koment, jak już się zwracam, przełamuje barierę, nie ważne, przełamuje to barierę o czwarte ściany, tak jak już jesteś słuchaczu, ten. No to tu ta zmiana, która jest, polega na tym, że to ma być bardzo szybkie, ale to jest znowu zupełnie inne zastosowanie. To nie jest to samo zastosowanie CRM."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "11:54",
+      "text": "w czwartej ściany."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "12:12",
+      "text": "To jest zastosowanie do czego tłum ludzie tak naprawdę używało LLM-ów, bo w sensie gadało sobie, nazwijmy to, człowiekiem, nie wiem jak to nazwać, i mówiło, a weź mi powiedz, w którą stronę będzie lepiej. Po czym kolega z zabiórka, koleżanka z zabiórka zadawali to samo pytanie i na prezentacjach ja mam zupełnie inne zdanie. Nie, no bo specyfika LLM-ów, które modele decyzyjne mają trochę inaczej za działacz. I tu na przykład Ja podam może coś na co trafiłem gdzieś w międzyczasie. Jest taki model chyba ogóle zrobiony przez Polaków. Zpamiętnionowany przez Polaków. On się nazywa MedDecider. I MedDecider jest takim narzędziem, które umożliwia Ci podejmienie podjęcie decyzji medycznej. Dajesz mu symptomy i on Ci próbuje zgadnąć, nazwijmy to chorobę. To strzela wynik, bo na leku go testowali. Chyba miał 80 % skuteczności, a lekarz powinien zdobyć 50%. Strzeliłem trochę tę liczbę. Przyznam szczerze, pewnie powinienem lepiej pamiętać, ale jak coś co sobie można doczytać oczywiście tam na naszej stronie w komentarzach, można sobie doczytać ten link i wyciągnąć te prawdziwe wartości. Ale to jest dokładnie do tego, czyli jak gdyby mamy bardzo określone reguły, mamy bardzo określoną. bazę odpowiedzi i chcemy umieć szybko podejmować. Widziałem artykuł, nawet przyznam szczerze, że pewnie go zaimplementuję, bo mam taki już parę razy, mówiłem, że mam taki pet project, który mi gra na giełdzie, chyba nie mówiłem co robię, ale gra na giełdzie w paper tradingu, czyli w ogóle nie gra i jego zadaniem jest ocena czy się daje kupować, czy nie daje kupować. Przyznam szczerze, że idzie mi chyba coraz lepiej, to znaczy w tej chwili mój model w zasadzie wstrzymuje się od akcji pechty całym codziennie. Ale nie przegrywa. Tłumaczę mu cały czas, że jest na paper tradingu, więc może się językować, a on mi odpowiada, że LLM mi odpowiada za każdym LLM, ale kluczem dobrego inwestowania jest czekanie na dobrym. A ja mówię, tak, ale już czekasz dwa tygodnie, tam tydzień. Weź weźcie, podejmij jakoś decyzję i coś kup, zobaczmy, czy te reguły coś my zrobili Majosę. To przepraszam za własny ten i to jest jak gdyby do tego możemy sobie obawiać, bierzesz te zasady spółki gruntowej i on się po prostu podpowiada kup nie kup. Znaczy kupuj nie kupuj. Bo przy LLM możesz to zastosować jadąc tym przykładem dalej, że wrzucisz w niego wszystkie dane o spółce, ale to nie jest chwilowa decyzja kupuje akcje i dzisiaj sprzedaje. To znaczy może nie ten, a model decyzyjny to daje. Czy tam masz szybkie leczenie, wlatuje ci dane pacjenta i szybko podejmujesz decyzje do lekarza, nie do lekarza. Czy na przykład, sorry, sorry, może sorry jest lepszym przykładem, nie? Niestety miałem ostatnio okazję być, nie? To jest szybka kwalifikacja pacjenta. Bo potrzebujesz szybko sklaskować, co robisz z tym dalej, nie? I do tego to jest idealne, nie? No tylko tak jak powiedziałeś, jak gdyby tłum ludzi się pojawiło, jak gdyby nie rozumiejąc w ogóle o czym mówi, co to zmienia i w ogóle jak to zastosować, zaczęło oczywiście próbować porównywać jedno z drugim, no ale to jest porównywanie, no nie wiem, no. Przypomniałbym, że jabłek z gruszkami, ale to chyba są bardziej jabłka i nie wiem, i kanapka z szynką, no to mniej więcej chyba taki jest. sposób porównania i to się nadaje do jedzenia i to się nadaje do jedzenia i to ma jakieś zalety i tamto ma jakieś zalety, no bo wiadomo, że Apple, Edea, Kibs, Dr.L.A. jak już jestem w temacie medycznym, a kanapka z szynką jest po prostu fajna i smaczna, chociaż może lepiej z kurczakiem, bo to białe. Koniec z tym. Natomiast to co mi się nie podoba, że tak przepraszam, już jadę cały ten, ja czytam... Trudne pytanie. Wytłumacz mi co się dzieje na ręku, że nagle wszyscy jadą na Qwenie."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "16:28",
+      "text": "To jest bardzo dobre pytanie, bo to oczywiście jakby powiedziałeś, powiedziałeś o tym nie przez przypadek prawdopodobnie, bo Decision-1 nie jest jedynym modelem decyzyjnym, który będzie oparty na Qwenie, jeśli dobrze pamiętam, bo jest jeszcze Drex, dobrze kojarzę i on też jest oparty na..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "16:49",
+      "text": "Nie, Drex jest chyba napastny."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "16:52",
+      "text": "No własnej, ale coś jest jeszcze na pewno, już nie pamiętam co, ale..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "16:55",
+      "text": "Coś jest jeszcze, ale to chyba nie Drex. Drex jest chyba na własnym, ale jak gdyby..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "16:59",
+      "text": "Wydawało mi się, że Drex jest też na jakimś chińskim, ale dobra, nie ma to znaczenia. każdym razie faktycznie coraz więcej jest budowanych właśnie na Qwenie. Może to być kwestia tego, że one są bardziej otwarte, wbrew pozorom bardziej niż te amerykańskie. Może to jest kwestia... Kurczę, nie wiem, ale to jest w ogóle bardzo ciekawa decyzja ze strony Microsoftu, że właśnie wziął akurat Qwena, bo no właśnie, oni jednak są amerykańską spółką, mimo że globalną, ale amerykańską i to może mieć ciekawe konsekwencje też w najbliższym czasie. No ale to też jest jakby powiedziane, nie wypowiedziane, ale powiedziane, że..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "17:47",
+      "text": "To dla mnie..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "17:54",
+      "text": "że te modele są warte bardzo szczególnej uwagi. Jakby nie powinniśmy ich ignorować na rynku."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "18:07",
+      "text": "To ja coś powiem, tu mam takie widać, mnie czasem, przepraszam, nie ta ręka, tu widać takie, ten jest to Microsoft, WP, Kajetan zresztą też, ale powiem, że bardzo brzydkie, Microsoft bardzo dobrze, tak bym to określił, dobry moment poinformowania, że jest Microsoft-Decision-1. Idealnie tego samego dnia, kiedy okazało się, że Jev dostał nie pamiętam ile tam milionów dolarów dużo w pizdu. Gdyby wartość w pizdu przywycenia jeszcze bardziej w pizdu. Nie wiem dać jakoś inną. Bardzo dużo, znaczy 10 w pizdu. Dostał dofinansowanie w pizdu przy wycenie 10 w pizdu możecie sprawdzić w linku gdzieś tam jest na dole. To są kwoty, które i tak mi nic nie mówią, bo ja tam sobie nie umiem wyobrazić 13 milionów dolarów a co dopiero tam prawie setek czy miliarda. On ogłosił to idealnie tego samego dnia. Co więcej, jak sam zauważyłeś, ogłosił to w bardzo taki, no, niechlujny, nazwijmy to niechlujny sposób, bo to ciężko inaczej powiedzieć. I nagle, jak gdyby wiesz, duża firma, proszę, robi coś na krzywym rejmie, naprawdę nie mógł opracować chwilę i zbudować swój własny oparty na swoim..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "19:13",
+      "text": "Mhm."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "19:29",
+      "text": "No widać nie mógł, Jak gdyby widać nie mógł, Microsoft nagle rusza do warki ze start-upem, no chyba start-upem, to nawet takim małym start-upem. Wiem, że ma teraz olbrzymiowe ceny, nie? Ale i pod spodem jest koleś, który w ogóle nie wiadomo co tam zrobił i w ogóle w tej branży to ogóle cuda zrobił, tak na. Ale jak o tym pomyślysz, znaczy dobra, bardzo bym chciał, żebym był właścicielem takiego start-upu i to wymyślił, coś takiego zbudował. No ale usiadło kilku kolasi zajebistych mózgów, powiedzmy to szczerze. Nie wiem tam mówię szczerze, gdyby skład jak gdyby jak duży jest, jest diversity i ogóle różne dziwne rzeczy. No ale usiedli jak gdyby grupa ziomali, ziomale, nazwijmy to w piwnicy, zakopali się na pół roku i zrobili coś jak gdyby fajnego. A duża firma, olbrzymia firma potrzebuje to wydać na rok. Do tego chyba wjechało też coś od OpenAI, ale wcale nie jestem pewien. Też chyba wjechało OpenAI Decisions, ale może się mylę, może coś pomyliłem."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "20:40",
+      "text": "O tym nie słyszałem."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "20:43",
+      "text": "Może co widziałem tylko zajawkę. Nagle internet odkrył, że to ogóle jest istniejące. O jest jeszcze polski przykład, pamiętam, on się chyba basal nazywa albo coś takiego. Może basal jest oparty na Qwenie, a może nie. Ale nie wiem, nie ma to większego znaczenia."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "20:57",
+      "text": "Mhm. A może i tak. No, nie ma to większego znaczenia."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "21:07",
+      "text": "Polecamy na pewno używać polskiego. Co byście nie robili wybieracie polski. Polski jest najlepszy, nie oszukujmy się. Więc to trochę jest taki, że... Znaczy, dobra. Jak spojrzymy na to, jest jedna ważna rzecz, że nagle wyszło walkę na Dawida z Goliatem. Nie wiem jak to inaczej nazwać. Zaraz czeka masz Anthropic, wypuści swój. Aż dziwne, że jeszcze nie wypuścił. Może niech to wypuścić na Qwenie. Może to jest taki powód, który ich wstrzyma. Więc nie ten. Ale jak spojrzysz na workflow, jak działają agenci, to to jest ogóle bardzo taki fajny klocek. Z jednej strony, że mi sobie podali jakieś przykłady do bawienia, ale jak mówimy w ogóle o modelu agentowym, to to jest bardzo fajny klocek, który jak gdyby zadajesz pytanie... Model decyzyjny ocenia czego powinien użyć, jakiego toola, jakiego narzędzia, czy powinien to wyeskalować, czy powinien to może dla odmiany odpuścić, bo to nie do Ciebie. Czy budujesz sobie bardzo szybki klocek decyzyjny, najprostszy co wybierzmy sobie, który wybiera Ci, którego modelu masz użyć. Wybierasz sobie taki chyba najbardziej prostacki przykład, jaki mogę wybrać. Wrzucasz prompta, prompt bierze którego modelu masz użyć, używasz tego modelu, bierzesz wynik albo jakiego toola masz użyć, albo nie wiem czy masz wywołacz, konsolę, masz zapytać użytkownika, masz nie zapytać użytkownika, a potem wrzucasz to do LLM, który wykonuje tą robotę taką, i to jest ta bardzo wąska dziedzina, jaką mogłem wymyśleć, czyli to coś... czy my siedzimy, czy nazwijmy to SDLC w oparciu o agenty, bo żeśmy podali dużo szersze przykłady, wiem, właśnie niech będzie ta medycyna, Giełda czy cokolwiek innego, nie? I tu nagle się okazuje, że nagle zestaw reguł, które normalnie jest, pamiętam odcinek o Claude Codzie, jak myśmy się nabijali, że wycieki, nagle ludzie się zorientowali, że decyzja o tym, czy użytkownik jest zirytowany, czy nie jest regex. jak coś to polecamy historyczny odcinek, no to tu nagle możesz to robić. I to jest naprawdę cenny kawałek. Ale czy to nagle zmienia wszechświat? No nie, no literości. Chyba, że ktoś wymyśli jakieś fajne zastosowanie. Ale to bardziej wierzę w medycynę, giełdę, niż tak naprawdę w informację."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "23:55",
+      "text": "No właśnie, bo to jest chyba też dlaczego Anthropic jeszcze nic z niczym nie wyskoczył i dlaczego OpenAI może powoli gdzieś tam się szykuje, bo mówię gdzieś faktycznie tak jak teraz zacząłeś mówić, to coś mi zaczęło dzwonić, ale nie mogę sobie przypomnieć gdzie to dokładnie było. każdym razie, Anthropic tak jak powiedzieliśmy, oni są kojarzeni z SDLC, z programistami, z developmentem i jakby... Bardzo mocno trzeba by było też właśnie ten kierunek obrać i to wszystko, co oni mówią, bo oni wiesz, z jednej strony mówimy sobie nieraz, że w SDLC gdzieś tam budujemy jakieś workflowy multi agentowe, nie wiadomo co i w takim workflow multi agentowym to by się faktycznie sprawdzało, a z drugiej strony sam Anthropic mówi... że oni to się w ogóle zastanawiają, czy w Claude Codzie jeszcze jest potrzebna faza planowania, skoro już modele sobie tak świetnie radzą z tym outputem, że ta faza planowania praktycznie nie jest potrzebna. I myślę, że to jest trochę kwestia tego, że połączenie tych dwóch światów też nie jest takie superproste. Dla Microsoftu... To jest strzał bardzo dobry, tak wbrew pozorom, pomimo tego w jaki sposób to zrobili, ale Microsoft bardziej stawia właśnie na komunikaty do osób, które tworzą aplikacje oparte o agentów, może w ten sposób, albo które właśnie tworzą systemy multi agentowe. No bo tak, jakby troszeczkę inaczej masz to w momencie, którym oni cały czas mówią, możesz to zachostować u nas na Foundry i wpleś to w aplikacje, w swoje workflow, swoich multi agentów, a co innego jest jak Anthropic daje jakiś sygnał nowy albo OpenAI daje jakiś nowy sygnał, w którym mówi, właściwie... dawaj do naszej aplikacji desktopowej albo do naszego terminala, tam jest wszystko czego potrzebujesz, ogóle się tym nie przejmuj. tam się modele, to się będą już zaraz same zamieniać jak będzie potrzeba. Ty się nie przejmuj, to sobie po prostu tam promptuj, płac co miesiąc i będzie gitara. Więc te komunikaty są tych film troszeczkę inne i trochę na innych odbiorcach się te firmy skupiają. A Microsoft realnie, ostatnio wrażenie, może to jest znowu jakaś bańka, której mnie nie ma, ale Microsoft tak trochę przycichł z informacjami na temat Copilota, GitHub Copilota, a trochę bardziej właśnie idzie w stronę Copilot Studio, Foundry i to, żeby te swoje modele... tam zachostować i w tym widzą znowu kolejny biznes, a nie w tym, żeby ludzie korzystali z Copilota i wykupowali subskrypcje."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "27:12",
+      "text": "Nie wiem, wiesz co, ja to mam wrażenie, że jak tu nam się będzie chciało montaż, to wkleimy tutaj ten znany odcinek, jak wygląda struktura Microsoftu, czyli wszyscy do siebie strzelają. Ja to mam wrażenie, że się po prostu nic nie zmieniło i ogóle jesteśmy w samym miejscu, zawsze z Microsoftem. Ale no, ale dobra, w sensie, gdyby... Jestem z... znaczy dobra, tak, może... Nie, chyba nie chce mi się aż tego komentować. sensie, jest aż tak typowe dla Microsoftu, że chyba mi się nie chce, że nagle zmienili trend i nagle wpychają innego copilota. Nazwaliby inaczej te produkty, chociaż byłoby wygodniej wewnątrz rozmawiać. Jakiego copilota ci chodzi? Dobra, przepraszam."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "28:00",
+      "text": "Prawda. To ja jeszcze jedną rzecz chciałem powiedzieć, bo powiedziałeś o MedDeciderze i ja jakby też patrząc na swoje doświadczenia ostatnio z lekarzami zauważyłem, co mnie nie szokuje, trochę zastanawia, co o tym sądzę nadal. Byłem ostatnio na trzech różnych wizytach u lekarza. Na szczęście to były bardzo proste wizyty wbrew pozorom. Natomiast na wszystkich tych trzech wizytach lekarz w połowie mniej więcej wizyty powiedział, że zapyta się kogoś mądrzejszego i widziałem jak promptuje ChatGPT. Takiego na darmowej subskrypcji. Tak, tak. Nie wpisywał tam żadnych danych osobowych, na szczęście, ale pytał o ocenę właśnie tego..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "28:46",
+      "text": "No daj mą we subskrypcję. Ooo!"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "28:58",
+      "text": "co sam decyduje, o czym sam decyduje i jak to wygląda pod kątem dalszych działań. I w takiej sytuacji bardzo bym chciał, żeby właśnie takie modele decyzyjne zostały nawet wdrożone gdzieś w tych placówkach. I to jak najszybciej. Bo jeżeli lekarze zaczynają z czegoś takiego korzystać, to niech korzystają przynajmniej z tego w sposób rozsądny. Bo mi nie przeszkadza oczywiście to, że korzystają. Tylko niech korzystają z tego w sposób, jaki chciałbym, żeby korzystali, a nie w sposób, który właściwie ja też mógłbym zrobić."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "29:41",
+      "text": "Ale wiesz, to, właśnie, mógłbyś, nie mógłbyś, nie? To, to w sumie, to ja cię tu, to ja cię tu zadam pytanie, nie? Bo ten lekarz wie, co tam wpisuje. W sensie, on nie wpisuje tam, nie? Gdyby on tam nie wpisuje, nie wiem, kartę, klat, tyle, a tyle, przyszedł, powiedział, że garę długo boli, i co ja mam z nim zrobić, nie? Przyznam szczerze, ostatnio miałem gluta, w zeszłym tygodniu nie pamiętałem, w którą kolejnością się psikadą nosa odpowiednie leki, to zadałem i ten mi powiedział. Rozrzucania na świecie nie pamiętałem, a to w ulotce jest. Tyle jest tych leków, tam. Nawet sam myślę o sobie, że czasami jak podejmuję decyzje w IT, mogę sobie je zapisać. Nawet nie muszę kliknąć send. tylko wysłać, że gdyby samym zapisasz to mi to pomaga, jak gdyby w neta na leno. Możemy sobie powiedzieć, że te narzędzia mają szansę pomóc nam wszystkim niezależnie od domeny. ja dla odmiany ostatnio z moją żoną coś tam, żeśmy robili w kwestii zabytków, żeśmy grillowali jakiś tam wniosek. Moja żona naprawdę jest ekspertem. Ja się śmieję, że ja jestem tam małym trybikiem, część z nas... jak gdyby tam może spojrzeć na moje osiągnięcia, coż tam nie, jak gdyby ja przy mojej żonie, znajomości w kwestii zabytków, wąskiej specjalizacji oczywiście, ja tam jestem, w niej kim jestem, a ona jest po prostu jak gdyby bosą. Więc tak jak gdyby nawet czasami wiesz, po prostu potrzebujesz tego wspomnień, nie? Jak wdrożył sobie takie, wdrożulibyśmy, nie wiem jak, żeby było jasno, takie modele decyzyjne, no to może właśnie niektóre rzeczy byłyby... trochę łatwiejsze. W sensie, przynajmniej miałbyś szansę dostać się od razu, pominąć kolejkę pod tytułem lekarz pierwszego kontaktu, specjalista stopnia pierwszego, specjalista stopnia drugiego, pan profesor stopnia trzeciego. A czy boisz się, że to portfel będzie nadal decydował, a nie niestety twój. Ale to ma potencjał. Zbudowanie rzeczywiście takich modeli, które spojrzałem teraz na leku."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "31:53",
+      "text": "Jak najbardziej."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "31:58",
+      "text": "tak, czy na final medical egzamnie, bo to jest tak naprawdę ten lek, nie powiem polskiego skrótu, wybaczcie, zdawał 87,1%, miał na tym egzaminie na 26 sesjach 472 pytania. Wszystkie sesje przeszły. Jak wzięli nowe pytania 20-25, 20-26, to miał wynik 89,2, gdzie średni egzaminowany miał 71,3. Znaczy tylko znowu, zadaniem lekarza jest wygrillowanie Cię i wyciągnięcie z Ciebie tej wiedzy, bo Ty sam, to temu modelowi nie powiesz, że Cię strzyka w kolanie. Znaczy przyjdziesz i powiesz, że Cię strzyka w kolanie, Ale już nie powiesz, że wywaliłeś się wczoraj po schodach, bo uznasz, że a co to ma do rzeczy, przecież tak mnie strzyka w kolanie. Czy tam cokolwiek takiego, albo tam nie wiem. Ale nic nie, ale głoduję, to nie wiem, boli mnie brzuch, ale głoduję od trzech tygodni. Albo obżajam się, jeszcze gorzej. Codziennie zjadam tabliczkę czekolady. Więc to myślę, że to jeszcze chwilę zajmie, nim dam radę. Ale masz rację, w sensie, jak gdyby to jest taki... Dla mnie takie modele, jeżeli będą zrobione rzeczywiście szeroko, to one nam znowu uchylą jakieś drzwi. Jak ktoś będzie miał pomysł, to świat stoi otworem. Może to my będziemy, czemu? Może my jakiś startup teraz wymyślmy."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "33:43",
+      "text": "Może w końcu. To jakbyście za tydzień nas nie usłyszeli, to znaczy, że dostaliśmy finansowanie. Ale dopóki tego finansowania nie dostaniemy. a teraz to się dzieje tak szybko. Nie mów. Nie."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "33:46",
+      "text": "I nam na... A my skuzdajesz? ja mam pomysł na start up co? nie nie powiem wszystkim przyjmowanie, finansowania, plasta etapów. I pamiętajcie, jak zaimplementujecie, to ten, który przyjdzie od Stapa i Kiteka, bo my żeśmy to wymyślili, deal jest. Zakładam, że deal swatchu jest."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "34:24",
+      "text": "Dobrze, i tym optymistycznym akcentem myślę, że pora na dzisiaj kończyć. Dzięki wielkie, że z nami byliście. Zapraszamy tak czy inaczej w przyszłym tygodniu. Jakbyśmy złapali jakąś rundkę w międzyczasie, to wam po prostu w przyszłym tygodniu powiemy, ale raczej myślę, że będzie standardowy odcinek. Także oczywiście to, co Piotrek pokazuje, like, subscribe. Wszystkie komentarze chętnie czytamy i na wszystkie odpowiadamy, jeżeli macie coś ciekawego do powiedzenia. Nie ciekawego też, jak najbardziej piszcie i do zobaczenia."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "35:00",
+      "text": "Zobaczcie się. Co jest?"
+    }
+  ]
+}
