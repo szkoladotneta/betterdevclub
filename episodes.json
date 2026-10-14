@@ -1,5 +1,88 @@
 [
   {
+    "id": 42,
+    "num": "42",
+    "notPublished": true,
+    "title": "Better Dev Club #42 - AI ma decydować, nie gadać. Microsoft kontra Jev",
+    "date": "2026-10-15",
+    "duration": "35:01",
+    "desc": "Czy do każdej decyzji potrzebujemy rozmowy z LLM-em? W 42. odcinku Better Dev Club Piotrek Stapp i Kajetan Duszyński rozmawiają o modelach decyzyjnych: Microsoft-Decision-1, Jev i różnicy między generowaniem odpowiedzi a wybieraniem spośród określonych opcji. Wracają do klasycznego machine learningu, omawiają structured output, spójność odpowiedzi na parafrazy oraz obietnicę podejmowania decyzji w milisekundach. Przyglądają się też konkurencji Microsoftu ze startupem TypeSafe AI i roli Qwena jako bazy modeli.\n\nW drugiej części sprawdzają, gdzie taki model może być użytecznym klockiem: w routingu agentów i narzędzi, paper tradingu oraz wspomaganiu decyzji medycznych. Od historii lekarzy korzystających z ChatGPT przechodzą do MedDecider i wyników na egzaminie LEK. Dlaczego dobry wynik testu nie zastępuje wywiadu z pacjentem? I czy przyszłość należy do gotowych asystentów, czy do aplikacji łączących wyspecjalizowane modele?",
+    "agenda": [
+      "00:00 - [Wstęp] Model decyzyjny kontra szef — suchar na start",
+      "00:45 - [Microsoft kontra Jev] Nowy model, konkurencja i zamieszanie w social mediach",
+      "04:45 - [Czym jest model decyzyjny?] Wybór odpowiedzi i historia sprzed generative AI",
+      "07:07 - [Qwen i structured output] Baza modelu a generowanie JSON-a przez LLM",
+      "09:28 - [Spójność decyzji] Parafrazy pytań i benchmarki modeli decyzyjnych",
+      "10:40 - [Sekundy kontra milisekundy] Oczekiwana przewaga szybkości i inne zastosowania",
+      "12:12 - [Medycyna i paper trading] MedDecider, kwalifikacja pacjentów i decyzje giełdowe",
+      "16:28 - [Na czym budowane są modele?] Qwen, Drex i otwartość modeli bazowych",
+      "18:07 - [Dawid kontra Goliat] Microsoft, finansowanie Jeva i wyścig na rynku",
+      "21:07 - [Routing agentów] Wybór modelu, narzędzia i eskalacji do człowieka",
+      "23:55 - [Dwie drogi do AI] Foundry i własne workflow kontra gotowe aplikacje",
+      "28:00 - [Lekarz pyta ChatGPT] Wspomaganie decyzji i doświadczenia Kajetana",
+      "31:58 - [Wyniki LEK i brakujący kontekst] Dlaczego egzamin nie zastępuje rozmowy z pacjentem",
+      "33:43 - [Zakończenie] Pomysł na startup i zaproszenie na kolejny odcinek"
+    ],
+    "tags": [
+      "betterdevclub",
+      "ai",
+      "modele-decyzyjne",
+      "microsoft-decision-1",
+      "jev",
+      "typesafe-ai",
+      "qwen",
+      "llm",
+      "agenci-ai",
+      "microsoft-foundry",
+      "meddecider",
+      "machine-learning"
+    ],
+    "platforms": {
+      "youtube": "",
+      "spotify": "",
+      "apple": ""
+    },
+    "resources": [
+      {
+        "type": "link",
+        "url": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/introducing-microsoft-decision-1-in-microsoft-foundry-for-decision-and-classific/4562742",
+        "label": "Microsoft-Decision-1 w Microsoft Foundry",
+        "description": "Oficjalna zapowiedź modelu do decyzji i klasyfikacji, opartego na Qwen3.5-9B."
+      },
+      {
+        "type": "link",
+        "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+        "label": "Introducing System One Models & Jev — TypeSafe AI",
+        "description": "Prezentacja Jeva i podejścia System One przez autorów modelu."
+      },
+      {
+        "type": "link",
+        "url": "https://typesafe.ai/blog/series-ai",
+        "label": "Finansowanie TypeSafe AI",
+        "description": "Ogłoszenie rundy finansowania przez firmę: 870 mln USD przy wycenie 7,5 mld USD."
+      },
+      {
+        "type": "link",
+        "url": "https://huggingface.co/lion-ai/MedDecider-27B",
+        "label": "MedDecider-27B — karta modelu",
+        "description": "Deklarowane przez autorów wyniki LEK: 87,1% i 89,2%; wynik egzaminacyjny nie jest pomiarem skuteczności diagnostycznej."
+      },
+      {
+        "type": "link",
+        "url": "https://huggingface.co/Remek/basal-1.0-4.5B",
+        "label": "basal-1.0-4.5B",
+        "description": "Polsko-angielski model decyzyjny oparty na Bieliku; przykład wspomniany w rozmowie."
+      },
+      {
+        "type": "link",
+        "url": "https://huggingface.co/nace-ai/drex-v1.5",
+        "label": "Drex v1.5 — karta modelu",
+        "description": "Jedna z wersji rodziny Drex, oparta na MiMo-V2.6-Distill-Qwen-9B. Dokładna wersja omawiana w nagraniu nie została ustalona."
+      }
+    ],
+    "youtubeId": ""
+  },
+  {
     "id": 41,
     "num": "41",
     "notPublished": false,
