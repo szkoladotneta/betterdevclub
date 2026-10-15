@@ -2,10 +2,10 @@
   {
     "id": 42,
     "num": "42",
-    "notPublished": true,
-    "title": "Better Dev Club #42 - AI ma decydować, nie gadać. Microsoft kontra Jev",
+    "notPublished": false,
+    "title": "Better Dev Club #42 - Modele decyzyjne: Jev, Microsoft (na Qwenie) i co dalej?",
     "date": "2026-10-15",
-    "duration": "35:01",
+    "duration": "34:45",
     "desc": "Czy do każdej decyzji potrzebujemy rozmowy z LLM-em? W 42. odcinku Better Dev Club Piotrek Stapp i Kajetan Duszyński rozmawiają o modelach decyzyjnych: Microsoft-Decision-1, Jev i różnicy między generowaniem odpowiedzi a wybieraniem spośród określonych opcji. Wracają do klasycznego machine learningu, omawiają structured output, spójność odpowiedzi na parafrazy oraz obietnicę podejmowania decyzji w milisekundach. Przyglądają się też konkurencji Microsoftu ze startupem TypeSafe AI i roli Qwena jako bazy modeli.\n\nW drugiej części sprawdzają, gdzie taki model może być użytecznym klockiem: w routingu agentów i narzędzi, paper tradingu oraz wspomaganiu decyzji medycznych. Od historii lekarzy korzystających z ChatGPT przechodzą do MedDecider i wyników na egzaminie LEK. Dlaczego dobry wynik testu nie zastępuje wywiadu z pacjentem? I czy przyszłość należy do gotowych asystentów, czy do aplikacji łączących wyspecjalizowane modele?",
     "agenda": [
       "00:00 - [Wstęp] Model decyzyjny kontra szef — suchar na start",
@@ -38,9 +38,9 @@
       "machine-learning"
     ],
     "platforms": {
-      "youtube": "",
+      "youtube": "https://youtu.be/zJSDGgef6UU",
       "spotify": "",
-      "apple": ""
+      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club-42-modele-decyzyjne-jev-microsoft-na/id1848840540?i=1000796432944&uo=4"
     },
     "resources": [
       {
@@ -80,7 +80,7 @@
         "description": "Jedna z wersji rodziny Drex, oparta na MiMo-V2.6-Distill-Qwen-9B. Dokładna wersja omawiana w nagraniu nie została ustalona."
       }
     ],
-    "youtubeId": ""
+    "youtubeId": "zJSDGgef6UU"
   },
   {
     "id": 41,

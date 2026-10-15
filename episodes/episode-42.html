@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    <title>BetterDevClub | Better Dev Club #42 - AI ma decydować, nie gadać. Microsoft kontra Jev</title>
+    <title>BetterDevClub | Better Dev Club #42 - Modele decyzyjne: Jev, Microsoft (na Qwenie) i co dalej?</title>
     
     <!-- SEO / Meta Tags -->
     <meta name="description" content="Czy do każdej decyzji potrzebujemy rozmowy z LLM-em? W 42. odcinku Better Dev Club Piotrek Stapp i Kajetan Duszyński rozmawiają o modelach decyzyjnych: Microsoft-Decision-1, Jev i różnicy między generowaniem odpowiedzi a wybieraniem spośród określonych opcji. Wracają do klasycznego machine learningu, omawiają structured output, spójność odpowiedzi na parafrazy oraz obietnicę podejmowania decyzji w milisekundach. Przyglądają się też konkurencji Microsoftu ze startupem TypeSafe AI i roli Qwena jako bazy modeli.
@@ -11,11 +11,11 @@
 W drugiej części sprawdzają, gdzie taki model może być użytecznym klockiem: w routingu agentów i narzędzi, paper tradingu oraz wspomaganiu decyzji medycznych. Od historii lekarzy korzystających z ChatGPT przechodzą do MedDecider i wyników na egzaminie LEK. Dlaczego dobry wynik testu nie zastępuje wywiadu z pacjentem? I czy przyszłość należy do gotowych asystentów, czy do aplikacji łączących wyspecjalizowane modele?">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://betterdevclub.com/">
-    <meta property="og:title" content="Better Dev Club #42 - AI ma decydować, nie gadać. Microsoft kontra Jev">
+    <meta property="og:title" content="Better Dev Club #42 - Modele decyzyjne: Jev, Microsoft (na Qwenie) i co dalej?">
     <meta property="og:description" content="Czy do każdej decyzji potrzebujemy rozmowy z LLM-em? W 42. odcinku Better Dev Club Piotrek Stapp i Kajetan Duszyński rozmawiają o modelach decyzyjnych: Microsoft-Decision-1, Jev i różnicy między generowaniem odpowiedzi a wybieraniem spośród określonych opcji. Wracają do klasycznego machine learningu, omawiają structured output, spójność odpowiedzi na parafrazy oraz obietnicę podejmowania decyzji w milisekundach. Przyglądają się też konkurencji Microsoftu ze startupem TypeSafe AI i roli Qwena jako bazy modeli.
 
 W drugiej części sprawdzają, gdzie taki model może być użytecznym klockiem: w routingu agentów i narzędzi, paper tradingu oraz wspomaganiu decyzji medycznych. Od historii lekarzy korzystających z ChatGPT przechodzą do MedDecider i wyników na egzaminie LEK. Dlaczego dobry wynik testu nie zastępuje wywiadu z pacjentem? I czy przyszłość należy do gotowych asystentów, czy do aplikacji łączących wyspecjalizowane modele?">
-    
+    <meta property="og:image" content="https://i.ytimg.com/vi/zJSDGgef6UU/maxresdefault.jpg">
     <link rel="shortcut icon" href="../img/favicon-32x32.png" type="image/png">
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Noto+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
@@ -139,8 +139,8 @@ W drugiej części sprawdzają, gdzie taki model może być użytecznym klockiem
     <div id="root"><div class="max-w-[960px] mx-auto px-4 py-10">
             <div class="mb-8">
                 <p class="text-primary font-bold text-sm tracking-wider uppercase mb-2">Odcinek #42</p>
-                <h1 class="text-[#0d171b] dark:text-white text-4xl font-black">Better Dev Club #42 - AI ma decydować, nie gadać. Microsoft kontra Jev</h1>
-                <p class="text-slate-500 mt-2">2026-10-15 • 35:01</p>
+                <h1 class="text-[#0d171b] dark:text-white text-4xl font-black">Better Dev Club #42 - Modele decyzyjne: Jev, Microsoft (na Qwenie) i co dalej?</h1>
+                <p class="text-slate-500 mt-2">2026-10-15 • 34:45</p>
             </div>
             <div class="prose prose-slate dark:prose-invert max-w-none text-slate-600 dark:text-slate-300 leading-relaxed mb-12">
                 <p>Czy do każdej decyzji potrzebujemy rozmowy z LLM-em? W 42. odcinku Better Dev Club Piotrek Stapp i Kajetan Duszyński rozmawiają o modelach decyzyjnych: Microsoft-Decision-1, Jev i różnicy między generowaniem odpowiedzi a wybieraniem spośród określonych opcji. Wracają do klasycznego machine learningu, omawiają structured output, spójność odpowiedzi na parafrazy oraz obietnicę podejmowania decyzji w milisekundach. Przyglądają się też konkurencji Microsoftu ze startupem TypeSafe AI i roli Qwena jako bazy modeli.
@@ -979,7 +979,7 @@ W drugiej części sprawdzają, gdzie taki model może być użytecznym klockiem
             const [loading, setLoading] = useState(true);
 
             useEffect(() => {
-                const version = "b966168401";
+                const version = "038548ae1a";
                 Promise.all([
                     fetch(`/episodes.json?v=${version}`).then(res => res.json()),
                     fetch(`/speakers.json?v=${version}`).then(res => res.json())

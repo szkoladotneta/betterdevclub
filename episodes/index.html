@@ -151,7 +151,7 @@
                         <span class="text-slate-300 dark:text-slate-700 font-bold">•</span>
                         <span class="text-slate-500 dark:text-slate-400 text-xs font-semibold">2026-10-15</span>
                     </div>
-                    <h3 class="text-slate-900 dark:text-white text-2xl font-bold leading-tight group-hover:text-primary transition-colors cursor-pointer">Better Dev Club #42 - AI ma decydować, nie gadać. Microsoft kontra Jev</h3>
+                    <h3 class="text-slate-900 dark:text-white text-2xl font-bold leading-tight group-hover:text-primary transition-colors cursor-pointer">Better Dev Club #42 - Modele decyzyjne: Jev, Microsoft (na Qwenie) i co dalej?</h3>
                     <p class="text-slate-500 dark:text-slate-400 text-base font-normal leading-relaxed mt-3 line-clamp-2">Czy do każdej decyzji potrzebujemy rozmowy z LLM-em? W 42. odcinku Better Dev Club Piotrek Stapp i Kajetan Duszyński rozmawiają o modelach decyzyjnych: Microsoft-Decision-1, Jev i różnicy między generowaniem odpowiedzi a wybieraniem spośród określonych opcji. Wracają do klasycznego machine learningu, omawiają structured output, spójność odpowiedzi na parafrazy oraz obietnicę podejmowania decyzji w milisekundach. Przyglądają się też konkurencji Microsoftu ze startupem TypeSafe AI i roli Qwena jako bazy modeli.
 
 W drugiej części sprawdzają, gdzie taki model może być użytecznym klockiem: w routingu agentów i narzędzi, paper tradingu oraz wspomaganiu decyzji medycznych. Od historii lekarzy korzystających z ChatGPT przechodzą do MedDecider i wyników na egzaminie LEK. Dlaczego dobry wynik testu nie zastępuje wywiadu z pacjentem? I czy przyszłość należy do gotowych asystentów, czy do aplikacji łączących wyspecjalizowane modele?</p>
@@ -1801,7 +1801,7 @@ Poruszamy również temat bezpieczeństwa IT: jak modele LLM pomagają w cyberne
             const [loading, setLoading] = useState(true);
 
             useEffect(() => {
-                const version = "b966168401";
+                const version = "038548ae1a";
                 Promise.all([
                     fetch(`/episodes.json?v=${version}`).then(res => res.json()),
                     fetch(`/speakers.json?v=${version}`).then(res => res.json())

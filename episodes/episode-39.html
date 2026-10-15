@@ -979,7 +979,7 @@ W drugiej części odcinka panowie dyskutują o paradoksie Maerska (gdzie wdroż
             const [loading, setLoading] = useState(true);
 
             useEffect(() => {
-                const version = "b966168401";
+                const version = "038548ae1a";
                 Promise.all([
                     fetch(`/episodes.json?v=${version}`).then(res => res.json()),
                     fetch(`/speakers.json?v=${version}`).then(res => res.json())
