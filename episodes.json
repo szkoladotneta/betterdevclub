@@ -1,5 +1,87 @@
 [
   {
+    "id": 43,
+    "num": "43",
+    "notPublished": true,
+    "title": "30 tys. zmian dziennie. Czy potrzebujesz następcy Gita? | Better Dev Club #43",
+    "date": "2026-10-22",
+    "duration": "38:01",
+    "desc": "Anthropic opisuje Scion — system kontroli wersji przygotowany dla pracy agentów AI w swoim monorepo. Przy deklarowanych ponad 30 tysiącach scalonych zmian dziennie operacje Gita stały się kosztownym wąskim gardłem. Piotrek Stapp i Kajetan Duszyński przyglądają się raportowanym przyspieszeniom i pytają, czego z tego przykładu może nauczyć się zwykły zespół: czy potrzebuje nowego narzędzia, czy najpierw lepszego procesu?\n\nW drugiej części rozmawiamy o Reverse Engineer Anything i granicach przepisywania gotowych produktów z AI. Piotrek opowiada o próbach zbudowania wyszukiwarki lotów uwzględniającej dojazd z lotniska, a Kajetan wyjaśnia, dlaczego zamiast pisać własny system mailingowy wybrał open source i AWS SES. Rozdzielamy aplikację dla siebie od produktu dla klientów oraz koszt napisania kodu od późniejszego utrzymania.",
+    "agenda": [
+      "00:00 - [30 tys. commitów] Anthropic, Scion i pytanie o wartość zmian",
+      "02:50 - [Monorepo i agenci] Ograniczenia narzędzia czy problem procesu?",
+      "04:47 - [Git a praca agentów] Kontrola wersji przy ciągłej pracy online",
+      "07:20 - [Liczby Anthropic] Raportowane czasy operacji w środowiskach ludzi i agentów",
+      "10:38 - [Nie kopiuj cudzej skali] Dlaczego rozwiązanie Anthropic nie jest receptą dla wszystkich",
+      "13:37 - [Co trafia do repozytorium?] Historia zmian, dane i pytania o proces",
+      "16:59 - [Kod pisany przez AI] Spekulacje o źródłach skali i kosztach utrzymania",
+      "17:52 - [Reverse Engineer Anything] Odtwarzanie produktów i pierwsze próby Kajetana",
+      "19:42 - [Wyszukiwarka lotów] Próby Piotrka i koszt dojazdu z lotniska",
+      "22:48 - [Czy potrzebujesz historii Gita?] Commitowanie, cofanie zmian i praca agentów",
+      "24:14 - [Pokażcie proces] Czego prowadzący chcieliby dowiedzieć się od Anthropic",
+      "25:56 - [Własny produkt czy klon?] Hype wokół AI a rzeczywiste zapotrzebowanie na pracę",
+      "28:44 - [Mailing Marca Lou] Własne narzędzie a cena gotowej usługi",
+      "31:09 - [Kod to nie cały produkt] Sprzedaż, potrzeby użytkowników i różnice skali",
+      "32:55 - [Wybór Kajetana] Open source zamiast pisania mailingu od zera",
+      "33:33 - [AWS SES] Płatność za wysłane maile zamiast liczby subskrybentów",
+      "33:59 - [Koszt utrzymania] Dlaczego nie wszystko warto pisać samemu",
+      "36:12 - [Podsumowanie] Pytania o proces Anthropic i własne produkty słuchaczy"
+    ],
+    "tags": [
+      "betterdevclub",
+      "ai",
+      "anthropic",
+      "scion",
+      "git",
+      "agenci-ai",
+      "monorepo",
+      "sdlc",
+      "reverse-engineering",
+      "vibe-coding",
+      "open-source",
+      "aws-ses",
+      "utrzymanie-oprogramowania"
+    ],
+    "platforms": {
+      "youtube": "",
+      "spotify": "",
+      "apple": ""
+    },
+    "resources": [
+      {
+        "type": "link",
+        "url": "https://www.anthropic.com/research/redesigning-source-control",
+        "label": "Anthropic: Redesigning source control",
+        "description": "Oficjalny opis Scion i migracji monorepo; wyniki raportowane przez Anthropic, nie niezależny benchmark."
+      },
+      {
+        "type": "link",
+        "url": "https://github.com/morluto/rea",
+        "label": "Reverse Engineer Anything (REA)",
+        "description": "Repozytorium narzędzi do analizy i reverse engineeringu z agentami AI."
+      },
+      {
+        "type": "link",
+        "url": "https://x.com/marclou/status/2108509543810605218",
+        "label": "Marc Lou: własna platforma newsletterowa",
+        "description": "Pierwotna relacja o odejściu od beehiiv i rozwiązaniu opartym na AWS SES oraz MongoDB."
+      },
+      {
+        "type": "link",
+        "url": "https://github.com/marclou/mailcheap",
+        "label": "MailCheap — kod źródłowy",
+        "description": "Projekt Marca Lou, licencja AGPL-3.0; self-hosting należy odróżnić od płatnej usługi Cloud."
+      },
+      {
+        "type": "link",
+        "url": "https://aws.amazon.com/ses/pricing/",
+        "label": "Amazon SES — cennik",
+        "description": "Oficjalne rozliczenie wysyłki maili; nie jest to pełny koszt systemu newsletterowego."
+      }
+    ],
+    "youtubeId": ""
+  },
+  {
     "id": 42,
     "num": "42",
     "notPublished": false,

@@ -1,0 +1,2100 @@
+{
+  "status": "Dosłowne słowa ASR, bez potwierdzenia w audio. Sprawdź nakładanie głosów i montaż.",
+  "formatted_timestamp_offset_ms": 718,
+  "clips": [
+    {
+      "title": "Chcesz być jak Anthropic? Musisz mieć ich problem",
+      "start_ms": 695246,
+      "end_ms": 729816,
+      "suggested_cut_start_ms": 694746,
+      "suggested_cut_end_ms": 730316,
+      "words": [
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "",
+          "start_ms": 695246,
+          "end_ms": 697385
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "Oni",
+          "start_ms": 697385,
+          "end_ms": 698086
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "wiesz,",
+          "start_ms": 698086,
+          "end_ms": 698436
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "oni",
+          "start_ms": 698436,
+          "end_ms": 698946
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "też",
+          "start_ms": 698946,
+          "end_ms": 699426
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "sami",
+          "start_ms": 699426,
+          "end_ms": 700586
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "w",
+          "start_ms": 700586,
+          "end_ms": 700666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "tym",
+          "start_ms": 700666,
+          "end_ms": 701466
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "artykule",
+          "start_ms": 701466,
+          "end_ms": 701966
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "piszą,",
+          "start_ms": 701966,
+          "end_ms": 702526
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "",
+          "start_ms": 702526,
+          "end_ms": 704946
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "że",
+          "start_ms": 704946,
+          "end_ms": 705066
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "oni",
+          "start_ms": 705066,
+          "end_ms": 706386
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "nie",
+          "start_ms": 706386,
+          "end_ms": 707806
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "polecają",
+          "start_ms": 707806,
+          "end_ms": 708266
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "tego",
+          "start_ms": 708266,
+          "end_ms": 708566
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "wszystkim.",
+          "start_ms": 708566,
+          "end_ms": 709286
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "Jakby",
+          "start_ms": 709386,
+          "end_ms": 709986
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "to",
+          "start_ms": 709986,
+          "end_ms": 710246
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "jest",
+          "start_ms": 710246,
+          "end_ms": 710646
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "coś,",
+          "start_ms": 710646,
+          "end_ms": 711086
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "",
+          "start_ms": 711086,
+          "end_ms": 711286
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "co",
+          "start_ms": 711286,
+          "end_ms": 711666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "rozwiązuje",
+          "start_ms": 711666,
+          "end_ms": 712346
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "problem,",
+          "start_ms": 712346,
+          "end_ms": 712846
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "ich",
+          "start_ms": 713366,
+          "end_ms": 713726
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "problem,",
+          "start_ms": 713726,
+          "end_ms": 714366
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "ale",
+          "start_ms": 714906,
+          "end_ms": 715926
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "my",
+          "start_ms": 715926,
+          "end_ms": 716506
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "nie",
+          "start_ms": 716506,
+          "end_ms": 716646
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "musimy",
+          "start_ms": 716646,
+          "end_ms": 716906
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "mieć",
+          "start_ms": 716906,
+          "end_ms": 717126
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "tego",
+          "start_ms": 717126,
+          "end_ms": 717426
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "problemu.",
+          "start_ms": 717426,
+          "end_ms": 717896
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "I",
+          "start_ms": 717896,
+          "end_ms": 718106
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "nie",
+          "start_ms": 718106,
+          "end_ms": 718306
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "mamy",
+          "start_ms": 718306,
+          "end_ms": 718486
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "tego",
+          "start_ms": 718486,
+          "end_ms": 718846
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "problemu.",
+          "start_ms": 718846,
+          "end_ms": 719276
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "Jeszcze",
+          "start_ms": 719276,
+          "end_ms": 719566
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "długo",
+          "start_ms": 719566,
+          "end_ms": 719806
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "nie",
+          "start_ms": 719806,
+          "end_ms": 719966
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "będziemy",
+          "start_ms": 719966,
+          "end_ms": 720226
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "mieć",
+          "start_ms": 720226,
+          "end_ms": 720426
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "tego",
+          "start_ms": 720426,
+          "end_ms": 720726
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "problemu,",
+          "start_ms": 720726,
+          "end_ms": 721526
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "wydaje",
+          "start_ms": 721526,
+          "end_ms": 721806
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "mi",
+          "start_ms": 721806,
+          "end_ms": 722066
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "się.",
+          "start_ms": 722066,
+          "end_ms": 722446
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "",
+          "start_ms": 722446,
+          "end_ms": 722686
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "no,",
+          "start_ms": 722686,
+          "end_ms": 723426
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "no",
+          "start_ms": 723426,
+          "end_ms": 724006
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "dobra,",
+          "start_ms": 724006,
+          "end_ms": 724346
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "dawaj,",
+          "start_ms": 724346,
+          "end_ms": 724756
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "dawaj.",
+          "start_ms": 724756,
+          "end_ms": 725042
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "Chcesz",
+          "start_ms": 726267,
+          "end_ms": 726487
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "być",
+          "start_ms": 726487,
+          "end_ms": 726667
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "jak",
+          "start_ms": 726667,
+          "end_ms": 726927
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "Antropik?",
+          "start_ms": 726927,
+          "end_ms": 727767
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "To",
+          "start_ms": 727987,
+          "end_ms": 728307
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "musisz",
+          "start_ms": 728307,
+          "end_ms": 728587
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "mieć",
+          "start_ms": 728587,
+          "end_ms": 728787
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "ich",
+          "start_ms": 728787,
+          "end_ms": 728987
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "Hehehe",
+          "start_ms": 728910,
+          "end_ms": 729816
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "problem.",
+          "start_ms": 728987,
+          "end_ms": 729309
+        }
+      ]
+    },
+    {
+      "title": "Pokażcie proces, nie tylko narzędzie",
+      "start_ms": 1455611,
+      "end_ms": 1484223,
+      "suggested_cut_start_ms": 1455111,
+      "suggested_cut_end_ms": 1484723,
+      "words": [
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "ale",
+          "start_ms": 1455611,
+          "end_ms": 1455831
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "się",
+          "start_ms": 1455626,
+          "end_ms": 1455746
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "nie",
+          "start_ms": 1455746,
+          "end_ms": 1455926
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "wtedy",
+          "start_ms": 1455831,
+          "end_ms": 1456131
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "wydaje,",
+          "start_ms": 1455926,
+          "end_ms": 1456246
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "właśnie",
+          "start_ms": 1456131,
+          "end_ms": 1456491
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "żeby",
+          "start_ms": 1456246,
+          "end_ms": 1456426
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "tak",
+          "start_ms": 1456426,
+          "end_ms": 1456686
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "proces,",
+          "start_ms": 1456491,
+          "end_ms": 1456951
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "to...",
+          "start_ms": 1456686,
+          "end_ms": 1456818
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "pokażcie",
+          "start_ms": 1456971,
+          "end_ms": 1458251
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "ten",
+          "start_ms": 1458251,
+          "end_ms": 1458471
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "proces,",
+          "start_ms": 1458471,
+          "end_ms": 1458911
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "bo",
+          "start_ms": 1458911,
+          "end_ms": 1459091
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "to",
+          "start_ms": 1459091,
+          "end_ms": 1459351
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "proces",
+          "start_ms": 1459351,
+          "end_ms": 1459571
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "jest",
+          "start_ms": 1459571,
+          "end_ms": 1459831
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "cenny,",
+          "start_ms": 1459831,
+          "end_ms": 1461171
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "Dokładnie.",
+          "start_ms": 1461070,
+          "end_ms": 1461702
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "",
+          "start_ms": 1461171,
+          "end_ms": 1461331
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "nie",
+          "start_ms": 1461331,
+          "end_ms": 1462011
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "narzędzie.",
+          "start_ms": 1462011,
+          "end_ms": 1462831
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "Bo",
+          "start_ms": 1462971,
+          "end_ms": 1463091
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "to",
+          "start_ms": 1463091,
+          "end_ms": 1463271
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "w",
+          "start_ms": 1463271,
+          "end_ms": 1463391
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "ogóle,",
+          "start_ms": 1463391,
+          "end_ms": 1465131
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "w",
+          "start_ms": 1465271,
+          "end_ms": 1465571
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "ogóle,",
+          "start_ms": 1465571,
+          "end_ms": 1465861
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "wiesz,",
+          "start_ms": 1465861,
+          "end_ms": 1466111
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "",
+          "start_ms": 1466111,
+          "end_ms": 1466271
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "naprawdę,",
+          "start_ms": 1466271,
+          "end_ms": 1467111
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "naprawdę",
+          "start_ms": 1467111,
+          "end_ms": 1467491
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "bało.",
+          "start_ms": 1467491,
+          "end_ms": 1467771
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "",
+          "start_ms": 1467771,
+          "end_ms": 1468071
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "I",
+          "start_ms": 1468071,
+          "end_ms": 1468331
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "wtedy,",
+          "start_ms": 1468331,
+          "end_ms": 1468621
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "wiesz,",
+          "start_ms": 1468621,
+          "end_ms": 1468871
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "wtedy",
+          "start_ms": 1468871,
+          "end_ms": 1469311
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "jakby",
+          "start_ms": 1469311,
+          "end_ms": 1469951
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "pokazali",
+          "start_ms": 1469951,
+          "end_ms": 1470491
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "proces",
+          "start_ms": 1470491,
+          "end_ms": 1470911
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "i",
+          "start_ms": 1470911,
+          "end_ms": 1471051
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "mogli",
+          "start_ms": 1471051,
+          "end_ms": 1471891
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "zrozumieć",
+          "start_ms": 1471891,
+          "end_ms": 1472291
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "jak",
+          "start_ms": 1472291,
+          "end_ms": 1472531
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "oni",
+          "start_ms": 1472531,
+          "end_ms": 1472891
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "inaczej",
+          "start_ms": 1472891,
+          "end_ms": 1473231
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "pracują,",
+          "start_ms": 1473231,
+          "end_ms": 1474511
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "bo",
+          "start_ms": 1474531,
+          "end_ms": 1474691
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "oni",
+          "start_ms": 1474691,
+          "end_ms": 1474851
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "są...",
+          "start_ms": 1474851,
+          "end_ms": 1475191
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "Dobra,",
+          "start_ms": 1475191,
+          "end_ms": 1475731
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "Antropik",
+          "start_ms": 1475771,
+          "end_ms": 1476211
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "jest",
+          "start_ms": 1476211,
+          "end_ms": 1476391
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "na",
+          "start_ms": 1476391,
+          "end_ms": 1476551
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "skali,",
+          "start_ms": 1476551,
+          "end_ms": 1476921
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "na",
+          "start_ms": 1476921,
+          "end_ms": 1477091
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "której",
+          "start_ms": 1477091,
+          "end_ms": 1477411
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "przynajmniej",
+          "start_ms": 1477411,
+          "end_ms": 1477971
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "ja",
+          "start_ms": 1477971,
+          "end_ms": 1478211
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "nie",
+          "start_ms": 1478211,
+          "end_ms": 1478351
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "spotkałem",
+          "start_ms": 1478351,
+          "end_ms": 1478811
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "jeszcze",
+          "start_ms": 1478811,
+          "end_ms": 1479131
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "takiej",
+          "start_ms": 1479131,
+          "end_ms": 1479371
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "firmy,",
+          "start_ms": 1479371,
+          "end_ms": 1479771
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "",
+          "start_ms": 1479771,
+          "end_ms": 1480711
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "nie",
+          "start_ms": 1480711,
+          "end_ms": 1481031
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "mam",
+          "start_ms": 1481031,
+          "end_ms": 1481151
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "żadnego",
+          "start_ms": 1481151,
+          "end_ms": 1481631
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "znajomego",
+          "start_ms": 1481631,
+          "end_ms": 1482071
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "w",
+          "start_ms": 1482071,
+          "end_ms": 1482271
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "takiej",
+          "start_ms": 1482271,
+          "end_ms": 1482491
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "firmie,",
+          "start_ms": 1482491,
+          "end_ms": 1483341
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "to",
+          "start_ms": 1483341,
+          "end_ms": 1483491
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "ja",
+          "start_ms": 1483491,
+          "end_ms": 1483651
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "jak",
+          "start_ms": 1483651,
+          "end_ms": 1483791
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "gdyby...",
+          "start_ms": 1483791,
+          "end_ms": 1484223
+        }
+      ]
+    },
+    {
+      "title": "Mailing: płacę za wysłane maile, nie za listę",
+      "start_ms": 2014638,
+      "end_ms": 2031854,
+      "suggested_cut_start_ms": 2014138,
+      "suggested_cut_end_ms": 2032354,
+      "words": [
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "Pod",
+          "start_ms": 2014638,
+          "end_ms": 2015278
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "spodem",
+          "start_ms": 2015278,
+          "end_ms": 2015598
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "jest",
+          "start_ms": 2015598,
+          "end_ms": 2015838
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "AWS",
+          "start_ms": 2015838,
+          "end_ms": 2016258
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "SES,",
+          "start_ms": 2016258,
+          "end_ms": 2016918
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "",
+          "start_ms": 2016918,
+          "end_ms": 2017198
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "który",
+          "start_ms": 2017198,
+          "end_ms": 2017498
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "wysyła",
+          "start_ms": 2017498,
+          "end_ms": 2018398
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "maile.",
+          "start_ms": 2018398,
+          "end_ms": 2018818
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "",
+          "start_ms": 2018818,
+          "end_ms": 2019618
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "I",
+          "start_ms": 2019618,
+          "end_ms": 2020358
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "dlatego",
+          "start_ms": 2020358,
+          "end_ms": 2021158
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "teraz",
+          "start_ms": 2021158,
+          "end_ms": 2021538
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "płacę",
+          "start_ms": 2021538,
+          "end_ms": 2022018
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "za",
+          "start_ms": 2022018,
+          "end_ms": 2022118
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "wysłanego",
+          "start_ms": 2022118,
+          "end_ms": 2022878
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "maila,",
+          "start_ms": 2022878,
+          "end_ms": 2023248
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "a",
+          "start_ms": 2023248,
+          "end_ms": 2023418
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "nie",
+          "start_ms": 2023418,
+          "end_ms": 2023498
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "za",
+          "start_ms": 2023498,
+          "end_ms": 2023718
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "subskrybenta.",
+          "start_ms": 2023718,
+          "end_ms": 2024498
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "",
+          "start_ms": 2024498,
+          "end_ms": 2025018
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "I",
+          "start_ms": 2025018,
+          "end_ms": 2025158
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "to",
+          "start_ms": 2025158,
+          "end_ms": 2025638
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "dzięki",
+          "start_ms": 2025638,
+          "end_ms": 2025878
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "temu",
+          "start_ms": 2025878,
+          "end_ms": 2026338
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "przy",
+          "start_ms": 2026338,
+          "end_ms": 2026558
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "mojej",
+          "start_ms": 2026558,
+          "end_ms": 2026998
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "skali",
+          "start_ms": 2026998,
+          "end_ms": 2027358
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "i",
+          "start_ms": 2027358,
+          "end_ms": 2027578
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "przy",
+          "start_ms": 2027578,
+          "end_ms": 2027698
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "tym,",
+          "start_ms": 2027698,
+          "end_ms": 2027858
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "ile",
+          "start_ms": 2027858,
+          "end_ms": 2028018
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "wysyłam",
+          "start_ms": 2028018,
+          "end_ms": 2028438
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "tych",
+          "start_ms": 2028438,
+          "end_ms": 2028678
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "maili",
+          "start_ms": 2028678,
+          "end_ms": 2029238
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "miesięcznie,",
+          "start_ms": 2029238,
+          "end_ms": 2029998
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "",
+          "start_ms": 2029998,
+          "end_ms": 2030338
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "bardzo",
+          "start_ms": 2030338,
+          "end_ms": 2030558
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "się",
+          "start_ms": 2030558,
+          "end_ms": 2031398
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "opłaca.",
+          "start_ms": 2031398,
+          "end_ms": 2031854
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "Ale",
+          "start_ms": 2031612,
+          "end_ms": 2031872
+        }
+      ]
+    },
+    {
+      "title": "Open source zamiast pisania wszystkiego od nowa",
+      "start_ms": 2050574,
+      "end_ms": 2109166,
+      "suggested_cut_start_ms": 2050074,
+      "suggested_cut_end_ms": 2109666,
+      "words": [
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "No",
+          "start_ms": 2050574,
+          "end_ms": 2051014
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "klików,",
+          "start_ms": 2050912,
+          "end_ms": 2051522
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "właśnie,",
+          "start_ms": 2051014,
+          "end_ms": 2051434
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "no",
+          "start_ms": 2051434,
+          "end_ms": 2051674
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "nie",
+          "start_ms": 2051522,
+          "end_ms": 2051772
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "właśnie",
+          "start_ms": 2051674,
+          "end_ms": 2052134
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "klików.",
+          "start_ms": 2051772,
+          "end_ms": 2052171
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "i",
+          "start_ms": 2052134,
+          "end_ms": 2052574
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "tak,",
+          "start_ms": 2052574,
+          "end_ms": 2052814
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "tak",
+          "start_ms": 2052814,
+          "end_ms": 2053154
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "i",
+          "start_ms": 2053154,
+          "end_ms": 2053354
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "myślałem",
+          "start_ms": 2053354,
+          "end_ms": 2053734
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "o",
+          "start_ms": 2053734,
+          "end_ms": 2053914
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "tym,",
+          "start_ms": 2053914,
+          "end_ms": 2054054
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "żeby",
+          "start_ms": 2054054,
+          "end_ms": 2054234
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "to",
+          "start_ms": 2054234,
+          "end_ms": 2054514
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "zwaibować,",
+          "start_ms": 2054514,
+          "end_ms": 2055014
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "ale",
+          "start_ms": 2055014,
+          "end_ms": 2055334
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "okazuje",
+          "start_ms": 2055334,
+          "end_ms": 2055734
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "się,",
+          "start_ms": 2055734,
+          "end_ms": 2055954
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "że",
+          "start_ms": 2055954,
+          "end_ms": 2056094
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "są",
+          "start_ms": 2056094,
+          "end_ms": 2056314
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "świetne,",
+          "start_ms": 2056314,
+          "end_ms": 2057714
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "świetne",
+          "start_ms": 2057714,
+          "end_ms": 2058254
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "produkty",
+          "start_ms": 2058254,
+          "end_ms": 2058674
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "open",
+          "start_ms": 2058674,
+          "end_ms": 2058994
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "source'owe,",
+          "start_ms": 2058994,
+          "end_ms": 2059974
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "dzięki",
+          "start_ms": 2060054,
+          "end_ms": 2060374
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "czemu",
+          "start_ms": 2060374,
+          "end_ms": 2060734
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "ja",
+          "start_ms": 2060734,
+          "end_ms": 2061114
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "się",
+          "start_ms": 2061114,
+          "end_ms": 2061274
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "nie",
+          "start_ms": 2061274,
+          "end_ms": 2061434
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "muszę",
+          "start_ms": 2061434,
+          "end_ms": 2061674
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "martwić",
+          "start_ms": 2061674,
+          "end_ms": 2062134
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "o",
+          "start_ms": 2062134,
+          "end_ms": 2062294
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "utrzymanie",
+          "start_ms": 2062294,
+          "end_ms": 2062854
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "tego",
+          "start_ms": 2062854,
+          "end_ms": 2063134
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "wszystkiego,",
+          "start_ms": 2063134,
+          "end_ms": 2064104
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "więc",
+          "start_ms": 2064104,
+          "end_ms": 2064674
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "skorzystałem",
+          "start_ms": 2064674,
+          "end_ms": 2065354
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "po",
+          "start_ms": 2065354,
+          "end_ms": 2065594
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "prostu",
+          "start_ms": 2065594,
+          "end_ms": 2065774
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "z",
+          "start_ms": 2065774,
+          "end_ms": 2066034
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "produktu,",
+          "start_ms": 2066034,
+          "end_ms": 2066474
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "który",
+          "start_ms": 2066474,
+          "end_ms": 2066554
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "jest",
+          "start_ms": 2066554,
+          "end_ms": 2066774
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "open",
+          "start_ms": 2066774,
+          "end_ms": 2067074
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "source,",
+          "start_ms": 2067074,
+          "end_ms": 2067694
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "",
+          "start_ms": 2067694,
+          "end_ms": 2068054
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "za",
+          "start_ms": 2068054,
+          "end_ms": 2068374
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "który",
+          "start_ms": 2068374,
+          "end_ms": 2068514
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "nie",
+          "start_ms": 2068514,
+          "end_ms": 2068714
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "muszę",
+          "start_ms": 2068714,
+          "end_ms": 2068934
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "płacić,",
+          "start_ms": 2068934,
+          "end_ms": 2069474
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "no",
+          "start_ms": 2069474,
+          "end_ms": 2069714
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "dobra,",
+          "start_ms": 2069714,
+          "end_ms": 2069954
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "no",
+          "start_ms": 2069954,
+          "end_ms": 2070114
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "muszę",
+          "start_ms": 2070114,
+          "end_ms": 2070294
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "za",
+          "start_ms": 2070294,
+          "end_ms": 2070434
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "hosting",
+          "start_ms": 2070434,
+          "end_ms": 2070734
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "zapłacić,",
+          "start_ms": 2070734,
+          "end_ms": 2071254
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "żeby",
+          "start_ms": 2071254,
+          "end_ms": 2071414
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "to",
+          "start_ms": 2071414,
+          "end_ms": 2071594
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "gdzieś",
+          "start_ms": 2071594,
+          "end_ms": 2071794
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "umieścić,",
+          "start_ms": 2071794,
+          "end_ms": 2072314
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "ale",
+          "start_ms": 2072314,
+          "end_ms": 2072474
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "no",
+          "start_ms": 2072474,
+          "end_ms": 2072674
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "tak",
+          "start_ms": 2072674,
+          "end_ms": 2072754
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "czy",
+          "start_ms": 2072754,
+          "end_ms": 2072914
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "inaczej",
+          "start_ms": 2072914,
+          "end_ms": 2073134
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "musiałbym",
+          "start_ms": 2073134,
+          "end_ms": 2073594
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "sobie",
+          "start_ms": 2073594,
+          "end_ms": 2073734
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "to",
+          "start_ms": 2073734,
+          "end_ms": 2073914
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "gdzieś",
+          "start_ms": 2073914,
+          "end_ms": 2074094
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "umieścić",
+          "start_ms": 2074094,
+          "end_ms": 2074994
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "i",
+          "start_ms": 2074994,
+          "end_ms": 2076014
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "jakby,",
+          "start_ms": 2076014,
+          "end_ms": 2076814
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "okej,",
+          "start_ms": 2076814,
+          "end_ms": 2077194
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "nie",
+          "start_ms": 2077194,
+          "end_ms": 2077374
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "polecam",
+          "start_ms": 2077374,
+          "end_ms": 2077674
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "tego",
+          "start_ms": 2077674,
+          "end_ms": 2077974
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "wszystkim,",
+          "start_ms": 2077974,
+          "end_ms": 2078974
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "",
+          "start_ms": 2078974,
+          "end_ms": 2079594
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "bo...",
+          "start_ms": 2079594,
+          "end_ms": 2079858
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "Do",
+          "start_ms": 2079982,
+          "end_ms": 2080182
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "tego",
+          "start_ms": 2080182,
+          "end_ms": 2080542
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "trzeba",
+          "start_ms": 2080542,
+          "end_ms": 2081062
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "jakąś",
+          "start_ms": 2081062,
+          "end_ms": 2081802
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "minimalną",
+          "start_ms": 2081802,
+          "end_ms": 2082262
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "wiedzę",
+          "start_ms": 2082262,
+          "end_ms": 2082522
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "techniczną,",
+          "start_ms": 2082522,
+          "end_ms": 2083012
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "aczkolwiek",
+          "start_ms": 2083012,
+          "end_ms": 2083422
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "przy",
+          "start_ms": 2083422,
+          "end_ms": 2083582
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "agentach",
+          "start_ms": 2083582,
+          "end_ms": 2084282
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "to",
+          "start_ms": 2084282,
+          "end_ms": 2084642
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "też",
+          "start_ms": 2084642,
+          "end_ms": 2084842
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "ja",
+          "start_ms": 2084842,
+          "end_ms": 2084982
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "głównie",
+          "start_ms": 2084982,
+          "end_ms": 2085322
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "to",
+          "start_ms": 2085322,
+          "end_ms": 2085562
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "z",
+          "start_ms": 2085562,
+          "end_ms": 2085642
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "czatem",
+          "start_ms": 2085642,
+          "end_ms": 2085862
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "GPT",
+          "start_ms": 2085862,
+          "end_ms": 2086302
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "po",
+          "start_ms": 2086302,
+          "end_ms": 2086482
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "prostu",
+          "start_ms": 2086482,
+          "end_ms": 2086702
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "sobie",
+          "start_ms": 2086702,
+          "end_ms": 2086942
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "skonfigurowałem",
+          "start_ms": 2086942,
+          "end_ms": 2087842
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "i",
+          "start_ms": 2087842,
+          "end_ms": 2089182
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "jak",
+          "start_ms": 2089182,
+          "end_ms": 2089442
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "mam",
+          "start_ms": 2089442,
+          "end_ms": 2089622
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "jakiś",
+          "start_ms": 2089622,
+          "end_ms": 2089922
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "problem",
+          "start_ms": 2089922,
+          "end_ms": 2090302
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "to",
+          "start_ms": 2090302,
+          "end_ms": 2090722
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "do",
+          "start_ms": 2090722,
+          "end_ms": 2090922
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "niego",
+          "start_ms": 2090922,
+          "end_ms": 2091102
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "wysyłam",
+          "start_ms": 2091102,
+          "end_ms": 2091562
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "i",
+          "start_ms": 2091562,
+          "end_ms": 2091782
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "on",
+          "start_ms": 2091782,
+          "end_ms": 2091922
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "te",
+          "start_ms": 2091922,
+          "end_ms": 2092182
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "problemy",
+          "start_ms": 2092182,
+          "end_ms": 2092502
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "rozwiązuje",
+          "start_ms": 2092502,
+          "end_ms": 2093402
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "już",
+          "start_ms": 2093402,
+          "end_ms": 2093982
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "w",
+          "start_ms": 2093982,
+          "end_ms": 2094062
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "tej",
+          "start_ms": 2094062,
+          "end_ms": 2094142
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "chwili",
+          "start_ms": 2094142,
+          "end_ms": 2094402
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "nawet",
+          "start_ms": 2094402,
+          "end_ms": 2094662
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "za",
+          "start_ms": 2094662,
+          "end_ms": 2094822
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "mnie",
+          "start_ms": 2094822,
+          "end_ms": 2094942
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "po",
+          "start_ms": 2094942,
+          "end_ms": 2095162
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "prostu.",
+          "start_ms": 2095162,
+          "end_ms": 2095542
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "",
+          "start_ms": 2095542,
+          "end_ms": 2096862
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "Ale",
+          "start_ms": 2096862,
+          "end_ms": 2097382
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "potrzeba",
+          "start_ms": 2097382,
+          "end_ms": 2097922
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "od",
+          "start_ms": 2097922,
+          "end_ms": 2099162
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "czasu",
+          "start_ms": 2099162,
+          "end_ms": 2099442
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "do",
+          "start_ms": 2099442,
+          "end_ms": 2099542
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "czasu",
+          "start_ms": 2099542,
+          "end_ms": 2099842
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "jakiejś",
+          "start_ms": 2099842,
+          "end_ms": 2100482
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "tam",
+          "start_ms": 2100482,
+          "end_ms": 2100622
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "delikatnej",
+          "start_ms": 2100622,
+          "end_ms": 2101102
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "wiedzy,",
+          "start_ms": 2101102,
+          "end_ms": 2101832
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "żeby",
+          "start_ms": 2101832,
+          "end_ms": 2102162
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "rozumieć",
+          "start_ms": 2102162,
+          "end_ms": 2102682
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "co",
+          "start_ms": 2102682,
+          "end_ms": 2102822
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "się",
+          "start_ms": 2102822,
+          "end_ms": 2103002
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "właściwie",
+          "start_ms": 2103002,
+          "end_ms": 2103422
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "dzieje,",
+          "start_ms": 2103422,
+          "end_ms": 2103772
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "ale",
+          "start_ms": 2103772,
+          "end_ms": 2103942
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "poza",
+          "start_ms": 2103942,
+          "end_ms": 2104342
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "tym",
+          "start_ms": 2104342,
+          "end_ms": 2105202
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "to",
+          "start_ms": 2105202,
+          "end_ms": 2105862
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "jest",
+          "start_ms": 2105862,
+          "end_ms": 2106122
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "świetne",
+          "start_ms": 2106122,
+          "end_ms": 2106522
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "narzędzie,",
+          "start_ms": 2106522,
+          "end_ms": 2106882
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "to",
+          "start_ms": 2106882,
+          "end_ms": 2107042
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "jest",
+          "start_ms": 2107042,
+          "end_ms": 2107202
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "naprawdę",
+          "start_ms": 2107202,
+          "end_ms": 2107482
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "świetne",
+          "start_ms": 2107482,
+          "end_ms": 2107982
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "narzędzie",
+          "start_ms": 2107982,
+          "end_ms": 2108742
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "i...",
+          "start_ms": 2108742,
+          "end_ms": 2109166
+        }
+      ]
+    }
+  ]
+}
