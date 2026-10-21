@@ -1,0 +1,439 @@
+{
+  "transcript": [
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:00",
+      "text": "Cześć, Piotrek."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:00",
+      "text": "Cześć, Kajpek."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:02",
+      "text": "Piotrek, dlaczego Claude zrobił 30 tysięcy commitów?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:05",
+      "text": "No pewnie dostał polecenie takiego promtazji mało zmiany taką mini mini mini mini."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:13",
+      "text": "Dzień dobry w kolejnym tygodniu. Właśnie, Claude czy właściwie Anthropic opublikował ostatnio artykuł i o tym sobie dzisiaj porozmawiamy, że stwierdzili, że muszą zastąpić Gita. Muszą zastąpić Gita, bo Git przestaje być wydajny przy ich skali. Natomiast zaczęli tam pisać o tym, że robią 30 tysięcy commitów dziennie. I bardzo dobrze zadałeś pytanie na samym początku, właśnie zanim jeszcze weszliśmy na wizję, gdzie są te funkcjonalności, które oni teoretycznie wrzucają, ja się pytam."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:51",
+      "text": "No bo to chyba jest kluczowe, nie? W sensie, bo to... No przypomniał mi się taki dowcip, nie? Powiedzmy, że firma, duża firma tam nazwijmy to azjatycka, kiedyś kolega opowiadał, że tam mierzyli produktywność programistów metodą commitów, więc ktoś napisał commita na każdego keystroke’a, napisał sobie hooka i po prostu zasuwało. No wiesz, no każde klawiaturę, no skoro twój KPI był postawiony, liczba commitów dziennie, no to co robisz? Commitujesz, nie? Więc on podobno napisał taką funkcję, że na każdy klawisz, który nacisnął, od razu mu robiło commita. Dzięki temu był, jak gdyby, lider całości rozwiązań. Znaczy, to właśnie, dobra. Nie oszukujmy się. to jak gdyby tłum ludzi używa tooli Claude’a albo w pracy, albo w domu, albo gdziekolwiek. Przynajmniej pewnie z naszych słuchaczy. A przynajmniej wśród nas też. Ja w tej chwili nie używam, ale to jest taki chyba mój okres przejściowy, w tej chwili nie używam. Kajetan, ty chyba używasz. No to 50 % badanej populacji używa Claude Code. Przynajmniej dzisiaj użyło. No i tam nie ma tych funkcjonalności. Dobra, ja nawet myślałem, czy może modelach coś po prostu commitują, ale nadal 30 tysięcy commitów dziennie. To jest jakaś..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "02:02",
+      "text": "Bardzo dużo."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "02:23",
+      "text": "Kosmiczna liczba. W sensie takim... No i rozumiem, że Git przestał wystarczyć. Rozumiem, że pewnie u Ciebie w pracy, u mnie w pracy i bardzo wielu miejscach ludziom zakazuje się robić merge commitów. Mają być squash commit przy PR-ach, bo historia może iść w, bo nie ma znaczenia, bo to ważne, że ten PR przeszedł. Żeby potem się dawało jakkolwiek to drzewko ogarnąć. No to gdzie są funkcjonalności?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "02:50",
+      "text": "No, teoretycznie, no właśnie, ale wiesz, jakby mi w całym tym artykule kilka rzeczy przykuło moją uwagę. Po pierwsze to, że mówili, że ich repozytorium to monorepo. I jedyna rzecz, której tutaj chciałem powiedzieć, to oznacza, bo parę razy już o tym rozmawialiśmy i kilka osób się nas pytało, jak ogarnąć właśnie agentów, mamy multirepo. No i jak widać... nadal jesteśmy w tym miejscu, w którym agenci nie ogarniają multirepo i widać to nawet po największej firmie, która tworzy te narzędzia. Ale to jest jedna sprawa. Druga sprawa, tak jak powiedziałeś, czy tam klęknął Git, czy może trochę klęknął proces? to też można by się... Git na pewno, no okej."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "03:44",
+      "text": "Znaczy Git na pewno klęknął. Poczekaj, Git to na pewno klęknął."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "03:49",
+      "text": "No okej, ale czy z właściwych powodów jakby? No bo Git ma prawo klęknąć przy takiej skali, ale z drugiej strony, czy nie dałoby się zoptymalizować ich procesu tak, żeby jednak on nie klękał? Ale okej, no zostawmy to. Niech będzie, że to są ludzie mądrzejsi od nas, mieli swoje powody. Natomiast tak, mówimy oczywiście o Scionie. Nie wiemy do końca, jak to się wymawia, czy zcają, czy ścią. W każdym razie wymyślili coś nowego. No może, ok, o tym też sobie za chwilę porozmawiamy, na ile to jest nowe, ale faktycznie zmienili w pewien sposób swój sposób używania kontroli wersji."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "04:22",
+      "text": "Ścionu, ścionu."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "04:47",
+      "text": "Właśnie ze względu na to, że Git był projektowany do pracy offline'owej. Czyli ściągasz sobie repo, coś tam sobie robisz lokalnie, przetestujesz, pyk, wypychasz i jest gitara. Nawet jeżeli tych zmian byłoby więcej, to jednak te zespoły, w których pracowaliśmy, były ograniczone. Teraz oni powiedzieli, no dobra, ale my mamy coś, co zasuwa nam 24 na 7. Cały czas jest online. Cały czas potrzebuje pobierać zmiany, cały czas potrzebuje, jak już wiemy, commitować, cały czas potrzebuje być na bieżąco z tym wszystkim, co tam się dzieje. I jeszcze dodatkowo, jakby agenci nie mogą sobie wchodzić w paradę. No faktycznie w takiej sytuacji Git może nie wystarczać albo może nie był do tego zaprojektowany. I to znowu nam delikatnie zmienia perspektywę tego, jak powinniśmy patrzeć na całe SDLC. Realnie, bo jeżeli w ich przypadku mamy sytuację, której narzędzie, które znamy od wielu, wielu lat, nie pamiętam kiedy Git został stworzony, ale to już było dosyć dawno i teraz nagle się okazuje, że są przypadki, w których faktycznie nie jest on wystarczający. Co jest super ciekawe, bo mam wrażenie, że przez całą naszą karierę byliśmy w stanie na wszystko narzekać. Absolutnie na wszystko, oprócz Gita. Git zawsze był tą jedną rzeczą, na którą nie narzekaliśmy. Narzekaliśmy na metodologię, narzekaliśmy na... No co, zdarzało ci się na Gita?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "06:28",
+      "text": "Oj! Młodszy jesteś. Ja zaczynałem od... Ja na studiach to już miałem Final Final V2. Ja zaczynałem... Pierwszą robotę, jaką miałem, to CVS-a żeśmy mieli. Potem mieliśmy SVN-a."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "06:46",
+      "text": "No okej, rozumiem, ale właśnie od kiedy Git się pojawił, no to na Gita się nie narzekało. A na wszystko inne narzekaliśmy. Na Agila narzekamy, na toole narzekamy, na IDE narzekamy, na architekturę narzekamy, no na wszystko narzekamy, tak już mamy. A Git był świętością. Git został w spokoju, bo jeżeli narzekasz na Gita, to wszyscy ci mówili, to dlatego, że nie umiesz Gita. A jak się nauczysz Gita... To wtedy będzie dobrze. No i nagle się okazuje, że wcale niekoniecznie."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "07:20",
+      "text": "Ale widzisz, bo to znaczy oni opublikowali dość fajne, wiesz, oni opublikowali w zasadzie dlaczego, nie? Dobra, znowu możemy sobie dyskutować, to 30 tysięcy, czy to świadomie, nieświadomie i tak dalej, nie? pokazali liczbę, nie warto spojrzeć na ten artykuł, zobaczysz, nie? Bo to, wiesz, to jest taki typowy sposób na coś nas boli, więc próbujemy zoptymalizować to, co nas boli, nie? Czyli jak gdyby zaczynamy się bawić w tym, co jest nie tak, nie? Najbardziej chyba z taką komendą, która jak gdyby ich najbardziej bolała, przynajmniej jest przerażająca, jest tak, bo jedno to jest developer environment, a drugie to jest agent environment. Nie do końca, trochę mam jakiś taki dziwny ten, że nie do końca wiem, ale w developer environment, no to pull latest w Gicie brało im 87 sekund, 3 minuty. Jezu, przepraszam, półtorej minuty."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "08:17",
+      "text": "Półtorej minuty."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "08:19",
+      "text": "Ten nowy Scion ma 3,5 sekundy. Czyli natychmiast. Checkout z 15 sekund na 1 przycznyk i 1 sekundę. To w ogóle śmieszne, że pull latest, a checkout. Aż taka różnica, dobra. Rebase 13 na 2,7. Status 4 sekund na 19 milisekund, czy w zasadzie na 0. Commit w zasadzie pozostał tak sam z 1.4 na 1.1, diff z pół sekundy na 67 ms. Ale roboty to widać dopiero w agent environment. Znaczy to już było z półtorej minuty na 3,5 sekundy. To już to tu na pewno jest, ale nie wiem jak często robisz pull latest. Ja mówiąc szczerze rzadko. Ale może dlatego, że nie mam aż trójki commitów."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "09:12",
+      "text": "No właśnie, my nie programujemy, więc nie musimy."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "09:16",
+      "text": "Ja mnie agent programuję, nie są mnie tam. No więc mój agent, ich agent, słuchaj, jest 7,1 minuty new worktree na 5 sekund. Czyli jak gdyby new worktree to jest jak gdyby, no czy wiecie, jak robicie wiele zmian na raz, to new worktree jest jak gdyby zaczynacie pracę, nie? To jak 7 minut w ogóle na to, żeby zacząć pracę, no to nie dziwię się, nie?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "09:29",
+      "text": "No, to jest olbrzymia zmiana."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "09:42",
+      "text": "Nie wiem, dlaczego pull latest zeszło tu, bo właśnie tu jest 3 minuty i spadło na 9 sekund. Nie wiem, czym się różni, dlaczego w agent environment i w developer environment jest inaczej. wiem. No bo tam pozostała rzecz tam commit 18 sekund na niecało sekundę status 4, 3 na 0, 2. A więc jak gdyby mają też taką statystykę, że total source control time per change request. spadło im z 34 minut na 3,7 minut. No to to jest wiecie, to jest kolosalne. To znaczy, że agent głównie nic nie robił, bo czekał. Co daje, dali piękną statystykę 11 tysięcy agentogodzin na dzień. Nie widziałem już tutaj, miałem więc nowa miała. Co też dało im niesamowity wzrost na CI, bo czekał ten start of compute jobs ze 175 sekund na 22."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "10:26",
+      "text": "Gdzie to kuczyny?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "10:38",
+      "text": "I checkout 31 na 3. Dokładnie zrobili to, co bolało. Zobaczyli, że to boli i rozwiązali to narzędziem. Nie wiem, czy to jest najlepszy sposób, nie proces powinien zmienić, ale być może zmiana procesu byłaby trudniejsza. Nie wiesz. Jak gdyby policzyli, szybko przeliczyli, mają efekty takie, że są happy. Ja mam wrażenie, że to nie oznacza, że każda firma będzie z tym happy. A czy jestem przekonany, że tu wciela się konsultanta McKinsey czy tam innego Deloitte'a? Uwaga, jestem konsultantem z przyszłości z Scion. To coś, co spowoduje, że będziesz tak dobry jak Anthropic. Koniec cytatu."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "11:34",
+      "text": "Oni wiesz, oni też sami w tym artykule piszą, że oni nie polecają tego wszystkim. Jakby to jest coś, co rozwiązuje problem, ich problem, ale my nie musimy mieć tego problemu. I nie mamy tego problemu. Jeszcze długo nie będziemy mieć tego problemu, wydaje mi się. no, no dobra, dawaj, dawaj."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "12:05",
+      "text": "Chcesz być jak Anthropic? To musisz mieć ich problem."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "12:08",
+      "text": "Hehehe. No oczywiście."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "12:12",
+      "text": "Może chyba z tego odcinka będą takie rolki w podstaw jako konsultant przyszłości. Złote cytaty."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "12:18",
+      "text": "Oczywiście, jeżeli chcesz sobie zrobić problemy, to wymyśl je w stronę tego, jakie problemy ma Anthropic i spróbuj je rozwiązać."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "12:27",
+      "text": "Nie wymyślaj swoich problemów, a skopiuj je od tych, którymi chcesz zostać w przyszłości. Dobra, już, przepraszam. Już chyba wystarczy mi na dzisiaj wyciek konsultantów, bo jeszcze coś mnie z niej geuje."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "12:45",
+      "text": "Dziękuję, dziękuję bardzo, no właśnie, to jest coś, z czym realnie nie będziemy musieli się mierzyć jeszcze przez długi czas. Ja jestem w ogóle cały czas, ja się zastanawiam, czy to nie jest trochę też kwestia tego, że chcieliśmy pokazać, że możemy. Że, bo jakby, jak to się ma realnie do tego, o czym rozmawialiśmy kilka odcinków temu, że... mają zwolnić z dostarczaniem nowych rzeczy, nowych modeli i mają się skupić na safety, mają się skupić na security, mają się skupić na innych rzeczach. No, kurde, jeżeli ten, jeżeli..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "13:28",
+      "text": "No może właśnie się skupili? Słuchaj, bo może to są commity związane z Security i Safety."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "13:33",
+      "text": "Na pewno, na pewno. Na bank."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "13:37",
+      "text": "Ale tak, jak gdyby wyłączałem na chwilę, też przepraszam, ten czerwa, irytujący w głowie, to mnie przestanie, ale spróbuję go wyłączyć. Bo ciekawe tak naprawdę, bo wiesz, bo to jest cykl, Anthropic coś pokazał, gdyby cały świat o tym dyskutuje, rozwiązali jakiś super, rozwiązali jakiś super swój problem, nie? I teraz... Co musi się stać w twojej firmie, żebyś zaczął mieć ten problem? Ostatnio słucham jakiejś prezentacji ludzi od Dynamicsa z Microsoftu, oni powiedzieli, jak straszny codebase oni mają, jak duży, No to wiesz, rośnie, rośnie, porządkują go w ogóle, nim ciężko pracują, ogóle chwała im za to, że takie rzeczy robią, ale masz takie wrażenie przez chwilę, że wiesz, że... OK, możesz mieć taki problem, jak ten codebase strasznie urośnie, że masz jak gdyby straszną historię i w ogóle nie wiadomo co. W się w głosie pojawia takie pytanie. Pamiętam z czasów, jak nagrywałem, jakiegoś SVN-a do Gita albo coś takiego i oczywiście musimy całą historię zachować. Musimy mieć całą historię. Nie tak sobie zadajesz pytanie."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "14:53",
+      "text": "Tak, bo wszyscy tam zaglądają codziennie."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "14:56",
+      "text": "Tak, albo na CI musisz wycheckoutowywać całą historię, a nie może tylko ostatniego commita, bo jest tam, trzeba jeden przełączny grać. Nie wiem, nie? Jakby, teraz. I co myślę? No dobra, zmieniliśmy to, nadal zasuwamy, ale naprawdę chciałbym zobaczyć, może być w formie artykułu, to, że muszę zobaczyć code, bo przecież nie ten, co Anthropic takiego w takim przykładowym dniu komituje. Bo mówię, no, bo to może być wiesz, może być desk, znaczy tak, produkty, które znamy, o może to tak, jest Claude Desktop, jest Claude CLI i są modele. W związku z tym do modeli na pewno jeszcze są dane do modeli, sensie te wszystkie treningowe dane i utrzymanie całego tego ML-a. To może być to miejsce, którym jak gdyby pasujesz jakoś w stronę o nowa stronka commit, o nowa stronka commit, ale to dla mnie nie opowiada historii pod tytułem jest nowe work. Nie, bo to jest jak gdyby jedzie sobie taki agent parsujący i dokłada te dane źródłowe. Nie, i to sobie umiem wyobrazić, że tego naprawdę jest dużo, chcesz mieć to, nie wiem czy ma sens to trzymać wyrepo, nie, ale to inne, jak mnie uczyli jakiekolwiek rzeczy o danych, to zawsze mi się wydawało, że trzymanie samych źródeł danych w Gicie to może nie być najlepszy pomysł. zestawu modeli, czy wag modeli, czy czegokolwiek takiego już tak, ale samych tych to nie do końca jestem pewien. Może ma sens, mogę być za głupi, żeby dali chociaż opis, co tam się zmieniło, żeby uwaga, konsultant z magnizem powiedział, to jest taki sam problem jaki ma Anthropic. Koniec konsultanta. Bo to jest ciekawe."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "16:59",
+      "text": "Tak, jest ciekawe i ja cały czas będę utrzymywać, że oni po prostu na ten moment są w trakcie porządkowania całego syfu, całego slopu, który wyprodukowali do tej pory. I w końcu ich własne modele zaczęły pisać trochę lepszy kod, więc poprawiają to, co ich starsze modele nagenerowały. No bo tam też właśnie nie mówi się o tym, jaki jest przyrost w ogóle linii kodu, nazwijmy to, czy jaki jest przyrost w ogóle tych funkcjonalności, tylko jest po prostu rzucone 30 tysięcy commitów. Jakby nie mamy zielonego pojęcia, tam się znajduje i nie mamy zielonego pojęcia, jak to będzie wyglądało. A teraz jest jeszcze ciekawsza historia, no bo oczywiście Scion został napisany przez agentów AI."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "17:43",
+      "text": "A,"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "17:52",
+      "text": "W związku z tym, bo oni sami się przyznali do tego, że oni nie są tacy mądrzy, żeby to napisać wszystko od zera, tylko dali wymagania i naprodukowali. Więc tych commitów będzie jeszcze więcej, bo teraz jeszcze kolejny produkt będą musieli utrzymywać. Jakby fajnie, mają nielimitowane tokeny w związku z tym, że sami to tworzą, ale ja się tak mimo wszystko zastanawiam... Czy to nie jest trochę jak z tym repo ostatnio bardzo głośnym, czyli Reverse Engineer Anything i ktoś tam usiadł, stwierdził, a ciekawe co by się stało, jakbyśmy napisali sobie Git od nowa. Jakby, ile ma to sensu, no bo jednak Reverse Engineer Anything powstało po to, żeby cały pakiet Adobe przepisać od nowa, o czym słyszeliśmy, ale no, dobra."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "18:38",
+      "text": "A potokaa? Ale poczekaj, czekaj jeszcze nim się zaczynam, ponieważ dali to agentom AI, to agenci AI okazały się, że nic nowego nie wymyślili. Tylko pomysł na Sciona trochę tak, ktoś się mówi, no już był, no i go tak, no tak trochę skopiowali, nie? Więc tym bardziej, wez... and everything, tak? Nie, jak to jest? Nie pamiętam. Yeah."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "19:08",
+      "text": "Reverse Engineer Anything."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "19:10",
+      "text": "O, tak? No to zdaje się, że agenci Anthropica dokładnie to zrobili i tak stworzyli nowe mechanice pozytyw. Aż to zachęcam do przeczytania sobie tam, poguglania sobie, może linka nawet damy do tego, kto nagle się zorientował, że ten... hmm... znajomo wygląda. Nie? Ale tu, ale tu popatrz, ale to, dobra, ale wiesz co, jak już poruszyłeś ten temat, że można rzeczywiście wszystko zrewaistować, próbowałeś? Coś zrewaistować?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "19:36",
+      "text": "Tak, trochę się bawiłem, ale dosłownie chwilę, zobaczyć. Mam akurat jeden temat, którym jest mi to potrzebne. Okej. Jakoś coś tam robi. Czy super dokładnie, czy świetnie, czy powierzyłbym temu wszystko? Nie wiem, nie jestem aż tak zachwycony jak wszyscy inni. Jak zwykle."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "19:42",
+      "text": "Ja też się tego chyba wziąłem. Znaczy nie wiem czy to... No bo to my. Perła w morzu. Nie powiem czego. Cytując komentarz tego, bo my rzadko jesteśmy jakoś super zachwycony. Nie, ale właśnie o to chodzi. Popatrz. Robisz sobie na... Dobre. Ja robiłem ostatnio... Potrzebowałem wyszukiwarki lotów. Czysto problemy... Pewnie słuchaczu znasz problem."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "20:07",
+      "text": "No i..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "20:28",
+      "text": "Bo te, które były nie do końca mi odpowiadają, bo na przykład nie liczą kosztu dojazdu z lotniska, który czasami jest drogi, a patrzą mi, które... No z różnych dziwnych względów chodzi o loty do Londynu. story short, niektóre lotniska w Londynie są dalej, niektóre są bliżej. i nagle się okazuje, że tańszy bilet jest tańszy, ale jak doliczysz do tego koszt przejazdu komunikacją, to nagle przestaje być aż takie taniej, bo nagle się okazuje, że to różnice w bilecie, to płacisz tutaj komunikacji. No więc nie, gdybym miał problem czysto ten i zacząłem, powiedziałem, dobra, ja... co ja powiedziałem, a mam on, to wziąłem. A jeszcze, że był względem o to, że gdzieś tam mam zniżki i coś tam i tego... Nie powiem, nie zadziałało tak jak oczekiwałem, od razu spoiler, może za mało dałem szansę tym wszystkim agentom, najnowszym modelom, a używałem topowych, nawet nowego Gula użyłem, bo nie mogłem się powstrzymać i coś tam jeszcze. Nie wiem, powiem, że użyłem wszystkich, wszystkich najmocniejszych i z żadnym nie wylądowałem."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "21:41",
+      "text": "Może to był ten problem."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "21:50",
+      "text": "Co byłbym happy, nie? prostu puściłem trzech najmocniejszych i powiem ci, że słabo wyszło, ale znaczy wróć. To, co mamy ręcznie, nadal to, co wiemy ręcznie, nadal mam to samo w aplikacji, ale może ja prostu za dużo wiem. Ale wracając, ilość commitów, za każdy, bo miałem trzy podejścia różnymi stosami, ilość commitów, które potrzebowałem, to były ze trzy. Na każdy, to w sumie daje dziewięć. to bardziej bym nie pracowało grubych parę godzin. Ja wiem inaczej się buduje projekt od zera, inaczej rozwija się jak gdyby codebase, jest i inaczej chcesz to śledzić i w ogóle, ale tu jest jeszcze taka rzecz, która mi przyszła do głowy i stwierdziłem, że cię teraz zapytam z zaskoczenia, bo słuchaj, czy tobie ta historia Gita to jest potrzebne? Patrzysz na nią?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "22:48",
+      "text": "Ostatnio patrzyłem, tak, raz, musiałem potwierdzić historię, znaczy, historię, musiałem potwierdzić, dlaczego na dwóch różnych środowiskach jest wersja oparta o dwie teoretycznie różne wersje. Ale... Nie, dwóch, trzech ostatnich commitów."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "23:04",
+      "text": "No i jak daleko historia sprawdziłeś? Tydzień? Miesiąc? No to historycznie to ja pamiętam, że ja sprawdzałem wstydzie. sensie tak wiesz. I tak sobie myślę, że w ogóle ten cały mechanizm, bo tak mnie naszł z tym antyfikiem, ten cały mechanizm, jak jeszcze bierzesz taki, nie wiem, Where's Everything, tam, zakoduj mi wszystko, to znaczy potrzebujesz śledzić te wszystkie takie biedołki. Nie wiem, czy to już nie chcesz, gdy robisz funkcjonalność, jest gotowa, gotowa. Dobre, jak kodowałem jako człowiek, to bardzo często, często commitowałem, żeby móc się cofnąć i nie tak. Ale czy teraz ja to w ogóle do szczęścia potrzebuję? Tak sobie pomyślałem, nie chyba, nie, no, zakodujmy całą funkcjonalność i wtedy strzelasz commita, no."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "23:50",
+      "text": "No dokładnie, tym bardziej, że nawet jeżeli puścimy to agentem, to agent też nie będzie robił tak, że zacommituje sobie to, zobaczy, czy działa, jak nie działa, to cofnie się do tego poprzedniego commita i spróbuje innej rzeczy. No nie, nie, on tak nie robi. On napieprza po prostu kolejne commity, aż mu zadziała. I tak to właśnie wygląda. No chyba, że ich proces jest jakiś inny, ale też mi się nie wydaje, żeby tak to..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "24:14",
+      "text": "Ale wtedy właśnie proces, pokażcie ten proces, bo to proces jest cenny, nie narzędzie. Bo to w ogóle, w ogóle, wiesz, naprawdę, naprawdę bało. I wtedy, wiesz, wtedy jakby pokazali proces i mogli zrozumieć, jak oni inaczej pracują, bo oni są... Dobra, Anthropic jest na skali, na której przynajmniej ja nie spotkałem jeszcze takiej firmy, nie mam żadnego znajomego w takiej firmie, to ja jak gdyby..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "24:20",
+      "text": "Dokładnie."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "24:43",
+      "text": "Mam wrażenie, że dużo rzeczy dzieje się samo. W sensie, że ten człowiek ma mało do gadania. No, chłona, zabrzmiało jakoś strasznie futurystycznie z terminatora, nie? Nie o to mi chodzi, nie? Ale że dajesz problem, jak gdyby agent rozwiązuje cały problem, rozwiązuje jeszcze problem kolejny i problem kolejny i problem kolejny. Typu przykładowo robisz agenta, który ma, obserwuje logi, jak patrzy, że jest jakiś błąd, to od razu ci naprawia, wrzuca ci PR-kę i coś tam, nie? Ja bym z chęcią... zobaczył ten proces. On może być naprawdę taki niesamowity, bo jak wezmę i wezmę Everything czy Anything, nie mogę się nazwy nauczyć. to, no to, to ja chcę mieć na końcu tego Photoshopa. Potrzebuję niedziałający Photoshop 01, niedziałający Photoshop 02, niedziałający Photoshop 03. Ja chcę takiego, co już prawie działający Photoshop 01. To na ogół trwa. W sensie to wymaga strasznie dużo mielenia i dziergania."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "25:56",
+      "text": "Nie wiem, ciężko mi się jakby, tak, też bym chciał też bym chciał to doświadczyć tego, czego oni doświadczają, to znaczy chciałbym poznać, poznać to, czego oni doświadczają i spróbować to skopiować, tak jak, tak jak twój wspaniały konsultant proponował. No bo, no bo właśnie, to jest, nie wiem, może to jest właśnie wszystko na fali tego, że chcieli pokazać, że potrafią. Może to jest na fali tego, że faktycznie jest jakiś trend i Reverse Engineer Anything pokazuje, że ten trend jest coraz bardziej aktywny, żeby robić wszystko po swojemu. Wszystko zszyte na miarę i... Ale no właśnie, to zszyte na miarę bardzo często jest tam wiesz, tu połatane, przeplecione. I jakoś załatane, żeby to jakoś działało. Oczywiście nie wiem, czy w twojej bańce LinkedInowej też się już dzieje już. Olaboga! Programiści to dzisiaj czytałem, dosłownie dzisiaj czytałem, że właściwie jak mamy już Reverse Engineer Anything, to znaczy, że programiści nie będą potrzebni. Ale to wcale nie jest dobrze dla innych branż, bo programiści są przyzwyczajeni do tego, że się całe życie uczą. Więc oni będą lepszymi mechanikami samochodowymi za chwilę, jak będą musieli się przebranżowić, bo stracą pracę. I już kolejna bańka rośnie, że programiści wyjdą na świat i do pracy i będą musieli się przebranżowić i będą lepsi niż ci, którzy są teraz w innych branżach. I cały czas jest to od dwóch czy trzech lat straszonko. Najpierw było straszonko tym, że programiści nie będą mieli pracy, a teraz zaczyna się straszonko, że jak programiści nie będą mieli pracy, to ty, drogi mechaniku, hydrauliku, elektryku i inny, będziesz miał dopiero przewalone, bo oni cię wygryzą. No przecież to jest w ogóle coś niesamowitego, a umówmy się, jakby patrząc po perspektywie firmy, której pracuję, jesteśmy na etapie, w której tej pracy jest coraz więcej. I tego wszystkiego, co mamy tworzyć, jest coraz więcej. To może być też ciekawe, jak będziemy do tego podchodzić, no bo jeżeli teraz przyjdzie sobie właśnie klient i powie mi, zrób mi Photoshopa, ale od nowa, bo potrzebuję 90 % funkcjonalności i mogę wydać 2 miliony dolarów, żebyś mi napisał mojego własnego Photoshopa, którego będę próbować sprzedawać, no to dlaczego nie?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "28:44",
+      "text": "To jest spokój. Kto przyjdzie, powie ci, napisz tam. Dobra, nie wiem, czy obserwuję, to chyba go nie obserwujesz, bo ty mało na Twitterze jesteś. Ja obserwuję takiego jednego z bardziej aktywnych indie hackerów, czyli Marca Lou. Kojarzę."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "29:00",
+      "text": "Kojarzę. Ja go na LinkedInie obserwuję."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "29:04",
+      "text": "O, nawet nie wiedziałem, stałem, nieważne. I on ostatnio przepisał, zresztą chyba tak jak ty, gdyby dostał rachunek za swoją listę mailingową na następny rok i on używa beehiiv, beehiiv, nie umiem jak się to czyta, no, alternatywa dla Substacka, no, whatever. No i mu wyszło jakoś ileś i on sobie po prostu, jak gdyby zvibe kodował przez weekend, zvibe kodował dla siebie"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "29:22",
+      "text": "No i jest coś takiego."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "29:34",
+      "text": "Po prostu narzędzie do wysłania maili jest nawet z open source'owa, nawet już jest na plusie, bo już zarobił ze 190 dolarów, bo tam ktoś kupił u niego subskrypcję. Przyznam szczerze, że jakby parę lat temu było to narzędzie, to sam bym u niego kupił, bo jest to, bo on ma licencjonowanie za wysłanie maila, a nie za, a nie za liczbę subskrybentów. Jak, drogi słuchaczu, nie wiesz, to te wszystkie narzędzia do wysłania maili z reguły cię charge'ują za wielkość twojej listy mailowej za miesiąc. Kiedyś to było za kilka dolarów za tysiąc użytkowników a teraz to już zaczyna dochodzić czasami do absurdu typu kilkadziesiąt i człowiek jak gdyby ma listę mailingową tak jak Kajetan ma w swojej szkole .NET-a pewnie raz nie wiem jak często wysyłasz maila raz na miesiąc"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "30:22",
+      "text": "No teraz aktualnie pewnie tak może z 2."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "30:25",
+      "text": "Może za dwa, nie? to wiecie, no to nagle się okazuje, żeby wysłać te dwa maile na miesiąc do swojej listy subskrypcji, to musisz zapatrz, Strzelę. No."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "30:34",
+      "text": "Ja przeniosłem swoją listę, bo musiałem zapłacić blisko 1000 dolarów."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "30:40",
+      "text": "Za miesiąc, za rok. Za rok. No to okej, to wiecie, no to się dla dwóch maili. No to on sobie wywajbował, oczywiście cała dyskusja, widziałem różne w ogóle w lewo, w prawo właśnie rzeczy, które szły w jego temacie, Że właśnie, a, że to ten beehiiv to w ogóle tłum rzeczy w ogóle daje, czego to nie daje, to ten, nie, bo to mamy..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "30:42",
+      "text": "Za rok, za rok."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "31:09",
+      "text": "Bo to dokładnie o to chodzi, nie? Masz produkt dla jednego usera, w tym wypadku Kajetan zwajbował sobie swoje, kontra produkt, który kupuje kilka tysięcy ludzi i wysyłał kilkanaście milionów maili dziennie, mniej więcej taka skala. I to trochę inaczej te produkty działają, to, jak gdybym myślał, to wiesz, to jest właśnie ta rzecz, z jednej strony wątpię, żeby ludzie przychodzili i mówili, chcę... zrobić takiego Photoshopa z 90 % funkcjonalności i teraz ja będę go sprzedawał. Po pierwsze, sprzedaż jest trudna. Nie oszukujmy się, to sprzedaż jest trudna, a nie wytwarzanie softu. Dobra, czasami wytwarzanie softu, ale sprzedaż jest trudna. Polecam swoją aplikację, jeszcze nikt nie kupił. Mam już użytkowników, mam je zarejestrowanych, ale jeszcze żaden nie kupił usługi premium, więc jak coś to polecam w tym miejscu. Jeden mi wystarczy, będę wtedy mega szczęśliwy. Dobra, koniec autopromocji. To sprzedaż, to wiesz, to wiesz, jak możesz sobie bajbować, to ludzie będą to robili dla siebie. Tak, w sensie, że to sam sobie zrobisz, nie? To nie biorą do wydawnictw narzędziach, których możesz po prostu nagle zrobić nie wiadomo co dla kogoś innego, nie? Bo ta wiedza, jak zbudowany jest ten produkt, no to pod spodem jest trudna, no. To nie chodzi o to, że masz ten kod, tylko o to, co... wszystko daje, co jest tym użytkownikom potrzebne, co zbadałeś, co zebrałeś, dane, które pod spodem lecą. Nie, tu jest pies pogrzebany, a nie w tym, że wiesz, o, jest przycisk i on wysyła maila, ten przycisk wysyła maila."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "32:55",
+      "text": "To wszystko się zgadza i tak realnie właśnie jak już zacząłeś mówić o tej liście mailowej, to żeby nie było, ja nie zwaibowałem swojego nowego narzędzia, bo stwierdziłem, jakby no właśnie. Tak, bo nie, nie, bo pomyślałem sobie, kurde, jeżeli to napisze, te systemy, szczególnie w takiej infrastrukturze, o którą ją oparłem, to one są proste."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "33:08",
+      "text": "Ooo! Nawet aż tak nie poszło."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "33:24",
+      "text": "No bo tam realnie to jest CRUD może z jakimiś prostymi automatyzacjami. Natomiast..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "33:30",
+      "text": "No to pochwal się. To pochwal się, co jest pod spodem."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "33:33",
+      "text": "Pod spodem jest AWS SES, który wysyła maile. I dlatego teraz płacę za wysłanego maila, a nie za subskrybenta. I to dzięki temu przy mojej skali i przy tym, ile wysyłam tych maili miesięcznie, bardzo się opłaca."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "33:50",
+      "text": "Ale poczekaj, czekaj, to jest tylko ten sam kawałek do wysyłania maili. To jest tego, co wiem, to większość świata wysyła przez Amazon. Sesa. Nie, nie Sesa. Dobra, nieważne. Ale to usługę na AWS-ie. Ale to trzeba mieć jeszcze ten kawałek z przodu, czy tam nie wiem, jakiegoś UI'a do projektowania kampanii klików, nie klików."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "33:59",
+      "text": "Tak. No właśnie, no właśnie i tak, tak i myślałem o tym, żeby to zwaibować, ale okazuje się, że są świetne, świetne produkty open source'owe, dzięki czemu ja się nie muszę martwić o utrzymanie tego wszystkiego, więc skorzystałem po prostu z produktu, który jest open source, za który nie muszę płacić, no dobra, no muszę za hosting zapłacić, żeby to gdzieś umieścić, ale no tak czy inaczej musiałbym sobie to gdzieś umieścić i jakby, okej, nie polecam tego wszystkim, bo... Do tego trzeba jakąś minimalną wiedzę techniczną, aczkolwiek przy agentach to też ja głównie to z ChatGPT po prostu sobie skonfigurowałem i jak mam jakiś problem, to do niego wysyłam i on te problemy rozwiązuje już w tej chwili nawet za mnie po prostu. Ale potrzeba od czasu do czasu jakiejś tam delikatnej wiedzy, żeby rozumieć, co się właściwie dzieje, ale poza tym to jest świetne narzędzie, to jest naprawdę świetne narzędzie i... Nie widziałem absolutnie żadnego sensu, żeby pisać je od nowa. Fakt, piszę różne aplikacje od nowa, ale takie, których realnie nie ma i które rozwiązują bezpośrednio moje problemy i których po prostu nie ma jeszcze na rynku. Swoją drogą, może kiedyś ja opublikuję, póki co działa też pilotaż i o tym sobie może kiedyś też pogadamy. Ale tak, ale w większości przypadków... Nie ma sensu ogóle pisać tego wszystkiego, nie ma sensu przepalać tych tokenów, bo potem mimo wszystko musisz to obsłużyć, musisz to utrzymać. Znaczy twoi agenci muszą to utrzymać, więc przepalasz kolejne tokeny. Czy to ci się będzie... No myślę, że nie jeden agent biznesowo spięty..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "35:49",
+      "text": "30 tysięcy commitów?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "35:57",
+      "text": "przez jakiegoś CEO będzie właśnie tyle klepać na każdego keystroke’a, żeby każdą zmianę można było wycofać, bo on przecież nie będzie miał zielonego pojęcia, co tam się dzieje. No, to właśnie, to tak zataczamy pętlę. 30 tysięcy commitów. Nie jestem w stanie sobie z tego wyobrazić."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "36:12",
+      "text": "Czyli podsumowując, nie umiemy sobie wyobrazić skali Anthropica i nie rozumiemy, chcielibyśmy dostać do Anthropica opis procesu. Żaden z nas nie wie, że za bardzo wyjeba jest Engineer Anything. Znaczy jako fajna zabawka super, chyba nie. Widziałem jakieś fajne mody do gier, więc to na pewno jest super, bo ludzie już je zrobili. Nie musisz ich utrzymywać, możesz po prostu użyć. A Kajetan nawet nie był gotowy wywajbować swojego narzędzia do maili, tylko musiał użyć open source'a. Co za pusty dno, no ja myślę..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "36:52",
+      "text": "Jezu, jak to teraz będzie brzmiało, ja pierniczę. Dzięki, dzięki. To idziemy już sobie. Dziękuję wszystkim za uwagę. Pamiętajcie, subskryb, lajki, komentarze, przede wszystkim komentarze, bardzo lubimy na nie odpowiadać."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "36:55",
+      "text": "Ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha Jak macie swoje wywajbowane produkty albo nie użyliście wywajbowanego, to podzielcie się. Kajetan się już podzielił. Ja swoją aplikację wywajbowałem i teraz używam jej do wywajbowania, do poprawienia swojej aplikacji."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "37:22",
+      "text": "Jesteś jak Anthropic."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "37:24",
+      "text": "Nie jestem tak... Nie mam przyjścia. Nawet jakbym się... Czekaj, ile on za tyle nie ludzi? Nie wiem, dobra, tysiaka, no. Pa."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "37:30",
+      "text": "No tam było napisane, ale no tak, ale było napisane, że przy tym monorepo pracuje siedem osób."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "37:36",
+      "text": "What? To znaczy, ja powinienem sam w domu robić, powiedzmy, tysiąc commitów. Nie, dobra, sto."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "37:38",
+      "text": "No?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "37:46",
+      "text": "To już by było tak, że mieściłbym się w ich skali."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "37:47",
+      "text": "No? Piotrek, zasuwaj, nie ma na co czekać."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "37:54",
+      "text": "Dobra, nie ma czasu. Trzymajcie się, widzimy się za tydzień. Cześć."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "37:58",
+      "text": "Do zobaczenia!"
+    }
+  ]
+}
