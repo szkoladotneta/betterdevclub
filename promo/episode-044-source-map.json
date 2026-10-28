@@ -1,0 +1,422 @@
+{
+  "sourceTitle": "Better Dev Club #44 - final",
+  "projectId": "6ae1d6512bc53e2e156cf6eb",
+  "clipId": "6ae1e4186c10430c50c5e066",
+  "composedRecordingId": "6ae1e4186c10430c50c5e067",
+  "sessionId": "9e35fdad-60ef-48a8-8cd6-742f70ee460a",
+  "rstlRevision": 12,
+  "exportedAt": "2026-10-28T12:01:28.650Z",
+  "verifiedMediaDurationSeconds": 2016.0,
+  "rawAsrSha256": "066e3b3b962f382bf1a8b5e04df9c251490ab94837a9ff73180e9739623f7bbe",
+  "rawFirstWordSeconds": 0.878,
+  "timelineSourceStartSeconds": 0.8333333333333334,
+  "timelineSourceEndSeconds": 2020.7133333333334,
+  "timelineDurationBeforeCutsSeconds": 2019.88,
+  "syncedCutsTimelineSeconds": [
+    {
+      "start": 1781.5436666666667,
+      "duration": 3.88
+    }
+  ],
+  "mapping": "t = rawSeconds - timelineSourceStartSeconds; final = t - sum(min(max(t-cut.start,0),cut.duration))",
+  "droppedWords": [
+    {
+      "speaker": "Piotrek Stapp",
+      "text": "Bo",
+      "rawStart": 1783.539,
+      "rawEnd": 1783.759
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "text": "nie",
+      "rawStart": 1783.759,
+      "rawEnd": 1783.919
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "text": "facy,",
+      "rawStart": 1783.919,
+      "rawEnd": 1784.419
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "text": "uważaj.",
+      "rawStart": 1784.419,
+      "rawEnd": 1785.259
+    }
+  ],
+  "sentenceCount": 100,
+  "segmentCount": 35,
+  "changedSegments": 17,
+  "corrections": [
+    {
+      "segment": 1,
+      "time": "00:01",
+      "from": "że Antropik",
+      "to": "że Anthropic",
+      "occurrences": 1
+    },
+    {
+      "segment": 1,
+      "time": "00:01",
+      "from": "zapytam go ostatnio",
+      "to": "zapytałem go ostatnio",
+      "occurrences": 1
+    },
+    {
+      "segment": 1,
+      "time": "00:01",
+      "from": "jak chce poradzić z wypaleniem",
+      "to": "jak sobie poradzić z wypaleniem",
+      "occurrences": 1
+    },
+    {
+      "segment": 1,
+      "time": "00:01",
+      "from": "Nie? powiedział mi",
+      "to": "Nie? Powiedział mi",
+      "occurrences": 1
+    },
+    {
+      "segment": 1,
+      "time": "00:01",
+      "from": "GRD?",
+      "to": "giełdę?",
+      "occurrences": 1
+    },
+    {
+      "segment": 1,
+      "time": "00:01",
+      "from": "tarapetą",
+      "to": "terapeutą",
+      "occurrences": 1
+    },
+    {
+      "segment": 2,
+      "time": "00:22",
+      "from": "Ipo",
+      "to": "IPO",
+      "occurrences": 2
+    },
+    {
+      "segment": 2,
+      "time": "00:22",
+      "from": "botylneki",
+      "to": "bottlenecki",
+      "occurrences": 1
+    },
+    {
+      "segment": 3,
+      "time": "01:11",
+      "from": "specyzowałbyś",
+      "to": "sprecyzowałbyś",
+      "occurrences": 1
+    },
+    {
+      "segment": 4,
+      "time": "01:17",
+      "from": "harnesami",
+      "to": "harnessami",
+      "occurrences": 1
+    },
+    {
+      "segment": 5,
+      "time": "03:14",
+      "from": "karetan",
+      "to": "Kajetan",
+      "occurrences": 1
+    },
+    {
+      "segment": 7,
+      "time": "05:21",
+      "from": "bo tego nie powiedziałaś",
+      "to": "bo tego nie powiedziałeś",
+      "occurrences": 1
+    },
+    {
+      "segment": 7,
+      "time": "05:21",
+      "from": "ustawiać budżet na pierwsze rano",
+      "to": "ustawiać budzik na pierwszą rano",
+      "occurrences": 1
+    },
+    {
+      "segment": 7,
+      "time": "05:21",
+      "from": "żeby klikasz continue",
+      "to": "żeby klikać continue",
+      "occurrences": 1
+    },
+    {
+      "segment": 7,
+      "time": "05:21",
+      "from": "Cloda",
+      "to": "Claude’a",
+      "occurrences": 1
+    },
+    {
+      "segment": 7,
+      "time": "05:21",
+      "from": "Codex'a",
+      "to": "Codexa",
+      "occurrences": 1
+    },
+    {
+      "segment": 7,
+      "time": "05:21",
+      "from": "Copilot'a",
+      "to": "Copilota",
+      "occurrences": 1
+    },
+    {
+      "segment": 7,
+      "time": "05:21",
+      "from": "konfluensie",
+      "to": "Confluence",
+      "occurrences": 1
+    },
+    {
+      "segment": 7,
+      "time": "05:21",
+      "from": "nadzórysz",
+      "to": "nadzorujesz",
+      "occurrences": 1
+    },
+    {
+      "segment": 7,
+      "time": "05:21",
+      "from": "moc przerobownie",
+      "to": "moc przerobowa",
+      "occurrences": 1
+    },
+    {
+      "segment": 9,
+      "time": "09:17",
+      "from": "pięciu wątka.",
+      "to": "pięciu wątkach.",
+      "occurrences": 1
+    },
+    {
+      "segment": 9,
+      "time": "09:17",
+      "from": "Klot",
+      "to": "Claude",
+      "occurrences": 1
+    },
+    {
+      "segment": 9,
+      "time": "09:17",
+      "from": "hajmasów",
+      "to": "harnessów",
+      "occurrences": 1
+    },
+    {
+      "segment": 9,
+      "time": "09:17",
+      "from": "HNS-y",
+      "to": "harnessy",
+      "occurrences": 1
+    },
+    {
+      "segment": 9,
+      "time": "09:17",
+      "from": "softskill'i",
+      "to": "soft skills",
+      "occurrences": 1
+    },
+    {
+      "segment": 9,
+      "time": "09:17",
+      "from": "softskill'owego",
+      "to": "softskillowego",
+      "occurrences": 1
+    },
+    {
+      "segment": 9,
+      "time": "09:17",
+      "from": "pomodorą",
+      "to": "Pomodoro",
+      "occurrences": 1
+    },
+    {
+      "segment": 12,
+      "time": "13:29",
+      "from": "copilotzie",
+      "to": "Copilocie",
+      "occurrences": 1
+    },
+    {
+      "segment": 13,
+      "time": "15:41",
+      "from": "ile powiedziałaś",
+      "to": "ile powiedziałeś",
+      "occurrences": 1
+    },
+    {
+      "segment": 13,
+      "time": "15:41",
+      "from": "Karytanem",
+      "to": "Kajetanem",
+      "occurrences": 1
+    },
+    {
+      "segment": 13,
+      "time": "15:41",
+      "from": "kodeksie",
+      "to": "Codexie",
+      "occurrences": 1
+    },
+    {
+      "segment": 13,
+      "time": "15:41",
+      "from": "githubie",
+      "to": "GitHubie",
+      "occurrences": 1
+    },
+    {
+      "segment": 16,
+      "time": "18:59",
+      "from": "spuczka",
+      "to": "spłuczka",
+      "occurrences": 1
+    },
+    {
+      "segment": 18,
+      "time": "21:08",
+      "from": "homonto",
+      "to": "chomąto",
+      "occurrences": 2
+    },
+    {
+      "segment": 19,
+      "time": "23:53",
+      "from": "mojej czterewnej aplikacji",
+      "to": "mojej cudownej aplikacji",
+      "occurrences": 1
+    },
+    {
+      "segment": 19,
+      "time": "23:53",
+      "from": "cholera szlak nie trafia",
+      "to": "cholera, szlag mnie trafia",
+      "occurrences": 1
+    },
+    {
+      "segment": 19,
+      "time": "23:53",
+      "from": "kruda",
+      "to": "CRUD-a",
+      "occurrences": 1
+    },
+    {
+      "segment": 20,
+      "time": "27:03",
+      "from": "kruda",
+      "to": "CRUD-a",
+      "occurrences": 1
+    },
+    {
+      "segment": 20,
+      "time": "27:03",
+      "from": "krudy",
+      "to": "CRUD-y",
+      "occurrences": 1
+    },
+    {
+      "segment": 21,
+      "time": "27:13",
+      "from": "Zupręgnie szczerze",
+      "to": "Zupełnie szczerze",
+      "occurrences": 1
+    },
+    {
+      "segment": 21,
+      "time": "27:13",
+      "from": "rewolucja wytwarzanej opierniomu",
+      "to": "rewolucja w wytwarzaniu oprogramowania",
+      "occurrences": 1
+    },
+    {
+      "segment": 21,
+      "time": "27:13",
+      "from": "wytwarzamy pewne węgla",
+      "to": "wytwarzamy oprogramowanie",
+      "occurrences": 1
+    },
+    {
+      "segment": 21,
+      "time": "27:13",
+      "from": "Antropik",
+      "to": "Anthropic",
+      "occurrences": 1
+    },
+    {
+      "segment": 21,
+      "time": "27:13",
+      "from": "kródów",
+      "to": "CRUD-ów",
+      "occurrences": 1
+    },
+    {
+      "segment": 21,
+      "time": "27:13",
+      "from": "kródy",
+      "to": "CRUD-y",
+      "occurrences": 2
+    },
+    {
+      "segment": 21,
+      "time": "27:13",
+      "from": "SAS-a",
+      "to": "SaaS-a",
+      "occurrences": 1
+    },
+    {
+      "segment": 21,
+      "time": "27:13",
+      "from": "ramu",
+      "to": "RAM-u",
+      "occurrences": 1
+    },
+    {
+      "segment": 21,
+      "time": "27:13",
+      "from": "gierdę",
+      "to": "giełdę",
+      "occurrences": 1
+    },
+    {
+      "segment": 21,
+      "time": "27:13",
+      "from": "superkrow",
+      "to": "superkrok",
+      "occurrences": 2
+    },
+    {
+      "segment": 27,
+      "time": "32:10",
+      "from": "Better Death Clap Weekly",
+      "to": "Better Dev Club Weekly",
+      "occurrences": 1
+    },
+    {
+      "segment": 31,
+      "time": "33:00",
+      "from": "wetsalek świąt",
+      "to": "wesołych świąt",
+      "occurrences": 1
+    },
+    {
+      "segment": 33,
+      "time": "33:15",
+      "from": "Grobin.",
+      "to": "Grobing.",
+      "occurrences": 1
+    }
+  ],
+  "limitations": [
+    "ASR corrected from context, not verified by listening.",
+    "Track magic-mutes are not interpreted as editorial text deletions.",
+    "Public website build includes drafts; do not merge without approval."
+  ]
+}

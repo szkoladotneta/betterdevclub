@@ -1,0 +1,1713 @@
+{
+  "timeAxis": "Final export; seconds. Raw times also retained. 0.5 s handles; verify by listening before cutting.",
+  "clips": [
+    {
+      "id": "ai-mialo-odciazyc",
+      "title": "AI miało odciążyć. Siedzę przy nim jeszcze dłużej",
+      "speaker": "Kajetan Duszyński",
+      "start": 216.70766666666665,
+      "end": 259.3996666666667,
+      "rawStart": 217.541,
+      "rawEnd": 260.233,
+      "asrText": "I kurde, wszyscy mówili, że przyjdzie AI i nas zastąpi i że będzie zastępowało nas w pracy. I ja to sobie trochę wyobrażałem tak, że skoro będzie mnie zastępowało w pracy, to ja sobie będę siedział jako ten operator, będę mu mówił, co robić, a w międzyczasie będę sobie robił inne rzeczy. Pójdę na siłownię, pójdę na basen, ogarnę coś w domu i najróżniejsze inne rzeczy, a realnie ja siedzę chyba jeszcze więcej niż siedziałem do tej pory i muszę być jeszcze bardziej skupiony, żeby realnie ogarnąć te wszystkie streamy, które do mnie spływają. I to zaczyna być męczące.",
+      "words": [
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "I",
+          "rawStart": 218.041,
+          "rawEnd": 218.181,
+          "start": 217.20766666666665,
+          "end": 217.34766666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "kurde,",
+          "rawStart": 218.181,
+          "rawEnd": 218.801,
+          "start": 217.34766666666667,
+          "end": 217.96766666666664
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "wszyscy",
+          "rawStart": 219.161,
+          "rawEnd": 219.481,
+          "start": 218.32766666666666,
+          "end": 218.64766666666665
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "mówili,",
+          "rawStart": 219.481,
+          "rawEnd": 219.971,
+          "start": 218.64766666666665,
+          "end": 219.13766666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "że",
+          "rawStart": 219.971,
+          "rawEnd": 220.121,
+          "start": 219.13766666666666,
+          "end": 219.28766666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "przyjdzie",
+          "rawStart": 220.121,
+          "rawEnd": 220.441,
+          "start": 219.28766666666667,
+          "end": 219.60766666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "AI",
+          "rawStart": 220.441,
+          "rawEnd": 220.721,
+          "start": 219.60766666666666,
+          "end": 219.88766666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "i",
+          "rawStart": 220.721,
+          "rawEnd": 220.921,
+          "start": 219.88766666666666,
+          "end": 220.08766666666665
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "nas",
+          "rawStart": 220.921,
+          "rawEnd": 221.161,
+          "start": 220.08766666666665,
+          "end": 220.32766666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "zastąpi",
+          "rawStart": 221.161,
+          "rawEnd": 221.721,
+          "start": 220.32766666666666,
+          "end": 220.88766666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "i",
+          "rawStart": 221.721,
+          "rawEnd": 222.321,
+          "start": 220.88766666666666,
+          "end": 221.48766666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "że",
+          "rawStart": 222.321,
+          "rawEnd": 222.761,
+          "start": 221.48766666666666,
+          "end": 221.92766666666665
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "będzie",
+          "rawStart": 222.761,
+          "rawEnd": 223.441,
+          "start": 221.92766666666665,
+          "end": 222.60766666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "zastępowało",
+          "rawStart": 223.441,
+          "rawEnd": 224.181,
+          "start": 222.60766666666666,
+          "end": 223.34766666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "nas",
+          "rawStart": 224.181,
+          "rawEnd": 224.341,
+          "start": 223.34766666666667,
+          "end": 223.50766666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "w",
+          "rawStart": 224.341,
+          "rawEnd": 224.621,
+          "start": 223.50766666666667,
+          "end": 223.78766666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "pracy.",
+          "rawStart": 224.621,
+          "rawEnd": 224.901,
+          "start": 223.78766666666667,
+          "end": 224.06766666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "I",
+          "rawStart": 225.921,
+          "rawEnd": 226.321,
+          "start": 225.08766666666665,
+          "end": 225.48766666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "ja",
+          "rawStart": 226.321,
+          "rawEnd": 226.441,
+          "start": 225.48766666666666,
+          "end": 225.60766666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "to",
+          "rawStart": 226.441,
+          "rawEnd": 226.581,
+          "start": 225.60766666666666,
+          "end": 225.74766666666665
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "sobie",
+          "rawStart": 226.581,
+          "rawEnd": 226.761,
+          "start": 225.74766666666665,
+          "end": 225.92766666666665
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "trochę",
+          "rawStart": 226.761,
+          "rawEnd": 227.081,
+          "start": 225.92766666666665,
+          "end": 226.24766666666665
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "wyobrażałem",
+          "rawStart": 227.081,
+          "rawEnd": 227.741,
+          "start": 226.24766666666665,
+          "end": 226.90766666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "tak,",
+          "rawStart": 227.741,
+          "rawEnd": 228.021,
+          "start": 226.90766666666667,
+          "end": 227.18766666666664
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "że",
+          "rawStart": 228.021,
+          "rawEnd": 228.201,
+          "start": 227.18766666666664,
+          "end": 227.36766666666665
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "skoro",
+          "rawStart": 228.201,
+          "rawEnd": 228.441,
+          "start": 227.36766666666665,
+          "end": 227.60766666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "będzie",
+          "rawStart": 228.441,
+          "rawEnd": 228.681,
+          "start": 227.60766666666666,
+          "end": 227.84766666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "mnie",
+          "rawStart": 228.681,
+          "rawEnd": 228.881,
+          "start": 227.84766666666667,
+          "end": 228.04766666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "zastępowało",
+          "rawStart": 228.881,
+          "rawEnd": 229.501,
+          "start": 228.04766666666666,
+          "end": 228.66766666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "w",
+          "rawStart": 229.501,
+          "rawEnd": 229.721,
+          "start": 228.66766666666666,
+          "end": 228.88766666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "pracy,",
+          "rawStart": 229.721,
+          "rawEnd": 230.045,
+          "start": 228.88766666666666,
+          "end": 229.21166666666664
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "to",
+          "rawStart": 230.414,
+          "rawEnd": 230.574,
+          "start": 229.58066666666664,
+          "end": 229.74066666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "ja",
+          "rawStart": 230.574,
+          "rawEnd": 230.714,
+          "start": 229.74066666666667,
+          "end": 229.88066666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "sobie",
+          "rawStart": 230.714,
+          "rawEnd": 230.934,
+          "start": 229.88066666666666,
+          "end": 230.10066666666665
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "będę",
+          "rawStart": 230.934,
+          "rawEnd": 231.194,
+          "start": 230.10066666666665,
+          "end": 230.36066666666665
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "siedział",
+          "rawStart": 231.194,
+          "rawEnd": 231.774,
+          "start": 230.36066666666665,
+          "end": 230.94066666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "jako",
+          "rawStart": 231.774,
+          "rawEnd": 232.074,
+          "start": 230.94066666666666,
+          "end": 231.24066666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "ten",
+          "rawStart": 232.074,
+          "rawEnd": 232.374,
+          "start": 231.24066666666667,
+          "end": 231.54066666666665
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "operator,",
+          "rawStart": 232.374,
+          "rawEnd": 233.034,
+          "start": 231.54066666666665,
+          "end": 232.20066666666665
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "będę",
+          "rawStart": 233.794,
+          "rawEnd": 234.034,
+          "start": 232.96066666666667,
+          "end": 233.20066666666665
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "mu",
+          "rawStart": 234.034,
+          "rawEnd": 234.234,
+          "start": 233.20066666666665,
+          "end": 233.40066666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "mówił,",
+          "rawStart": 234.234,
+          "rawEnd": 234.544,
+          "start": 233.40066666666667,
+          "end": 233.71066666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "co",
+          "rawStart": 234.544,
+          "rawEnd": 234.654,
+          "start": 233.71066666666667,
+          "end": 233.82066666666665
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "robić,",
+          "rawStart": 234.654,
+          "rawEnd": 235.174,
+          "start": 233.82066666666665,
+          "end": 234.34066666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "a",
+          "rawStart": 235.614,
+          "rawEnd": 236.054,
+          "start": 234.78066666666666,
+          "end": 235.22066666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "w",
+          "rawStart": 236.054,
+          "rawEnd": 236.174,
+          "start": 235.22066666666666,
+          "end": 235.34066666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "międzyczasie",
+          "rawStart": 236.174,
+          "rawEnd": 236.714,
+          "start": 235.34066666666666,
+          "end": 235.88066666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "będę",
+          "rawStart": 236.714,
+          "rawEnd": 236.974,
+          "start": 235.88066666666666,
+          "end": 236.14066666666665
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "sobie",
+          "rawStart": 236.974,
+          "rawEnd": 237.674,
+          "start": 236.14066666666665,
+          "end": 236.84066666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "robił",
+          "rawStart": 237.674,
+          "rawEnd": 237.974,
+          "start": 236.84066666666666,
+          "end": 237.14066666666665
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "inne",
+          "rawStart": 237.974,
+          "rawEnd": 238.234,
+          "start": 237.14066666666665,
+          "end": 237.40066666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "rzeczy.",
+          "rawStart": 238.234,
+          "rawEnd": 238.534,
+          "start": 237.40066666666667,
+          "end": 237.70066666666665
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "Pójdę",
+          "rawStart": 238.534,
+          "rawEnd": 238.794,
+          "start": 237.70066666666665,
+          "end": 237.96066666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "na",
+          "rawStart": 238.794,
+          "rawEnd": 238.994,
+          "start": 237.96066666666667,
+          "end": 238.16066666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "siłownię,",
+          "rawStart": 238.994,
+          "rawEnd": 239.524,
+          "start": 238.16066666666666,
+          "end": 238.69066666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "pójdę",
+          "rawStart": 239.524,
+          "rawEnd": 239.814,
+          "start": 238.69066666666666,
+          "end": 238.98066666666665
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "na",
+          "rawStart": 239.814,
+          "rawEnd": 240.054,
+          "start": 238.98066666666665,
+          "end": 239.22066666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "basen,",
+          "rawStart": 240.054,
+          "rawEnd": 240.794,
+          "start": 239.22066666666666,
+          "end": 239.96066666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "ogarnę",
+          "rawStart": 241.054,
+          "rawEnd": 241.454,
+          "start": 240.22066666666666,
+          "end": 240.62066666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "coś",
+          "rawStart": 241.454,
+          "rawEnd": 241.654,
+          "start": 240.62066666666666,
+          "end": 240.82066666666665
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "w",
+          "rawStart": 241.654,
+          "rawEnd": 241.934,
+          "start": 240.82066666666665,
+          "end": 241.10066666666665
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "domu",
+          "rawStart": 241.934,
+          "rawEnd": 242.314,
+          "start": 241.10066666666665,
+          "end": 241.48066666666665
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "i",
+          "rawStart": 242.314,
+          "rawEnd": 242.634,
+          "start": 241.48066666666665,
+          "end": 241.80066666666664
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "najróżniejsze",
+          "rawStart": 242.634,
+          "rawEnd": 243.254,
+          "start": 241.80066666666664,
+          "end": 242.42066666666665
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "inne",
+          "rawStart": 243.254,
+          "rawEnd": 243.514,
+          "start": 242.42066666666665,
+          "end": 242.68066666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "rzeczy,",
+          "rawStart": 243.514,
+          "rawEnd": 243.954,
+          "start": 242.68066666666667,
+          "end": 243.12066666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "a",
+          "rawStart": 244.274,
+          "rawEnd": 244.814,
+          "start": 243.44066666666666,
+          "end": 243.98066666666665
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "realnie",
+          "rawStart": 244.814,
+          "rawEnd": 246.054,
+          "start": 243.98066666666665,
+          "end": 245.22066666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "ja",
+          "rawStart": 246.054,
+          "rawEnd": 246.554,
+          "start": 245.22066666666666,
+          "end": 245.72066666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "siedzę",
+          "rawStart": 246.554,
+          "rawEnd": 247.134,
+          "start": 245.72066666666666,
+          "end": 246.30066666666664
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "chyba",
+          "rawStart": 247.134,
+          "rawEnd": 247.534,
+          "start": 246.30066666666664,
+          "end": 246.70066666666665
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "jeszcze",
+          "rawStart": 247.534,
+          "rawEnd": 248.014,
+          "start": 246.70066666666665,
+          "end": 247.18066666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "więcej",
+          "rawStart": 248.014,
+          "rawEnd": 248.294,
+          "start": 247.18066666666667,
+          "end": 247.46066666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "niż",
+          "rawStart": 248.294,
+          "rawEnd": 248.554,
+          "start": 247.46066666666667,
+          "end": 247.72066666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "siedziałem",
+          "rawStart": 248.554,
+          "rawEnd": 249.054,
+          "start": 247.72066666666666,
+          "end": 248.22066666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "do",
+          "rawStart": 249.054,
+          "rawEnd": 249.294,
+          "start": 248.22066666666666,
+          "end": 248.46066666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "tej",
+          "rawStart": 249.294,
+          "rawEnd": 249.434,
+          "start": 248.46066666666667,
+          "end": 248.60066666666665
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "pory",
+          "rawStart": 249.434,
+          "rawEnd": 250.394,
+          "start": 248.60066666666665,
+          "end": 249.56066666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "i",
+          "rawStart": 250.394,
+          "rawEnd": 250.874,
+          "start": 249.56066666666666,
+          "end": 250.04066666666665
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "muszę",
+          "rawStart": 250.874,
+          "rawEnd": 251.154,
+          "start": 250.04066666666665,
+          "end": 250.32066666666665
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "być",
+          "rawStart": 251.154,
+          "rawEnd": 251.374,
+          "start": 250.32066666666665,
+          "end": 250.54066666666665
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "jeszcze",
+          "rawStart": 251.374,
+          "rawEnd": 251.714,
+          "start": 250.54066666666665,
+          "end": 250.88066666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "bardziej",
+          "rawStart": 251.714,
+          "rawEnd": 252.074,
+          "start": 250.88066666666666,
+          "end": 251.24066666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "skupiony,",
+          "rawStart": 252.074,
+          "rawEnd": 252.794,
+          "start": 251.24066666666667,
+          "end": 251.96066666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "żeby",
+          "rawStart": 252.994,
+          "rawEnd": 253.314,
+          "start": 252.16066666666666,
+          "end": 252.48066666666665
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "realnie",
+          "rawStart": 253.314,
+          "rawEnd": 254.154,
+          "start": 252.48066666666665,
+          "end": 253.32066666666665
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "ogarnąć",
+          "rawStart": 254.154,
+          "rawEnd": 254.734,
+          "start": 253.32066666666665,
+          "end": 253.90066666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "te",
+          "rawStart": 254.734,
+          "rawEnd": 254.954,
+          "start": 253.90066666666667,
+          "end": 254.12066666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "wszystkie",
+          "rawStart": 254.954,
+          "rawEnd": 255.334,
+          "start": 254.12066666666666,
+          "end": 254.50066666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "streamy,",
+          "rawStart": 255.334,
+          "rawEnd": 255.814,
+          "start": 254.50066666666666,
+          "end": 254.98066666666665
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "które",
+          "rawStart": 255.814,
+          "rawEnd": 255.954,
+          "start": 254.98066666666665,
+          "end": 255.12066666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "do",
+          "rawStart": 255.954,
+          "rawEnd": 256.134,
+          "start": 255.12066666666666,
+          "end": 255.30066666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "mnie",
+          "rawStart": 256.134,
+          "rawEnd": 256.574,
+          "start": 255.30066666666667,
+          "end": 255.74066666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "spływają.",
+          "rawStart": 256.574,
+          "rawEnd": 257.321,
+          "start": 255.74066666666667,
+          "end": 256.4876666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "I",
+          "rawStart": 257.933,
+          "rawEnd": 258.133,
+          "start": 257.0996666666667,
+          "end": 257.29966666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "to",
+          "rawStart": 258.133,
+          "rawEnd": 258.473,
+          "start": 257.29966666666667,
+          "end": 257.6396666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "zaczyna",
+          "rawStart": 258.473,
+          "rawEnd": 258.873,
+          "start": 257.6396666666667,
+          "end": 258.0396666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "być",
+          "rawStart": 258.873,
+          "rawEnd": 259.053,
+          "start": 258.0396666666667,
+          "end": 258.2196666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "męczące.",
+          "rawStart": 259.053,
+          "rawEnd": 259.733,
+          "start": 258.2196666666667,
+          "end": 258.8996666666667
+        }
+      ]
+    },
+    {
+      "id": "tokeny-gryzly",
+      "title": "Zacząłem projekt, bo szkoda mi było tokenów",
+      "speaker": "Kajetan Duszyński",
+      "start": 876.3886666666666,
+      "end": 893.4686666666666,
+      "rawStart": 877.222,
+      "rawEnd": 894.302,
+      "asrText": "A te tokeny mnie jakoś gryzły, te kredyty na copilotzie mnie gryzły, że one leżą i się marnują i ja tym nic nie robię. I związku z tym zacząłem ten kolejny projekt, ale znowu muszę jakoś go ogarniać.",
+      "words": [
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "A",
+          "rawStart": 877.722,
+          "rawEnd": 878.002,
+          "start": 876.8886666666666,
+          "end": 877.1686666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "te",
+          "rawStart": 878.002,
+          "rawEnd": 878.142,
+          "start": 877.1686666666666,
+          "end": 877.3086666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "tokeny",
+          "rawStart": 878.142,
+          "rawEnd": 878.502,
+          "start": 877.3086666666667,
+          "end": 877.6686666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "mnie",
+          "rawStart": 878.502,
+          "rawEnd": 878.682,
+          "start": 877.6686666666666,
+          "end": 877.8486666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "jakoś",
+          "rawStart": 878.682,
+          "rawEnd": 879.122,
+          "start": 877.8486666666666,
+          "end": 878.2886666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "gryzły,",
+          "rawStart": 879.122,
+          "rawEnd": 879.662,
+          "start": 878.2886666666666,
+          "end": 878.8286666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "te",
+          "rawStart": 879.762,
+          "rawEnd": 880.242,
+          "start": 878.9286666666666,
+          "end": 879.4086666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "kredyty",
+          "rawStart": 880.242,
+          "rawEnd": 880.822,
+          "start": 879.4086666666666,
+          "end": 879.9886666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "na",
+          "rawStart": 880.822,
+          "rawEnd": 881.142,
+          "start": 879.9886666666666,
+          "end": 880.3086666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "copilotzie",
+          "rawStart": 881.142,
+          "rawEnd": 881.782,
+          "start": 880.3086666666667,
+          "end": 880.9486666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "mnie",
+          "rawStart": 881.782,
+          "rawEnd": 881.902,
+          "start": 880.9486666666667,
+          "end": 881.0686666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "gryzły,",
+          "rawStart": 881.902,
+          "rawEnd": 882.372,
+          "start": 881.0686666666667,
+          "end": 881.5386666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "że",
+          "rawStart": 882.372,
+          "rawEnd": 882.522,
+          "start": 881.5386666666666,
+          "end": 881.6886666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "one",
+          "rawStart": 882.522,
+          "rawEnd": 882.762,
+          "start": 881.6886666666667,
+          "end": 881.9286666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "leżą",
+          "rawStart": 882.762,
+          "rawEnd": 883.062,
+          "start": 881.9286666666666,
+          "end": 882.2286666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "i",
+          "rawStart": 883.062,
+          "rawEnd": 883.202,
+          "start": 882.2286666666666,
+          "end": 882.3686666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "się",
+          "rawStart": 883.202,
+          "rawEnd": 883.362,
+          "start": 882.3686666666666,
+          "end": 882.5286666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "marnują",
+          "rawStart": 883.362,
+          "rawEnd": 883.922,
+          "start": 882.5286666666666,
+          "end": 883.0886666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "i",
+          "rawStart": 883.922,
+          "rawEnd": 884.362,
+          "start": 883.0886666666667,
+          "end": 883.5286666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "ja",
+          "rawStart": 884.362,
+          "rawEnd": 884.562,
+          "start": 883.5286666666666,
+          "end": 883.7286666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "tym",
+          "rawStart": 884.562,
+          "rawEnd": 884.722,
+          "start": 883.7286666666666,
+          "end": 883.8886666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "nic",
+          "rawStart": 884.722,
+          "rawEnd": 884.942,
+          "start": 883.8886666666666,
+          "end": 884.1086666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "nie",
+          "rawStart": 884.942,
+          "rawEnd": 885.202,
+          "start": 884.1086666666666,
+          "end": 884.3686666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "robię.",
+          "rawStart": 885.202,
+          "rawEnd": 885.582,
+          "start": 884.3686666666666,
+          "end": 884.7486666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "I",
+          "rawStart": 886.462,
+          "rawEnd": 886.822,
+          "start": 885.6286666666666,
+          "end": 885.9886666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "związku",
+          "rawStart": 886.822,
+          "rawEnd": 887.222,
+          "start": 885.9886666666666,
+          "end": 886.3886666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "z",
+          "rawStart": 887.222,
+          "rawEnd": 887.282,
+          "start": 886.3886666666666,
+          "end": 886.4486666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "tym",
+          "rawStart": 887.282,
+          "rawEnd": 887.442,
+          "start": 886.4486666666667,
+          "end": 886.6086666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "zacząłem",
+          "rawStart": 887.442,
+          "rawEnd": 887.862,
+          "start": 886.6086666666666,
+          "end": 887.0286666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "ten",
+          "rawStart": 887.862,
+          "rawEnd": 888.182,
+          "start": 887.0286666666666,
+          "end": 887.3486666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "kolejny",
+          "rawStart": 888.182,
+          "rawEnd": 888.622,
+          "start": 887.3486666666666,
+          "end": 887.7886666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "projekt,",
+          "rawStart": 888.622,
+          "rawEnd": 889.042,
+          "start": 887.7886666666666,
+          "end": 888.2086666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "ale",
+          "rawStart": 889.222,
+          "rawEnd": 889.642,
+          "start": 888.3886666666666,
+          "end": 888.8086666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "znowu",
+          "rawStart": 889.642,
+          "rawEnd": 890.382,
+          "start": 888.8086666666667,
+          "end": 889.5486666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "muszę",
+          "rawStart": 890.382,
+          "rawEnd": 891.522,
+          "start": 889.5486666666666,
+          "end": 890.6886666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "jakoś",
+          "rawStart": 891.522,
+          "rawEnd": 892.922,
+          "start": 890.6886666666667,
+          "end": 892.0886666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "go",
+          "rawStart": 892.922,
+          "rawEnd": 893.102,
+          "start": 892.0886666666667,
+          "end": 892.2686666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "ogarniać.",
+          "rawStart": 893.102,
+          "rawEnd": 893.802,
+          "start": 892.2686666666666,
+          "end": 892.9686666666666
+        }
+      ]
+    },
+    {
+      "id": "odciecie",
+      "title": "Co pomaga mi odciąć się od agentów?",
+      "speaker": "Kajetan Duszyński",
+      "start": 1150.9886666666666,
+      "end": 1184.8986666666667,
+      "rawStart": 1151.822,
+      "rawEnd": 1185.732,
+      "asrText": "Ja zauważyłem też u siebie i myślę, że to może być fajne rozwiązanie. Ja coraz więcej... rozwijam się fizycznie, tak powiem, to znaczy zajmuję się, chodzę na siłownię, chodzę na ściankę, chodzę na basen, chodzę na spacery z psem dłuższe, wyjeżdżam z dziećmi w góry i wtedy mnie w ogóle nie ma i robię najróżniejsze rzeczy, żeby się tak zupełnie od tego odciąć, nie? Tak zupełnie, zupełnie, wtedy wracam z czystą głową.",
+      "words": [
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "Ja",
+          "rawStart": 1152.322,
+          "rawEnd": 1152.942,
+          "start": 1151.4886666666666,
+          "end": 1152.1086666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "zauważyłem",
+          "rawStart": 1152.942,
+          "rawEnd": 1154.082,
+          "start": 1152.1086666666667,
+          "end": 1153.2486666666668
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "też",
+          "rawStart": 1154.082,
+          "rawEnd": 1154.522,
+          "start": 1153.2486666666668,
+          "end": 1153.6886666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "u",
+          "rawStart": 1154.522,
+          "rawEnd": 1154.742,
+          "start": 1153.6886666666667,
+          "end": 1153.9086666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "siebie",
+          "rawStart": 1154.742,
+          "rawEnd": 1155.062,
+          "start": 1153.9086666666667,
+          "end": 1154.2286666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "i",
+          "rawStart": 1155.062,
+          "rawEnd": 1155.682,
+          "start": 1154.2286666666666,
+          "end": 1154.8486666666668
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "myślę,",
+          "rawStart": 1155.682,
+          "rawEnd": 1156.002,
+          "start": 1154.8486666666668,
+          "end": 1155.1686666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "że",
+          "rawStart": 1156.002,
+          "rawEnd": 1156.142,
+          "start": 1155.1686666666667,
+          "end": 1155.3086666666668
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "to",
+          "rawStart": 1156.142,
+          "rawEnd": 1156.302,
+          "start": 1155.3086666666668,
+          "end": 1155.4686666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "może",
+          "rawStart": 1156.302,
+          "rawEnd": 1156.482,
+          "start": 1155.4686666666666,
+          "end": 1155.6486666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "być",
+          "rawStart": 1156.482,
+          "rawEnd": 1157.202,
+          "start": 1155.6486666666667,
+          "end": 1156.3686666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "fajne",
+          "rawStart": 1157.202,
+          "rawEnd": 1157.542,
+          "start": 1156.3686666666667,
+          "end": 1156.7086666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "rozwiązanie.",
+          "rawStart": 1157.542,
+          "rawEnd": 1158.142,
+          "start": 1156.7086666666667,
+          "end": 1157.3086666666668
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "Ja",
+          "rawStart": 1158.142,
+          "rawEnd": 1158.282,
+          "start": 1157.3086666666668,
+          "end": 1157.4486666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "coraz",
+          "rawStart": 1158.282,
+          "rawEnd": 1158.542,
+          "start": 1157.4486666666667,
+          "end": 1157.7086666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "więcej...",
+          "rawStart": 1158.542,
+          "rawEnd": 1159.984,
+          "start": 1157.7086666666667,
+          "end": 1159.1506666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "rozwijam",
+          "rawStart": 1163.278,
+          "rawEnd": 1163.918,
+          "start": 1162.4446666666668,
+          "end": 1163.0846666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "się",
+          "rawStart": 1163.918,
+          "rawEnd": 1164.058,
+          "start": 1163.0846666666666,
+          "end": 1163.2246666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "fizycznie,",
+          "rawStart": 1164.058,
+          "rawEnd": 1164.628,
+          "start": 1163.2246666666667,
+          "end": 1163.7946666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "tak",
+          "rawStart": 1164.628,
+          "rawEnd": 1164.898,
+          "start": 1163.7946666666667,
+          "end": 1164.0646666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "powiem,",
+          "rawStart": 1164.898,
+          "rawEnd": 1165.328,
+          "start": 1164.0646666666667,
+          "end": 1164.4946666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "to",
+          "rawStart": 1165.328,
+          "rawEnd": 1165.498,
+          "start": 1164.4946666666667,
+          "end": 1164.6646666666668
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "znaczy",
+          "rawStart": 1165.498,
+          "rawEnd": 1165.718,
+          "start": 1164.6646666666668,
+          "end": 1164.8846666666668
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "zajmuję",
+          "rawStart": 1165.718,
+          "rawEnd": 1166.278,
+          "start": 1164.8846666666668,
+          "end": 1165.4446666666668
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "się,",
+          "rawStart": 1166.278,
+          "rawEnd": 1166.558,
+          "start": 1165.4446666666668,
+          "end": 1165.7246666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "chodzę",
+          "rawStart": 1166.558,
+          "rawEnd": 1166.778,
+          "start": 1165.7246666666667,
+          "end": 1165.9446666666668
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "na",
+          "rawStart": 1166.778,
+          "rawEnd": 1166.938,
+          "start": 1165.9446666666668,
+          "end": 1166.1046666666668
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "siłownię,",
+          "rawStart": 1166.938,
+          "rawEnd": 1167.498,
+          "start": 1166.1046666666668,
+          "end": 1166.6646666666668
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "chodzę",
+          "rawStart": 1167.498,
+          "rawEnd": 1167.718,
+          "start": 1166.6646666666668,
+          "end": 1166.8846666666668
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "na",
+          "rawStart": 1167.718,
+          "rawEnd": 1167.918,
+          "start": 1166.8846666666668,
+          "end": 1167.0846666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "ściankę,",
+          "rawStart": 1167.918,
+          "rawEnd": 1168.388,
+          "start": 1167.0846666666666,
+          "end": 1167.5546666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "chodzę",
+          "rawStart": 1168.388,
+          "rawEnd": 1168.658,
+          "start": 1167.5546666666667,
+          "end": 1167.8246666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "na",
+          "rawStart": 1168.658,
+          "rawEnd": 1168.898,
+          "start": 1167.8246666666666,
+          "end": 1168.0646666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "basen,",
+          "rawStart": 1168.898,
+          "rawEnd": 1169.548,
+          "start": 1168.0646666666667,
+          "end": 1168.7146666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "chodzę",
+          "rawStart": 1169.548,
+          "rawEnd": 1169.918,
+          "start": 1168.7146666666667,
+          "end": 1169.0846666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "na",
+          "rawStart": 1169.918,
+          "rawEnd": 1170.078,
+          "start": 1169.0846666666666,
+          "end": 1169.2446666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "spacery",
+          "rawStart": 1170.078,
+          "rawEnd": 1170.498,
+          "start": 1169.2446666666667,
+          "end": 1169.6646666666668
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "z",
+          "rawStart": 1170.498,
+          "rawEnd": 1170.658,
+          "start": 1169.6646666666668,
+          "end": 1169.8246666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "psem",
+          "rawStart": 1170.658,
+          "rawEnd": 1170.938,
+          "start": 1169.8246666666666,
+          "end": 1170.1046666666668
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "dłuższe,",
+          "rawStart": 1170.938,
+          "rawEnd": 1172.358,
+          "start": 1170.1046666666668,
+          "end": 1171.5246666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "wyjeżdżam",
+          "rawStart": 1173.598,
+          "rawEnd": 1174.358,
+          "start": 1172.7646666666667,
+          "end": 1173.5246666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "z",
+          "rawStart": 1174.358,
+          "rawEnd": 1174.518,
+          "start": 1173.5246666666667,
+          "end": 1173.6846666666668
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "dziećmi",
+          "rawStart": 1174.518,
+          "rawEnd": 1174.858,
+          "start": 1173.6846666666668,
+          "end": 1174.0246666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "w",
+          "rawStart": 1174.858,
+          "rawEnd": 1175.018,
+          "start": 1174.0246666666667,
+          "end": 1174.1846666666668
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "góry",
+          "rawStart": 1175.018,
+          "rawEnd": 1175.398,
+          "start": 1174.1846666666668,
+          "end": 1174.5646666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "i",
+          "rawStart": 1175.398,
+          "rawEnd": 1175.558,
+          "start": 1174.5646666666667,
+          "end": 1174.7246666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "wtedy",
+          "rawStart": 1175.558,
+          "rawEnd": 1175.778,
+          "start": 1174.7246666666667,
+          "end": 1174.9446666666668
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "mnie",
+          "rawStart": 1175.778,
+          "rawEnd": 1175.958,
+          "start": 1174.9446666666668,
+          "end": 1175.1246666666668
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "w",
+          "rawStart": 1175.958,
+          "rawEnd": 1176.158,
+          "start": 1175.1246666666668,
+          "end": 1175.3246666666666
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "ogóle",
+          "rawStart": 1176.158,
+          "rawEnd": 1176.358,
+          "start": 1175.3246666666666,
+          "end": 1175.5246666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "nie",
+          "rawStart": 1176.358,
+          "rawEnd": 1176.638,
+          "start": 1175.5246666666667,
+          "end": 1175.8046666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "ma",
+          "rawStart": 1176.638,
+          "rawEnd": 1176.878,
+          "start": 1175.8046666666667,
+          "end": 1176.0446666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "i",
+          "rawStart": 1176.878,
+          "rawEnd": 1177.498,
+          "start": 1176.0446666666667,
+          "end": 1176.6646666666668
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "robię",
+          "rawStart": 1177.498,
+          "rawEnd": 1177.838,
+          "start": 1176.6646666666668,
+          "end": 1177.0046666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "najróżniejsze",
+          "rawStart": 1177.838,
+          "rawEnd": 1178.478,
+          "start": 1177.0046666666667,
+          "end": 1177.6446666666668
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "rzeczy,",
+          "rawStart": 1178.478,
+          "rawEnd": 1178.778,
+          "start": 1177.6446666666668,
+          "end": 1177.9446666666668
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "żeby",
+          "rawStart": 1178.778,
+          "rawEnd": 1178.998,
+          "start": 1177.9446666666668,
+          "end": 1178.1646666666668
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "się",
+          "rawStart": 1178.998,
+          "rawEnd": 1179.278,
+          "start": 1178.1646666666668,
+          "end": 1178.4446666666668
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "tak",
+          "rawStart": 1179.278,
+          "rawEnd": 1179.517,
+          "start": 1178.4446666666668,
+          "end": 1178.6836666666668
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "zupełnie",
+          "rawStart": 1179.517,
+          "rawEnd": 1179.898,
+          "start": 1178.6836666666668,
+          "end": 1179.0646666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "od",
+          "rawStart": 1179.898,
+          "rawEnd": 1180.138,
+          "start": 1179.0646666666667,
+          "end": 1179.3046666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "tego",
+          "rawStart": 1180.138,
+          "rawEnd": 1180.378,
+          "start": 1179.3046666666667,
+          "end": 1179.5446666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "odciąć,",
+          "rawStart": 1180.378,
+          "rawEnd": 1180.838,
+          "start": 1179.5446666666667,
+          "end": 1180.0046666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "nie?",
+          "rawStart": 1180.838,
+          "rawEnd": 1180.938,
+          "start": 1180.0046666666667,
+          "end": 1180.1046666666668
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "Tak",
+          "rawStart": 1180.938,
+          "rawEnd": 1181.118,
+          "start": 1180.1046666666668,
+          "end": 1180.2846666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "zupełnie,",
+          "rawStart": 1181.118,
+          "rawEnd": 1181.618,
+          "start": 1180.2846666666667,
+          "end": 1180.7846666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "zupełnie,",
+          "rawStart": 1181.618,
+          "rawEnd": 1182.018,
+          "start": 1180.7846666666667,
+          "end": 1181.1846666666668
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "wtedy",
+          "rawStart": 1182.018,
+          "rawEnd": 1182.338,
+          "start": 1181.1846666666668,
+          "end": 1181.5046666666667
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "wracam",
+          "rawStart": 1182.338,
+          "rawEnd": 1183.438,
+          "start": 1181.5046666666667,
+          "end": 1182.6046666666668
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "z",
+          "rawStart": 1183.438,
+          "rawEnd": 1184.278,
+          "start": 1182.6046666666668,
+          "end": 1183.4446666666668
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "czystą",
+          "rawStart": 1184.278,
+          "rawEnd": 1184.778,
+          "start": 1183.4446666666668,
+          "end": 1183.9446666666668
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "text": "głową.",
+          "rawStart": 1184.778,
+          "rawEnd": 1185.232,
+          "start": 1183.9446666666668,
+          "end": 1184.3986666666667
+        }
+      ]
+    }
+  ]
+}

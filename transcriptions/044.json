@@ -1,0 +1,179 @@
+{
+  "transcript": [
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:00",
+      "text": "Cześć, Piotrek!"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:01",
+      "text": "Cześć, Kajtek, słyszałeś że Anthropic idzie na giełdę? Bo ja mówiąc szczerze zapytałem go ostatnio jak sobie poradzić z wypaleniem. Nie? Powiedział mi że nie jest terapeutą, ale mogę kupić ich akcję i wtedy moje nadgodziny będą pracować dla mnie. I nie wiem czy się śmiać czy płakać, ale trochę to chyba tak w tej chwili wygląda."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:22",
+      "text": "No niestety, niestety. I faktycznie Anthropic ostatnio złożył dokumenty pod IPO, więc IPO zbliża się wielkimi krokami. Ale my dzisiaj nie o tym, tylko bardziej właśnie o tym drugim, czyli o wypaleniu. Bo nie wiem jak ty, ale ja mam coraz większy problem z pracą agentową. I to nie w kontekście tego, że... Mamy jakieś bottlenecki, których rozmawialiśmy, nie w tym, że właściwie niewiele się zmieniło, tylko bardziej w tym, że dużo się dzieje, bardzo dużo się dzieje i mam wrażenie, że ciężko sobie z tym poradzić tak ogólnie."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "01:11",
+      "text": "A, sprecyzowałbyś? No bo dużo się dzieje, to w ogóle zawsze się dużo działo, z nie wiem, w wojnę."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "01:17",
+      "text": "No dobra, przez ostatnie parę lat faktycznie trochę się dzieje na świecie, ale wiesz, jesteśmy przyzwyczajeni jako programiści czy jako ludzie z branży IT do tego, że powinniśmy się cały czas uczyć. I kiedyś mam wrażenie, że po pierwsze ta nauka przychodziła stosunkowo naturalnie i nie było takiego wielkiego pośpiechu, bo przez wiele lat niewiele się zmieniało. jakby wszystko ewoluowało, ale w racjonalnym tempie, a teraz wszystko się tak szybko zmienia, że ciężko jest nad tym nadążyć. I już wiele osób mnie pytało w ogóle, jak sobie radzić z tym, żeby być na bieżąco z tymi wszystkimi informacjami i jak filtrować te wszystkie informacje, te wszystkie nowe modele i tak dalej i nowe sposoby pracy z agentami i najróżniejsze rzeczy. No a... w jakiś sposób trzeba być up to date właśnie ze względu na to, żeby nie zostać z tyłu, żeby gdzieś tam przygotować się na to, co nadchodzi. I to jest jedna sprawa, a druga sprawa jest taka, że mam wrażenie, że my jako ludzie do końca nie jesteśmy stworzeni do tego, żeby pracować z agentami. Nie jesteśmy stworzeni ze względu na to, że nasz umysł działa jednowątkowo. to znaczy jesteśmy w stanie skupić się na jednej rzeczy i tą rzecz wykonać dobrze. Natomiast od kiedy są agenci, to nie wiem jak jest u Ciebie, ale ja nawet teraz, kiedy to nagrywamy, mam otwarte trzy okna z trzema różnymi harnessami, z trzema różnymi dostawcami i pracuje mi raz, dwa, trzy, cztery, pięć, sześć, siedem, ośmiu agentów na raz. na czterech różnych projektach."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "03:14",
+      "text": "No i jakbyś się drogie słuchaczu zastanawiał dlaczego czasami Kajetan laguje to masz odpowiedź."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "03:22",
+      "text": "Tak może być też, to prawda, bardzo możliwe, że będę potrzebował w końcu nowego laptopa, mimo że do tej pory jeszcze nie czułem tej potrzeby, do niedawna, ale tak, tak to wygląda. I kurde, wszyscy mówili, że przyjdzie AI i nas zastąpi i że będzie zastępowało nas w pracy. I ja to sobie trochę wyobrażałem tak, że skoro będzie mnie zastępowało w pracy, to ja sobie będę siedział jako ten operator, będę mu mówił, co robić, a w międzyczasie będę sobie robił inne rzeczy. Pójdę na siłownię, pójdę na basen, ogarnę coś w domu i najróżniejsze inne rzeczy, a realnie ja siedzę chyba jeszcze więcej niż siedziałem do tej pory i muszę być jeszcze bardziej skupiony, żeby realnie ogarnąć te wszystkie streamy, które do mnie spływają. I to zaczyna być męczące. I powiem ci, że zastanawiam się od dłuższego czasu już właśnie co z tym zrobić. Po pierwsze, żeby nie pracować tak dużo, już nie mówiąc o tym, w ogóle ostatnio, już nie pamiętam kto to mówił, ale ktoś mi opowiadał, że on zaczyna pracować nie osiem tam dziewiąta, siedemnasta powiedzmy, tylko zaczyna pracować przez całą dobę. w interwałach, to znaczy dojeżdża do limitów tych swoich 5-godzinnych na różnych modelach, potem sobie robi przerwę i po tych 5 godzinach siada znowu, znowu robi jakąś robotę aż osiągnie limit i tak w kółko. I dochodzi nawet do tego, że potrafi nastawić budzik na godzinę pierwszą w nocy tylko i wyłącznie po to, żeby odpalić telefonu i napisać continue, continue, continue, continue, continue, continue. No to jest chore."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "05:21",
+      "text": "Nie wiem co mam tu powiedzieć, ale jeden polecam aplikację, ale chyba nie. bo po to ją zresztą napisałem. Drugi jest to, że to chyba zależy od tego, dobra, no bądźmy szczerzy, no pijesz tak naprawdę do dwóch modelów licencyjnych, czyli Claude’a i OpenAI, bo oni są najbardziej, czyli Codexa, bo oni są najbardziej na te limity czasowe nastawione, Jak się używa innych, niech będzie GitHub Copilota, bo strzelec pierwszego dużego z rynku, to tam nie ma limitów czasowych, tam jest miesięczno. To ma plus, sensie ludzie dostosowali się do, w sensie chcą wymaksować to kranu. Powiedzmy sobie głośno może, część ludzi chce, nie wszyscy chcą. Pewnie w pracy zawodowej to by się, nie wiem czy ten człowiek to robił zawodowo czy nie, bo tego nie powiedziałeś. Jak pracujesz nad własnym projektem to robisz to inaczej, a jak robisz to na pracy dla kogoś to pewnie masz trochę inaczej. Część ludzi ma, o skończył mi się limit, no to nara. Co ja mogę robić? Więc ja myślę, to się trochę po prostu zmienia, układa. wiem jak to powiedzieć. w sensie na jedną część to rzeczywiście się... No ale dużo bardziej to co chyba mnie boli to jest to od czego ty zacząłeś. Czyli od tego, że nagle ci idzie 5 różnych dziwnych wątków i ty je nadzorujesz. Nie wiem na ile to, nie wiem, pewnie, jak gdyby części dzieci w tej chwili zawodowe, więc może o tym nie gadajmy, co dokładnie robisz, Ale jak gdyby kwestia jest też tego, czy my jako ludzie jesteśmy w stanie ogarnąć sobie 5 różnych dziwnych wątków, To się wiesz, trochę, żeśmy sobie o tym gadali, ale rzeczywiście zaczyna się to robić męczące, nie? W sensie nie wszyscy. To pozdrawiam wszystkich znajomych z ADHD. Pewnie ludziom z ADHD wbrew pozorom potrafi być łatwiej. Nie wiem czy to jest prawda. Jak drogi słuchacz, jak masz, gdyby jesteś, albo masz jakąś opinię w temacie, albo widzisz takich ludzi, to zachęcam do skomentowania. Ja trochę mam wyrażenie, że takim osobom może być łatwiej teraz. To głupio zabrzmi. Ale właśnie, że oni są przyzwyczajeni do tego, że nagle zmieniają kontekst i ogóle zmienia się ogóle coś. Co nie jest chyba takie, wiem, ani dobre, ani złe, nie? Po prostu inny zestaw. Natomiast pytanie mnie, czy to naprawdę jesteś w stanie wciągnąć te 5 wątków na raz w ciągu dnia? Bo ja po prostu się czuję potem zmęczony, nie? sensie, że to jest efekt tego, że ja... to powiem głośno, ale mój szef o tym wie i chyba szef mojego szefa też o tym wie, że ja nie jestem w stanie pracować... nad ilomaż wątkami w ciągu dnia, mnie się po prostu kończy energia. Najczęściej na świecie, po prostu w którymś momencie przestaję być na tyle kapowato, żeby to zrobić. No i okej, no i ten agent może mi produkować kod, prezentacje, stronę na Confluence czy cokolwiek takiego, ale ja przestaję mieć siłę na patrzenie na to, czy to ma... może sens, to może nie o to do końca chodzi. No powiedzmy sens, nazwijmy to sens. Żeby mi się kończy moc przerobowa, nawet chociażby żeby przetestować tę aplikację. Albo wymyśleć, którą stronę było tak, bo powiedzmy nie wiem dochodzi ci do nie wiem użyj rozwiązania A, B czy C. Ty czytasz co myślisz, jezu nie wiem. Albo odpowiadasz jak ten człowiek budzi się... Dobra, ja się nie... Ja nigdy w życiu sobie zrobię takie krzywdę, żeby sobie ustawiać budzik na pierwszą rano, żeby klikać continue, ale jakby mnie agent zapytał o pierwsze rano i musiałbym odpowiedzieć, to odpowiedziałbym mu..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "09:17",
+      "text": "No zrób co chcesz."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "09:17",
+      "text": "Tu wstaw brzydkie słowo, weź sobie wybierz co chcesz, wrócę do Ciebie rano. Zresztą potrafię mu dać taką instrukcję, nie wiem czy Ty to robisz, ale ja permanentnie daję w swojej magie taką instrukcję. Stary, teraz mnie nie będzie przez 3 godziny. Więc jak masz jakieś do mnie pytania, to musisz sobie sam odpowiadać, część tych harnessów sobie z całkiem spoko radzi. No i jak gdyby przestałem mnie pytać o pierdoły, tylko jak gdyby... Jak gdyby wracam tego następnego dnia, albo zostawiam prompta na wieczór, jak gdyby mówię, ja idę spać, będę za 8 godzin, wtedy mogę cokolwiek, tam ci mogę... Ewentualnie popatrzę na Cię jeszcze przez pierwsze chwile, ale potem to zapomnij. Jak gdyby następna odpowiedź, Rada, ja chciałbym, żebyś miał rezultat. Często te harnessy w różnych narzędziach se z tym radzą. Nie, nie muszę go budzić, Rada, nie muszę se nastawić, że budzika. Ale to pewnie zależy... Nie wiem czy teraz mówiąc, czy Claude umie się zorientować, że już okno kontekstowe ma gotowe i może klepać dalej? Nie wiem. Potrafi? O, no potrafi. To może już nie musisz wstawać, tylko powiesz mu, poczekaj. Chce zacznieć się nowe, to zaczekaj. To zasuwaj dalej. Ale to jest męczące, nie? W sensie, że to chyba wymaga, jak gdyby wymaga takiego naszego... No powiedziałbym, że... brakuje mi trochę takiego szkolenia i takiego ze soft skills. Nie wiem jak to nazwać, ale takiego softskillowego, jak sobie z tym radzić. Kiedyś mnie uczyli, teraz masz czas w fokus. Niech będzie technika Pomodoro. Teraz robię fokus, potem przerwę, potem robię fokus, potem robię przerwę i dzięki temu funkcjonuję całkiem nieźle. Ale teraz to nie działa. to tam w losowych momentach jest i to rzeczywiście zaczyna się robić, nie wiem. Mi to zaczyna sprawiać jak gdyby jakoś pewnego rodzaju trudność, jak jeszcze dobra, jak gdyby czasami się ludzie zastanawiają, jakim cudem, nie wiem czy też dostaliście pytanie, a jakim cudem wy jeszcze dajecie radę ten podcast, nie? I czasami jest tak, drogi słuchacze, że uwierzcie nam, że, że, że, że, że, że, że, W środę. Z reguły odcinki staramy się nagrywać z różnych względów w poniedziałek, bo tak jest nam najwygodniej, bo we wtorek mamy ten drugi. Drugi, znaczy tak, staramy się nagrać w poniedziałek. Jak w poniedziałek nam nie wyjdzie, to mamy slot wieczorem taki o 21.00 we wtorek. A jak nie, to próbujemy to wepchnąć gdzieś w środę, bo już zaczyna się robić problem, bo staramy się opublikować w czwartek. No i dzisiaj doszliśmy do tej granicy, bo już mi nie dali rady. Łącznie z tym, że mi wczoraj o 20.00... 30 wywaliło prąd na całą wioskę, jak to była taka przeszkoda, zmuszenie się do tego, żeby zabrać materiały do odcinka, coś tam nie wymaga od nas kolejnej przestrzeni mózgowej. Robimy to, bo lubimy. Radzmy to głośno. Ale jak jeszcze mam coś tam w pracy, coś się dzieje, to czasami znalezienie tej przestrzeni mózgowej, jak ciągnę 5 wątków na raz, jest po prostu trudne. No i mi by się przydało w tej chwili szkolenie, jak sobie radzić z pracą na pięciu wątkach. Bo może odpowiedzią jest nie radzić sobie, tylko po prostu siedzieć na jednym wątku i czekać. Nie wiem, nie?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "13:00",
+      "text": "Tylko czy trochę właśnie też nie jesteśmy popychani w tę stronę? Może to jest właśnie kwestia tego pędu, który, który aktualnie jest widoczny. Może to jest tylko chwilowe, właśnie dlatego, że się zachłysnęliśmy tymi modelami frontier'owymi. Nie wiem, jak to po polsku powiedzieć, ale w każdym razie..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "13:27",
+      "text": "Naprzednimi. Naprzednimi. Nie wiem."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "13:29",
+      "text": "naprzed nimi. Modelami, które naprawdę dobrze sobie radzą z tym kodowaniem i realnie widzimy zresztą, no właśnie, ja w tej chwili w pracy pracuję nad trzema różnymi projektami, prywatnie pracuję nad dwoma projektami i dodatkowo jeszcze robimy podcast i dodatkowo myślimy o innych rzeczach i jakby... trochę i właśnie żeby od razu powiedzieć dlaczego ja na przykład pracuję nad dwoma prywatnymi nad dwoma prywatnymi projektami to już ci kiedyś mówiłem dlatego, że mam subskrypcję Copilot, która leżała i miałem wrażenie, że się marnuje tak jak inne rzeczy, z subskrypcji czy jako benefit MVP nigdy mnie nie bolało, że się marnuje bo trochę tego mamy dostęp mamy dostęp do najróżniejszych rzeczy, możemy sobie to otwarcie powiedzieć i nigdy mnie nie bolało, że to się marnuje, że to leży i ogóle nikt tego nie używa. A te tokeny mnie jakoś gryzły, te kredyty na Copilocie mnie gryzły, że one leżą i się marnują i ja tym nic nie robię. I związku z tym zacząłem ten kolejny projekt, ale znowu muszę jakoś go ogarniać. Nie jestem przekonany, czy są realnie jakieś możliwości do tego, żeby to lepiej ogarniać. Może ewolucyjnie musimy się jakoś do tego przyzwyczaić w pewien sposób albo po prostu zrobić zawrotkę, tak jak na tym memie dotyczącym ewolucji, stwierdzić, że spieprzyliśmy i musimy zawrócić i tak jak mówisz, wrócić do działania na jednym wątku. tylko czy jesteśmy na ten moment w stanie wrócić do jednego wątku? No bo z drugiej strony, jakbyśmy działali teraz na jednym wątku, to moglibyśmy się zanudzić. No bo co, nie będziesz patrzył w ekran i sprawdzał komenda po komendzie, co on tam wywołuje, co on tam robi, co on generuje, no bo to jest strata czasu."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "15:41",
+      "text": "ale wiesz, może będziesz pracował nad jednym projektem, a nie nad pięcioma. Wiesz, tak, to jak gdyby dobrze, znowu będzie autoreklama własnej aplikacji, ale jak gdyby zmusiłem się do tego, żeby ją wypuścić, bo w innym wypadku stworzyłem w ciągu tego roku ileś projektów, ale coś tam mi w domu robią, Nie są to totalne bezużyteczne rzeczy, które tam stworzyłem. ale one bardzo często u mnie lądowały w szufladzie. Jest takie rzeczy, że nawet z Kajetanem robię taki projekt, że zastanawialiśmy się nad lepszym, media, szedularem, oporządzaczem, coś tam lub jak gdyby nawet samo, wiecie, zrobione głupie opostę reklamującego, jak gdyby wymaga po prostu czasu. Zaraz mi ktoś wskaże, że są gotowe narzędzia, tak, wiemy, że są, ale nam stuknęło w głowie, stwierdziliśmy, zrobimy sami, bo będzie lepszy. I wiesz, no i... I gdzie znalazł się ten nasz projekt? Na GitHubie. Kiedy ostatni raz był commit? W maju. Może w kwietniu. Właśnie bo to jest też problem, że takie osoby, dobra, obaj jesteśmy jakoś zbudowane psychicznie, nie? My mamy potrzebę ciągle nowego. Znaczy, dobra, ja spojrzę na siebie. Ja mam potrzebę. Ciągle nowego, ciągle łapania nowych rzeczy, w ogóle nie ten, nie? co pewnie świadczy o tym, że jakiś tam kawałek ADHD pewnie mam albo cokolwiek i nie mogę utrzymać fokusu jedną rzeczą, bo to jest chyba, wiesz, bo to jest chyba kwestia tego, bo są ludzie, którzy umieją utrzymać ten fokus i rozwijać tą jedną rzecz. I wiesz, jakbyś nie rozwijał, ile powiedziałeś, trzy projekty w pracy, dwa projekty w domu, z pięć projektów utrzymujesz, no to nie dziwne, że jesteś zmęczony. Ja utrzymuję nie wiem ile projektów pracy, bo mam pracę konsultanta, ale zmieniało mi się co chwilę, czy tam wewnętrznego, pracuję w firmie produktowej, jestem wewnętrznym konsultantem, a w domu w tej chwili utrzymuję jeden. I to też słabo, bo mam inne rzeczy na głowie i nie mam czasu po prostu robić nad tym jednym. Więc to może jest kwestia właśnie tego, że wiesz, że to jest kwestia podejścia. Trzeba zmienić swoje życie i trochę przestać próbować ciągnąć kolejny projekt. Nie chcę powiedzieć głośno, te darmowe kredyty, które masz od Microsoftu, to są darmowe kredyty na tego Copilot. jak one przepadną, to nic mi się nie stało. Zawiłem kogoś, byś tak nie płakał. Albo to samo, jak nie dociągniesz limitów w Codexie, a to, czy kosztuje tam x dolarów miesięcznie, no to się nic nie stanie."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "18:33",
+      "text": "No tak, ale widzisz, ale jest duża presja też... naszej bańki, że tak powiem. Odpalasz Instagrama i widzisz, że coś się dzieje. Odpalasz LinkedIna, widzisz, że coś się dzieje. Odpalasz jeszcze kolejne rzeczy, widzisz, że cały czas coś się dzieje, cały czas ktoś coś tworzy. Już jakby..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "18:37",
+      "text": "Czyja? A, no."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "18:59",
+      "text": "pomijając to, ile z tych rzeczy faktycznie jest tworzonych, a ile jest tylko tworzonych postów na temat tego, że jest tworzonych, ale to działa, cały czas presja działa. Ja zauważyłem też u siebie i myślę, że to może być fajne rozwiązanie. Ja coraz więcej... rozwijam się fizycznie, tak powiem, to znaczy zajmuję się, chodzę na siłownię, chodzę na ściankę, chodzę na basen, chodzę na spacery z psem dłuższe, wyjeżdżam z dziećmi w góry i wtedy mnie w ogóle nie ma i robię najróżniejsze rzeczy, żeby się tak zupełnie od tego odciąć, nie? Tak zupełnie, zupełnie, wtedy wracam z czystą głową. i przez kolejne dwie godziny mogę faktycznie patrzeć na tych agentów jak znowu sobie zasuwają i wtedy jest znowu ekscytacja, że coś się dzieje. Ale mam wrażenie, że możemy się zbliżać do tego momentu. Zresztą widzę też, co się dzieje w firmach, że jest coraz większa presja właśnie tego, żeby robić więcej, więcej, więcej, że jeżeli... jakby siedzisz i patrzysz, jak agent zasuwa w jednym projekcie, no to może pomożesz w drugim projekcie, albo w trzecim, albo tu coś skonsultujesz, albo tu coś tam, tu pomożesz, tu złapiesz jakiegoś fixa albo coś innego. I myślę, że to może być w najbliższym czasie problem, że ludzie faktycznie będą zbliżać się do tego, że w pewnym momencie powiedzą, nie, ja mam tego dosyć. Zresztą... Zupełnie, zupełnie... Szczera, szczera historia. Ostatnio... Long story short, zepsuła mi się spłuczka w toalecie i zawołałem hydraulika. I hydraulik przyszedł i był super ciekawą osobą, to znaczy zainteresował mnie tym, że hydraulik przyszedł ze składanym modelem Samsunga. Ze smartfonem składanym takim, wiesz, tym foldem jakimś coś takiego."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "21:06",
+      "text": "Duono, fault, tak, fault, przepraszam, nie ta technologia."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "21:08",
+      "text": "No, no, no, duo to od iPhone, to nie ta firma. I tak sobie pomyślałem, kurde, hydraulik przyszedł do mnie i ma telefon za 10 koła. I tak zarzuciłem, zapytałem się, czy mu się sprawdza. On mówi, że bardzo mu się sprawdza, od 3 lat korzysta, jego żona ma podobnego składaka, tylko tego flipa takiego, co z małego się robi dłuższy. i mówi, że bardzo są zadowoleni z tego i faktycznie jest to coś, co bardzo sobie ceni. Natomiast mówi, że w pracy hydraulika może mu się nie przydaje, ale on jeszcze niedawno był handlowcem i zmienił pracę na hydraulika. I zacząłem, i w mojej głowie zaczęła się myśl, co się musiało w życiu tego człowieka wydarzyć, że z handlowca prawdopodobnie nie najgorszego, skoro było go wtedy stać na to, żeby kupić sobie... najdroższy model Samsunga przeszedł do tego, żeby zostać hydraulikiem. I zastanawiam się, ile takich osób będzie w najbliższym czasie z IT, że oni stwierdzą, nie, ja mam tego dosyć, ja nie chcę uczestniczyć w tym pędzie, bo jakby pęd był zawsze, ale on był związany bardziej z tym, żeby z juniora jak najszybciej stać się seniorem, architektem czy kimkolwiek innym, a teraz jest jeszcze dodatkowo pęd, że musisz cały czas być na bieżąco z tymi zmianami, które się dzieją. na rynku i myślę, że może być tak, że wiele osób stwierdzi pieprze to. Jakby nie mam ochoty brać w tym udziału i przejdą gdzieś zupełnie w inną stronę. I ciekaw jestem właśnie bardzo takich historii, które myślę, że mogą być w najbliższym czasie coraz częstsze. Chciałbym porozmawiać z takimi ludźmi, gdyby się udało, więc jeśli drogi słuchaczu, może już postanowiłeś... zrobić coś takiego, to dawaj znać, bardzo chętnie się, nawet jeśli nie na podcast, to po prostu spotkam na kawę i z tobą porozmawiam. No bo właśnie, bo wydaje mi się, że to może być problem, żeby sobie z tym wszystkim poradzić. Bo technologia nigdy się nie rozwijała tak szybko. Jakby branża nigdy się nie zmieniała tak szybko. Może to jest też kwestia tego, że aktualnie, no my też jesteśmy... troszeczkę, tak powiem, przez to, robimy podcast, jesteśmy na takim, nazwijmy to, świeczniku. znaczy sami sobie nakładamy to chomąto, że musimy być na bieżąco, właśnie żeby przygotować sobie materiały do kolejnego odcinka. Sami nakładamy sobie chomąto, że musimy coś przetestować, żeby być wiarygodnym. Czy wszyscy tak muszą? Albo będą musieli niedługo? No właśnie nie wiem. Ja nie jestem przekonany."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "23:53",
+      "text": "To właśnie mnie. Właśnie nie, wydaje mi się, zupełnie nie. Właśnie wydaje mi że zupełnie nie. Że to jest kwestia tego, że pewnego rodzaju typy osobowości. Nie wiem, po prostu mamy potrzeby obaj, nie wiem, wywnętrzania się na zewnątrz. Robienia tych nowych rzeczy, living on the edge w ogóle. Nie, to w nie ma takich potrzeby. Oni by chcieli dostać instrukcję, jak ja mam korzystać. Nie wiem. Nazwę tego użyję słowa agent, nie wiem, skill, agent, prompt. Dajcie mi instrukcję, ja będę robił według instrukcji. Bardzo dużo ludzi tak chce. Tylko ty jesteś osobą, chce żyć na świeczniku, ten bawi cię to, mnie też to bawi, żeby nie było. No po prostu coś z tym fantami robisz. Dotykasz to, próbujesz nowych rzeczy. Ja na przykład ostatnio dobrze, jako człowiek sukcesu z Instagrama, LinkedIna i innych dziwnych rzeczy, ja ostatnio wrzucam rzeczy, które są zdecydowane mniejszym sukcesem, a nie większym, bo na przykład bardzo się chwaliłem, jak to mój pierwszy płatny użytkownik mojej cudownej aplikacji zrezygnował. i załatwił sobie odkaz. Nie do końca wiem czy on zrezygnował z następnego, czy on dostał z wyrody, bo nie mogę tego wyciągnąć. Ale opóźnienie w kwestii kasy, którą mogę wyciągnąć jest tak straszne, że ogóle nie ma o czym gadać, więc nawet nie umiem się zorientować. Przynajmniej jeszcze dzisiaj, powiem o to, że nastąpiło to w weekend. Zresztą nie ma to większe oznaczenie. Zrobiłem to i tak główne dla siebie, jestem głównym użytkownikiem swojej aplikacji. Może mój Boniface będzie kiedyś użytkownikiem moich aplikacji, ale wątpię. Boniface będziesz? Nie, będziesz. Boniface interesuje tylko Miska. Wracając do tego, to wynika trochę z tego, że możesz po prostu przestać. Tak naprawdę nie musisz. W większości ludzi tam nie ma. Większość ludzi przychodzi do pracy, odwala swoje roboty, idzie do domu. Nie oszukujmy się. Tak wygląda większość pracy. W IT trochę kiedyś się nam wszystkim wydawało, bo się kręciłeś w takich zespołach i wybrałeś takie miejsce, żeby to nie było, ale no bardzo dużo zespołów to są ludzie, którzy chcieli klepać CRUD-a i iść do domu, no. Nawet sam mówisz, Zmieniam swoje podejście, dużo spędzam czasu z dziećmi i coś tam. Ja aktualnie dużo czasu spędzam w różnych dziwnych szpitalach, jakieś rodzinne problemy i jak gdyby... co tam kolego, co chwilę kolejny członek mojej rodziny ląduje w szpitalu i cholera, szlag mnie trafia, nie? Ale w związku z tym nie mam czasu się przejmować, nie? Nie buduję kolejne aplikacje, a powiedzmy, że podcast to robię dla odstresowania się i robienia, jak gdyby, mniej więcej z tego frajdy, nie? Czy tam, nie wiem, buduję sobie aplikację w domu właśnie po to, żeby tam, nie wiem, odpocząć, nie? Ale to bardzo różnie bywa. Nie oszukujmy się, nie?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "27:03",
+      "text": "No dobra, ale czy w takim razie te osoby, chcą przyjść na 8 godzin klepać CRUD-a, mogą spać spokojnie i klepać sobie dalej te CRUD-y?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "27:13",
+      "text": "Nie wiem. Znaczy myślę, nie. Zupełnie szczerze myślę, że długofalowo nie. Dlatego, że przynajmniej zmieni się sposób klepania tych CRUD-ów. To może to tak. Ale to nie jest... Nie wiem jak to powiedzieć. Wszędzie jest przedstawione, że to co w tej chwili się dzieje to jest ogóle rewolucja w wytwarzaniu oprogramowania. To jest w ogóle rewolucja. Jak o tym pomyślysz to nie, to jak patrzysz na sobie to jest ewolucja. Ok, niektóre rzeczy robimy szybciej, niektóre rzeczy robimy łatwiej, niektóre rzeczy robimy, nie wiem, cokolwiek, nie lepiej, nazwijmy to słowem lepiej. Ale czy nastąpiła naprawdę ewolucja jak wytwarzamy oprogramowanie? Ok, prostego SaaS-a czy soft do domu czy coś tam, no tak, no to nastąpiła... rewolucja, możesz se napisać w wieczór. W sensie wcześniej byś tego po prostu nie robił, a teraz możesz se to naklepać. Mieć jakiegoś tura, którego niech tam. Ale jak już zaczynasz robić soft, który utrzymujesz, naprawdę jest taka rewolucja, w sensie ok, no kodujesz inaczej. Nie, ale no... Ja tej ewolucji jeszcze ciągle nie widzę. Powiem o tym, że uważam, ewolucyjnie to zrobiliśmy superkrok. Ewolucyjnie nastąpił superkrok. No i teraz, czy wiesz, czy ta osoba klepiąca CRUD-y, chciałaby klepać CRUD-y w ten sam sposób od urodzeń do śmierci, może drżeć, że praca jej się tam... dotknie, no tak, nie no, no pewnie, no. To jest, o co chodzi, nie. Czy możesz, gdyby bać się tego, że twoja firma, jak gdyby zrobi zestaw zwolni? No tak, no bo gospodarka na świecie jest jaka jest i trochę, trochę, jak gdyby nam stuknęło, nie. Nie wiem, przez AI, czy nie przez AI, nie. Ale jak gdyby, no trochę nam stuknęło, nam w świecie w ostatnich latach, na samym początku, nie. Co się wydarzyło w ostatnich latach? A no w sumie to, jak gdyby... Pewnie większość z nas jeszcze ciągle myśli o tym, że COVID to zasadzie dopiero to zasadzie co był. A od COVIDa do 2026 to już się trochę rzeczy wydarzyło. Pominę to tam nie wiem, problemy z prądem albo tam jak gdyby wojna na świecie, ceny RAM-u albo cokolwiek takiego. Więc to się po prostu zmienia, to trochę inaczej działa, inaczej wygląda, ale no... Ale to jest taka ewolucyjny stan, który prostu bywa. To, że musimy nauczyć się jak z tymi narzędziami pracować, po prostu musimy się nauczyć. Musimy się nauczyć jako indywidual, musimy się nauczyć jako firmy. Trochę jest tej chwili tak, że bardzo dużo z nas, nazwijmy to takich, którym się chce, dostosowało się do KPI. Dostosowałeś się do tego, że limit ci się odnawia. Nie chcesz go wycisnąć na maksa. Może po prostu nie wyciskać na maksa. Może jak Anthropic wejdzie na giełdę, OpenAI wejdzie na giełdę, to przestaną być takie korzystne obszary czasowe w ciągu doby, kiedy trzeba kodować, bo zaczną się rozliczać po prostu na chama za token. I prawdę nagle się okażesz, wiesz, nie ma co walczyć. I jak pomyślysz o tym, że jak ten cennik by się tak zmienił, to przestaniesz mieć poczucie straty. Albo że nie docisnąłeś tej licencji i po prostu pójdziemy sobie dalej. Może to, że Anthropic czy OpenAI czy inne narzędzia wejdą na giełdę i zmieni się sposób jak za to płacimy, to może być rozwiązaniem."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "31:05",
+      "text": "Może być to dla nas dobre. To prawda, to prawda. I może właśnie tym optymistycznym miejmy nadzieję, akcentem będziemy powoli kończyć. Żeby nie było, bo taki nam wyszedł trochę słodko-gorzki, a bardziej gorzki chyba odcinek, to nie martwcie się, u nas wszystko dobrze. Nie planujemy tutaj kończyć czegokolwiek. Zaraz będziemy mieli rocznicę. No i to jest..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "31:11",
+      "text": "Nie no, bardzo optymistyczną. I zaraz będzie mija rocznica. Pamiętam kiedy wypuściliśmy pierwszy odcinek, ale jak?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "31:37",
+      "text": "Najlepsza informacja tego sezonu. Być może rocznica już była, bo mieliśmy też trochę przerwy."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "31:44",
+      "text": "Nie, nie, poczekaj, ale poczekaj, pierwsze odcinki nasze żeśmy nagrywali jakoś tak dziwnie, a potem żeśmy nagrali ten pierwszy prawdziwy, bo pierwsze, dobra, słuchacz, będzie internal news na żywo, wejście z szafy, pierwsze trzy odcinki naszego podcastu poszły do śmieci. Tak tam świetnie poszło."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "32:03",
+      "text": "Tak było, tak było. Ale od tamtej pory faktycznie całkiem sporo się wydarzyło. To my to sp... To..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "32:10",
+      "text": "Czekaj, czekaj, sprawdzam. Pierwszy Better Dev Club Weekly 6 listopada stary."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "32:17",
+      "text": "Och, to już za tydzień właściwie. No to, czyli za tydzień mamy rocznicę."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "32:19",
+      "text": "To za tydzień. Jezu, jest coś, żeśmy sobie zrobili, powinniśmy toy odpalić, a my, cholera, jakieś smety poszliśmy."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "32:28",
+      "text": "Nie, nie, nie, to za tydzień na rocznicę będzie bardziej pozytywnie. Miejmy nadzieję, chyba że akurat nas dopadnie jesienna, chandra albo coś cokolwiek innego. Dlatego tak czy inaczej zapraszamy cię też na kolejny odcinek już za tydzień. I pamiętaj o tym, żeby zasubskrybować, polubić, skomentować przede wszystkim. Może masz takie same problemy jak my mamy, wiesz jak sobie z nimi poradzić, masz swoje sposoby, to chętnie się o nich dowiemy. No i co? No i dziękujemy Ci bardzo za to, że byłeś po raz kolejny z nami. O! Dokładnie!"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "33:00",
+      "text": "i wesołych świąt. Bo najbliższy weekend mamy, jak to się po polsku mówi Halloween."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "33:13",
+      "text": "Nasze ulubione święto."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "33:15",
+      "text": "i możliwość spotkania całej swojej rodzinie na cmentarzu. Co twój, Jezu, całej swojej rodziny na cmentarzu jest. Więc pozdrówcie babcie, ciocie, wujka, dziadka i kogo tam spotykacie. Grobing. Widzimy się. Cześć."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "33:22",
+      "text": "Tak jest. Miłego grobingu, słuchajcie i widzimy się za tydzień. Do zobaczenia."
+    }
+  ]
+}
