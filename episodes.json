@@ -1,5 +1,74 @@
 [
   {
+    "id": 44,
+    "num": "44",
+    "notPublished": true,
+    "title": "AI miało odciążyć. Dlaczego pracujemy więcej? | Better Dev Club #44",
+    "date": "2026-10-29",
+    "duration": "33:36",
+    "desc": "Osiem agentów, cztery projekty i jedna głowa do podejmowania decyzji. AI miało odciążyć programistów, a Kajetan łapie się na tym, że siedzi przy pracy jeszcze dłużej. Piotrek Stapp i Kajetan Duszyński rozmawiają o przeciążeniu pracą z agentami: przełączaniu kontekstu, zmęczeniu decyzyjnym i presji, żeby nie zostać w tyle. Pytają też, dlaczego limity i niewykorzystane tokeny potrafią zacząć układać nam dzień.\n\nNie mamy gotowej recepty na wypalenie. Dzielimy się własnymi doświadczeniami: rozpoczynaniem projektu, bo szkoda kredytów w Copilocie, ograniczaniem liczby równoległych projektów i odcinaniem się od komputera. Historia hydraulika prowadzi do pytania o zmianę zawodu, a rozmowa o CRUD-ach — do różnicy między zmianą narzędzi a rewolucją całej pracy. Czy naprawdę każdy musi żyć na technologicznym froncie? I kiedy lepiej pozwolić tokenom przepaść, zamiast dokładać sobie obowiązków?",
+    "agenda": [
+      "00:00 - [AI i wypalenie] Suchar na start i dlaczego dziś nie robimy przeglądu newsów",
+      "01:17 - [Osiem agentów, jedna głowa] Nadążanie za zmianami i przełączanie kontekstu",
+      "03:22 - [Miało być mniej pracy] Kajetan o nadzorowaniu agentów i historii budzika na continue",
+      "05:21 - [Limity a energia człowieka] Modele rozliczeń i zmęczenie podejmowaniem decyzji",
+      "09:17 - [Granice dostępności] Instrukcje dla agentów, odpoczynek i szukanie sposobu pracy",
+      "13:29 - [Szkoda mi tokenów] Dlaczego Kajetan rozpoczął kolejny prywatny projekt",
+      "15:41 - [Jeden projekt zamiast pięciu] Piotrek o domykaniu rzeczy i odpuszczaniu limitów",
+      "18:33 - [Presja naszej bańki] Social media, oczekiwania w firmach i aktywność poza komputerem",
+      "21:08 - [Z handlowca na hydraulika] Historia Kajetana i pytanie o odejścia z IT",
+      "23:53 - [Nie każdy musi być na froncie] Różne potrzeby, priorytety i praca według instrukcji",
+      "27:03 - [Co z klepaniem CRUD-ów?] Ewolucja pracy, utrzymanie oprogramowania i spekulacje o cenach AI",
+      "31:05 - [Zakończenie] Rocznica podcastu i pytanie o wasze sposoby na przeciążenie"
+    ],
+    "tags": [
+      "betterdevclub",
+      "ai",
+      "agenci-ai",
+      "wypalenie-zawodowe",
+      "przeciazenie",
+      "przelaczanie-kontekstu",
+      "zmeczenie-decyzyjne",
+      "praca-programisty",
+      "fomo",
+      "github-copilot",
+      "claude",
+      "codex"
+    ],
+    "platforms": {
+      "youtube": "",
+      "spotify": "",
+      "apple": ""
+    },
+    "resources": [
+      {
+        "type": "link",
+        "url": "https://github.com/features/copilot",
+        "label": "GitHub Copilot",
+        "description": "Narzędzie wspomniane przy subskrypcjach i kredytach; aktualne warunki planów mogą różnić się od opisywanych w rozmowie."
+      },
+      {
+        "type": "link",
+        "url": "https://claude.com/product/claude-code",
+        "label": "Claude Code — Anthropic",
+        "description": "Oficjalna strona agenta do programowania z rodziny Claude."
+      },
+      {
+        "type": "link",
+        "url": "https://github.com/openai/codex",
+        "label": "Codex — oficjalne repozytorium OpenAI",
+        "description": "Kod i dokumentacja narzędzia; w odcinku mowa także o limitach subskrypcji."
+      },
+      {
+        "type": "link",
+        "url": "https://www.atlassian.com/software/confluence",
+        "label": "Confluence",
+        "description": "Narzędzie przywołane jako przykład dokumentacji tworzonej przez agenta."
+      }
+    ],
+    "youtubeId": ""
+  },
+  {
     "id": 43,
     "num": "43",
     "notPublished": true,
