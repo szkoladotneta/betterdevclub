@@ -2,7 +2,7 @@
   {
     "id": 44,
     "num": "44",
-    "notPublished": true,
+    "notPublished": false,
     "title": "AI miało odciążyć. Dlaczego pracujemy więcej? | Better Dev Club #44",
     "date": "2026-10-29",
     "duration": "33:36",
@@ -36,9 +36,9 @@
       "codex"
     ],
     "platforms": {
-      "youtube": "",
-      "spotify": "",
-      "apple": ""
+      "youtube": "https://youtu.be/MxX4DGe2Uk8",
+      "spotify": "https://open.spotify.com/episode/4waDbrXetgWccXnaRlWDX6",
+      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club-44-agenci-nie-odpoczywaj%C4%85-a-ty/id1848840540?i=1000798654064&uo=4"
     },
     "resources": [
       {
@@ -66,12 +66,12 @@
         "description": "Narzędzie przywołane jako przykład dokumentacji tworzonej przez agenta."
       }
     ],
-    "youtubeId": ""
+    "youtubeId": "MxX4DGe2Uk8"
   },
   {
     "id": 43,
     "num": "43",
-    "notPublished": true,
+    "notPublished": false,
     "title": "30 tys. zmian dziennie. Czy potrzebujesz następcy Gita? | Better Dev Club #43",
     "date": "2026-10-22",
     "duration": "38:01",
@@ -112,9 +112,9 @@
       "utrzymanie-oprogramowania"
     ],
     "platforms": {
-      "youtube": "",
-      "spotify": "",
-      "apple": ""
+      "youtube": "https://youtu.be/pabtWyquq6Y",
+      "spotify": "https://open.spotify.com/episode/36AfbSOpcuxQw1RewMtFVH",
+      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club-43-30-tys-zmian-dziennie-czy-potrzebujesz/id1848840540?i=1000797560909&uo=4"
     },
     "resources": [
       {
@@ -148,7 +148,7 @@
         "description": "Oficjalne rozliczenie wysyłki maili; nie jest to pełny koszt systemu newsletterowego."
       }
     ],
-    "youtubeId": ""
+    "youtubeId": "pabtWyquq6Y"
   },
   {
     "id": 42,
