@@ -4,12 +4,12 @@ Status: szkic do zatwierdzenia, bez publikacji. Źródło: dokładnie `Better De
 
 ## Obietnica i rekomendowany tytuł
 
-**Czy AI naprawdę zabija open source? | Better Dev Club #45**
+**Open source umiera? Nie tak szybko | Better Dev Club #45**
 
 Dla programistów wybierających zależności i budujących własne narzędzia: oddzielamy przejęcie zespołu, zamknięcie kodu i koniec utrzymania projektu od jednej prostej opowieści o AI. Co oznaczają te zmiany dla użytkownika bibliotek — i kiedy szybki klon nie zastąpi produktu, za który warto zapłacić?
 
 Warianty do wyboru, nie wyniki testu CTR:
-1. Czy AI naprawdę zabija open source? | Better Dev Club #45
+1. Open source umiera? Nie tak szybko | Better Dev Club #45
 2. Możesz sklonować aplikację. Ale czy chcesz ją utrzymywać? | Better Dev Club #45
 3. Open source się kończy czy tylko zmienia? | Better Dev Club #45
 
