@@ -1,0 +1,414 @@
+{
+  "transcript": [
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:00",
+      "text": "Cześć Piotrek!"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:01",
+      "text": "Cześć Kajtek. Wiesz co łączy Open Source z remontem?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:05",
+      "text": "Wiem. Skoro już tu jesteś, jeszcze taką jedną małą popraweczkę może byśmy zrobili."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:12",
+      "text": "A właśnie tym optymistycznym dowcipem jak zwykle słuchaj na start zaczynamy odcinek dzisiaj o open source. To taki odcinek, nam od miesiąca, półtora miesiąca, chyba coś takiego, jak gdyby żeśmy się przemierzali, coś tam, ale za każdym razem nam wyskakiwało coś innego. Dawno żeśmy o open source nie gadali, chyba ostatnio jasne słuchaj Tailwind na starcie tego roku, jak była wtedy wielka drama."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:40",
+      "text": "Tak mogło być. Tak mogło być."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:44",
+      "text": "A wydaje mi się, że z jednej strony nic się nie zmieniło, a drugiej strony zmieniło się wszystko. To zacznijmy od pierwszej rzeczy. Dobra, dajesz, dajesz."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:57",
+      "text": "Znaczy... No dalej. Znaczy, bo nie wiem, bo tak trochę zabrzmiałeś, jak ci wszyscy właśnie linktinarze, tak... Nic się nie zmieniło, a wszystko się zmieniło. A właściwie wszystko się zmieniło, a nic się nie zmieniło. I znowu właściwie nie wiadomo, co się miało zmienić. czy... No jakby... No co się zmieniło realnie?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "01:15",
+      "text": "Poczekaj, jeszcze strzela selfieaka. Znaczy, dobra, wydaje mi się, że zmieniły się dwie rzeczy. sensie, nagle się w kilku miejscach powiedzmy, że się trochę ludzie obudzili. Dobra, weźmy ten pierwszy przykład, który nam wchodził na tapet, ale cały czas spadał, czyli Deno. Używałeś kiedyś Deno? Ja używałem. W sensie dla mnie było rzeczywiście parę razy tak, że walnąłem w Deno i chodziło mi szybciej niż Node.js. Nie mam żadnych porównaniem, nie mam żadnych benchmarków, nie mam nic. Mówimy o czysto obiektywnym. Piotrek z Tapsy coś odpalił u siebie na kompie i wydawało mu się, że jest szybciej, bo mu w internecie napisali, że jest szybciej. Nie wiem na ile to było. Deno jako alternatywa."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "01:55",
+      "text": "Mhm."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "02:18",
+      "text": "Nie, to dobra, alternatywa do Node.js z pełną kompatybilnością, bo to należy powiedzieć, to jest po prostu inny silnik do odpalania rzeczy napisanych w JavaScriptie. I to nie na froncie, a na backendzie."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "02:23",
+      "text": "Mhm."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "02:37",
+      "text": "No i co się stało miesiąc temu ludzie z Deno ogłosili, że oni się zwijają? No zwijają to chyba najlepszy okres, a w zasadzie kupiło ich Cloudflare? To jest dobra, moja interpretacja całego bardzo długiego wpisu, moja interpretacja. Cloudflare ich kupiło, dało im lepsze pieniądze, powiedziało rozwijajcie nam rzeczy Cloudflare Workers, może niedosłownie, ale w praktyce i mają zbudować celld. D jak demon, tak jak w szepcie. Natomiast to oznacza, że Deno... Słuchaj, czemu rozwalił kolejny... Dobra, no bo celld to jest taki... Dobra, kolejny mechanizm dobudowy, ale rozwijany przez Cloudflare, Workers... Dobra, nie... To chyba bardzo oprzeczam, ale dobre, nieważne. Kupiłem Cloudflare i oni w związku z tym ubijają Deno, to znaczy Deno będzie dostanie wsparcie, przez jeszcze chyba 12 miesięcy będą wydawali regularne poprawki, security i tak dalej. Potem projekt zostaje open source, więc to nie jest tak, że projekt znika i oni są gotowi do tego, żeby... Ktoś to przejął, przynajmniej tak na razie o tym piszą. Natomiast Deno Deploy, czyli ten kawałek nazwijmy to... dobra, hostingu, nie wiem jak to nazwać, sensie, wszystkiego co potrzebujesz do tego, to oni utrzymują przez 6 kolejnych miesięcy i po tych 6 miesiącach zaproponują chyba migrację do, zaproponują jakoś sensowną migrację do Cloudflare. No i teraz jak ja na to patrzę, to to był... Moja interpretacja to był startup, który rozwijał coś open source, proponując ci też tą część nazwijmy to płatną, jako było Deno Deploy. No i po prostu zostali kupienie."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "05:11",
+      "text": "No dobra, no ale skoro zostali kupieni, no to gdzie to drama? Jakby zarobili swoje, zarobili swoich. No to..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "05:14",
+      "text": "Znaczy nie ma dramy. Zrobili swoje, no właśnie dokładnie tak, nie zrobili swoje. To oczywiście, że się ludzie tam oburzyli, coś co wspierali ludzie, to nie ten. To jest taki właśnie przykład tego, jak gdyby, że że fraża AI, wszyscy mówią, open source giną, w ogóle giną, a to po prostu jest prosta sytuacja. Ludzie zostali kupieni do innej firmy, rozwijali swój produkt, który był open source i zostali... Kupieniem dajemy na efekt."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "05:45",
+      "text": "No bo właśnie, ja jakby traktowałbym to raczej jako nazwijmy to success story. Może nie taki jak wielu maintainerów open source by sobie wyobrażało, bo niektórzy są z krwi i kości, nie sprzedadzą się nikomu i niczemu i w ogóle, ale no to jest swego rodzaju success story, że faktycznie coś tam im się udało, zostali zauważeni przez giganta, ten gigant ich kupił, super, jedziemy sobie dalej. Natomiast... Faktycznie, no bo tak zapytałem się gdzie jest drama, no bo myślałem, że coś się zmieniło, jakby to pokazuje, Deno pokazuje, że realnie niewiele się zmienia, bo nadal jeżeli jesteś zajebisty, to ktoś cię może zauważyć i możesz stać się częścią czegoś większego. Jakby fajnie, że Cloudflare ich kupił, fajnie, że Cloudflare postanowił pójść w tę stronę niż na przykład tak jak czasami Microsoft potrafił chodzić. To znaczy, o, z tego wszyscy korzystają, to my sobie teraz napiszemy to po swojemu, a tamtemu o, tyle pokażemy. I niech się zamyka. Jakby, żeby nie było, te historie też mają różne podłoże, bo nie mówimy, albo nie mówię, że faktycznie komukolwiek stała się krzywda, właśnie ze względu na to, że Microsoft coś przepisał, bo to bardzo często były... inne powody niż to, żeby pokazać komuś środkowy palec. Bo tak można, ale są inne dramy i są inne..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "07:21",
+      "text": "Ale nie, ale popatrz, tu właśnie ja chciałem powiedzieć coś innego, bo to w ogóle nie jest drama, tylko to pokazuje, że nawet w erze wszechobecnych agentów AI, whatever, nagle ludzie, którzy zbudowali właśnie coś fajnego, to jest chyba ważna opowiedź, to w ogóle nie ma pod spodem żadnego AI. Nie wiem w czym ci ludzie to piszą, na pewno używa jakichś agentów, ale popatrz, właśnie masz całą opowieść o open sourcie, bo wszystkim się teraz wydaje, że ta jedyna jest właśnie Jedyna opowieść w świecie open source to jest AI. AI zabija, AI klonuje. Zresztą będziemy zaraz dawać pewne takie przykłady, bo mamy je na liście. Ale właśnie ja uwielbiam ten kawałek, bo to jest opowieść o tym, co się stało w świecie open source. W ogóle bez, jak gdyby nazwijmy to, dramy AI'owej pod spodem. I właśnie to jest chyba najbardziej cudowne. Nie ma dramy."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "08:18",
+      "text": "No właśnie, no właśnie. nawet jeżeli weźmiemy sobie przykład zupełnie drugiego końca, czyli wrócimy do naszej ulubionej albo nieulubionej biblioteki, znaczy nie biblioteki, tylko skilla Reverse Engineer Anything, z którym nagle wszyscy robią wielkie wow, bo Need for Speed Underground 2 chyba, jeśli dobrze pamiętam. Ktoś zwajbował i wrzucił do przeglądarki. Jakby to, że wrzucił do przeglądarki nie zwajbował? To nie było zwajbowane?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "08:48",
+      "text": "Nie zwaibował. Właśnie wydaje mi się, No właśnie, że... Dobra, akurat tego przykładu to nie kojarzę, ale ludzie biorą właśnie te stare binarki, nie wiem jak to nazwać, binarki i oni odtwarzają kod."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "09:11",
+      "text": "No dobrze, no tak, tak odtwarzają kod, odpowiednio go też jakby, dlatego powiedziałem zwaibował, no bo jednak Need for Speed nie powstał jako gra przeglądarkowa, a został wsadzony teraz do przeglądarki. Nie wiem czy widziałeś Cyberpunk, dokładnie to samo była sytuacja. No Cyberpunk..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "09:31",
+      "text": "Nie, widziałem. Cyberpunk mogę grać w przeglądajce?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "09:36",
+      "text": "Przez chwilę się dało."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "09:37",
+      "text": "O fuck. Nikt mi nie powiedział."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "09:39",
+      "text": "Przez chwilę się dało dosłownie dwa dni, czym chyba go zdjęli. Chociaż nie wiem, bo potem widziałem, że był problem faktycznie z dostępnością. Ciężko mi dokładnie powiedzieć, jaka jest aktualnie sytuacja, ale był w przeglądarce. No i oczywiście..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "09:57",
+      "text": "Drugi widzów, drugi słuchacz, jeżeli ty kojarzysz, żeby gdzieś było dostępne... To walf kommentarz, bo ja bym tak jał."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "10:08",
+      "text": "O Jezu, jak byś chciał zagrać, to zapraszam do mnie, ja mam legalną wersję u siebie na Xboxie, możemy sobie popykać, no."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "10:15",
+      "text": "Dobra, modem ma na sticku, ale to nie o to chodzi, bo obieżce, mogę w przeglądajce. Wiesz co to oznacza, że mogę? Po pracy! Agenti pracują!"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "10:31",
+      "text": "No... Tak, okej, niech pięć. Dobrze. to inaczej, no to możemy się, no wiesz, jak mamy tak grać, no to chodźcie umówimy na CS-a po prostu, którego też już od dawna na przeglądarce można grać i no normalnie można serwery tworzyć, więc można sobie popykać. Mniejsza o to, chodzi mi o to, że jakby dzieją się drugie rzeczy, że dzieje się krzywda, dzieje się krzywda twórcom, tutaj dla osób, które nas nie oglądają, pokazuje"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "10:36",
+      "text": "Dobra, żartuję."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "11:05",
+      "text": "bo dzieje się krzywda twórcom, bo coś można właśnie odtworzyć, można odtworzyć gry. Co prawda Anthropic na przykład zaczął mówić o tym, że będzie blokować w ogóle odtwarzeń."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "11:18",
+      "text": "No właśnie nie odtworzyć. Właśnie to nie jest odtworzyć. One są w tym momencie, to raczej jest mania przenoszenia ich na inną platformę. Dobra, jak mówimy o Cyberpunku to to jest w miarę aktualna gra. Ale jak weźmiesz Need for Speed 2 litości. Nawet nie wiem czy jest w tej chwili na tym Xbox Ultimate. Dobra, wychodź żoba, gramy na Xboxie, a nie tym."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "11:49",
+      "text": "Jakby coś nie dostaliśmy nie dostaliśmy Xboksów od Microsoftu to to nie tak działa niestety."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "11:54",
+      "text": "Ja mam dlatego, syn kiedyś wybrał."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "11:59",
+      "text": "Ja mam tej dlatego, że wybrałem dla syna."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "12:04",
+      "text": "A Ty wybrać, to jest na nie, to u mnie są w radę. Teraz żałuję, że nie mam parasalnie, ważne. Nie, nie ten."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "12:05",
+      "text": "Tak, tak. Można by go drogo sprzedać. Ale poczekaj, bo ja chciałem do brzegu tutaj jeszcze dość. Jakby czy to odtwarzanie, czy to przenoszenie, czy cokolwiek. Naruszane są prawa autorskie, to jest niewątpliwe. I dzieją się rzeczy, których twórcy tych gier, czy oprogramowania, o czym za chwilę nie chcieliby prawdopodobnie widzieć. Czego nie chcieliby widzieć w przyszłości?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "12:14",
+      "text": "O!"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "12:38",
+      "text": "To znaczy mamy jeszcze cały pakiet, już wiemy, że on się nazywa Artcraft, czyli przeniesiony cały pakiet Adobe, czyli te wszystkie Photoshopy i tak. No, okej, tak, no właśnie, właśnie o to chodzi. Odtworzony w jakiejś tam wersji, nawet w niektórych jest zaznaczone, że to jest wersja alfa. Dokładnie tak. Natomiast właśnie ludzie się podniecają, chodzi mi o to, że ludzie się podniecają tym..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "12:48",
+      "text": "Prześrednie sione tym razem u mnie ciapki. Alfa, Alfa."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "13:07",
+      "text": "że teraz w weekend możesz odtworzyć Photoshopa, możesz sobie zwaibować Photoshopa, możesz sobie sportować Photoshopa, możesz sobie zrobić z tym Photoshopem cokolwiek. Bierzesz Photoshopa, stawiasz obok jego klon, który sobie sam napiszesz, jeśli masz odpowiednio dużo tokenów. Ale czy na pewno? Jakby, ok, on w podstawowych funkcjonalnościach jakiś tam, powiedzmy, że nawet niech to będzie... po weekendzie, niech to będzie appka, która wygląda jak Photoshop, a ma funkcjonalności Paint'a, no to i tak w wielu przypadkach będzie wow, bo możesz sobie coś dorobić gdzieś tam. Natomiast nawet gdybyś był w stanie całą tą aplikację tego Photoshop'a odtworzyć przez weekend, czy kiedykolwiek byś się na to zdecydował?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "13:58",
+      "text": "Nie wiem. Tak zupełnie szczerze. Wyłączając na chwilę to, że złamię prawa autorskie. Dobre, bo ja miałem mnie. Nigdy nie umiałem, potrzebowałem, chyba nie potrzebowałem, więc nie umiałem w pełni obsługiwać Photoshopa. Bo ja kiedyś miałem pełnego Photoshopa. Kiedyś tam miałem w ogóle. To było dawno temu. Ale ja się, mnie tam, jakaś narzędzie graficzne Paint.NET wystarcza. Jest taki tool, który chyba działa na wszystkich platformach. To jest zaawansowany Paint. Od zerzuka R &S to sprawdza, czy jest na wszystkich platformach, nie wiem."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "14:39",
+      "text": "Nie, nie, sprawdzam czy on jeszcze istnieje, bo coś mi się obiłło o urze, że oni przestali go rozwijać."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "14:42",
+      "text": "Jest, jest, ja go używam. Nie wiem, ja go używam cały czas. Ale właśnie o to chodzi, że ja potrzebuję tych nawet nie powiedziałbym, że 20 % funkcjonalności. I teraz jak mam zapłacić za pewnego Photoshopa jakieś kosmiczne pieniądze, bo on chyba kosztuje, no kiedyś go potrzebowałem do jakiejś roboty, nie wiem, teraz nie pamiętam tej ceny, nie chce mi się teraz googlać, ale on kosztuje sporo."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "14:57",
+      "text": "Tak, OK."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "15:16",
+      "text": "I mógłbym sobie odtworzyć z Apple, którym mógłbym zedytować te obrazki, a nie szukać kolejnego klono, coś tam w internecie. To wiesz, że chyba bym to zrobił. Tylko pewna prawda na tym, że ja bym to zrobił, użyłbym go i pewnie bym go wypierdził do kosza. Czy tam wrzucił na GitHuba, o przepraszam."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "15:37",
+      "text": "No dobra, ale ok, ale no to oczywiście Photoshop nie był w naszym przypadku idealnym, bo ja też nie korzystam jakby kiedyś, bardzo dawno temu miałem. W jakiej wersji jeszcze za chwilę powiem, bo to też jest w tym przypadku ważne. Myślę, że teraz się już przedawniło, więc mogę się do tego przyznać. Natomiast bardziej chodzi mi o to, jakiej aplikacji płatnej używasz na co dzień? Za którą płacisz? Albo ty albo twoja firma."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "16:05",
+      "text": "No nie, no używam całego pakietu Office'a. Nie, nie,"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "16:10",
+      "text": "Całego pokietu ofisa. Ok, a czy używasz albo nie wiem, Visual Studio albo Ridera? Przez wiele lat pewnie używałeś."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "16:12",
+      "text": "To. Używałem przez wiele lat i Ridera i Visual Studio. Przyznam, że ostatnio coraz mniej, ale to chyba... Ale nie, to dobra, używam. Używam Visual Studio."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "16:25",
+      "text": "Tak się domyślam. No dobrze. No gdyby ktoś ci nagle teraz powiedział, nie będziemy płacić od jutra za twoje Visual Studio, natomiast masz nielimitowaną ilość tokenów. Czy w takiej sytuacji, co byś zrobił? Czy byś napisał to Visual Studio od zera i próbował ten, czy jednak byś wyciągnął kartę i powiedział, dobra, to ja sobie to Visual Studio kupię sam?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "16:44",
+      "text": "No, obcocie. Nie, naprawdę to wszystko. Nie wiem czy wybrałbym Visual Studio czy Ridera tak zupełnie szczerze, ale to inna parę. Ale nie, chyba wyciągnąłbym kartę i bym kupił. Litości, nie, nie,"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "17:00",
+      "text": "Nie ma to znaczenie. No właśnie o to mi chodzi. W momencie, którym mówimy, że duże firmy będą się zawijać, bo jesteśmy w stanie zwaibować wszystko, jesteśmy w stanie odtworzyć wszystko, no to to już jest paranoja. Jakby przez wiele lat nie było Ejaja, ale były cracki. I ja Photoshopa miałem z crackowanego, przyznaję się do tego już w tej chwili bez bicia. Tak, miałem nielegalną wersję Photoshopa dopóki nie wiem czy nadal się..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "17:36",
+      "text": "Zresztą jeszcze przyznać, że ReSharpera restartowała RSS 3 raz na 30 dni."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "17:42",
+      "text": "Nie, ReSharpera nigdy specjalnie nie lubiłem, nigdy nie miałem tak mocnego sprzętu, żeby resharper zadziałał poprawnie, żeby mi nie siadł za bardzo na maszynie, ale to jest jakby inna sprawa. każdym razie..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "17:59",
+      "text": "Ale, do, dobra, ale zatrzymamy się oczywiście, zatrzymamy się tutaj, bo rozumiem twoją argumentację, ale z drugiej strony masz firmy, które opierały w rzeczywisty produkt komercyjny na open-source. Nie, jedno to już my wybrali, Deno to może słaby przykład, ale jest ten przykład, którym tam nie wiem, ze dwa, trzy, może miesiąc temu, internet huczał, czyli Cal.com. Jak ktoś nie kojarzy to takie fajne, co fajne. No taki bardzo, jak się kiedykolwiek umawialiście z kimś typu usługa, rekrutacja, przyznam szczerze kiedyś ze stolarzem na jakąś rozmowę, no to on można było wrzucić na stronę, może Kajetan nawet kiedyś żywał w swojej szkole dot neta, wiem, ale dobra, ale właśnie taki konsulting to można było wrzucić na stronę kalendarz, ten człowiek, czyli klien, to będzie ja. przychodził sobie na taką stronę, wybierał sobie ten wolny slot w kalendarzu, klikał i wybierał. Teraz było jasne, Google to potem skopiował, Outlook to skopiował, wszyscy to pokopiowali, ogóle teraz to pewnie jest wszystko, ale chyba Kalk był takim, nie wiem czy pierwszym, ale na pewno takim dużym, ja go na pewno parę razy kojarzę, był. On jeszcze w ogóle potem dołożył ten tłum fajnych funkcjonalności, czyli bramkę płatności. dołożył właśnie integrację z różnymi kalendarzami, ale to było fajne, że można było sobie umówić to co kiedyś się umawiałem na jakąś konsultację, nazwijmy to na korki, że mogłem od razu zapłacić, to było naprawdę łatwe. I oni rzeczywiście mieli ten produkt i oni rzeczywiście bardzo wiele lat mówili, że podstawą ich pracy jest właśnie open source. Że to jest jak gdyby ta forma, której oni chcą funkcjonować, ale się teraz zamknęli, oczywiście internet od razu krzyknął, ooo to bo AIX konuje, a oni napisali na blogu coś innego, bo oni zostawili wersję open source'ową typ która się nazywa bodajże Domena jest Cal.diy, która ma tam oczywiście ogręczoną jakość funkcjonalność, ale jak gdyby nadal dla tych małych klientów możesz sobie postawić powiedzmy, że nie ma pracy zespołowej albo czegoś takiego, nie? No tam jest ta cała lista funkcjonalności, których to nie ma, natomiast ta podstawa jest. Rozodzis się wycofali ze względu na to, że przynajmniej wedle opisu, że załatwo jest w tej chwili schakować software. Bo skoro, Jezu, jesteś w stanie już go sklonować, zaczynamy dyskutować o przenoszeniu między platformami, ogóle robieniu cudów, to jak gdyby jest otwarty kod źródłowy, a ty coś ktokolwiek schrzaniłeś i twój agent tego nie wykrył, że cokolwiek schrzaniłeś, to nie musisz być naprawdę agresywnym hakaerem, tylko po prostu atakujesz z kodu źródłowego."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "21:20",
+      "text": "Zgadza się, zgadza się. No jakby faktycznie to jest zupełnie inna perspektywa. Szczerze mówiąc tak, właśnie do tego chciałem, propos szkoły.net, to faktycznie w szkole.net jest opcja zapisania się na konsultacje, jest totalnie zwaibowana przeze mnie i zrobiona w bardzo prosty sposób i z bardzo ograniczoną funkcjonalnością. i działa bardzo średnio. żeby nie było, bo spędziłem nad tym dobre 20 minut prawdopodobnie, żeby zaprojektować to wszystko i napisać. I szczerze mówiąc teraz, jak patrzę na Cal.diy, bo przy tej całej aferze, aferze, to faktycznie dowiedziałem się, że mogę to sobie postawić za darmo właściwie na swojej infrastrukturze i mogę sobie to mieć."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "21:58",
+      "text": "O!"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "22:18",
+      "text": "i nie wiem, czy kiedyś sobie nie podmienię, bo to jest naprawdę super opcja. I na pewno to jest faktycznie coś, co zmienia w pewien sposób to, jak będziemy podchodzić do open source'u, bo jakby z jednej strony nasuwają się kwestie bezpieczeństwa i kwestie tego, że realnie jakby... Wiadomo, że można napuścić naszych agentów właśnie, żeby znaleźli w takim kodzie źródłowym po prostu dziury i oni są tym świetni. Doskonale o tym wiemy właśnie patrząc po tym, ile w ogóle znajdowanych jest luk bezpieczeństwa w tym momencie. Natomiast..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "23:05",
+      "text": "krytyczne luki bezpieczeństwa PHP ostatnio były, jak gdyby w ilościach chrytowych."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "23:11",
+      "text": "Dokładnie, dokładnie. I to właśnie mówimy o całym języku, który był tworzony od lat, o całych platformach, które były tworzone od lat przez naprawdę wielką rzeszę ludzi. A tutaj mówimy o jednym zespole, czy kilku zespołach nawet, o jednej firmie, nie tak dużej, która... miała w swoich jakiś, w jakimś DNA właśnie tą pracę na open source. I to faktycznie jest ciężkie, no bo musisz, mam wrażenie, że właśnie luki bezpieczeństwa są zdecydowanie szybciej wyszukiwane w tym momencie niż łatane, bo po prostu... Ciężko jest się opanować z tym wszystkim, z tym natłokiem tych informacji, które do nas napływają. I musimy nauczyć się jakoś sobie z tym radzić. Jakby wiadomo, że teraz musimy zrównoważyć. Jedni używają agentów bardzo mocno do tego, żeby znaleźć te luki bezpieczeństwa i je wykorzystać, co gorsza. a drudzy jeszcze się przyzwyczajają do tego, jeszcze się wdrażają, więc nie są w stanie aż tak szybko zareagować właśnie na tego typu ataki."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "24:33",
+      "text": "Ale powiem Ci, że na przykład jak powiedziałeś, że Anthropic ogłosił, ja tego ogłoszenia nie kojarzę, ale nic to nie znaczy, że właśnie, że on nie będzie na to pozwalał. Wiesz co Ci powiem? Nic z tego, samogon. W sensie, że jest tyle innych narzędzi, które Ci to będzie pozwalało robić, że to, jednak..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "24:52",
+      "text": "Ja wiem kto na pewno będzie pozwalał, na pewno Chińczycy będą pozwalać, bo oni wszelkie prawa autorskie mają zazwyczaj w dupie."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "24:59",
+      "text": "A nawet nie o to chodzi. Tylko jeżeli będziesz miał dostęp do czystego modelu. No to sorry. Inaczej niż harness. No dobra, no możesz wytrenować tak modele, żeby one nie pozwalali. je wytrenujesz tak, to co one będą sprawdzać? Wszystkie te nowe modele mówią, że one są super w cyberbezpieczeństwie. No to przecież przekonanie go, że ty jesteś ten dobry człowiek i sprawdza swój system, nie jest aż takie. Znaczy wymaga może..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "25:08",
+      "text": "No tak!"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "25:36",
+      "text": "wymaga innego modelu, który ci w tym pomoże. Jak masz czysty model, nie masz tego narzędzia, to myślę, wiesz, w sumie to wchodzimy, wiesz, tak mi się skarażyło, teraz jak gdyby, patrz Kazu Salona, który w Grogbocie parę dni temu powiedział, eee, moje modele są za słabe, dam opusa. trzeba zdobywać nowych użytkowników i jest zajebioza. czym chyba wczoraj albo przedwczoraj, dobra, nie ważne, parę dni temu w okolicach weekendu strzelił, że trochę mnie to drogo kosztuje. Jeszcze ładnie on to w ogóle powiedział, że tam, przyszłości pieniądze nie będą jakoś super potrzebne, bo w ogóle będzie, ajeje, nagle stwierdził, że nie ma co oszczędzać na przyszłość, a tu nagle, że trzeba oszczędzać, bo trochę to drogo kosztuje, bardzo się szybko zestarzało chyba trzy dni. Ma całą kompensację o badbite. Ale patrząc na to, to właśnie nie wiem, przyjdzie nawet taki Elon i nagle podepnie to gdzieś do swojego narzędzia, bo będzie się spieszył cokolwiek i nagle się okaże, że to coś potrafi. Nawet nie muszą być Chińczycy. Myślę, bardziej do ktokolwiek albo własnej ery. zbrodnia wobec sama Altmana, LLM na własnym kompie, zabierający mojego ceny RAM. Jak ktoś nie kojarzy to link gdzieś tam zamieścimy co sama Altmana o tym bierze. Ale powtórzmy jeszcze jedną rzecz, bo jest chyba jedna rzecz, która z cyklu nic się nie zmieniła, jednak coś się zmienia. Bo powiem szczerze, że projekty open source'owe albo się super rozwijały, albo je gdyby po prostu umierały. I chyba nie było takiego etapu, którym ja kojarzę, że projekty zaczynają się zwijać. sensie, że projekt open source'owy mówi, wiecie co, to ja chyba już kończę. A teraz jest taki przykład Pico CSS, który właśnie człowiek ogłosił, że on go kończy. W sensie, jak gdyby... To nie chodzi o to, że ludzie nie kończyli projektów open source'owych albo nie przestawali ich maintainować, bo to się bardzo wiele razów w historii zdarzyło i wiele jest takich projektów, tylko że znowu powód, który poszedł to jest taki no kurna, tak ładnie, to znowu moja interpretacja, a ja w sumie to tak ładnie tworzyłem te CSS'y, a mój open source ma tak wiele... zapuszczonych rzeczy bo tam ma Sassa zamiast modern CSSa i tłum różnych dziwnych rzeczy nie ma więc trzeba było dużo w niego władować mi się trochę nie chce a jejj patrząc nawet po nas dwóch co wybierze do wygenerowania CSSa? No z tego słynnego Tailwinda bo przynajmniej z reguły mi jeszcze ciągle proponuje CSSa z reguły w Tailwindzie może słuchaczy tobie w czymś innym ale jak biorę czystą kartkę to z reguły mi proponuje w Tailwindzie przez tą kartkę przy memorie, nie wiem czy jeszcze się da. Więc jak gdyby to chyba, wiesz, na takie rzeczy się, jak gdyby, no, po prostu można powiedzieć, że dzieje się, o. Tak bym się to powiedział. Nie, że jak patrzymy na ten open source, to po prostu nie ma nudy, tylko po prostu się dużo dzieje. No jeszcze w międzyczasie wpadł ten pomysł znowu, opłat za niektóre rzeczy, nie? Open source contributor license, czy coś takiego już nie pamiętam jak się nazywa, nie? Myśmy gadali kiedyś przy Polly, że coś takie się pojawiło i sam przechodziłem u siebie proces w organizacji, żebyśmy wspierali Polly na te 20 dolarów miesięczne. Się śmiałam, ilość godzin, trzeba było, całkiem szybko poszło, tu macham kolegom z pracy, ale że mogło się skończyć w tym, że te 20 dolarów miesięczne to byłoby najmniejsza kropla, żeby doprowadzić do tego. Więc to chyba się coś po prostu... Nie jest chyba tak, że następuje jakaś rewolucja, bo nie. Cały czas w tym open sourcie się dzieje i chyba cały czas mamy ten sam problem. Ten problem nazywa się, tam jest kiepsko z pieniędzmi."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "30:04",
+      "text": "No to na pewno, to na pewno. Jakby jeszcze wracając do samego Pico, tam ja sobie czytałem całe to oświadczenie twórcy i faktycznie on napisał tak jak powiedziałeś, że tam jest sporo rzeczy do tyłu, to jakby też może być... też mógł być ten gwuś do tego grobu. Realnie rzecz biorąc to była biblioteka, której dużo osób korzystało na pewno swego czasu, ale jednak ona nie jest, nie dorównuje dzisiejszym standardom. jest dużo rzeczy, które powinny zostać przepisane, które powinny zostać stworzone od nowa, które powinny zostać... przeprojektowane w jakiś sposób, tak żeby to działało jeszcze lepiej, jeszcze szybciej, jeszcze ciekawiej, żeby miało czym się bronić w ogóle. Więc tutaj w przypadku Pico, mam wrażenie, że to jest po prostu taka trochę śmierć naturalna. Jakby z jednej strony możemy mówić o tym, agenci piszą lepsze CSS-y, ale agenci piszą lepsze CSS-y, korzystając z bibliotek, które też są open source'owe, tylko po prostu tamte... z jakiegoś powodu są lepsze i albo no więcej więcej tego hajpu. Kurde hajpu."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "31:35",
+      "text": "Nie wiem czy są lepsze. Nie użyłbym słowa lepsze, chyba bym użył słowa bardziej popularne."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "31:42",
+      "text": "No okej, jakby wszystko jedno. Być może bardziej popularne, być może coś się wydarzyło takiego, że faktycznie jakby ci agenci korzystają z Tailwinda. W moim przypadku, ostatnio przy moich projektach w ogóle rzadko kiedy korzystają z Tailwinda, wolą sobie swoje style machnąć i mieć to w nosie."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "32:06",
+      "text": "Tak, plan, plan, zasas."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "32:09",
+      "text": "Tak, tak, tak i bardzo dobrze się też to sprawdza. Więc jakby tutaj..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "32:15",
+      "text": "jak na nasz back-endowe poczucie UI-u, to..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "32:21",
+      "text": "Dokładnie, takie, o Boże, takich pięknych stron to ja nigdy nie robiłem i aplikacji. W każdym razie akurat przy Pico bym powiedział, że to jest taka bardziej naturalna śmierć i to nigdy nie był duży projekt. Jakby to jest to samo z Pico się wydarzyło, co się wydarzyło jeszcze nawet przed AI-em. prawdopodobnie setką, jak nie tysiącem różnych frameworków JavaScriptowych, które wyrastały codziennie i po prostu React, Angular i Vue i coś tam jeszcze jej po prostu zabiło. I wszyscy zauważali, dobra, to nie ma sensu, nie będziemy tego dalej robić, kończymy, wynosimy się i to było przed AI-em i to było z AI-em, jest z AI-em i to nie ma najmniejszego znaczenia. I będzie po AI-u."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "33:09",
+      "text": "to będzie po ajajo."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "33:12",
+      "text": "Dokładnie, ja jakby na prawdopodobnie już końcówkę tego naszego dzisiejszego wywodu powiem, moim zdaniem nic się nie zmieniło. Jakby są trochę inne wyzwania, ale te wyzwania były też w poprzednich czasach, że tak powiem. I one będą zawsze, i ci, którzy będą chcieli... i będą mieli wytrwałość, będą cały czas tworzyć projekty open source'owe, tylko będą je tworzyli w zupełnie inny sposób, no bo wiadomo, że nikt nie będzie teraz klepał sobie tego kraftowego kodziku, żeby taki był kraftowy OSS, bo wiadomo, że to nie tędy droga, bo nie dość, że napiszesz to źle, to jeszcze nikt nie będzie chciał z tego korzystać, bo nie."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "34:06",
+      "text": "Teraz sobie pozwolę, wiesz co, teraz sobie chyba pozwolę słuchać na koniec albo nie wiem czy to nawet słuchać jest, ale taką anegdota, że patrzmy, my chyba jesteśmy jedyną branżą, jedyną branżą, która głośno mówi we wszystkich social mediach, że AI to nas samych zaora. Może byśmy się powstrzymali i mówili, że jednak kraftowy kodzik. Trzeba robić kraftowy kodzik. Jesteśmy potrzebni. Bo nawet my patrz, nawet my. Cholera. No już, dobra. Jakoś mnie naszło, przepraszam Cię. Nie, z open sourcem, bo z open sourcem tak jak mówisz, z jednej strony nic się nie zmieniło, z drugiej strony wszystko się zmieniło. Zrobiliśmy dramatyczny obrót o 360 stopni i nadal podążamy. tym samym kierunku."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "35:05",
+      "text": "Tak jest, tak jest. Ja tak uważam, ty tak uważasz, ale nie wiadomo czy tak dokładnie uważają nasi słuchacze. A przede wszystkim chciałbym tutaj z tego miejsca, i jeszcze będę go oznaczał w postach, jeżeli ktoś tutaj dotrze do tej chwili, będę oznaczał go w postach i będę szukał, będę prosił, żeby się wypowiedział w tej sprawie, Oskar Dudycz. Jedyny człowiek, którego znam, który... przez bardzo długi czas był maintainerem bardzo dużych projektów open source, a dodatkowo przez bardzo długi czas, najdłuższy ze wszystkich znanych mi osób był sceptykiem, jeśli chodzi o AI. I chciałbym, żeby on się wypowiedział, co on realnie na dzisiaj uważa, że się dzieje z open source'em i jakie są jego przewidywania na najbliższy czas. Także Oskar, uważaj, idę do Ciebie."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "36:02",
+      "text": "O Jezu, jak bym wiedział, to bym nie nagrywał z Tobą tego odcinka. Tu będziesz Oskara, trzeba było go zaprosić, bierdowe jesteśmy, przepraszam za słowo."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "36:13",
+      "text": "Może to jest właśnie ten moment. Jeżeli chcielibyście też zobaczyć właśnie jak przepytujemy Oskara na temat open source w erze AI to dajcie znać. A my tak czy inaczej zaprosimy Oskara nawet jak nie będziecie chcieli tego oglądać."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "36:31",
+      "text": "Nie wiem czy on się zgodzi, to chyba jest ten problem. Dobra, nieważne. Życzymy Wam kolejnego wspaniałego tygodnia, szczególnie że w przyszłym tygodniu widzimy się prawie w święto. 12 listopada to w prawie święto, po kolejnej rocznicy bitwy pod Empikiem. Trzymajcie się, jakbyście dali lajka, komentarz, tam znowu sama promocja zawaliła. słuchaj, ten. Widzimy się za tydzień."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "37:07",
+      "text": "Ale jak tu jeszcze jesteście na sam koniec, jeszcze jeszcze jeszcze koniec, koniec takie post scriptum scriptum, to ja bym chciał, jeżeli do tej chwili dooglądałeś ten odcinek, to zostaw w komentarzu jakiś tort albo coś w tym stylu, bo minął nam rok tworzenia podcastu."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "37:29",
+      "text": "Masz rację, mówiliśmy o tym tydzień tam. No dobra, tak, zapraszamy na to w komentarzach."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "37:38",
+      "text": "A tymczasem do zobaczenia za tydzień, bo jak zwykle nic się nie zmienia."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "37:43",
+      "text": "Trzymajcie się, cześć."
+    }
+  ]
+}
