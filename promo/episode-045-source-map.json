@@ -1,0 +1,304 @@
+{
+  "sourceTitle": "Better Dev Club #45 - final",
+  "projectId": "6aea3d9e66fd1922f1d68ab3",
+  "clipId": "6aeb08faca4a739dce99e659",
+  "composedRecordingId": "6aeb08faca4a739dce99e65a",
+  "sessionId": "18129a34-cd4d-4ec6-afcf-ddd8d60a91e5",
+  "rstlRevision": 13,
+  "exportedAt": "2026-11-04T10:29:14.594Z",
+  "verifiedMediaDurationSeconds": 2265.208333,
+  "mediaResolution": "1920x1080",
+  "rawAsrSha256": "915536f296cf03e37039e470e4f5d6c729a4b6019b2b1b955d281725725740a8",
+  "transcriptionSource": "Session ASR; composed export transcription endpoint returned HTTP 404.",
+  "timebase": 18018000,
+  "timelineDurationTicks": 40814523750,
+  "syncedCuts": [],
+  "speakerMapping": [
+    {
+      "speaker": "Kajetan",
+      "asrOffsetMs": 96,
+      "sourceRange": {
+        "start": 27777750,
+        "duration": 40814523750
+      },
+      "trackTimeTicks": 0,
+      "effectiveOriginSeconds": 1.6376666666666668
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "asrOffsetMs": 0,
+      "sourceRange": {
+        "start": 29279250,
+        "duration": 40814523750
+      },
+      "trackTimeTicks": 0,
+      "effectiveOriginSeconds": 1.625
+    }
+  ],
+  "mapping": "finalSeconds = rawAsrMs/1000 - speaker.asrOffsetMs/1000 - sourceRange.start/timebase; trackTime=0, no clip cuts or syncedCuts. ASR offset already aligns speaker to session; remove it to get recording-local time. No additional first-word normalization.",
+  "segmentCount": 82,
+  "sentenceCount": 142,
+  "droppedWords": [],
+  "corrections": [
+    {
+      "segment": 7,
+      "time": "01:15",
+      "from": "deno",
+      "to": "Deno",
+      "occurrences": 3
+    },
+    {
+      "segment": 11,
+      "time": "02:37",
+      "from": "Denno",
+      "to": "Deno",
+      "occurrences": 1
+    },
+    {
+      "segment": 11,
+      "time": "02:37",
+      "from": "Dino Deploy",
+      "to": "Deno Deploy",
+      "occurrences": 1
+    },
+    {
+      "segment": 11,
+      "time": "02:37",
+      "from": "CloudFair",
+      "to": "Cloudflare",
+      "occurrences": 3
+    },
+    {
+      "segment": 11,
+      "time": "02:37",
+      "from": "Klappfer",
+      "to": "Cloudflare",
+      "occurrences": 1
+    },
+    {
+      "segment": 11,
+      "time": "02:37",
+      "from": "klouzplier",
+      "to": "Cloudflare",
+      "occurrences": 1
+    },
+    {
+      "segment": 11,
+      "time": "02:37",
+      "from": "deno",
+      "to": "Deno",
+      "occurrences": 3
+    },
+    {
+      "segment": 15,
+      "time": "07:21",
+      "from": "open-sorcie",
+      "to": "open sourcie",
+      "occurrences": 1
+    },
+    {
+      "segment": 18,
+      "time": "09:11",
+      "from": "In For Speed",
+      "to": "Need for Speed",
+      "occurrences": 1
+    },
+    {
+      "segment": 28,
+      "time": "11:05",
+      "from": "Anthropik",
+      "to": "Anthropic",
+      "occurrences": 1
+    },
+    {
+      "segment": 39,
+      "time": "13:58",
+      "from": "Paint.net",
+      "to": "Paint.NET",
+      "occurrences": 1
+    },
+    {
+      "segment": 43,
+      "time": "15:16",
+      "from": "githuba",
+      "to": "GitHuba",
+      "occurrences": 1
+    },
+    {
+      "segment": 47,
+      "time": "16:12",
+      "from": "Raidera",
+      "to": "Ridera",
+      "occurrences": 1
+    },
+    {
+      "segment": 49,
+      "time": "16:44",
+      "from": "Rajdera",
+      "to": "Ridera",
+      "occurrences": 1
+    },
+    {
+      "segment": 49,
+      "time": "16:44",
+      "from": "Żuła Studio",
+      "to": "Visual Studio",
+      "occurrences": 1
+    },
+    {
+      "segment": 50,
+      "time": "17:00",
+      "from": "Krakii",
+      "to": "cracki",
+      "occurrences": 1
+    },
+    {
+      "segment": 50,
+      "time": "17:00",
+      "from": "Krakowanego",
+      "to": "crackowanego",
+      "occurrences": 1
+    },
+    {
+      "segment": 51,
+      "time": "17:36",
+      "from": "Resharpera",
+      "to": "ReSharpera",
+      "occurrences": 1
+    },
+    {
+      "segment": 52,
+      "time": "17:42",
+      "from": "resharpera",
+      "to": "ReSharpera",
+      "occurrences": 1
+    },
+    {
+      "segment": 53,
+      "time": "17:59",
+      "from": "calc.com",
+      "to": "Cal.com",
+      "occurrences": 1
+    },
+    {
+      "segment": 53,
+      "time": "17:59",
+      "from": "Calc DIY",
+      "to": "Cal.diy",
+      "occurrences": 1
+    },
+    {
+      "segment": 53,
+      "time": "17:59",
+      "from": "DENAL",
+      "to": "Deno",
+      "occurrences": 1
+    },
+    {
+      "segment": 54,
+      "time": "21:20",
+      "from": "cal DIY",
+      "to": "Cal.diy",
+      "occurrences": 1
+    },
+    {
+      "segment": 59,
+      "time": "24:33",
+      "from": "Antropik",
+      "to": "Anthropic",
+      "occurrences": 1
+    },
+    {
+      "segment": 61,
+      "time": "24:59",
+      "from": "HNS",
+      "to": "harness",
+      "occurrences": 1
+    },
+    {
+      "segment": 63,
+      "time": "25:36",
+      "from": "PICO CSS",
+      "to": "Pico CSS",
+      "occurrences": 1
+    },
+    {
+      "segment": 63,
+      "time": "25:36",
+      "from": "SASa",
+      "to": "Sassa",
+      "occurrences": 1
+    },
+    {
+      "segment": 63,
+      "time": "25:36",
+      "from": "Tilewinda",
+      "to": "Tailwinda",
+      "occurrences": 1
+    },
+    {
+      "segment": 63,
+      "time": "25:36",
+      "from": "Tilewindzie",
+      "to": "Tailwindzie",
+      "occurrences": 2
+    },
+    {
+      "segment": 63,
+      "time": "25:36",
+      "from": "Poli",
+      "to": "Polly",
+      "occurrences": 2
+    },
+    {
+      "segment": 63,
+      "time": "25:36",
+      "from": "opresorze",
+      "to": "open sourcie",
+      "occurrences": 1
+    },
+    {
+      "segment": 64,
+      "time": "30:04",
+      "from": "PICO",
+      "to": "Pico",
+      "occurrences": 1
+    },
+    {
+      "segment": 66,
+      "time": "31:42",
+      "from": "tailwinda",
+      "to": "Tailwinda",
+      "occurrences": 2
+    },
+    {
+      "segment": 70,
+      "time": "32:21",
+      "from": "PICO",
+      "to": "Pico",
+      "occurrences": 2
+    },
+    {
+      "segment": 76,
+      "time": "36:13",
+      "from": "Azure AI",
+      "to": "erze AI",
+      "occurrences": 1
+    },
+    {
+      "segment": 11,
+      "time": "02:37",
+      "from": "Sell D",
+      "to": "celld",
+      "occurrences": 2,
+      "source": "https://blog.cloudflare.com/deno-joins-cloudflare"
+    }
+  ],
+  "limitations": [
+    "Mapping based on source track ranges and ASR speaker offsets, not verified by listening.",
+    "Speaker mapping origins differ by 12.667 ms; do not assume common source start.",
+    "Track magic-mutes are not interpreted as shared editorial cuts.",
+    "Unclear ASR remains for listening review.",
+    "Drafts are included by the SSR generator: do not merge without approval."
+  ]
+}

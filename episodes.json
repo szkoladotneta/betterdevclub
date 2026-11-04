@@ -1,5 +1,102 @@
 [
   {
+    "id": 45,
+    "num": "45",
+    "notPublished": true,
+    "title": "Czy AI naprawdę zabija open source? | Better Dev Club #45",
+    "date": "2026-11-05",
+    "duration": "37:45",
+    "desc": "Czy AI naprawdę zabija open source, czy pod jedną etykietą wrzucamy zupełnie różne historie? Piotrek Stapp i Kajetan Duszyński rozmawiają o Deno i Cloudflare, zmianach w Cal.com oraz końcu utrzymania Pico CSS. Rozdzielają przejęcie zespołu, argumenty bezpieczeństwa i zwykłe starzenie się bibliotek — bez uznawania każdego z tych przypadków za dowód na tę samą tezę.\n\nPrzechodzimy też od gier przenoszonych do przeglądarki i alternatyw dla Photoshopa do praktycznego pytania: skoro możesz odtworzyć aplikację z pomocą AI, czy naprawdę chcesz to zrobić zamiast za nią zapłacić? Jest własny przykład Kajetana z kalendarzem konsultacji, dyskusja o odpowiedzialności za utrzymanie i bezpieczeństwo oraz pytanie do maintainerów. Na końcu świętujemy rok Better Dev Club — zostawcie tort w komentarzu! 🎂",
+    "agenda": [
+      "00:00 - [Open source i remont] Jeszcze jedna mała poprawka i pytanie o zmianę.",
+      "01:24 - [Deno i Cloudflare] Przejęcie zespołu: sukces twórców czy kłopot użytkowników?",
+      "08:18 - [Gry w przeglądarce] Reverse engineering, portowanie i pytania o prawa autorskie.",
+      "12:38 - [Photoshop w weekend?] Artcraft, efektowne demo i faktyczne potrzeby użytkownika.",
+      "16:10 - [Klon czy abonament?] Czy z nielimitowanymi tokenami odtworzylibyśmy własne IDE?",
+      "17:59 - [Cal.com i Cal.diy] Otwarty kod, model biznesowy i argument bezpieczeństwa.",
+      "21:20 - [Kalendarz w 20 minut] Własny przykład Kajetana i koszt niedopracowanego narzędzia.",
+      "22:46 - [Luki i agenci] Znajdowanie błędów, łatanie oraz granice blokad modeli.",
+      "27:29 - [Koniec Pico CSS] Dług technologiczny, popularność bibliotek i pieniądze na utrzymanie.",
+      "33:12 - [Co zostaje z open source?] Wnioski, kraftowy kodzik i pytanie do maintainerów.",
+      "37:07 - [Rok Better Dev Club] Tort w komentarzu i do zobaczenia za tydzień."
+    ],
+    "tags": [
+      "betterdevclub",
+      "ai",
+      "open-source",
+      "Deno",
+      "Cloudflare",
+      "Cal.com",
+      "Cal.diy",
+      "Pico CSS",
+      "vibe-coding",
+      "bezpieczeństwo",
+      "utrzymanie-oprogramowania"
+    ],
+    "platforms": {
+      "youtube": "",
+      "spotify": "",
+      "apple": ""
+    },
+    "resources": [
+      {
+        "type": "link",
+        "url": "https://deno.com/blog/cloudflare",
+        "label": "Deno: zespół dołącza do Cloudflare",
+        "description": "Komunikat o roku wsparcia runtime i sześciu miesiącach dalszego działania Deploy."
+      },
+      {
+        "type": "link",
+        "url": "https://blog.cloudflare.com/deno-joins-cloudflare",
+        "label": "Cloudflare: Deno, celld i workerd",
+        "description": "Oficjalne wyjaśnienie kierunku prac po dołączeniu zespołu Deno."
+      },
+      {
+        "type": "link",
+        "url": "https://cal.com/blog/cal-com-goes-closed-source-why",
+        "label": "Cal.com: dlaczego zamknięto produkcyjny kod",
+        "description": "Bezpieczeństwo jako deklarowany powód decyzji firmy; nie niezależny dowód przewagi zamkniętego kodu."
+      },
+      {
+        "type": "link",
+        "url": "https://cal.com/blog/cal-diy-open-source-to-closed-source",
+        "label": "Cal.diy i zmiana modelu Cal.com",
+        "description": "Rozdzielenie prywatnego kodu produkcyjnego i otwartej edycji społecznościowej MIT."
+      },
+      {
+        "type": "link",
+        "url": "https://cal.diy",
+        "label": "Cal.diy: ograniczenia użycia",
+        "description": "Dokumentacja zaleca osobisty, nieprodukcyjny użytek; nie rekomendujemy wdrożenia do obsługi klientów bez oceny ryzyka."
+      },
+      {
+        "type": "link",
+        "url": "https://picocss.com/docs/maintenance",
+        "label": "Pico CSS: koniec utrzymania",
+        "description": "Ostatnie wydanie 2.1.1, modern CSS zamiast Sass i kontekst AI w wyjaśnieniu autora."
+      },
+      {
+        "type": "link",
+        "url": "https://getartcraft.com/apps",
+        "label": "ArtCraft Crafting Apps",
+        "description": "Rodzina otwartych narzędzi kreatywnych; nie dowód pełnego zastąpienia pakietu Adobe."
+      },
+      {
+        "type": "link",
+        "url": "https://getartcraft.com/apps/photocraft",
+        "label": "PhotoCraft — early alpha",
+        "description": "Edytor obrazów, m.in. warstwy oraz obsługa PSD/PSB; wciąż wczesna alfa."
+      },
+      {
+        "type": "link",
+        "url": "https://blog.paint.net/2026/10/24/paint-net-5-2-beta-build-9793",
+        "label": "Paint.NET 5.2 Beta: eksperymentalne wydania Wine",
+        "description": "Oficjalny wpis o eksperymentalnej obsłudze Wine/Linux i możliwym działaniu na Macu."
+      }
+    ],
+    "youtubeId": ""
+  },
+  {
     "id": 44,
     "num": "44",
     "notPublished": false,

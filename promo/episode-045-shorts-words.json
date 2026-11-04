@@ -1,0 +1,2459 @@
+{
+  "timeAxis": "Final export, seconds. 0.5 s handles. Session ASR mapped per speaker; not audio-verified.",
+  "clips": [
+    {
+      "id": "kupic-czy-klonowac",
+      "title": "Nielimitowane tokeny czy własna karta?",
+      "proposedHook": "Czy odtworzyłbyś własne IDE zamiast za nie zapłacić?",
+      "start": 985.3963333333334,
+      "end": 1027.081,
+      "asrText": "Kajetan: Tak się domyślam. No dobrze. No gdyby ktoś ci nagle teraz powiedział, nie będziemy płacić od jutra za twoje Visual Studio, natomiast masz nielimitowaną ilość tokenów. Czy w takiej sytuacji, co byś zrobił? Czy byś napisał to Visual Studio od zera i próbował ten, czy jednak byś wyciągnął kartę i powiedział, dobra, to ja sobie to Visual Studio kupię sam?\nPiotrek Stapp: No, obcocie.\nPiotrek Stapp: Nie, naprawdę to wszystko.\nPiotrek Stapp: Nie wiem czy wybrałbym Żuła Studio czy Rajdera tak zupełnie szczerze, ale to inna parę. Ale nie, chyba wyciągnąłbym kartę i bym kupił. Litości, nie, nie,\nKajetan: Nie ma to znaczenie.",
+      "words": [
+        {
+          "speaker": "Kajetan",
+          "text": "Tak",
+          "rawStart": 987.534,
+          "rawEnd": 987.734,
+          "start": 985.8963333333334,
+          "end": 986.0963333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "się",
+          "rawStart": 987.734,
+          "rawEnd": 987.934,
+          "start": 986.0963333333334,
+          "end": 986.2963333333333
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "Ale",
+          "rawStart": 987.834,
+          "rawEnd": 988.054,
+          "start": 986.209,
+          "end": 986.429
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "domyślam.",
+          "rawStart": 987.934,
+          "rawEnd": 989.874,
+          "start": 986.2963333333333,
+          "end": 988.2363333333334
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "nie,",
+          "rawStart": 988.054,
+          "rawEnd": 988.214,
+          "start": 986.429,
+          "end": 986.589
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "to",
+          "rawStart": 988.214,
+          "rawEnd": 988.354,
+          "start": 986.589,
+          "end": 986.729
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "dobra,",
+          "rawStart": 988.354,
+          "rawEnd": 988.714,
+          "start": 986.729,
+          "end": 987.089
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "używam.",
+          "rawStart": 988.714,
+          "rawEnd": 989.234,
+          "start": 987.089,
+          "end": 987.609
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "Używam",
+          "rawStart": 989.234,
+          "rawEnd": 989.674,
+          "start": 987.609,
+          "end": 988.049
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "Visual",
+          "rawStart": 989.674,
+          "rawEnd": 990.074,
+          "start": 988.049,
+          "end": 988.449
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "No",
+          "rawStart": 989.954,
+          "rawEnd": 990.354,
+          "start": 988.3163333333333,
+          "end": 988.7163333333334
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "Studio.",
+          "rawStart": 990.074,
+          "rawEnd": 990.514,
+          "start": 988.449,
+          "end": 988.889
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "dobrze.",
+          "rawStart": 990.354,
+          "rawEnd": 991.594,
+          "start": 988.7163333333334,
+          "end": 989.9563333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "No",
+          "rawStart": 991.634,
+          "rawEnd": 992.094,
+          "start": 989.9963333333334,
+          "end": 990.4563333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "gdyby",
+          "rawStart": 992.094,
+          "rawEnd": 992.414,
+          "start": 990.4563333333334,
+          "end": 990.7763333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "ktoś",
+          "rawStart": 992.414,
+          "rawEnd": 992.654,
+          "start": 990.7763333333334,
+          "end": 991.0163333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "ci",
+          "rawStart": 992.654,
+          "rawEnd": 992.854,
+          "start": 991.0163333333334,
+          "end": 991.2163333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "nagle",
+          "rawStart": 992.854,
+          "rawEnd": 993.134,
+          "start": 991.2163333333334,
+          "end": 991.4963333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "teraz",
+          "rawStart": 993.134,
+          "rawEnd": 993.414,
+          "start": 991.4963333333334,
+          "end": 991.7763333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "powiedział,",
+          "rawStart": 993.414,
+          "rawEnd": 993.974,
+          "start": 991.7763333333334,
+          "end": 992.3363333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "nie",
+          "rawStart": 994.074,
+          "rawEnd": 994.334,
+          "start": 992.4363333333333,
+          "end": 992.6963333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "będziemy",
+          "rawStart": 994.334,
+          "rawEnd": 994.774,
+          "start": 992.6963333333333,
+          "end": 993.1363333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "płacić",
+          "rawStart": 994.774,
+          "rawEnd": 995.314,
+          "start": 993.1363333333334,
+          "end": 993.6763333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "od",
+          "rawStart": 995.314,
+          "rawEnd": 995.534,
+          "start": 993.6763333333333,
+          "end": 993.8963333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "jutra",
+          "rawStart": 995.534,
+          "rawEnd": 996.154,
+          "start": 993.8963333333334,
+          "end": 994.5163333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "za",
+          "rawStart": 996.154,
+          "rawEnd": 996.974,
+          "start": 994.5163333333334,
+          "end": 995.3363333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "twoje",
+          "rawStart": 996.974,
+          "rawEnd": 997.314,
+          "start": 995.3363333333334,
+          "end": 995.6763333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "Visual",
+          "rawStart": 997.314,
+          "rawEnd": 997.734,
+          "start": 995.6763333333333,
+          "end": 996.0963333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "Studio,",
+          "rawStart": 997.734,
+          "rawEnd": 998.114,
+          "start": 996.0963333333334,
+          "end": 996.4763333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "natomiast",
+          "rawStart": 998.154,
+          "rawEnd": 998.474,
+          "start": 996.5163333333334,
+          "end": 996.8363333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "masz",
+          "rawStart": 998.474,
+          "rawEnd": 998.794,
+          "start": 996.8363333333334,
+          "end": 997.1563333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "nielimitowaną",
+          "rawStart": 998.794,
+          "rawEnd": 999.554,
+          "start": 997.1563333333334,
+          "end": 997.9163333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "ilość",
+          "rawStart": 999.554,
+          "rawEnd": 999.854,
+          "start": 997.9163333333333,
+          "end": 998.2163333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "tokenów.",
+          "rawStart": 999.854,
+          "rawEnd": 1000.754,
+          "start": 998.2163333333334,
+          "end": 999.1163333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "Czy",
+          "rawStart": 1000.754,
+          "rawEnd": 1000.994,
+          "start": 999.1163333333334,
+          "end": 999.3563333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "w",
+          "rawStart": 1000.994,
+          "rawEnd": 1001.214,
+          "start": 999.3563333333334,
+          "end": 999.5763333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "takiej",
+          "rawStart": 1001.214,
+          "rawEnd": 1001.394,
+          "start": 999.5763333333334,
+          "end": 999.7563333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "sytuacji,",
+          "rawStart": 1001.394,
+          "rawEnd": 1002.334,
+          "start": 999.7563333333334,
+          "end": 1000.6963333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "co",
+          "rawStart": 1002.354,
+          "rawEnd": 1002.534,
+          "start": 1000.7163333333334,
+          "end": 1000.8963333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "byś",
+          "rawStart": 1002.534,
+          "rawEnd": 1002.794,
+          "start": 1000.8963333333334,
+          "end": 1001.1563333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "zrobił?",
+          "rawStart": 1002.794,
+          "rawEnd": 1003.174,
+          "start": 1001.1563333333334,
+          "end": 1001.5363333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "Czy",
+          "rawStart": 1003.174,
+          "rawEnd": 1003.314,
+          "start": 1001.5363333333333,
+          "end": 1001.6763333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "byś",
+          "rawStart": 1003.314,
+          "rawEnd": 1004.254,
+          "start": 1001.6763333333333,
+          "end": 1002.6163333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "napisał",
+          "rawStart": 1004.254,
+          "rawEnd": 1007.414,
+          "start": 1002.6163333333334,
+          "end": 1005.7763333333334
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "No,",
+          "rawStart": 1006.094,
+          "rawEnd": 1006.624,
+          "start": 1004.469,
+          "end": 1004.999
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "obcocie.",
+          "rawStart": 1006.624,
+          "rawEnd": 1007.082,
+          "start": 1004.999,
+          "end": 1005.457
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "to",
+          "rawStart": 1007.414,
+          "rawEnd": 1008.234,
+          "start": 1005.7763333333334,
+          "end": 1006.5963333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "Visual",
+          "rawStart": 1008.234,
+          "rawEnd": 1008.614,
+          "start": 1006.5963333333334,
+          "end": 1006.9763333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "Studio",
+          "rawStart": 1008.614,
+          "rawEnd": 1009.094,
+          "start": 1006.9763333333334,
+          "end": 1007.4563333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "od",
+          "rawStart": 1009.094,
+          "rawEnd": 1009.574,
+          "start": 1007.4563333333334,
+          "end": 1007.9363333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "zera",
+          "rawStart": 1009.574,
+          "rawEnd": 1009.894,
+          "start": 1007.9363333333333,
+          "end": 1008.2563333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "i",
+          "rawStart": 1009.894,
+          "rawEnd": 1011.334,
+          "start": 1008.2563333333334,
+          "end": 1009.6963333333333
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "Nie,",
+          "rawStart": 1010.638,
+          "rawEnd": 1010.938,
+          "start": 1009.013,
+          "end": 1009.313
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "naprawdę",
+          "rawStart": 1010.938,
+          "rawEnd": 1011.258,
+          "start": 1009.313,
+          "end": 1009.633
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "to",
+          "rawStart": 1011.258,
+          "rawEnd": 1011.378,
+          "start": 1009.633,
+          "end": 1009.753
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "próbował",
+          "rawStart": 1011.334,
+          "rawEnd": 1011.774,
+          "start": 1009.6963333333333,
+          "end": 1010.1363333333334
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "wszystko.",
+          "rawStart": 1011.378,
+          "rawEnd": 1011.698,
+          "start": 1009.753,
+          "end": 1010.073
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "ten,",
+          "rawStart": 1011.774,
+          "rawEnd": 1011.994,
+          "start": 1010.1363333333334,
+          "end": 1010.3563333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "czy",
+          "rawStart": 1011.994,
+          "rawEnd": 1012.194,
+          "start": 1010.3563333333334,
+          "end": 1010.5563333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "jednak",
+          "rawStart": 1012.194,
+          "rawEnd": 1012.454,
+          "start": 1010.5563333333333,
+          "end": 1010.8163333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "byś",
+          "rawStart": 1012.454,
+          "rawEnd": 1012.694,
+          "start": 1010.8163333333333,
+          "end": 1011.0563333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "wyciągnął",
+          "rawStart": 1012.694,
+          "rawEnd": 1013.314,
+          "start": 1011.0563333333333,
+          "end": 1011.6763333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "kartę",
+          "rawStart": 1013.314,
+          "rawEnd": 1013.714,
+          "start": 1011.6763333333333,
+          "end": 1012.0763333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "i",
+          "rawStart": 1013.714,
+          "rawEnd": 1014.094,
+          "start": 1012.0763333333334,
+          "end": 1012.4563333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "powiedział,",
+          "rawStart": 1014.094,
+          "rawEnd": 1014.464,
+          "start": 1012.4563333333334,
+          "end": 1012.8263333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "dobra,",
+          "rawStart": 1014.464,
+          "rawEnd": 1014.724,
+          "start": 1012.8263333333334,
+          "end": 1013.0863333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "to",
+          "rawStart": 1014.724,
+          "rawEnd": 1014.834,
+          "start": 1013.0863333333334,
+          "end": 1013.1963333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "ja",
+          "rawStart": 1014.834,
+          "rawEnd": 1014.954,
+          "start": 1013.1963333333333,
+          "end": 1013.3163333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "sobie",
+          "rawStart": 1014.954,
+          "rawEnd": 1015.174,
+          "start": 1013.3163333333333,
+          "end": 1013.5363333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "to",
+          "rawStart": 1015.174,
+          "rawEnd": 1015.474,
+          "start": 1013.5363333333333,
+          "end": 1013.8363333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "Visual",
+          "rawStart": 1015.474,
+          "rawEnd": 1015.714,
+          "start": 1013.8363333333334,
+          "end": 1014.0763333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "Studio",
+          "rawStart": 1015.714,
+          "rawEnd": 1016.014,
+          "start": 1014.0763333333334,
+          "end": 1014.3763333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "kupię",
+          "rawStart": 1016.014,
+          "rawEnd": 1016.294,
+          "start": 1014.3763333333334,
+          "end": 1014.6563333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "sam?",
+          "rawStart": 1016.294,
+          "rawEnd": 1016.496,
+          "start": 1014.6563333333334,
+          "end": 1014.8583333333333
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "Nie",
+          "rawStart": 1018.126,
+          "rawEnd": 1018.826,
+          "start": 1016.501,
+          "end": 1017.201
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "wiem",
+          "rawStart": 1018.826,
+          "rawEnd": 1018.986,
+          "start": 1017.201,
+          "end": 1017.361
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "czy",
+          "rawStart": 1018.986,
+          "rawEnd": 1019.146,
+          "start": 1017.361,
+          "end": 1017.521
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "wybrałbym",
+          "rawStart": 1019.146,
+          "rawEnd": 1019.646,
+          "start": 1017.521,
+          "end": 1018.021
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "Żuła",
+          "rawStart": 1019.646,
+          "rawEnd": 1019.946,
+          "start": 1018.021,
+          "end": 1018.321
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "Studio",
+          "rawStart": 1019.946,
+          "rawEnd": 1020.266,
+          "start": 1018.321,
+          "end": 1018.641
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "czy",
+          "rawStart": 1020.266,
+          "rawEnd": 1020.466,
+          "start": 1018.641,
+          "end": 1018.841
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "Rajdera",
+          "rawStart": 1020.466,
+          "rawEnd": 1021.026,
+          "start": 1018.841,
+          "end": 1019.401
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "tak",
+          "rawStart": 1021.026,
+          "rawEnd": 1021.186,
+          "start": 1019.401,
+          "end": 1019.561
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "zupełnie",
+          "rawStart": 1021.186,
+          "rawEnd": 1021.486,
+          "start": 1019.561,
+          "end": 1019.861
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "szczerze,",
+          "rawStart": 1021.486,
+          "rawEnd": 1022.206,
+          "start": 1019.861,
+          "end": 1020.581
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "Nie",
+          "rawStart": 1022.542,
+          "rawEnd": 1022.762,
+          "start": 1020.9043333333334,
+          "end": 1021.1243333333333
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "ale",
+          "rawStart": 1022.606,
+          "rawEnd": 1022.726,
+          "start": 1020.981,
+          "end": 1021.101
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "to",
+          "rawStart": 1022.726,
+          "rawEnd": 1022.806,
+          "start": 1021.101,
+          "end": 1021.181
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "ma",
+          "rawStart": 1022.762,
+          "rawEnd": 1022.902,
+          "start": 1021.1243333333333,
+          "end": 1021.2643333333334
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "inna",
+          "rawStart": 1022.806,
+          "rawEnd": 1023.186,
+          "start": 1021.181,
+          "end": 1021.561
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "to",
+          "rawStart": 1022.902,
+          "rawEnd": 1023.062,
+          "start": 1021.2643333333334,
+          "end": 1021.4243333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "znaczenie.",
+          "rawStart": 1023.062,
+          "rawEnd": 1023.52,
+          "start": 1021.4243333333334,
+          "end": 1021.8823333333333
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "parę.",
+          "rawStart": 1023.186,
+          "rawEnd": 1023.866,
+          "start": 1021.561,
+          "end": 1022.241
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "Ale",
+          "rawStart": 1023.866,
+          "rawEnd": 1024.366,
+          "start": 1022.241,
+          "end": 1022.741
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "nie,",
+          "rawStart": 1024.366,
+          "rawEnd": 1024.736,
+          "start": 1022.741,
+          "end": 1023.1110000000001
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "chyba",
+          "rawStart": 1024.736,
+          "rawEnd": 1024.966,
+          "start": 1023.1110000000001,
+          "end": 1023.3409999999999
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "wyciągnąłbym",
+          "rawStart": 1024.966,
+          "rawEnd": 1025.586,
+          "start": 1023.3409999999999,
+          "end": 1023.961
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "kartę",
+          "rawStart": 1025.586,
+          "rawEnd": 1025.966,
+          "start": 1023.961,
+          "end": 1024.341
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "i",
+          "rawStart": 1025.966,
+          "rawEnd": 1026.046,
+          "start": 1024.341,
+          "end": 1024.421
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "bym",
+          "rawStart": 1026.046,
+          "rawEnd": 1026.266,
+          "start": 1024.421,
+          "end": 1024.641
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "kupił.",
+          "rawStart": 1026.266,
+          "rawEnd": 1026.796,
+          "start": 1024.641,
+          "end": 1025.171
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "Litości,",
+          "rawStart": 1026.796,
+          "rawEnd": 1027.516,
+          "start": 1025.171,
+          "end": 1025.891
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "nie,",
+          "rawStart": 1027.516,
+          "rawEnd": 1027.826,
+          "start": 1025.891,
+          "end": 1026.201
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "nie,",
+          "rawStart": 1027.826,
+          "rawEnd": 1028.206,
+          "start": 1026.201,
+          "end": 1026.581
+        }
+      ]
+    },
+    {
+      "id": "kalendarz-w-20-minut",
+      "title": "Zwaibowałem kalendarz. Działa bardzo średnio.",
+      "proposedHook": "Szybkie napisanie aplikacji to jeszcze nie gotowy produkt.",
+      "start": 1280.1483333333333,
+      "end": 1338.9323333333332,
+      "asrText": "Kajetan: Zgadza się, zgadza się. No jakby faktycznie to jest zupełnie inna perspektywa. Szczerze mówiąc tak, właśnie do tego chciałem, propos szkoły.net, to faktycznie w szkole.net jest opcja zapisania się na konsultacje, jest totalnie zwaibowana przeze mnie i zrobiona w bardzo prosty sposób i z bardzo ograniczoną funkcjonalnością.\nKajetan: i działa bardzo średnio. żeby nie było, bo spędziłem nad tym dobre 20 minut prawdopodobnie, żeby zaprojektować to wszystko i napisać. I szczerze mówiąc teraz, jak patrzę na cal DIY, bo przy tej całej aferze, aferze, to faktycznie dowiedziałem się, że mogę to sobie postawić za darmo właściwie na swojej infrastrukturze i mogę sobie to mieć.\nPiotrek Stapp: O!",
+      "words": [
+        {
+          "speaker": "Kajetan",
+          "text": "Zgadza",
+          "rawStart": 1282.286,
+          "rawEnd": 1282.786,
+          "start": 1280.6483333333333,
+          "end": 1281.1483333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "się,",
+          "rawStart": 1282.786,
+          "rawEnd": 1283.236,
+          "start": 1281.1483333333333,
+          "end": 1281.5983333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "zgadza",
+          "rawStart": 1283.236,
+          "rawEnd": 1283.686,
+          "start": 1281.5983333333334,
+          "end": 1282.0483333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "się.",
+          "rawStart": 1283.686,
+          "rawEnd": 1283.926,
+          "start": 1282.0483333333332,
+          "end": 1282.2883333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "No",
+          "rawStart": 1283.966,
+          "rawEnd": 1284.126,
+          "start": 1282.3283333333331,
+          "end": 1282.4883333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "jakby",
+          "rawStart": 1284.126,
+          "rawEnd": 1284.986,
+          "start": 1282.4883333333332,
+          "end": 1283.3483333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "faktycznie",
+          "rawStart": 1284.986,
+          "rawEnd": 1285.666,
+          "start": 1283.3483333333334,
+          "end": 1284.0283333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "to",
+          "rawStart": 1285.666,
+          "rawEnd": 1286.166,
+          "start": 1284.0283333333332,
+          "end": 1284.5283333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "jest",
+          "rawStart": 1286.166,
+          "rawEnd": 1286.466,
+          "start": 1284.5283333333332,
+          "end": 1284.8283333333331
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "zupełnie",
+          "rawStart": 1286.466,
+          "rawEnd": 1286.906,
+          "start": 1284.8283333333331,
+          "end": 1285.2683333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "inna",
+          "rawStart": 1286.906,
+          "rawEnd": 1287.206,
+          "start": 1285.2683333333332,
+          "end": 1285.5683333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "perspektywa.",
+          "rawStart": 1287.206,
+          "rawEnd": 1287.846,
+          "start": 1285.5683333333332,
+          "end": 1286.2083333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "Szczerze",
+          "rawStart": 1287.846,
+          "rawEnd": 1288.226,
+          "start": 1286.2083333333333,
+          "end": 1286.5883333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "mówiąc",
+          "rawStart": 1288.226,
+          "rawEnd": 1288.626,
+          "start": 1286.5883333333334,
+          "end": 1286.9883333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "tak,",
+          "rawStart": 1288.626,
+          "rawEnd": 1288.856,
+          "start": 1286.9883333333332,
+          "end": 1287.2183333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "właśnie",
+          "rawStart": 1288.856,
+          "rawEnd": 1289.086,
+          "start": 1287.2183333333332,
+          "end": 1287.4483333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "do",
+          "rawStart": 1289.086,
+          "rawEnd": 1289.266,
+          "start": 1287.4483333333333,
+          "end": 1287.6283333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "tego",
+          "rawStart": 1289.266,
+          "rawEnd": 1289.426,
+          "start": 1287.6283333333333,
+          "end": 1287.7883333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "chciałem,",
+          "rawStart": 1289.426,
+          "rawEnd": 1290.766,
+          "start": 1287.7883333333332,
+          "end": 1289.1283333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "propos",
+          "rawStart": 1290.766,
+          "rawEnd": 1291.686,
+          "start": 1289.1283333333333,
+          "end": 1290.0483333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "szkoły.net,",
+          "rawStart": 1291.686,
+          "rawEnd": 1294.826,
+          "start": 1290.0483333333332,
+          "end": 1293.1883333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "to",
+          "rawStart": 1295.026,
+          "rawEnd": 1295.346,
+          "start": 1293.3883333333333,
+          "end": 1293.7083333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "faktycznie",
+          "rawStart": 1295.346,
+          "rawEnd": 1296.326,
+          "start": 1293.7083333333333,
+          "end": 1294.6883333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "w",
+          "rawStart": 1296.326,
+          "rawEnd": 1296.526,
+          "start": 1294.6883333333333,
+          "end": 1294.8883333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "szkole.net",
+          "rawStart": 1296.526,
+          "rawEnd": 1297.266,
+          "start": 1294.8883333333333,
+          "end": 1295.6283333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "jest",
+          "rawStart": 1297.266,
+          "rawEnd": 1298.566,
+          "start": 1295.6283333333333,
+          "end": 1296.9283333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "opcja",
+          "rawStart": 1298.566,
+          "rawEnd": 1299.166,
+          "start": 1296.9283333333333,
+          "end": 1297.5283333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "zapisania",
+          "rawStart": 1299.166,
+          "rawEnd": 1299.746,
+          "start": 1297.5283333333332,
+          "end": 1298.1083333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "się",
+          "rawStart": 1299.746,
+          "rawEnd": 1299.886,
+          "start": 1298.1083333333333,
+          "end": 1298.2483333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "na",
+          "rawStart": 1299.886,
+          "rawEnd": 1300.066,
+          "start": 1298.2483333333332,
+          "end": 1298.4283333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "konsultacje,",
+          "rawStart": 1300.066,
+          "rawEnd": 1300.806,
+          "start": 1298.4283333333333,
+          "end": 1299.1683333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "jest",
+          "rawStart": 1300.946,
+          "rawEnd": 1301.346,
+          "start": 1299.3083333333332,
+          "end": 1299.7083333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "totalnie",
+          "rawStart": 1301.346,
+          "rawEnd": 1301.886,
+          "start": 1299.7083333333333,
+          "end": 1300.2483333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "zwaibowana",
+          "rawStart": 1301.886,
+          "rawEnd": 1302.746,
+          "start": 1300.2483333333332,
+          "end": 1301.1083333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "przeze",
+          "rawStart": 1302.746,
+          "rawEnd": 1303.386,
+          "start": 1301.1083333333333,
+          "end": 1301.7483333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "mnie",
+          "rawStart": 1303.386,
+          "rawEnd": 1304.046,
+          "start": 1301.7483333333332,
+          "end": 1302.4083333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "i",
+          "rawStart": 1304.046,
+          "rawEnd": 1305.746,
+          "start": 1302.4083333333333,
+          "end": 1304.1083333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "zrobiona",
+          "rawStart": 1305.746,
+          "rawEnd": 1306.366,
+          "start": 1304.1083333333333,
+          "end": 1304.7283333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "w",
+          "rawStart": 1306.366,
+          "rawEnd": 1307.126,
+          "start": 1304.7283333333332,
+          "end": 1305.4883333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "bardzo",
+          "rawStart": 1307.126,
+          "rawEnd": 1307.926,
+          "start": 1305.4883333333332,
+          "end": 1306.2883333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "prosty",
+          "rawStart": 1307.926,
+          "rawEnd": 1308.406,
+          "start": 1306.2883333333332,
+          "end": 1306.7683333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "sposób",
+          "rawStart": 1308.406,
+          "rawEnd": 1308.866,
+          "start": 1306.7683333333332,
+          "end": 1307.2283333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "i",
+          "rawStart": 1308.866,
+          "rawEnd": 1309.366,
+          "start": 1307.2283333333332,
+          "end": 1307.7283333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "z",
+          "rawStart": 1309.366,
+          "rawEnd": 1309.506,
+          "start": 1307.7283333333332,
+          "end": 1307.8683333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "bardzo",
+          "rawStart": 1309.506,
+          "rawEnd": 1309.926,
+          "start": 1307.8683333333333,
+          "end": 1308.2883333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "ograniczoną",
+          "rawStart": 1309.926,
+          "rawEnd": 1310.646,
+          "start": 1308.2883333333332,
+          "end": 1309.0083333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "funkcjonalnością.",
+          "rawStart": 1310.646,
+          "rawEnd": 1311.698,
+          "start": 1309.0083333333332,
+          "end": 1310.0603333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "i",
+          "rawStart": 1311.887,
+          "rawEnd": 1312.307,
+          "start": 1310.2493333333332,
+          "end": 1310.6693333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "działa",
+          "rawStart": 1312.307,
+          "rawEnd": 1312.687,
+          "start": 1310.6693333333333,
+          "end": 1311.0493333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "bardzo",
+          "rawStart": 1312.687,
+          "rawEnd": 1313.527,
+          "start": 1311.0493333333332,
+          "end": 1311.8893333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "średnio.",
+          "rawStart": 1313.527,
+          "rawEnd": 1314.327,
+          "start": 1311.8893333333333,
+          "end": 1312.6893333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "żeby",
+          "rawStart": 1315.207,
+          "rawEnd": 1315.787,
+          "start": 1313.5693333333334,
+          "end": 1314.1493333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "nie",
+          "rawStart": 1315.787,
+          "rawEnd": 1316.147,
+          "start": 1314.1493333333333,
+          "end": 1314.5093333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "było,",
+          "rawStart": 1316.147,
+          "rawEnd": 1316.487,
+          "start": 1314.5093333333332,
+          "end": 1314.8493333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "bo",
+          "rawStart": 1316.647,
+          "rawEnd": 1317.107,
+          "start": 1315.0093333333332,
+          "end": 1315.4693333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "spędziłem",
+          "rawStart": 1317.107,
+          "rawEnd": 1317.607,
+          "start": 1315.4693333333332,
+          "end": 1315.9693333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "nad",
+          "rawStart": 1317.607,
+          "rawEnd": 1317.747,
+          "start": 1315.9693333333332,
+          "end": 1316.1093333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "tym",
+          "rawStart": 1317.747,
+          "rawEnd": 1318.067,
+          "start": 1316.1093333333333,
+          "end": 1316.4293333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "dobre",
+          "rawStart": 1318.067,
+          "rawEnd": 1318.407,
+          "start": 1316.4293333333333,
+          "end": 1316.7693333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "20",
+          "rawStart": 1318.407,
+          "rawEnd": 1318.887,
+          "start": 1316.7693333333332,
+          "end": 1317.2493333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "minut",
+          "rawStart": 1318.887,
+          "rawEnd": 1319.227,
+          "start": 1317.2493333333332,
+          "end": 1317.5893333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "prawdopodobnie,",
+          "rawStart": 1319.227,
+          "rawEnd": 1319.996,
+          "start": 1317.5893333333333,
+          "end": 1318.3583333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "żeby",
+          "rawStart": 1319.996,
+          "rawEnd": 1320.227,
+          "start": 1318.3583333333333,
+          "end": 1318.5893333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "zaprojektować",
+          "rawStart": 1320.227,
+          "rawEnd": 1320.947,
+          "start": 1318.5893333333333,
+          "end": 1319.3093333333331
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "O!",
+          "rawStart": 1320.367,
+          "rawEnd": 1320.864,
+          "start": 1318.742,
+          "end": 1319.239
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "to",
+          "rawStart": 1320.947,
+          "rawEnd": 1321.147,
+          "start": 1319.3093333333331,
+          "end": 1319.5093333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "wszystko",
+          "rawStart": 1321.147,
+          "rawEnd": 1321.407,
+          "start": 1319.5093333333332,
+          "end": 1319.7693333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "i",
+          "rawStart": 1321.407,
+          "rawEnd": 1321.627,
+          "start": 1319.7693333333332,
+          "end": 1319.9893333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "napisać.",
+          "rawStart": 1321.627,
+          "rawEnd": 1323.127,
+          "start": 1319.9893333333332,
+          "end": 1321.4893333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "I",
+          "rawStart": 1324.627,
+          "rawEnd": 1325.127,
+          "start": 1322.9893333333332,
+          "end": 1323.4893333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "szczerze",
+          "rawStart": 1325.127,
+          "rawEnd": 1325.427,
+          "start": 1323.4893333333332,
+          "end": 1323.7893333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "mówiąc",
+          "rawStart": 1325.427,
+          "rawEnd": 1325.867,
+          "start": 1323.7893333333332,
+          "end": 1324.2293333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "teraz,",
+          "rawStart": 1325.867,
+          "rawEnd": 1326.097,
+          "start": 1324.2293333333332,
+          "end": 1324.4593333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "jak",
+          "rawStart": 1326.097,
+          "rawEnd": 1326.247,
+          "start": 1324.4593333333332,
+          "end": 1324.6093333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "patrzę",
+          "rawStart": 1326.247,
+          "rawEnd": 1326.587,
+          "start": 1324.6093333333333,
+          "end": 1324.9493333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "na",
+          "rawStart": 1326.587,
+          "rawEnd": 1326.747,
+          "start": 1324.9493333333332,
+          "end": 1325.1093333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "cal",
+          "rawStart": 1326.747,
+          "rawEnd": 1326.927,
+          "start": 1325.1093333333333,
+          "end": 1325.2893333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "DIY,",
+          "rawStart": 1326.927,
+          "rawEnd": 1327.487,
+          "start": 1325.2893333333332,
+          "end": 1325.8493333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "bo",
+          "rawStart": 1327.527,
+          "rawEnd": 1327.927,
+          "start": 1325.8893333333333,
+          "end": 1326.2893333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "przy",
+          "rawStart": 1327.927,
+          "rawEnd": 1328.227,
+          "start": 1326.2893333333332,
+          "end": 1326.5893333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "tej",
+          "rawStart": 1328.227,
+          "rawEnd": 1328.347,
+          "start": 1326.5893333333333,
+          "end": 1326.7093333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "całej",
+          "rawStart": 1328.347,
+          "rawEnd": 1328.887,
+          "start": 1326.7093333333332,
+          "end": 1327.2493333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "aferze,",
+          "rawStart": 1328.887,
+          "rawEnd": 1329.867,
+          "start": 1327.2493333333332,
+          "end": 1328.2293333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "aferze,",
+          "rawStart": 1329.867,
+          "rawEnd": 1331.217,
+          "start": 1328.2293333333332,
+          "end": 1329.5793333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "to",
+          "rawStart": 1331.217,
+          "rawEnd": 1331.487,
+          "start": 1329.5793333333334,
+          "end": 1329.8493333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "faktycznie",
+          "rawStart": 1331.487,
+          "rawEnd": 1332.067,
+          "start": 1329.8493333333333,
+          "end": 1330.4293333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "dowiedziałem",
+          "rawStart": 1332.067,
+          "rawEnd": 1332.787,
+          "start": 1330.4293333333333,
+          "end": 1331.1493333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "się,",
+          "rawStart": 1332.787,
+          "rawEnd": 1332.967,
+          "start": 1331.1493333333333,
+          "end": 1331.3293333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "że",
+          "rawStart": 1332.967,
+          "rawEnd": 1333.127,
+          "start": 1331.3293333333334,
+          "end": 1331.4893333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "mogę",
+          "rawStart": 1333.127,
+          "rawEnd": 1333.347,
+          "start": 1331.4893333333332,
+          "end": 1331.7093333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "to",
+          "rawStart": 1333.347,
+          "rawEnd": 1333.527,
+          "start": 1331.7093333333332,
+          "end": 1331.8893333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "sobie",
+          "rawStart": 1333.527,
+          "rawEnd": 1333.707,
+          "start": 1331.8893333333333,
+          "end": 1332.0693333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "postawić",
+          "rawStart": 1333.707,
+          "rawEnd": 1335.987,
+          "start": 1332.0693333333334,
+          "end": 1334.3493333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "za",
+          "rawStart": 1335.987,
+          "rawEnd": 1336.927,
+          "start": 1334.3493333333333,
+          "end": 1335.2893333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "darmo",
+          "rawStart": 1336.927,
+          "rawEnd": 1337.227,
+          "start": 1335.2893333333332,
+          "end": 1335.5893333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "właściwie",
+          "rawStart": 1337.227,
+          "rawEnd": 1337.667,
+          "start": 1335.5893333333333,
+          "end": 1336.0293333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "na",
+          "rawStart": 1337.667,
+          "rawEnd": 1337.947,
+          "start": 1336.0293333333332,
+          "end": 1336.3093333333331
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "swojej",
+          "rawStart": 1337.947,
+          "rawEnd": 1338.227,
+          "start": 1336.3093333333331,
+          "end": 1336.5893333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "infrastrukturze",
+          "rawStart": 1338.227,
+          "rawEnd": 1339.027,
+          "start": 1336.5893333333333,
+          "end": 1337.3893333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "i",
+          "rawStart": 1339.027,
+          "rawEnd": 1339.147,
+          "start": 1337.3893333333333,
+          "end": 1337.5093333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "mogę",
+          "rawStart": 1339.147,
+          "rawEnd": 1339.427,
+          "start": 1337.5093333333332,
+          "end": 1337.7893333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "sobie",
+          "rawStart": 1339.427,
+          "rawEnd": 1339.627,
+          "start": 1337.7893333333332,
+          "end": 1337.9893333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "to",
+          "rawStart": 1339.627,
+          "rawEnd": 1339.847,
+          "start": 1337.9893333333332,
+          "end": 1338.2093333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "mieć.",
+          "rawStart": 1339.847,
+          "rawEnd": 1340.07,
+          "start": 1338.2093333333332,
+          "end": 1338.4323333333332
+        }
+      ]
+    },
+    {
+      "id": "popularne-nie-lepsze",
+      "title": "Popularniejsze nie znaczy lepsze",
+      "proposedHook": "Czy AI wybiera najlepszą bibliotekę, czy tę najbardziej znaną?",
+      "start": 1857.9073333333333,
+      "end": 1901.665,
+      "asrText": "Kajetan: przeprojektowane w jakiś sposób, tak żeby to działało jeszcze lepiej, jeszcze szybciej, jeszcze ciekawiej, żeby miało czym się bronić w ogóle. Więc tutaj w przypadku PICO, mam wrażenie, że to jest po prostu taka trochę śmierć naturalna. Jakby z jednej strony możemy mówić o tym, agenci piszą lepsze CSS-y, ale agenci piszą lepsze CSS-y, korzystając z bibliotek, które też są open source'owe, tylko po prostu tamte...\nKajetan: z jakiegoś powodu są lepsze i albo no więcej więcej tego hajpu. Kurde hajpu.\nPiotrek Stapp: Nie wiem czy są lepsze. Nie użyłbym słowa lepsze, chyba bym użył słowa bardziej popularne.",
+      "words": [
+        {
+          "speaker": "Kajetan",
+          "text": "przeprojektowane",
+          "rawStart": 1860.045,
+          "rawEnd": 1861.105,
+          "start": 1858.4073333333333,
+          "end": 1859.4673333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "w",
+          "rawStart": 1861.105,
+          "rawEnd": 1861.325,
+          "start": 1859.4673333333333,
+          "end": 1859.6873333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "jakiś",
+          "rawStart": 1861.325,
+          "rawEnd": 1861.525,
+          "start": 1859.6873333333333,
+          "end": 1859.8873333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "sposób,",
+          "rawStart": 1861.525,
+          "rawEnd": 1862.055,
+          "start": 1859.8873333333333,
+          "end": 1860.4173333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "tak",
+          "rawStart": 1862.055,
+          "rawEnd": 1862.245,
+          "start": 1860.4173333333333,
+          "end": 1860.6073333333331
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "żeby",
+          "rawStart": 1862.245,
+          "rawEnd": 1862.445,
+          "start": 1860.6073333333331,
+          "end": 1860.8073333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "to",
+          "rawStart": 1862.445,
+          "rawEnd": 1862.705,
+          "start": 1860.8073333333332,
+          "end": 1861.0673333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "działało",
+          "rawStart": 1862.705,
+          "rawEnd": 1863.225,
+          "start": 1861.0673333333332,
+          "end": 1861.5873333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "jeszcze",
+          "rawStart": 1863.225,
+          "rawEnd": 1863.585,
+          "start": 1861.5873333333332,
+          "end": 1861.9473333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "lepiej,",
+          "rawStart": 1863.585,
+          "rawEnd": 1863.975,
+          "start": 1861.9473333333333,
+          "end": 1862.3373333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "jeszcze",
+          "rawStart": 1863.975,
+          "rawEnd": 1864.245,
+          "start": 1862.3373333333332,
+          "end": 1862.6073333333331
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "szybciej,",
+          "rawStart": 1864.245,
+          "rawEnd": 1864.605,
+          "start": 1862.6073333333331,
+          "end": 1862.9673333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "jeszcze",
+          "rawStart": 1864.605,
+          "rawEnd": 1864.865,
+          "start": 1862.9673333333333,
+          "end": 1863.2273333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "ciekawiej,",
+          "rawStart": 1864.865,
+          "rawEnd": 1865.665,
+          "start": 1863.2273333333333,
+          "end": 1864.0273333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "żeby",
+          "rawStart": 1865.705,
+          "rawEnd": 1866.245,
+          "start": 1864.0673333333332,
+          "end": 1864.6073333333331
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "miało",
+          "rawStart": 1866.245,
+          "rawEnd": 1866.845,
+          "start": 1864.6073333333331,
+          "end": 1865.2073333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "czym",
+          "rawStart": 1866.845,
+          "rawEnd": 1867.065,
+          "start": 1865.2073333333333,
+          "end": 1865.4273333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "się",
+          "rawStart": 1867.065,
+          "rawEnd": 1867.405,
+          "start": 1865.4273333333333,
+          "end": 1865.7673333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "bronić",
+          "rawStart": 1867.405,
+          "rawEnd": 1867.925,
+          "start": 1865.7673333333332,
+          "end": 1866.2873333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "w",
+          "rawStart": 1867.925,
+          "rawEnd": 1868.145,
+          "start": 1866.2873333333332,
+          "end": 1866.5073333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "ogóle.",
+          "rawStart": 1868.145,
+          "rawEnd": 1868.505,
+          "start": 1866.5073333333332,
+          "end": 1866.8673333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "Więc",
+          "rawStart": 1869.065,
+          "rawEnd": 1869.485,
+          "start": 1867.4273333333333,
+          "end": 1867.8473333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "tutaj",
+          "rawStart": 1869.485,
+          "rawEnd": 1870.245,
+          "start": 1867.8473333333332,
+          "end": 1868.6073333333331
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "w",
+          "rawStart": 1870.245,
+          "rawEnd": 1870.465,
+          "start": 1868.6073333333331,
+          "end": 1868.8273333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "przypadku",
+          "rawStart": 1870.465,
+          "rawEnd": 1870.825,
+          "start": 1868.8273333333332,
+          "end": 1869.1873333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "PICO,",
+          "rawStart": 1870.825,
+          "rawEnd": 1871.345,
+          "start": 1869.1873333333333,
+          "end": 1869.7073333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "mam",
+          "rawStart": 1871.745,
+          "rawEnd": 1872.265,
+          "start": 1870.1073333333331,
+          "end": 1870.6273333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "wrażenie,",
+          "rawStart": 1872.265,
+          "rawEnd": 1872.695,
+          "start": 1870.6273333333334,
+          "end": 1871.0573333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "że",
+          "rawStart": 1872.695,
+          "rawEnd": 1872.845,
+          "start": 1871.0573333333332,
+          "end": 1871.2073333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "to",
+          "rawStart": 1872.845,
+          "rawEnd": 1873.045,
+          "start": 1871.2073333333333,
+          "end": 1871.4073333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "jest",
+          "rawStart": 1873.045,
+          "rawEnd": 1873.225,
+          "start": 1871.4073333333333,
+          "end": 1871.5873333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "po",
+          "rawStart": 1873.225,
+          "rawEnd": 1873.405,
+          "start": 1871.5873333333332,
+          "end": 1871.7673333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "prostu",
+          "rawStart": 1873.405,
+          "rawEnd": 1873.645,
+          "start": 1871.7673333333332,
+          "end": 1872.0073333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "taka",
+          "rawStart": 1873.645,
+          "rawEnd": 1874.085,
+          "start": 1872.0073333333332,
+          "end": 1872.4473333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "trochę",
+          "rawStart": 1874.085,
+          "rawEnd": 1874.405,
+          "start": 1872.4473333333333,
+          "end": 1872.7673333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "śmierć",
+          "rawStart": 1874.405,
+          "rawEnd": 1874.865,
+          "start": 1872.7673333333332,
+          "end": 1873.2273333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "naturalna.",
+          "rawStart": 1874.865,
+          "rawEnd": 1875.825,
+          "start": 1873.2273333333333,
+          "end": 1874.1873333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "Jakby",
+          "rawStart": 1876.085,
+          "rawEnd": 1876.565,
+          "start": 1874.4473333333333,
+          "end": 1874.9273333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "z",
+          "rawStart": 1876.565,
+          "rawEnd": 1876.725,
+          "start": 1874.9273333333333,
+          "end": 1875.0873333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "jednej",
+          "rawStart": 1876.725,
+          "rawEnd": 1877.005,
+          "start": 1875.0873333333332,
+          "end": 1875.3673333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "strony",
+          "rawStart": 1877.005,
+          "rawEnd": 1877.265,
+          "start": 1875.3673333333334,
+          "end": 1875.6273333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "możemy",
+          "rawStart": 1877.265,
+          "rawEnd": 1877.665,
+          "start": 1875.6273333333334,
+          "end": 1876.0273333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "mówić",
+          "rawStart": 1877.665,
+          "rawEnd": 1878.085,
+          "start": 1876.0273333333332,
+          "end": 1876.4473333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "o",
+          "rawStart": 1878.085,
+          "rawEnd": 1878.225,
+          "start": 1876.4473333333333,
+          "end": 1876.5873333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "tym,",
+          "rawStart": 1878.225,
+          "rawEnd": 1878.475,
+          "start": 1876.5873333333332,
+          "end": 1876.8373333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "agenci",
+          "rawStart": 1878.475,
+          "rawEnd": 1879.105,
+          "start": 1876.8373333333332,
+          "end": 1877.4673333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "piszą",
+          "rawStart": 1879.105,
+          "rawEnd": 1879.665,
+          "start": 1877.4673333333333,
+          "end": 1878.0273333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "lepsze",
+          "rawStart": 1879.665,
+          "rawEnd": 1880.105,
+          "start": 1878.0273333333332,
+          "end": 1878.4673333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "CSS-y,",
+          "rawStart": 1880.105,
+          "rawEnd": 1880.705,
+          "start": 1878.4673333333333,
+          "end": 1879.0673333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "ale",
+          "rawStart": 1880.705,
+          "rawEnd": 1880.965,
+          "start": 1879.0673333333332,
+          "end": 1879.3273333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "agenci",
+          "rawStart": 1880.965,
+          "rawEnd": 1881.585,
+          "start": 1879.3273333333332,
+          "end": 1879.9473333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "piszą",
+          "rawStart": 1881.585,
+          "rawEnd": 1882.065,
+          "start": 1879.9473333333333,
+          "end": 1880.4273333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "lepsze",
+          "rawStart": 1882.065,
+          "rawEnd": 1882.885,
+          "start": 1880.4273333333333,
+          "end": 1881.2473333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "CSS-y,",
+          "rawStart": 1882.885,
+          "rawEnd": 1884.055,
+          "start": 1881.2473333333332,
+          "end": 1882.4173333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "korzystając",
+          "rawStart": 1884.055,
+          "rawEnd": 1884.845,
+          "start": 1882.4173333333333,
+          "end": 1883.2073333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "z",
+          "rawStart": 1884.845,
+          "rawEnd": 1885.065,
+          "start": 1883.2073333333333,
+          "end": 1883.4273333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "bibliotek,",
+          "rawStart": 1885.065,
+          "rawEnd": 1885.755,
+          "start": 1883.4273333333333,
+          "end": 1884.1173333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "które",
+          "rawStart": 1885.755,
+          "rawEnd": 1885.985,
+          "start": 1884.1173333333334,
+          "end": 1884.3473333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "też",
+          "rawStart": 1885.985,
+          "rawEnd": 1886.185,
+          "start": 1884.3473333333332,
+          "end": 1884.5473333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "są",
+          "rawStart": 1886.185,
+          "rawEnd": 1886.405,
+          "start": 1884.5473333333332,
+          "end": 1884.7673333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "open",
+          "rawStart": 1886.405,
+          "rawEnd": 1886.685,
+          "start": 1884.7673333333332,
+          "end": 1885.0473333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "source'owe,",
+          "rawStart": 1886.685,
+          "rawEnd": 1887.425,
+          "start": 1885.0473333333332,
+          "end": 1885.7873333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "tylko",
+          "rawStart": 1887.425,
+          "rawEnd": 1887.825,
+          "start": 1885.7873333333332,
+          "end": 1886.1873333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "po",
+          "rawStart": 1887.825,
+          "rawEnd": 1888.045,
+          "start": 1886.1873333333333,
+          "end": 1886.4073333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "prostu",
+          "rawStart": 1888.045,
+          "rawEnd": 1888.325,
+          "start": 1886.4073333333333,
+          "end": 1886.6873333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "tamte...",
+          "rawStart": 1888.325,
+          "rawEnd": 1888.849,
+          "start": 1886.6873333333333,
+          "end": 1887.2113333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "z",
+          "rawStart": 1889.037,
+          "rawEnd": 1889.557,
+          "start": 1887.3993333333333,
+          "end": 1887.9193333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "jakiegoś",
+          "rawStart": 1889.557,
+          "rawEnd": 1890.097,
+          "start": 1887.9193333333333,
+          "end": 1888.4593333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "powodu",
+          "rawStart": 1890.097,
+          "rawEnd": 1890.397,
+          "start": 1888.4593333333332,
+          "end": 1888.7593333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "są",
+          "rawStart": 1890.397,
+          "rawEnd": 1890.657,
+          "start": 1888.7593333333332,
+          "end": 1889.0193333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "lepsze",
+          "rawStart": 1890.657,
+          "rawEnd": 1891.477,
+          "start": 1889.0193333333332,
+          "end": 1889.8393333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "i",
+          "rawStart": 1891.477,
+          "rawEnd": 1891.997,
+          "start": 1889.8393333333333,
+          "end": 1890.3593333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "albo",
+          "rawStart": 1891.997,
+          "rawEnd": 1892.457,
+          "start": 1890.3593333333333,
+          "end": 1890.8193333333334
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "no",
+          "rawStart": 1892.457,
+          "rawEnd": 1893.697,
+          "start": 1890.8193333333334,
+          "end": 1892.0593333333331
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "więcej",
+          "rawStart": 1893.697,
+          "rawEnd": 1894.617,
+          "start": 1892.0593333333331,
+          "end": 1892.9793333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "więcej",
+          "rawStart": 1894.617,
+          "rawEnd": 1894.677,
+          "start": 1892.9793333333332,
+          "end": 1893.0393333333332
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "tego",
+          "rawStart": 1894.677,
+          "rawEnd": 1894.997,
+          "start": 1893.0393333333332,
+          "end": 1893.3593333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "hajpu.",
+          "rawStart": 1894.997,
+          "rawEnd": 1895.777,
+          "start": 1893.3593333333333,
+          "end": 1894.1393333333333
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "Kurde",
+          "rawStart": 1896.517,
+          "rawEnd": 1897.317,
+          "start": 1894.8793333333333,
+          "end": 1895.6793333333333
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "Nie",
+          "rawStart": 1897.07,
+          "rawEnd": 1897.25,
+          "start": 1895.445,
+          "end": 1895.625
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "wiem",
+          "rawStart": 1897.25,
+          "rawEnd": 1897.35,
+          "start": 1895.625,
+          "end": 1895.725
+        },
+        {
+          "speaker": "Kajetan",
+          "text": "hajpu.",
+          "rawStart": 1897.317,
+          "rawEnd": 1898.077,
+          "start": 1895.6793333333333,
+          "end": 1896.4393333333333
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "czy",
+          "rawStart": 1897.35,
+          "rawEnd": 1897.53,
+          "start": 1895.725,
+          "end": 1895.905
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "są",
+          "rawStart": 1897.53,
+          "rawEnd": 1897.77,
+          "start": 1895.905,
+          "end": 1896.145
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "lepsze.",
+          "rawStart": 1897.77,
+          "rawEnd": 1898.67,
+          "start": 1896.145,
+          "end": 1897.045
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "Nie",
+          "rawStart": 1898.81,
+          "rawEnd": 1899.05,
+          "start": 1897.185,
+          "end": 1897.425
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "użyłbym",
+          "rawStart": 1899.05,
+          "rawEnd": 1899.53,
+          "start": 1897.425,
+          "end": 1897.905
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "słowa",
+          "rawStart": 1899.53,
+          "rawEnd": 1899.89,
+          "start": 1897.905,
+          "end": 1898.265
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "lepsze,",
+          "rawStart": 1899.89,
+          "rawEnd": 1900.31,
+          "start": 1898.265,
+          "end": 1898.685
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "chyba",
+          "rawStart": 1900.37,
+          "rawEnd": 1900.63,
+          "start": 1898.745,
+          "end": 1899.005
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "bym",
+          "rawStart": 1900.63,
+          "rawEnd": 1900.91,
+          "start": 1899.005,
+          "end": 1899.285
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "użył",
+          "rawStart": 1900.91,
+          "rawEnd": 1901.129,
+          "start": 1899.285,
+          "end": 1899.504
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "słowa",
+          "rawStart": 1901.129,
+          "rawEnd": 1901.53,
+          "start": 1899.504,
+          "end": 1899.905
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "bardziej",
+          "rawStart": 1901.53,
+          "rawEnd": 1902.03,
+          "start": 1899.905,
+          "end": 1900.405
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "text": "popularne.",
+          "rawStart": 1902.03,
+          "rawEnd": 1902.79,
+          "start": 1900.405,
+          "end": 1901.165
+        }
+      ]
+    }
+  ]
+}
