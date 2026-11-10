@@ -1,5 +1,94 @@
 [
   {
+    "id": 46,
+    "num": "46",
+    "notPublished": true,
+    "title": "Better Dev Club #46 - AI naprawia AI, Duolingo rośnie, Copilot kosztuje",
+    "date": "2026-11-12",
+    "duration": "43:32",
+    "desc": "AI miało zastąpić aplikacje, a Duolingo wciąż daje powody do dyskusji o tym, za co naprawdę płacą użytkownicy. Piotrek Stapp i Kajetan Duszyński rozmawiają o sile nawyku, gotowych materiałach do nauki i granicach samodzielnego budowania tutora z AI. Potem przyglądają się Weight-Space Programming — eksperymentom z bezpośrednią edycją wag sieci przez inny model — oraz Arete-27B od Nous Research i deklarowanym przez twórców zmianom w odpowiedziach modelu.\n\nJest też historia ograniczania zużycia tokenów przez subagentów, generowanie okładek i przegląd nowości z GitHub Universe. Porównujemy własne doświadczenia z Copilot Fusion: Standard, High i Max, dobór modeli oraz cenę codziennej pracy. Na koniec rozmawiamy o bezpieczeństwie, powrocie agentów z terminala do aplikacji okienkowych i tym, dlaczego zdalny dostęp do sesji to jeszcze nie całe środowisko deweloperskie. Wolicie terminal czy okienka — i co musiałoby się zmienić, żebyście zmienili narzędzie?",
+    "agenda": [
+      "00:00 - [Otwarcie] Luźny wstęp przed rozmową o rynku i AI.",
+      "02:48 - [Rynek i produktywność] Wyceny firm technologicznych, bańka AI i pytanie o zwrot z inwestycji.",
+      "06:00 - [Duolingo i nawyki] Streaki, codzienna rutyna i czego oczekujemy od nauki języka.",
+      "10:54 - [SaaS miał umrzeć] Wyniki Duolingo kontra opowieść o aplikacjach zastępowanych przez AI.",
+      "11:52 - [Tutor AI czy gotowy produkt?] Własne materiały, czas użytkownika i przewaga gotowych ćwiczeń.",
+      "15:37 - [Praca z agentami] Jeden task czy pięć rzeczy naraz — i statystyka z przymrużeniem oka.",
+      "16:25 - [AI naprawia AI] Weight-Space Programming, Astra i edycja wag bez trenowania modelu.",
+      "19:43 - [Arete-27B] Nous Research, Qwen i dyskusja o wartościach oraz sposobie mierzenia odpowiedzi.",
+      "21:37 - [Koszt kontekstu] Claude Code, subagenci i historia zastępowania pełnej konwersacji podsumowaniami.",
+      "24:30 - [Generowanie okładek] ChatGPT Images i nasze doświadczenia z jakością obrazów.",
+      "26:03 - [GitHub Universe] Stackowanie i linkowanie pull requestów oraz drobne usprawnienia workflow.",
+      "27:01 - [Copilot Fusion] Standard, High, Max i nasze doświadczenia z automatycznym doborem modeli.",
+      "32:37 - [Cena pracy z AI] Dlaczego dobre narzędzie nie zawsze jest naszym pierwszym wyborem do zakupu.",
+      "35:11 - [Bezpieczeństwo i enterprise] Wykrywanie podatności, sekretów i kierunek rozwoju GitHuba.",
+      "36:09 - [Terminal kontra okienka] Aplikacje desktopowe agentów i żal za konsolowym workflow.",
+      "39:14 - [Zdalne środowisko] Sesje Codexa, własne MCP i ograniczenia pracy na wielu maszynach.",
+      "41:56 - [Zakończenie] Podziękowania za rocznicowe torty, komentarze i konferencyjne plany."
+    ],
+    "tags": [
+      "betterdevclub",
+      "ai",
+      "Duolingo",
+      "SaaS",
+      "weight-space-programming",
+      "Qwen",
+      "Nous Research",
+      "Arete-27B",
+      "Claude Code",
+      "GitHub Copilot",
+      "Copilot Fusion",
+      "GitHub Universe",
+      "agenci-ai",
+      "terminal",
+      "Codex"
+    ],
+    "platforms": {
+      "youtube": "",
+      "spotify": "",
+      "apple": ""
+    },
+    "resources": [
+      {
+        "type": "link",
+        "url": "https://investors.duolingo.com",
+        "label": "Duolingo — relacje inwestorskie",
+        "description": "Oficjalne materiały finansowe do rozmowy o wynikach i aktywnych użytkownikach aplikacji."
+      },
+      {
+        "type": "link",
+        "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+        "label": "Sparks of Weight-Space Programming",
+        "description": "Oryginalny opis eksperymentów MIT CSAIL z Astrą i Qwen3.5-0.8B; źródło dokładnych wyników i zakresu edycji wag, przytaczanych w rozmowie z pamięci."
+      },
+      {
+        "type": "link",
+        "url": "https://huggingface.co/NousResearch/Arete-27B",
+        "label": "Nous Research — Arete-27B",
+        "description": "Karta modelu opartego na Qwen3.8-27B, opis dostrajania i wyniki ewaluacji podawane przez twórców."
+      },
+      {
+        "type": "link",
+        "url": "https://claude.com/product/claude-code",
+        "label": "Claude Code — Anthropic",
+        "description": "Oficjalna strona narzędzia omawianego przy subagentach, kosztach i pracy z terminala."
+      },
+      {
+        "type": "link",
+        "url": "https://docs.github.com/en/copilot/concepts/models/copilot-fusion",
+        "label": "GitHub Copilot Fusion",
+        "description": "Dokumentacja automatycznego doboru modeli i sposobów wykonania zadań; doświadczenia cenowe z odcinka dotyczą momentu nagrania."
+      },
+      {
+        "type": "link",
+        "url": "https://github.com/openai/codex",
+        "label": "Codex — OpenAI",
+        "description": "Oficjalne repozytorium i dokumentacja agenta wspomnianego przy pracy lokalnej i zdalnej."
+      }
+    ],
+    "youtubeId": ""
+  },
+  {
     "id": 45,
     "num": "45",
     "notPublished": true,

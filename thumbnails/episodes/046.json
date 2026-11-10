@@ -1,0 +1,21 @@
+{
+  "episode": 46,
+  "fontSize": 80,
+  "headTop": 170,
+  "eyeOffset": 110,
+  "headCenters": { "left": 130, "right": 1150 },
+  "titleTop": 125,
+  "titleWidth": 660,
+  "grayscale": true,
+  "people": {
+    "left": "piotrek-03-lewo",
+    "right": "kajetan-03-lewo"
+  },
+  "lines": [
+    { "text": "DZIWNY TYDZIEŃ AI 🤖", "color": "primary", "fontSize": 56, "gapAfter": 18 },
+    { "text": "DUOLINGO 📈", "color": "text" },
+    { "text": "NVIDIA 💸", "color": "primary" },
+    { "text": "GITHUB UNIVERSE 🚀", "color": "text", "fontSize": 62 },
+    { "text": "OPERACJA NA QWENIE 🧠", "color": "highlight", "fontSize": 52 }
+  ]
+}
