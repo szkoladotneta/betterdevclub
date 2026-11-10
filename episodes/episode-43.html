@@ -986,7 +986,7 @@ W drugiej części rozmawiamy o Reverse Engineer Anything i granicach przepisywa
             const [loading, setLoading] = useState(true);
 
             useEffect(() => {
-                const version = "871cca251e";
+                const version = "e75d863902";
                 Promise.all([
                     fetch(`/episodes.json?v=${version}`).then(res => res.json()),
                     fetch(`/speakers.json?v=${version}`).then(res => res.json())
