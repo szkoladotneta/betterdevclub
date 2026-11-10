@@ -1,5 +1,11 @@
+---
 name: youtube-shorts
 description: 'Generate dynamic YouTube Shorts scripts. Heavy focus. Practical value. No fluff. Actionable code or engineering truth.'
+---
+
+# YouTube Shorts
+
+```yaml
 context:
   channel: Better Dev Club
   target_audience: Experienced developers, IT professionals
@@ -45,3 +51,4 @@ procedure:
   2: Pick Value Engine path.
   3: Write script. Use dev slang. No marketing words.
   4: Output chosen path, 3 titles, script, metadata.
+```

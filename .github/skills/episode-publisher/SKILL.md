@@ -1,6 +1,7 @@
 ---
 name: episode-publisher
-description: Kompleksowy workflow publikacji nowego odcinka podcastu Better Dev Club. Wykonuje po kolei: 1) korektę transkrypcji (nazwy własne, tech stack), 2) dodanie wpisu do episodes.json (tytuł, agenda, opis, tagi, resources), 3) propozycje tekstów na miniaturkę YouTube (konkretne + ogólne motywy). Używaj, gdy użytkownik prosi o przygotowanie, obrobienie, publikację odcinka lub przetworzenie nowej transkrypcji.
+description: >-
+  Kompleksowy workflow publikacji nowego odcinka podcastu Better Dev Club. Wykonuje po kolei: 1) korektę transkrypcji (nazwy własne, tech stack), 2) dodanie wpisu do episodes.json (tytuł, agenda, opis, tagi, resources), 3) propozycje tekstów na miniaturkę YouTube (konkretne + ogólne motywy). Używaj, gdy użytkownik prosi o przygotowanie, obrobienie, publikację odcinka lub przetworzenie nowej transkrypcji.
 ---
 
 # Workflow Publikacji Nowego Odcinka (Better Dev Club)
