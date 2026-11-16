@@ -2,7 +2,6 @@
   {
     "id": 46,
     "num": "46",
-    "notPublished": true,
     "title": "Better Dev Club #46 - AI naprawia AI, Duolingo rośnie, Copilot kosztuje",
     "date": "2026-11-12",
     "duration": "43:32",
@@ -44,9 +43,9 @@
       "Codex"
     ],
     "platforms": {
-      "youtube": "",
-      "spotify": "",
-      "apple": ""
+      "youtube": "https://youtu.be/CHlVshjmAfw",
+      "spotify": "https://open.spotify.com/episode/7fqobrChkUqUDKdSPVbFgT?si=5LFQ4R7dSq-ywGSAHZ8FwQ",
+      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club-46-ai-naprawia-ai-duolingo-ro%C5%9Bnie-copilot/id1848840540?i=1000801382376"
     },
     "resources": [
       {
@@ -86,12 +85,11 @@
         "description": "Oficjalne repozytorium i dokumentacja agenta wspomnianego przy pracy lokalnej i zdalnej."
       }
     ],
-    "youtubeId": ""
+    "youtubeId": "CHlVshjmAfw"
   },
   {
     "id": 45,
     "num": "45",
-    "notPublished": true,
     "title": "Open source umiera? Nie tak szybko | Better Dev Club #45",
     "date": "2026-11-05",
     "duration": "37:45",
@@ -123,9 +121,9 @@
       "utrzymanie-oprogramowania"
     ],
     "platforms": {
-      "youtube": "",
-      "spotify": "",
-      "apple": ""
+      "youtube": "https://youtu.be/RNxmJalGsxQ",
+      "spotify": "https://open.spotify.com/episode/155wdXD9M39qWYcd1xKI8q?si=a4abbefb88d0462e",
+      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club-45-open-source-umiera-nie-tak-szybko/id1848840540?i=1000799971743"
     },
     "resources": [
       {
@@ -183,7 +181,7 @@
         "description": "Oficjalny wpis o eksperymentalnej obsłudze Wine/Linux i możliwym działaniu na Macu."
       }
     ],
-    "youtubeId": ""
+    "youtubeId": "RNxmJalGsxQ"
   },
   {
     "id": 44,
