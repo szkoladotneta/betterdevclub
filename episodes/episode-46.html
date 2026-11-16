@@ -15,7 +15,7 @@ Jest też historia ograniczania zużycia tokenów przez subagentów, generowanie
     <meta property="og:description" content="AI miało zastąpić aplikacje, a Duolingo wciąż daje powody do dyskusji o tym, za co naprawdę płacą użytkownicy. Piotrek Stapp i Kajetan Duszyński rozmawiają o sile nawyku, gotowych materiałach do nauki i granicach samodzielnego budowania tutora z AI. Potem przyglądają się Weight-Space Programming — eksperymentom z bezpośrednią edycją wag sieci przez inny model — oraz Arete-27B od Nous Research i deklarowanym przez twórców zmianom w odpowiedziach modelu.
 
 Jest też historia ograniczania zużycia tokenów przez subagentów, generowanie okładek i przegląd nowości z GitHub Universe. Porównujemy własne doświadczenia z Copilot Fusion: Standard, High i Max, dobór modeli oraz cenę codziennej pracy. Na koniec rozmawiamy o bezpieczeństwie, powrocie agentów z terminala do aplikacji okienkowych i tym, dlaczego zdalny dostęp do sesji to jeszcze nie całe środowisko deweloperskie. Wolicie terminal czy okienka — i co musiałoby się zmienić, żebyście zmienili narzędzie?">
-    
+    <meta property="og:image" content="https://i.ytimg.com/vi/CHlVshjmAfw/maxresdefault.jpg">
     <link rel="shortcut icon" href="../img/favicon-32x32.png" type="image/png">
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Noto+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
@@ -986,7 +986,7 @@ Jest też historia ograniczania zużycia tokenów przez subagentów, generowanie
             const [loading, setLoading] = useState(true);
 
             useEffect(() => {
-                const version = "e75d863902";
+                const version = "b7e3af21de";
                 Promise.all([
                     fetch(`/episodes.json?v=${version}`).then(res => res.json()),
                     fetch(`/speakers.json?v=${version}`).then(res => res.json())

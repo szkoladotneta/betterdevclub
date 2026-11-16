@@ -15,7 +15,7 @@ Przechodzimy też od gier przenoszonych do przeglądarki i alternatyw dla Photos
     <meta property="og:description" content="Czy AI naprawdę zabija open source, czy pod jedną etykietą wrzucamy zupełnie różne historie? Piotrek Stapp i Kajetan Duszyński rozmawiają o Deno i Cloudflare, zmianach w Cal.com oraz końcu utrzymania Pico CSS. Rozdzielają przejęcie zespołu, argumenty bezpieczeństwa i zwykłe starzenie się bibliotek — bez uznawania każdego z tych przypadków za dowód na tę samą tezę.
 
 Przechodzimy też od gier przenoszonych do przeglądarki i alternatyw dla Photoshopa do praktycznego pytania: skoro możesz odtworzyć aplikację z pomocą AI, czy naprawdę chcesz to zrobić zamiast za nią zapłacić? Jest własny przykład Kajetana z kalendarzem konsultacji, dyskusja o odpowiedzialności za utrzymanie i bezpieczeństwo oraz pytanie do maintainerów. Na końcu świętujemy rok Better Dev Club — zostawcie tort w komentarzu! 🎂">
-    
+    <meta property="og:image" content="https://i.ytimg.com/vi/RNxmJalGsxQ/maxresdefault.jpg">
     <link rel="shortcut icon" href="../img/favicon-32x32.png" type="image/png">
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Noto+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
@@ -986,7 +986,7 @@ Przechodzimy też od gier przenoszonych do przeglądarki i alternatyw dla Photos
             const [loading, setLoading] = useState(true);
 
             useEffect(() => {
-                const version = "e75d863902";
+                const version = "b7e3af21de";
                 Promise.all([
                     fetch(`/episodes.json?v=${version}`).then(res => res.json()),
                     fetch(`/speakers.json?v=${version}`).then(res => res.json())
