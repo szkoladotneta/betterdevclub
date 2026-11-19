@@ -91,6 +91,16 @@ INŻYNIERII? 🛠️
 9. **44:50 — C# / Rust.** „raz” poprawiono kontekstowo na „Rust”; sprawdzić w audio. Nie jest to stwierdzenie, że Rust nie ma kosztów zarządzania pamięcią, tylko żart rozmówców o garbage collectorze.
 10. **Data i publikacja.** Zatwierdzić datę, tytuł, odsłuchane rozdziały i linki platform przed zmianą `notPublished`.
 
+## Wynik sprawdzenia źródeł
+
+Pełny raport: `047-factcheck.md`. Nie zmieniano liczb ani sensu wypowiedzi w transkrypcji.
+
+- **Microsoft:** raporty podają 228 tys. na 30.06.2025 oraz 223 tys. na 30.06.2026, czyli około −2.19%. To porównanie dat fiskalnych, nie „od początku roku”. Dane o 250 tys., programie 40 tys. i przepływach 60 tys./60 tys. pozostają niepotwierdzone. Zerowa zmiana netto nie oznacza braku zwolnień.
+- **Proponowane sprostowanie do zatwierdzenia:** „Doprecyzowanie liczb Microsoftu: na koniec czerwca 2025 firma raportowała około 228 tys. pracowników, a rok później 223 tys., czyli o około 2.2% mniej. To stany zatrudnienia na daty fiskalne, nie liczba zwolnień i rekrutacji. Nie mamy potwierdzenia przytoczonych 40 tys. oraz 60 tys./60 tys.; z tych danych nie wynika też brak zwolnień w całym IT.” Nie dopisywać tego tekstu do transkrypcji jako słów z nagrania.
+- **Anthropic:** oficjalnie ustalona cena IPO 83 USD; oczekiwany początek notowań 19.11.2026 pod tickerem ANT, zamknięcie oferty oczekiwane 20.11.2026. Komunikat nie dowodzi rozpoczęcia handlu ani zarobku inwestorów. Motywy działań konkurencji i przyszłe ceny abonamentów pozostają opinią/prognozą.
+- **GTA VI:** oficjalna strona potwierdza zapowiedzianą datę 19.11.2026, ale nadal używa „Coming” i „Pre-Order”; sam ten widok nie potwierdza rozpoczętej sprzedaży ani premiery o północy.
+- **Argon/Carbon:** oficjalny katalog przypisuje te modele do Google Gemini, nie Microsoftu. Nie poprawiano po cichu wypowiedzi rozmówców; potrzebne odsłuchanie i decyzja o sprostowaniu. Fable i Astra mają potwierdzone nazwy, ale niewyraźnych „Trussev/Stav” nie rozwijano na zgadywane produkty.
+
 ## Dodatkowe rolki nagrywane osobno
 
 Nie przygotowano fikcyjnych tematów z #znaleziska: ta sesja nie ma dostępu do historii kanału. Po otrzymaniu linków można dobrać 2–3 odrębne pomysły. Poniżej są wyłącznie fragmenty rzeczywiście obecne w odcinku.
