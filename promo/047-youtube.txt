@@ -1,0 +1,31 @@
+Czego się uczyć, gdy AI pisze kod? | Better Dev Club #47
+
+W co zainwestować tysiąc godzin nauki, kiedy AI przejmuje coraz więcej pisania kodu? Piotrek Stapp i Kajetan Duszyński wreszcie odpowiadają na pytanie, które wcześniej zadawali gościom. Rozmawiają o poszerzaniu kompetencji poza własną specjalizację: od sieci, danych i wdrożeń po Team Topologies. Rozdzielają karierę w IT od samego kodowania i pytają, co dzisiaj oznacza rozwiązywanie problemów zamiast przywiązania do kodu.
+
+Nie zgadzamy się we wszystkim: czy architektura wciąż daje przewagę nad AI i ile można nauczyć się z książek, a ile dopiero z doświadczenia? Piotrek przywołuje przykład zbędnego throttlingu w serwerze MCP; Kajetan opowiada, jak rozmowa rekrutacyjna skłoniła go do poznania SOLID. Jest też dyskusja o stresie podczas rekrutacji, projektach poza pracą i różnicy między dziesięcioma latami doświadczenia a jednym rokiem powtórzonym dziesięć razy. Bez obietnicy jednej bezpiecznej ścieżki kariery i bez obowiązku budowania marki osobistej. W co Wy zainwestowalibyście dziś tysiąc godzin nauki?
+
+ROZDZIAŁY
+00:00 [Otwarcie i GTA VI] Gry, agenci i luźny początek rozmowy.
+02:14 [IPO i modele AI] Komentarze do rynku, cen narzędzi i konkurencji między dostawcami.
+06:42 [Tysiąc godzin nauki] Pytanie do gości wraca do prowadzących: w co inwestować czas?
+09:06 [Więcej niż specjalizacja] Kompetencje T-shaped i szersze rozumienie systemu.
+10:54 [Dane, wdrożenia i sieci] Dlaczego data engineer i frontendowiec potrzebują wiedzy spoza swojej działki.
+13:32 [Team Topologies] Organizacja zespołów też jest częścią warsztatu inżyniera.
+15:08 [Czy warto zaczynać w IT?] Juniorzy, sytuacja na rynku i rozmowa o liczbach zatrudnienia.
+18:46 [Kariera to nie stanowisko] Individual contributor, zarządzanie i przechodzenie między rolami.
+23:51 [Rozwiązywanie problemów] Trudność z odejściem od myślenia wyłącznie o kodzie.
+28:01 [Architektura kontra AI] Czy koszt i skala systemu nadal wymagają ludzkiego osądu?
+31:07 [Kontekst i zbędny throttling] Przykład Piotrka z serwerem MCP i pytaniem o potrzebę dodatkowej złożoności.
+33:05 [Doświadczenie i podstawy] Czego uczą praktyka, sieci, pamięć i działanie systemu pod spodem.
+36:42 [Stres na rekrutacji] Kodowanie pod obserwacją a sposób myślenia i podejście do problemów.
+38:47 [Książki czy praktyka?] Różne sposoby zdobywania wiedzy i poznawania rozwiązań.
+41:10 [Rekrutacja jako nauka] SOLID, informacja zwrotna i umiejętność przedstawienia własnych kompetencji.
+42:24 [Projekty i rozwój] Dziesięć lat doświadczenia czy rok powtórzony dziesięć razy?
+43:51 [Nie musisz budować marki] Własna droga rozwoju bez obowiązku publikowania w internecie.
+45:12 [Zakończenie] Jeszcze jedna różnica zdań i zaproszenie na kolejny odcinek.
+
+MATERIAŁY
+Team Topologies: https://teamtopologies.com/
+Garbage collection w .NET — podstawy: https://learn.microsoft.com/en-us/dotnet/standard/garbage-collection/fundamentals
+
+#BetterDevClub #AI #Programowanie #KarieraIT #ArchitekturaOprogramowania

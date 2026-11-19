@@ -1,0 +1,78 @@
+{
+  "audioVerified": false,
+  "timeline": "final export; mapping in 047-transcription-audit.json",
+  "clips": [
+    {
+      "title": "Nawet rozmowa o karierze wraca nam do kodu",
+      "start": 1513.3,
+      "end": 1554.7,
+      "hook": "AI pisze kod. Dlaczego nam tak trudno przestać myśleć tylko o kodzie?",
+      "context": "Piotrek przerywa rozmowę i zauważa, że obaj znowu sprowadzili temat kariery do kodu. Kajetan przyznaje, że po latach pracy trudno zmienić ten nawyk.",
+      "cta": "W pełnym odcinku: w co zainwestować tysiąc godzin nauki.",
+      "sourceSentences": [
+        {
+          "speaker": "Piotrek Stapp",
+          "start": 1513.698,
+          "end": 1526.711,
+          "text": "Może poczekaj, czekaj, ale popatrz, nawet ty i ja w tym podcastie nagle gadamy cały czas o kodzie. Już teraz, żeśmy zjechali na kodzie, spróbowaliśmy z niego wyjść i znowu, żeśmy do niego wrócili i to jest, to jest duży problem."
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "start": 1528.162,
+          "end": 1554.56,
+          "text": "To jest duży problem, oczywiście, bo to jest to, mówisz, jest to, co znamy od 15 przynajmniej lat. Jakby wokół tego kodu kręciła się nasza kariera, teraz musi przestać się kręcić nasza kariera. Ale widzę, zaczynam widzieć, jak ludzie do tego też podchodzą, że ludzi mimo wszystko, im jest ciężko się pozbyć tego."
+        }
+      ]
+    },
+    {
+      "title": "SOLID poznałem po nieudanej rekrutacji",
+      "start": 2470.0,
+      "end": 2511.6,
+      "hook": "Nie zdałeś rozmowy? To może być konkretna wskazówka, czego się nauczyć.",
+      "context": "Kajetan podaje własny przykład; Piotrek dopowiada z humorem i poleca od czasu do czasu sprawdzić się na rynku. Zweryfikować niezrozumiały koniec zdania o trawie; można zakończyć po „proces rekrutacyjny”, po odsłuchu.",
+      "cta": "W pełnym odcinku porównujemy naukę z książek, praktykę i rekrutację.",
+      "sourceSentences": [
+        {
+          "speaker": "Kajetan Duszyński",
+          "start": 2470.306,
+          "end": 2483.6139999999996,
+          "text": "Chciałbym, żeby tak było. Tak, głównie z rozmów rekrutacyjnych. Za pierwszym razem na SOLID-zie odpadłem z rozmowy rekrutacyjnej, to musiałem doczytać, żeby być przygotowanym na kolejną. Ale to też jest jakieś rozwiązanie."
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "start": 2480.578,
+          "end": 2503.584,
+          "text": "No okej, czyli twoim sposobem nauki jest rozmowa rekrutacyjna, Czy jak gdyby jak widzicie, jak chcecie, uczycie, jak Kajetan, zapisujecie się na jak największą liczbę rozmów kwalifikacyjnych i odpadacie, Znaczy, że była jasna rozmowa kwalifikacyjna, głośna, to powiem, nadal uważam, że jest bardzo wartościowym elementem rozwoju kariery i wypada raz na jakiś czas."
+        },
+        {
+          "speaker": "Piotrek Stapp",
+          "start": 2504.642,
+          "end": 2511.366,
+          "text": "i pójść na jakiś proces rekrutacyjny, nawet tylko po to, żeby dowiedzieć się, że trawa u innych jest tak samo szara, jak umarła."
+        }
+      ]
+    },
+    {
+      "title": "10 lat doświadczenia czy rok powtórzony 10 razy?",
+      "start": 2572.9,
+      "end": 2631.4,
+      "hook": "Dziesięć lat w jednej firmie to jeszcze nie dowód, że cały czas się rozwijasz.",
+      "context": "Kajetan mówi o ryzyku pracy przez lata w jednym projekcie. Zostawić zastrzeżenie, że nie chodzi o obowiązkową obecność w internecie.",
+      "cta": "Co ostatnio zbudowałeś albo rozwiązałeś pierwszy raz? Cała rozmowa w Better Dev Club #47.",
+      "sourceSentences": [
+        {
+          "speaker": "Kajetan Duszyński",
+          "start": 2573.186,
+          "end": 2602.1820000000002,
+          "text": "Pamiętaj, że pomimo tego jak zmienia się i a może właśnie w związku z tym jak zmienia się całe środowisko teraz nasze, to, że pracujesz w jednej firmie przy jednym projekcie już któryś rok, to może cię zaboleć bardziej niż bolało kiedyś. Bo ja też będę zawsze powtarzał właśnie czy ludzie mają 10 lat doświadczenia, czy rok doświadczenia powtórzony 10 razy."
+        },
+        {
+          "speaker": "Kajetan Duszyński",
+          "start": 2602.69,
+          "end": 2631.25,
+          "text": "i taki rok doświadczenia powtórzony jedenasty raz w tym roku może zawoleć zdecydowanie bardziej niż bolał jeszcze 5 czy 7 lat temu. Dlatego rozwiązuj problemy i twórz swoje rzeczy, bo zastanawiałem się jak się umawialiśmy na ten podcast i na ten odcinek, czy mówić na temat budowania swojej marki, jakby tej widoczności w sieci, to absolutnie nie jest potrzebne."
+        }
+      ]
+    }
+  ]
+}
