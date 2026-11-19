@@ -1,0 +1,330 @@
+{
+  "episode": 47,
+  "sourceTitle": "Better Dev Club #47 - final",
+  "clipId": "6afeeb177b03e227ce7bbefa",
+  "rstlEditId": "6afee8d6c4b8cb270526b1b2",
+  "rstlRevision": 21,
+  "timebase": 18018000,
+  "transcriptionSource": "session ASR; composed recording transcription/json returned 404",
+  "audioVerified": false,
+  "ffprobeDurationSeconds": 2728.092993,
+  "timelineDurationBeforeCutsSeconds": 2733.1666666666665,
+  "syncedCutsSeconds": [
+    {
+      "start": 0.0,
+      "end": 1.5
+    },
+    {
+      "start": 3.368,
+      "end": 4.654
+    },
+    {
+      "start": 12.836,
+      "end": 15.118
+    }
+  ],
+  "mappedDurationSeconds": 2728.0986666666663,
+  "speakerOffsetsMs": {
+    "Kajetan": 46,
+    "Piotrek Stapp": 0
+  },
+  "mapping": "rawMs/1000 - speaker.offset/1000, then subtract elapsed syncedCuts; source and track times identical in all recording clips; do not subtract first ASR word",
+  "recordingClips": [
+    {
+      "speaker": "Kajetan",
+      "clips": [
+        {
+          "timeRange": {
+            "start": 0,
+            "duration": 27027000
+          },
+          "trackTime": 0,
+          "cuts": []
+        },
+        {
+          "timeRange": {
+            "start": 27027000,
+            "duration": 49219170000
+          },
+          "trackTime": 27027000,
+          "cuts": []
+        }
+      ]
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "clips": [
+        {
+          "timeRange": {
+            "start": 0,
+            "duration": 27027000
+          },
+          "trackTime": 0,
+          "cuts": []
+        },
+        {
+          "timeRange": {
+            "start": 27027000,
+            "duration": 49219170000
+          },
+          "trackTime": 27027000,
+          "cuts": []
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Overlay image does not change audio time.",
+    "Per-track magic mutes not used as global transcript cuts.",
+    "Words outside timeline removed; timestamps floored to seconds.",
+    "Sentence ordering can interleave overlapping speech.",
+    "Model names and unclear phrases remain for listening; claims not silently corrected."
+  ],
+  "corrections": [
+    {
+      "time": "02:06",
+      "speaker": "Piotrek Stapp",
+      "from": "Antropik",
+      "to": "Anthropic",
+      "count": 1
+    },
+    {
+      "time": "02:55",
+      "speaker": "Piotrek Stapp",
+      "from": "Facebookie",
+      "to": "Facebooku",
+      "count": 1
+    },
+    {
+      "time": "03:15",
+      "speaker": "Piotrek Stapp",
+      "from": "aktowany jak trendowaty",
+      "to": "traktowany jak trędowaty",
+      "count": 1
+    },
+    {
+      "time": "04:15",
+      "speaker": "Piotrek Stapp",
+      "from": "Grog chyba",
+      "to": "Grok chyba",
+      "count": 1
+    },
+    {
+      "time": "04:30",
+      "speaker": "Kajetan Duszyński",
+      "from": "Antropica",
+      "to": "Anthropic",
+      "count": 1
+    },
+    {
+      "time": "05:29",
+      "speaker": "Kajetan Duszyński",
+      "from": "Antropica",
+      "to": "Anthropic",
+      "count": 1
+    },
+    {
+      "time": "06:12",
+      "speaker": "Piotrek Stapp",
+      "from": "Posiednio to może",
+      "to": "Pośrednio to może",
+      "count": 1
+    },
+    {
+      "time": "09:06",
+      "speaker": "Piotrek Stapp",
+      "from": "T-Shape Inżynier",
+      "to": "T-shaped engineer",
+      "count": 1
+    },
+    {
+      "time": "12:11",
+      "speaker": "Piotrek Stapp",
+      "from": "dotneta",
+      "to": " .NET-a",
+      "count": 1
+    },
+    {
+      "time": "12:11",
+      "speaker": "Piotrek Stapp",
+      "from": "node.js",
+      "to": "Node.js",
+      "count": 1
+    },
+    {
+      "time": "13:32",
+      "speaker": "Piotrek Stapp",
+      "from": "team topologis",
+      "to": "Team Topologies",
+      "count": 4
+    },
+    {
+      "time": "14:11",
+      "speaker": "Piotrek Stapp",
+      "from": "LLMA",
+      "to": "LLM-a",
+      "count": 1
+    },
+    {
+      "time": "14:42",
+      "speaker": "Piotrek Stapp",
+      "from": "git puszczy do domu",
+      "to": "git push i do domu",
+      "count": 1
+    },
+    {
+      "time": "25:13",
+      "speaker": "Piotrek Stapp",
+      "from": "Kodzie",
+      "to": "kodzie",
+      "count": 1
+    },
+    {
+      "time": "25:13",
+      "speaker": "Piotrek Stapp",
+      "from": "Kodnie",
+      "to": "kodzie",
+      "count": 1
+    },
+    {
+      "time": "25:28",
+      "speaker": "Kajetan Duszyński",
+      "from": "koduk",
+      "to": "kodu",
+      "count": 1
+    },
+    {
+      "time": "31:07",
+      "speaker": "Piotrek Stapp",
+      "from": "Kontekst Inżynierii",
+      "to": "context engineering",
+      "count": 1
+    },
+    {
+      "time": "34:18",
+      "speaker": "Piotrek Stapp",
+      "from": "IOU",
+      "to": "I/O",
+      "count": 1
+    },
+    {
+      "time": "34:18",
+      "speaker": "Piotrek Stapp",
+      "from": "ramie",
+      "to": "RAM-ie",
+      "count": 1
+    },
+    {
+      "time": "34:46",
+      "speaker": "Piotrek Stapp",
+      "from": "dotneta",
+      "to": " .NET-a",
+      "count": 1
+    },
+    {
+      "time": "34:46",
+      "speaker": "Piotrek Stapp",
+      "from": "na jawel",
+      "to": "na Javę",
+      "count": 1
+    },
+    {
+      "time": "35:42",
+      "speaker": "Piotrek Stapp",
+      "from": "Wipecoder",
+      "to": "Vibe coder",
+      "count": 1
+    },
+    {
+      "time": "35:42",
+      "speaker": "Piotrek Stapp",
+      "from": "inżynierom oprogramowania",
+      "to": "inżynierem oprogramowania",
+      "count": 1
+    },
+    {
+      "time": "36:42",
+      "speaker": "Piotrek Stapp",
+      "from": "pod stressem",
+      "to": "pod stresem",
+      "count": 1
+    },
+    {
+      "time": "36:59",
+      "speaker": "Piotrek Stapp",
+      "from": "na kolach",
+      "to": "na callach",
+      "count": 1
+    },
+    {
+      "time": "37:50",
+      "speaker": "Piotrek Stapp",
+      "from": "kord twojej roboty",
+      "to": "core twojej roboty",
+      "count": 1
+    },
+    {
+      "time": "40:23",
+      "speaker": "Piotrek Stapp",
+      "from": "solida",
+      "to": "SOLID-a",
+      "count": 1
+    },
+    {
+      "time": "40:53",
+      "speaker": "Piotrek Stapp",
+      "from": "Solid",
+      "to": "SOLID",
+      "count": 2
+    },
+    {
+      "time": "41:10",
+      "speaker": "Kajetan Duszyński",
+      "from": "Solidzie",
+      "to": "SOLID-zie",
+      "count": 1
+    },
+    {
+      "time": "41:20",
+      "speaker": "Piotrek Stapp",
+      "from": "kajetam",
+      "to": "Kajetan",
+      "count": 1
+    },
+    {
+      "time": "41:53",
+      "speaker": "Kajetan Duszyński",
+      "from": "skile",
+      "to": "skille",
+      "count": 2
+    },
+    {
+      "time": "44:20",
+      "speaker": "Kajetan Duszyński",
+      "from": "garbycz kolektorem",
+      "to": "garbage collectorem",
+      "count": 1
+    },
+    {
+      "time": "44:50",
+      "speaker": "Kajetan Duszyński",
+      "from": "C-Sharpa",
+      "to": "C#",
+      "count": 1
+    },
+    {
+      "time": "44:50",
+      "speaker": "Kajetan Duszyński",
+      "from": "tylko raz, a",
+      "to": "tylko Rust, a",
+      "count": 1
+    },
+    {
+      "time": "45:12",
+      "speaker": "Piotrek Stapp",
+      "from": "z karetanem",
+      "to": "z Kajetanem",
+      "count": 1
+    }
+  ]
+}

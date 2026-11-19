@@ -1,0 +1,734 @@
+{
+  "transcript": [
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:00",
+      "text": "Cześć Piotrek!"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:01",
+      "text": "Czekaj, tak?"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:01",
+      "text": "Piotrek, wiesz dlaczego nikt nas dzisiaj nie słucha?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:04",
+      "text": "No wiem, bo nie wiem co ja tu robię, bo po 13 latach wreszcie gra wyszła na świat."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:10",
+      "text": "Dzień dobry wszystkim. jednak nas słuchacie, tak jest dzisiaj, a właściwie wczoraj, jak to już słuchacie, a nie wiem kiedy opublikujemy, czy w czwartek, czy w piątek, w każdym razie w czwartek była premiera GTA 6, najgorętsza premiera tego roku, a właściwie ostatnich 13 lat, jeśli chodzi o gaming prawdopodobnie, bo jest to pierwsza tak duża premiera od kiedy wyszło GTA V."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:16",
+      "text": "No to tak."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "00:38",
+      "text": "A przynajmniej tak duża premiera GTA oczywiście. I co? No i my z jakiegoś powodu nie gramy. Znaczy ja znam powód. Ja znam powód, ja już nie jestem chyba... Jestem za stary na to, wysiedzieć ileś godzin przy grach. I bardzo podziwiam ludzi. Podziwiam? Nie wiem, czy to dobre słowo. Ale jestem za każdym razem mocno zaskoczony jak ludzie w moim czy w naszym wieku."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "01:07",
+      "text": "jeszcze są w stanie północy siedzieć i grać w bo niezwykle gry nudzą po... No bo o północy... No bo o..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "01:12",
+      "text": "Do czego północy? Co będzie się... No sara, no agenci pracują... A, w tym sensie tak. Już myślałem, że nie będziesz w ogóle grał, ten, ja już chciałem powiedzieć, że agenci pracują, no to graz, no ten przecież nie..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "01:19",
+      "text": "No bo o północy była premiera, nie? No to musieli do rana grać."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "01:34",
+      "text": "Ale tak, właściwie z drugiej strony to jest idealny moment na to, jesteśmy... To jest idealny czas na to, żeby grać, bo w końcu przynajmniej deweloperzy, nie wiem jak w innych branżach, nie muszą brać L4 albo jakiegoś dnia na żądanie po to, żeby ograć sobie gierkę, bo po prostu idziesz do swojego agenta, mówisz, słuchaj, tu jest sprint, tu jesteś ty, a ja jestem w drugim pokoju i cisnę. Widzimy się za dwa tygodnie, nara."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "02:06",
+      "text": "A kasa leci sama bo Anthropic ma IPO i albo właśnie zarobiłeś wszystko albo przegrałeś wszystkie pieniądze ale lekarz na tym."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "02:06",
+      "text": "I wszystko się piekło."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "02:14",
+      "text": "No właśnie, to jest też ciekawe. W końcu się doczekaliśmy tego IPO. W końcu wejdą na tą giełdę i ja jestem, muszę przyznać, bardzo ciekawy tego, co się będzie właśnie w najbliższych, i to już powtarzam od wielu miesięcy, jestem bardzo ciekawy, co się będzie działo w najbliższych miesiącach, jeśli chodzi o ceny."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "02:37",
+      "text": "subskrypcji, oceny najróżniejszych innych rzeczy. Prawdopodobnie jeszcze w tej chwili nic się nie zmieni, jeszcze przez jakiś czas, no ale wyjście na giełdę powoduje pewne zmiany, musi spowodować pewne zmiany."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "02:55",
+      "text": "Ja tam się śmieję, ostatnio trafił do mnie taki post na jakiś tam cyklu dziwnej grupie, jest taka dziwna grupa na Facebooku, a problemy w polskiej branży IT. Nie pytaj mnie dlaczego na niej jestem, ale jakoś..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "03:11",
+      "text": "Ja też na niej jestem, ale przestałem ją obserwować i nie boję się tam chodzić już."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "03:15",
+      "text": "No nie ważne. I tam mi się coś trafiło, że my to w IT to jesteśmy idiotami. sensie, jak gdyby tak nie ten, lekarze to jak któryś lekarz by już wyleci z jakimś takim po prostu szacher-macher, że nagle zarabia na trzech etatach na raz i coś tam mu to udowodniał, to wszyscy lekarze, uuu, trzeba podpisywać petycy. A u nas, jak ktoś wylatuje z pracy, to po prostu jest traktowany jak trędowaty. Więc może coś w tym jest, że może to kwestia naszego podejścia do wszechświata. Ale..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "03:46",
+      "text": "W związku z tym i takim podejściem OpenAI dało radę wypuścić w tym tygodniu nowe modele, które pokazują, że są ojej, trochę lepsze w rankingach. Microsoft wypuścił ogóle całą gramę nowych modeli. Ojej, wcale nie jesteśmy tak, znaczy może nie jesteśmy tak super dobrze, ale nie jesteśmy aż tak bardziej słabi, w rankingach jesteśmy dość wysoko, a jesteśmy dużo tańsi."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "04:15",
+      "text": "Grok chyba nie wypuścił, a Google dopiero co wypuścił naprawdę te frontierowe modele i pokazuje, a my jesteśmy ok, też jesteśmy trochę słabsi w tych rankingach, chociaż na początku byliśmy bardzo wysoko, ale jesteśmy dużo tańsi."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "04:30",
+      "text": "i Microsoft jeszcze nie zapominajmy o tym, cały czas mówi, może jesteśmy ciut słabsi, jesteśmy tańsi, ale u nas masz kontrolę, masz realną kontrolę nad tym, co się dzieje i jesteś w stanie bezpiecznie pracować, a w przypadku Anthropic to nigdy nie wiadomo. No dzieje się, dzieje się bardzo ciekawie, jakby to na pewno nie są przypadki, umówmy się, to nie są przypadki, jakby..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "05:00",
+      "text": "Wiele osób mówi, no tam akurat się coś... Nie, to było bardzo celowe zagranie od wszystkich firm, żeby właśnie w tym tygodniu takie rzeczy opublikować. No bo jednak trzeba trochę podkopać to IPO, trzeba trochę podkopać tą wycenę i trzeba trochę podkopać to wszystko, jak to będzie wyglądało w najbliższych tygodniach. No i jakby nie patrzeć na samym IPO, też można sobie pojechać trochę, jeśli chodzi..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "05:29",
+      "text": "jeśli chodzi o marketing, bo przejechać się na tej fali też myślę, że wszystkie inne firmy bardzo chętnie robią. I ja powiem Ci tak, jakby IPO Anthropic z całego tego tygodnia właściwie najmniej mnie obejrzył."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "05:45",
+      "text": "Za tydzień będziemy o tym gadać, za tydzień będziemy o tym gadać, bo będziemy wiedzieć jakie są skutki. To chyba za tydzień będzie albo będziemy płakać wycierając się pieniędzmi. Dobra, zaraz to nie jest żadna porada inwestycyjna. Mówiąc szczerze sam chyba nie do końca się zorientowałem, mam inne rzeczy na głowie, więc chyba nawet sam nie zainteresowałem."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "05:51",
+      "text": "Tak, zgadza się."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "05:57",
+      "text": "hehehehe"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "06:00",
+      "text": "Jest... no... wąt..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "06:12",
+      "text": "Pośrednio to może jakoś w to nawet inwestuję, ale bezpośrednio to nie dałem rady nic wykombinować ani sprawdzić, bo nie miałem w ogóle głowy po prostu do tego i pewnie moja okazja życiowa na zrywanie się multimilionerem właśnie mi przypadła. Drugi słuchacz, jak coś to polecamy w komentarzu like'a albo dislike'a w tym momencie, gdyby ile ten, zobaczymy ile like'ów będziemy mieli pod postem, to się dowiemy ile złotych, żeśmy, ile groszy na tym IPO, żeśmy co mieli."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "06:42",
+      "text": "No trudno. Po prostu będziemy musieli dziergać dalej. Ale skoro będziemy musieli dziergać dalej, to chcemy dzisiaj porozmawiać troszeczkę o tym właśnie, co zrobić, żeby być dobrym programistą, żeby być lepszym programistą w dzisiejszych czasach, żeby utrzymać się w ogóle jako programista. Tak ciężko, ciężko jest nawet powiedzieć realnie, ale tak jak mieliśmy nasze odcinki z gośćmi, to za każdym razem pytaliśmy się ich..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "06:42",
+      "text": "Dobra."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "07:12",
+      "text": "Co zainwestowaliby te 1000 godzin na naukę albo jaką mieliby poradę do młodszych kolegów i koleżanek, jeśli chodzi o dalszy rozwój. A zorientowaliśmy się, że my nigdy na to pytanie nie odpowiedzieliśmy. I Piotrek, tak jakbyś miał teraz powiedzieć, co w co byś poszedł, jakby na czym byś się skupił. No bo ty wiadomo, że już jesteś jedną nogą na emeryturze właściwie."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "07:41",
+      "text": "patrząc po brodzie. Więc tobie to już nie zależy czy stracisz. Już się szykujesz. Ja ostatnio... Do jakiej w końcu?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "07:45",
+      "text": "Jak się szykuje do następnej roboty? Proszę Cię. No pewnie. No spójrz na moją brodę, spójrz na moją brodę, noszę czerwoną kurtkę."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "07:57",
+      "text": "Teraz nadchodzi grudnia. W żniwach."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "07:57",
+      "text": "Rozumiem, rozumiem, ale... ale to jest... OK, masz mnie, ale mimo wszystko trzeba przyznać, że jest to praca bardzo sezonowa. jest, wiesz, to jakbyś tak, to musiałbyś wejść tak. Teraz czerwona kurtka, miesiąc temu musiałbyś zainwestować w zniczej chryzantemy i stanąć gdzieś pod cmentarzem. Potem..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "08:22",
+      "text": "Nie, nie, nie, bo ty też na to patrzysz. Ja inwestuję w jeden dzień w roku, no."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "08:28",
+      "text": "OK. Jak z tym IPO. Masz nadzieję, że jednego dnia zarobisz na całe życie."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "08:30",
+      "text": "To jest największy plus prac świętego Mikołaja. Dobra, dwa, no."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "08:36",
+      "text": "Nie, ale, dobra, dobra, sorry, sorry, bo ja go zrzuciłem, nie tak. Dobra, ponieważ jak zostało powiedziane, ty masz na pewno parcie na szkło, ja mam parcie na szkło, więc jak gdyby robota dalej mamy załatwioną, po prostu będziemy mieli parcie na szkło i pamiętaj, żeby dzisiaj spojrzeć z góry na wszystkich, nie tak, nie, coś to polecamy starsze odcinki i starsze komentarze. Natomiast, bez co, ja bym po pierwsze chyba..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "09:06",
+      "text": "trochę nie bym powiedział, co bym zainwestował do 1000 godzin, to bym chyba zrobił krok, stąd się powiedział, nie będę programistą. W sensie chyba doszliśmy do etapu, w którym znowu nie musisz być programistą. W sensie, że to twoje w bardzo wielu firmach, przynajmniej ostatnio słyszę T-shaped engineer, ale dla mnie to nigdy nie było..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "09:33",
+      "text": "T, bo T to znaczy, jedną tą głęboką nogę i ilość na ten. Pamiętam tu pozdrawiam Sebastiana Grębskiego z City of Morning Coffee, który kiedyś siedział, to dwa białe koło do mnie i wydaje mi się, że to on mi powiedział, że to jest raczej M, ale takie M, takie grzebieniowe, że to nie jest T, w sensie, że to jest jedna otaku."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "10:00",
+      "text": "tylko że to jest tam ileś tych, i rzeczywiście ta jedna jest dłuższa. Coś takiego, takie grzebień z tym, że potrzebujesz mieć tą szerokość. I teraz jest, i teraz jak gdyby nastala ta epoka, gdzie nie jest trudno mieć tej szerokości. W sensie, że nie mówię, że to jest łatwe, na pewno nie, ale nie jest to jakieś strasznie trudne, bo właśnie nagle się okazuje, że jak masz te tysiąc godzin..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "10:30",
+      "text": "tam 10 tysięcy godzin, to możesz dotknąć, podzielić te 10 tysięcy godzin na 10 tysiączek i właśnie posprawdzać te różne rzeczy, bo nagle się okazuje, jak nie wiem, weźmy sobie data pipeline, weźmy sobie data engineer, bardzo wąska specjalizacja."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "10:54",
+      "text": "Przerzucamy danych z jednego jeziorka do drugiego, jeziorka czyta, jak to się tam nie nazywa. Ale przy tym tak naprawdę, jak o tym pomyśl. No to jest trochę o sieci. sensie, bo trzeba to zrobić bezpiecznie, żeby te dane nam nie uciekały. Jest trochę w ogóle o DevOpsie, jak utrzymywać to, żeby to się działało, wdrażało, żebyś był pewny, że wdrażasz. Tu pozdrawiam niektórych znanych mid-air engineerów."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "11:23",
+      "text": "Włącznie z takim jednym, który kiedyś zjedzał i to wrzucimy to na pała, na peroda, a potem to się skończyło, jak się skończyło albo coś takiego, bo zrobiliśmy coś tam na szybko niby. No i to działa, wróć, to jest najgorsze. To bardzo długo działało, bardzo długo działa, aż nagle przestaje i nie wiem, więc jak gdyby zarządzanie w ogóle tą częścią, się teraz chyba bazuot nazywa MLOps."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "11:49",
+      "text": "Ale ten cały mechanizm wdrażany, ten cały mechanizm aplikacyjny, żeby trochę zrozumieć jak na przykład działa ta aplikacja i co ona może Ci za eventy produkować, żeby to nie wyglądało tak jak wygląda to z reguły, że ktoś się dopina na lewo do bazy, raz na dzień robi zrzut, mamy na tym jakieś iwanty i coś tam jeszcze, można to zrobić dzisiaj lepiej."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "12:11",
+      "text": "że nagle w związku z tym nagle nie tylko dotykasz Python czy SQL w zależności w czym tam się dzieje, tylko jeszcze powinieneś dotknąć niech będzie Java, .NET-a albo innego Node.js, bo trzeba też pomodfikować te aplikacje, żeby one dawały ci takie lock pointy jakie byś chciał. Może zacząć co bardzo wiele filmy robiło, też bardzo wiele i dużo więcej nie robiło, czyli jak gdyby taki..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "12:36",
+      "text": "data pipeline i analizę to się robią na pozdrożonej aplikacji. Były jakieś load pointy i z nich się budowało co można wyciągnąć, a tu na przykład można pójść ten krok dalej, że to ci ludzie zaczynają to projektować. Tak to powinno wyglądać jak o tym pomyślemy. Wybrałem sobie takie jedną to, jak wybierzemy front-end inżyniera, też kiedyś byłem, nie umiem design ale coś tam robiłem, to znowu jak działa ten backend."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "13:04",
+      "text": "jak działa np. DNS, bo nagle się okazuje, że nagle na front-endzie to potrafi DNS człowieka strzelić, a nie to, że przycisk się w lewo przesuną czy w prawo. Albo właśnie co oznacza, że wchodzą nowe standardy w przeglądarkach. Co oznacza performance na front-endzie, co oznacza performance na back-endzie. Więc tu jest po prostu, albo coś, co się wszystkim przyda."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "13:32",
+      "text": "Nagle coś się wszystkim przyda, czyli na przykład Team Topologies. Teraz jak jesteś juniorem, to może nie, ale jak jesteś seniorem, to teraz będzie oskarżenia twarde i nie wiesz, czym jest Team Topologies i jak działają. W sensie nie chodzi o samą koncepcję, samego Team Topologies, tylko ogólne, chociaż nie dobra. Nie wiesz w ogóle, co to jest Team Topologies i na co to wpływa."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "14:01",
+      "text": "o czym my gadamy. I to jest nagle te tysiąc, wiesz, te 10 tysięcy godzin, kiedy możesz łatwo..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "14:11",
+      "text": "zdobyć wiedzę i ją przełożyć na praktyczne rozwiązanie. Teraz nie chodzi o to, żebyś wrzucił w LLM-a, Trussev, Stav, Frontier, Model, Fable, Astra, innych chyba nie ma, tych najbardziej topowych, z Microsoftu to nie, przepraszam, jeszcze Argon, Carbon, nie pamiętam, jest teraz ten topowy, Argon, czy jakkolwiek inny i on ma ci zrobić to robocę, tylko ty musisz umieć ją potem przeczytać."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "14:33",
+      "text": "Argon. Chyba."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "14:42",
+      "text": "A co z tym fantem zrobić? I to jest ta rzecz, naprawdę możesz włożyć te 10 tysięcy do rodzin. Czyli naprawdę poszerzenie swojej wiedzy, nie tylko technicznej, to próbuję powiedzieć, tylko tej też całą innej, albo tej technicznej, której w ogóle nie masz, którą znasz za tam, aaa, git push i do domu. Wygadałem się, teraz twój akord."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "15:08",
+      "text": "Co się wygadałeś? No faktycznie. Jakby tak, dużej części się zgadzam na pewno. Natomiast ja też, bo jak zwykle przechodzimy od razu do seniorów, I którzy mogą rozszerzyć swoje umiejętności i jeszcze pogłębić sobie te niektóre odnogi. Szczególnie jeżeli widzieli albo mieli..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "15:36",
+      "text": "mieli świadomość tego, że czegoś im brakuje. Natomiast ja też ostatnio zacząłem się zastanawiać i oczywiście zaraz będzie także będzie oskarżenie, że w ogóle nie ma pracy, ale o tym jeszcze za chwilę, że to jest znowu kolejny moment, w którym bardzo łatwo jest zostać programistą. Pytanie czy się opłaca zostać programistą? Jakby na przyszłość."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "16:05",
+      "text": "No bo cały czas wiemy, jaka jest sytuacja na rynku. Sytuacja na rynku jest taka, że nikt nie zatrudnia juniorów. A z drugiej strony cały czas się słyszy, że w IT to są masowe zwolnienia. Masowe zwolnienia i właściwie większość firm to już się zawija albo ludzie się tam zawijają, bo wszystko przejmuje AI albo cokolwiek innego."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "16:32",
+      "text": "Ciekawym i tutaj, zanim wrócę do samych umiejętności, bo ostatnio sprawdziłem właśnie, co się kryje za tymi zwolnieniami. Bo prawdopodobnie słyszałeś, że są wielkie zwolnienia w Microsoftie. Chyba, jeśli dobrze pamiętam, 40 tysięcy osób dostało opcję dobrowolnego odejścia, Tam na jakichś super zasadach tak naprawdę. No i..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "17:02",
+      "text": "Jakby informacja do rynku poszła, poszła bardzo konkretna. Microsoft zwalnia. I to nie jest pierwsza fala. To nie jest pierwsza fala, w której Microsoft zwalnia. Ostatnio był też program wcześniejszej emerytury i były inne programy właśnie związane z redukcją zatrudnienia. Tak jak to można było wyczytać w mediach. Ale wiesz, o ile się w zeszłym roku..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "17:29",
+      "text": "zmienił headcount w Microsoftie."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "17:34",
+      "text": "Nie mam pojęcia. Pozostają."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "17:36",
+      "text": "0%. Bo oni w zeszłym roku zwolnili 60 tysięcy osób i zatrudnili 60 tysięcy osób. Wiesz, ile... bo żeby nie było. Jeszcze jedna statystyka. Tym razem ja trochę liczbami porzucam. Właśnie w tym roku było powiedziane, 40 tysięcy osób będzie zwolnionych z Microsoftu. 40 tysięcy to jest dużo ze względu na to, że..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "17:38",
+      "text": "Przez zwolnienie, a potem zatrudnienie."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "18:06",
+      "text": "Na początku tego roku headcount Microsoftu to było 250 tysięcy. Więc jest to znacząca liczba redukcji. Wiesz o ile w tym roku się zmienił headcount w Microsoftie?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "18:25",
+      "text": "Nadam zdać."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "18:26",
+      "text": "Nie jest 2 % niższy, więc faktycznie parę ludzi, albo nie zdążyli zatrudnić jeszcze. Więc to się pewnie przeniesie na przyszły rok. Więc nie ma zwolnieni w IT, realnie."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "18:40",
+      "text": "ale zmieniają się firmy."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "18:45",
+      "text": "Zmieniają się firmy, oczywiście i właśnie..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "18:46",
+      "text": "W sensie no tak, w sensie dobra, ale właśnie widzisz, bo to właśnie, bo używamy niestety słów kluczowych, na przykład programista i czy teraz firma szuka potem programista albo nie wiem, menadżer, albo tam nie wiem, analityk, nie? I nagle się okazuje, że dla mnie przynajmniej jak patrzę na, jak patrzę na jednak ostatnich lat, nie tylko ostatnie 2-3, to"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "19:14",
+      "text": "Zestaw kompetencji, które musisz mieć, żeby być ogóle gdziekolwiek zatrudniony, rośnie. Ta lista rzeczy, którą musisz umieść, po prostu rośnie. I to od wielu lat. Najlepsze jest to, że niektóre już znikają. Gdyby nikt ci nie wpisze, że musisz umieć gita. Czy jakby mi ktoś wpisał tak w ogłoszenie, to bym się bardzo zdziwił i nie wiem, czy chciałbym tam aplikować. Ale może niedługo to wyróć."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "19:41",
+      "text": "Natomiast to się po prostu zmienia, bo teraz właśnie dla mnie ta kariera w IT to nie jest kariera programistyczna. Tak naprawdę dla mnie to są dwie kariery. Jedno to jest individual contributor. Już było jasne, tym individual contributor można nazwać naprawdę wysoko. sensie wiem, to nagle, tylko tam są różne ścieżki, przynajmniej ja je postrzegam jako różne ścieżki. Inna ścieżka jest powiedzmy programisty, testera."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "20:12",
+      "text": "analityka, nie? I potem na przykład z tych ścieżek ludzie zmieniają swoją ścieżkę na na przykład menadżerską, czy jako programista zaczynasz być menadżerską, idziesz w inną ścieżkę, wtedy ok, wyskakuje z Indywidual Contributor, nie? Więc to ją na chwilę zostawmy, ale na przykład idziesz w architekta, nie? I to nie oznacza, że w architekta nie możesz wyjść ze ścieżki, bo to jest, często wydaje mi się, misunderstanding, że musisz być programistą, żeby zostać architektą. Nie musisz być."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "20:41",
+      "text": "Możesz być na przykład dobrym testerem, Możesz z tej ścieżki wyciągnąć, Kojarzę jednego, ale kojarzę tylko jednego takiego człowieka, który przeskoczył ze ścieżki analityka, nie? Ale na przykład skakany między tester, analityk to już bardzo dużo ludzi kojarzy i w jedno i w drugo, nie? Skakany między tester, programista też kojarzę ludzi, którzy jak gdyby wchodzili, jak gdyby w jedną wracali, bo nagle tam, nie wiem, tester automatyzujący, nie?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "21:11",
+      "text": "Więc tu używane słowa programista, to ja się zgodzę, to jest bardzo zły czas, żeby zostać programistą. Bo ta nazwa etykieta po prostu bardzo zmienia w tej chwili znaczenie. Ciężko jest znaleźć tę robotę jako klepacz kodu, bo wszystkie firmy w tej chwili oczekują, pewnie mają nawet jakieś KPI, że będziesz używał AI do klepania kodu."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "21:41",
+      "text": "Dla mnie szczęścia, bo i tu możemy wejść w dyskusje, to dobre, złe, cokolwiek. Kiedyś, kiedy gdyby firmy oczekiwały, że byś używał gita, a nie CVS, pomimo to, że... przyznam szczerze, że CVS mi bardziej leżał. Może to za mnie głupio, ale bardziej mi leżał, był dla mnie prostszy i nie Nie nauczyłem się gita, w tej chwili pewnie już bym nic w CVS nie umiał zrobić. Ale pamiętam, że jak się przełączałem z SVN, to..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "22:11",
+      "text": "CVS, SVN, Git. Za każdym razem ta zmiana była jakoś tam irytująca. Człowiek już miał to wszystko pod palcami. Więc to jest coś, co się zmienia. Zrobimy to może głupio, ale jak jesteś, nie wiem, pewnie instalarzem, nie znam się na tym, więc się wypowiem, to tam też zależy, co chcesz robić. Jak chcesz być takim..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "22:37",
+      "text": "trochę szarym ludkiem, który chce montować to iść. Znaczy trafiłeś do tego stolarstwa, bo to była najbliższa robota jaką miałeś i po prostu ją robisz. No to jest jedno. Trafiłeś tak do IT i wchodzisz o 8, wychodzisz o 16 i wszystko robisz, żeby ci nie zabrali aktualnych zadań, no to ci ludzie w tej chwili cierpią. Bo oni po prostu się boją o stratę pracy. Nie bo jest jej mniej."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "23:06",
+      "text": "Zaczyna się ona zmieniać, mocno się zmienia, może to tak. Nagle po prostu nagle coś, co się 10 lat temu jakoś ugruntowało, że tych pozycji było milion w IT, że żeśmy się podzielili na wszystkie te. W związku z bardzo dużo ludzi weszło do tego IT, na tę małą swoją pozycję, taką ogręczoną bardzo."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "23:28",
+      "text": "albo nie daj Boże utknęło w jakimś systemie, stwierdziło, że sumie jest mi tu dobrze, mam fajnych ludzi, nie potrzebuję, no to mogą mieć problem, To też głośno powiem. Ja tylko nie używałbym słowa programista, tylko powiedzmy inżynier oprogramowania. Wydaje mi się, że na czas dla inżynierów oprogramowania to teraz jest bardzo fajnie, bo bardzo dużo można zrobić."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "23:51",
+      "text": "No właśnie, no właśnie, to jest, to jest kolejna rzecz. Jakby ja, ja też inżynier oprogramowania, też mi do końca nie leży szczerze mówiąc. Jakby to jest jakby najbliższe temu co, co możemy, co możemy zrobić, co możemy, jak możemy nazwać to z tych pozycji, które znamy do tej pory, bo osobiście w tej chwili jakby mam alergię na wszystkie..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "24:20",
+      "text": "wszystkie pozycje typu forward, deployed, engineer i tak dalej, i tak dalej, jest tego jakby, ale to zostawiamy. Natomiast to jest to, co chciałem też powiedzieć, że problem solver, jakby na tym się skupiamy, że rozwiązujemy problemy, nie zakochujemy się w kodzie, tak jak kiedyś się zakochowaliśmy. Jakby jeżeli..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "24:48",
+      "text": "Jeżeli na Code Review zobaczymy, że AI wygenerował jakąś nazwę dla zmiennej inną niż my byśmy to zrobili, nie wrzucamy tego komentarza, bo to tylko będzie spowalniało cały proces. Jakby wiadomo, że dalej dalej, zresztą już poza tym mówiąc, w ogóle mamy czytać i nadal i robić to review tego kodu, skoro realnie najnowszy model. No."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "25:13",
+      "text": "Może poczekaj, czekaj, ale popatrz, nawet ty i ja w tym podcastie nagle gadamy cały czas o kodzie. Już teraz, żeśmy zjechali na kodzie, spróbowaliśmy z niego wyjść i znowu, żeśmy do niego wrócili i to jest, to jest duży problem."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "25:28",
+      "text": "To jest duży problem, oczywiście, bo to jest to, mówisz, jest to, co znamy od 15 przynajmniej lat. Jakby wokół tego kodu kręciła się nasza kariera, teraz musi przestać się kręcić nasza kariera. Ale widzę, zaczynam widzieć, jak ludzie do tego też podchodzą, że ludzi mimo wszystko, im jest ciężko się pozbyć tego."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "25:54",
+      "text": "Im jest ciężko przejść gdzieś indziej."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "25:57",
+      "text": "Sam jesteś świetnym przykładem. Pojechałem w ten i wróciłeś momentalnie do kodu. Ja też pewnie parę razy."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "26:03",
+      "text": "Oczywiście, oczywiście, oczywiście. tak to wygląda w tym momencie, bo my musimy się przyzwyczaić do tego, że już nie jesteśmy najlepszymi klepaczami kodu. Jakby kiedyś mogliśmy być świetnymi klepaczami kodu i dodatkowo robić jeszcze inne rzeczy, a teraz jak będziemy klepaczami kodu, to będziemy tymi gorszymi klepaczami kodu, bo coś..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "26:32",
+      "text": "w tej chwili ten kod będzie pisać lepiej. I dlatego tak jak mówisz jakby pójście dużo bardziej szeroko. Rozmawianie, uczenie się, uczenie się elementów związanych właśnie z rozwiązywaniem problemów, czyli poznawaniem zasad inżynieryjnych właśnie na rozwiązanie problemów. Boże, wyleciało mi słowo."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "27:02",
+      "text": "Zaraz pewnie je sobie przypomnę jak ty zaczniesz mówić, natomiast nie chodzi mi tutaj o poznawanie wzorców na rozwiązywanie, Jezu jak to słowo było, archetypów, o właśnie, chodziło mi o archetypy, czyli poznawanie archetypów, które pozwolą nam lepiej poinstruować odpowiednie narzędzia do tego, żeby te problemy jeszcze szybciej rozwiązywać, czy jeszcze lepiej i to myślę, że można na najróżniejsze."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "27:31",
+      "text": "ścieżki przestawić, bo zarówno możemy to właśnie ograniczyć do kodu, do testowania, do analizy i do przestawiania danych i do najróżniejszych elementów, które kiedyś już ktoś rozwiązał, dlatego te systemy są takie dobre w rozwiązywaniu też tych problemów, tylko musimy nauczyć się pewnie nad nimi panować, ale tak ostatecznie ja ci powiem, że tak naprawdę mam duży problem."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "28:01",
+      "text": "W ogóle, żeby podpowiedzieć komukolwiek też cokolwiek, jeśli chodzi o to inwestowanie czasu i naukę czegoś konkretnego. Bo zobacz, jak to się zmienia. Zobacz, jak to się przez ostatni rok zmieniło. Pamiętasz, rozmawialiśmy z Tomkiem Ducinem i Tomek Ducin, jeśli dobrze pamiętam, powiedział, jeżeli przestajemy się skupiać na kodzie, skupmy się na architekturze. Czy po roku..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "28:31",
+      "text": "te słowa są nadal dobre? jeszcze się przez chwilę okłamujemy, że narzędzia, z których korzystamy, będą lepsze w architekturze?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "28:45",
+      "text": "Nie wiem. Ja się chyba oszukuję. Ja się przetłumaczę szczerze, że ja się oszukuję. Nie oszukuję się dlatego, że one nie są złe, tylko że proponują mi bardzo często armatynom."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "28:49",
+      "text": "Jeszcze się oszukujesz."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "29:03",
+      "text": "że bardzo często, że to wynika z tego na czym były uczone. To jest kwestia, być może nastąpi nowa generacja, która będzie lepsza i ona przestanie być, ona zacznie być nietana, to naprawdę, robota jak robota, co ja mam powiedzieć."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "29:04",
+      "text": "Eee"
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "29:21",
+      "text": "No dobrze, co ci przeszkadza tym? Jaki masz problem w tym, że AI ci podpowiada tak?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "29:28",
+      "text": "że mam amatę na mochę? Kasa."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "29:33",
+      "text": "No dobrze, no to wystarczy powiedzieć, wiesz, twierdzić jakby doskonale wiesz, że w takiej sytuacji zresztą ty jako osoba mocno związana z architekturą i właśnie z wycenianiem wszelkich usług doskonale wiesz, że wystarczy powiedzieć nie, to jest za drogo, znajdź mi tańszą alternatywę."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "29:57",
+      "text": "No tak, ale właśnie to jest ta rzecz, którą ty musisz wiedzieć."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "30:00",
+      "text": "Nie, musisz tego wiedzieć. Wystarczy na samym początku powiedzieć, zaplanuj mi tę architekturę i powiedz mi ile to będzie kosztować u danego dostawcy."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "30:09",
+      "text": "No dobra, no i on ci mówi, wiem, niech będzie wrzućmy jakąś kwotę, tysiąc, no cokolwiek. Tysiąc Bitcoinów, tysiąc dolarów, tysiąc złotych, wstawcie sobie co chcecie tam. No i ty mówisz, nie, to za drogo sprawdźmy u innych dostawców. No innych dostawców, czy chodzi 900 Bitcoinów, złotych, czy dolarów, nie, cokolwiek, nie. No i teraz, o to jest lepiej, 10 % zresztą, sukces, nie. Prawda polega na tym, że to się da zrobić za 10."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "30:16",
+      "text": "No?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "30:37",
+      "text": "Nie tysiąc, tylko za dziesięć, bo nagle się okazuje, że tłum tych rzeczy po prostu może przegrałem skalę. jestem świadomy, ten, ale da się zrobić powiedzmy za pięćset. I to jest ta rzecz, nie jest to, to nie chodzi o to, jeszcze ciągle, że on robi to źle, on to robi dobrze. Tylko że albo potrzebujesz drugiego, albo potrzebujesz jakiegoś kontekstu. W ogóle w tej chwili, jak gdyby..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "31:07",
+      "text": "Jak pomyślysz sobie głównym problemem w firmie jest tak zwany context engineering. Żeby dać temuż narzędziu i to jest przykład, żeby dać temu narzędziu kontekst, gdzie ty będziesz operował, w czym ty będziesz operował, jaka jest tego skala. Przykład dosłownie z dzisiaj, jak gdyby mamy narzędzie, którego maksymalnie może użyć w firmie 1000 osób, max. Jest to jakiś tam MCP server, nie jak gdyby."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "31:35",
+      "text": "Można sobie powiedzieć, jakie jest w nim jedna funkcja, ściągane załącznika. No to AI wprowadził throttling, żeby tam maksymalnie dwóch na raz, żeby nie zabić, bo tam mu wyszło, że jak będzie ściągał wolno, to żeby tam ilość połodnie wyczerpać, ilości połączeń i coś tam."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "31:56",
+      "text": "I jak gdyby etap, nie wiem, kolega zrobił review, nie wiem, czy samemu, czy swoim AI-em wszystko jedno, zauważył, ten throttling można by było rozmawiać. A ja w którymś momencie tak myślę, jezu, a dlaczego my ten throttling wprowadziliśmy? Przegapiłem, no bo jasne. No i pytam go, no bo założyłem, że coś tam się może zdarzyć, to wybuchnie i coś tam, A może byśmy to wdrożyli, zobaczymy czy będzie wybuchać, wywalimy te ileś funkcji, które to ogóle sprawdzały, cało to..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "32:26",
+      "text": "architektury, nie wiem jak to nazwać, która się w ogóle tym zajmuje, łączy, sprawdza, ogóle cuda, wianki nie robi, bo to może nie jest potrzebne w ogóle. W sensie, że wiesz, nikt nigdy do tego błędu nie dojdzie. I to jest ten kawałek, który jeszcze ciągle, w sensie, tobie brakuje. W sensie, to jest ta architektura, nie architektura klas, nie architektura kodu, tylko architektura systemu. I w niej nie chodzi o to, że musisz być lepszy."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "32:52",
+      "text": "Tak, Piotrek."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "32:56",
+      "text": "czy on ma być jakiś super, tylko że ty jak tego nie wiesz, to nie masz pojęcia co on ci zaproponował."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "33:05",
+      "text": "No, tylko wiesz, wiesz jaki jest problem z tym wszystkim. Problem w tym wszystkim jest taki, że ty to wiesz tylko i wyłącznie dlatego, że masz dużo lat doświadczenia. Tego nie wyczytasz w książkach. Tego się nie nauczysz na studiach, nie nauczysz się na YouTubie, nie nauczysz się w kursach online, nie nauczysz się tego nigdzie. To musisz przeżyć, to musisz przeżyć i zobaczyć i kilka razy tego doświadczyć w dużej mierze. I to możesz potem, z tego możesz wyciągać konsekwencje w przyszłości."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "33:34",
+      "text": "dokładnie to samo będzie teraz z tymi toolami. Czy część projektów będzie droższa niż musi być? Prawdopodobnie tak, bo część inżynierów tego po prostu nie zauważy. Czy to będzie działać? Oczywiście, że będzie działać i nikt nie będzie na to narzekać. W pewnym momencie może biznes przyjdzie i powie, ale dlaczego my płacimy tyle miesięcznie, skoro to jest aplikacja, która ma ściągać jeden załącznik..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "34:03",
+      "text": "dla użytkownika, no to wtedy pójdziesz do tych narzędzi i powiesz, ej, musimy to zrobić, ale taniej. Przejrzyj mi logi, czy to i to i tamto jest nam potrzebne."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "34:18",
+      "text": "No tak, oczywiście, Tylko chodzi właśnie, właśnie wracamy do tego, właśnie, że jak dla mnie tą umiejętnością, to właśnie pod słowem architektura, nie? To trochę jest zrozumienia, jak to działa pod spodem, Co to jest DNS, co to jest I/O, co w ogóle się dzieje na CPU, co dzieje się na RAM-ie. Nie chodzi nawet o to, żeby rozumiał, nie wiem, crash na CPU, nie?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "34:46",
+      "text": "Przynajmniej wiesz, że wiem, że istnieje, ale kiedyś z niego był on potrzebny to doczytowałem, ale jak byś mnie teraz przepytywał to nie wiem. To samo to pytanie, które zawsze się żeśmy się śmiali, dlaczego na rozmowach kwalifikacyjnych zawsze pytają z garbage collectora, niezależnie od tego czy aplikujesz na .NET-a czy na Javę, po czym w pracy jak ci się to w życiu przyda raz na chiński rok to w ogóle jest jakiś absurd, bo to nigdy nie było pytań."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "35:16",
+      "text": "Nigdy nie było. O, za mocny kwantykator. Na pewno w części filmu było to pytanie na zasadzie, uu tu się zadają na rozmowach kwalifikacyjnych, to my to zadajmy. Ale to pytanie przynajmniej u mnie miało na cel, czy ty w ogóle wiesz, co tam się dzieje pod spodem, nie? Czy rozumiesz, co się dzieje pod spodem? I tu jest ta rzecz, znaczy tak, to są lata doświadczeń, nie? To trzeba się uczyć, sprawdzać, spróbować, nie? To jest to, co tam mówiłem ze dwa odcinki temu, że..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "35:42",
+      "text": "Vibe coder po roku utrzymywania aplikacji na produkcję prawdopodobnie jest takim samym inżynierem oprogramowania jak programista z nie wiadomo jakim doświadczeniem. Nie, bo to jest coś co nabywasz czasem, czego się musisz nauczyć. A jak patrzysz na juniora, chyba też za sukranne komuś stwierdzenie, bo jest na pewno ono bliskie moim sercu, to patrzysz nie na to co on umie, tylko na to jaki on ma."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "36:11",
+      "text": "na polskie słowa, attitude, nie, nie, nie, nie przyjdziem, Co nim kieruje, jakie ma podejście, nie. To czego, to co ja się zawsze śmieję, że na tych rozmowach kwalifikacyjnych przynajmniej ja szukałem, nie. Wiem, że bardzo wiele film tego nie szukało na bardzo wielu filmach. Zresztą odpadłem na tym, nie, nie, gdyby podszedłem do jakiejś rozmowy i odpadłem, bo no w tą godzinę nie da się sprawdzić, czy to umieszkodowa."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "36:15",
+      "text": "Jakie podejście do rozwiązywania?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "36:42",
+      "text": "Zresztą to czy umiem kodować na tablicy pod stresem jak wszyscy mi patrzą na ręce? Czy to jest jakakolwiek umiejętność? Nie."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "36:54",
+      "text": "Ale na razie."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "36:54",
+      "text": "To pokazuje jedną rzecz, jak w ogóle działasz w sytuacjach stresowych."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "36:59",
+      "text": "Tak, akurat na to jak ktoś mi patrzy na ręce jak pisze, a ja mam sam dyslekcję i permanentnie się mylę i strasznie mnie to stresuje, że ktoś mi patrzy na ręce jak pisze, bo z reguły robię pomyłki i nawet nie lubię pisać na callach. sensie, że ktoś widzi mój ekran i pisze, przełamuję to, gdyby tu pozdrawiam wszystkich znajomych z pracy."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "37:21",
+      "text": "Przełamuję to, umiem to zrobić, ale kosztuje mnie to dużo. Wymagało to jakieś moje prace, nie lubię tego robić. Nie chodzi o to, że nie robię tego, tylko nie lubię tego robić. Bo mnie to dodatkowo stresuje. i to, czy w sytuacji stresowej Jezu, potrzebuję tej roboty, to w ogóle jeszcze jak jesteś juniorem, to w ogóle jest moja pierwsza albo dziesiąta rozmowa kwalifikacyjna, a na dziewięciu poprzednich w ogóle odpadłe w mi w ogóle, nie jestem beznadziejny coś tam, albo jesteś midem czy seniorem, który właśnie poszukuje roboty, bo kurna..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "37:50",
+      "text": "Rata kredytu nad tobą wisi, więc masz po prostu totalny stres. Naprawdę, czy to jest to coś, co chcesz zbadać z człowieka? Dla mnie nie. Fajnie, że zachowasz się wtedy, kiedy wybuchnie wszystko na produkcji, żeby my wtedy będziemy wiedzieli, ale to nie jest core twojej roboty. To jest ten attitude, który przynajmniej ja zawsze chciałem się dowiedzieć, jest jak ludzie myślą, czy myślą, czego szukają, gdzie szukają."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "38:17",
+      "text": "I bardzo często mnie zaskakiwały osoby, przypomniające rozwiązania, które ja bym nie wpadł. One nie były ani dobre, ani złe, ani lepsze, ani gorsze. Pokazywało, że ten człowiek po prostu w tej sytuacji stresowej jest w stanie wygarnąć jeszcze za dwa rozwiązania. Jeszcze ma jakiś pomysł, jeszcze coś tam. I to jest to coś, co warto inwestować. I teraz dochodząc do konkluzji bardzo długiej mojej wypowiedzi, ja się z tobą nie zgodzę, właśnie po to są te książki."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "38:47",
+      "text": "Po to są te materiały. Po to jest to wszystko, żebyś mógł to chociaż usłyszeć. Bo jak tego nigdy nie usłyszesz, nikt ci tego nie powie. Może to być kolega z pracy, koleżanka z pracy, to może być YouTube, to może być książka. Nikt ci tego nie pokaże. To ja, ja jako ja wielu tych rozwiązań w życiu bym nie wymyślił, bo jestem przymim, że za głupi, żeby je wymyślić tak po prostu, nie, a odtworzyć je."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "39:17",
+      "text": "tym jestem super."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "39:24",
+      "text": "Bardzo ładna konkluzja. jakby ok, myślę, że to może być trochę kwestia właśnie różnych sposobów uczenia się. Bo ja znowu nigdy nie potrafiłem odtworzyć, szczególnie, bo nienawidziłem czytać książek związanych z programowaniem, architekturą. ogóle jakichkolwiek inżyniery nienawidzę tego."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "39:55",
+      "text": "i nic z tego nie zapamiętuję i potem nie jestem w stanie tego w żaden sposób odtworzyć. Tylko ja zawsze działam na zasadzie zupełnie innej, czyli jak widzę, że jest problem i wiem, że jest jakiś problem, to wtedy potrafię znaleźć bardzo szybko rozwiązanie. I tutaj jakby zbieram te lata doświadczeń po prostu z pracy w najróżniejszych projektach i to ja bym osobiście właśnie..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "40:21",
+      "text": "już pewnie zbliżając się ku końcowi. No."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "40:23",
+      "text": "Ale czekaj, zatrzymam cię, zatrzymam cię, ale skądś wyciągnąłeś tego nieszczęsnego SOLID-a, skądś wytrzasnąłeś te archetypy oprogramowane, o których mówiliście. Ja mówię, że jakoś je zdobyłeś. Nie chodzi mi teraz o to skąd, ale jakoś je zdobyłeś. Ja też je jakoś zdobyłem. Niektórzy wolą książki, niektórzy wolą podcast, niektórzy wolą konferencję, niektórzy wolą grupę mentoringową, niektórzy wolą jak gdyby parę programów. Każdy ma inny sposób."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "40:53",
+      "text": "To jest ten i to też jakoś to zdobyłeś, chyba że jesteś tym geniuszem, to teraz ja się przyjmę do Cię, wyśmiechnął, że Ty sam wymyśliłeś SOLID, a potem ktoś Ci tylko powiedział nazwę i Ty aaa, to ja to wymyśliłem, też wszyscy nazwały to SOLID. No właśnie o to chodzi, że to skądś musisz być czas."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "41:10",
+      "text": "Chciałbym, żeby tak było. Tak, głównie z rozmów rekrutacyjnych. Za pierwszym razem na SOLID-zie odpadłem z rozmowy rekrutacyjnej, to musiałem doczytać, żeby być przygotowanym na kolejną. Ale to też jest jakieś rozwiązanie."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "41:20",
+      "text": "No okej, czyli twoim sposobem nauki jest rozmowa rekrutacyjna, Czy jak gdyby jak widzicie, jak chcecie, uczycie, jak Kajetan, zapisujecie się na jak największą liczbę rozmów kwalifikacyjnych i odpadacie, Znaczy, że była jasna rozmowa kwalifikacyjna, głośna, to powiem, nadal uważam, że jest bardzo wartościowym elementem rozwoju kariery i wypada raz na jakiś czas."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "41:44",
+      "text": "i pójść na jakiś proces rekrutacyjny, nawet tylko po to, żeby dowiedzieć się, że trawa u innych jest tak samo szara, jak umarła."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "41:53",
+      "text": "Tak, ja też to zawsze będę polecał, bo też uważam, że to jest świetny sposób, dodatkowe skille u siebie, a propos tych różnych umiejętności, wykształcić, jak chociażby skille związane ze sprzedażą. No bo umówmy się, jest trochę gra na zasadzie, ja chcę sprzedać siebie, a druga strona musi mnie kupić."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "42:24",
+      "text": "Tak i jakby kończąc ten cały nasz wywód, mam wrażenie, cały czas dobrym pomysłem dla wszystkich, na każdym poziomie doświadczenia będzie też tworzenie, jakby rozwiązywanie kolejnych problemów, nie tylko takich, które rozwiązujemy w pracy. Jeżeli pracujesz już w tej chwili i masz ciepłą posadkę i jest ci na niej dobrze, super, ale..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "42:53",
+      "text": "Pamiętaj, że pomimo tego jak zmienia się i a może właśnie w związku z tym jak zmienia się całe środowisko teraz nasze, to, że pracujesz w jednej firmie przy jednym projekcie już któryś rok, to może cię zaboleć bardziej niż bolało kiedyś. Bo ja też będę zawsze powtarzał właśnie czy ludzie mają 10 lat doświadczenia, czy rok doświadczenia powtórzony 10 razy."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "43:22",
+      "text": "i taki rok doświadczenia powtórzony jedenasty raz w tym roku może zawoleć zdecydowanie bardziej niż bolał jeszcze 5 czy 7 lat temu. Dlatego rozwiązuj problemy i twórz swoje rzeczy, bo zastanawiałem się jak się umawialiśmy na ten podcast i na ten odcinek, czy mówić na temat budowania swojej marki, jakby tej widoczności w sieci, to absolutnie nie jest potrzebne."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "43:51",
+      "text": "I to już trzeba lubić, to już trzeba mieć jakieś skrzywienie prawdopodobnie w głowie, które my mamy, że mamy takie wielkie parcie na szkło i po prostu musimy coś tworzyć dla innych i pokazywać się w internecie, ale to jest nasza droga. I ty wcale drogi słuchaczu, wcale nie musisz taką drogą też iść, żeby być świetnym inżynierem i nie musisz..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "44:20",
+      "text": "iść naszą ścieżką, żeby być pożądanym inżynierem przez inne firmy. Natomiast jeżeli będziesz tworzyć swoje dodatkowe jakieś projekty, na których będziesz się uczyć, znowu tak jak Piotrek powiedział, tego w jaki sposób rozwiązywać problemy czy z siecią, czy z danymi, czy z performancem, czy z nieszczęscym garbage collectorem, aczkolwiek..."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "44:50",
+      "text": "Wystarczy, że nie będziesz używał C# tylko Rust, a nie będziesz miał tego problemu. Czy jakikolwiek inny problem będziesz rozwiązywać, to będzie cały czas pokazywało, w jaki sposób się uczysz, w jaki sposób będziesz te problemy w przyszłości rozwiązywał. Więc to jest moja porada na sam koniec."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "45:12",
+      "text": "To tymi optymistycznymi słowami zakończmy, bo ja się trochę z Kajetanem nie zgadzam, ale może już następnym razem."
+    },
+    {
+      "speaker": "Kajetan Duszyński",
+      "time": "45:21",
+      "text": "Uuuu, no to słuchajcie nas koniecznie. Za tydzień. Trzymajcie się."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "45:26",
+      "text": "Cześć."
+    }
+  ]
+}
