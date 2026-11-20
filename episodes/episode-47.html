@@ -15,7 +15,7 @@ Nie zgadzamy się we wszystkim: czy architektura wciąż daje przewagę nad AI i
     <meta property="og:description" content="W co zainwestować tysiąc godzin nauki, kiedy AI przejmuje coraz więcej pisania kodu? Piotrek Stapp i Kajetan Duszyński wreszcie odpowiadają na pytanie, które wcześniej zadawali gościom. Rozmawiają o poszerzaniu kompetencji poza własną specjalizację: od sieci, danych i wdrożeń po Team Topologies. Rozdzielają karierę w IT od samego kodowania i pytają, co dzisiaj oznacza rozwiązywanie problemów zamiast przywiązania do kodu.
 
 Nie zgadzamy się we wszystkim: czy architektura wciąż daje przewagę nad AI i ile można nauczyć się z książek, a ile dopiero z doświadczenia? Piotrek przywołuje przykład zbędnego throttlingu w serwerze MCP; Kajetan opowiada, jak rozmowa rekrutacyjna skłoniła go do poznania SOLID. Jest też dyskusja o stresie podczas rekrutacji, projektach poza pracą i różnicy między dziesięcioma latami doświadczenia a jednym rokiem powtórzonym dziesięć razy. Bez obietnicy jednej bezpiecznej ścieżki kariery i bez obowiązku budowania marki osobistej. W co Wy zainwestowalibyście dziś tysiąc godzin nauki?">
-    
+    <meta property="og:image" content="https://i.ytimg.com/vi/jhkmlM5tWyY/maxresdefault.jpg">
     <link rel="shortcut icon" href="../img/favicon-32x32.png" type="image/png">
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Noto+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
@@ -986,7 +986,7 @@ Nie zgadzamy się we wszystkim: czy architektura wciąż daje przewagę nad AI i
             const [loading, setLoading] = useState(true);
 
             useEffect(() => {
-                const version = "926f37108a";
+                const version = "9f39e47ba8";
                 Promise.all([
                     fetch(`/episodes.json?v=${version}`).then(res => res.json()),
                     fetch(`/speakers.json?v=${version}`).then(res => res.json())
