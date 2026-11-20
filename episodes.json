@@ -2,7 +2,6 @@
   {
     "id": 47,
     "num": "47",
-    "notPublished": true,
     "title": "Czego się uczyć, gdy AI pisze kod? | Better Dev Club #47",
     "date": "2026-11-19",
     "duration": "45:28",
@@ -28,12 +27,15 @@
       "45:12 - [Zakończenie] Jeszcze jedna różnica zdań i zaproszenie na kolejny odcinek."
     ],
     "tags": ["betterdevclub", "ai", "programowanie", "kariera-it", "nauka-programowania", "inżynieria-oprogramowania", "architektura-oprogramowania", "Team Topologies", "SOLID", "MCP", "context-engineering", "rekrutacja-it", "rozwój-programisty"],
-    "platforms": {"youtube": "", "spotify": "", "apple": ""},
+    "platforms": {
+      "youtube": "https://youtu.be/jhkmlM5tWyY", 
+      "spotify": "https://open.spotify.com/episode/2pL9pXgenqUuG8oISRxmBs?si=5b1ef8dc4a0c45d2", 
+      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club-47-czego-si%C4%99-uczy%C4%87-gdy-ai-pisze-kod/id1848840540?i=1000803071260"},
     "resources": [
       {"type": "link", "url": "https://teamtopologies.com/", "label": "Team Topologies", "description": "Oficjalna strona koncepcji organizacji zespołów i przepływu pracy wspomnianej w rozmowie."},
       {"type": "link", "url": "https://learn.microsoft.com/en-us/dotnet/standard/garbage-collection/fundamentals", "label": "Garbage collection w .NET — podstawy", "description": "Materiał uzupełniający do dyskusji o rozumieniu działania systemu; nie jest źródłem statystyk o rynku pracy."}
     ],
-    "youtubeId": ""
+    "youtubeId": "jhkmlM5tWyY"
   },
   {
     "id": 46,
