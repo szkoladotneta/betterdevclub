@@ -1,0 +1,259 @@
+{
+  "transcript": [
+    {
+      "speaker": "Kajetan",
+      "time": "00:00",
+      "text": "Cześć, Piotrek!"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:01",
+      "text": "Cześć, Kajtek."
+    },
+    {
+      "speaker": "Kajetan",
+      "time": "00:02",
+      "text": "Piotrek, czy potrzebujemy jeszcze architektury, skoro AI pisze nam cały kod?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "00:07",
+      "text": "No wiesz, musimy chyba wiedzieć, który serwis zestartować, jak padnie nam monolit, więc chyba tak."
+    },
+    {
+      "speaker": "Kajetan",
+      "time": "00:15",
+      "text": "Dobry wieczór, dzień dobry. Właściwie dzień dobry dla was, dla nas dobry wieczór. Kolejny odcinek Better Dev Club. Dzisiaj, jak już możecie się spodziewać i jak możecie się domyślać, będziemy trochę rozmawiać o architekturze i co z tą architekturą dalej będzie, skoro właśnie AI pisze nam cały kod i czy my jako architekci w związku z tym będziemy mieli jeszcze jakąś pracę, czy może jako architekci powinniśmy przenieść się w jakieś inne rejony. Bo skoro AI pisze wszystko, to może nam też dobrą architekturę zaplanować. Trochę zaczynaliśmy o tym mówić w zeszłym tygodniu, ale na sam koniec też się trochę ze mną nie zgadzałeś w najróżniejszych kwestiach. W końcu mieliśmy odcinek, w którym się przestaliśmy zgadzać, więc mam nadzieję, że dzisiaj będzie tak samo. Natomiast jeżeli kogoś interesuje, co było w poprzednim odcinku, to zapraszamy. Link będzie gdzieś tutaj sobie wisiał. I jedną ciekawą rzecz zauważyłem, Piotrek, przeglądając statystyki ostatniego odcinka, bo ten odcinek się nam świetnie poniósł, ale zauważyłem jedną bardzo niepokojącą rzecz. Zdecydowana większość osób, które nas ogląda, jeszcze nas nie subskrybuje. W związku z tym, proszę cię, drogi widzu: jeżeli jeszcze nas nie subskrybujesz, to teraz, teraz my czekamy jeszcze dwie sekundy, idziesz sobie tutaj pod spodem, jest przycisk subskrybuj i proszę klikasz go. I widzimy się dzięki temu co tydzień i nie musisz już więcej pamiętać."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "01:49",
+      "text": "Dobrze, to Kajetan pojechał twardo z reklamą, więc damy radę, ale to jest przykład jednego z typów architektury, który mamy, bo z reguły zawalamy autoreklamę, stali słuchacze na pewno o tym wiedzą, ale to może być np. Architektura przepływu informacji."
+    },
+    {
+      "speaker": "Kajetan",
+      "time": "02:13",
+      "text": "Może być."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "02:13",
+      "text": "Tak to, bo my jak gdyby patrząc na to ewidentnie zawalamy. Zanim zaczniemy: zainspirował nas jeden z komentarzy. Zaczęliśmy gadać na czacie, czy w ogóle to jest potrzebne, i trochę przestaliśmy się zgadzać. Ja się przyznam szczerze, że ja jestem jakimś tam certyfikowanym architektem. Kajetan, z tego co wiem, nie jest certyfikowanym architektem. Ja mam jakiegoś tam TOGAF-a."
+    },
+    {
+      "speaker": "Kajetan",
+      "time": "02:40",
+      "text": "Ja w ogóle, ja nawet programistą nie jestem za bardzo certyfikowanym. No dobra, skończyłem studia, jeśli tak to... No dobrze, no dobrze, no to niech tak będzie, ale poza tym jakby certyfikaty zawsze były gdzieś obok. Byłem ja, a tu były certyfikaty i nigdy się nie spotkaliśmy."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "02:45",
+      "text": "Tak nie, skąd dyplom masz? No tak bywa, Ale dla mnie słowo „architektura” to taki buzzword. A może nie tyle buzzword, co strasznie pojemne słowo. To, to nie jest, znaczy wszyscy mówią, chcę być architektem i to znaczy kim chcesz być, nie? No bo jak spojrzysz na przykład na, firmę, nie? Weźmy sobie w ogóle, spójrzmy na to, nie? No to może być architektura biznesowa. Tak w sensie, zdolności, tak fachowo mówiąc zdolności biznesowe, organizacja, jej procesy, role, struktury organizacyjne, zasady działania. To jest jak gdyby na przykład jeden poziom. To co mówię nie jest sformułowaniami konkretnie technicznymi, więc jak ktoś mi chce dopiec w komentarzu, że się nie znam, to jak najbardziej proszę, świadomie je upraszczam albo modyfikuję. Drugie to jest architektura danych. To kolejna domena architektury, czyli np. Struktury danych, źródła, przepływy, przechowywanie, udostępnianie, zasady zarządzania. Taka architektura z punktu widzenia danych. Trzecie to jest architektura aplikacji, czyli to są... Odpowiedzialność aplikacji, współpraca pomiędzy aplikacjami, wsparcie procesów biznesowych, to jest architektura aplikacji. Jeszcze jest do tego architektura technologiczna, czyli platformy, infrastruktura, sieci, O, sieci, moje ulubione. Wiem, że są bardzo potrzebne. Ja nawet maski nie umiem dobrze napisać, bardzo dużo zawsze używałem do tego pomocy, a bardzo dużo mi to w życiu było potrzebne I ciągle nie nauczyłem się tych masek na pamięć. Kiedyś wrzucałem to w Google, teraz w AI. Oprogramowanie pośredniczące, wracałem do tego. Czy technologie w ogóle potrzebne do działania naszej aplikacji, jako całości, nie tam... To, co zaprezentowałem, to domeny architektury. Nie? Bo bo jak gdyby wiecie, no bo jak mówimy o architekturze, oczywiście w jednoosobowym SaaS-ie, jak z Kajetanem zasuwamy jakiś tam pet project, no to tam też jest jakaś architektura, nie? Tylko to, to z reguły ta architektura ma rozwiązać duże problemy biznesowe, a jeszcze możemy spojrzeć z innej strony, z właśnie zacząłem, czyli możemy na przykład zerknąć sobie na architekturę korporacyjną, popularnie zwaną enterprise architecture, czyli powiązanie strategii organizacji z jej działalnością, danymi i aplikacjami, coś takiego. To nie oznacza, korporacyjne jest często mylone z tym, że to jest w dużych korporacjach, nie tam. Czasami są mikrosystemy i to jest ok, a czasami w małych firmach mamy taką architekturę korporacyjną. To nie jest nie tak, bo to jest... Nie ten kawałek. To są duże systemy, możemy sobie powiedzieć. Mamy architekturę rozwiązania, popularnie zwaną solution architecture, czyli całościowy projekt realizacji określonej potrzeby biznesowej. Takie coś, co obejmuje potrzebne procesy, systemy, dane, technologie. Tego znowu jest całkiem sporo. Mamy architekturę systemu. Czyli struktura i powiedziałbym, że chyba zachowanie określonego systemu, elementy, interfejsy, relacje, ważne zasady, jak to działa z innymi systemami, to może obejmować zarówno oprogramowanie, jak tak naprawdę sprzęt i tak naprawdę ingerencje ludzkie też, nie? Jak o tym pomyślisz, nie? No bo to jest architektura systemu, nie? Co może zrobić dany człowiek w tym systemie, o, bo to w tym sensie ludzi, nie? Albo mamy jeszcze architekturę samego oprogramowania I to pewnie o tę architekturę chodzi, kiedy w Better Dev Club zastanawiamy się, czy AI może ją zastąpić: software architecture. Czyli struktury w oprogramowaniu, odpowiedzialność jego części, zależności, klasy, diagram klas, na pewno: UML-owy diagram klas. Mój ulubiony. Jedyny chyba diagram UML, do którego nigdy w życiu się nie przekonam. Ale to jest nie tak. No więc, słuchaj, skoro ja włożyłem swoją czapkę architekta, tu widzicie wirtualną swoją czapkę architekta, mówię innym, co mają robić, to słuchaj, o czym gadałem. A my wiesz co, nie jest."
+    },
+    {
+      "speaker": "Kajetan",
+      "time": "08:22",
+      "text": "Świetne pytanie. No właśnie, bo to jest bardzo ciekawe realnie, bo myślę, że większość takich standardowych programistów do tej pory nawet nie zdaje sobie sprawy właśnie, o czym można rozmawiać, jeśli chodzi o architekturę. A jeszcze, jakbyśmy powiedzieli dodatkowo, że te wszystkie rodzaje architektury w danym systemie czy w danej korporacji... Czy w danej firmie dobrze by było, żeby były spójne, może nie tyle spójne, co wynikające jedne z drugich, no bo jeżeli mamy architekturę korporacyjną, jeżeli mamy architekturę biznesową, to jeżeli z drugiej strony architektura naszej aplikacji, naszego systemu nie odzwierciedla tego, w jaki sposób realnie działa nasza firma, no to potem będziemy mieli bardzo dużo problemów. Jakby na tym się opierają też najróżniejsze metodologie. Jeżeli nasza architektura nie odzwierciedla tego, jak działa nasza firma, no to będziemy mieli dosyć duże problemy. Mój pies jak zwykle się ze mną zgadza, także bardzo się cieszę. I tutaj jest tak naprawdę, że tak powiem, pies pogrzebany. Bo właśnie, jeżeli będziemy mówili o tym, o tym w kontekście architektury samej naszej aplikacji, czyli samego naszego kodu, to myślę, że w 99% AI jest w stanie już teraz zaproponować lepszą architekturę na samym początku niż my w dużej mierze. Czasami ona będzie nadmiarowa, tak jak wspominałeś też w ostatnim odcinku, ona może gdzieś tam jakby... Możemy dostać więcej niż potrzebujemy i to jest jak najbardziej w porządku, ale to też jest związane bardzo mocno z tym, jak w ogóle wygląda praca architekta. Tutaj planowanie z AI wygląda bardzo podobnie do planowania przez architekta, bo jeżeli architekt dostanie zbyt mało danych na temat projektu, na temat firmy, na temat domeny, na temat... Na temat najróżniejszych innych, które są ważne, on nie będzie w stanie dopasować odpowiedniej architektury tej, którą ma dopasować i tej, którą ma zaproponować. W związku z tym musimy zwrócić uwagę na to, że z mojej perspektywy AI świetnie łączy kropki i że tak powiem to musimy sobie powiedzieć szczerze, jeżeli zawalimy nasze modele danymi, wymaganiami, informacjami, to on będzie w stanie prawdopodobnie podpowiedzieć nam coś, czego my mogliśmy nie zauważyć. Bo jak działa taki architekt? Architekt zwykle działa mając bardzo ograniczone informacje."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "11:32",
+      "text": "Czekajcie, bo jestem bardzo ciekawy teraz, jest ten moment, kiedy Kajetan mówi, jak mam wykonywać swoją pracę, więc muszę się skupić, będę robił notatki."
+    },
+    {
+      "speaker": "Kajetan",
+      "time": "11:44",
+      "text": "No właśnie do tego dążę. Dlaczego projekty w wielu przypadkach po pierwsze są niedowożone, a po drugie są ciężkie w utrzymaniu? Bo architekci mają za mało informacji, które dostali na samym początku. Jeżeli miałbyś wszystkie informacje, których potrzebujesz..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "12:06",
+      "text": "Nie podoba mi się to. Nie podoba mi się."
+    },
+    {
+      "speaker": "Kajetan",
+      "time": "12:14",
+      "text": "I jeżeli byłbyś w stanie te wszystkie informacje wyciągnąć od klienta, od innych architektów, ludzi od platformy, od developerów i tak dalej, tak dalej, i tak dalej, prawdopodobnie bylibyśmy w stanie tworzyć lepszy software. Prawdopodobnie nasze projekty byłyby tworzone zdecydowanie lepiej. Ale realia wyglądają tak, że zwykle pracujemy na dosyć krótkich deadline'ach. Dosyć krótkich deadline'ach można tak powiedzieć? No można tak powiedzieć. Ty nie, twoja firma jest zupełnie inna, wiesz, dużo, dużo..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "12:53",
+      "text": "Nie, raczej chodzi mi o to, że firmy produktowe, a firmy sprzedające na zewnątrz działają trochę inaczej. To jest między innymi ta różnica, że to trochę inaczej wygląda, to po prostu zależy od projektu. Rozwój projektu ciągły wygląda trochę inaczej niż dostarczenie nowego rozwiązania. To tak bym powiedział."
+    },
+    {
+      "speaker": "Kajetan",
+      "time": "13:21",
+      "text": "Tak jest. I to właśnie chciałem powiedzieć: architekci z krwi i kości, certyfikowani, ludzie, którzy znają te wszystkie definicje, tak jak ty, są potrzebni właśnie w firmach produktowych, w których tworzymy projekty, które mają wytrzymać naprawdę na lata. Natomiast w firmach konsultingowych, w których tworzymy... I to nie ma co ukrywać. Tworzymy projekty zazwyczaj przez rok, a potem nas kompletnie nie interesuje, co się będzie z nimi działo. Albo interesuje nas w bardzo ograniczonym stopniu. Ewentualnie interesuje nas to, żeby były ciężkie w utrzymaniu, żeby można było jak najwięcej klientowi naliczać opłaty za utrzymanie. Nie moje słowa, żeby nie było, ale wiemy."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "14:12",
+      "text": "Kogo cytujesz? [nieczytelne] Kogo cytujesz?"
+    },
+    {
+      "speaker": "Kajetan",
+      "time": "14:14",
+      "text": "Nie mogę powiedzieć, ale nikogo z aktualnej firmy, żeby nie było, nie, nie, nie, nie, to są moje doświadczenia z poprzednich lat. No, ale tak wyglądają realia. No, jakby jeżeli chcemy stworzyć coś, co ma być rozwijane przez lata, to musimy się skupić na samym początku, żeby dowiedzieć się jak najwięcej na temat tego, jak to powinno działać. I wtedy faktycznie jesteśmy w stanie dobrać dobrą architekturę. I teraz, czy takich architektów... No?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "14:45",
+      "text": "Ja się z Tobą nie zgodzę, bo uważam, że na przykład budowanie platformy to bardzo ciężki projekt do zrobienia wewnątrz firmy. Zbudowanie platformy, czy rozwiązania, zbudowanie architektury platformowej to jest taki projekt, że musisz zdobyć ludzi z zewnątrz? Bo wewnątrz z reguły nie masz tej wiedzy. Zaraz ktoś wyciągnie, a u nas to się udało i w ogóle. Ale prawdopodobnie te osoby wyciągnęły tę wiedzę jakoś z zewnątrz. To się oczywiście da zrobić wewnętrznie. Tylko że łatwiej jest ci przyciągnąć takiego architekta, powiedzmy, od chmury, od infrastruktury, od Kubernetesa albo czegokolwiek takiego. Wstawiłem randomowe słowa. Żeby to było jasne, można wstawić inne buzzwordy. Przyciągnięcie takiego człowieka, żeby on wam powiedział jak to inni robią, jak to wygląda na świecie, co jest dobre, co jest złe, sensie pociągnięcie jego doświadczeń, zamiast potykania się samemu od zera, bo budowanie na przykład platformy, jest bardzo często musisz zabrać w ogóle jakie mają potrzeby inne aplikacje, wybrać co mają inne aplikacje i połączyć to w całość. Co ty byś w ogóle chciał mieć w tej platformie i tu użyje... Chyba jeszcze ciągle najbardziej popularnego, mamy Kubernetesa, tu mamy platformę. Tu pozdrawiam serdecznie, szczególnie chyba Łukasza Kałużnego chyba z niego, znaczy to jest cytat, ale jego cytat chyba był o tak, to ważne jest mój ruch rękami i ciapki, które nie tak. Tak samo tego cytatu wielokrotnie użyłem. Bo tu, tu, mówię, tu, tu są tacy architekci, czyli bierzesz architekta od czegoś. W sensie, że właśnie jego domeną nie jest produkt twój, tylko jego domeną jest to ta szeroka wiedza. Sensie, że wróć, jest wąska wiedza, nie szeroka, wąska wiedza. Czyli on się specjalizuje na przykład właśnie, nie wiem, stawianie platform chmurowych. To chyba mi było zawsze najbliższe. Albo buduje ci data lake'a. Zbudowanie samemu data lake’a od zera jest po prostu strasznie trudne. Nie chodzi o to, że to jest w ogóle trudne niecoż tam, właśnie nagle wchodzi nie wiem, a co z kwestią sieci? A co z kwestią przetwarzania? A ile to będzie kosztowało? Albo wzięliśmy Snowflake, albo Snowflake jest najlepszym rozwiązaniem. A wzięliśmy Databricks, bo Databricks są najlepszym rozwiązaniem. A co już tam? Czy właśnie tak jak ja tu pozdrawiam moich kolegów MVP, z którymi bardzo często mam tę dyskusję, Kubernetes kontra Azure Web App, albo tam cokolwiek takiego. Tu bardzo dużo takich pozdrowień. Szczególnie Wiśnia, pozdrawiam cię, wiem, że nie jesteś MVP, ale pewnie tego nie usłyszysz. Ale to, żeśmy mieli z Wiśnią wielokrotnie tę dyskusję. I obaj się zgadzamy, to jest najlepsze. Obaj mamy zupełnie inne zdanie i obaj się zgadzamy ze sobą. Ale wiesz, jest jeszcze cały kawałek, którego ogóle wychodzi poza ten etap i i w jednym, i w drugim wypadku, to jest np. Architektura bezpieczeństwa. Jak zrobić, żeby to było bezpieczne? Jak wyznaczyć granicę zaufania? Pomijam w ogóle takie rzeczy jak tożsamość, uprawnienia, tylko po prostu nawet powiedzieć, co, gdzie, kto ma prawo wejść. Czy ty jako pracownik swojej firmy możesz wejść na przykład na produkcję? A jak możesz, to na jakich zasadach? A jak nie możesz, to kiedy byś mógł... Co by się musiało stać, żebyś mógł wejść, jeśli będzie jakaś tragedia? Albo może nigdy nie będziesz mógł. I musisz gadać przez opsa. I tym podobnie. I to są takie rzeczy, których w ogóle uważam, że... No i teraz, czy AI ci w tym pomoże? No pomoże. Ale czy AI zrobi za ciebie robotę? Cholera, nie wiem. Jak dasz mu ten cały kontekst, to może."
+    },
+    {
+      "speaker": "Kajetan",
+      "time": "19:19",
+      "text": "Wiesz, tylko właśnie tutaj pojawia się z mojej strony pytanie, które w zasadzie padło też w ostatnim odcinku i myślę, że można je pociągnąć dalej, bo mówiliśmy o tym, że deweloperzy realnie powinni zacząć iść coraz szerzej, a nie schodzić bardzo mocno w kontekst jakiejś jednej specjalizacji, jakiejś bardzo wąskiej specjalizacji, tylko żeby właśnie wiedzieć trochę z tego, trochę z tamtego. I pod kątem dewelopera to jest jak najbardziej sensowne. Natomiast teraz jak patrzymy, jeśli chodzi o architekta, który po pierwsze ma dużo większą odpowiedzialność, który po drugie, no właśnie, ta specjalizacja, nawet jeżeli jest wąska, to wciąż jest stosunkowo szeroka, no bo zagadnienia dotyczące bezpieczeństwa, zagadnienia dotyczące przepływu danych, zagadnienia dotyczące czegokolwiek innego, to są tematy, które naprawdę... Można, wiesz, można, nie prace doktorskie, to przynajmniej eseje na ten temat pisać i się spierać na temat tego, czy jedno rozwiązanie jest lepsze od drugiego. I teraz, czy architekci dzisiaj, którzy mają jakąś specjalizację, powinni rozszerzyć tę specjalizację i powinni być architektami od wszystkiego? Czy mimo wszystko powinni trzymać się swojej specjalizacji, a ewentualnie znowu delikatnie rozszerzyć, żeby mieć świadomość, większą świadomość tego, co tam się dzieje obok. Tak czy inaczej zazwyczaj mają. Tylko właśnie, czy teraz w związku z tym znowu będziemy mieli jakieś takie spłaszczenie tych ról, no bo mówimy o tym, że nie będzie... Podziału na back-end, front-end, DevOps i coś tam jeszcze innego, tylko znowu będzie po prostu developer, który będzie miał stworzyć aplikację. To teraz czy będziemy mieli architekta od tego, tamtego i siamtego? Czy może będziemy mieli architekta?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "21:29",
+      "text": "To dobre pytanie. Ja bym zadał to pytanie, na ile deweloper musi to poznać. Dzisiaj jest tak, że większość deweloperów tego nie wie. Przed chwilą przyznałem, że ja zawsze miałem problemy z siecią i musiałem kombinować, googlować, bo ja nigdy nie pamiętałem. Ale to oznacza, ja to w sensie wiesz, że kiedyś, kiedyś natrafiłem na tą minę i wiedziałem czego szukać, nie? To, że nie umiem napisać maski sieciowej to jedno, ale to nie oznacza, że nie rozumiem jak działa sieć prywatna, jak, jak wygląda powiedzmy, nie wiem, topologia i parę razy w życiu wywaliłem się na DNS-ie, czy cokolwiek takiego, nie? Czy to samo, jeżeli mówimy o tej, wiesz, architekturze infrastrukturalnej, nie? I to, uważam, że na przykład każdy developer powinien znać. W sensie chodzi mi o to, jak jesteś, teraz prawie nikt nie jest on-premises. Rzuciłem jakiś taki ogólnik. Są ludzie on-premises, są ludzie w chmurze. O może to tak. Jest trochę takich, trochę takich. To musisz trochę rozumieć jak to działa pod spodem. I to nie chodzi o to, że ty wiesz co to jest RAM, czy ty wiesz co to jest CPU, tylko że ty umiesz na przykład... Jak jesteś w chmurze, to że umiesz powiedzieć, że gdzie będą uciekały pieniądze w twojej aplikacji. I to bardzo często nie chodzi o oszczędzanie centów na co, w porze jakie dyskusje są, tylko że czasami jak schrzanisz, wiesz, nie wiem, układ, tabelek w bazie danych jako developer, bo ci tak wyjdzie, cokolwiek, to nagle potrzebujesz przeskalować SQL Server do wyższej warstwy. I to znowu. Jak to jest różnica między 20 dolarów a 30 dolarów, to pewnie trzeba machnąć ręką. To nie jest tego warto. Chociaż biję się w pierś, ja jako deweloper wielokrotnie to optymalizowałem. Tylko to bardzo często są przy takich dużych projektach, to jest różnica między 300 a 500. I to na tydzień albo na dzień. No dobra, na dzień to chyba już było straszne dużo, ale na tydzień. Na tydzień już zaczyna się robić coś, co bardzo możliwe, że możesz to zrobić. Nie musisz potem robić długiego projektu, spróbujmy zoptymalizować trochę bazkę, bo trochę za dużo nas kosztuje. Więc deweloper musi wyjść ze swojej roli. I teraz w drugą stronę pewnie architekt. Ja to widzę po swoich kolegach. W sensie różnej mierze ludzi, którzy wyszli z roli dewelopera, że przecież na Ciebie patrzę. To jakoś prawda, że Ty nie jesteś architektem, ale nie ten, że wróciłeś do kodu, bo możesz. Nagle architekci poczuli tę sprawczość, bo siedząc na spotkaniach mogą kodować znowu. Malin, który u nas był w czerwcu, dokładnie to opowiadał. Malin jest tam principal engineerem, czy możemy go nazwać architektem. Już jest człowiek, którego zadaniem nie jest kodowanie. No to tak, to wiesz, o to chodzi, że to się spłaszcza, zlepia z jednej i drugiej strony. Więc nie wiem czy będzie jeden architekt. Pewnie nie, tak samo jak nie będzie jednego dewelopera, taki T-shaping myślę, że i z jednej i z drugiej strony powstanie, szczególnie, że ty jako architekt nagle usiądziesz do tego, poślesz 10 promptów i powiesz, weź popraw tę solucję, zrób mi PR-a, bo nie wytrzymam. O"
+    },
+    {
+      "speaker": "Kajetan",
+      "time": "25:27",
+      "text": "Tak może być. Ostatecznie też ciekaw jestem, bo od razu w głowie mam to, co się słyszy w sieci. Skoro architekt teraz będzie deweloperem, to w takiej sytuacji po co nam deweloperzy? I w ogóle już juniorów nie będziemy zatrudniać i nikogo nie będziemy zatrudniać, tylko wszystko nam... Nie, oczywiście to jest żart, nie? Wiadomo, że tutaj jakby już lecę bardzo prostymi przekazami. Lecę LinkedInem, dokładnie tak. Ale taka jest prawda, z jednej i drugiej strony..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "26:03",
+      "text": "LinkedIna, [nieczytelne]."
+    },
+    {
+      "speaker": "Kajetan",
+      "time": "26:18",
+      "text": "Znasz w ogóle jakiegoś architekta, który nie wyszedł od kodu? Albo nie wyszedł... Tak?"
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "26:22",
+      "text": "Tak, znam architektów, którzy wyszli od testów."
+    },
+    {
+      "speaker": "Kajetan",
+      "time": "26:28",
+      "text": "O, to jest bardzo ciekawe. Chciałbym właśnie zobaczyć, jak tacy ludzie będą sobie też radzić w związku z tym. Bo to są ludzie, jeżeli architekt wychodzi od kodu, to może bez problemu do tego kodu wrócić. Pytanie na ile odszedł tak zupełnie w swojej roli, ale może spokojnie wrócić i wiedzieć, co tam się dzieje. Jeżeli architekt z drugiej strony... Nie był nigdy w tym kodzie za bardzo, bo na przykład zaczynał od testów manualnych, potem te testy automatyczne gdzieś tam sobie przeszły boczkiem albo w jakiejś lekkiej, nie wiem, dawno to było i już wiele się nie pamięta i teraz ma możliwość tego, żeby faktycznie do tego kodu zasiąść. Czy to się może dobrze, czy źle skończyć? To jest też... To jest też ciekawe rozwiązanie, bo właśnie tutaj jeżeli będziemy mieli dobrą architekturę, właśnie, jeżeli będziemy mieli dobrze przemyślaną architekturę, czy schodzenie do tych detali implementacyjnych bez względu na to, czy mówimy o implementacji platformową, czy implementacji samego kodu, czy implementacji czegokolwiek innego, czy to ma realnie jakiekolwiek znaczenie dopóki te zasady wyższego poziomu będą zachowane? Ale dzisiaj trudne pytania zadaję."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "28:07",
+      "text": "Tak strasznie długie pytanie, że nawet nie wiem w którym miejscu zacząć. Czy będą miały..."
+    },
+    {
+      "speaker": "Kajetan",
+      "time": "28:17",
+      "text": "No bo dobrze, to czekaj skrócę to pytanie i zacznę od drugiej strony. Jeżeli deweloper zacznie szukać bardziej informacji związanych z architekturą, no to wiadomo, że może się wysypać. Może się wysypać na najróżniejszych rzeczach, między innymi na tym, że będzie polegać na tym, co AI mu podpowie. Natomiast w drugą stronę mamy architekta, który zaplanuje dokładnie system w taki sposób, w jaki on powinien być zaplanowany i wie, że ta architektura jest dobra. To czy szczegóły implementacyjne są ważne czy nie są ważne? Jeżeli tutaj się wysypie."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "28:56",
+      "text": "Ja zawsze twierdziłem, że szczegóły implementacyjne nie są ważne. Tylko problem polega na tym, że to znowu użyłeś hasła „szczegóły implementacyjne” i co to tak naprawdę znaczy. Czy to oznacza jak sobie nazwać zmienną? Przyznam szczerze, ani mnie to ziębi, ani grzeje. Nigdy mi nie zależało. Ale czy to oznacza jaki masz układ klas w projekcie? Znowu teraz powiem, może herezję, ale jak mogłem to łatwo przeczytać i znaleźć co gdzie jest, to było wszystko jedno, jak było poukładane, byleby było poukładane. Czy to już jest szczegół implementacyjny, to już jest architektura kodu i to w ogóle jest strasznie ważne, ale to, czy architekt ma to wszystko w głowie poukładane, to jest zajebiście dobre pytanie. Zaczynam mieć wahanie, czy tak rzeczywiście jest, bo systemy żyją długofalowo. Co innego jest to, że siadamy, wymyślamy. Zrobię uproszczenie, marzenie. Może to tak. Marzenie bardzo wielu firm. Zbuduję sobie tę platformę, niezależnie czy jesteś software house'em czy firmą produktową. Pojawia ci się nowy produkt, więc wrzucasz go na tę platformę i działa zgodnie z zasadami. Nie wymyślasz architektury na nowo dla tego systemu. Wspierasz trzy bazy danych, wspierasz dwa języki programowania, masz jeden rodzaj kolejki, tam się nie męczyć, i tak naprawdę docinasz do tego rozwiązania. Ponosisz ten koszt, że to nie jest optymalne, bo rzeczywiście jakbyś użył może... Zamiast MS SQL to używałbyś Postgresa albo zamiast Postgresa to miałbyś Oracle’a, to coś byłoby lepiej, taniej, szybciej, wygodniej, cokolwiek. Nie wiem, cudem będzie, jeśli Oracle wygra z Postgresem, ale będzie ciężko. Będzie ciężko, ale masz... Oracle po prostu płaci twojemu szefowi za wakacje co roku i szef jest zawsze happy, więc daje radosne podwyżki. To może być bonus Oracle’a. Chyba pojechałem za bardzo. Ale masz tę platformę i docinasz do tej platformy. Jak ktoś przychodzi nagle z czymś dziwnym, chcielibyśmy file share’a, to mówisz mu, wpadaj. Albo rzeczywiście to dodajesz do tej platformy, czyli tę platformę jakoś budujesz. Wtedy wydaje mi się, że takiemu architektowi jest łatwo zejść. W sensie, te systemy są budowane na jedno kopyto. Bądźmy szczerze, to jest super z punktu widzenia utrzymania firmy, jest super z punktu widzenia przewidywania. Oczywiście raz na jakiś czas pojawi się taki facet, jak ty czy ja, którzy nagle chcieliby zastosować. My byśmy chcieli, bo przeczytaliśmy na konferencji, że teraz, nie wiem, wstaw losowy buzzword Kubernetes, Lambda, nie wiem. On-prem jest teraz modny i chcielibyśmy tego sprzedać. Ten i taki architekt mówi nie chłopaki, nie, no way. My robimy to na nasz świetny sposób i on jest dobry. Ale poza tym to wiesz, to to funkcjonuje właśnie z punktu widzenia firmy super. Wtedy wydaje mi się, że takiemu architektowi jest łatwo zejść do kodu. Ale jak siadasz do projektów, z których każdy jest inny, nie wiem. Masz aplikację desktopową, webową, mobilną, jeszcze firmware piszesz na urządzenie. I nagle ten architekt ma się przełączyć z jednego na drugie? To nie wiem, to mam już jakieś takie wahanie, bo on sobie zacznie pomagać AI. Jak oczywiście są dobrze napisane AGENTS.md, CLAUDE.md czy jakikolwiek plik .md. I masz to wszystko już uporządkowane, bo to jest chyba w ogóle nowy dział architektury. Architektura plików pod AI. Gadaliśmy sobie już parę razy o tym, to nie tam, chyba nawet mieliśmy na to jakiś buzzword. Bo to jest może to, czego dzisiaj nie ma, a nad czym trzeba by było popracować. Jak wpleść w to wszystko context engineering, żeby jak ktoś do tego usiądzie, niezależnie od tego, czy jest nowym architektem... To da radę zobaczyć. Zadaniem takiego architekta może być weryfikacja na jakiś czas. Dlaczego coś powstało niezgodnie z tą architekturą? Dlaczego AI w ogóle na to pozwoliło? Dlaczego tego nie wykryliśmy? To może być taki ogóle, wiesz, nowy AI-architekt, nie? W sensie nie. Są takie stanowiska na LinkedInie, ale no, właśnie wymyśliłem bardzo określoną pracę. Więc myślę, że i w jedną, i w drugą stronę to nie jest takie łatwe, chyba że zrobiłeś naprawdę wszystko dobrze, a to jest możliwe tylko i wyłącznie w bajkach, a nie w prawdziwym życiu."
+    },
+    {
+      "speaker": "Kajetan",
+      "time": "34:37",
+      "text": "No i właśnie tutaj chyba też dochodzimy do tego, w jakich projektach w ogóle my pracowaliśmy i jakich architektów widzieliśmy, bo w dużej mierze jak mówiłeś o tych architektach, którzy robią wszystko na jedno kopyto, to znowu będą to architekci, którzy działają produktowo. To są architekci, którzy zrobili coś raz dobrze i mają to w pewien sposób powielać i to będzie działać w dużej mierze. Natomiast ja, wiesz, bardzo duże uproszczenie, bo po prostu nie chcę, wiesz, nie chcę teraz powtarzać tego przez 5 minut, ale chodzi mi też o tych architektów, konsultantów, którzy są rzucani od jednego projektu do drugiego i to jest, ja pamiętam pierwszy raz, kiedy się zetknąłem w ogóle ze stanowiskiem architekt."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "35:06",
+      "text": "Bardzo dużo uproszczenia. Bardzo dużo uproszczenia. Poczekaj, ja ci dam przykład. Miałem wtedy 25 lat. Byłem tuż po studiach. To była moja pierwsza taka prawdziwa, pełnoetatowa praca w IT, bo wcześniej byłem [nieczytelne]. Z różnych względów zostałem najlepszym w Polsce specjalistą od Adobe, od wtyczek Adobe Forms. Najlepszym specjalistą w Polsce byłem. Nie dostałem nalepki Architect, tylko Expert, Uber Expert. Tak, byłem jedyny. Dzięki temu, bo zrobiłem po pół roku moje... Nie, chyba więcej chyba, ośmiu miesiącach mojej zawodowej pracy, jak kiedyś żeście... Kiedyś żeście..."
+    },
+    {
+      "speaker": "Kajetan",
+      "time": "36:01",
+      "text": "Znaczy, jedynym."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "36:21",
+      "text": "składali PIT-a przez internet, to dawno, dawno temu, na samym początku jak weszły e-Deklaracje, to się robiło, to była taka wtyczka do Adobe Readera i Adobe Acrobata, które się podpisywało i ja, jak to powiedzieć, szkoliłem innych, dając im bardzo dokładne przykłady w kodzie, jak mogą to zaimplementować, bo nie byłem zatrudniony jako programista, tylko jako trener. Domyślcie się sami, ale ja nie mogę chyba nic dalej powiedzieć."
+    },
+    {
+      "speaker": "Kajetan",
+      "time": "37:02",
+      "text": "Cokolwiek też pamiętamy, jak to działało."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "37:07",
+      "text": "Proszę cię, bardzo dobrze działa. Bardzo dobrze. Składałeś PIT-a przez internet. Ja naprawdę podziwiam tych ludzi z Ministerstwa Finansów, którzy to wtedy ogarnęli. Nie było nic, nie było nie tam, oni ogarnęli cały ten system, to działało. Dla wszystkich się skalowało w ogóle nie tam. Pewnie, że były wady, nie to, że nie tam. No i teraz wracając do tego, jak masz takiego, jak się najszybciej, znaczy w konsultingu po pierwsze nie możesz być juniorem. Nie możesz być, nie możesz być nawet regularem. Regularowi mówią: „Przynieś kawę”. Musisz być ekstra ninja, uber, [nieczytelne], coś tam, coś tam."
+    },
+    {
+      "speaker": "Kajetan",
+      "time": "38:00",
+      "text": "A nawet jak nie jesteś, to za tyle cię sprzedamy. Więc lepiej, żeby..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "38:04",
+      "text": "Na wizytówce tyle masz. Na tej wizytówce masz to mieć. Tak jesteś przedstawiony jak chodzisz."
+    },
+    {
+      "speaker": "Kajetan",
+      "time": "38:12",
+      "text": "No tak, no tak jest, ale dokładnie tak jest. I właśnie ja z takimi architektami też na samym początku swojej kariery miałem do czynienia. To znaczy przychodził taki architekt i ja kompletnie nie wiedziałem, co on robi. Bo przyszedł typ do naszego projektu, już nie będę mówił, jaka to firma, bo to nie ma żadnego znaczenia, w każdym razie duża firma, która obsługuje płatności bezgotówkowe w Polsce, jedna z większych. I przyszedł architekt."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "38:40",
+      "text": "[nieczytelne] LinkedIna Kajetana."
+    },
+    {
+      "speaker": "Kajetan",
+      "time": "38:42",
+      "text": "Przyszedł architekt i mówi, to macie źle, to macie źle, to macie źle, to macie źle. Mówimy, OK, to jakby to wiedzieliśmy, ale przyszedłeś tutaj, żeby nam powiedzieć, co mamy zrobić, żeby było dobrze. To ma ci źle, to macie źle, to macie źle, to macie źle. Jak to poprawicie, to będzie super. Ja mówię, kurde, to takim architektem to ja też mogę być. I tak właśnie widziałem przez wiele lat architektów, że przychodzą... Nikt nie wie, co oni robią, ale dostają najwięcej pieniędzy i właściwie nie wiadomo, po co oni są, bo i tak wszystko robią deweloperzy. To jest trochę tak samo jak z team leaderami, którym aktualnie jestem, też nikt nie wie, co oni robią, też nie wiedziałem po co jest. Dopóki byłem deweloperem to się zastanawiałem, po co mi team leader, do momentu, w którym mój team leader pozdrawiam Dominika."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "39:26",
+      "text": "Nie wiedziałeś, po co jest."
+    },
+    {
+      "speaker": "Kajetan",
+      "time": "39:37",
+      "text": "poszedł na dwa tygodnie na urlop i powiedział, Kajetan, ty mnie zastępujesz teraz. I powiedziałem, uuu, lala, nigdy więcej. Potem wszedłem w tę rzekę jeszcze raz, ale już zupełnie inna historia. Natomiast tak, jakby nigdy nie wiemy, co się dzieje po tej drugiej stronie. I dlatego też mam wrażenie, że, teraz już do meritum, że w dzisiejszych czasach ludziom mam nadzieję, że w końcu będzie trochę łatwiej... Podejść do tematu architektury, podejść do tematu bycia architektem ze względu na to, że właśnie ludzie kodujący bardzo mocno się przywiązują właśnie do implementacji, do tych szczegółów implementacyjnych, dokładnie tych, o których powiedziałeś. O tym, jak nazwiemy zmienną, o tym, jak nazwiemy klasę, o tym, czy będziemy mieli... W naszej architekturze, naszej aplikacji podział na warstwy zrobiony za pomocą folderów czy oddzielnych projektów, czy będziemy mieli takie namespace’y czy inne i tak dalej. Ludzie są bardzo do tego przywiązani, bo właśnie oni w tym czują się bezpieczni i w tym czują się jakby dobrze, bo według nich... Przez to jak są przygotowani przez poprzednie projekty, według nich to jest czytelne i dzięki temu, jeżeli jest czytelne, to jest też łatwe w utrzymaniu, co jest absolutną bzdurą w wielu przypadkach i tutaj mam szczerą nadzieję, że AI bardzo pomoże w najbliższym czasie, bo AI będzie generować i nie będziemy mieli wpływu na to, jaką nazwę da zmiennej, jak nazwie klasę, jak zrobi podział na projekty i w końcu będziemy musieli się od tego odczepić. Jak w końcu zrozumiemy, że o kurde, jeżeli zrobimy foldery, a nie projekty, to nadal działa, nadal jesteśmy w stanie trzymać te zależności odpowiednio, to może zaczniemy troszeczkę szerzej na te wszystkie problemy, które mamy patrzeć i wtedy będziemy trochę bliżej architektury. A tym architektom, którzy będą schodzić do kodu, no to i tak wszystko jedno będzie. Czy to będzie tak nazwane, czy nie tak, dopóki będzie spełniało swoją rolę i dopóki nie będą pojawiały się problemy. I to jest to, o czym ty powiedziałeś, to znaczy też trzymanie dobrej architektury agentowej, nazwijmy to, czyli odpowiedniej struktury instrukcji i skilli i całych naszych składów agentowych. I myślę, że..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "42:23",
+      "text": "Nie oszukujmy się, że tego jeszcze nie umiemy. W sensie, że teraz jesteśmy na początku. Na pewno są firmy, które zaradzą lepiej, są firmy, które zaradzą gorzej, są firmy, które jeszcze w ogóle o tym nie pomyślały, ale myślę, że jako branża jesteśmy na początku drogi, że to w ogóle jesteśmy na start."
+    },
+    {
+      "speaker": "Kajetan",
+      "time": "42:26",
+      "text": "Nie. To zdecydowanie, to zdecydowanie. Coraz częściej mam wrażenie, że mamy teraz w IT taki świeży start. Świeży start i może się sporo osób mocno wybić tak w przyszłości. I mam wrażenie, że to może być trochę taki stan, jak w momencie, w którym powstawały języki programowania, które znamy, czy zasady SOLID, czy inne zasady..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "43:08",
+      "text": "Czy mówisz, że po świecie zaczął chodzić nowy Uncle Bob Martin?"
+    },
+    {
+      "speaker": "Kajetan",
+      "time": "43:15",
+      "text": "Jest taka szansa. Myślę, że tak. Myślę, że tak może być. I tym optymistycznym akcentem, chyba że chcesz coś jeszcze powiedzieć..."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "43:15",
+      "text": "To będzie. Nie, nie, chciałem go pozdrowić, to może słuchacz, jesteś tym nowym Uncle Bob Martin. Nie zapomnij o nas, jak będziesz właśnie tym już sławnym Uncle Bob Martin."
+    },
+    {
+      "speaker": "Kajetan",
+      "time": "43:35",
+      "text": "To my cię wypromowaliśmy, pamiętaj o tym. A jeśli jeszcze nas nie subskrybujesz, to zasubskrybuj właśnie teraz. I dzięki temu zatoczyliśmy wspaniałą pętlę i myślę, że możemy się pożegnać na ten tydzień. I zapraszamy was w kolejnym tygodniu, na kolejny, niesamowicie ciekawy, przynajmniej dla nas odcinek."
+    },
+    {
+      "speaker": "Piotrek Stapp",
+      "time": "43:57",
+      "text": "[nieczytelne] Better Dev Club. Trzymajcie się, cześć!"
+    },
+    {
+      "speaker": "Kajetan",
+      "time": "44:05",
+      "text": "Trzymajcie się."
+    }
+  ]
+}

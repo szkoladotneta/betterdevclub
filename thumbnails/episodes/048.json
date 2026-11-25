@@ -1,0 +1,20 @@
+{
+  "episode": 48,
+  "fontSize": 88,
+  "headTop": 170,
+  "eyeOffset": 110,
+  "headCenters": { "left": 130, "right": 1150 },
+  "titleTop": 155,
+  "titleCenterX": 640,
+  "titleWidth": 660,
+  "grayscale": true,
+  "people": {
+    "left": "kajetan-03-lewo",
+    "right": "piotrek-04-prawo"
+  },
+  "lines": [
+    { "text": "AI   PISZE   KOD 🚀", "color": "primary", "fontSize": 66, "gapAfter": 22 },
+    { "text": "PO   CO   NAM", "color": "text", "fontSize": 88, "gapAfter": 14 },
+    { "text": "ARCHITEKT? 🤷‍♂️", "color": "highlight", "fontSize": 72 }
+  ]
+}

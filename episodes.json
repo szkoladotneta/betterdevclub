@@ -1,5 +1,46 @@
 [
   {
+    "id": 48,
+    "num": "48",
+    "title": "Better Dev Club #48 - Czy AI zastąpi architekta? Od Kubernetesa po AGENTS.md",
+    "date": "2026-11-26",
+    "duration": "44:09",
+    "notPublished": true,
+    "desc": "Skoro AI pisze coraz więcej kodu, po co nam architekt? Piotrek Stapp i Kajetan Duszyński wracają do sporu z poprzedniego odcinka. Oddzielają architekturę kodu od decyzji o danych, platformie i bezpieczeństwie. Sprawdzają na konkretnych przykładach, czego model nie wyczyta z repozytorium: kto może wejść na produkcję, ile kosztuje źle zaprojektowana baza i kiedy Kubernetes to więcej, niż potrzebuje zespół.\n\nRozmawiają też o tym, czego deweloperzy mogą się nauczyć od architektów i dlaczego architekci wracają do kodu. Gdzie kończy się detal implementacyjny, a zaczyna decyzja, którą zespół będzie utrzymywał latami? Jest spór o wspólną platformę, przykład pierwszych e-Deklaracji i pomysł na nową pracę architekta: zapisać zasady w AGENTS.md i sprawdzać, czy kod generowany przez AI faktycznie ich przestrzega.",
+    "agenda": [
+      "00:00 - [Po co nam architekt?] Wracamy do sporu z poprzedniego odcinka.",
+      "02:13 - [Certyfikaty i TOGAF] Co właściwie znaczy być architektem?",
+      "02:45 - [Rodzaje architektury] Biznes, dane, aplikacje, technologie i architektura oprogramowania.",
+      "08:22 - [AI i brakujący kontekst] Dlaczego projekt systemu powinien odzwierciedlać działanie firmy.",
+      "12:53 - [Produkt kontra konsulting] Utrzymanie przez lata a dostarczenie nowego rozwiązania.",
+      "14:45 - [Budowa platformy] Kiedy przydaje się specjalista i skąd spór o Kubernetes.",
+      "18:11 - [Granice zaufania] Kto powinien mieć dostęp do produkcji i na jakich zasadach?",
+      "19:19 - [Specjalista czy generalista?] Co się dzieje, gdy role dewelopera i architekta zaczynają się zbliżać.",
+      "21:29 - [Sieć, baza i koszty chmury] Deweloper wychodzi poza kod, a architekt do niego wraca.",
+      "26:18 - [Droga do architektury] Nie każdy architekt zaczynał od programowania.",
+      "28:56 - [Detale implementacji] Od nazwy zmiennej po decyzje, które wpływają na utrzymanie systemu.",
+      "30:08 - [Jedna platforma dla wielu produktów] Standaryzacja w zamian za mniej swobody w doborze technologii.",
+      "33:17 - [AGENTS.md i CLAUDE.md] Jak zapisać reguły projektu dla agentów i sprawdzać ich przestrzeganie.",
+      "35:06 - [Od Adobe Forms do e-Deklaracji] Anegdota o pierwszych latach pracy Piotrka.",
+      "38:12 - [Architekt, który tylko wytyka błędy] Kajetan o tym, czego zespół potrzebuje od tej roli.",
+      "40:39 - [Foldery czy osobne projekty?] Czy AI pomoże odpuścić spory o detale, nie tracąc kontroli nad zależnościami?",
+      "42:26 - [Nowy start dla IT] Jakie praktyki dopiero się kształtują i kto je zdefiniuje?"
+    ],
+    "tags": ["betterdevclub", "ai", "architektura-oprogramowania", "TOGAF", "Kubernetes", "platform-engineering", "AGENTS.md", "Claude Code", "context-engineering", "koszty-chmury", "kariera-it"],
+    "platforms": {
+      "youtube": "https://www.youtube.com/@BetterDevClub",
+      "spotify": "https://open.spotify.com/show/2vFp58L1h9l5jP6bZ5mH3j",
+      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club/id1848840540"
+    },
+    "resources": [
+      {"type": "link", "url": "https://betterdevclub.pl/episodes/episode-47", "label": "Better Dev Club #47", "description": "Poprzedni odcinek o tym, czego się uczyć, gdy AI pisze kod."},
+      {"type": "link", "url": "https://www.opengroup.org/togaf", "label": "TOGAF", "description": "Standard architektury korporacyjnej rozwijany przez The Open Group."},
+      {"type": "link", "url": "https://agents.md/", "label": "AGENTS.md", "description": "Format instrukcji dla agentów pracujących z kodem w repozytorium."},
+      {"type": "link", "url": "https://code.claude.com/docs/en/memory", "label": "CLAUDE.md", "description": "Dokumentacja instrukcji projektowych w Claude Code."}
+    ],
+    "youtubeId": ""
+  },
+  {
     "id": 47,
     "num": "47",
     "title": "Czego się uczyć, gdy AI pisze kod? | Better Dev Club #47",
