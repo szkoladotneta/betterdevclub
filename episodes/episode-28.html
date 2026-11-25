@@ -986,7 +986,7 @@ Poruszamy również temat bezpieczeństwa IT: jak modele LLM pomagają w cyberne
             const [loading, setLoading] = useState(true);
 
             useEffect(() => {
-                const version = "9f39e47ba8";
+                const version = "f14efce9dc";
                 Promise.all([
                     fetch(`/episodes.json?v=${version}`).then(res => res.json()),
                     fetch(`/speakers.json?v=${version}`).then(res => res.json())
