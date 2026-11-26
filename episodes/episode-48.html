@@ -15,7 +15,7 @@ Rozmawiają też o tym, czego deweloperzy mogą się nauczyć od architektów i 
     <meta property="og:description" content="Skoro AI pisze coraz więcej kodu, po co nam architekt? Piotrek Stapp i Kajetan Duszyński wracają do sporu z poprzedniego odcinka. Oddzielają architekturę kodu od decyzji o danych, platformie i bezpieczeństwie. Sprawdzają na konkretnych przykładach, czego model nie wyczyta z repozytorium: kto może wejść na produkcję, ile kosztuje źle zaprojektowana baza i kiedy Kubernetes to więcej, niż potrzebuje zespół.
 
 Rozmawiają też o tym, czego deweloperzy mogą się nauczyć od architektów i dlaczego architekci wracają do kodu. Gdzie kończy się detal implementacyjny, a zaczyna decyzja, którą zespół będzie utrzymywał latami? Jest spór o wspólną platformę, przykład pierwszych e-Deklaracji i pomysł na nową pracę architekta: zapisać zasady w AGENTS.md i sprawdzać, czy kod generowany przez AI faktycznie ich przestrzega.">
-    
+    <meta property="og:image" content="https://i.ytimg.com/vi/W6j8-zFt1C0/maxresdefault.jpg">
     <link rel="shortcut icon" href="../img/favicon-32x32.png" type="image/png">
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Noto+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
@@ -986,7 +986,7 @@ Rozmawiają też o tym, czego deweloperzy mogą się nauczyć od architektów i 
             const [loading, setLoading] = useState(true);
 
             useEffect(() => {
-                const version = "f14efce9dc";
+                const version = "fc65124ed1";
                 Promise.all([
                     fetch(`/episodes.json?v=${version}`).then(res => res.json()),
                     fetch(`/speakers.json?v=${version}`).then(res => res.json())
