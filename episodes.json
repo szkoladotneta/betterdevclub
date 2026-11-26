@@ -5,7 +5,6 @@
     "title": "Better Dev Club #48 - Czy AI zastąpi architekta? Od Kubernetesa po AGENTS.md",
     "date": "2026-11-26",
     "duration": "44:09",
-    "notPublished": true,
     "desc": "Skoro AI pisze coraz więcej kodu, po co nam architekt? Piotrek Stapp i Kajetan Duszyński wracają do sporu z poprzedniego odcinka. Oddzielają architekturę kodu od decyzji o danych, platformie i bezpieczeństwie. Sprawdzają na konkretnych przykładach, czego model nie wyczyta z repozytorium: kto może wejść na produkcję, ile kosztuje źle zaprojektowana baza i kiedy Kubernetes to więcej, niż potrzebuje zespół.\n\nRozmawiają też o tym, czego deweloperzy mogą się nauczyć od architektów i dlaczego architekci wracają do kodu. Gdzie kończy się detal implementacyjny, a zaczyna decyzja, którą zespół będzie utrzymywał latami? Jest spór o wspólną platformę, przykład pierwszych e-Deklaracji i pomysł na nową pracę architekta: zapisać zasady w AGENTS.md i sprawdzać, czy kod generowany przez AI faktycznie ich przestrzega.",
     "agenda": [
       "00:00 - [Po co nam architekt?] Wracamy do sporu z poprzedniego odcinka.",
@@ -28,9 +27,9 @@
     ],
     "tags": ["betterdevclub", "ai", "architektura-oprogramowania", "TOGAF", "Kubernetes", "platform-engineering", "AGENTS.md", "Claude Code", "context-engineering", "koszty-chmury", "kariera-it"],
     "platforms": {
-      "youtube": "https://www.youtube.com/@BetterDevClub",
-      "spotify": "https://open.spotify.com/show/2vFp58L1h9l5jP6bZ5mH3j",
-      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club/id1848840540"
+      "youtube": "https://youtu.be/W6j8-zFt1C0",
+      "spotify": "https://open.spotify.com/episode/3chyZ3fSLfoYaaGThmhQuL",
+      "apple": "https://podcasts.apple.com/us/podcast/better-dev-club-48-czy-ai-zast%C4%85pi-architekta-od-kubernetesa/id1848840540?i=1000804140549"
     },
     "resources": [
       {"type": "link", "url": "https://betterdevclub.pl/episodes/episode-47", "label": "Better Dev Club #47", "description": "Poprzedni odcinek o tym, czego się uczyć, gdy AI pisze kod."},
@@ -38,7 +37,7 @@
       {"type": "link", "url": "https://agents.md/", "label": "AGENTS.md", "description": "Format instrukcji dla agentów pracujących z kodem w repozytorium."},
       {"type": "link", "url": "https://code.claude.com/docs/en/memory", "label": "CLAUDE.md", "description": "Dokumentacja instrukcji projektowych w Claude Code."}
     ],
-    "youtubeId": ""
+    "youtubeId": "W6j8-zFt1C0"
   },
   {
     "id": 47,
